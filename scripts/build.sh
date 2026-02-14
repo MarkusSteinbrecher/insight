@@ -7,10 +7,11 @@ PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 cd "$PROJECT_DIR"
 
 if [ "${1:-}" = "serve" ]; then
-  echo "Starting Hugo development server..."
-  hugo server --source site/ --buildDrafts --navigateToChanged
+  echo "Starting local development server on http://localhost:8000..."
+  cd docs && python3 -m http.server 8000
 else
-  echo "Building Hugo site..."
-  hugo --source site/ --gc --minify
-  echo "Build complete. Output in site/public/"
+  echo "Building site data..."
+  python3 scripts/build-insights-data.py
+  python3 scripts/build-sources-data.py
+  echo "Build complete. Site is in docs/"
 fi

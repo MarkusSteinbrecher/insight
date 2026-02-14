@@ -5,7 +5,7 @@ Reads all knowledge-base/topics/*/raw/source-*-raw.yaml files plus
 the claim-alignment.yaml and produces a unified JSON structure for the
 research dashboard visualization.
 
-Output: site/static/data/dashboard.json
+Output: docs/data/dashboard.json
 """
 
 import glob
@@ -20,7 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_GLOB = os.path.join(
     ROOT, "knowledge-base", "topics", "*", "raw", "source-*-raw.yaml"
 )
-OUTPUT_DIR = os.path.join(ROOT, "site", "static", "data")
+OUTPUT_DIR = os.path.join(ROOT, "docs", "data")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "dashboard.json")
 
 # Segment types we care about (skip noise, context, attribution, methodology)

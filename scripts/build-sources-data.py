@@ -4,7 +4,7 @@
 Reads all knowledge-base/topics/*/sources/source-*.md files and produces
 a unified JSON structure for the sources page.
 
-Output: site/static/data/sources.json
+Output: docs/data/sources.json
 """
 
 import glob
@@ -18,7 +18,7 @@ SOURCES_GLOB = os.path.join(
     ROOT, "knowledge-base", "topics", "*", "sources", "source-*.md"
 )
 INDEX_GLOB = os.path.join(ROOT, "knowledge-base", "topics", "*", "_index.md")
-OUTPUT_DIR = os.path.join(ROOT, "site", "static", "data")
+OUTPUT_DIR = os.path.join(ROOT, "docs", "data")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "sources.json")
 
 

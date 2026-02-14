@@ -4,7 +4,7 @@
 Reads all knowledge-base/topics/*/extractions/critical-analysis-part*.yaml files
 and produces a unified JSON structure for the insights page.
 
-Output: site/static/data/insights.json
+Output: docs/data/insights.json
 """
 
 import glob
@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ANALYSIS_GLOB = os.path.join(
     ROOT, "knowledge-base", "topics", "*", "extractions", "critical-analysis-part*.yaml"
 )
-OUTPUT_DIR = os.path.join(ROOT, "site", "static", "data")
+OUTPUT_DIR = os.path.join(ROOT, "docs", "data")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "insights.json")
 
 
