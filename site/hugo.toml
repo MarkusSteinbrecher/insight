@@ -7,7 +7,6 @@ theme = "paper"
   # Paper theme parameters
   subtitle = "Technology & AI Thought Leadership"
   avatar = ""
-  twitter = ""
 
 [taxonomies]
   tag = "tags"
@@ -25,17 +24,32 @@ theme = "paper"
 
 [menu]
   [[menu.main]]
+    identifier = "dashboard"
+    name = "Dashboard"
+    url = "/dashboard/"
+    weight = 0
+  [[menu.main]]
+    identifier = "insights"
+    name = "Insights"
+    url = "/insights/"
+    weight = 1
+  [[menu.main]]
+    identifier = "sources"
+    name = "Sources"
+    url = "/sources/"
+    weight = 2
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/blog/"
-    weight = 1
+    weight = 3
   [[menu.main]]
     identifier = "pov"
     name = "POV"
     url = "/pov/"
-    weight = 2
+    weight = 4
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 5

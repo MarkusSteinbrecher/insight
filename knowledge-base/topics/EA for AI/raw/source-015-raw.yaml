@@ -1,0 +1,851 @@
+source_id: source-015
+title: "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI"
+url: "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/"
+author: "Charles Betz and Stephane Vanrechem"
+date: 2025-04-02
+type: article
+total_segments: 112
+
+composition:
+  claim: { count: 63, pct: 56.2 }
+  noise: { count: 17, pct: 15.2 }
+  definition: { count: 10, pct: 8.9 }
+  context: { count: 9, pct: 8.0 }
+  example: { count: 6, pct: 5.4 }
+  attribution: { count: 4, pct: 3.6 }
+  recommendation: { count: 2, pct: 1.8 }
+  evidence: { count: 1, pct: 0.9 }
+  statistic: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+
+signal_ratio: 84.8
+
+segments:
+
+  # ============================================================
+  # INTRODUCTION (untitled opening)
+  # ============================================================
+
+  - id: seg-001
+    text: "Enterprise architecture (EA) has always aimed for clarity, control, and coherence."
+    type: context
+    section: "Introduction"
+    position: 1
+    source_format: prose
+
+  - id: seg-002
+    text: "Yet its practitioners are often thwarted by an overwhelming paradox: They must guide the evolution of vast, dynamic enterprises using tools and processes that are static, fragmented, and slow."
+    type: claim
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The EA repository, intended as the source of truth, devolves into a dusty attic of outdated diagrams and deliverables."
+    type: claim
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Architects are stretched thin, trying to make sense of sprawling portfolios with limited visibility and time."
+    type: claim
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "\"Data calls\" are a weekly chore for both architects and stakeholders."
+    type: claim
+    section: "Introduction"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "Architecture review boards — meant to ensure alignment — are seen as bureaucratic bottlenecks."
+    type: claim
+    section: "Introduction"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "But what if the EA function was no longer confined to episodic review and disconnected models?"
+    type: claim
+    section: "Introduction"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "What if it operated in real time, continuously enriched by machine-readable data and supported by intelligent agents that advise, validate, and even act?"
+    type: claim
+    section: "Introduction"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "This is not speculative fiction."
+    type: claim
+    section: "Introduction"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "It is the emerging reality — a direct consequence of what we have called the sleeping giant waking up: the operationalization of architecture via closed feedback loops, AI agents, large language models (LLMs), retrieval-augmented generation, vector databases, and dynamic graph-based systems."
+    type: claim
+    section: "Introduction"
+    position: 10
+    source_format: prose
+
+  # ============================================================
+  # The Feedback Loop Strikes Back
+  # ============================================================
+
+  - id: seg-011
+    text: "The Feedback Loop Strikes Back"
+    type: noise
+    section: "The Feedback Loop Strikes Back"
+    position: 11
+    source_format: heading
+
+  - id: seg-012
+    text: "Traditional EA processes are largely open-loop."
+    type: claim
+    section: "The Feedback Loop Strikes Back"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "A proposal is submitted, reviewed days or weeks later, deliberated in committee, and eventually approved — often based on stale information."
+    type: claim
+    section: "The Feedback Loop Strikes Back"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "By then, the initiative may have pivoted or the environment may have changed."
+    type: claim
+    section: "The Feedback Loop Strikes Back"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "Now imagine a closed-loop learning architecture system: Every update from a continuous integration/continuous delivery pipeline, every change in a cloud API, every deviation from policy becomes a signal."
+    type: claim
+    section: "The Feedback Loop Strikes Back"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "These signals are fed into a living architecture graph that reflects the true current state of the enterprise."
+    type: claim
+    section: "The Feedback Loop Strikes Back"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "Agents ingest these signals and perform continuous analysis:"
+    type: context
+    section: "The Feedback Loop Strikes Back"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "Harvesting agents monitor the digital signals of the enterprise, extracting knowledge into the information stores."
+    type: definition
+    section: "The Feedback Loop Strikes Back"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Dependency agents are a specialization of those, mapping the digital estate's interconnections and analyzing both automated data such as traces as well as architectural and unstructured information that may provide essential insights into higher-order, logical dependencies that are very real yet are not readily discoverable at a technical level."
+    type: definition
+    section: "The Feedback Loop Strikes Back"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "Lifecycle-aware agents flag aging technologies, enabling technical debt diagnosis."
+    type: definition
+    section: "The Feedback Loop Strikes Back"
+    position: 20
+    source_format: bullet
+
+  - id: seg-021
+    text: "Conformance agents validate proposals against approved tech stacks, standards, and design patterns."
+    type: definition
+    section: "The Feedback Loop Strikes Back"
+    position: 21
+    source_format: bullet
+
+  - id: seg-022
+    text: "Security and cost agents trace implications across risk, compliance, and spend."
+    type: definition
+    section: "The Feedback Loop Strikes Back"
+    position: 22
+    source_format: bullet
+
+  - id: seg-023
+    text: "Architects are notified — not weeks after the fact but during or even before decision points."
+    type: claim
+    section: "The Feedback Loop Strikes Back"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The result is a form of continuous architecture governance — high-velocity, high-confidence, and fully traceable, supporting outcome-driven and valuable EA as never before."
+    type: claim
+    section: "The Feedback Loop Strikes Back"
+    position: 24
+    source_format: prose
+
+  # ============================================================
+  # AI As Architecture Sidekick
+  # ============================================================
+
+  - id: seg-025
+    text: "AI As Architecture Sidekick"
+    type: noise
+    section: "AI As Architecture Sidekick"
+    position: 25
+    source_format: heading
+
+  - id: seg-026
+    text: "AI augments the architect by continuously updating the repository to expose only fresh data."
+    type: claim
+    section: "AI As Architecture Sidekick"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "That means no more digging through stale wikis or emailing 10 teams for basic system lifecycle info."
+    type: claim
+    section: "AI As Architecture Sidekick"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Instead:"
+    type: noise
+    section: "AI As Architecture Sidekick"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Intelligent recommenders augment architecture artifacts with context, rationale, and even business continuity considerations."
+    type: definition
+    section: "AI As Architecture Sidekick"
+    position: 29
+    source_format: bullet
+
+  - id: seg-030
+    text: "Diagram recognition agents convert scanned or even hand-drawn schematics into structured model elements."
+    type: definition
+    section: "AI As Architecture Sidekick"
+    position: 30
+    source_format: bullet
+
+  - id: seg-031
+    text: "Pattern recognition agents detect anti-patterns and optimization opportunities."
+    type: definition
+    section: "AI As Architecture Sidekick"
+    position: 31
+    source_format: bullet
+
+  - id: seg-032
+    text: "Chatbots enable non-architects to interact with the repository, democratizing architecture insight."
+    type: definition
+    section: "AI As Architecture Sidekick"
+    position: 32
+    source_format: bullet
+
+  - id: seg-033
+    text: "Generative agents propose transition roadmaps between current and target states based on actual feasibility, not just aspirational models."
+    type: definition
+    section: "AI As Architecture Sidekick"
+    position: 33
+    source_format: bullet
+
+  - id: seg-034
+    text: "This is not just automation — it's augmentation."
+    type: claim
+    section: "AI As Architecture Sidekick"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Architects remain in the loop, but the loop is smaller, faster, and smarter."
+    type: claim
+    section: "AI As Architecture Sidekick"
+    position: 35
+    source_format: prose
+
+  # ============================================================
+  # Solving The Classics — Finally
+  # ============================================================
+
+  - id: seg-036
+    text: "Solving The Classics — Finally"
+    type: noise
+    section: "Solving The Classics — Finally"
+    position: 36
+    source_format: heading
+
+  - id: seg-037
+    text: "Let's revisit the perennial problems of enterprise architecture — and how real-time AI-augmented EA addresses them:"
+    type: context
+    section: "Solving The Classics — Finally"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Insufficient knowledge"
+    type: noise
+    section: "Solving The Classics — Finally"
+    position: 38
+    source_format: bullet
+
+  - id: seg-039
+    text: "No human can know everything about a modern digital enterprise."
+    type: context
+    section: "Solving The Classics — Finally"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "AI doesn't pretend to either — but it remembers everything and brings the right detail to the fore at the right time."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "Think of it as a cognitive prosthetic for the architect: surfacing precedents, warnings, and rationale at the point of decision."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "Insufficient visibility"
+    type: noise
+    section: "Solving The Classics — Finally"
+    position: 42
+    source_format: bullet
+
+  - id: seg-043
+    text: "Visibility isn't just about having access to data — it's about trust in its freshness."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "Real-time integration with operational sources (observability platforms, configuration systems, source control, deployment records) ensures that the architecture graph is never out of date."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "The haystack becomes a needle-sorter."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "Fragmented deliverables"
+    type: noise
+    section: "Solving The Classics — Finally"
+    position: 46
+    source_format: bullet
+
+  - id: seg-047
+    text: "Architecture artifacts multiply: PowerPoints, spreadsheets, PDFs, whiteboards."
+    type: context
+    section: "Solving The Classics — Finally"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "But in an agentic system, everything is rendered on demand from the same graph (and its associated unstructured content, linked via vector embeddings)."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "Want a heatmap of system risks? A regulatory trace? A roadmap to sunset legacy? One prompt, one view — consistent, explainable, and composable."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "And those unstructured artifacts? An agent is happy to harvest new insights from them back into the knowledge store."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 50
+    source_format: prose
+
+  - id: seg-051
+    text: "Slow review cycles"
+    type: noise
+    section: "Solving The Classics — Finally"
+    position: 51
+    source_format: bullet
+
+  - id: seg-052
+    text: "Review boards become decision accelerators instead of speed bumps."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 52
+    source_format: prose
+
+  - id: seg-053
+    text: "Agents pre-check submissions."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 53
+    source_format: prose
+
+  - id: seg-054
+    text: "Exceptions, not compliance, become the focus."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "Draft decisions are generated and validated before the meeting even starts."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 55
+    source_format: prose
+
+  - id: seg-056
+    text: "Architecture decision records are automatically created and updated, then immediately operationalized in the agentic memories."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "Ivory tower perception"
+    type: noise
+    section: "Solving The Classics — Finally"
+    position: 57
+    source_format: bullet
+
+  - id: seg-058
+    text: "Abstractions are replaced with outcomes."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "Architects can show how a proposed change impacts a real customer journey, service-level agreement, or unit cost."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "The role regains relevance — no longer distant but embedded and explanatory."
+    type: claim
+    section: "Solving The Classics — Finally"
+    position: 60
+    source_format: prose
+
+  # ============================================================
+  # Architect As Prompt Engineer
+  # ============================================================
+
+  - id: seg-061
+    text: "Architect As Prompt Engineer"
+    type: noise
+    section: "Architect As Prompt Engineer"
+    position: 61
+    source_format: heading
+
+  - id: seg-062
+    text: "Much like GitHub Copilot transformed software engineering — improving productivity and satisfaction even in large-scale settings such as ANZ Bank — architects will increasingly work alongside copilots of their own."
+    type: claim
+    section: "Architect As Prompt Engineer"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "They will define acceptable patterns and reference architectures as they have always done but with the support of LLMs to provide comprehensive, grounded feedback."
+    type: claim
+    section: "Architect As Prompt Engineer"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "They will curate the architecture graph, tasking agents with updates and corrections, even large-scale schema refactorings and migrations."
+    type: claim
+    section: "Architect As Prompt Engineer"
+    position: 64
+    source_format: prose
+
+  - id: seg-065
+    text: "(This is not mere speculation. Charlie has had Claude perform complex and error-prone refactorings on his personal graph that would have taken a skilled database administrator hours)."
+    type: evidence
+    section: "Architect As Prompt Engineer"
+    position: 65
+    source_format: prose
+
+  - id: seg-066
+    text: "They will design guardrails and feedback loops."
+    type: claim
+    section: "Architect As Prompt Engineer"
+    position: 66
+    source_format: prose
+
+  - id: seg-067
+    text: "They ask \"What are the safe ways to evolve this system?\" and let the agent generate alternatives within constraints."
+    type: example
+    section: "Architect As Prompt Engineer"
+    position: 67
+    source_format: prose
+
+  - id: seg-068
+    text: "The architect becomes a curator, facilitator, and, most importantly, a critical thinker in a system where AI can propose but should not dictate."
+    type: claim
+    section: "Architect As Prompt Engineer"
+    position: 68
+    source_format: prose
+
+  - id: seg-069
+    text: "As Stephane notes, \"Every architect exposed to AI must be trained in critical thinking. There are no more Leonardos — but there is now AI.\""
+    type: attribution
+    section: "Architect As Prompt Engineer"
+    position: 69
+    source_format: prose
+
+  # ============================================================
+  # The Architecture Operating System
+  # ============================================================
+
+  - id: seg-070
+    text: "The Architecture Operating System"
+    type: noise
+    section: "The Architecture Operating System"
+    position: 70
+    source_format: heading
+
+  - id: seg-071
+    text: "This isn't just about better tooling."
+    type: claim
+    section: "The Architecture Operating System"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "It's a new mental model: the EA repository as an operating system for change, not just a documentation graveyard."
+    type: claim
+    section: "The Architecture Operating System"
+    position: 72
+    source_format: prose
+
+  - id: seg-073
+    text: "Agents don't just read from it — they act on it."
+    type: claim
+    section: "The Architecture Operating System"
+    position: 73
+    source_format: prose
+
+  - id: seg-074
+    text: "This system allows:"
+    type: noise
+    section: "The Architecture Operating System"
+    position: 74
+    source_format: prose
+
+  - id: seg-075
+    text: "Real-time detection of drift from standards."
+    type: claim
+    section: "The Architecture Operating System"
+    position: 75
+    source_format: bullet
+
+  - id: seg-076
+    text: "Integrated development environment-based design-time validation."
+    type: claim
+    section: "The Architecture Operating System"
+    position: 76
+    source_format: bullet
+
+  - id: seg-077
+    text: "Scenario modeling for investment planning."
+    type: claim
+    section: "The Architecture Operating System"
+    position: 77
+    source_format: bullet
+
+  - id: seg-078
+    text: "The net result is architectural agility — not at the expense of control but because of it."
+    type: claim
+    section: "The Architecture Operating System"
+    position: 78
+    source_format: prose
+
+  # ============================================================
+  # Feedback Governance: A New Imperative
+  # ============================================================
+
+  - id: seg-079
+    text: "Feedback Governance: A New Imperative"
+    type: noise
+    section: "Feedback Governance: A New Imperative"
+    position: 79
+    source_format: heading
+
+  - id: seg-080
+    text: "There's much more to be said about how EA must govern AI itself (agentic decision rights, anyone?)."
+    type: context
+    section: "Feedback Governance: A New Imperative"
+    position: 80
+    source_format: prose
+
+  - id: seg-081
+    text: "See especially Interoperability Is Key To Unlocking Agentic AI's Future by Leslie Joseph and Rowan Curran."
+    type: attribution
+    section: "Feedback Governance: A New Imperative"
+    position: 81
+    source_format: prose
+
+  - id: seg-082
+    text: "But one principle stands out: Treat feedback loops as first-class architecture."
+    type: recommendation
+    section: "Feedback Governance: A New Imperative"
+    position: 82
+    source_format: prose
+
+  - id: seg-083
+    text: "Establish feedback system maps, metrics for loop health (performance, quality), and tooling to surface unintended consequences in AI-driven decisions."
+    type: recommendation
+    section: "Feedback Governance: A New Imperative"
+    position: 83
+    source_format: prose
+
+  - id: seg-084
+    text: "This shift turns EA from a designer of structures to a steward of behavioral systems — where loops, not just stacks, matter most."
+    type: claim
+    section: "Feedback Governance: A New Imperative"
+    position: 84
+    source_format: prose
+
+  # ============================================================
+  # Toward Democratization And Literacy
+  # ============================================================
+
+  - id: seg-085
+    text: "Toward Democratization And Literacy"
+    type: noise
+    section: "Toward Democratization And Literacy"
+    position: 85
+    source_format: heading
+
+  - id: seg-086
+    text: "Perhaps the most profound impact of this new model is how it democratizes architecture."
+    type: claim
+    section: "Toward Democratization And Literacy"
+    position: 86
+    source_format: prose
+
+  - id: seg-087
+    text: "With chat interfaces, visualization tools, and explainable AI, stakeholders far beyond the EA team can engage:"
+    type: claim
+    section: "Toward Democratization And Literacy"
+    position: 87
+    source_format: prose
+
+  - id: seg-088
+    text: "Product owners query impacts of new features."
+    type: example
+    section: "Toward Democratization And Literacy"
+    position: 88
+    source_format: bullet
+
+  - id: seg-089
+    text: "Risk managers explore security posture in seconds."
+    type: example
+    section: "Toward Democratization And Literacy"
+    position: 89
+    source_format: bullet
+
+  - id: seg-090
+    text: "Executives simulate platform shifts on cost and performance."
+    type: example
+    section: "Toward Democratization And Literacy"
+    position: 90
+    source_format: bullet
+
+  - id: seg-091
+    text: "Architecture becomes a shared language of the enterprise — not a priesthood."
+    type: claim
+    section: "Toward Democratization And Literacy"
+    position: 91
+    source_format: prose
+
+  # ============================================================
+  # Final Word: A Living, Learning Function
+  # ============================================================
+
+  - id: seg-092
+    text: "Final Word: A Living, Learning Function"
+    type: noise
+    section: "Final Word: A Living, Learning Function"
+    position: 92
+    source_format: heading
+
+  - id: seg-093
+    text: "The irony is rich: Architecture, once thought too rigid to keep up with digital change, may now lead it."
+    type: claim
+    section: "Final Word: A Living, Learning Function"
+    position: 93
+    source_format: prose
+
+  - id: seg-094
+    text: "We are witnessing the rebirth of EA as a living, learning function — a system of intelligence powered by feedback loops, driven by data, and guided by augmented human judgment."
+    type: claim
+    section: "Final Word: A Living, Learning Function"
+    position: 94
+    source_format: prose
+
+  - id: seg-095
+    text: "In that future, architects don't merely draw the map."
+    type: claim
+    section: "Final Word: A Living, Learning Function"
+    position: 95
+    source_format: prose
+
+  - id: seg-096
+    text: "They design the compass, program the guide, and ensure that the journey stays on course — even as the terrain shifts beneath them."
+    type: claim
+    section: "Final Word: A Living, Learning Function"
+    position: 96
+    source_format: prose
+
+  - id: seg-097
+    text: "The sleeping giant is not only awake."
+    type: claim
+    section: "Final Word: A Living, Learning Function"
+    position: 97
+    source_format: prose
+
+  - id: seg-098
+    text: "It's thinking, collaborating, and architecting in real time."
+    type: claim
+    section: "Final Word: A Living, Learning Function"
+    position: 98
+    source_format: prose
+
+  # ============================================================
+  # PS — Personal Note
+  # ============================================================
+
+  - id: seg-099
+    text: "PS — Finally, as a personal note, I (Charlie) want to encourage architects who — like me — might have been hands-off for a while."
+    type: context
+    section: "Personal Note"
+    position: 99
+    source_format: prose
+
+  - id: seg-100
+    text: "If you've had technical chops at any point in your career, generative AI's acceleration is a revelation."
+    type: claim
+    section: "Personal Note"
+    position: 100
+    source_format: prose
+
+  - id: seg-101
+    text: "As an architect I often got pulled into proofs of concept."
+    type: context
+    section: "Personal Note"
+    position: 101
+    source_format: prose
+
+  - id: seg-102
+    text: "It was always the same headache — getting things wired correctly and initially stood up was a slog."
+    type: context
+    section: "Personal Note"
+    position: 102
+    source_format: prose
+
+  - id: seg-103
+    text: "This week, I wanted to wire up Claude to Model Context Protocol, and there were issues in the configuration."
+    type: example
+    section: "Personal Note"
+    position: 103
+    source_format: prose
+
+  - id: seg-104
+    text: "I uploaded a couple of files, it fixed the path and environment variable issues (the usual headaches), and boom, I had Claude talking to Neo4j — the kind of technical progress that was easy to waste a day on, not so long ago."
+    type: example
+    section: "Personal Note"
+    position: 104
+    source_format: prose
+
+  - id: seg-105
+    text: "Stuff just works."
+    type: claim
+    section: "Personal Note"
+    position: 105
+    source_format: prose
+
+  - id: seg-106
+    text: "You cut to the chase and start working with whatever new thing you're curious about, and once you've got the environment configured, you're off to the races with the LLM building reasonable POC code (at least) via prompts."
+    type: claim
+    section: "Personal Note"
+    position: 106
+    source_format: prose
+
+  - id: seg-107
+    text: "The net-net is: There's really no excuse for an architect not being hands-on anymore."
+    type: claim
+    section: "Personal Note"
+    position: 107
+    source_format: prose
+
+  - id: seg-108
+    text: "Of course, \"hands on\" is starting to mean something very, very different...."
+    type: claim
+    section: "Personal Note"
+    position: 108
+    source_format: prose
+
+  # ============================================================
+  # Related Links / Footer
+  # ============================================================
+
+  - id: seg-109
+    text: "See the following related blogs:"
+    type: noise
+    section: "Related Links"
+    position: 109
+    source_format: prose
+
+  - id: seg-110
+    text: "AI Wakes The Sleeping Giant: Continuous Improvement Will Finally Fulfill Its Promise"
+    type: attribution
+    section: "Related Links"
+    position: 110
+    source_format: prose
+
+  - id: seg-111
+    text: "The Graphic Future Of IT Management"
+    type: attribution
+    section: "Related Links"
+    position: 111
+    source_format: prose
+
+  - id: seg-112
+    text: "And don't forget that the global 2025 EA Awards are open for submission!"
+    type: noise
+    section: "Related Links"
+    position: 112
+    source_format: prose

@@ -1,0 +1,387 @@
+source_id: source-025
+title: "The Open Group AI Initiatives and Enterprise Architecture Practitioners Conference 2026"
+url: "https://www.opengroup.org/architecture-form/ai-initiatives"
+author: "The Open Group"
+date: 2026-02-10
+type: article
+total_segments: 45
+note: "Primary page content supplemented with details from Eagle AI Assistant product pages, TOGAF page, and London 2026 conference page (JS-rendered, limited direct extraction). Source note provided additional context."
+
+composition:
+  claim: { count: 23, pct: 51.1 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 5, pct: 11.1 }
+  definition: { count: 4, pct: 8.9 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 9, pct: 20.0 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 4, pct: 8.9 }
+
+signal_ratio: 0.91
+
+segments:
+
+  # ============================================================
+  # PAGE HEADING
+  # ============================================================
+
+  - id: seg-001
+    text: "The Open Group AI Initiatives"
+    type: noise
+    section: "Heading"
+    position: 1
+    source_format: heading
+
+  # ============================================================
+  # INTRODUCTORY PARAGRAPH (AI initiatives overview)
+  # ============================================================
+
+  - id: seg-002
+    text: "The Open Group, the vendor-neutral organization that has been at the forefront of open technology standards for 30 years, has begun the process of developing open standards for AI professional practice."
+    type: context
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "Its AI initiatives have been already backed by prominent organizations, and The Open Group is looking for more organizations to get involved as AI continues to shape the future of enterprise technology."
+    type: claim
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The emergence of a new generation of AI technologies has stimulated intense activity, from R&D-led businesses investing significant time and capital in training ever more powerful foundation models, to technology vendors experimenting with the innovative implementation of AI in end-user applications."
+    type: context
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "This increased activity is putting pressure on legislators, regulators, and industry bodies to establish guardrails around safe, effective, and sustainable usage of AI."
+    type: claim
+    section: "Introduction"
+    position: 5
+    source_format: prose
+
+  # ============================================================
+  # SECOND PARAGRAPH (TOGAF and Open Group credentials)
+  # ============================================================
+
+  - id: seg-006
+    text: "As the premier Enterprise Architecture (EA) standards organization, The Open Group developed the TOGAF Standard, that is recognized as the world's leading EA methodology."
+    type: claim
+    section: "Credentials"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "It also has an unrivalled reputation for certification of people, processes, products, tools, and best practices, including its Open Professions Program -- an experience-based certification program covering professional practice for Enterprise Architects, Technical Specialist, Data Scientists, and Trusted Technology Providers."
+    type: context
+    section: "Credentials"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "Building on its expertise, reputation, and heritage, The Open Group intends to be a trusted facilitator for the future of professional practice standards in the context of AI-powered technologies."
+    type: claim
+    section: "Credentials"
+    position: 8
+    source_format: prose
+
+  # ============================================================
+  # THIRD PARAGRAPH (leveraging existing practices)
+  # ============================================================
+
+  - id: seg-009
+    text: "The Open Group is leveraging existing professional practices for those architecting and training AI models, and working alongside practitioners, partners, and supporters who are willing to commit to the long-term challenge."
+    type: claim
+    section: "Approach"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "The aim of the initiative is to ensure unbiased, positive, and representative progress of both the needs and outcomes involved."
+    type: claim
+    section: "Approach"
+    position: 10
+    source_format: prose
+
+  # ============================================================
+  # PLATINUM MEMBERS (logos on page)
+  # ============================================================
+
+  - id: seg-011
+    text: "The Open Group Platinum Members backing AI initiatives include Aramco, Fujitsu, IBM, Intel, and Shell."
+    type: evidence
+    section: "Members"
+    position: 11
+    source_format: figure
+
+  # ============================================================
+  # EAGLE AI ASSISTANT (from product pages and source note)
+  # ============================================================
+
+  - id: seg-012
+    text: "EA Lab: The Eagle AI Assistant"
+    type: noise
+    section: "Eagle AI Assistant"
+    position: 12
+    source_format: heading
+
+  - id: seg-013
+    text: "Powered by advanced artificial intelligence, The Open Group Eagle AI Assistant delivers instant, authoritative guidance across The Open Group Standards, helping architects work faster, think deeper, and apply standards with confidence."
+    type: claim
+    section: "Eagle AI Assistant"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "The Open Group Eagle AI Assistant is a new AI tool that uses large language model technology combined with Open Group standards to provide real-time guidance aligned with those standards."
+    type: definition
+    section: "Eagle AI Assistant"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "The Eagle AI Assistant features citation tracking to ensure traceability to official sources."
+    type: claim
+    section: "Eagle AI Assistant"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "The Eagle AI Assistant provides multilingual support for global accessibility."
+    type: claim
+    section: "Eagle AI Assistant"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "The Eagle AI Assistant offers persona-based interactions tailored for different user roles, including enterprise architects, trainers, and organizational leaders."
+    type: claim
+    section: "Eagle AI Assistant"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "The Eagle AI Assistant represents The Open Group using AI to help practitioners apply architecture standards more effectively -- an instance of 'eating your own cooking.'"
+    type: claim
+    section: "Eagle AI Assistant"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "The Eagle AI Assistant was introduced as 'Project Eagle' and underwent interactive demonstration and testing phases with Architecture Forum members, including at the Amsterdam Summit 2025."
+    type: evidence
+    section: "Eagle AI Assistant"
+    position: 19
+    source_format: prose
+
+  # ============================================================
+  # LONDON 2026 CONFERENCE (from event page and source note)
+  # ============================================================
+
+  - id: seg-020
+    text: "Enterprise Architecture Practitioners Conference London - February 2026"
+    type: noise
+    section: "Conference"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "The February 2026 Enterprise Architecture Practitioners Conference in London featured dedicated workshops on 'AI in the Enterprise -- Making Autonomous Systems into Reliable Business Tools.'"
+    type: evidence
+    section: "Conference"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "The London event covered the TOGAF Standard, the Open Agile Architecture Standard (O-AA), the ArchiMate Standard, The Open Group Eagle AI Assistant, and the entire Architecture Portfolio."
+    type: context
+    section: "Conference"
+    position: 22
+    source_format: prose
+
+  # ============================================================
+  # TOGAF 10 AND SERIES GUIDES (from TOGAF page)
+  # ============================================================
+
+  - id: seg-023
+    text: "TOGAF Standard, 10th Edition"
+    type: noise
+    section: "TOGAF Evolution"
+    position: 23
+    source_format: heading
+
+  - id: seg-024
+    text: "The TOGAF Standard is a proven Enterprise Architecture methodology and framework used by the world's leading organizations to improve business efficiency."
+    type: claim
+    section: "TOGAF Evolution"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The TOGAF Standard is the most prominent and reliable Enterprise Architecture standard, ensuring consistent standards, methods, and communication among Enterprise Architecture professionals."
+    type: claim
+    section: "TOGAF Evolution"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The TOGAF Standard, 10th Edition makes adoption of best practices easier by showing where to find enduring and universal concepts, proven best practice, and new emerging ideas."
+    type: claim
+    section: "TOGAF Evolution"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The TOGAF Standard is used by small, medium, and large commercial businesses, as well as government departments, online information platforms, non-government public organizations, and defense agencies."
+    type: evidence
+    section: "TOGAF Evolution"
+    position: 27
+    source_format: bullet
+
+  - id: seg-028
+    text: "With greatly expanded guidance and how-to material, the TOGAF Standard 10th Edition enables organizations to operate in an efficient and effective way across a broad range of use-cases, including agile enterprises and Digital Transformation."
+    type: claim
+    section: "TOGAF Evolution"
+    position: 28
+    source_format: bullet
+
+  - id: seg-029
+    text: "The TOGAF Standard is designed for the dichotomy of common universal concepts and variable detailed configuration."
+    type: definition
+    section: "TOGAF Evolution"
+    position: 29
+    source_format: bullet
+
+  - id: seg-030
+    text: "The structure focuses on what most architects want -- more, better, and topical guidance on how to deliver the best Enterprise Architecture that supports their stakeholders and their organization."
+    type: claim
+    section: "TOGAF Evolution"
+    position: 30
+    source_format: bullet
+
+  - id: seg-031
+    text: "The TOGAF Standard is divided into the TOGAF Fundamental Content and the TOGAF Series Guides; the TOGAF Fundamental Content provides the core concepts and practices, and the TOGAF Series Guides advise on configuration of the Fundamental Content."
+    type: definition
+    section: "TOGAF Evolution"
+    position: 31
+    source_format: bullet
+
+  - id: seg-032
+    text: "TOGAF 10 is being extended through new Series Guides released annually, covering agility, digital strategy, business architecture, and cloud adoption."
+    type: evidence
+    section: "TOGAF Evolution"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "The core ADM framework has not yet been fundamentally restructured for AI-native organizations."
+    type: claim
+    section: "TOGAF Evolution"
+    position: 33
+    source_format: prose
+
+  # ============================================================
+  # ARCHIMATE AND OPEN AGILE ARCHITECTURE
+  # ============================================================
+
+  - id: seg-034
+    text: "The ArchiMate Specification defines an open and independent modeling language for Enterprise Architecture that is supported by different tool vendors and consulting firms."
+    type: definition
+    section: "Related Standards"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "The ArchiMate language enables Enterprise Architects to describe, analyze, and visualize the relationships among business domains in an unambiguous way."
+    type: claim
+    section: "Related Standards"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "The Open Group is developing the ArchiMate Specification and Open Agile Architecture Standard alongside AI-focused standards."
+    type: context
+    section: "Related Standards"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "The Open Agile Architecture Standard may prove more naturally aligned with AI's rapid iteration cycles than the traditional TOGAF ADM."
+    type: claim
+    section: "Related Standards"
+    position: 37
+    source_format: prose
+
+  # ============================================================
+  # CERTIFICATIONS AND PROFESSIONAL PRACTICE
+  # ============================================================
+
+  - id: seg-038
+    text: "The Open Group offers Open Agile Architecture Certification as part of its knowledge-based certification portfolio."
+    type: context
+    section: "Certifications"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "The TOGAF certification portfolio includes certifications and certification credentials built upon the TOGAF Standard, Version 9.2, and the TOGAF Standard, 10th Edition."
+    type: context
+    section: "Certifications"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "The certification portfolio includes a set of complementary learning paths centered around the TOGAF Standard and the TOGAF Library, ranging from short certification credentials (3 hours study or more) to multi-day certifications."
+    type: context
+    section: "Certifications"
+    position: 40
+    source_format: prose
+
+  # ============================================================
+  # UPCOMING EVENTS (from navigation/events section)
+  # ============================================================
+
+  - id: seg-041
+    text: "Upcoming Open Group events include the European Summit (April 27-30, 2026), a July 2026 event (July 27-29, 2026), and the U.S. Summit (October 26-29, 2026)."
+    type: context
+    section: "Events"
+    position: 41
+    source_format: prose
+
+  # ============================================================
+  # SYNTHESIS OBSERVATIONS (from source note analysis)
+  # ============================================================
+
+  - id: seg-042
+    text: "The Open Group is positioning itself as a 'trusted facilitator for the future of professional practice standards in the context of AI-powered technologies.'"
+    type: claim
+    section: "Analysis"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "The evolution of TOGAF 10 through Series Guides suggests an incremental adaptation approach rather than a radical framework redesign."
+    type: claim
+    section: "Analysis"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "The Open Group's incremental adaptation approach contrasts with the more aggressive adaptation strategies recommended by other sources in the EA for AI space."
+    type: claim
+    section: "Analysis"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "While The Open Group is developing AI-powered tools for architects and hosting workshops on AI in the enterprise, the fundamental TOGAF ADM has not yet been restructured for AI-native development."
+    type: claim
+    section: "Analysis"
+    position: 45
+    source_format: prose

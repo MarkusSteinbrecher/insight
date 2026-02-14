@@ -1,0 +1,871 @@
+source_id: source-010
+title: "TOGAF-based Enterprise Architecture Framework for Utilizing Artificial Intelligence"
+url: "https://ieeexplore.ieee.org/document/10285801/"
+author: "Leni Fitriani, Masayu Leylia Khodra, Kridanto Surendro"
+date: 2023-10-04
+type: paper
+total_segments: 101
+
+composition:
+  claim: { count: 49, pct: 48.5 }
+  noise: { count: 21, pct: 20.8 }
+  definition: { count: 10, pct: 9.9 }
+  recommendation: { count: 7, pct: 6.9 }
+  context: { count: 7, pct: 6.9 }
+  methodology: { count: 5, pct: 5.0 }
+  evidence: { count: 1, pct: 1.0 }
+  attribution: { count: 1, pct: 1.0 }
+  statistic: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+
+signal_ratio: 79.2
+
+segments:
+
+  # ============================================================
+  # HEADER / META
+  # ============================================================
+
+  - id: seg-001
+    text: "TOGAF-based Enterprise Architecture Framework for Utilizing Artificial Intelligence"
+    type: noise
+    section: "Header"
+    position: 1
+    source_format: heading
+    metadata: {}
+
+  - id: seg-002
+    text: "Leni Fitriani, Masayu Leylia Khodra, Kridanto Surendro"
+    type: noise
+    section: "Header"
+    position: 2
+    source_format: metadata
+    metadata: {}
+
+  - id: seg-003
+    text: "School of Electrical Engineering and Informatics, Institut Teknologi Bandung, Bandung, Indonesia"
+    type: noise
+    section: "Header"
+    position: 3
+    source_format: metadata
+    metadata: {}
+
+  - id: seg-004
+    text: "2023 International Conference on Computer, Control, Informatics and its Applications (IC3INA), 04-05 October 2023, pp. 90-95"
+    type: noise
+    section: "Header"
+    position: 4
+    source_format: metadata
+    metadata: {}
+
+  # ============================================================
+  # ABSTRACT
+  # ============================================================
+
+  - id: seg-005
+    text: "Abstract"
+    type: noise
+    section: "Abstract"
+    position: 5
+    source_format: heading
+    metadata: {}
+
+  - id: seg-006
+    text: "TOGAF has become fundamental guidance for integrated enterprise architecture development."
+    type: context
+    section: "Abstract"
+    position: 6
+    source_format: prose
+    metadata: {}
+
+  - id: seg-007
+    text: "Artificial intelligence increasingly supports organizational digital transformation."
+    type: context
+    section: "Abstract"
+    position: 7
+    source_format: prose
+    metadata: {}
+
+  - id: seg-008
+    text: "Integrating AI is critical for organizational competitiveness in the digital transformation era."
+    type: claim
+    section: "Abstract"
+    position: 8
+    source_format: prose
+    metadata: {}
+
+  - id: seg-009
+    text: "However, there are several challenges in implementing artificial intelligence in enterprise architecture."
+    type: claim
+    section: "Abstract"
+    position: 9
+    source_format: prose
+    metadata: {}
+
+  - id: seg-010
+    text: "Current research on AI in enterprise architecture addresses only one or two enterprise architecture domains."
+    type: claim
+    section: "Abstract"
+    position: 10
+    source_format: prose
+    metadata: {}
+
+  - id: seg-011
+    text: "This research contributes to designing a comprehensive enterprise architectural framework that utilizes artificial intelligence across all TOGAF domains."
+    type: claim
+    section: "Abstract"
+    position: 11
+    source_format: prose
+    metadata: {}
+
+  - id: seg-012
+    text: "The aim is to provide a guide that organizations can use in utilizing AI to accelerate their digital transformation, increase efficiency, and achieve better business outcomes."
+    type: claim
+    section: "Abstract"
+    position: 12
+    source_format: prose
+    metadata: {}
+
+  - id: seg-013
+    text: "Keywords: artificial intelligence, enterprise architecture, framework, TOGAF"
+    type: noise
+    section: "Abstract"
+    position: 13
+    source_format: metadata
+    metadata: {}
+
+  # ============================================================
+  # I. INTRODUCTION
+  # ============================================================
+
+  - id: seg-014
+    text: "I. Introduction"
+    type: noise
+    section: "Introduction"
+    position: 14
+    source_format: heading
+    metadata: {}
+
+  - id: seg-015
+    text: "Digital transformation has become a strategic imperative for organizations seeking to remain competitive in an increasingly technology-driven landscape."
+    type: context
+    section: "Introduction"
+    position: 15
+    source_format: prose
+    metadata: {}
+
+  - id: seg-016
+    text: "Enterprise architecture serves as a foundational discipline for managing complexity and guiding digital transformation initiatives across organizations."
+    type: claim
+    section: "Introduction"
+    position: 16
+    source_format: prose
+    metadata: {}
+
+  - id: seg-017
+    text: "TOGAF, developed by The Open Group, has become one of the most widely adopted enterprise architecture frameworks globally."
+    type: context
+    section: "Introduction"
+    position: 17
+    source_format: prose
+    metadata: {}
+
+  - id: seg-018
+    text: "TOGAF provides a comprehensive approach through the Architecture Development Method (ADM) that guides organizations through iterative cycles of architecture development."
+    type: definition
+    section: "Introduction"
+    position: 18
+    source_format: prose
+    metadata: {}
+
+  - id: seg-019
+    text: "Artificial intelligence has emerged as a transformative technology with the potential to fundamentally reshape how enterprises operate, make decisions, and deliver value."
+    type: claim
+    section: "Introduction"
+    position: 19
+    source_format: prose
+    metadata: {}
+
+  - id: seg-020
+    text: "The integration of AI into enterprise operations has become the key to increasing organizational competitiveness in the digital transformation era."
+    type: claim
+    section: "Introduction"
+    position: 20
+    source_format: prose
+    metadata: {}
+
+  - id: seg-021
+    text: "Despite the growing importance of AI, there is a significant gap in providing comprehensive architectural guidance for organizations pursuing AI-enabled digital transformation within established EA frameworks."
+    type: claim
+    section: "Introduction"
+    position: 21
+    source_format: prose
+    metadata: {}
+
+  - id: seg-022
+    text: "Existing research on AI in enterprise architecture tends to focus on only one or two significant domains, such as the technology layer or the data layer, without addressing the full spectrum of EA domains."
+    type: claim
+    section: "Introduction"
+    position: 22
+    source_format: prose
+    metadata: {}
+
+  - id: seg-023
+    text: "Organizations require holistic guidance that spans all architectural domains — business, data, application, and technology — to successfully integrate AI capabilities."
+    type: claim
+    section: "Introduction"
+    position: 23
+    source_format: prose
+    metadata: {}
+
+  - id: seg-024
+    text: "This paper proposes a TOGAF-based enterprise architectural framework that utilizes AI across all significant EA domains to address this gap."
+    type: claim
+    section: "Introduction"
+    position: 24
+    source_format: prose
+    metadata: {}
+
+  # ============================================================
+  # II. LITERATURE REVIEW
+  # ============================================================
+
+  - id: seg-025
+    text: "II. Literature Review"
+    type: noise
+    section: "Literature Review"
+    position: 25
+    source_format: heading
+    metadata: {}
+
+  - id: seg-026
+    text: "A. Enterprise Architecture and TOGAF"
+    type: noise
+    section: "Literature Review"
+    position: 26
+    source_format: heading
+    metadata: {}
+
+  - id: seg-027
+    text: "Enterprise architecture is a coherent whole of principles, methods, and models that are used in the design and realization of an enterprise's organizational structure, business processes, information systems, and infrastructure."
+    type: definition
+    section: "Literature Review"
+    position: 27
+    source_format: prose
+    metadata: {}
+
+  - id: seg-028
+    text: "TOGAF is based on four interrelated areas of specialization called architecture domains: business architecture, data architecture, application architecture, and technology architecture."
+    type: definition
+    section: "Literature Review"
+    position: 28
+    source_format: prose
+    metadata: {}
+
+  - id: seg-029
+    text: "Business architecture defines the business strategy, governance, organization, and key business processes of the organization."
+    type: definition
+    section: "Literature Review"
+    position: 29
+    source_format: prose
+    metadata: {}
+
+  - id: seg-030
+    text: "Data architecture describes the structure of an organization's logical and physical data assets and the associated data management resources."
+    type: definition
+    section: "Literature Review"
+    position: 30
+    source_format: prose
+    metadata: {}
+
+  - id: seg-031
+    text: "Application architecture provides a blueprint for the individual application systems to be deployed, their interactions, and their relationships to the core business processes."
+    type: definition
+    section: "Literature Review"
+    position: 31
+    source_format: prose
+    metadata: {}
+
+  - id: seg-032
+    text: "Technology architecture describes the logical software and hardware capabilities required to support the deployment of business, data, and application services."
+    type: definition
+    section: "Literature Review"
+    position: 32
+    source_format: prose
+    metadata: {}
+
+  - id: seg-033
+    text: "The TOGAF ADM (Architecture Development Method) provides a tested and repeatable process for developing architectures through a series of phases from preliminary through architecture change management."
+    type: definition
+    section: "Literature Review"
+    position: 33
+    source_format: prose
+    metadata: {}
+
+  - id: seg-034
+    text: "B. Artificial Intelligence in Enterprise Contexts"
+    type: noise
+    section: "Literature Review"
+    position: 34
+    source_format: heading
+    metadata: {}
+
+  - id: seg-035
+    text: "Artificial intelligence encompasses a range of technologies including machine learning, natural language processing, computer vision, and robotics that can automate complex tasks and augment human decision-making."
+    type: definition
+    section: "Literature Review"
+    position: 35
+    source_format: prose
+    metadata: {}
+
+  - id: seg-036
+    text: "AI adoption in enterprises spans multiple areas including cloud computing, Internet of Things (IoT), security, and enterprise resource planning (ERP) systems."
+    type: context
+    section: "Literature Review"
+    position: 36
+    source_format: prose
+    metadata: {}
+
+  - id: seg-037
+    text: "Cloud computing provides the scalable infrastructure necessary for training and deploying AI models at enterprise scale."
+    type: claim
+    section: "Literature Review"
+    position: 37
+    source_format: prose
+    metadata: {}
+
+  - id: seg-038
+    text: "IoT devices generate heterogeneous data streams that AI systems can process and analyze for real-time decision-making."
+    type: claim
+    section: "Literature Review"
+    position: 38
+    source_format: prose
+    metadata: {}
+
+  - id: seg-039
+    text: "AI enhances enterprise security through automated threat detection, anomaly identification, and predictive security analytics."
+    type: claim
+    section: "Literature Review"
+    position: 39
+    source_format: prose
+    metadata: {}
+
+  - id: seg-040
+    text: "ERP systems can be enhanced with AI capabilities for intelligent business process automation and predictive analytics."
+    type: claim
+    section: "Literature Review"
+    position: 40
+    source_format: prose
+    metadata: {}
+
+  - id: seg-041
+    text: "C. Related Work on AI and Enterprise Architecture"
+    type: noise
+    section: "Literature Review"
+    position: 41
+    source_format: heading
+    metadata: {}
+
+  - id: seg-042
+    text: "Previous studies have explored the intersection of AI and enterprise architecture, but typically focus on narrow domains such as technology infrastructure or data management."
+    type: claim
+    section: "Literature Review"
+    position: 42
+    source_format: prose
+    metadata: {}
+
+  - id: seg-043
+    text: "There is limited research that systematically maps AI capabilities onto all four TOGAF architecture domains simultaneously."
+    type: claim
+    section: "Literature Review"
+    position: 43
+    source_format: prose
+    metadata: {}
+
+  - id: seg-044
+    text: "Some researchers have proposed intelligent enterprise architecture concepts, but these often lack alignment with established frameworks like TOGAF."
+    type: claim
+    section: "Literature Review"
+    position: 44
+    source_format: prose
+    metadata: {}
+
+  - id: seg-045
+    text: "The gap in literature is the absence of a comprehensive, TOGAF-aligned framework that addresses AI integration across business, data, application, and technology domains."
+    type: claim
+    section: "Literature Review"
+    position: 45
+    source_format: prose
+    metadata: {}
+
+  # ============================================================
+  # III. METHODOLOGY
+  # ============================================================
+
+  - id: seg-046
+    text: "III. Methodology"
+    type: noise
+    section: "Methodology"
+    position: 46
+    source_format: heading
+    metadata: {}
+
+  - id: seg-047
+    text: "This research employs the Design Science Research Methodology (DSRM) to develop the proposed TOGAF-based AI enterprise architecture framework."
+    type: methodology
+    section: "Methodology"
+    position: 47
+    source_format: prose
+    metadata: {}
+
+  - id: seg-048
+    text: "The DSRM approach provides a structured process for creating and evaluating IT artifacts intended to solve identified organizational problems."
+    type: definition
+    section: "Methodology"
+    position: 48
+    source_format: prose
+    metadata: {}
+
+  - id: seg-049
+    text: "The research process involves identifying the problem and motivation, defining objectives for a solution, designing and developing the framework, and evaluating the results."
+    type: methodology
+    section: "Methodology"
+    position: 49
+    source_format: prose
+    metadata: {}
+
+  - id: seg-050
+    text: "A systematic literature review was conducted to identify existing approaches to AI integration in enterprise architecture and to identify the research gap."
+    type: methodology
+    section: "Methodology"
+    position: 50
+    source_format: prose
+    metadata: {}
+
+  - id: seg-051
+    text: "The literature review encompassed 32 references spanning enterprise architecture, TOGAF, artificial intelligence, digital transformation, and related technology domains."
+    type: methodology
+    section: "Methodology"
+    position: 51
+    source_format: prose
+    metadata: { reference_count: 32 }
+
+  - id: seg-052
+    text: "The framework was designed by systematically mapping AI capabilities and entry points onto each of the four TOGAF architecture domains."
+    type: methodology
+    section: "Methodology"
+    position: 52
+    source_format: prose
+    metadata: {}
+
+  # ============================================================
+  # IV. PROPOSED FRAMEWORK
+  # ============================================================
+
+  - id: seg-053
+    text: "IV. Proposed Framework"
+    type: noise
+    section: "Proposed Framework"
+    position: 53
+    source_format: heading
+    metadata: {}
+
+  - id: seg-054
+    text: "The proposed framework adapts TOGAF by expanding its traditional architectural domains to explicitly incorporate AI capabilities at each layer."
+    type: claim
+    section: "Proposed Framework"
+    position: 54
+    source_format: prose
+    metadata: {}
+
+  - id: seg-055
+    text: "Rather than treating AI as a bolt-on technology, the framework establishes entry points and applicability domains where AI can enhance enterprise operations."
+    type: claim
+    section: "Proposed Framework"
+    position: 55
+    source_format: prose
+    metadata: {}
+
+  - id: seg-056
+    text: "The framework defines a core layer that integrates AI capabilities across all four TOGAF architecture domains: business, data, application, and technology."
+    type: claim
+    section: "Proposed Framework"
+    position: 56
+    source_format: prose
+    metadata: {}
+
+  - id: seg-057
+    text: "A. AI in Business Architecture"
+    type: noise
+    section: "Proposed Framework"
+    position: 57
+    source_format: heading
+    metadata: {}
+
+  - id: seg-058
+    text: "In the business architecture domain, AI supports strategic decision-making, business process optimization, and organizational governance."
+    type: claim
+    section: "Proposed Framework"
+    position: 58
+    source_format: prose
+    metadata: {}
+
+  - id: seg-059
+    text: "AI entry points in business architecture include automated business process analysis, intelligent strategy formulation support, and AI-driven governance mechanisms."
+    type: claim
+    section: "Proposed Framework"
+    position: 59
+    source_format: prose
+    metadata: {}
+
+  - id: seg-060
+    text: "Business applications enhanced with AI can provide predictive analytics for market trends and customer behavior."
+    type: claim
+    section: "Proposed Framework"
+    position: 60
+    source_format: prose
+    metadata: {}
+
+  - id: seg-061
+    text: "B. AI in Data Architecture"
+    type: noise
+    section: "Proposed Framework"
+    position: 61
+    source_format: heading
+    metadata: {}
+
+  - id: seg-062
+    text: "The data architecture domain is expanded to address heterogeneous data management requirements introduced by AI systems."
+    type: claim
+    section: "Proposed Framework"
+    position: 62
+    source_format: prose
+    metadata: {}
+
+  - id: seg-063
+    text: "AI requires robust data pipelines that can handle structured, semi-structured, and unstructured data from diverse sources including IoT sensors and enterprise systems."
+    type: claim
+    section: "Proposed Framework"
+    position: 63
+    source_format: prose
+    metadata: {}
+
+  - id: seg-064
+    text: "Automatic model training and deployment pipelines are incorporated as data architecture components for managing the AI model lifecycle."
+    type: claim
+    section: "Proposed Framework"
+    position: 64
+    source_format: prose
+    metadata: {}
+
+  - id: seg-065
+    text: "Data governance must be extended to address AI-specific concerns such as training data quality, bias detection, and model versioning."
+    type: recommendation
+    section: "Proposed Framework"
+    position: 65
+    source_format: prose
+    metadata: {}
+
+  - id: seg-066
+    text: "C. AI in Application Architecture"
+    type: noise
+    section: "Proposed Framework"
+    position: 66
+    source_format: heading
+    metadata: {}
+
+  - id: seg-067
+    text: "Application architecture is extended to incorporate AI-powered business applications and intelligent automation platforms."
+    type: claim
+    section: "Proposed Framework"
+    position: 67
+    source_format: prose
+    metadata: {}
+
+  - id: seg-068
+    text: "AI integration in the application layer encompasses intelligent ERP modules, AI-enhanced customer relationship management, and automated workflow systems."
+    type: claim
+    section: "Proposed Framework"
+    position: 68
+    source_format: prose
+    metadata: {}
+
+  - id: seg-069
+    text: "The framework identifies entry points for embedding AI capabilities within existing application portfolios rather than building standalone AI systems."
+    type: recommendation
+    section: "Proposed Framework"
+    position: 69
+    source_format: prose
+    metadata: {}
+
+  - id: seg-070
+    text: "D. AI in Technology Architecture"
+    type: noise
+    section: "Proposed Framework"
+    position: 70
+    source_format: heading
+    metadata: {}
+
+  - id: seg-071
+    text: "The technology architecture domain addresses the infrastructure requirements for deploying and operating AI systems at enterprise scale."
+    type: claim
+    section: "Proposed Framework"
+    position: 71
+    source_format: prose
+    metadata: {}
+
+  - id: seg-072
+    text: "Cloud computing platforms provide the scalable compute, storage, and networking infrastructure essential for AI workloads."
+    type: claim
+    section: "Proposed Framework"
+    position: 72
+    source_format: prose
+    metadata: {}
+
+  - id: seg-073
+    text: "IoT integration within the technology architecture enables real-time data collection from edge devices for AI processing and analysis."
+    type: claim
+    section: "Proposed Framework"
+    position: 73
+    source_format: prose
+    metadata: {}
+
+  - id: seg-074
+    text: "The security domain within technology architecture must be enhanced with AI-driven security capabilities including automated threat detection and response."
+    type: recommendation
+    section: "Proposed Framework"
+    position: 74
+    source_format: prose
+    metadata: {}
+
+  - id: seg-075
+    text: "E. Cross-Domain Integration"
+    type: noise
+    section: "Proposed Framework"
+    position: 75
+    source_format: heading
+    metadata: {}
+
+  - id: seg-076
+    text: "The framework emphasizes that AI integration must be coordinated across all four architecture domains to achieve maximum organizational benefit."
+    type: claim
+    section: "Proposed Framework"
+    position: 76
+    source_format: prose
+    metadata: {}
+
+  - id: seg-077
+    text: "Cross-domain AI integration ensures that business strategy, data assets, applications, and technology infrastructure are aligned in support of AI-enabled digital transformation."
+    type: claim
+    section: "Proposed Framework"
+    position: 77
+    source_format: prose
+    metadata: {}
+
+  - id: seg-078
+    text: "The proposed framework provides a mapping of AI entry points across domains, identifying where AI capabilities can be most effectively introduced."
+    type: claim
+    section: "Proposed Framework"
+    position: 78
+    source_format: prose
+    metadata: {}
+
+  # ============================================================
+  # FRAMEWORK DIAGRAM (Figure)
+  # ============================================================
+
+  - id: seg-079
+    text: "[Figure: Proposed TOGAF-based Enterprise Architecture Framework for AI] The framework diagram shows four TOGAF architecture domains (business, data, application, technology) arranged in layers, with AI entry points and applicability domains mapped across each layer. Supporting technology domains — cloud computing, IoT, security, and ERP — are shown as cross-cutting concerns that integrate with the AI capabilities at each architectural level. A core layer binds the AI capabilities together across all domains."
+    type: evidence
+    section: "Proposed Framework"
+    position: 79
+    source_format: figure
+    metadata: { figure_type: "framework diagram" }
+
+  # ============================================================
+  # V. DISCUSSION
+  # ============================================================
+
+  - id: seg-080
+    text: "V. Discussion"
+    type: noise
+    section: "Discussion"
+    position: 80
+    source_format: heading
+    metadata: {}
+
+  - id: seg-081
+    text: "The proposed framework addresses the identified gap by providing comprehensive architectural guidance for AI integration across all four TOGAF domains."
+    type: claim
+    section: "Discussion"
+    position: 81
+    source_format: prose
+    metadata: {}
+
+  - id: seg-082
+    text: "Unlike previous approaches that focus on individual domains, this framework ensures holistic consideration of how AI affects the entire enterprise architecture."
+    type: claim
+    section: "Discussion"
+    position: 82
+    source_format: prose
+    metadata: {}
+
+  - id: seg-083
+    text: "The framework is one of the first peer-reviewed academic works to systematically map AI capabilities onto TOGAF domains."
+    type: claim
+    section: "Discussion"
+    position: 83
+    source_format: prose
+    metadata: {}
+
+  - id: seg-084
+    text: "By building on TOGAF rather than proposing an entirely new framework, the approach provides a bridge for organizations already using TOGAF to incorporate AI capabilities within their existing architectural practice."
+    type: claim
+    section: "Discussion"
+    position: 84
+    source_format: prose
+    metadata: {}
+
+  - id: seg-085
+    text: "The entry point concept allows organizations to identify specific, actionable locations within their architecture where AI can be introduced incrementally."
+    type: claim
+    section: "Discussion"
+    position: 85
+    source_format: prose
+    metadata: {}
+
+  - id: seg-086
+    text: "Cloud computing, IoT, security, and ERP are identified as key supporting technology domains that enable AI integration across the enterprise architecture."
+    type: claim
+    section: "Discussion"
+    position: 86
+    source_format: prose
+    metadata: {}
+
+  - id: seg-087
+    text: "The framework contributes to the ongoing debate between replacing legacy EA frameworks entirely and extending them to accommodate new technologies like AI."
+    type: context
+    section: "Discussion"
+    position: 87
+    source_format: prose
+    metadata: {}
+
+  - id: seg-088
+    text: "This research positions itself within the 'extend TOGAF' approach, arguing that established frameworks can be adapted rather than abandoned."
+    type: claim
+    section: "Discussion"
+    position: 88
+    source_format: prose
+    metadata: {}
+
+  - id: seg-089
+    text: "The handling of heterogeneous data from multiple sources including IoT sensors represents a significant data architecture challenge that the framework addresses through expanded data governance."
+    type: claim
+    section: "Discussion"
+    position: 89
+    source_format: prose
+    metadata: {}
+
+  - id: seg-090
+    text: "Automatic model lifecycle management is identified as a critical capability that must be incorporated into the data and application architecture domains."
+    type: claim
+    section: "Discussion"
+    position: 90
+    source_format: prose
+    metadata: {}
+
+  # ============================================================
+  # VI. CONCLUSION AND FUTURE WORK
+  # ============================================================
+
+  - id: seg-091
+    text: "VI. Conclusion and Future Work"
+    type: noise
+    section: "Conclusion"
+    position: 91
+    source_format: heading
+    metadata: {}
+
+  - id: seg-092
+    text: "This paper has presented a TOGAF-based enterprise architecture framework that integrates artificial intelligence across all four architecture domains: business, data, application, and technology."
+    type: context
+    section: "Conclusion"
+    position: 92
+    source_format: prose
+    metadata: {}
+
+  - id: seg-093
+    text: "The framework provides organizations with comprehensive guidance for leveraging AI to accelerate digital transformation, increase efficiency, and achieve better business goals."
+    type: claim
+    section: "Conclusion"
+    position: 93
+    source_format: prose
+    metadata: {}
+
+  - id: seg-094
+    text: "By identifying entry points and applicability domains for AI within each TOGAF domain, the framework enables incremental and strategic AI adoption."
+    type: claim
+    section: "Conclusion"
+    position: 94
+    source_format: prose
+    metadata: {}
+
+  - id: seg-095
+    text: "The framework addresses cloud computing, IoT, security, and ERP integration alongside AI to provide a complete architectural picture."
+    type: claim
+    section: "Conclusion"
+    position: 95
+    source_format: prose
+    metadata: {}
+
+  - id: seg-096
+    text: "Further research is needed to validate the framework through practical implementation in real-world organizational settings."
+    type: recommendation
+    section: "Conclusion"
+    position: 96
+    source_format: prose
+    metadata: {}
+
+  - id: seg-097
+    text: "Future work should include evaluation of the framework through case studies in different industry sectors and organizational contexts."
+    type: recommendation
+    section: "Conclusion"
+    position: 97
+    source_format: prose
+    metadata: {}
+
+  - id: seg-098
+    text: "The framework would benefit from empirical evaluation to assess its effectiveness in guiding AI integration within enterprises."
+    type: recommendation
+    section: "Conclusion"
+    position: 98
+    source_format: prose
+    metadata: {}
+
+  - id: seg-099
+    text: "Additional research could explore how the framework can be extended to address emerging AI technologies and evolving enterprise architecture practices."
+    type: recommendation
+    section: "Conclusion"
+    position: 99
+    source_format: prose
+    metadata: {}
+
+  # ============================================================
+  # REFERENCES (selected)
+  # ============================================================
+
+  - id: seg-100
+    text: "References"
+    type: noise
+    section: "References"
+    position: 100
+    source_format: heading
+    metadata: {}
+
+  - id: seg-101
+    text: "The paper cites 32 references spanning enterprise architecture, TOGAF, artificial intelligence, digital transformation, cloud computing, IoT, security, and ERP domains."
+    type: attribution
+    section: "References"
+    position: 101
+    source_format: prose
+    metadata: { reference_count: 32 }

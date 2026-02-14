@@ -1,0 +1,502 @@
+source_id: source-018
+title: "The Open Group EA Practitioners Conference 2026: Highlights from a Landmark Gathering"
+url: "https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/"
+author: "Ash Patel"
+date: 2026-02-10
+type: article
+total_segments: 65
+
+composition:
+  context: { count: 27, pct: 41.5 }
+  noise: { count: 17, pct: 26.2 }
+  claim: { count: 12, pct: 18.5 }
+  attribution: { count: 4, pct: 6.2 }
+  example: { count: 3, pct: 4.6 }
+  definition: { count: 2, pct: 3.1 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 0, pct: 0.0 }
+  recommendation: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+
+signal_ratio: 73.8
+
+segments:
+
+  # ============================================================
+  # BYLINE
+  # ============================================================
+
+  - id: seg-001
+    text: "By Ash Patel - CDMP - Certified Copywriter (CMP) - Content Marketing Manager, The Open Group"
+    type: attribution
+    section: "Byline"
+    position: 1
+    source_format: prose
+
+  # ============================================================
+  # INTRODUCTION
+  # ============================================================
+
+  - id: seg-002
+    text: "The Open Group EA Practitioners Conference officially marked a major milestone - the 30th anniversary of the TOGAF Standard, a standard of The Open Group, the world's leading framework for Enterprise Architecture."
+    type: context
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "Further celebrating this remarkable journey - from the foundation of the TOGAF Standard to the evolution of the ArchiMate Specification, the Open Agile Architecture Standard (O-AA), The Open Group Eagle AI Assistant, and the entire Architecture Portfolio standards of The Open Group, with over 90 attendees from around the world joining in the celebrations."
+    type: context
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  # ============================================================
+  # DAY 1
+  # ============================================================
+
+  - id: seg-004
+    text: "Day 1"
+    type: noise
+    section: "Day 1"
+    position: 4
+    source_format: heading
+
+  - id: seg-005
+    text: "After a Welcome and Introduction from The Open Group President and CEO, Steve Nunn, the conference took off with the first presentation by Francis Uy, Chief Architect, Sinag Software Solutions on From Crisis to Ecosystem: An Enterprise Architecture Journey Through Pandemic Response, National Health Transformation, and Global Impact."
+    type: context
+    section: "Day 1"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The session presented a compelling multi-year case study on the strategic application of the TOGAF framework and Enterprise Architecture (EA) principles to drive mission-critical transformation at scale."
+    type: context
+    section: "Day 1"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "It further focused on the urgent orchestration of the Philippines' digital COVID-19 pandemic response, showing how the Four Purposes framework enabled rapid coordination across 50+ projects and multiple government agencies to 'flatten the curve.'"
+    type: example
+    section: "Day 1"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "[IMAGE: Francis Uy presentation slide]"
+    type: noise
+    section: "Day 1"
+    position: 8
+    source_format: figure
+
+  - id: seg-009
+    text: "Deliver value where you are, and you'll eventually find yourself where you intend to be."
+    type: claim
+    section: "Day 1"
+    position: 9
+    source_format: quote
+
+  - id: seg-010
+    text: "Francis Uy"
+    type: attribution
+    section: "Day 1"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "Prof. Zhang Xinguo, Chief Scientist, Chinese Aeronautical Establishment, provided an interesting dialogue about PD-PO (Purpose-Driven and Process-Oriented) Cognitive Paradigm and Modeling Framework."
+    type: context
+    section: "Day 1"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Prof. Zhang Xinguo's presentation focused on the introduction of a novel PD-PO (Purpose-Driven and Process-Oriented) cognitive paradigm and modeling framework, designed to provide both a philosophical foundation and a practical methodology for understanding and designing complex systems."
+    type: definition
+    section: "Day 1"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "The talk further proposed that architecture should be fundamentally guided by business objectives, transforming goals into executable designs and entities through dynamic, iterative process models."
+    type: claim
+    section: "Day 1"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "This was followed by a short presentation focusing on The TOGAF Standard - A Chinese Case Study, before Paul Homan, Open Certified Distinguished IT Architect, took the stage for an insightful presentation titled Could I have survived EA without the TOGAF Standard?"
+    type: context
+    section: "Day 1"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "In his presentation, Paul reflected on changes he has witnessed for EAs over his career, and what he hasn't, and where he sees the future challenges lying."
+    type: context
+    section: "Day 1"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "[IMAGE: Paul Homan presentation slide]"
+    type: noise
+    section: "Day 1"
+    position: 16
+    source_format: figure
+
+  - id: seg-017
+    text: "After the coffee break, attendees heard from Chris Frost, Principal Enterprise Architect, Global Technology Standardization Division, Fujitsu, who gave a presentation on: Is Your Architecture Ready? Unpacking the CIO's Breakthrough Challenges."
+    type: context
+    section: "Day 1"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "This presentation explored 'breakthrough moments' described in recent industry research."
+    type: context
+    section: "Day 1"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "Chris delved into the architecture challenges arising from the heightened focus on tech as a driver of business improvement, the convergence of IT and OT, the imperative to balance legacy modernization with emerging technology adoption, and the need to leverage strategic partnerships."
+    type: claim
+    section: "Day 1"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "[IMAGE: Chris Frost presentation slide]"
+    type: noise
+    section: "Day 1"
+    position: 20
+    source_format: figure
+
+  - id: seg-021
+    text: "Judith Jones, CEO, ATE Enterprises Ltd. then took to the stage to talk about the following: The Global Enterprise Architecture Journey - Can we save the planet? Are we Plan B?"
+    type: context
+    section: "Day 1"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "In this session, Judith shared experiences and lessons learned in investing in EA standards from governments, citizens, and customers' viewpoints."
+    type: context
+    section: "Day 1"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Judith also explored the collaborative journey to Global Enterprise Architecture and challenges that businesses and Enterprise Architects face in creating the architectures for the future."
+    type: context
+    section: "Day 1"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "Is Global EA a dream, a threat or a humanity and environment essential? Can we save the planet?"
+    type: claim
+    section: "Day 1"
+    position: 24
+    source_format: quote
+
+  - id: seg-025
+    text: "Judith Jones"
+    type: attribution
+    section: "Day 1"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Then came an in-depth presentation on The Open Group EA Portfolio Standards Developments, led by Chris Forde, General Manager Asia Pacific and Vice President EA, The Open Group."
+    type: context
+    section: "Day 1"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Keeping things moving was the EA Lab: Architecting Tomorrow with the TOGAF Standard, O-AA Standard, and ArchiMate Modeling Language, which offered attendees an immersive session exploring the leading standards of The Open Group."
+    type: context
+    section: "Day 1"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The EA Lab also combined presentation, practical application, and an interactive Q&A, ensuring attendees left with actionable strategies for their organization."
+    type: context
+    section: "Day 1"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Next came a workshop on Architecting for Sustainability: Integrating the TOGAF Standard and the Open Footprint Data Model for a Resilient Future."
+    type: context
+    section: "Day 1"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "This workshop explored how to embed sustainability within Enterprise Architecture practices and solution architectures."
+    type: claim
+    section: "Day 1"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Completing the day, was an invigorating networking reception providing attendees with a chance to catch up with colleagues and to make new connections too, while discussing the day's session in depth."
+    type: noise
+    section: "Day 1"
+    position: 31
+    source_format: prose
+
+  # ============================================================
+  # DAYS 2 AND 3
+  # ============================================================
+
+  - id: seg-032
+    text: "Days 2 and 3"
+    type: noise
+    section: "Days 2 and 3"
+    position: 32
+    source_format: heading
+
+  - id: seg-033
+    text: "After a welcome and introduction from Steve Nunn highlighting the agenda for the day, the first presentation for day two came from Ben Lingwood, CTO, Tech Catalyst, PwC, who spoke about: Controls vs Speed: AI In the Enterprise."
+    type: context
+    section: "Days 2 and 3"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "Next came David Hornford, Managing Partner, Conexiam, who took to the stage to talk about Architecture of Agency: Flip the Script, Design the Work."
+    type: context
+    section: "Days 2 and 3"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "In this session, Dave introduced the essential flip: stop solutioning for automation and start architecting for agency."
+    type: claim
+    section: "Days 2 and 3"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Discover the Work Area, the new first principle: a governed container for agency, defined by its Mandate, Governance, and Interface."
+    type: definition
+    section: "Days 2 and 3"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "He also proved its power through a 'hardest-first' stress test, showing how a 'Zero Risk' mandate generates a rigorous hybrid design and reveals a core truth: agency is not monolithic."
+    type: claim
+    section: "Days 2 and 3"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "After the break, Stuart Macgregor, Real IRM and The Open Group - South Africa spoke in depth on: The Architect's Pivot: From Static Blueprints to Dynamic Ecosystems."
+    type: context
+    section: "Days 2 and 3"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "Stuart's session focused on the 'Proto-EA' case study from 1999 that identified the limitations of traditional tools like ARIS in handling business dynamics."
+    type: example
+    section: "Days 2 and 3"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "We then fast-forward to modern Ecosystems Architecture to examine the 'Grenade' - the critical gap between abstract theory and practical application."
+    type: claim
+    section: "Days 2 and 3"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "Using a real-world analysis of the South African Scrap Metal Ecosystem, this session demonstrated how to reframe silos, utilize probabilistic modeling (Monte Carlo), and translate complex architectural data into narratives that move the 'heart and mind' of the business."
+    type: example
+    section: "Days 2 and 3"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "Attendees then heard from Sonia Gonzalez, Digital Portfolio Manager, The Open Group, who led them through the following presentation: From Strategy to Execution: Navigating Digital Transformation with The Open Group Portfolio of Digital Open Standards."
+    type: context
+    section: "Days 2 and 3"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Sonia's presentation explored the critical journey from Strategy to Execution, focusing on what it truly means to make digital transformation real."
+    type: context
+    section: "Days 2 and 3"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "It demonstrates that transformation succeeds only when strategic intent is translated into executable Enterprise Architecture, guided by sustainability principles, and accelerated by AI."
+    type: claim
+    section: "Days 2 and 3"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "Transformation succeeds only when strategic intent is translated into executable Enterprise Architecture, guided by sustainability principles, and accelerated by AI."
+    type: claim
+    section: "Days 2 and 3"
+    position: 45
+    source_format: quote
+
+  - id: seg-046
+    text: "Sonia Gonzalez"
+    type: attribution
+    section: "Days 2 and 3"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "This was followed by a presentation on Harnessing Enterprise Architecture to Drive Digital Sustainability in the Age of Artificial Intelligence, presented by Celine Lescop, Director, Digital Sustainability AXA."
+    type: context
+    section: "Days 2 and 3"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "In this session, Celine explored how Enterprise Architects can navigate this volatile, rapidly evolving environment to craft sustainable enterprise information and technology strategies."
+    type: claim
+    section: "Days 2 and 3"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "Further offering attendees insights into aligning technological innovation with environmental responsibility, ensuring resilience and sustainability amid the sector's unpredictable exponential growth."
+    type: claim
+    section: "Days 2 and 3"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "The afternoon then focused on the Open Footprint Forum Meeting (Members only), along with two workshops."
+    type: noise
+    section: "Days 2 and 3"
+    position: 50
+    source_format: prose
+
+  - id: seg-051
+    text: "The first titled: Accelerate Your Career with TOGAF Certification: Upskill on Sustainability and Earn Your Open Badge."
+    type: context
+    section: "Days 2 and 3"
+    position: 51
+    source_format: prose
+
+  - id: seg-052
+    text: "This workshop was led by Andrew Josey, VP, Standards and Certification, The Open Group, and Celine Lescop, Director, Digital Sustainability, AXA, and introduced the TOGAF Certification Portfolio, a structured pathway for EA career development."
+    type: context
+    section: "Days 2 and 3"
+    position: 52
+    source_format: prose
+
+  - id: seg-053
+    text: "It spans from the TOGAF Enterprise Architecture Practitioner to specialized roles such as Business Architect, Agile Specialist, Digital Specialist, EA Leader, and Environmentally Sustainable Information System Specialist."
+    type: context
+    section: "Days 2 and 3"
+    position: 53
+    source_format: prose
+
+  - id: seg-054
+    text: "Bringing a close to day two were two workshops: The first focusing on AI in the Enterprise - Making Autonomous Systems into Reliable Business Tools, and the second on The Open Group Eagle AI Assistant."
+    type: context
+    section: "Days 2 and 3"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "Which focused on a live demonstration and interactive discussion, where attendees discovered practical insights on developing trustworthy, compliant AI systems for enterprise practitioners."
+    type: context
+    section: "Days 2 and 3"
+    position: 55
+    source_format: prose
+
+  - id: seg-056
+    text: "Day 3 featured Member Meetings which focused on the Architecture Forum."
+    type: noise
+    section: "Days 2 and 3"
+    position: 56
+    source_format: prose
+
+  # ============================================================
+  # CLOSING
+  # ============================================================
+
+  - id: seg-057
+    text: "As the London 2026 conference wrapped, attendees left with a shared sense of momentum and purpose."
+    type: noise
+    section: "Closing"
+    position: 57
+    source_format: prose
+
+  - id: seg-058
+    text: "The conversations sparked here - about architectural excellence, digital innovation, and the role of community standards - will continue to resonate throughout the year ahead."
+    type: noise
+    section: "Closing"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "With continued focus on empowering practitioners and driving real-world impact through open standards and architectural rigor, the insights and connections forged in London are sure to have lasting influence across the global enterprise community."
+    type: noise
+    section: "Closing"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "Thank you to everyone who celebrated the 30th anniversary of the TOGAF Standard with us."
+    type: noise
+    section: "Closing"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "From the foundation of the TOGAF Standard to the evolution of the ArchiMate Specification, the Open Agile Architecture Standard, The Open Group Eagle AI Assistant, and the entire Architecture Portfolio standards of The Open Group."
+    type: noise
+    section: "Closing"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "Many thanks to our event Sponsors and Exhibitors: AEA, Ardoq, and Van Haren Publishing."
+    type: noise
+    section: "Closing"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "Register now for The Open Group European Summit, Oslo, April 27 - 30, 2026."
+    type: noise
+    section: "Closing"
+    position: 63
+    source_format: prose
+
+  # ============================================================
+  # AUTHOR BIO
+  # ============================================================
+
+  - id: seg-064
+    text: "Ash Patel - CDMP - Certified Copywriter (CMP) - CDMA - Certified Proofreader and Editor (CMP) - Certified Business Writer (CMP), Content Marketing Manager, joined The Open Group in 2020, initially working in the Certification Team as a Certification Services Agent, before moving into the Marketing Team where he now works on marketing collateral, SEO (Search Engine Optimization), and produces/hosts The Open Group Open Comments Podcast."
+    type: noise
+    section: "Author Bio"
+    position: 64
+    source_format: prose
+
+  - id: seg-065
+    text: "Ash holds a First-Class Bachelor's Degree in Media Production (BA hons) from Coventry University."
+    type: noise
+    section: "Author Bio"
+    position: 65
+    source_format: prose

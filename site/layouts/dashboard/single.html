@@ -1,0 +1,70 @@
+{{ define "main" }}
+<style>
+  /* Widen the prose container for the dashboard page */
+  main.prose { max-width: 1200px !important; }
+</style>
+<div class="dashboard-layout">
+  <h1>{{ .Title }}</h1>
+  <p class="text-sm opacity-60" id="dashboard-topic"></p>
+
+  <!-- Stats bar -->
+  <div class="dashboard-stats" id="stats-bar">
+    <div class="stat-card stat-card-highlight">
+      <div class="stat-value" id="stat-findings">&mdash;</div>
+      <div class="stat-label">Findings</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-claims">&mdash;</div>
+      <div class="stat-label">Claims</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-concepts">&mdash;</div>
+      <div class="stat-label">Concepts</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-statistics">&mdash;</div>
+      <div class="stat-label">Statistics</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-frameworks">&mdash;</div>
+      <div class="stat-label">Frameworks</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-sources">&mdash;</div>
+      <div class="stat-label">Sources</div>
+    </div>
+  </div>
+
+  <!-- Top items summary -->
+  <div class="top-items-summary" id="top-items-summary"></div>
+
+  <!-- Filter controls -->
+  <div class="dashboard-filters" id="filter-controls">
+    <span class="filter-label">Show:</span>
+  </div>
+
+  <!-- Knowledge graph -->
+  <div class="graph-container" id="graph-container">
+    <svg id="graph-svg"></svg>
+    <div class="detail-panel" id="detail-panel">
+      <button class="detail-close" id="detail-close">&times;</button>
+      <div class="detail-type" id="detail-type"></div>
+      <div class="detail-label" id="detail-label"></div>
+      <div class="detail-text" id="detail-text"></div>
+      <dl class="detail-meta" id="detail-meta"></dl>
+    </div>
+    <div class="graph-tooltip" id="graph-tooltip"></div>
+  </div>
+
+  <!-- Legend -->
+  <div class="dashboard-legend" id="legend"></div>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{ "js/dashboard.js" | absURL }}"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    initDashboard("{{ "data/dashboard.json" | absURL }}");
+  });
+</script>
+{{ end }}

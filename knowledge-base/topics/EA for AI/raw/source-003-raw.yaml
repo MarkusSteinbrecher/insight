@@ -1,0 +1,1542 @@
+source_id: source-003
+title: "Unlocking Enterprise AI: Opportunities and Strategies"
+url: "https://impact.economist.com/perspectives/technology-innovation/unlocking-enterprise-ai"
+author: "Economist Impact (commissioned by Databricks)"
+date: 2024
+type: report
+total_segments: 210
+note: "51-page report based on global survey of 1,100 respondents (715 technical executives + 385 data/AI technologists) across 19 countries and 8 industries, plus 28 C-suite interviews."
+
+composition:
+  claim: { count: 45, pct: 21.4 }
+  statistic: { count: 70, pct: 33.3 }
+  evidence: { count: 15, pct: 7.1 }
+  definition: { count: 8, pct: 3.8 }
+  recommendation: { count: 29, pct: 13.8 }
+  context: { count: 12, pct: 5.7 }
+  methodology: { count: 6, pct: 2.9 }
+  example: { count: 17, pct: 8.1 }
+  attribution: { count: 6, pct: 2.9 }
+  noise: { count: 2, pct: 1.0 }
+
+signal_ratio: 0.99
+
+segments:
+
+  # ============================================================
+  # METHODOLOGY (pp. 3-4)
+  # ============================================================
+
+  - id: seg-001
+    text: "This Economist Impact report, commissioned by Databricks, combines a global survey of 715 technical executives and 385 data and artificial intelligence (AI) technologists who work across the fields of data engineering, data science and enterprise architecture."
+    type: methodology
+    section: "About this report"
+    position: 1
+    source_format: prose
+
+  - id: seg-002
+    text: "It also features insights from interviews with 28 C-suite executives from leading organisations across 11 industries: financial services, healthcare and life sciences, retail and consumer goods, the public sector, manufacturing, transport, energy, technology, professional services, media and entertainment, and telecommunications."
+    type: methodology
+    section: "About this report"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The global survey polled 1,100 respondents and was fielded between July and August 2024."
+    type: methodology
+    section: "Survey"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The survey respondents work in large enterprises (annual revenue of US$500m or greater) or public sector organisations, located in 19 countries across North America, Europe and Asia-Pacific (including ASEAN)."
+    type: methodology
+    section: "Survey"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "Respondent roles include CIOs, CTOs, CDOs, chief enterprise/data architects, SVPs/VPs/heads of IT/data/engineering, data scientists, data engineers, and enterprise architects."
+    type: methodology
+    section: "Survey"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "Respondent industries include financial services/banking/insurance, public sector, healthcare/pharmaceuticals/life sciences, retail and consumer goods, manufacturing (including automotive), media and entertainment, energy/oil and gas, and telecommunications."
+    type: methodology
+    section: "Survey"
+    position: 6
+    source_format: prose
+
+  # ============================================================
+  # FOREWORD (p. 6)
+  # ============================================================
+
+  - id: seg-007
+    text: "The present trajectory of artificial intelligence — investment, adoption, and results — makes abundantly clear that the technology is going to become an integral part of every business, irrespective of industry."
+    type: claim
+    section: "Foreword"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "Success in this new landscape will require business leaders to do far more than adopt the latest and greatest AI model."
+    type: claim
+    section: "Foreword"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "Winners in each industry will be those who take a holistic approach that encompasses data management, security, governance, culture, and domain-specific expertise."
+    type: claim
+    section: "Foreword"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "A key finding from this report is that companies overwhelmingly want to integrate generative AI models with their own data, which requires modernising their enterprise data platform — addressing the problem of fragmentation and advancing beyond the capabilities of a single large commercial model."
+    type: claim
+    section: "Foreword"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "The future also lies in AI systems and agents comprising multiple components, using custom models, each optimised for specific tasks — this approach allows for greater accuracy, cost, performance and security."
+    type: claim
+    section: "Foreword"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Democratisation is a big driver for AI — organisations want to make data more accessible to a wider range of employees and look to empower their people to build and refine AI models that reflect their day-to-day business needs."
+    type: claim
+    section: "Foreword"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "The future lies not only with AI models trained on web data, but with true data intelligence — systems that deeply understand and operate on an organisation's specific, often sensitive data sets."
+    type: claim
+    section: "Foreword"
+    position: 13
+    source_format: prose
+
+  # ============================================================
+  # EXECUTIVE SUMMARY (pp. 7-9)
+  # ============================================================
+
+  - id: seg-014
+    text: "A heady US$1trn in capital expenditure is expected in the coming years to deliver the data centres, chips, energy and infrastructure to support the artificial intelligence (AI) revolution."
+    type: statistic
+    section: "Executive Summary"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "While this figure is largely driven by the dawn of generative AI (GenAI), the truth is that companies have been developing their AI capabilities for years — breakthroughs like deep learning and neural networks have allowed specialists in fields from biotech to finance to crunch vast datasets."
+    type: context
+    section: "Executive Summary"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "The difference now is democratisation and scale — because GenAI provides an intuitive, natural language interface, the benefits of AI have become accessible to every practitioner."
+    type: claim
+    section: "Executive Summary"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "To transition successfully from pilots to enterprise-wide deployment requires a robust infrastructure that can handle the data and computational requirements of AI, a workforce strategy that appropriately calibrates humans versus machines, and an appropriate return on investment (ROI) strategy."
+    type: recommendation
+    section: "Executive Summary"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "Achieving AI excellence necessitates strong governance and careful design of human machine interaction — decisions and outputs must comply with extensive existing and emerging legislation in areas like data privacy, security and consumer protection."
+    type: recommendation
+    section: "Executive Summary"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "85% of organisations are actively using GenAI in at least one business function, reaching 97% among companies with revenue over US$10bn."
+    type: statistic
+    section: "Executive Summary"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "IT teams are the most avid adopters and the legal function is the most reticent."
+    type: statistic
+    section: "Executive Summary"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "Internal projects are preferred but, by 2027, 99% of executives expect GenAI adoption across internal and external use cases."
+    type: statistic
+    section: "Executive Summary"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "Seven in ten see AI as crucial to their long-term strategic goals, and only 18% say it is overhyped."
+    type: statistic
+    section: "Executive Summary"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Despite the momentum, only one in five believe that their current investment across technical and non-technical domains is sufficient."
+    type: statistic
+    section: "Executive Summary"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "So far, productivity is one of the most commonly reported impacts of AI — functions with high automation potential have been heavily testing GenAI, such as IT (91%), marketing (85%), sales and customer service (83%), and operations (80%), while 82% of data scientists report using AI for coding."
+    type: statistic
+    section: "Executive Summary"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Revenue growth has been the least effective metric for justifying investment to date, with experts arguing that AI returns will take time to accrue given the need for experimentation, iteration and digital infrastructure overhauls."
+    type: claim
+    section: "Executive Summary"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Strategic considerations like business model innovation, market positioning, and environment, social and governance standards have been the most important elements when evaluating business cases for AI."
+    type: statistic
+    section: "Executive Summary"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Many enterprises are operating with the technological equivalent of Victorian-era plumbing — only 22% of organisations say their current architecture can support AI workloads without modifications, and 48% of data engineers spend most of their time resolving data source connections."
+    type: statistic
+    section: "Executive Summary"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The problem could worsen as democratisation leads to a proliferation of AI pilots, leading to congestion, complexity, and opacity in data and infrastructure."
+    type: claim
+    section: "Executive Summary"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Two-thirds of organisations see significant potential in integrating GenAI models with their own data — as AI models become commoditised, the best performers will mix and match models and tools with their unique assets: proprietary data and know-how."
+    type: statistic
+    section: "Executive Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Nearly seven out of ten are experimenting with or have fully deployed open-source GenAI, with 96% believing they will do so by 2027."
+    type: statistic
+    section: "Executive Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Off-the-shelf models, unconnected to enterprise data, are still common: almost half (45%) of data scientists are using large language models (LLMs) without retrieval augmented generation (RAG)."
+    type: statistic
+    section: "Executive Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Only 37% of executives believe their GenAI applications are production-ready, a figure that falls to just 29% among practitioners."
+    type: statistic
+    section: "Executive Summary"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Data scientists cite key constraints including cost (41%), skills (40%), quality (37%) and governance (33%)."
+    type: statistic
+    section: "Executive Summary"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "Only one in six respondents believe that their organisation can secure enough AI talent."
+    type: statistic
+    section: "Executive Summary"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Half of data engineers say governance takes up more time than anything else, and more than half of enterprise architects (53%) cite challenges with data privacy and security breaches as the biggest risk of AI expansion."
+    type: statistic
+    section: "Executive Summary"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Leaders say AI can augment rather than replace employees — interviewees cite unified systems and 'centres of excellence' as critical to balancing governance and enablement."
+    type: claim
+    section: "Executive Summary"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "Two-thirds of organisations say they are still experimenting to find the right balance between humans and AI."
+    type: statistic
+    section: "Executive Summary"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Enterprise architects see GenAI as a democratising force, with nearly 60% predicting that within three years natural language will be the primary — if not only — way that non-technical staff interact with complex datasets."
+    type: statistic
+    section: "Executive Summary"
+    position: 38
+    source_format: prose
+
+  # ============================================================
+  # CHAPTER 1: AI'S UNLOCK MOMENT (pp. 10-18)
+  # ============================================================
+
+  - id: seg-039
+    text: "Organisations are racing to harness the power of AI, with generative models elevating capabilities across industries and functions — from enhancing drug discovery to powering intelligent assistants."
+    type: context
+    section: "Ch1: AI's Unlock Moment"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Two years since the public launch of ChatGPT, every organisation is searching for algorithmic advantage — companies are harnessing the powers of traditional AI with the ability of GenAI to reason and converse across contexts."
+    type: context
+    section: "Ch1: AI's Unlock Moment"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "The GenAI breakthrough took AI from narrow tasks performed by expert teams to a capability available to nearly everyone."
+    type: claim
+    section: "Ch1: AI's Unlock Moment"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "\"Gen AI has exploded because of its approachability; the average person can use these tools.\""
+    type: attribution
+    section: "Ch1: AI's Unlock Moment"
+    position: 42
+    source_format: quote
+
+  - id: seg-043
+    text: "Novartis has been using machine learning (ML) for drug discovery and predictive analytics to improve clinical trials; Flo Health's global consumer-facing women's health app used by over 380 million people is based on an algorithm using traditional ML techniques."
+    type: example
+    section: "Ch1: AI's Unlock Moment"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "73% say GenAI is critical to their long-term strategic goals; only 18% say AI is overhyped — executives are slightly more cautious (20% lean towards hype) than data and AI technologists (just 13%)."
+    type: statistic
+    section: "Ch1: Executives and practitioners believe AI has proven value"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "In the years ahead, winners and losers will be defined by who is able to graduate from experiments to implementation at scale."
+    type: claim
+    section: "Ch1: Executives and practitioners believe AI has proven value"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "\"GenAI is going to be a commodity embedded in everything, similarly to the internet, and the value will be in the business problems it helps solve.\""
+    type: attribution
+    section: "Ch1: Executives and practitioners believe AI has proven value"
+    position: 46
+    source_format: quote
+
+  - id: seg-047
+    text: "85% of organisations are testing and using GenAI today, with adoption rates climbing as company size increases — among those with revenue over US$10bn, 97% are testing and using it."
+    type: statistic
+    section: "Ch1: Empowering everyone"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "GenAI usage is most advanced among IT teams, with 62% having fully deployed it; marketing and sales, including customer service, are leading adoption ahead of other business teams."
+    type: statistic
+    section: "Ch1: Empowering everyone"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "Flo Health has seen a 24% boost in data engineering efficiency, with AI assistants reducing mistakes and accelerating document generation."
+    type: evidence
+    section: "Ch1: Empowering everyone"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "Repsol ran a GenAI experiment with 200 coders and more than 200,000 lines of code across 20 programming languages, finding improvements in productivity of up to 30%, with an average of 7%."
+    type: evidence
+    section: "Ch1: Empowering everyone"
+    position: 50
+    source_format: prose
+
+  - id: seg-051
+    text: "'Agentic AI' — artificial agents with a natural language interface that can plan and execute sequences of actions on behalf of a user — will become an increasingly common feature of daily life, surpassing text-to-speech applications like Alexa and Siri in scope and smarts."
+    type: definition
+    section: "Ch1: Empowering everyone"
+    position: 51
+    source_format: prose
+
+  - id: seg-052
+    text: "More than 97% of enterprise architects predict that non-technical staff will use natural language programmes to interact with complex datasets within the next three years; nearly six in ten (58%) say natural language will be either the primary or only way they do this."
+    type: statistic
+    section: "Ch1: Empowering everyone"
+    position: 52
+    source_format: prose
+
+  - id: seg-053
+    text: "Figure 1: Stage of GenAI adoption by business function — IT: 62% in production, 29% experimenting; Marketing: 40% in production, 46% experimenting; Sales/customer service: 39% in production, 43% experimenting; Operations/supply chain: 32% in production, 48% experimenting; HR: 24% in production, 42% experimenting; R&D: 23% in production, 27% experimenting; Finance: 21% in production, 25% experimenting; Legal: 11% in production, 20% experimenting."
+    type: statistic
+    section: "Ch1: Empowering everyone"
+    position: 53
+    source_format: figure
+
+  - id: seg-054
+    text: "Financial services leads all other industries in GenAI implementation — 45% are already expanding and scaling production of use cases and another 36% are in active deployment."
+    type: statistic
+    section: "Ch1: Empowering everyone"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "Figure 2: Stage of GenAI implementation by industry — Financial services: 45% expanding, 36% deploying; Telecoms: 40% expanding, 36% deploying; Retail: 35% expanding, 42% deploying; Manufacturing: 34% expanding, 41% deploying; Healthcare: 23% expanding, 42% deploying; Energy: 16% expanding, 49% deploying; Government: 7% expanding, 50% deploying; Media: 4% expanding, 60% deploying."
+    type: statistic
+    section: "Ch1: Empowering everyone"
+    position: 55
+    source_format: figure
+
+  - id: seg-056
+    text: "In India, most companies (56%) are scaling up GenAI, relying on public and open-source models much more than organisations in other countries; in Japan just 6% are scaling up, reflecting the country's preference for more complex, customised models."
+    type: statistic
+    section: "Ch1: Empowering everyone"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "Risk management was a dominant strategic area in which AI as a whole is informing decisions at companies of all sizes, reported by 68%, followed by market entry (66%), and strategic sales and partnerships (66%)."
+    type: statistic
+    section: "Ch1: The right decision, faster"
+    position: 57
+    source_format: prose
+
+  - id: seg-058
+    text: "Larger companies are more likely to use AI for strategic decisions around product development (67%), hiring and workforce planning (67%), and investment and capital allocation (61%) compared with mid-size companies (55%, 53% and 48%, respectively)."
+    type: statistic
+    section: "Ch1: The right decision, faster"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "JetBlue has developed digital twins — ML-powered replicas of physical systems — to enhance predictive capabilities in an industry rife with unexpected disruptions from weather events to technical issues."
+    type: example
+    section: "Ch1: The right decision, faster"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "Mastercard uses GenAI to enhance and speed up card fraud detection — scanning a trillion data points globally to predict whether a transaction is genuine or not."
+    type: example
+    section: "Ch1: The right decision, faster"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "General Motors uses ML to analyse diagnostic data to predict issues before they become serious — anticipating if a vehicle battery on the production line will have problems so it can be removed and fixed before being installed in a car."
+    type: example
+    section: "Ch1: The right decision, faster"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "Mahindra Group uses AI to analyse publicly available and proprietary data to make lending decisions, creating credit scores that could promote financial inclusion."
+    type: example
+    section: "Ch1: The right decision, faster"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "Siam Commercial Bank used ML to reduce credit underwriting costs by 20%."
+    type: evidence
+    section: "Ch1: The right decision, faster"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "Unilever is embedding AI-driven intelligence into its decision-making process through the Horizon3 Lab for identifying and testing new AI concepts, and its Sky programme leveraging advanced analytics to optimise its product portfolio."
+    type: example
+    section: "Ch1: The right decision, faster"
+    position: 64
+    source_format: prose
+
+  - id: seg-065
+    text: "Whether in productivity or in prototyping, companies are picking their pilots carefully — Providence, a healthcare organisation, explains its approach of being 'very methodical and very intentional' to avoid the mindset of 'spray and pray'."
+    type: claim
+    section: "Ch1: A risk-graded approach"
+    position: 65
+    source_format: prose
+
+  - id: seg-066
+    text: "Many companies prefer internal-facing applications before releasing products to customers — TD Bank Group has deployed a GenAI chatbot for its call centre but has kept it internal."
+    type: evidence
+    section: "Ch1: A risk-graded approach"
+    position: 66
+    source_format: prose
+
+  - id: seg-067
+    text: "The US Department of Defense (DoD) draws a line between administrative and battlefield applications, with far higher stakes associated with decision support in warfare."
+    type: example
+    section: "Ch1: A risk-graded approach"
+    position: 67
+    source_format: prose
+
+  - id: seg-068
+    text: "\"Fewer than 20% of AI pilots end up in production. It requires a heap of experimentation in working out what's going to create value.\""
+    type: attribution
+    section: "Ch1: Test beds"
+    position: 68
+    source_format: quote
+
+  - id: seg-069
+    text: "\"There's no right answer, there's going to always be multiple answers ... start small, iterate, learn quickly, fail, get feedback, and keep moving forward.\""
+    type: attribution
+    section: "Ch1: Test beds"
+    position: 69
+    source_format: quote
+
+  - id: seg-070
+    text: "Accenture sees a distinction between 'table stakes' use cases (optimising customer contact centre operations, marketing functions, coding workflows) and 'strategic bets' representing more innovative and experimental use cases."
+    type: definition
+    section: "Ch1: Test beds"
+    position: 70
+    source_format: prose
+
+  - id: seg-071
+    text: "Sandbox environments are one mechanism for AI experimentation — HP today supports 75 private sandboxes for a variety of uses, all in the name of testing and exploring AI possibilities in a safe, secure and robust environment."
+    type: evidence
+    section: "Ch1: Test beds"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "Key takeaway: Take a stake-based approach to experimentation — firms are focusing on internal use-cases in lower-stakes domains as they ascend the maturation curve, and should focus on small, tightly scoped, problem-oriented projects."
+    type: recommendation
+    section: "Ch1: Key Takeaways"
+    position: 72
+    source_format: prose
+
+  - id: seg-073
+    text: "Key takeaway: Sandboxes and centralised oversight for pilots can help coordinate experiments — 'letting a hundred flowers bloom' could impede long-term coherence and governance of AI projects."
+    type: recommendation
+    section: "Ch1: Key Takeaways"
+    position: 73
+    source_format: prose
+
+  - id: seg-074
+    text: "Key takeaway: In a volatile world, AI can parse signal from noise — firms reliant on international supply chains and sensitive to economic and political headwinds are leaning on AI to inform decision-making."
+    type: recommendation
+    section: "Ch1: Key Takeaways"
+    position: 74
+    source_format: prose
+
+  # ============================================================
+  # CHAPTER 2: REWARDS AND RETURNS (pp. 19-26)
+  # ============================================================
+
+  - id: seg-075
+    text: "As AI spending soars, businesses are grappling with the challenge of balancing enthusiasm with disciplined investment strategies and realistic expectations for returns."
+    type: context
+    section: "Ch2: Rewards and Returns"
+    position: 75
+    source_format: prose
+
+  - id: seg-076
+    text: "Internal operational improvements have been the initial focus, but companies are now shifting towards external AI applications that could drive significant revenue growth and unlock value from previously untapped data sources."
+    type: claim
+    section: "Ch2: Rewards and Returns"
+    position: 76
+    source_format: prose
+
+  - id: seg-077
+    text: "A 2024 Goldman Sachs research note cautioned that the US$1trn of expected spending on GenAI might risk running ahead of the revenue prospects — the C-suite executives interviewed for this report regard the questioning of GenAI's value proposition as welcome, and part of a natural cycle."
+    type: context
+    section: "Ch2: Rational exuberance?"
+    position: 77
+    source_format: prose
+
+  - id: seg-078
+    text: "Revenue growth has been the least important metric for AI investment to date, with only 19% of respondents agreeing that it has significantly contributed to the investment case."
+    type: statistic
+    section: "Ch2: Rational exuberance?"
+    position: 78
+    source_format: prose
+
+  - id: seg-079
+    text: "Figure 4: Revenue growth is not yet a leading driver of AI investment decisions — top metrics: Sustainability/ESG (39% very helpful, 35% helpful), Scope of AI use (29%, 42%), Long-term strategic impact (24%, 47%), New business models/products (33%, 34%), Customer engagement (25%, 41%), Brand equity (20%, 44%), Cost savings (20%, 40%), Reduction of errors/risks (20%, 37%), Employee productivity (20%, 37%), Revenue growth (19%, 37%)."
+    type: statistic
+    section: "Ch2: Rational exuberance?"
+    position: 79
+    source_format: figure
+
+  - id: seg-080
+    text: "Executives are focused on the long-term view — Alphabet CEO Sundar Pichai said that the risk of underinvesting in AI was 'dramatically greater' than overinvesting; Microsoft, Alphabet, Amazon and Meta are expected to incur more than US$200bn in capital expenditure in 2024, most of which is to build AI infrastructure."
+    type: context
+    section: "Ch2: Rational exuberance?"
+    position: 80
+    source_format: prose
+
+  - id: seg-081
+    text: "Investors expect AI to shift from a 'tell me' to a 'show me' story, with current disconnects between investments and revenue generation to come under increased scrutiny — this may be years away, not quarters."
+    type: claim
+    section: "Ch2: Rational exuberance?"
+    position: 81
+    source_format: prose
+
+  - id: seg-082
+    text: "Six in ten enterprise architects are increasing their reliance on cloud services for AI, with a shift towards multi-cloud environments for just over a third."
+    type: statistic
+    section: "Ch2: Rational exuberance?"
+    position: 82
+    source_format: prose
+
+  - id: seg-083
+    text: "Deployment plans show that companies will turn outwards over the next three years, shifting from internal purposes like operational improvement to external use cases — by 2027, 99% of executives expect GenAI adoption across both internal and external use cases."
+    type: statistic
+    section: "Ch2: Rational exuberance?"
+    position: 83
+    source_format: prose
+
+  - id: seg-084
+    text: "37% of respondents are starting to see more benefits from external rather than internal use cases, noteworthy given that only 24% of organisations allocate the majority of their investment to external use cases."
+    type: statistic
+    section: "Ch2: Rational exuberance?"
+    position: 84
+    source_format: prose
+
+  - id: seg-085
+    text: "Growth and revenue will come for companies that can extract the most value from their data — unstructured data has historically been challenging to process, manage and use, but offers immense value."
+    type: claim
+    section: "Ch2: Data intelligence"
+    position: 85
+    source_format: prose
+
+  - id: seg-086
+    text: "Companies report a flywheel effect: continual insights harnessed from data, using AI, in turn allows them to constantly improve products and services."
+    type: claim
+    section: "Ch2: Data intelligence"
+    position: 86
+    source_format: prose
+
+  - id: seg-087
+    text: "McKinsey reckons that more than US$3trn in economic value globally could be generated through the enhanced use of open data."
+    type: statistic
+    section: "Ch2: Data intelligence"
+    position: 87
+    source_format: prose
+
+  - id: seg-088
+    text: "The US DoD has been able to tap into its vast proprietary data to process over 10 million payment records, allowing it to identify and take action on US$12.7bn in improper payments since 2020."
+    type: evidence
+    section: "Ch2: Data intelligence"
+    position: 88
+    source_format: prose
+
+  - id: seg-089
+    text: "Organisations need to develop frameworks for establishing investment returns and justifying spend — the largest companies rely heavily on tracking KPIs and conducting post-impact or post-deployment evaluations."
+    type: recommendation
+    section: "Ch2: Measuring tangible gains from AI"
+    position: 89
+    source_format: prose
+
+  - id: seg-090
+    text: "\"It cannot be technology for the sake of technology; it has to be tied to value and impact for the organisation\" — Jon Francis, chief data and analytics officer, General Motors."
+    type: claim
+    section: "Ch2: Measuring tangible gains from AI"
+    position: 90
+    source_format: prose
+
+  - id: seg-091
+    text: "\"There is no such thing as a technology strategy. There's only a business strategy that technology supports.\""
+    type: attribution
+    section: "Ch2: Measuring tangible gains from AI"
+    position: 91
+    source_format: quote
+
+  - id: seg-092
+    text: "Opendoor executives determined that productivity should not be the central ROI measure, instead focusing on top-line growth and improved consumer experience."
+    type: evidence
+    section: "Ch2: Measuring tangible gains from AI"
+    position: 92
+    source_format: prose
+
+  - id: seg-093
+    text: "Defining ROI requires identifying objectives and establishing realistic timelines for achieving them — many executives expect short-term performances and results, but AI is very hard to institutionalise over the short-term; you need to think over a three-year timeline."
+    type: claim
+    section: "Ch2: The virtue of patience"
+    position: 93
+    source_format: prose
+
+  - id: seg-094
+    text: "\"A significant challenge lies in the fact that the monetisation and business models for value creation through GenAI are still not well established — there is uncertainty about whether to invest in general-purpose LLMs or specialised smaller LLMs, and unclear ROI at this stage.\""
+    type: claim
+    section: "Ch2: The virtue of patience"
+    position: 94
+    source_format: prose
+
+  - id: seg-095
+    text: "Some algorithms currently used by Dream Sports initially produced negative business metrics — the product and finance teams were nervous, but persistence and education paid off."
+    type: evidence
+    section: "Ch2: The virtue of patience"
+    position: 95
+    source_format: prose
+
+  - id: seg-096
+    text: "In regulated sectors like pharmaceuticals, AI may take five to ten years to determine effectiveness once a product's safety is confirmed."
+    type: claim
+    section: "Ch2: The virtue of patience"
+    position: 96
+    source_format: prose
+
+  - id: seg-097
+    text: "Key takeaway: Productivity and efficiency gains are early, measurable wins, but true leaders will seek more ambitious returns — revenue, talent attraction, and novel products and services are among the loftier targets."
+    type: recommendation
+    section: "Ch2: Key Takeaways"
+    position: 97
+    source_format: prose
+
+  - id: seg-098
+    text: "Key takeaway: Organisations must strike a fine balance between business returns and the time to achieve true value — experimentation takes time, some projects will inevitably fail, and firms need an initial runway to upgrade their data infrastructure."
+    type: recommendation
+    section: "Ch2: Key Takeaways"
+    position: 98
+    source_format: prose
+
+  # ============================================================
+  # CHAPTER 3: THE INFRASTRUCTURE REFIT (pp. 27-35)
+  # ============================================================
+
+  - id: seg-099
+    text: "As organisations harness AI's potential, they face a critical challenge: their data infrastructure is woefully unprepared, akin to having Victorian-era plumbing in a modern building — silos, latency and security are all inhibitors for AI deployment."
+    type: claim
+    section: "Ch3: The Infrastructure Refit"
+    position: 99
+    source_format: prose
+
+  - id: seg-100
+    text: "One of the biggest shifts in the AI era is not the power of the models themselves, but the underlying plumbing needed to deliver them at scale — many of the world's largest companies are sitting on the technological equivalent of Victorian-era pipes that cannot handle the demands of AI."
+    type: claim
+    section: "Ch3: The Infrastructure Refit"
+    position: 100
+    source_format: prose
+
+  - id: seg-101
+    text: "Only 22% of organisations say their current architecture is fully capable of supporting the unique demands of AI workloads, and just 23% say their current architecture fully integrates AI applications to relevant business data."
+    type: statistic
+    section: "Ch3: The Infrastructure Refit"
+    position: 101
+    source_format: prose
+
+  - id: seg-102
+    text: "Even among the largest companies surveyed, these rates only rise to 28% and 27%, respectively."
+    type: statistic
+    section: "Ch3: The Infrastructure Refit"
+    position: 102
+    source_format: prose
+
+  - id: seg-103
+    text: "Only 37% of executives and even fewer practitioners (29%) believe that GenAI applications at their organisations are production ready."
+    type: statistic
+    section: "Ch3: The Infrastructure Refit"
+    position: 103
+    source_format: prose
+
+  - id: seg-104
+    text: "As much as 90% of data collected by organisations is unstructured and therefore unfit for warehousing — as ML and AI advanced, unstructured data came to be seen as ever more valuable."
+    type: statistic
+    section: "Ch3: The Infrastructure Refit"
+    position: 104
+    source_format: prose
+
+  - id: seg-105
+    text: "Data lakes emerged as an alternative to store both structured and unstructured data, but led to fragmentation between lakes and warehouses — silos, patchy support, and incompatible security models made it harder for companies to utilise data effectively."
+    type: context
+    section: "Ch3: The Infrastructure Refit"
+    position: 105
+    source_format: prose
+
+  - id: seg-106
+    text: "Over time, the data lakehouse emerged, combining aspects of both lakes and warehouses, built on open-source software using open standards."
+    type: definition
+    section: "Ch3: The Infrastructure Refit"
+    position: 106
+    source_format: prose
+
+  - id: seg-107
+    text: "Speed is the primary architecture constraint organisations plan to address: real-time data processing voted the top capacity gap by 47% of respondents, followed by robust data pipelines (42%) and security (39%)."
+    type: statistic
+    section: "Ch3: The Infrastructure Refit"
+    position: 107
+    source_format: prose
+
+  - id: seg-108
+    text: "Figure 7: Architecture limitations — Real-time data processing: 47%; Robust data pipelines: 42%; Security: 39%; Integration with downstream systems: 33%; Ethical AI/safety/bias detection: 33%; Efficient model hosting: 31%; Efficient model training: 25%; Scalable compute: 24%."
+    type: statistic
+    section: "Ch3: The Infrastructure Refit"
+    position: 108
+    source_format: figure
+
+  - id: seg-109
+    text: "Finding the right infrastructure can become more difficult as companies get bigger — diversified companies with individual business units must determine where the data go, balancing centralisation with flexibility."
+    type: claim
+    section: "Ch3: Diseconomies of scale"
+    position: 109
+    source_format: prose
+
+  - id: seg-110
+    text: "Mahindra Group's car company uses a data mesh to store driver relevant information such as journey history separately from manufacturing data, while allowing the two datasets to be combined if needed."
+    type: example
+    section: "Ch3: Diseconomies of scale"
+    position: 110
+    source_format: prose
+
+  - id: seg-111
+    text: "Start-ups and digital native companies are not free from infrastructure challenges — Dream Sports was still querying production databases for reporting needs several years after founding and only set up a data store once the company had found product-market fit."
+    type: evidence
+    section: "Ch3: Diseconomies of scale"
+    position: 111
+    source_format: prose
+
+  - id: seg-112
+    text: "Rivian has integrated information from across its complex systems, including supply chain, commercial operations and financial departments, into a unified environment, enabling data-driven decision-making at all levels of the organisation."
+    type: example
+    section: "Ch3: Diseconomies of scale"
+    position: 112
+    source_format: prose
+
+  - id: seg-113
+    text: "Retrieval Augmented Generation (RAG) is the process through which an LLM checks the answer it has generated against an external source and then refines it — when building their own LLMs, organisations supply internal data as the authoritative source, but this data must be cleaned and prepared for ML."
+    type: definition
+    section: "Ch3: Diseconomies of scale"
+    position: 113
+    source_format: prose
+
+  - id: seg-114
+    text: "In their rush to embrace GenAI, many companies are building and maintaining duplicates of data or systems to clean and prepare data, adding further complexity to already complicated data infrastructure."
+    type: claim
+    section: "Ch3: Diseconomies of scale"
+    position: 114
+    source_format: prose
+
+  - id: seg-115
+    text: "\"You can have all the AI in the world, but if it's on a shaky data foundation, then it's not going to bring you any value.\""
+    type: attribution
+    section: "Ch3: Getting data right"
+    position: 115
+    source_format: quote
+
+  - id: seg-116
+    text: "Enterprise architects identified security, data privacy and data silos as the three biggest challenges faced when managing data for AI applications."
+    type: statistic
+    section: "Ch3: Getting data right"
+    position: 116
+    source_format: prose
+
+  - id: seg-117
+    text: "Figure 8: Data gatekeeping challenges — Controlling who can access data: 49%; Protecting privacy and sensitive information: 42%; Dealing with data silos and lack of integration: 38%; Keeping track of data provenance: 31%; Lack of dedicated resources for data management: 31%; Meeting regulatory compliance: 26%; Ensuring data quality, diversity and representativeness: 25%; Consistent data management across platforms: 25%; Handling large volumes of data efficiently: 19%."
+    type: statistic
+    section: "Ch3: Getting data right"
+    position: 117
+    source_format: figure
+
+  - id: seg-118
+    text: "61% of enterprise architects are increasing their reliance on cloud services to support AI workloads, with a trend towards multi-cloud solutions among 37%, based on factors including control, security, data ownership, compliance and cost."
+    type: statistic
+    section: "Ch3: Getting data right"
+    position: 118
+    source_format: prose
+
+  - id: seg-119
+    text: "Data engineers identified 'simplifying data source connections for ingesting data', 'using a single unified solution instead of multiple tools' and 'better visibility into data pipelines to find and fix issues' as the top interventions for productivity."
+    type: evidence
+    section: "Ch3: Getting data right"
+    position: 119
+    source_format: prose
+
+  - id: seg-120
+    text: "GenAI stands out among other uses of data in the technology arsenal for how much upkeep and maintenance it requires — LLMs suffer from model drift over time, as the information they were trained on becomes dated and their performance deteriorates."
+    type: claim
+    section: "Ch3: The burden of housekeeping"
+    position: 120
+    source_format: prose
+
+  - id: seg-121
+    text: "Upkeep comes in at least three forms: datasets must be constantly validated for completeness, recency and validity; external data sources used by LLMs must be regularly updated; and the models themselves must be constantly tested for efficacy."
+    type: recommendation
+    section: "Ch3: The burden of housekeeping"
+    position: 121
+    source_format: prose
+
+  - id: seg-122
+    text: "Very large firms (revenue over US$10bn) are more likely than others to use ML to detect data anomalies; 'leaders' — companies with production-ready GenAI tools — are also more likely than others to use AI to assess the data."
+    type: evidence
+    section: "Ch3: The burden of housekeeping"
+    position: 122
+    source_format: prose
+
+  - id: seg-123
+    text: "UPS uses a data mesh to classify data and analytics tools that allow both data scientists and business teams to engage in machine learning operations (MLOps)."
+    type: example
+    section: "Ch3: The burden of housekeeping"
+    position: 123
+    source_format: prose
+
+  - id: seg-124
+    text: "Key takeaway: Only a fifth of organisations have an architecture fully capable of supporting AI workloads — real-time data processing is one high-value capability that can only be delivered with an infrastructure refit."
+    type: recommendation
+    section: "Ch3: Key Takeaways"
+    position: 124
+    source_format: prose
+
+  - id: seg-125
+    text: "Key takeaway: Size or digital savvy is no predictor of success in infrastructure transformation — large companies have more complex decisions to make around centralisation and devolution, and digital native firms may have more complex tooling environments."
+    type: claim
+    section: "Ch3: Key Takeaways"
+    position: 125
+    source_format: prose
+
+  - id: seg-126
+    text: "Key takeaway: AI needs housekeeping — datasets must be constantly validated and checked for completeness, recency and validity; quality assurance should be applied across data pipelines; external data sources must be regularly updated; and models must be constantly tested for efficacy."
+    type: recommendation
+    section: "Ch3: Key Takeaways"
+    position: 126
+    source_format: prose
+
+  # ============================================================
+  # PRACTITIONER PERSPECTIVES (pp. 34-35)
+  # ============================================================
+
+  - id: seg-127
+    text: "The role of a data and AI architect is complex, challenging and crucial in today's technology-driven organisations — Gregor Hohpe defined a software architect as 'a technical leader who thrives on complexity but insists on simplicity'."
+    type: context
+    section: "Practitioner perspectives: Enterprise architects"
+    position: 127
+    source_format: prose
+
+  - id: seg-128
+    text: "Architects are charged with the design, implementation, and oversight of a scalable and secure data and AI architecture, requiring a deep understanding of current and emerging technologies."
+    type: definition
+    section: "Practitioner perspectives: Enterprise architects"
+    position: 128
+    source_format: prose
+
+  - id: seg-129
+    text: "Only 22% of organisations have architectures that fully support AI workloads without modifications, and only 23% can connect AI applications to relevant business data without changes — architects are tasked with bridging this gap."
+    type: claim
+    section: "Practitioner perspectives: Enterprise architects"
+    position: 129
+    source_format: prose
+
+  - id: seg-130
+    text: "Key capability gaps include real-time data processing (identified by nearly half, 47%); other concerns include data privacy and security breaches; to strengthen governance, architects are focusing on implementing custom APIs (58%), human-in-the-loop processes (55%) and integrating ML models into familiar data tools (52%)."
+    type: statistic
+    section: "Practitioner perspectives: Enterprise architects"
+    position: 130
+    source_format: prose
+
+  - id: seg-131
+    text: "Natural language processing (NLP) is at the forefront of democratisation, with 58% of architects believing it will become the primary (or only) tool in data pipeline creation; 67% say the same about workflow development, and 52% about report generation."
+    type: statistic
+    section: "Practitioner perspectives: Enterprise architects"
+    position: 131
+    source_format: prose
+
+  - id: seg-132
+    text: "Nearly two-thirds of organisations are fully dependent on data engineers for every aspect of data pipeline creation and management, and almost half of data engineers spend most of their time configuring and fixing data source connections."
+    type: statistic
+    section: "Practitioner perspectives: Data engineers"
+    position: 132
+    source_format: prose
+
+  - id: seg-133
+    text: "Data engineers face significant burnout and fatigue given the number of data sources and tools required to configure usable data pipelines."
+    type: claim
+    section: "Practitioner perspectives: Data engineers"
+    position: 133
+    source_format: prose
+
+  - id: seg-134
+    text: "At the top of the wish list for most data and AI teams are simplified data source connections, integrated GenAI tools for coding assistance, and unified platforms to reduce reliance on disparate systems."
+    type: evidence
+    section: "Practitioner perspectives: Data engineers"
+    position: 134
+    source_format: prose
+
+  - id: seg-135
+    text: "Architects are placing significant bets on real-time data processing and robust data pipelines, with nearly 75% identifying one of these as a critical goal."
+    type: statistic
+    section: "Practitioner perspectives: Data engineers"
+    position: 135
+    source_format: prose
+
+  - id: seg-136
+    text: "46% of companies are migrating a significant number of batch pipelines to real-time streams in the last year alone."
+    type: statistic
+    section: "Practitioner perspectives: Data engineers"
+    position: 136
+    source_format: prose
+
+  # ============================================================
+  # CHAPTER 4: FIND YOUR EDGE (pp. 36-41)
+  # ============================================================
+
+  - id: seg-137
+    text: "As foundation models become commoditised, usage will be a baseline, not a boost — each company must find their edge: their unique recipe of data, need and know-how."
+    type: claim
+    section: "Ch4: Find Your Edge"
+    position: 137
+    source_format: prose
+
+  - id: seg-138
+    text: "Two-thirds of organisations see significant potential in integrating GenAI models with their own proprietary data — most will mix and match based on workflows and needs."
+    type: statistic
+    section: "Ch4: Mix and match"
+    position: 138
+    source_format: prose
+
+  - id: seg-139
+    text: "58% of data scientists augment their LLMs with proprietary data through RAG, while 45% use LLMs off the shelf without connecting to their data; 21% do both."
+    type: statistic
+    section: "Ch4: Mix and match"
+    position: 139
+    source_format: prose
+
+  - id: seg-140
+    text: "Figure 10: Building and enhancing LLMs with enterprise data — Augmenting with enterprise/proprietary data (e.g. RAG): 58%; Fine-tuning parameters with enterprise data: 49%; Using LLM as-is without contextual enterprise data: 45%; Pre-training from scratch using enterprise data: 35%; Other (synthetic data, novel tools): 8%."
+    type: statistic
+    section: "Ch4: Mix and match"
+    position: 140
+    source_format: figure
+
+  - id: seg-141
+    text: "\"Most of the value that you see on AI is buried in the bottom. The top is immediate benefits like productivity, but that's the starting point. You've not gone into your core value chain, that's when you go beneath the iceberg. That is where your proprietary data is.\""
+    type: claim
+    section: "Ch4: Mix and match"
+    position: 141
+    source_format: quote
+
+  - id: seg-142
+    text: "Financial services respondents were by far the most likely to recognise significant potential in integrating GenAI models with proprietary data, with 80% agreeing."
+    type: statistic
+    section: "Ch4: Mix and match"
+    position: 142
+    source_format: prose
+
+  - id: seg-143
+    text: "A hybrid approach of utilising both open- and closed-source AI is a common strategy — 75% of organisations employ open- and closed-source models based on industry-specific factors, and 89% will do so by 2027."
+    type: statistic
+    section: "Ch4: Choosing models"
+    position: 143
+    source_format: prose
+
+  - id: seg-144
+    text: "Closed-source models are typically deployed for internal applications, while open-source models are increasingly used by those expanding into external use-cases."
+    type: claim
+    section: "Ch4: Choosing models"
+    position: 144
+    source_format: prose
+
+  - id: seg-145
+    text: "Reasons for open-source adoption: greater development transparency tops the list at 52%, followed by access to community resources, opportunity for proprietary IP development, mitigation of vendor lock-in, and greater customisation, privacy and security control."
+    type: statistic
+    section: "Ch4: Choosing models"
+    position: 145
+    source_format: prose
+
+  - id: seg-146
+    text: "Superior performance was the leading reason to choose closed-source models at 59%, followed by user-friendly interfaces and documentation, exclusive features, and seamless integration with existing proprietary systems."
+    type: statistic
+    section: "Ch4: Choosing models"
+    position: 146
+    source_format: prose
+
+  - id: seg-147
+    text: "Relatively few companies see merit in developing their own LLM from scratch."
+    type: claim
+    section: "Ch4: Choosing models"
+    position: 147
+    source_format: prose
+
+  - id: seg-148
+    text: "Accenture helps organisations through its 'switchboard' — a proprietary tool set and framework enabling organisations to decide which models to use based on business use case, relevance, cost, accuracy and latency."
+    type: example
+    section: "Ch4: Choosing models"
+    position: 148
+    source_format: prose
+
+  - id: seg-149
+    text: "Companies and organisations have access to the best fuel for AI models: the right and most relevant data, not merely data sourced from the open internet — Dream Sports found third-party LLMs ineffective because the company's language is too specific."
+    type: evidence
+    section: "Ch4: Choosing models"
+    position: 149
+    source_format: prose
+
+  - id: seg-150
+    text: "Higher quality internal data improves the efficiency and performance of models — Rakuten built a deep learning foundation and embeddings using far less processing power because it trains them based on transaction data from its e-commerce site."
+    type: evidence
+    section: "Ch4: Choosing models"
+    position: 150
+    source_format: prose
+
+  - id: seg-151
+    text: "Shell is adapting foundational models to work on internal data and also developing its own models by pre-training or fine-tuning LLMs to minimise hallucination risk."
+    type: example
+    section: "Ch4: Choosing models"
+    position: 151
+    source_format: prose
+
+  - id: seg-152
+    text: "\"In the future, the market will move to the use of small private LLMs. But GenAI is a new technology. We still need to learn how to launch and put initiatives into production in an agile way.\""
+    type: claim
+    section: "Ch4: Choosing models"
+    position: 152
+    source_format: quote
+
+  - id: seg-153
+    text: "Key takeaway: To unlock value and find their edge, companies will mix and match off-the-shelf AI with open-source and in-house models — AI will soon be a baseline capability; the organisations that excel will mix and match models to complement their unique data and know-how."
+    type: recommendation
+    section: "Ch4: Key Takeaways"
+    position: 153
+    source_format: prose
+
+  - id: seg-154
+    text: "Key takeaway: AI promises to unlock proprietary data that was hitherto hidden or dormant — off-the-shelf AI will be useful for low-cost tinkering and lower-value outputs; for true value creation, companies will combine open- and closed-source models."
+    type: recommendation
+    section: "Ch4: Key Takeaways"
+    position: 154
+    source_format: prose
+
+  # ============================================================
+  # CHAPTER 5: GUARDRAILS AND GOVERNANCE (pp. 42-49)
+  # ============================================================
+
+  - id: seg-155
+    text: "As AI becomes ubiquitous, organisations face a complex web of risks, from data breaches to regulatory compliance — companies are developing multifaceted governance approaches, from centres of excellence to human-in-the-loop guardrails to innovative technical solutions like synthetic data and RAG."
+    type: context
+    section: "Ch5: Guardrails and Governance"
+    position: 155
+    source_format: prose
+
+  - id: seg-156
+    text: "Data security and governance had already become board-level priorities over the last decade as cybersecurity attacks and regulatory punishments have grown more severe."
+    type: context
+    section: "Ch5: Guardrails and Governance"
+    position: 156
+    source_format: prose
+
+  - id: seg-157
+    text: "Data privacy and security breaches are the top concern for 53% of enterprise architects, while security and governance are the most challenging aspects of data engineering for engineers (cited by 50% as a top-three challenge)."
+    type: statistic
+    section: "Ch5: Guardrails and Governance"
+    position: 157
+    source_format: prose
+
+  - id: seg-158
+    text: "A 2024 tracker estimated a total of 762 AI legislation documents across 45 states in the US alone."
+    type: statistic
+    section: "Ch5: Guardrails and Governance"
+    position: 158
+    source_format: prose
+
+  - id: seg-159
+    text: "Effective AI governance at an organisation encompasses three components: building guardrails for what you can and can't do; building mechanisms that enforce those guardrails; and having dedicated data governance functioning as a compliance function ensuring audit and transparency."
+    type: definition
+    section: "Ch5: Guardrails and Governance"
+    position: 159
+    source_format: prose
+
+  - id: seg-160
+    text: "Synthetic data, generated using a purpose-built mathematical model or algorithm, can help solve data science tasks — it can improve performance and reliability by providing a larger volume of more diverse data for training, such as including underrepresented data classes."
+    type: definition
+    section: "Ch5: Guardrails and Governance"
+    position: 160
+    source_format: prose
+
+  - id: seg-161
+    text: "Synthetic data remains an untapped resource, with only 7.5% of data scientists utilising it in their GenAI projects."
+    type: statistic
+    section: "Ch5: Guardrails and Governance"
+    position: 161
+    source_format: prose
+
+  - id: seg-162
+    text: "RAG is another useful technique to control quality and enrich knowledge — Rakuten's GenAI models retrieve real-time inventory and pricing information to incorporate the latest information into applications such as search, recommendation systems, and adverts."
+    type: example
+    section: "Ch5: Guardrails and Governance"
+    position: 162
+    source_format: prose
+
+  - id: seg-163
+    text: "Fanatics Betting & Gaming uses AI and GenAI models to detect and enhance governance issues related to responsible gaming — nudging users with excessive spend into free-to-play games or encouraging them to take a timeout."
+    type: example
+    section: "Ch5: Guardrails and Governance"
+    position: 163
+    source_format: prose
+
+  - id: seg-164
+    text: "40% of respondents acknowledged that their organisation's processes to ensure AI safety and compliance are insufficient."
+    type: statistic
+    section: "Ch5: Centres of excellence"
+    position: 164
+    source_format: prose
+
+  - id: seg-165
+    text: "Figure 13: Governance sufficiency by region — India (35% strongly agree), US (29% strongly agree), UK (24% strongly agree), South Korea (21% strongly agree), France (20%), Germany (20%), ASEAN (20%), Japan (12%), Australia (14%)."
+    type: statistic
+    section: "Ch5: Centres of excellence"
+    position: 165
+    source_format: figure
+
+  - id: seg-166
+    text: "Centres of Excellence (COEs) are emerging as a popular approach to achieving systematic AI oversight — they have become key enablers of AI-driven insights and use cases within organisations."
+    type: claim
+    section: "Ch5: Centres of excellence"
+    position: 166
+    source_format: prose
+
+  - id: seg-167
+    text: "COEs monitor, implement and share best practices for implementation across departments and business units; they also foster exploration and innovation for building and operationalising AI."
+    type: definition
+    section: "Ch5: Centres of excellence"
+    position: 167
+    source_format: prose
+
+  - id: seg-168
+    text: "COEs are not just brakes on AI — they can be a 'forcing function' for AI delivery across the enterprise, bringing together departments from HR and legal to tech teams to unlock potential."
+    type: claim
+    section: "Ch5: Centres of excellence"
+    position: 168
+    source_format: prose
+
+  - id: seg-169
+    text: "Shell's Analytics COE brings together multi-faceted teams and supports a community of hundreds of data scientists and thousands of 'AI enthusiasts'."
+    type: example
+    section: "Ch5: Centres of excellence"
+    position: 169
+    source_format: prose
+
+  - id: seg-170
+    text: "Technically, COEs develop, 'productionise' and monitor AI models with a lens on business impact and returns — they oversee core operations including data and ML, and seek architecture and infrastructure optimisations for operational efficiencies."
+    type: claim
+    section: "Ch5: Centres of excellence"
+    position: 170
+    source_format: prose
+
+  - id: seg-171
+    text: "\"With GenAI, there is an opportunity to revisit an entire business process and reimagine what it could be. It encourages leaders to challenge past decisions and accept that there may be a newer, better way.\""
+    type: claim
+    section: "Ch5: Centres of excellence"
+    position: 171
+    source_format: quote
+
+  - id: seg-172
+    text: "Many business leaders emphasise that AI adoption will not lead to layoffs — AI means more efficiency in business, which means we can create more stories, not by automating mundane tasks but by doing more with the number of people we have."
+    type: claim
+    section: "Ch5: Calibrating humans and machines"
+    position: 172
+    source_format: prose
+
+  - id: seg-173
+    text: "As mass AI adoption takes hold, there will be more demand for specialised roles like data scientists, developers and MLOps experts — workers who acquire AI skills see wages rise by an average of 21%."
+    type: statistic
+    section: "Ch5: Calibrating humans and machines"
+    position: 173
+    source_format: prose
+
+  - id: seg-174
+    text: "One 2030 forecast estimates that 375 million workers may need to switch occupations as their line of work is disrupted by digitalisation, automation and AI."
+    type: statistic
+    section: "Ch5: Calibrating humans and machines"
+    position: 174
+    source_format: prose
+
+  - id: seg-175
+    text: "Only one in six firms are confident in their ability to attract the expertise needed to take full advantage of AI technologies — those who succeed are deploying AI at a much faster rate."
+    type: statistic
+    section: "Ch5: Calibrating humans and machines"
+    position: 175
+    source_format: prose
+
+  - id: seg-176
+    text: "More than 97% of enterprise architects predict that NLP will either supplement or replace traditional methods for pipeline creation and workflow orchestration."
+    type: statistic
+    section: "Ch5: Calibrating humans and machines"
+    position: 176
+    source_format: prose
+
+  - id: seg-177
+    text: "Unilever has trained almost 20,000 people in the use of GenAI — a vital step for a company operating in a dynamic sector where demand for new skills and competencies is rising."
+    type: evidence
+    section: "Ch5: Calibrating humans and machines"
+    position: 177
+    source_format: prose
+
+  - id: seg-178
+    text: "Some firms are embedding AI tools into office software to ease workloads — Rivian's 'North Star is to democratise data' so everyone at the company should be able to leverage data that drives decisions without being a data engineer or data scientist."
+    type: example
+    section: "Ch5: Calibrating humans and machines"
+    position: 178
+    source_format: prose
+
+  - id: seg-179
+    text: "The Repsol Artificial Intelligence Products programme hands employees the keys to AI, letting them tackle complex data tasks solo, without technical knowledge — tools promise autonomy and agility, turning its workforce into 'citizen data scientists'."
+    type: example
+    section: "Ch5: Calibrating humans and machines"
+    position: 179
+    source_format: prose
+
+  - id: seg-180
+    text: "The biggest data management challenges identified by architects include controlling data access (49%) and protecting sensitive data (42%)."
+    type: statistic
+    section: "Ch5: Calibrating humans and machines"
+    position: 180
+    source_format: prose
+
+  - id: seg-181
+    text: "Human judgement will remain critical for monitoring AI's outputs, and companies must calibrate the right mix of people and machines — two-thirds of organisations say they are actively experimenting to find the right balance between humans and AI, and 80% say these efforts could be stronger."
+    type: claim
+    section: "Ch5: Calibrating humans and machines"
+    position: 181
+    source_format: prose
+
+  - id: seg-182
+    text: "\"Individuals using GenAI must have the ability to independently evaluate its outputs and handle them responsibly.\""
+    type: claim
+    section: "Ch5: Calibrating humans and machines"
+    position: 182
+    source_format: quote
+
+  - id: seg-183
+    text: "In sensitive sectors with high-risk profiles and low risk appetites, computer-generated errors will often provoke strong negative perceptions — tolerance for errors and disparities in AI is understandably lower compared with tolerance for human professionals."
+    type: claim
+    section: "Ch5: Calibrating humans and machines"
+    position: 183
+    source_format: prose
+
+  - id: seg-184
+    text: "Key takeaway: Data innovations enhance AI governance — techniques like synthetic data and RAG help organisations address data limitations, reduce bias and improve AI system quality."
+    type: recommendation
+    section: "Ch5: Key Takeaways"
+    position: 184
+    source_format: prose
+
+  - id: seg-185
+    text: "Key takeaway: Centres of Excellence (COEs) drive systematic AI oversight — COEs act as central control units for AI implementation, monitoring best practices and fostering innovation across departments."
+    type: recommendation
+    section: "Ch5: Key Takeaways"
+    position: 185
+    source_format: prose
+
+  - id: seg-186
+    text: "Key takeaway: Balancing human expertise with AI capabilities is crucial — organisations are focusing on upskilling employees and creating self-service AI tools to democratise data usage, but human judgement remains critical for monitoring AI outputs and handling sensitive data."
+    type: recommendation
+    section: "Ch5: Key Takeaways"
+    position: 186
+    source_format: prose
+
+  # ============================================================
+  # CONCLUSION (pp. 50-51)
+  # ============================================================
+
+  - id: seg-187
+    text: "Internal use cases and pilots are the necessary testing ground — experts advocate internal use cases initially, through sandboxes and iteration; pilot selection should be determined by risk thresholds, to solve clear problems and within well-defined scopes."
+    type: recommendation
+    section: "Conclusion"
+    position: 187
+    source_format: prose
+
+  - id: seg-188
+    text: "Fixing the plumbing: to build a robust data and technical foundation, companies need to invest in an infrastructure refit to support high-volume, varied data — the rigid data storage systems of yesteryear cannot manage the diversity of data, real-time usage and wider utilisation in this more democratised era."
+    type: recommendation
+    section: "Conclusion"
+    position: 188
+    source_format: prose
+
+  - id: seg-189
+    text: "Larger companies and conglomerates especially must decide the right balance between centralisation and devolution as they look to harness cloud platforms."
+    type: recommendation
+    section: "Conclusion"
+    position: 189
+    source_format: prose
+
+  - id: seg-190
+    text: "AI needs KPIs — to avoid profligate spending and the inevitable trough of disillusionment, companies need to develop intelligent ROI metrics and a disciplined approach to spending."
+    type: recommendation
+    section: "Conclusion"
+    position: 190
+    source_format: prose
+
+  - id: seg-191
+    text: "Productivity, cost control, revenue per worker, user experience and reduced staff burnout are all meaningful metrics — the most successful will use AI to drive new revenue streams and business model innovation."
+    type: recommendation
+    section: "Conclusion"
+    position: 191
+    source_format: prose
+
+  - id: seg-192
+    text: "Use flexible timeframes for achieving returns — KPIs and metrics matter, but companies should not necessarily seek quick returns; experiments involve wrong turns and tinkering."
+    type: recommendation
+    section: "Conclusion"
+    position: 192
+    source_format: prose
+
+  - id: seg-193
+    text: "Companies in heavily regulated sectors like healthcare have to operate within structured systems of regulatory oversight — there is also merit in 'watchful waiting' as the AI product and service ecosystem evolves."
+    type: claim
+    section: "Conclusion"
+    position: 193
+    source_format: prose
+
+  - id: seg-194
+    text: "Use a mix of models to sharpen your edge: in-house data and organisational know-how — in highly specialised industries, off-the-shelf models will fall short of quality and compliance requirements."
+    type: recommendation
+    section: "Conclusion"
+    position: 194
+    source_format: prose
+
+  - id: seg-195
+    text: "Companies can mix and match open- and closed-source AI, and private or public cloud, based on performance, governance, cost and capacity, to find the right blend."
+    type: recommendation
+    section: "Conclusion"
+    position: 195
+    source_format: prose
+
+  - id: seg-196
+    text: "Establish robust governance frameworks — organisations need clear guidelines, protocols and oversight mechanisms, and institutional innovations like Centres of Excellence (COEs), to manage AI deployment and mitigate potential risks."
+    type: recommendation
+    section: "Conclusion"
+    position: 196
+    source_format: prose
+
+  - id: seg-197
+    text: "COEs can also be a forcing function for improving co-ordination and coherence overall — technical innovations like synthetic data and RAG can also strengthen model performance."
+    type: claim
+    section: "Conclusion"
+    position: 197
+    source_format: prose
+
+  - id: seg-198
+    text: "It is crucial to recognise the importance of human oversight of AI systems, especially in high-stakes domains."
+    type: recommendation
+    section: "Conclusion"
+    position: 198
+    source_format: prose
+
+  - id: seg-199
+    text: "Calibrate human versus machine — engaging with employees in the design and deployment of AI systems is critical to secure buy-in and adoption; communicating how AI can help workers rather than carry out their work for them."
+    type: recommendation
+    section: "Conclusion"
+    position: 199
+    source_format: prose
+
+  - id: seg-200
+    text: "New skills and competencies can be developed through bite-size programmes and exercises, with companies bridging the gap between AI specialists and the workforce."
+    type: recommendation
+    section: "Conclusion"
+    position: 200
+    source_format: prose
+
+  - id: seg-201
+    text: "AI should also be integrated into leadership programmes — organisations should encourage a critical outlook to avoid automation bias and keep human judgement at the fore."
+    type: recommendation
+    section: "Conclusion"
+    position: 201
+    source_format: prose
+
+  # ============================================================
+  # FIGURE-DERIVED SEGMENTS (additional chart data not yet captured)
+  # ============================================================
+
+  - id: seg-202
+    text: "Figure 3: Stage of GenAI implementation by country — India: 56% expanding; France: 41% expanding; UK: 37% expanding; ASEAN: 28% expanding; US: 27% expanding; South Korea: 26% expanding; Germany: 21% expanding; Australia: 18% expanding; Other Europe: 11% expanding; Japan: 6% expanding."
+    type: statistic
+    section: "Ch1: Empowering everyone"
+    position: 202
+    source_format: figure
+
+  - id: seg-203
+    text: "Figure 5: GenAI internal vs external use cases — Internal current: 22% expanding, 42% deploying, 34% exploring; Internal 2027: 66% expanding, 27% deploying, 6% exploring; External current: 12% expanding, 24% deploying, 54% exploring; External 2027: 35% expanding, 53% deploying, 11% exploring."
+    type: statistic
+    section: "Ch2: Rewards and Returns"
+    position: 203
+    source_format: figure
+
+  - id: seg-204
+    text: "Figure 6: GenAI use cases with most investment — Mostly internal: 23%, Equal: 53%, Mostly external: 24%. GenAI use cases with most benefit — Mostly internal: 17%, Equal: 46%, Mostly external: 37%."
+    type: statistic
+    section: "Ch2: Rewards and Returns"
+    position: 204
+    source_format: figure
+
+  - id: seg-205
+    text: "Figure 11: Upside of proprietary data by industry — Financial services: 80% agree; Telecoms: 72% agree; Retail: 70% agree; Healthcare: 66% agree; Manufacturing: 66% agree; Government: 63% agree; Media: 55% agree; Energy: 55% agree; Total: 66% agree."
+    type: statistic
+    section: "Ch4: Find Your Edge"
+    position: 205
+    source_format: figure
+
+  - id: seg-206
+    text: "Figure 12: Adoption of GenAI models by type — Training custom model on own data: 32% in production; Fine-tuning open-source: 29% in production; Using AI embedded in software: 37% in production; Building with APIs: 27% in production; Serving open-source model: 25% in production; Licensing commercial model: 25% in production; BYOAI/governing employee use of public models: 18% in production."
+    type: statistic
+    section: "Ch4: Find Your Edge"
+    position: 206
+    source_format: figure
+
+  # ============================================================
+  # ADDITIONAL CONTEXT SEGMENTS
+  # ============================================================
+
+  - id: seg-207
+    text: "The report is sponsored by Databricks, a provider of data lakehouse platforms, which should be considered when evaluating infrastructure-related claims and recommendations."
+    type: context
+    section: "Context"
+    position: 207
+    source_format: prose
+
+  - id: seg-208
+    text: "The report's five-chapter framework covers: (1) AI's unlock moment — adoption patterns and democratisation; (2) Rewards and returns — ROI strategies and data intelligence; (3) The infrastructure refit — architecture gaps and data management; (4) Find your edge — model selection and proprietary data; (5) Guardrails and governance — COEs, human-in-the-loop, and regulatory compliance."
+    type: context
+    section: "Context"
+    position: 208
+    source_format: prose
+
+  - id: seg-209
+    text: "Page headers and footers throughout"
+    type: noise
+    section: "Chrome"
+    position: 209
+    source_format: prose
+
+  - id: seg-210
+    text: "Decorative illustrations and stock imagery throughout"
+    type: noise
+    section: "Chrome"
+    position: 210
+    source_format: figure

@@ -1,0 +1,725 @@
+source_id: source-026
+title: "How Enterprise Architecture Enables AI Sovereignty -- With Governance at the Core"
+url: "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core"
+author: "Mervin Rasiah"
+date: 2025-01-30
+type: article
+total_segments: 92
+
+composition:
+  recommendation: { count: 21, pct: 22.8 }
+  claim: { count: 19, pct: 20.7 }
+  noise: { count: 19, pct: 20.7 }
+  context: { count: 18, pct: 19.6 }
+  attribution: { count: 6, pct: 6.5 }
+  example: { count: 5, pct: 5.4 }
+  definition: { count: 2, pct: 2.2 }
+  evidence: { count: 2, pct: 2.2 }
+
+signal_ratio: 79.3
+
+segments:
+
+  # ============================================================
+  # INTRODUCTION
+  # ============================================================
+
+  - id: seg-001
+    text: "How Enterprise Architecture Enables AI Sovereignty -- With Governance at the Core"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "As AI becomes woven into day-to-day business, AI sovereignty -- retaining control over your data, models, and decision rights -- moves from an IT concern to a board-level priority."
+    type: claim
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "Enterprise Architecture (EA) is the function that turns high-level principles into deployable designs, enforceable controls, and auditable evidence -- so your organization can innovate with AI without losing control of its institutional intelligence."
+    type: claim
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Research and conference summaries have highlighted EA's evolving role as the enterprise's 'decision architecture,' integrating strategy, data, platforms, risks, and controls."
+    type: evidence
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "This article shows how to operationalize AI sovereignty through governance, using open frameworks (NIST AI RMF and ISO/IEC 42001) and Bizzdesign Alfabet (now part of Bizzdesign's Transformation Suite) to model ownership, boundaries, lifecycle controls, and traceability -- while staying adaptable to Malaysia's guidance today and its emerging regulatory framework."
+    type: context
+    section: "Introduction"
+    position: 5
+    source_format: prose
+
+  # ============================================================
+  # WHAT AI SOVEREIGNTY MEANS -- PRACTICALLY
+  # ============================================================
+
+  - id: seg-006
+    text: "What AI Sovereignty Means -- Practically"
+    type: noise
+    section: "What AI Sovereignty Means -- Practically"
+    position: 6
+    source_format: heading
+
+  - id: seg-007
+    text: "AI sovereignty is your organization's ability to decide, design, and demonstrate where and how sensitive data and model intelligence are stored, processed, accessed, and reused -- by you, not by external platforms."
+    type: definition
+    section: "What AI Sovereignty Means -- Practically"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "In practice, it answers: Where is our data? Who can use it, for what purpose, with which keys, and under whose jurisdiction?"
+    type: definition
+    section: "What AI Sovereignty Means -- Practically"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "Those answers must be provable in audits and resilient to regulatory change."
+    type: claim
+    section: "What AI Sovereignty Means -- Practically"
+    position: 9
+    source_format: prose
+
+  # ============================================================
+  # ANCHOR GOVERNANCE IN OPEN FRAMEWORKS
+  # ============================================================
+
+  - id: seg-010
+    text: "Anchor Governance in Open Frameworks (Not Proprietary Labels)"
+    type: noise
+    section: "Anchor Governance in Open Frameworks"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "NIST AI Risk Management Framework (AI RMF 1.0) offers free, risk-based guidance across four functions -- GOVERN, MAP, MEASURE, MANAGE -- with a companion Playbook and Generative AI profile to tailor controls to context."
+    type: context
+    section: "Anchor Governance in Open Frameworks"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "ISO/IEC 42001 (AI Management Systems) provides a certifiable management-system framework for policies, roles, risk assessment, data management, lifecycle oversight, and continual improvement across AI systems."
+    type: context
+    section: "Anchor Governance in Open Frameworks"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "In Malaysia, SIRIM has launched ISO/IEC 42001 certification pathways, giving enterprises a locally recognized route to demonstrate responsible AI management."
+    type: evidence
+    section: "Anchor Governance in Open Frameworks"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "Why use both: NIST helps you do risk management; ISO/IEC 42001 helps you prove you do it systematically -- a combination that aligns well with regulators and scales across use cases."
+    type: recommendation
+    section: "Anchor Governance in Open Frameworks"
+    position: 14
+    source_format: prose
+
+  # ============================================================
+  # MALAYSIA: GOVERN NOW, ADAPT FOR WHAT'S COMING
+  # ============================================================
+
+  - id: seg-015
+    text: "Malaysia: Govern Now, Adapt for What's Coming"
+    type: noise
+    section: "Malaysia: Govern Now, Adapt for What's Coming"
+    position: 15
+    source_format: heading
+
+  - id: seg-016
+    text: "Malaysia's National Guidelines on AI Governance & Ethics (AIGE) -- launched by MOSTI in September 2024 -- provide voluntary national guidance with principles like fairness, safety, privacy, transparency, accountability, inclusivity, and human benefit, and role-specific recommendations for users, policymakers, and developers."
+    type: context
+    section: "Malaysia: Govern Now, Adapt for What's Coming"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "At the same time, Malaysia is developing a National AI Regulatory Framework and has signaled the possibility of legislation by 2H 2026, so organizations should build adaptable governance that can meet today's voluntary guidance yet scale to future legal obligations."
+    type: claim
+    section: "Malaysia: Govern Now, Adapt for What's Coming"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "The AI Technology Action Plan 2026-2030 aims to reinforce ethical AI governance and strengthen cross-sector collaboration -- another reason to favor open, evidence-based frameworks (NIST + ISO/IEC 42001) that can absorb new requirements without re-architecting your control model."
+    type: claim
+    section: "Malaysia: Govern Now, Adapt for What's Coming"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "Pragmatic tip for Malaysia: If you want assurance while the law is finalized, pursue ISO/IEC 42001 certification via SIRIM to build audit muscle now, and map NIST AI RMF controls to your EA repository so evidence is searchable on demand."
+    type: recommendation
+    section: "Malaysia: Govern Now, Adapt for What's Coming"
+    position: 19
+    source_format: prose
+
+  # ============================================================
+  # TOOLING EXAMPLE: BIZZDESIGN ALFABET
+  # ============================================================
+
+  - id: seg-020
+    text: "Tooling Example: Bizzdesign Alfabet as Your EA Governance System of Record"
+    type: noise
+    section: "Tooling Example: Bizzdesign Alfabet"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "The process is broadly similar across reputable EA platforms; specific metamodel elements, workflows, and terminology will vary."
+    type: context
+    section: "Tooling Example: Bizzdesign Alfabet"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "Context update: In January 2025, Bizzdesign acquired Alfabet (formerly part of Software AG) and now offers Alfabet as part of the Bizzdesign Transformation Suite alongside Horizzon and HOPEX."
+    type: context
+    section: "Tooling Example: Bizzdesign Alfabet"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "The strategy is to retain and enhance all three products, giving customers EA + SPM depth with a unified brand."
+    type: context
+    section: "Tooling Example: Bizzdesign Alfabet"
+    position: 23
+    source_format: prose
+
+  # ============================================================
+  # SIDEBAR: ABOUT THE TOOLS REFERENCED
+  # ============================================================
+
+  - id: seg-024
+    text: "Sidebar: About the Tools Referenced in This Article"
+    type: noise
+    section: "Sidebar: About the Tools Referenced"
+    position: 24
+    source_format: heading
+
+  - id: seg-025
+    text: "This article uses Bizzdesign Alfabet as a concrete example of how enterprise architecture (EA) tooling can support AI sovereignty and governance in practice."
+    type: context
+    section: "Sidebar: About the Tools Referenced"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Bizzdesign Alfabet (part of the Bizzdesign Transformation Suite) is widely used for Enterprise Architecture Management (EAM) and Strategic Portfolio Management (SPM)."
+    type: context
+    section: "Sidebar: About the Tools Referenced"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "It provides a structured EA metamodel covering business capabilities, applications, information/data, technology, risks, controls, and portfolios -- making it suitable for illustrating governance, traceability, and lifecycle control in AI-enabled environments."
+    type: claim
+    section: "Sidebar: About the Tools Referenced"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Following Bizzdesign's acquisition of Alfabet in January 2025, Alfabet continues to be offered as a distinct product within the Bizzdesign portfolio, alongside Horizzon and HOPEX, with a focus on planning, governance, and investment decision-making."
+    type: context
+    section: "Sidebar: About the Tools Referenced"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "It's the EA tool I'm most familiar with, having worked on its implementation with two very large enterprises."
+    type: attribution
+    section: "Sidebar: About the Tools Referenced"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "The governance approach described in this article is tool-agnostic."
+    type: claim
+    section: "Sidebar: About the Tools Referenced"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "The same principles -- clear ownership, data boundaries, lifecycle controls, evidence capture, and regulatory adaptability -- can be implemented using other enterprise-grade EA platforms."
+    type: claim
+    section: "Sidebar: About the Tools Referenced"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "What differs across tools are the metamodel structures, terminology, user interfaces, and automation features -- not the underlying governance logic."
+    type: claim
+    section: "Sidebar: About the Tools Referenced"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Treat Alfabet as an example implementation, not a mandatory solution."
+    type: recommendation
+    section: "Sidebar: About the Tools Referenced"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "Focus on the process, architectural thinking, and control model, which remain valid regardless of tooling choice."
+    type: recommendation
+    section: "Sidebar: About the Tools Referenced"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Select EA tools that best fit your organization's maturity, regulatory context, and transformation objectives."
+    type: recommendation
+    section: "Sidebar: About the Tools Referenced"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "AI sovereignty is achieved through architecture, governance, and discipline -- tools enable the outcome, but they do not define it."
+    type: claim
+    section: "Sidebar: About the Tools Referenced"
+    position: 36
+    source_format: prose
+
+  # ============================================================
+  # 1) STRATEGY, POLICIES, AND OWNERSHIP
+  # ============================================================
+
+  - id: seg-037
+    text: "1) Strategy, Policies, and Ownership"
+    type: noise
+    section: "1) Strategy, Policies, and Ownership"
+    position: 37
+    source_format: heading
+
+  - id: seg-038
+    text: "NIST: GOVERN | ISO/IEC 42001: Organization & Policy"
+    type: context
+    section: "1) Strategy, Policies, and Ownership"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "Alfabet objects: Policies/Standards, Business Capabilities, Information Domains, Organizations/Roles, Risks/Controls."
+    type: example
+    section: "1) Strategy, Policies, and Ownership"
+    position: 39
+    source_format: bullet
+
+  - id: seg-040
+    text: "Design: Record AI principles (AIGE + internal) as Policies; map to Controls and Business Questions to be answered by every AI initiative; assign RACI to Roles (e.g., Model Owner, Data Steward, Responsible AI Officer)."
+    type: recommendation
+    section: "1) Strategy, Policies, and Ownership"
+    position: 40
+    source_format: bullet
+
+  - id: seg-041
+    text: "Outcome: Clear accountability and decision rights, with policy-to-control lineage."
+    type: claim
+    section: "1) Strategy, Policies, and Ownership"
+    position: 41
+    source_format: bullet
+
+  - id: seg-042
+    text: "Alfabet provides portfolio governance and a 'business-question' paradigm to tie decisions to data."
+    type: context
+    section: "1) Strategy, Policies, and Ownership"
+    position: 42
+    source_format: prose
+
+  # ============================================================
+  # 2) DATA BOUNDARIES, RESIDENCY, AND KEY CUSTODY
+  # ============================================================
+
+  - id: seg-043
+    text: "2) Data Boundaries, Residency, and Key Custody"
+    type: noise
+    section: "2) Data Boundaries, Residency, and Key Custody"
+    position: 43
+    source_format: heading
+
+  - id: seg-044
+    text: "NIST: MAP/MANAGE | ISO/IEC 42001: Data Management, Security"
+    type: context
+    section: "2) Data Boundaries, Residency, and Key Custody"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "Alfabet objects: Information Objects/Domains, Applications, Technologies/Hosting, Interfaces/Integrations."
+    type: example
+    section: "2) Data Boundaries, Residency, and Key Custody"
+    position: 45
+    source_format: bullet
+
+  - id: seg-046
+    text: "Design: Classify data by sensitivity; bind residency and encryption/key-management requirements to Hosting Zones and consuming Applications; document customer-managed HSM keys as Technology Standards."
+    type: recommendation
+    section: "2) Data Boundaries, Residency, and Key Custody"
+    position: 46
+    source_format: bullet
+
+  - id: seg-047
+    text: "Outcome: A 'sovereignty viewpoint' showing which apps/processes touch sensitive data and whether they run in approved data-boundary patterns (e.g., sovereign landing zones, in-region processing) with customer-managed keys."
+    type: claim
+    section: "2) Data Boundaries, Residency, and Key Custody"
+    position: 47
+    source_format: bullet
+
+  - id: seg-048
+    text: "Cloud vendors now provide sovereignty-focused options like data-boundary enforcement and customer key control; use these as architectural patterns where appropriate."
+    type: context
+    section: "2) Data Boundaries, Residency, and Key Custody"
+    position: 48
+    source_format: prose
+
+  # ============================================================
+  # 3) MODEL LIFECYCLE & MODELOPS EVIDENCE
+  # ============================================================
+
+  - id: seg-049
+    text: "3) Model Lifecycle & ModelOps Evidence"
+    type: noise
+    section: "3) Model Lifecycle & ModelOps Evidence"
+    position: 49
+    source_format: heading
+
+  - id: seg-050
+    text: "NIST: MAP/MEASURE/MANAGE | ISO/IEC 42001: Lifecycle, Risk"
+    type: context
+    section: "3) Model Lifecycle & ModelOps Evidence"
+    position: 50
+    source_format: prose
+
+  - id: seg-051
+    text: "Alfabet objects: AI/Analytics Use Case, Model, Dataset, Pipeline, Service/API, Risk/Control/Test, Project/Release."
+    type: example
+    section: "3) Model Lifecycle & ModelOps Evidence"
+    position: 51
+    source_format: bullet
+
+  - id: seg-052
+    text: "Design: Register all models (ML, GenAI, vendor/embedded); link to purpose, risk tier, datasets, environments, tests (bias, robustness, privacy), and evidence artifacts; implement stage-gates so deployments require lineage, DQ thresholds, and human-in-the-loop confirmations where required."
+    type: recommendation
+    section: "3) Model Lifecycle & ModelOps Evidence"
+    position: 52
+    source_format: bullet
+
+  - id: seg-053
+    text: "Outcome: A single system of record for models and decisions -- audit-ready for NIST/ISO."
+    type: claim
+    section: "3) Model Lifecycle & ModelOps Evidence"
+    position: 53
+    source_format: bullet
+
+  - id: seg-054
+    text: "Many organizations complement this with a ModelOps platform and feed statuses/metrics back into Alfabet."
+    type: context
+    section: "3) Model Lifecycle & ModelOps Evidence"
+    position: 54
+    source_format: prose
+
+  # ============================================================
+  # 4) METADATA, LINEAGE, AND DATA QUALITY
+  # ============================================================
+
+  - id: seg-055
+    text: "4) Metadata, Lineage, and Data Quality"
+    type: noise
+    section: "4) Metadata, Lineage, and Data Quality"
+    position: 55
+    source_format: heading
+
+  - id: seg-056
+    text: "NIST: MAP/MEASURE | ISO/IEC 42001: Data Management"
+    type: context
+    section: "4) Metadata, Lineage, and Data Quality"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "Alfabet objects: Information Objects, Interfaces/Integrations, ETL/ELT Pipelines, Reports, Data Quality Rules/Issues."
+    type: example
+    section: "4) Metadata, Lineage, and Data Quality"
+    position: 57
+    source_format: bullet
+
+  - id: seg-058
+    text: "Design: Ingest lineage from your data catalog (e.g., Microsoft Purview) and/or consolidate lineage facts directly in Alfabet; require column-level lineage and DQ evidence for any dataset used in training or inference."
+    type: recommendation
+    section: "4) Metadata, Lineage, and Data Quality"
+    position: 58
+    source_format: bullet
+
+  - id: seg-059
+    text: "Outcome: End-to-end traceability from source to transformation to features to models to reports/APIs; prevent go-live if lineage/DQ is incomplete."
+    type: claim
+    section: "4) Metadata, Lineage, and Data Quality"
+    position: 59
+    source_format: bullet
+
+  # ============================================================
+  # 5) RUNTIME RISK MONITORING & INCIDENT RESPONSE
+  # ============================================================
+
+  - id: seg-060
+    text: "5) Runtime Risk Monitoring & Incident Response"
+    type: noise
+    section: "5) Runtime Risk Monitoring & Incident Response"
+    position: 60
+    source_format: heading
+
+  - id: seg-061
+    text: "NIST: MEASURE/MANAGE | ISO/IEC 42001: Monitoring & Improvement"
+    type: context
+    section: "5) Runtime Risk Monitoring & Incident Response"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "Alfabet objects: Risk Register, Controls, Monitoring Metrics/KPIs, Issue/Incident."
+    type: example
+    section: "5) Runtime Risk Monitoring & Incident Response"
+    position: 62
+    source_format: bullet
+
+  - id: seg-063
+    text: "Design: Define runtime risk indicators (drift, outliers, harmful content flags, privacy violations) and link monitoring events to model risk posture; trigger incidents and remediation workflows; maintain evidence of mitigation."
+    type: recommendation
+    section: "5) Runtime Risk Monitoring & Incident Response"
+    position: 63
+    source_format: bullet
+
+  - id: seg-064
+    text: "Outcome: Continuous governance aligned to NIST 'MEASURE/MANAGE' outcomes and ISO/IEC 42001's management-system evidence needs."
+    type: claim
+    section: "5) Runtime Risk Monitoring & Incident Response"
+    position: 64
+    source_format: bullet
+
+  - id: seg-065
+    text: "Process portability: If you use Bizzdesign Horizzon, you'll model similar concepts (capabilities, applications, data, risks) using open standards like ArchiMate and publish governance views and roadmaps; the repository objects and views differ by tool, but the governance pattern is the same."
+    type: claim
+    section: "5) Runtime Risk Monitoring & Incident Response"
+    position: 65
+    source_format: prose
+
+  # ============================================================
+  # DATA & DATA-ARCHITECTURE REQUIREMENTS
+  # ============================================================
+
+  - id: seg-066
+    text: "Data & Data-Architecture Requirements (Sovereignty by Design)"
+    type: noise
+    section: "Data & Data-Architecture Requirements"
+    position: 66
+    source_format: heading
+
+  - id: seg-067
+    text: "Classification & Tagging Everywhere -- Adopt a single scheme and propagate via your catalog and EA repository; enforce access and reuse by classification."
+    type: recommendation
+    section: "Data & Data-Architecture Requirements"
+    position: 67
+    source_format: bullet
+
+  - id: seg-068
+    text: "Modern governance leaders emphasize metadata-driven control."
+    type: claim
+    section: "Data & Data-Architecture Requirements"
+    position: 68
+    source_format: prose
+
+  - id: seg-069
+    text: "Column-Level Lineage & Purpose Binding -- Bind data to intended purpose (analytics vs training vs inference) and deny reuse outside purpose."
+    type: recommendation
+    section: "Data & Data-Architecture Requirements"
+    position: 69
+    source_format: bullet
+
+  - id: seg-070
+    text: "Residency Patterns & Landing Zones -- Standardize placements (e.g., in-region public cloud with boundary controls, hybrid/on-prem for high-control scenarios, SaaS with no training/retention and in-region processing)."
+    type: recommendation
+    section: "Data & Data-Architecture Requirements"
+    position: 70
+    source_format: bullet
+
+  - id: seg-071
+    text: "Cloud providers now publish sovereignty controls, which you should codify as policy-as-code and architecture standards."
+    type: recommendation
+    section: "Data & Data-Architecture Requirements"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "Access & Key Management -- Enforce least privilege via centralized identity; use customer-managed, HSM-backed keys; log all key operations and access as evidence."
+    type: recommendation
+    section: "Data & Data-Architecture Requirements"
+    position: 72
+    source_format: bullet
+
+  - id: seg-073
+    text: "Model I/O Guardrails -- Treat prompts, embeddings, and outputs as governed data; apply DLP/PII policies and log flows; align to NIST risk actions and AIGE privacy/accountability principles."
+    type: recommendation
+    section: "Data & Data-Architecture Requirements"
+    position: 73
+    source_format: bullet
+
+  - id: seg-074
+    text: "Evidence by Design -- Capture machine-readable evidence (who, what, where, which keys/tests) to satisfy ISO/IEC 42001 audits and NIST outcomes."
+    type: recommendation
+    section: "Data & Data-Architecture Requirements"
+    position: 74
+    source_format: bullet
+
+  # ============================================================
+  # A PHASED EA PLAYBOOK
+  # ============================================================
+
+  - id: seg-075
+    text: "A Phased EA Playbook (Alfabet-First, Tool-Agnostic in Spirit)"
+    type: noise
+    section: "A Phased EA Playbook"
+    position: 75
+    source_format: heading
+
+  - id: seg-076
+    text: "Phase 0 -- Baseline & Inventory"
+    type: noise
+    section: "A Phased EA Playbook"
+    position: 76
+    source_format: heading
+
+  - id: seg-077
+    text: "Inventory AI systems (including embedded AI in SaaS), data stores, cross-border flows, and existing controls; record in Alfabet; align to NIST 'MAP' evidence."
+    type: recommendation
+    section: "A Phased EA Playbook"
+    position: 77
+    source_format: bullet
+
+  - id: seg-078
+    text: "Phase 1 -- Reference Patterns & Landing Zones"
+    type: noise
+    section: "A Phased EA Playbook"
+    position: 78
+    source_format: heading
+
+  - id: seg-079
+    text: "Publish sovereignty patterns (public/sovereign cloud, hybrid, disconnected) and key-custody standards; implement policy-as-code in cloud and represent as Technology Standards in Alfabet."
+    type: recommendation
+    section: "A Phased EA Playbook"
+    position: 79
+    source_format: bullet
+
+  - id: seg-080
+    text: "Phase 2 -- ModelOps & Evidence"
+    type: noise
+    section: "A Phased EA Playbook"
+    position: 80
+    source_format: heading
+
+  - id: seg-081
+    text: "Enforce risk-tiered approvals; require lineage/DQ, privacy/bias testing, and sign-offs; store evidence against Model and Release objects; integrate with your ModelOps stack."
+    type: recommendation
+    section: "A Phased EA Playbook"
+    position: 81
+    source_format: bullet
+
+  - id: seg-082
+    text: "Phase 3 -- Continuous Assurance & Audit Readiness"
+    type: noise
+    section: "A Phased EA Playbook"
+    position: 82
+    source_format: heading
+
+  - id: seg-083
+    text: "Dashboard NIST/ISO control coverage, AIGE alignment, incidents, and recertification cadence; run red-team exercises; update controls as Malaysia's framework lands (and as ISO guidance evolves)."
+    type: recommendation
+    section: "A Phased EA Playbook"
+    position: 83
+    source_format: bullet
+
+  # ============================================================
+  # FINAL THOUGHTS
+  # ============================================================
+
+  - id: seg-084
+    text: "Final Thoughts"
+    type: noise
+    section: "Final Thoughts"
+    position: 84
+    source_format: heading
+
+  - id: seg-085
+    text: "AI sovereignty isn't a single product or policy -- it's an EA-led operating model grounded in open frameworks (NIST AI RMF + ISO/IEC 42001), executed via a trusted EA repository like Bizzdesign Alfabet, and adaptable to national contexts such as Malaysia's AIGE today and its forthcoming AI regulations."
+    type: claim
+    section: "Final Thoughts"
+    position: 85
+    source_format: prose
+
+  - id: seg-086
+    text: "That's how you innovate at speed while keeping company-specific data and institutional intelligence firmly under your control."
+    type: claim
+    section: "Final Thoughts"
+    position: 86
+    source_format: prose
+
+  # ============================================================
+  # REFERENCES & FURTHER READING
+  # ============================================================
+
+  - id: seg-087
+    text: "References & Further Reading"
+    type: noise
+    section: "References & Further Reading"
+    position: 87
+    source_format: heading
+
+  - id: seg-088
+    text: "Open frameworks: NIST AI RMF 1.0 & Playbook (free); ISO/IEC 42001 overview and guidance."
+    type: attribution
+    section: "References & Further Reading"
+    position: 88
+    source_format: bullet
+
+  - id: seg-089
+    text: "Malaysia context: AIGE overview & documents (MOSTI/NAIO); NAIO updates and national framework signals (2025-2026); AI Technology Action Plan 2026-2030; SIRIM ISO/IEC 42001 certification launch."
+    type: attribution
+    section: "References & Further Reading"
+    position: 89
+    source_format: bullet
+
+  - id: seg-090
+    text: "EA platforms: Bizzdesign Alfabet product page & documentation; acquisition announcements."
+    type: attribution
+    section: "References & Further Reading"
+    position: 90
+    source_format: bullet
+
+  - id: seg-091
+    text: "Data lineage / integration examples: Microsoft Purview and Collibra integration and lineage tooling guides (for reference architectures)."
+    type: attribution
+    section: "References & Further Reading"
+    position: 91
+    source_format: bullet
+
+  - id: seg-092
+    text: "Sovereign cloud design patterns (optional reference for data boundaries and keys): Microsoft Sovereign Cloud blog and documentation."
+    type: attribution
+    section: "References & Further Reading"
+    position: 92
+    source_format: bullet

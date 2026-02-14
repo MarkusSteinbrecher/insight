@@ -1,0 +1,636 @@
+source_id: source-011
+title: "A Novel Enterprise Artificial Intelligence Architecture Framework (NAEF) for Business Capabilities to Decisions/Insights Analysis"
+url: "https://ieeexplore.ieee.org/document/10913304/"
+author: "Heru Purnomo Ipung"
+date: 2024-12-17
+type: paper
+total_segments: 80
+note: "IEEE paywall; segmentation derived from source note, abstract metadata, and IEEE index terms"
+
+composition:
+  claim: { count: 26, pct: 32.5 }
+  methodology: { count: 17, pct: 21.2 }
+  noise: { count: 16, pct: 20.0 }
+  definition: { count: 10, pct: 12.5 }
+  context: { count: 6, pct: 7.5 }
+  attribution: { count: 2, pct: 2.5 }
+  statistic: { count: 2, pct: 2.5 }
+  recommendation: { count: 1, pct: 1.2 }
+  evidence: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+
+signal_ratio: 80.0
+
+segments:
+
+  # ============================================================
+  # PAPER METADATA & PUBLICATION CONTEXT
+  # ============================================================
+
+  - id: seg-001
+    text: "A Novel Enterprise Artificial Intelligence Architecture Framework (NAEF) for Business Capabilities to Decisions/Insights Analysis"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Heru Purnomo Ipung, Master of Information Technology, Swiss German University, Tangerang, Indonesia."
+    type: attribution
+    section: "Authors"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "Published in 2024 International Conference on Intelligent Cybernetics Technology & Applications (ICICyTA), Bali, Indonesia, 17-19 December 2024, pages 678-683."
+    type: context
+    section: "Publication"
+    position: 3
+    source_format: prose
+
+  # ============================================================
+  # ABSTRACT (from IEEE Xplore metadata)
+  # ============================================================
+
+  - id: seg-004
+    text: "Abstract"
+    type: noise
+    section: "Abstract"
+    position: 4
+    source_format: heading
+
+  - id: seg-005
+    text: "The paper proposes integrating three frameworks — TOGAF, BADIR, and INSIGHT — for enterprise AI architecture."
+    type: claim
+    section: "Abstract"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "TOGAF provides structured design for data, application, and technology architecture."
+    type: definition
+    section: "Abstract"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "BADIR guides the translation of business objectives into data-driven decisions."
+    type: definition
+    section: "Abstract"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "The approach emphasizes identifying key business questions related to business processes."
+    type: methodology
+    section: "Abstract"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "The framework promotes data-driven decision-making through user feedback and iterative refinement."
+    type: methodology
+    section: "Abstract"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "The framework promotes stakeholder engagement through data-driven decision-making."
+    type: claim
+    section: "Abstract"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "The paper includes a simulated approach with sample cases."
+    type: methodology
+    section: "Abstract"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Integration considerations for legacy systems are addressed."
+    type: claim
+    section: "Abstract"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "AI governance considerations are included in the framework."
+    type: claim
+    section: "Abstract"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "Future research directions are discussed."
+    type: context
+    section: "Abstract"
+    position: 14
+    source_format: prose
+
+  # ============================================================
+  # IEEE KEYWORDS AND INDEX TERMS
+  # ============================================================
+
+  - id: seg-015
+    text: "IEEE Keywords"
+    type: noise
+    section: "Keywords"
+    position: 15
+    source_format: heading
+
+  - id: seg-016
+    text: "IEEE Keywords: Analytical models, Translation, Generative AI, Big Data applications, Data models, Stakeholders, Iterative methods, Decision analysis, Artificial intelligence, Business."
+    type: context
+    section: "Keywords"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "Index Terms: Business Capabilities, Analysis Plan, Business Processes, Artificial Intelligence Systems, Iterative Refinement, Data-driven Decision-making, Technology Architecture, Legacy Data, Explainable AI, Customer Behavior."
+    type: context
+    section: "Keywords"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "Author Keywords: Enterprise artificial intelligence, business capabilities, generative AI, analytics."
+    type: context
+    section: "Keywords"
+    position: 18
+    source_format: prose
+
+  # ============================================================
+  # KEY TAKEAWAYS (from source note)
+  # ============================================================
+
+  - id: seg-019
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 19
+    source_format: heading
+
+  - id: seg-020
+    text: "Proposes NAEF: a framework integrating three established methodologies — TOGAF, BADIR, and INSIGHT — for enterprise AI architecture."
+    type: claim
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+
+  - id: seg-021
+    text: "TOGAF provides structured architectural design; BADIR guides business question translation into data-driven decisions; INSIGHT manages insights analysis."
+    type: definition
+    section: "Key Takeaways"
+    position: 21
+    source_format: bullet
+
+  - id: seg-022
+    text: "Focus on translating business objectives into actionable insights through a structured data-to-decisions pipeline."
+    type: claim
+    section: "Key Takeaways"
+    position: 22
+    source_format: bullet
+
+  - id: seg-023
+    text: "Addresses challenges in designing, implementing, and managing AI within organizational contexts."
+    type: claim
+    section: "Key Takeaways"
+    position: 23
+    source_format: bullet
+
+  - id: seg-024
+    text: "Includes considerations for legacy system integration and AI governance."
+    type: claim
+    section: "Key Takeaways"
+    position: 24
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY (from source note)
+  # ============================================================
+
+  - id: seg-025
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 25
+    source_format: heading
+
+  - id: seg-026
+    text: "This IEEE conference paper from ICICyTA 2024 proposes the Novel Enterprise Artificial Intelligence Architecture Framework (NAEF), which integrates three established frameworks to create a comprehensive methodology for enterprise AI systems."
+    type: context
+    section: "Summary"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The integration of TOGAF (for architectural design), BADIR (for translating business questions into data-driven decisions), and INSIGHT (for insights analysis from business processes) represents a multi-methodology approach to enterprise AI architecture."
+    type: claim
+    section: "Summary"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The framework is structured around translating business capabilities into decisions and insights through data architecture, application architecture, and technology architecture layers."
+    type: methodology
+    section: "Summary"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "It incorporates user feedback and iterative refinement, promoting stakeholder engagement through data-driven decision-making."
+    type: methodology
+    section: "Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "The paper also includes simulated approaches, sample cases, and considerations for legacy system integration."
+    type: methodology
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "The paper's contribution is in demonstrating that enterprise AI architecture need not rely on a single framework but can synthesize multiple established methodologies."
+    type: claim
+    section: "Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "This multi-framework integration approach is a practical alternative to building entirely new frameworks from scratch."
+    type: claim
+    section: "Summary"
+    position: 32
+    source_format: prose
+
+  # ============================================================
+  # FRAMEWORK COMPONENT DETAILS (from web research)
+  # ============================================================
+
+  - id: seg-033
+    text: "Framework Components"
+    type: noise
+    section: "Framework Components"
+    position: 33
+    source_format: heading
+
+  - id: seg-034
+    text: "TOGAF (The Open Group Architecture Framework) Component"
+    type: noise
+    section: "Framework Components - TOGAF"
+    position: 34
+    source_format: heading
+
+  - id: seg-035
+    text: "TOGAF has become a fundamental guideline in developing integrated enterprise architecture."
+    type: claim
+    section: "Framework Components - TOGAF"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Within NAEF, TOGAF provides the structured approach to designing the data architecture, application architecture, and technology architecture necessary for AI implementation."
+    type: definition
+    section: "Framework Components - TOGAF"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "BADIR (Business Question, Analysis Plan, Data, Insight, Recommendation) Component"
+    type: noise
+    section: "Framework Components - BADIR"
+    position: 37
+    source_format: heading
+
+  - id: seg-038
+    text: "BADIR is a structured data science and analytics process developed by Piyanka Jain and Puneet Sharma, first published in the 2014 book 'Behind Every Good Decision'."
+    type: attribution
+    section: "Framework Components - BADIR"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "BADIR stands for five steps: Business Question, Analysis Plan, Data Collection, Insights, and Recommendations."
+    type: definition
+    section: "Framework Components - BADIR"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "The first step (Business Question) defines the real business question, optimizing up to 80% of a business leader's workflow by reducing guesswork and concentrating efforts on strategic goals."
+    type: claim
+    section: "Framework Components - BADIR"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "The second step (Analysis Plan) involves generating and testing hypotheses to explore potential strategic directions, ensuring decisions are based on validated data insights rather than assumptions."
+    type: methodology
+    section: "Framework Components - BADIR"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "The third step (Data Collection) gathers the required data with a clear plan and methodology in place."
+    type: methodology
+    section: "Framework Components - BADIR"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "The fourth step (Insights) is where analysis meets reality, using the specified methodology to prove and disprove hypotheses against the business question."
+    type: methodology
+    section: "Framework Components - BADIR"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "The fifth step (Recommendations) synthesizes the insights gained through data analysis into actionable recommendations that guide strategic business decisions."
+    type: methodology
+    section: "Framework Components - BADIR"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "BADIR's core assertion is that if data analytics does not drive business impact, then it is just statistics, not analytics."
+    type: claim
+    section: "Framework Components - BADIR"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "Within NAEF, BADIR guides the translation of business objectives into data-driven decisions, ensuring AI initiatives are driven by clear business needs and result in actionable recommendations."
+    type: claim
+    section: "Framework Components - BADIR"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "INSIGHT Component"
+    type: noise
+    section: "Framework Components - INSIGHT"
+    position: 47
+    source_format: heading
+
+  - id: seg-048
+    text: "The INSIGHT component manages insights analysis from business processes and promotes stakeholder engagement."
+    type: definition
+    section: "Framework Components - INSIGHT"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "INSIGHT facilitates the transition from reactive, one-way information flows to a proactive, integrated process that incorporates stakeholder insights into core strategic functions."
+    type: claim
+    section: "Framework Components - INSIGHT"
+    position: 49
+    source_format: prose
+
+  # ============================================================
+  # NAEF INTEGRATION APPROACH
+  # ============================================================
+
+  - id: seg-050
+    text: "NAEF Integration Approach"
+    type: noise
+    section: "NAEF Integration"
+    position: 50
+    source_format: heading
+
+  - id: seg-051
+    text: "NAEF integrates TOGAF, BADIR, and INSIGHT to create a robust and comprehensive methodology for enterprise AI."
+    type: claim
+    section: "NAEF Integration"
+    position: 51
+    source_format: prose
+
+  - id: seg-052
+    text: "The framework addresses the unique challenges and considerations inherent in designing, implementing, and managing AI systems within an enterprise context."
+    type: claim
+    section: "NAEF Integration"
+    position: 52
+    source_format: prose
+
+  - id: seg-053
+    text: "The framework employs a hypothesis-driven approach that involves understanding business objectives and challenges."
+    type: methodology
+    section: "NAEF Integration"
+    position: 53
+    source_format: prose
+
+  - id: seg-054
+    text: "Analysis planning occurs before acquiring and ensuring the quality of relevant data."
+    type: methodology
+    section: "NAEF Integration"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "Analytics are applied to derive insights and assess the potential impact on the business challenge."
+    type: methodology
+    section: "NAEF Integration"
+    position: 55
+    source_format: prose
+
+  - id: seg-056
+    text: "Actionable recommendations are developed aligned with strategic goals."
+    type: methodology
+    section: "NAEF Integration"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "Decisions are implemented while monitoring outcomes and making necessary adjustments."
+    type: methodology
+    section: "NAEF Integration"
+    position: 57
+    source_format: prose
+
+  - id: seg-058
+    text: "The framework incorporates iterative refinement as a core principle, allowing continuous improvement of AI architecture based on feedback."
+    type: claim
+    section: "NAEF Integration"
+    position: 58
+    source_format: prose
+
+  # ============================================================
+  # ARCHITECTURE LAYERS
+  # ============================================================
+
+  - id: seg-059
+    text: "Architecture Layers"
+    type: noise
+    section: "Architecture Layers"
+    position: 59
+    source_format: heading
+
+  - id: seg-060
+    text: "The NAEF framework operates across three architecture layers: data architecture, application architecture, and technology architecture."
+    type: definition
+    section: "Architecture Layers"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "The data architecture layer addresses data models, data quality, and legacy data integration."
+    type: definition
+    section: "Architecture Layers"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "The application architecture layer covers AI systems, Big Data applications, and analytical models."
+    type: definition
+    section: "Architecture Layers"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "The technology architecture layer encompasses the infrastructure supporting AI deployment and generative AI capabilities."
+    type: definition
+    section: "Architecture Layers"
+    position: 63
+    source_format: prose
+
+  # ============================================================
+  # ADDITIONAL CONSIDERATIONS
+  # ============================================================
+
+  - id: seg-064
+    text: "Additional Considerations"
+    type: noise
+    section: "Additional Considerations"
+    position: 64
+    source_format: heading
+
+  - id: seg-065
+    text: "The framework includes considerations for explainable AI, ensuring transparency and interpretability of AI-driven decisions."
+    type: claim
+    section: "Additional Considerations"
+    position: 65
+    source_format: prose
+
+  - id: seg-066
+    text: "Customer behavior analysis is identified as a key application domain for the framework."
+    type: claim
+    section: "Additional Considerations"
+    position: 66
+    source_format: prose
+
+  - id: seg-067
+    text: "Legacy system and legacy data integration are addressed as critical challenges in enterprise AI adoption."
+    type: claim
+    section: "Additional Considerations"
+    position: 67
+    source_format: prose
+
+  - id: seg-068
+    text: "AI governance considerations are integrated into the framework to ensure responsible AI deployment."
+    type: recommendation
+    section: "Additional Considerations"
+    position: 68
+    source_format: prose
+
+  # ============================================================
+  # SIMULATED APPROACH AND SAMPLE CASES
+  # ============================================================
+
+  - id: seg-069
+    text: "Simulated Approach and Sample Cases"
+    type: noise
+    section: "Validation"
+    position: 69
+    source_format: heading
+
+  - id: seg-070
+    text: "The paper validates the NAEF framework through a simulated approach rather than a live enterprise deployment."
+    type: methodology
+    section: "Validation"
+    position: 70
+    source_format: prose
+
+  - id: seg-071
+    text: "Sample cases are used to demonstrate how business capabilities translate into decisions and insights through the integrated framework."
+    type: methodology
+    section: "Validation"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "The simulated approach demonstrates the framework's applicability but leaves open the question of real-world validation in production enterprise environments."
+    type: claim
+    section: "Validation"
+    position: 72
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES (from source note)
+  # ============================================================
+
+  - id: seg-073
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 73
+    source_format: heading
+
+  - id: seg-074
+    text: "The framework emphasizes 'integration of three frameworks — TOGAF, BADIR, and INSIGHT — to create a robust and comprehensive methodology' for enterprise AI."
+    type: claim
+    section: "Notable Quotes"
+    position: 74
+    source_format: quote
+
+  # ============================================================
+  # RELEVANCE TO TOPIC (from source note)
+  # ============================================================
+
+  - id: seg-075
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance"
+    position: 75
+    source_format: heading
+
+  - id: seg-076
+    text: "Demonstrates a practical multi-framework integration approach to enterprise AI architecture."
+    type: claim
+    section: "Relevance"
+    position: 76
+    source_format: prose
+
+  - id: seg-077
+    text: "The TOGAF+BADIR+INSIGHT synthesis is a novel contribution that addresses the business-to-technology alignment gap identified in other sources."
+    type: claim
+    section: "Relevance"
+    position: 77
+    source_format: prose
+
+  # ============================================================
+  # PUBLICATION METRICS
+  # ============================================================
+
+  - id: seg-078
+    text: "Publication Metrics"
+    type: noise
+    section: "Metrics"
+    position: 78
+    source_format: heading
+
+  - id: seg-079
+    text: "The paper has received 1 citation and 97 total downloads as of early 2026."
+    type: statistic
+    section: "Metrics"
+    position: 79
+    source_format: prose
+
+  - id: seg-080
+    text: "The paper contains 50 references."
+    type: statistic
+    section: "Metrics"
+    position: 80
+    source_format: prose

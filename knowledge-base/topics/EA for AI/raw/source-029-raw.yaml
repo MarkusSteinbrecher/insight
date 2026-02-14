@@ -1,0 +1,223 @@
+source_id: source-029
+title: "Why You — Yes, You — Need Enterprise Architecture"
+url: "https://sloanreview.mit.edu/article/why-you-yes-you-need-enterprise-architecture/"
+author: "Jeanne Ross and Cynthia Beath"
+date: 2020-08-24
+type: article
+total_segments: 25
+note: "URL behind paywall; segmentation derived from source note only"
+
+composition:
+  claim: { count: 14, pct: 56.0 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 1, pct: 4.0 }
+  definition: { count: 3, pct: 12.0 }
+  recommendation: { count: 4, pct: 16.0 }
+  context: { count: 2, pct: 8.0 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 1, pct: 4.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 0, pct: 0.0 }
+
+signal_ratio: 1.0
+
+segments:
+
+  # ============================================================
+  # KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-001
+    text: "Enterprise architecture is defined as 'the holistic design of people, processes, and technology to execute digitally inspired strategic goals.'"
+    type: definition
+    section: "Key Takeaways"
+    position: 1
+    source_format: bullet
+
+  - id: seg-002
+    text: "Three principles for organizational redesign through EA: (1) break key outcomes into components with designated accountability, (2) empower cross-functional teams, (3) allow business design to influence strategy."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 2
+    source_format: bullet
+
+  - id: seg-003
+    text: "Componentization — decomposing a business into reusable people-process-technology bundles — is the foundation of modern EA."
+    type: claim
+    section: "Key Takeaways"
+    position: 3
+    source_format: bullet
+
+  - id: seg-004
+    text: "Each component becomes a 'living asset' with a team that continually improves processes and technologies in response to changing needs."
+    type: claim
+    section: "Key Takeaways"
+    position: 4
+    source_format: bullet
+
+  - id: seg-005
+    text: "Strategy becomes both top-down and bottom-up: leaders create teams to seize opportunities while component teams reformulate strategy based on continuous learning."
+    type: claim
+    section: "Key Takeaways"
+    position: 5
+    source_format: bullet
+
+  - id: seg-006
+    text: "CarMax evolved from 3 initial product teams (~2015) to 30+ empowered teams with accountability for specified components of an omnichannel business model."
+    type: evidence
+    section: "Key Takeaways"
+    position: 6
+    source_format: bullet
+
+  - id: seg-007
+    text: "Traditional management separates IT (systems), functional leaders (processes), and business managers (people) — EA integrates these into unified component teams."
+    type: claim
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+
+  - id: seg-008
+    text: "When companies fund teams rather than strategic initiatives or systems development projects, they can respond almost instantaneously to emerging opportunities."
+    type: claim
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY — Paragraph 1
+  # ============================================================
+
+  - id: seg-009
+    text: "MIT Sloan Management Review authors Jeanne Ross and Cynthia Beath make the case that enterprise architecture is essential for any organization seeking to compete in the digital economy."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "They define EA broadly as the holistic design of people, processes, and technology — not just IT systems — to execute digitally inspired strategic goals."
+    type: definition
+    section: "Summary"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "Every negative customer interaction via app, website, phone, or service provider 'exposes your architectural inadequacies.'"
+    type: claim
+    section: "Summary"
+    position: 11
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY — Paragraph 2
+  # ============================================================
+
+  - id: seg-012
+    text: "The article establishes three core principles for EA-driven organizational redesign."
+    type: context
+    section: "Summary"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "First, componentization: breaking key business outcomes (products, customer experiences, core processes) into reusable components with clear accountability, where each component is a living asset continuously improved by a dedicated team."
+    type: recommendation
+    section: "Summary"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "Second, empowerment: cross-functional teams (product owners, developers, user designers, data scientists, legal, finance) are given autonomy to define and meet their goals."
+    type: recommendation
+    section: "Summary"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "Third, strategy influence: as component teams address strategic objectives, they simultaneously reformulate strategy based on continuous learning about customer needs and technology capabilities."
+    type: recommendation
+    section: "Summary"
+    position: 15
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY — Paragraph 3
+  # ============================================================
+
+  - id: seg-016
+    text: "The CarMax case study illustrates the evolutionary approach: starting with three product teams in 2015 to address urgent online experience needs, then gradually expanding to 30+ empowered teams covering the full omnichannel business model."
+    type: example
+    section: "Summary"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "This demonstrates that EA transformation is incremental and value-generating at each step, not a big-bang redesign."
+    type: claim
+    section: "Summary"
+    position: 17
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES
+  # ============================================================
+
+  - id: seg-018
+    text: "We define enterprise architecture as the holistic design of people, processes, and technology to execute digitally inspired strategic goals."
+    type: definition
+    section: "Notable Quotes"
+    position: 18
+    source_format: quote
+
+  - id: seg-019
+    text: "Every negative customer interaction via a company app, website, telephone call, or service provider exposes your architectural inadequacies."
+    type: claim
+    section: "Notable Quotes"
+    position: 19
+    source_format: quote
+
+  - id: seg-020
+    text: "When companies fund teams rather than strategic initiatives or systems development projects, those groups can respond almost instantaneously to what Spotify refers to as the company's 'bets.'"
+    type: claim
+    section: "Notable Quotes"
+    position: 20
+    source_format: quote
+
+  # ============================================================
+  # RELEVANCE TO TOPIC
+  # ============================================================
+
+  - id: seg-021
+    text: "While this article predates the current AI wave (published August 2020), it provides essential foundational context for the EA for AI topic."
+    type: context
+    section: "Relevance"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "The definition of EA as encompassing people, processes, and technology — not just IT systems — is particularly relevant as AI transforms all three dimensions simultaneously."
+    type: claim
+    section: "Relevance"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "The componentization principle directly maps to the modular, composable architectures that AI implementations require."
+    type: claim
+    section: "Relevance"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The cross-functional team model anticipates the human-AI collaboration patterns emerging in AI-native organizations."
+    type: claim
+    section: "Relevance"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Understanding these EA fundamentals is necessary to appreciate how profoundly AI is reshaping the discipline."
+    type: claim
+    section: "Relevance"
+    position: 25
+    source_format: prose

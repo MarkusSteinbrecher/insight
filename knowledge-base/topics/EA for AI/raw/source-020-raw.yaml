@@ -1,0 +1,1701 @@
+source_id: source-020
+title: "The Agentic Reality Check: Preparing for a Silicon-Based Workforce"
+url: "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html"
+author: "Jim Rowan, Nitin Mittal, Parth Patwari, Ed Burns"
+date: 2025-12-10
+type: article
+total_segments: 228
+composition:
+  claim: { count: 111, pct: 48.7 }
+  statistic: { count: 10, pct: 4.4 }
+  evidence: { count: 2, pct: 0.9 }
+  definition: { count: 6, pct: 2.6 }
+  recommendation: { count: 31, pct: 13.6 }
+  context: { count: 19, pct: 8.3 }
+  methodology: { count: 1, pct: 0.4 }
+  example: { count: 22, pct: 9.6 }
+  attribution: { count: 9, pct: 3.9 }
+  noise: { count: 17, pct: 7.5 }
+signal_ratio: 92.5
+
+segments:
+
+  # ============================================================
+  # SUBTITLE / LEDE
+  # ============================================================
+
+  - id: seg-001
+    text: "Despite its promise, many agentic AI implementations are failing."
+    type: claim
+    section: "Subtitle"
+    position: 1
+    source_format: prose
+
+  - id: seg-002
+    text: "But leading organizations that are reimagining operations and managing agents as workers are finding success."
+    type: claim
+    section: "Subtitle"
+    position: 2
+    source_format: prose
+
+  # ============================================================
+  # INTRODUCTION
+  # ============================================================
+
+  - id: seg-003
+    text: "Enterprises are moving quickly toward agentic AI, but many are hitting a wall."
+    type: context
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "They're trying to automate existing processes -- tasks designed by and for human workers -- without reimagining how the work should actually be done."
+    type: claim
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "Leading organizations are discovering something different: True value comes from redesigning operations, not just layering agents onto old workflows."
+    type: claim
+    section: "Introduction"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "This means building agent-compatible architectures, implementing robust orchestration frameworks, and developing new management approaches for digital workers."
+    type: recommendation
+    section: "Introduction"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "It also means rethinking work itself."
+    type: claim
+    section: "Introduction"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "As organizations embrace the full potential of agents, not only are their processes likely to change but so will their definition of a worker."
+    type: claim
+    section: "Introduction"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "Agents may come to be seen as a silicon-based workforce that complements and enhances the human workforce."
+    type: claim
+    section: "Introduction"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "Getting the fundamentals right -- from microservice-based agent architectures to silicon-workforce management -- can prepare enterprises for whatever shape the future of workflow automation takes and position them to compete effectively in an agent-native business environment."
+    type: recommendation
+    section: "Introduction"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "Henry Ford put it perfectly: 'Many people are busy trying to find better ways of doing things that should not have to be done at all. There is no progress in merely finding a better way to do a useless thing.'"
+    type: attribution
+    section: "Introduction"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "He was writing about building automobiles in 1922, but he could just as easily have been describing enterprise AI in 2025."
+    type: context
+    section: "Introduction"
+    position: 12
+    source_format: prose
+
+  # ============================================================
+  # THE AGENT REALITY CHECK (H2)
+  # ============================================================
+
+  - id: seg-013
+    text: "The agent reality check"
+    type: noise
+    section: "The agent reality check"
+    position: 13
+    source_format: heading
+
+  - id: seg-014
+    text: "Agentic AI has captured the attention of enterprises with its compelling promises of autonomous operation and intelligent execution."
+    type: context
+    section: "The agent reality check"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "The momentum is undeniable: Gartner predicts that 15% of day-to-day work decisions will be made autonomously through agentic AI by 2028, up from none in 2024."
+    type: statistic
+    section: "The agent reality check"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "33% of enterprise software applications will include agentic AI by 2028, compared with less than 1% today."
+    type: statistic
+    section: "The agent reality check"
+    position: 16
+    source_format: prose
+
+  # ============================================================
+  # FIGURE 1 (synthetic)
+  # ============================================================
+
+  - id: seg-017
+    text: "[Figure 1] Gartner predictions on agentic AI adoption: 15% of day-to-day work decisions autonomous by 2028 (from 0% in 2024); 33% of enterprise software applications will include agentic AI by 2028 (from less than 1% today)."
+    type: statistic
+    section: "The agent reality check"
+    position: 17
+    source_format: figure
+
+  # ============================================================
+  # CONTINUED: The agent reality check
+  # ============================================================
+
+  - id: seg-018
+    text: "Yet despite this enthusiasm, enterprises are encountering significant obstacles in translating agentic pilots into production-ready solutions."
+    type: claim
+    section: "The agent reality check"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "Deloitte's 2025 Emerging Technology Trends study notes that while 30% of surveyed organizations are exploring agentic options and 38% are piloting solutions, only 14% have solutions that are ready to be deployed and a mere 11% are actively using these systems in production."
+    type: statistic
+    section: "The agent reality check"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "Furthermore, 42% of organizations report they are still developing their agentic strategy road map, with 35% having no formal strategy at all."
+    type: statistic
+    section: "The agent reality check"
+    position: 20
+    source_format: prose
+
+  # ============================================================
+  # THE AGENTIC REALITY GAP (H3)
+  # ============================================================
+
+  - id: seg-021
+    text: "The agentic reality gap"
+    type: noise
+    section: "The agentic reality gap"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "Three fundamental infrastructure obstacles may prevent organizations from realizing the full potential of agentic AI."
+    type: context
+    section: "The agentic reality gap"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Legacy system integration: Traditional enterprise systems weren't designed for agentic interactions."
+    type: claim
+    section: "The agentic reality gap"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "Most agents still rely on application programming interfaces (APIs) and conventional data pipelines to access enterprise systems, which creates bottlenecks and limits their autonomous capabilities."
+    type: claim
+    section: "The agentic reality gap"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Gartner predicts that over 40% of agentic AI projects will fail by 2027 because legacy systems can't support modern AI execution demands."
+    type: statistic
+    section: "The agentic reality gap"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "These systems lack the real-time execution capability, modern APIs, modular architectures, and secure identity management needed for true agentic integration."
+    type: claim
+    section: "The agentic reality gap"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Data architecture constraints: Current enterprise data architectures, built around extract, transform, load (ETL) processes and data warehouses, create friction for agent deployment."
+    type: claim
+    section: "The agentic reality gap"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The fundamental issue is that most organizational data isn't positioned to be consumed by agents that need to understand business context and make decisions."
+    type: claim
+    section: "The agentic reality gap"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "In a 2025 Deloitte survey, nearly half of organizations cited searchability of data (48%) and reusability of data (47%) as challenges to their AI automation strategy."
+    type: statistic
+    section: "The agentic reality gap"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "The solution involves a paradigm shift from traditional data pipelines to what can be described as enterprise search and indexing -- similar to how Google made the World Wide Web discoverable."
+    type: recommendation
+    section: "The agentic reality gap"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "This approach involves contextualizing enterprise data through content and index stores built on knowledge graphs, making information discoverable without requiring extensive ETL processes."
+    type: recommendation
+    section: "The agentic reality gap"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Governance and control frameworks: Enterprises struggle to establish appropriate oversight mechanisms for systems designed to operate autonomously."
+    type: claim
+    section: "The agentic reality gap"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Traditional IT governance models don't account for AI systems that make independent decisions and take actions."
+    type: claim
+    section: "The agentic reality gap"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "The challenge extends beyond technical control to fundamental questions about process redesign: Many organizations attempt to automate current processes rather than reimagine workflows for an agentic environment."
+    type: claim
+    section: "The agentic reality gap"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Additionally, many so-called agentic initiatives are actually automation use cases in disguise."
+    type: claim
+    section: "The agentic reality gap"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Enterprises often apply agents where simpler tools would suffice, resulting in poor ROI."
+    type: claim
+    section: "The agentic reality gap"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "This 'agent washing' compounds the problem, with vendors rebranding existing automation capabilities as 'agents.'"
+    type: claim
+    section: "The agentic reality gap"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Furthermore, poorly designed agentic applications can actually add work to a process, with some enterprises finding agentic 'workslop' can make processes even less efficient."
+    type: claim
+    section: "The agentic reality gap"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "At their core, AI agents represent a new paradigm in how work gets done, but most enterprises today simply aren't set up to take advantage of the opportunities for automation that agents present."
+    type: claim
+    section: "The agentic reality gap"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "However, we're starting to see signs at leading organizations that these challenges can be surmounted through strategic process redesign, architectural modernization, and new governance frameworks."
+    type: claim
+    section: "The agentic reality gap"
+    position: 40
+    source_format: prose
+
+  # ============================================================
+  # THE ARCHITECTURE OF AUTONOMOUS OPERATIONS (H2)
+  # ============================================================
+
+  - id: seg-041
+    text: "The architecture of autonomous operations"
+    type: noise
+    section: "The architecture of autonomous operations"
+    position: 41
+    source_format: heading
+
+  - id: seg-042
+    text: "Forward-thinking organizations are moving beyond pilot projects to implement systematic approaches for agentic transformation."
+    type: claim
+    section: "The architecture of autonomous operations"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Their success stems from recognizing that effective agentic AI requires more than deploying individual agents."
+    type: claim
+    section: "The architecture of autonomous operations"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "Instead, it requires thoughtful approaches to integrating agents into systems and workflows, and carefully managing agents once they're rolled out."
+    type: claim
+    section: "The architecture of autonomous operations"
+    position: 44
+    source_format: prose
+
+  # ============================================================
+  # REDESIGNING PROCESSES TO BE AGENT-NATIVE (H3)
+  # ============================================================
+
+  - id: seg-045
+    text: "Redesigning processes to be agent-native"
+    type: noise
+    section: "Redesigning processes to be agent-native"
+    position: 45
+    source_format: heading
+
+  - id: seg-046
+    text: "Leading enterprises don't simply layer agents onto existing workflows."
+    type: claim
+    section: "Redesigning processes to be agent-native"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "Instead, they redesign processes to leverage the unique strengths of agents."
+    type: claim
+    section: "Redesigning processes to be agent-native"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "This requires taking a step back and examining end-to-end processes rather than finding automation opportunities within current operations."
+    type: recommendation
+    section: "Redesigning processes to be agent-native"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "Agents can handle a range of transactions, communicate with each other, and collaborate to achieve a business outcome, but only when the underlying processes are structured to support these capabilities."
+    type: claim
+    section: "Redesigning processes to be agent-native"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "'Now is an ideal time to conduct value stream mapping to understand how workflows should work versus the way they do work,' says Brent Collins, head of global SI alliances and former vice president of AI strategy at Intel."
+    type: attribution
+    section: "Redesigning processes to be agent-native"
+    position: 50
+    source_format: quote
+
+  - id: seg-051
+    text: "'Don't simply pave the cow path. Instead, take advantage of this AI evolution to reimagine how agents can best collaborate, support, and optimize operations for the business.'"
+    type: recommendation
+    section: "Redesigning processes to be agent-native"
+    position: 51
+    source_format: quote
+
+  - id: seg-052
+    text: "Most businesses' existing processes were designed around human staff."
+    type: claim
+    section: "Redesigning processes to be agent-native"
+    position: 52
+    source_format: prose
+
+  - id: seg-053
+    text: "Agents operate differently."
+    type: context
+    section: "Redesigning processes to be agent-native"
+    position: 53
+    source_format: prose
+
+  - id: seg-054
+    text: "They don't need breaks or weekends."
+    type: context
+    section: "Redesigning processes to be agent-native"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "They can complete a high volume of tasks continually."
+    type: context
+    section: "Redesigning processes to be agent-native"
+    position: 55
+    source_format: prose
+
+  - id: seg-056
+    text: "When organizations realize this, the opportunities for process redesign become compelling."
+    type: claim
+    section: "Redesigning processes to be agent-native"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "That's why enterprises that are succeeding with agentic AI are looking at their processes from end to end."
+    type: claim
+    section: "Redesigning processes to be agent-native"
+    position: 57
+    source_format: prose
+
+  - id: seg-058
+    text: "Enterprise software and services company HPE is developing an AI agent with exactly this kind of process redesign in mind."
+    type: example
+    section: "Redesigning processes to be agent-native"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "'We wanted to select an end-to-end process where we could truly transform rather than just solve for a single pain point. We wanted to operate differently,' says Marie Myers, executive vice president and chief financial officer."
+    type: attribution
+    section: "Redesigning processes to be agent-native"
+    position: 59
+    source_format: quote
+
+  - id: seg-060
+    text: "Her team led the creation of an AI agent called Alfred that helps complete internal operational performance reviews."
+    type: example
+    section: "Redesigning processes to be agent-native"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "Myers says the process of conducting the review is very time-consuming, but it's also developed from large data sets, making it ripe for agentic automation."
+    type: example
+    section: "Redesigning processes to be agent-native"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "The agent developed by the team consists of an agentic front-end user interface that works with four separate underlying agents."
+    type: example
+    section: "Redesigning processes to be agent-native"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "These agents break down queries into multiple elements for processing, conduct data analysis on SQL data, build charts and graphs to present data, and translate AI insights into user-friendly structured reports."
+    type: example
+    section: "Redesigning processes to be agent-native"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "The agents pull data from the company's data warehouse, which sits on top of its enterprise resourcing planning and customer relationship management systems."
+    type: example
+    section: "Redesigning processes to be agent-native"
+    position: 64
+    source_format: prose
+
+  - id: seg-065
+    text: "Myers says she believes the project holds lessons for those outside of her team and even beyond HPE: 'That's why we chose this use case, because it applies across functions and industries. We wanted to be able to drive change across the various levels of the organization.'"
+    type: attribution
+    section: "Redesigning processes to be agent-native"
+    position: 65
+    source_format: quote
+
+  # ============================================================
+  # SIDEBAR: John Roese, Dell Technologies
+  # ============================================================
+
+  - id: seg-066
+    text: "Digitizing skills at scale: John Roese on using AI agents to transform business processes"
+    type: noise
+    section: "Sidebar: John Roese interview"
+    position: 66
+    source_format: heading
+
+  - id: seg-067
+    text: "John Roese is the global chief technology officer and chief AI officer at Dell Technologies, where he leads the company's global technology strategy and AI transformation initiatives."
+    type: context
+    section: "Sidebar: John Roese interview"
+    position: 67
+    source_format: prose
+
+  - id: seg-068
+    text: "If we think of agents as digital skills, their real value emerges when they start operating as a collective."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 68
+    source_format: prose
+
+  - id: seg-069
+    text: "First-generation AI tools, like chatbots and coding assistants, are very good at dealing with single-dimensional processes, like presenting sales information or writing code."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 69
+    source_format: prose
+
+  - id: seg-070
+    text: "But the minute you get into a process that's composite -- that doesn't wholly exist within a single domain -- agents are the better tool."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 70
+    source_format: prose
+
+  - id: seg-071
+    text: "Agents have the ability to pass context between each other, to reason across boundaries, and to interact over protocols like agent-to-agent."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "Most composite processes don't exist solely within the enterprise."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 72
+    source_format: prose
+
+  - id: seg-073
+    text: "Third parties, software vendors, and SaaS providers are part of that workflow."
+    type: context
+    section: "Sidebar: John Roese interview"
+    position: 73
+    source_format: prose
+
+  - id: seg-074
+    text: "Trustworthy, secure interworking between agents is critical."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 74
+    source_format: prose
+
+  - id: seg-075
+    text: "Otherwise, we can never digitize those processes across boundaries."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 75
+    source_format: prose
+
+  - id: seg-076
+    text: "Most enterprises have barely tapped into applying AI to monolithic singular processes."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 76
+    source_format: prose
+
+  - id: seg-077
+    text: "Imagine the productivity if you apply AI to the composite processes that run your organization."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 77
+    source_format: prose
+
+  - id: seg-078
+    text: "We now have a dozen agentic proofs of concept, all going after composite problems like quoting or end-to-end remediation of a customer issue across domains, including entitlements, billing, and logistics."
+    type: example
+    section: "Sidebar: John Roese interview"
+    position: 78
+    source_format: prose
+
+  - id: seg-079
+    text: "We're very focused on ROI. We don't do science projects."
+    type: attribution
+    section: "Sidebar: John Roese interview"
+    position: 79
+    source_format: quote
+
+  - id: seg-080
+    text: "We have agentic technology emerging across sales, services, supply chain, and engineering, areas that have a material impact on the company's financial performance."
+    type: example
+    section: "Sidebar: John Roese interview"
+    position: 80
+    source_format: prose
+
+  - id: seg-081
+    text: "We've probably tapped into 20 digitized enterprise processes."
+    type: statistic
+    section: "Sidebar: John Roese interview"
+    position: 81
+    source_format: prose
+
+  - id: seg-082
+    text: "Before the end of 2025, we will have live autonomous systems that are more than likely working across domains as first-generation tools."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 82
+    source_format: prose
+
+  - id: seg-083
+    text: "In the front end of our process, we require a material ROI signed off by the finance partner and the head of that business unit."
+    type: methodology
+    section: "Sidebar: John Roese interview"
+    position: 83
+    source_format: prose
+
+  - id: seg-084
+    text: "That discipline has kept experiments as experiments, and production only happens if there is solid ROI."
+    type: evidence
+    section: "Sidebar: John Roese interview"
+    position: 84
+    source_format: prose
+
+  - id: seg-085
+    text: "We also realized that you apply AI to processes, not to people, organizations, or companies."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 85
+    source_format: prose
+
+  - id: seg-086
+    text: "We expect you to be very clear about the processes you're improving."
+    type: recommendation
+    section: "Sidebar: John Roese interview"
+    position: 86
+    source_format: prose
+
+  - id: seg-087
+    text: "As we continue to improve, we've become very disciplined in our processes."
+    type: context
+    section: "Sidebar: John Roese interview"
+    position: 87
+    source_format: prose
+
+  - id: seg-088
+    text: "As a result, we stopped allowing people to design their own AI solutions, and instead, we created an architectural review board that evaluates and approves AI investments and solutions."
+    type: example
+    section: "Sidebar: John Roese interview"
+    position: 88
+    source_format: prose
+
+  - id: seg-089
+    text: "AI is a process improvement technology, so if you don't have solid processes, you should not proceed."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 89
+    source_format: prose
+
+  - id: seg-090
+    text: "Figure that out first, because otherwise, you'll be guessing where to apply this technology."
+    type: recommendation
+    section: "Sidebar: John Roese interview"
+    position: 90
+    source_format: prose
+
+  - id: seg-091
+    text: "We cleaned up our data and gained clarity on the processes we have in place."
+    type: example
+    section: "Sidebar: John Roese interview"
+    position: 91
+    source_format: prose
+
+  - id: seg-092
+    text: "Without that, we would have been trying to apply AI to something that wasn't quantifiable and might not be accurate."
+    type: claim
+    section: "Sidebar: John Roese interview"
+    position: 92
+    source_format: prose
+
+  - id: seg-093
+    text: "With this approach in mind, our services organization has digitized every process."
+    type: example
+    section: "Sidebar: John Roese interview"
+    position: 93
+    source_format: prose
+
+  - id: seg-094
+    text: "We brought all their data together into a single assistant that sits in every digital and human channel to predict the next best action."
+    type: example
+    section: "Sidebar: John Roese interview"
+    position: 94
+    source_format: prose
+
+  - id: seg-095
+    text: "The result has been double-digit improvements on every metric around cost and customer satisfaction."
+    type: statistic
+    section: "Sidebar: John Roese interview"
+    position: 95
+    source_format: prose
+
+  # ============================================================
+  # LEGACY SYSTEM REPLACEMENT (H3)
+  # ============================================================
+
+  - id: seg-096
+    text: "Legacy system replacement"
+    type: noise
+    section: "Legacy system replacement"
+    position: 96
+    source_format: heading
+
+  - id: seg-097
+    text: "When an organization examines its end-to-end processes, it will likely discover workflows that span multiple systems, including legacy software."
+    type: claim
+    section: "Legacy system replacement"
+    position: 97
+    source_format: prose
+
+  - id: seg-098
+    text: "This has implications for core modernization strategies."
+    type: context
+    section: "Legacy system replacement"
+    position: 98
+    source_format: prose
+
+  - id: seg-099
+    text: "AI is increasingly able to learn and understand the essential business rules and workflows that define a business' operations."
+    type: claim
+    section: "Legacy system replacement"
+    position: 99
+    source_format: prose
+
+  - id: seg-100
+    text: "Organizations should carefully consider what constitutes their true core systems and determine whether to use traditional application modernization when agents can effectively bridge legacy system gaps."
+    type: recommendation
+    section: "Legacy system replacement"
+    position: 100
+    source_format: prose
+
+  - id: seg-101
+    text: "At Toyota, teams are using an agentic tool to gain better visibility into the estimated time of arrival of vehicles at dealerships and will soon start using agents to resolve supply issues."
+    type: example
+    section: "Legacy system replacement"
+    position: 101
+    source_format: prose
+
+  - id: seg-102
+    text: "The process used to involve 50 to 100 mainframe screens and significant hands-on work from supply chain team members."
+    type: evidence
+    section: "Legacy system replacement"
+    position: 102
+    source_format: prose
+
+  - id: seg-103
+    text: "Now, an agent delivers real-time information to staff on vehicles from pre-manufacturing through delivery to the dealership, all without anyone having to interact with the mainframe."
+    type: example
+    section: "Legacy system replacement"
+    position: 103
+    source_format: prose
+
+  - id: seg-104
+    text: "Going forward, the team plans to empower agents to identify delays in vehicle shipments and draft emails to try to resolve the issue."
+    type: example
+    section: "Legacy system replacement"
+    position: 104
+    source_format: prose
+
+  - id: seg-105
+    text: "'The agent can do all these things before the team member even comes in in the morning,' says Jason Ballard, vice president of digital innovations at Toyota."
+    type: attribution
+    section: "Legacy system replacement"
+    position: 105
+    source_format: quote
+
+  - id: seg-106
+    text: "'We've made that critical decision to just go ahead and invest in this area a bit further. We feel like that's where the differentiator is going to be going forward.'"
+    type: attribution
+    section: "Legacy system replacement"
+    position: 106
+    source_format: quote
+
+  # ============================================================
+  # MANAGING THE MIXED SILICON- AND CARBON-BASED WORKFORCE (H3)
+  # ============================================================
+
+  - id: seg-107
+    text: "Managing the mixed silicon- and carbon-based workforce"
+    type: noise
+    section: "Managing the mixed workforce"
+    position: 107
+    source_format: heading
+
+  - id: seg-108
+    text: "Perhaps the most significant shift when implementing AI agents involves recognizing that agents represent a new form of labor, one that may share some similarities with the human (or carbon-based) workforce."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 108
+    source_format: prose
+
+  - id: seg-109
+    text: "Some organizations are beginning to think beyond using agents as simple automation tools and are starting to explore ways to integrate them with their human workforce."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 109
+    source_format: prose
+
+  - id: seg-110
+    text: "This evolution represents a fundamental reimagining of what work means, how it's performed, and who performs it."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 110
+    source_format: prose
+
+  - id: seg-111
+    text: "At the heart of this shift is a recognition that AI agents and human workers have different skill sets."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 111
+    source_format: prose
+
+  - id: seg-112
+    text: "While agents excel at defined processes, humans remain essential for navigating the shifting ground of business requirements and complex problem-solving scenarios."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 112
+    source_format: prose
+
+  - id: seg-113
+    text: "This transformation creates two primary areas that human workers are moving toward."
+    type: context
+    section: "Managing the mixed workforce"
+    position: 113
+    source_format: prose
+
+  - id: seg-114
+    text: "Compliance and governance: Humans increasingly focus on validation, oversight, and building guardrails for agent operations."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 114
+    source_format: bullet
+
+  - id: seg-115
+    text: "Growth and innovation: They also concentrate on reimagining operations and identifying new opportunities that emerge from agent capabilities."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 115
+    source_format: bullet
+
+  - id: seg-116
+    text: "At insurance company Mapfre, AI agents are used across the organization, including in claims management, where agents handle routine administrative tasks like damage assessments."
+    type: example
+    section: "Managing the mixed workforce"
+    position: 116
+    source_format: prose
+
+  - id: seg-117
+    text: "And when it comes to more sensitive tasks like customer communication, a person is always in the loop."
+    type: example
+    section: "Managing the mixed workforce"
+    position: 117
+    source_format: prose
+
+  - id: seg-118
+    text: "Maribel Solanas Gonzalez, Mapfre's group chief data officer, says she carefully considers which tasks to delegate to agents, ensuring that they are tasks that agents can complete safely and efficiently."
+    type: example
+    section: "Managing the mixed workforce"
+    position: 118
+    source_format: prose
+
+  - id: seg-119
+    text: "Anything that may carry risk still goes through a human worker."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 119
+    source_format: prose
+
+  - id: seg-120
+    text: "This is beginning to change the nature of jobs."
+    type: claim
+    section: "Managing the mixed workforce"
+    position: 120
+    source_format: prose
+
+  - id: seg-121
+    text: "The company has published an AI manifesto that prioritizes well-governed, respectful, and safe AI."
+    type: example
+    section: "Managing the mixed workforce"
+    position: 121
+    source_format: prose
+
+  - id: seg-122
+    text: "'It's hybrid by design,' she says. 'With the high level of autonomy of these agents, it's not going to substitute for people, but it's going to change what [human workers] do today, allowing them to invest their time on more valuable work.'"
+    type: attribution
+    section: "Managing the mixed workforce"
+    position: 122
+    source_format: quote
+
+  - id: seg-123
+    text: "Other enterprises are going even further."
+    type: context
+    section: "Managing the mixed workforce"
+    position: 123
+    source_format: prose
+
+  - id: seg-124
+    text: "Biotech company Moderna recently named its first chief people and digital technology officer, essentially combining its technology and HR functions."
+    type: example
+    section: "Managing the mixed workforce"
+    position: 124
+    source_format: prose
+
+  - id: seg-125
+    text: "The move was a strategic step to evolve Moderna's operating model by integrating people and technology to accelerate how work gets done."
+    type: example
+    section: "Managing the mixed workforce"
+    position: 125
+    source_format: prose
+
+  - id: seg-126
+    text: "'The HR organization does workforce planning really well, and the IT function does technology planning really well. We need to think about work planning, regardless of if it's a person or a technology,' says Tracey Franklin, chief people and digital technology officer at Moderna."
+    type: attribution
+    section: "Managing the mixed workforce"
+    position: 126
+    source_format: quote
+
+  # ============================================================
+  # SPECIALIZED VS. BROAD AUTOMATION (H3)
+  # ============================================================
+
+  - id: seg-127
+    text: "Specialized vs. broad automation"
+    type: noise
+    section: "Specialized vs. broad automation"
+    position: 127
+    source_format: heading
+
+  - id: seg-128
+    text: "Successful deployments focus on specific, well-defined domains rather than attempting enterprise-wide automation."
+    type: claim
+    section: "Specialized vs. broad automation"
+    position: 128
+    source_format: prose
+
+  - id: seg-129
+    text: "Broad automation remains possible but requires multiple specialized agents working in an orchestrated fashion rather than single, monolithic solutions."
+    type: claim
+    section: "Specialized vs. broad automation"
+    position: 129
+    source_format: prose
+
+  - id: seg-130
+    text: "Organizations face critical build-versus-buy decisions that often depend on technical maturity and specific use case requirements."
+    type: claim
+    section: "Specialized vs. broad automation"
+    position: 130
+    source_format: prose
+
+  - id: seg-131
+    text: "Research indicates that pilots built through strategic partnerships are twice as likely to reach full deployment compared to those built internally, with employee usage rates nearly double for externally built tools."
+    type: statistic
+    section: "Specialized vs. broad automation"
+    position: 131
+    source_format: prose
+
+  # ============================================================
+  # MULTIAGENT ORCHESTRATION (H3)
+  # ============================================================
+
+  - id: seg-132
+    text: "Multiagent orchestration"
+    type: noise
+    section: "Multiagent orchestration"
+    position: 132
+    source_format: heading
+
+  - id: seg-133
+    text: "The first wave of generative AI in the enterprise consisted largely of general-purpose chatbots, which, while useful as productivity tools, often don't deliver the kind of opportunities to automate that businesses need to drive new efficiencies."
+    type: claim
+    section: "Multiagent orchestration"
+    position: 133
+    source_format: prose
+
+  - id: seg-134
+    text: "With AI agents, organizations can develop highly specialized tools that automatically execute specific tasks."
+    type: claim
+    section: "Multiagent orchestration"
+    position: 134
+    source_format: prose
+
+  - id: seg-135
+    text: "When these specialists are deployed in an orchestrated manner, they can automate entire workflows."
+    type: claim
+    section: "Multiagent orchestration"
+    position: 135
+    source_format: prose
+
+  - id: seg-136
+    text: "This approach is enabled by evolving standards and protocols that facilitate agent interaction."
+    type: context
+    section: "Multiagent orchestration"
+    position: 136
+    source_format: prose
+
+  - id: seg-137
+    text: "Model Context Protocol (MCP): Developed by Anthropic, MCP standardizes how AI systems connect to data sources and tools, providing a universal interface for agents to access enterprise resources."
+    type: definition
+    section: "Multiagent orchestration"
+    position: 137
+    source_format: prose
+
+  - id: seg-138
+    text: "While promising, MCP faces limitations in handling complex enterprise security requirements and integrating legacy systems."
+    type: claim
+    section: "Multiagent orchestration"
+    position: 138
+    source_format: prose
+
+  - id: seg-139
+    text: "Agent-to-Agent Protocol (A2A): Google's protocol enables direct communication between different AI agents across platforms, handling agent discovery, task delegation, and collaborative workflow."
+    type: definition
+    section: "Multiagent orchestration"
+    position: 139
+    source_format: prose
+
+  - id: seg-140
+    text: "Agent Communication Protocol (ACP): This is an open protocol that enables agents to communicate with each other through a RESTful API, allowing agents to collaborate regardless of the environment in which they were built."
+    type: definition
+    section: "Multiagent orchestration"
+    position: 140
+    source_format: prose
+
+  - id: seg-141
+    text: "ACP may face hurdles due to limitations on the number of agents that can coordinate in a single network and the complexity of integrating with existing enterprise tools."
+    type: claim
+    section: "Multiagent orchestration"
+    position: 141
+    source_format: prose
+
+  - id: seg-142
+    text: "These protocols represent the foundational layer for what experts describe as a 'microservices approach to AI': deploying numerous smaller, specialized agents across various platforms closer to where workflow instructions and data reside."
+    type: claim
+    section: "Multiagent orchestration"
+    position: 142
+    source_format: prose
+
+  - id: seg-143
+    text: "This approach offers several advantages, such as reduced complexity (because smaller agents are easier to debug, test, and maintain); scalable orchestration, where multiple specialized agents can be combined for complex tasks; and platform flexibility that allows agents to run on different systems while maintaining interoperability."
+    type: claim
+    section: "Multiagent orchestration"
+    position: 143
+    source_format: prose
+
+  # ============================================================
+  # FINOPS FOR AGENTS (H3)
+  # ============================================================
+
+  - id: seg-144
+    text: "FinOps for agents"
+    type: noise
+    section: "FinOps for agents"
+    position: 144
+    source_format: heading
+
+  - id: seg-145
+    text: "As agents operate continuously, poorly configured agent interactions can trigger cascading actions like unpredictable resource consumption and ballooning costs, making cost management critical."
+    type: claim
+    section: "FinOps for agents"
+    position: 145
+    source_format: prose
+
+  - id: seg-146
+    text: "Organizations need specialized financial operations frameworks (or FinOps) to monitor and control agent-driven expenses and account for token-based pricing models."
+    type: recommendation
+    section: "FinOps for agents"
+    position: 146
+    source_format: prose
+
+  - id: seg-147
+    text: "These frameworks help track costs in detail through resource tagging, real-time monitoring, automated resource management including autoscaling and rightsizing, and strong governance frameworks to manage AI-specific expenditures."
+    type: recommendation
+    section: "FinOps for agents"
+    position: 147
+    source_format: prose
+
+  # ============================================================
+  # FIVE QUESTIONS TO DRIVE AGENTIC AI IMPLEMENTATIONS (H3)
+  # ============================================================
+
+  - id: seg-148
+    text: "Five questions to drive agentic AI implementations"
+    type: noise
+    section: "Five questions"
+    position: 148
+    source_format: heading
+
+  - id: seg-149
+    text: "As organizations begin their agentic journey, they can consider five strategic questions to help drive their adoption, both now and into the future."
+    type: context
+    section: "Five questions"
+    position: 149
+    source_format: prose
+
+  - id: seg-150
+    text: "What agents will be deployed, and what functions will they perform?"
+    type: recommendation
+    section: "Five questions"
+    position: 150
+    source_format: bullet
+
+  - id: seg-151
+    text: "What are the cost profiles relative to human employees?"
+    type: recommendation
+    section: "Five questions"
+    position: 151
+    source_format: bullet
+
+  - id: seg-152
+    text: "Which processes will be automated and at what level of efficiency?"
+    type: recommendation
+    section: "Five questions"
+    position: 152
+    source_format: bullet
+
+  - id: seg-153
+    text: "What will be the optimal mix of human and digital workforce over the next four years?"
+    type: recommendation
+    section: "Five questions"
+    position: 153
+    source_format: bullet
+
+  - id: seg-154
+    text: "Will agents eventually take over entire operational areas beyond the five-year horizon?"
+    type: recommendation
+    section: "Five questions"
+    position: 154
+    source_format: bullet
+
+  - id: seg-155
+    text: "Most enterprises ready to implement AI agents today are likely to have prepared answers for the first three questions."
+    type: claim
+    section: "Five questions"
+    position: 155
+    source_format: prose
+
+  - id: seg-156
+    text: "However, things get hazier as they consider the latter two."
+    type: claim
+    section: "Five questions"
+    position: 156
+    source_format: prose
+
+  - id: seg-157
+    text: "A lot depends on how agentic technology and the underlying generative AI models develop in the future and how this development drives changes in workforce makeup and operational priorities."
+    type: context
+    section: "Five questions"
+    position: 157
+    source_format: prose
+
+  # ============================================================
+  # HUMAN-DIGITAL COLLABORATION DRIVES DIFFERENTIATION (H2)
+  # ============================================================
+
+  - id: seg-158
+    text: "Human-digital collaboration drives differentiation"
+    type: noise
+    section: "Human-digital collaboration"
+    position: 158
+    source_format: heading
+
+  - id: seg-159
+    text: "The future enterprise is likely to experience significant changes in the fundamental nature of work, extending beyond traditional carbon-based workforces to include digital agents that autonomously handle entire job functions."
+    type: claim
+    section: "Human-digital collaboration"
+    position: 159
+    source_format: prose
+
+  - id: seg-160
+    text: "As we discussed, companies are already beginning to develop hybrid human-digital workforces."
+    type: context
+    section: "Human-digital collaboration"
+    position: 160
+    source_format: prose
+
+  - id: seg-161
+    text: "If organizations get this balance right, it may become the primary competitive differentiator in most industries going forward."
+    type: claim
+    section: "Human-digital collaboration"
+    position: 161
+    source_format: prose
+
+  # ============================================================
+  # THE AUTONOMY SPECTRUM (H3)
+  # ============================================================
+
+  - id: seg-162
+    text: "The autonomy spectrum"
+    type: noise
+    section: "The autonomy spectrum"
+    position: 162
+    source_format: heading
+
+  - id: seg-163
+    text: "Organizations should define clear boundaries for agent decision-making through graduated autonomy levels, with appropriate human oversight triggers."
+    type: recommendation
+    section: "The autonomy spectrum"
+    position: 163
+    source_format: prose
+
+  - id: seg-164
+    text: "The autonomy spectrum progresses through three distinct phases."
+    type: context
+    section: "The autonomy spectrum"
+    position: 164
+    source_format: prose
+
+  - id: seg-165
+    text: "Augmentation: Today's reality where agents enhance human worker capabilities."
+    type: definition
+    section: "The autonomy spectrum"
+    position: 165
+    source_format: bullet
+
+  - id: seg-166
+    text: "Automation: An emerging capability where agents automate tasks within processes defined by humans."
+    type: definition
+    section: "The autonomy spectrum"
+    position: 166
+    source_format: bullet
+
+  - id: seg-167
+    text: "True autonomy: A future state in which artificial general intelligence enables agents to work with minimal oversight."
+    type: definition
+    section: "The autonomy spectrum"
+    position: 167
+    source_format: bullet
+
+  - id: seg-168
+    text: "Success requires deploying 'agent supervisors' -- humans who enter workflows at intentionally designed points to handle exceptions requiring their judgment."
+    type: recommendation
+    section: "The autonomy spectrum"
+    position: 168
+    source_format: prose
+
+  - id: seg-169
+    text: "This isn't simply about checking agents' work, but about strategic handoffs of work at critical decision points."
+    type: claim
+    section: "The autonomy spectrum"
+    position: 169
+    source_format: prose
+
+  - id: seg-170
+    text: "Over the coming years, as AI technology improves, potentially to the point of reaching artificial general intelligence, organizations should be able to let agents work more independently."
+    type: claim
+    section: "The autonomy spectrum"
+    position: 170
+    source_format: prose
+
+  - id: seg-171
+    text: "Leaders should continually assess the state of AI capabilities to ensure they are delegating responsibilities that agents are suited to handle."
+    type: recommendation
+    section: "The autonomy spectrum"
+    position: 171
+    source_format: prose
+
+  # ============================================================
+  # HR FOR AGENTS (H3)
+  # ============================================================
+
+  - id: seg-172
+    text: "HR for agents"
+    type: noise
+    section: "HR for agents"
+    position: 172
+    source_format: heading
+
+  - id: seg-173
+    text: "As agents mature within job functions, organizations will need equally mature approaches to managing them."
+    type: claim
+    section: "HR for agents"
+    position: 173
+    source_format: prose
+
+  - id: seg-174
+    text: "This will likely require an entirely new framework for managing agents that not only leans on traditional human resource management concepts for areas where agents share similarities with human workers, but also diverges to account for their unique characteristics."
+    type: claim
+    section: "HR for agents"
+    position: 174
+    source_format: prose
+
+  - id: seg-175
+    text: "Some areas of focus for HR, such as workplace culture, employee loyalty, and worker motivation, won't be applicable to agents but will remain key pillars of how organizations manage their human staff."
+    type: claim
+    section: "HR for agents"
+    position: 175
+    source_format: prose
+
+  - id: seg-176
+    text: "Other features of worker management can be extended to apply to agents, even if they look slightly different."
+    type: claim
+    section: "HR for agents"
+    position: 176
+    source_format: prose
+
+  - id: seg-177
+    text: "Onboarding: Just as with human workers, agents will require onboarding processes that train them in the enterprise's unique data and operations."
+    type: recommendation
+    section: "HR for agents"
+    position: 177
+    source_format: prose
+
+  - id: seg-178
+    text: "At the same time, the human supervisor of the agent should receive training and education on how to leverage the new agents."
+    type: recommendation
+    section: "HR for agents"
+    position: 178
+    source_format: prose
+
+  - id: seg-179
+    text: "This will require a new two-pronged approach to onboarding digital labor that prepares both the agent and the human staff for collaboration."
+    type: recommendation
+    section: "HR for agents"
+    position: 179
+    source_format: prose
+
+  - id: seg-180
+    text: "Performance management: This may be one of the areas where managing agents diverges most from traditional human resource management."
+    type: claim
+    section: "HR for agents"
+    position: 180
+    source_format: prose
+
+  - id: seg-181
+    text: "Organizations will need systems to prove what agents did, why they made specific decisions, and under whose authority they acted."
+    type: recommendation
+    section: "HR for agents"
+    position: 181
+    source_format: prose
+
+  - id: seg-182
+    text: "This requires digital identity systems, cryptographic receipts for transactions, and immutable logs for every agent action."
+    type: recommendation
+    section: "HR for agents"
+    position: 182
+    source_format: prose
+
+  - id: seg-183
+    text: "As agents roll out across businesses' operations, they will create too much data for human managers to evaluate, which may drive a need for additional agents that manage performance."
+    type: claim
+    section: "HR for agents"
+    position: 183
+    source_format: prose
+
+  - id: seg-184
+    text: "Life cycle management: Agents will require ongoing training updates, redeployment to priority areas, and potentially even retirement planning."
+    type: recommendation
+    section: "HR for agents"
+    position: 184
+    source_format: prose
+
+  - id: seg-185
+    text: "Organizations are beginning to assign individual names to agents to track productivity contributions, recognizing that digital workers may eventually be subject to taxation similar to human employees."
+    type: claim
+    section: "HR for agents"
+    position: 185
+    source_format: prose
+
+  - id: seg-186
+    text: "Zero trust architecture: Implementing ephemeral authentication systems ensures that agent actions are continuously verified and authorized, just as human workers must periodically complete authentication tasks to access enterprise resources."
+    type: recommendation
+    section: "HR for agents"
+    position: 186
+    source_format: prose
+
+  - id: seg-187
+    text: "When calibrated properly, the framework for managing agents will drive strong collaboration between human and digital workers."
+    type: claim
+    section: "HR for agents"
+    position: 187
+    source_format: prose
+
+  - id: seg-188
+    text: "However, taking the analogy of agents as digital workers too literally may limit the potential of agents."
+    type: claim
+    section: "HR for agents"
+    position: 188
+    source_format: prose
+
+  - id: seg-189
+    text: "Holding them to standards developed for measuring human performance risks misaligning their activities to functions better left to human workers."
+    type: claim
+    section: "HR for agents"
+    position: 189
+    source_format: prose
+
+  # ============================================================
+  # DATA AS DIGITAL EXHAUST (H3)
+  # ============================================================
+
+  - id: seg-190
+    text: "Data as digital exhaust"
+    type: noise
+    section: "Data as digital exhaust"
+    position: 190
+    source_format: heading
+
+  - id: seg-191
+    text: "In an agent-driven environment, systems generate vast amounts of data describing actions taken and outcomes."
+    type: claim
+    section: "Data as digital exhaust"
+    position: 191
+    source_format: prose
+
+  - id: seg-192
+    text: "Today, most agents do not train on their own output data, but in the future, this digital exhaust of silicon workers can become a valuable trove of insights that allow agents to learn and improve."
+    type: claim
+    section: "Data as digital exhaust"
+    position: 192
+    source_format: prose
+
+  - id: seg-193
+    text: "Going forward, the key differentiation lies in how organizations channel this byproduct to reinforce agent learning and capabilities."
+    type: claim
+    section: "Data as digital exhaust"
+    position: 193
+    source_format: prose
+
+  - id: seg-194
+    text: "This represents a fundamental mindset shift."
+    type: claim
+    section: "Data as digital exhaust"
+    position: 194
+    source_format: prose
+
+  - id: seg-195
+    text: "Every act of inference by agents generates tokens, and those tokens constitute data that can reinforce learning systems."
+    type: claim
+    section: "Data as digital exhaust"
+    position: 195
+    source_format: prose
+
+  - id: seg-196
+    text: "What is likely to matter most in the future is the sophisticated use of this continuous data stream."
+    type: claim
+    section: "Data as digital exhaust"
+    position: 196
+    source_format: prose
+
+  # ============================================================
+  # THE AGENT-NATIVE FUTURE (H3)
+  # ============================================================
+
+  - id: seg-197
+    text: "The agent-native future"
+    type: noise
+    section: "The agent-native future"
+    position: 197
+    source_format: heading
+
+  - id: seg-198
+    text: "Examining the future of system modernization, early evidence suggests that a hybrid approach is most likely to prevail, where agents extend the useful life of legacy systems, while organizations pursue the selective modernization of critical business processes."
+    type: claim
+    section: "The agent-native future"
+    position: 198
+    source_format: prose
+
+  - id: seg-199
+    text: "This approach allows organizations to realize immediate value from agentic capabilities while maintaining strategic flexibility for future technology decisions."
+    type: claim
+    section: "The agent-native future"
+    position: 199
+    source_format: prose
+
+  - id: seg-200
+    text: "The transition to agentic AI represents more than technological evolution -- it's an organizational transformation that is likely to reshape how enterprises operate, compete, and create value."
+    type: claim
+    section: "The agent-native future"
+    position: 200
+    source_format: prose
+
+  - id: seg-201
+    text: "Organizations that master the foundational elements of agent-native process design, multiagent orchestration, and silicon workforce management will be positioned to thrive in an increasingly automated business environment."
+    type: claim
+    section: "The agent-native future"
+    position: 201
+    source_format: prose
+
+  - id: seg-202
+    text: "The key to success lies in recognizing that agentic transformation is not about replacing humans with machines, but about creating new forms of human-AI collaboration that leverage the unique strengths of both human and silicon-based workers."
+    type: claim
+    section: "The agent-native future"
+    position: 202
+    source_format: prose
+
+  - id: seg-203
+    text: "The organizations that figure out how to drive this collaboration effectively will define the future of work itself."
+    type: claim
+    section: "The agent-native future"
+    position: 203
+    source_format: prose
+
+  # ============================================================
+  # SIDEBAR: Ethan Mollick interview
+  # ============================================================
+
+  - id: seg-204
+    text: "The jagged frontier: Ethan Mollick on AI agents in the workforce"
+    type: noise
+    section: "Sidebar: Ethan Mollick interview"
+    position: 204
+    source_format: heading
+
+  - id: seg-205
+    text: "Ethan Mollick is a professor at the Wharton School of the University of Pennsylvania and author of Co-Intelligence: Living and Working with AI."
+    type: context
+    section: "Sidebar: Ethan Mollick interview"
+    position: 205
+    source_format: prose
+
+  - id: seg-206
+    text: "Leaders in many organizations aren't clear on what this means."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 206
+    source_format: prose
+
+  - id: seg-207
+    text: "There tends to be a lot of hand-waving and statements like 'AI will do stuff' or 'you'll manage a bunch of agents.'"
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 207
+    source_format: prose
+
+  - id: seg-208
+    text: "But that doesn't happen without rethinking and redoing the way organizations operate."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 208
+    source_format: prose
+
+  - id: seg-209
+    text: "I find it's not actually a technology problem. It's a process problem."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 209
+    source_format: prose
+
+  - id: seg-210
+    text: "It means you have to understand the jagged frontier."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 210
+    source_format: prose
+
+  - id: seg-211
+    text: "AI has gotten very good at math and coding, which has an obvious impact on math and coding tasks, but also a less apparent impact on tasks like analysis or meeting with people."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 211
+    source_format: prose
+
+  - id: seg-212
+    text: "Workers will have to adjust their time in their jobs to do different things."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 212
+    source_format: prose
+
+  - id: seg-213
+    text: "It's not that AI agents do everything; they do the basic grunt work, so I can call more organizations to interview them instead."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 213
+    source_format: prose
+
+  - id: seg-214
+    text: "Leaders have to be able to articulate that future."
+    type: recommendation
+    section: "Sidebar: Ethan Mollick interview"
+    position: 214
+    source_format: prose
+
+  - id: seg-215
+    text: "You need three things to do AI work: leadership, lab, and crowd."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 215
+    source_format: prose
+
+  - id: seg-216
+    text: "First, you need the crowd: everyone in the organization using these systems."
+    type: recommendation
+    section: "Sidebar: Ethan Mollick interview"
+    position: 216
+    source_format: prose
+
+  - id: seg-217
+    text: "Second, you need the lab, which is actively doing 24/7 experimentation, taking ideas from the crowd, and turning them into real products."
+    type: recommendation
+    section: "Sidebar: Ethan Mollick interview"
+    position: 217
+    source_format: prose
+
+  - id: seg-218
+    text: "And finally, you need aligned leadership."
+    type: recommendation
+    section: "Sidebar: Ethan Mollick interview"
+    position: 218
+    source_format: prose
+
+  - id: seg-219
+    text: "Leaders have to think about organizational design."
+    type: recommendation
+    section: "Sidebar: Ethan Mollick interview"
+    position: 219
+    source_format: prose
+
+  - id: seg-220
+    text: "For example, if you can code 10 times or 100 times faster than you did before, are you still doing Agile development? Agile doesn't work at that speed, so you don't need to be doing it."
+    type: example
+    section: "Sidebar: Ethan Mollick interview"
+    position: 220
+    source_format: prose
+
+  - id: seg-221
+    text: "There's a 'using AI' skill that we don't exactly know how to measure or train for yet."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 221
+    source_format: prose
+
+  - id: seg-222
+    text: "It probably involves agency and willingness to experiment, being incentivized properly, and being a subject matter expert in your field."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 222
+    source_format: prose
+
+  - id: seg-223
+    text: "I don't know, but agents are already better than people think."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 223
+    source_format: prose
+
+  - id: seg-224
+    text: "True agents are already here. You're just not using them. And you have to build them. But it's doable today."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 224
+    source_format: prose
+
+  - id: seg-225
+    text: "There's no future timeframe."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 225
+    source_format: prose
+
+  - id: seg-226
+    text: "Because you absolutely can build economically valuable agents right now with current technology, and companies are building agentic workflows that do a lot of work autonomously at high accuracy levels."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 226
+    source_format: prose
+
+  - id: seg-227
+    text: "Do they replace all work yet? No, nor do I want them to."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 227
+    source_format: prose
+
+  - id: seg-228
+    text: "But if you're waiting until the technology is more mature, you're going to be in trouble because it's already there."
+    type: claim
+    section: "Sidebar: Ethan Mollick interview"
+    position: 228
+    source_format: prose

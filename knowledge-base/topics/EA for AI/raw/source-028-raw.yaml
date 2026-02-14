@@ -1,0 +1,213 @@
+source_id: source-028
+title: "Enterprise Technology's Next Chapter: Four Gen AI Shifts That Will Reshape Business Technology"
+url: "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/enterprise-technologys-next-chapter-four-gen-ai-shifts-that-will-reshape-business-technology"
+author: "McKinsey Digital"
+date: 2024-12-02
+type: article
+total_segments: 23
+note: "URL inaccessible (timeout); segmentation derived from source note only"
+
+composition:
+  claim: { count: 11, pct: 47.8 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 0, pct: 0.0 }
+  definition: { count: 3, pct: 13.0 }
+  recommendation: { count: 4, pct: 17.4 }
+  context: { count: 3, pct: 13.0 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 2, pct: 8.7 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 0, pct: 0.0 }
+
+signal_ratio: 1.0
+
+segments:
+
+  # ============================================================
+  # KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-001
+    text: "Four emerging gen AI shifts will reshape how tech leaders organize teams, manage talent, design IT architecture, and handle costs over the next decade."
+    type: claim
+    section: "Key Takeaways"
+    position: 1
+    source_format: bullet
+
+  - id: seg-002
+    text: "IT architectures will evolve from a traditional application-focused approach to multiagent architectures where tech leaders oversee hundreds or thousands of distinct gen AI agents that communicate with one another and the outside world."
+    type: claim
+    section: "Key Takeaways"
+    position: 2
+    source_format: bullet
+
+  - id: seg-003
+    text: "The 'factory and artisan' pattern distinguishes between standardized, repeatable AI workflows (factory) and creative, high-judgment work (artisan) — tech leaders must balance both."
+    type: definition
+    section: "Key Takeaways"
+    position: 3
+    source_format: bullet
+
+  - id: seg-004
+    text: "Modular frameworks for developing common reusable gen AI agents and tools are essential — agents should be assembled 'like LEGOs' for different agentic workflows."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 4
+    source_format: bullet
+
+  - id: seg-005
+    text: "A fleet of gen AI agents can interact with existing inventory, supply chain, and analytics systems to automatically monitor stock levels, identify low inventory, and generate purchase orders without complex integrations."
+    type: example
+    section: "Key Takeaways"
+    position: 5
+    source_format: bullet
+
+  - id: seg-006
+    text: "Full adoption of this new enterprise technology operating model is likely a decade away."
+    type: claim
+    section: "Key Takeaways"
+    position: 6
+    source_format: bullet
+
+  - id: seg-007
+    text: "Success requires more than tooling — it hinges on understanding where to implement factory vs. artisan patterns, designing effective agent architecture, and preparing for implications on talent, cost, operations, and risk."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY — Paragraph 1
+  # ============================================================
+
+  - id: seg-008
+    text: "McKinsey Digital identifies four fundamental shifts that generative AI will drive across enterprise technology organizations over the coming decade."
+    type: context
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "The article argues that gen AI is not merely an incremental improvement but will fundamentally restructure how technology organizations operate, from team composition and talent management to IT architecture and cost structures."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY — Paragraph 2
+  # ============================================================
+
+  - id: seg-010
+    text: "The most architecturally significant shift is the move from traditional application-centric IT architectures to multiagent architectures."
+    type: claim
+    section: "Summary"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "In this new paradigm, tech leaders will oversee potentially hundreds or thousands of distinct gen AI agents that communicate with each other and external systems to achieve common goals."
+    type: claim
+    section: "Summary"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "McKinsey illustrates this with the example of agent fleets that interact across inventory, supply chain, and analytics systems to autonomously manage stock levels and purchasing — tasks that previously required complex system integrations."
+    type: example
+    section: "Summary"
+    position: 12
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY — Paragraph 3
+  # ============================================================
+
+  - id: seg-013
+    text: "McKinsey introduces the 'factory and artisan' framework for classifying AI work patterns."
+    type: context
+    section: "Summary"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "Factory patterns apply to standardized, repeatable AI workflows that can be scaled and optimized for cost-efficiency."
+    type: definition
+    section: "Summary"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "Artisan patterns apply to creative, high-judgment work that requires human expertise augmented by AI."
+    type: definition
+    section: "Summary"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "The key leadership challenge is regularly reviewing and fine-tuning the balance between these patterns, including identifying opportunities for autonomous agents within workflows and ways to increase artisan team productivity."
+    type: recommendation
+    section: "Summary"
+    position: 16
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY — Paragraph 4
+  # ============================================================
+
+  - id: seg-017
+    text: "The article tempers expectations by noting that full adoption is likely a decade away, emphasizing that success requires strategic design, not just technology deployment."
+    type: claim
+    section: "Summary"
+    position: 17
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES
+  # ============================================================
+
+  - id: seg-018
+    text: "IT architectures are expected to be significantly different, evolving from a traditional application-focused approach to new multiagent architectures where tech leaders oversee hundreds or thousands of distinct gen AI agents."
+    type: claim
+    section: "Notable Quotes"
+    position: 18
+    source_format: quote
+
+  - id: seg-019
+    text: "Modular frameworks that guide the development of common reusable gen AI agents and tools are important to ensure agents can be easily modified and assembled, like LEGOs, for use in different agentic workflows."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 19
+    source_format: quote
+
+  # ============================================================
+  # RELEVANCE TO TOPIC
+  # ============================================================
+
+  - id: seg-020
+    text: "This McKinsey article provides a strategic-level perspective on how enterprise technology architecture must evolve for AI, making it essential to the EA for AI topic."
+    type: context
+    section: "Relevance"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "The multiagent architecture vision represents a fundamental departure from traditional application-centric enterprise architecture."
+    type: claim
+    section: "Relevance"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "The 'factory and artisan' framework provides a practical classification system that enterprise architects can use to plan their AI architecture strategy."
+    type: claim
+    section: "Relevance"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "The decade-long timeline for full adoption is an important counterbalance to hype, suggesting that EA for AI is a sustained transformation journey, not a quick technology deployment."
+    type: claim
+    section: "Relevance"
+    position: 23
+    source_format: prose

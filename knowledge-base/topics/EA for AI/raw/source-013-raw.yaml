@@ -1,0 +1,236 @@
+source_id: source-013
+title: "Enterprise AI Convergence Architecture"
+url: "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html"
+author: "Deloitte US"
+date: 2024-12-01
+type: article
+total_segments: 27
+
+composition:
+  claim: { count: 13, pct: 48.1 }
+  noise: { count: 6, pct: 22.2 }
+  definition: { count: 3, pct: 11.1 }
+  recommendation: { count: 3, pct: 11.1 }
+  context: { count: 2, pct: 7.4 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+
+signal_ratio: 77.8
+
+segments:
+
+  # ============================================================
+  # KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-001
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Traditional enterprise silos between operational and analytical systems prevent real-time action and keep valuable insights trapped in dashboards, creating a gap between knowledge and action."
+    type: claim
+    section: "Key Takeaways"
+    position: 2
+    source_format: bullet
+
+  - id: seg-003
+    text: "AI convergence architecture unifies data, artificial intelligence, and operations, enabling real-time insights and actions across the enterprise."
+    type: claim
+    section: "Key Takeaways"
+    position: 3
+    source_format: bullet
+
+  - id: seg-004
+    text: "A layered, iterative approach meets brownfield reality by integrating convergence architecture through overlays, AI-native redesigns, and SaaS, enabling gradual modernization without disruption."
+    type: claim
+    section: "Key Takeaways"
+    position: 4
+    source_format: bullet
+
+  - id: seg-005
+    text: "Closed-loop intelligence fuels organizational learning — every action generates feedback, continually enhancing insights and helping organizations learn, adapt, and act dynamically."
+    type: claim
+    section: "Key Takeaways"
+    position: 5
+    source_format: bullet
+
+  - id: seg-006
+    text: "Human-centered design and governance are crucial for realizing the measurable benefits of AI-first convergence, requiring trust, security, and cross-functional collaboration."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 6
+    source_format: bullet
+
+  # ============================================================
+  # THE PROBLEM: SILOED ENTERPRISE SYSTEMS
+  # ============================================================
+
+  - id: seg-007
+    text: "The Problem: Siloed Enterprise Systems"
+    type: noise
+    section: "The Problem: Siloed Enterprise Systems"
+    position: 7
+    source_format: heading
+
+  - id: seg-008
+    text: "Deloitte's Enterprise AI Convergence Architecture framework addresses a fundamental problem in enterprise technology: the historical isolation of operational and analytical systems that prevents organizations from acting on their intelligence in real time."
+    type: context
+    section: "The Problem: Siloed Enterprise Systems"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "The convergence architecture unifies intelligence and operations by linking insights to execution and making intelligence actionable across the business."
+    type: claim
+    section: "The Problem: Siloed Enterprise Systems"
+    position: 9
+    source_format: prose
+
+  # ============================================================
+  # LAYERED ARCHITECTURE DESIGN
+  # ============================================================
+
+  - id: seg-010
+    text: "Layered Architecture Design"
+    type: noise
+    section: "Layered Architecture Design"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "The framework is built around a layered design centered on an AI core that bridges legacy and modern systems."
+    type: claim
+    section: "Layered Architecture Design"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "The framework proposes three integration paths for organizations dealing with brownfield (existing) environments."
+    type: context
+    section: "Layered Architecture Design"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Smart overlays on existing systems provide a non-disruptive integration path for organizations with legacy infrastructure."
+    type: definition
+    section: "Layered Architecture Design"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "AI-native redesigns of core processes offer a more transformative integration path that rebuilds processes around AI capabilities."
+    type: definition
+    section: "Layered Architecture Design"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "SaaS-based integrations provide a third integration path leveraging cloud-based services for convergence."
+    type: definition
+    section: "Layered Architecture Design"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "This pragmatic approach acknowledges that most enterprises cannot rip-and-replace their entire technology stack."
+    type: claim
+    section: "Layered Architecture Design"
+    position: 16
+    source_format: prose
+
+  # ============================================================
+  # CLOSED-LOOP INTELLIGENCE
+  # ============================================================
+
+  - id: seg-017
+    text: "Closed-Loop Intelligence"
+    type: noise
+    section: "Closed-Loop Intelligence"
+    position: 17
+    source_format: heading
+
+  - id: seg-018
+    text: "A distinguishing feature of the framework is the emphasis on closed-loop intelligence: systems that not only generate insights but feed outcomes back into the intelligence layer, creating a continuously learning organization."
+    type: claim
+    section: "Closed-Loop Intelligence"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "AI convergence architecture unifies intelligence and operations by linking insights to execution and making intelligence actionable across the business."
+    type: claim
+    section: "Closed-Loop Intelligence"
+    position: 19
+    source_format: quote
+
+  - id: seg-020
+    text: "Closed-loop intelligence fuels organizational learning, ensuring that every action generates feedback, continually enhancing insights and helping organizations learn, adapt, and act dynamically."
+    type: claim
+    section: "Closed-Loop Intelligence"
+    position: 20
+    source_format: quote
+
+  # ============================================================
+  # GOVERNANCE AND HUMAN-CENTERED DESIGN
+  # ============================================================
+
+  - id: seg-021
+    text: "Governance and Human-Centered Design"
+    type: noise
+    section: "Governance and Human-Centered Design"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "The framework explicitly requires human-centered design and governance as prerequisites, not afterthoughts."
+    type: recommendation
+    section: "Governance and Human-Centered Design"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Trust, security, and cross-functional collaboration are positioned as essential enablers of AI convergence."
+    type: recommendation
+    section: "Governance and Human-Centered Design"
+    position: 23
+    source_format: prose
+
+  # ============================================================
+  # RELEVANCE AND IMPLICATIONS
+  # ============================================================
+
+  - id: seg-024
+    text: "Relevance and Implications"
+    type: noise
+    section: "Relevance and Implications"
+    position: 24
+    source_format: heading
+
+  - id: seg-025
+    text: "Deloitte's convergence architecture directly addresses the architectural challenge of making AI enterprise-ready — not as a bolt-on capability but as a fundamental organizing principle that unifies previously siloed operational and analytical layers."
+    type: claim
+    section: "Relevance and Implications"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The layered, iterative integration approach and the brownfield-aware modernization paths are particularly relevant for enterprise architects seeking practical architectural patterns for AI transformation."
+    type: claim
+    section: "Relevance and Implications"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The closed-loop intelligence concept represents a paradigm shift from traditional EA's static models to dynamic, continuously learning systems."
+    type: claim
+    section: "Relevance and Implications"
+    position: 27
+    source_format: prose

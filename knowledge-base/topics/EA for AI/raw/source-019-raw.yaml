@@ -1,0 +1,741 @@
+source_id: source-019
+title: Building Enterprise AI Maturity
+url: https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian
+author: Peter Weill, Stephanie L. Woerner, Ina M. Sebastian (MIT CISR)
+date: 2024-12-01
+type: article
+total_segments: 118
+composition:
+  claim: { count: 14, pct: 11.9 }
+  statistic: { count: 14, pct: 11.9 }
+  evidence: { count: 11, pct: 9.3 }
+  definition: { count: 39, pct: 33.1 }
+  recommendation: { count: 5, pct: 4.2 }
+  context: { count: 5, pct: 4.2 }
+  methodology: { count: 10, pct: 8.5 }
+  example: { count: 9, pct: 7.6 }
+  attribution: { count: 1, pct: 0.8 }
+  noise: { count: 10, pct: 8.5 }
+signal_ratio: 0.92
+segments:
+- id: seg-001
+  text: Building Enterprise AI Maturity
+  type: noise
+  section: Title
+  position: 1
+  source_format: heading
+- id: seg-002
+  text: The MIT CISR Enterprise AI Maturity Model describes four stages of enterprise AI maturity, and identifies capabilities an enterprise needs as it progresses through the four stages.
+  type: definition
+  section: Subtitle
+  position: 2
+  source_format: prose
+- id: seg-003
+  text: Abstract
+  type: noise
+  section: Abstract
+  position: 3
+  source_format: heading
+- id: seg-004
+  text: With so much excitement and hype around AI, we pursued research that would help leaders make sense of the chaos and understand how enterprises create value with AI.
+  type: context
+  section: Abstract
+  position: 4
+  source_format: prose
+- id: seg-005
+  text: This briefing describes the MIT CISR Enterprise AI Maturity model, which depicts four stages of enterprise AI maturity we identified based on a 2022 MIT CISR survey of 721 companies.
+  type: methodology
+  section: Abstract
+  position: 5
+  source_format: prose
+- id: seg-006
+  text: We found that financial performance improved at each stage, and we pinpointed capabilities an enterprise needs as it progresses through the stages.
+  type: claim
+  section: Abstract
+  position: 6
+  source_format: prose
+- id: seg-007
+  text: Artificial intelligence (AI) has been described as everything from just another technology to the beginning of the end of civilization.
+  type: context
+  section: Introduction
+  position: 7
+  source_format: prose
+- id: seg-008
+  text: With so much excitement and hype around AI, we pursued research that would help leaders make sense of the chaos and understand how enterprises create value with AI.
+  type: context
+  section: Introduction
+  position: 8
+  source_format: prose
+- id: seg-009
+  text: We identified four stages of enterprise AI maturity, based on our October 2022 survey of 721 companies.
+  type: methodology
+  section: Introduction
+  position: 9
+  source_format: prose
+- id: seg-010
+  text: We found that financial performance improved with each stage, and pinpointed capabilities an enterprise needs as it progresses through the stages.
+  type: claim
+  section: Introduction
+  position: 10
+  source_format: prose
+- id: seg-011
+  text: The bottom line was that enterprises in the first two stages of AI maturity had financial performance below industry average, while enterprises in stages 3 and 4 had financial performance well above
+    industry average.
+  type: claim
+  section: Introduction
+  position: 11
+  source_format: prose
+- id: seg-012
+  text: These findings provided the basis for our MIT CISR Enterprise AI Maturity Model.
+  type: context
+  section: Introduction
+  position: 12
+  source_format: prose
+- id: seg-013
+  text: Given when we conducted the survey, the results primarily describe the relationship between use of analytical (aka traditional) AI and financial performance.
+  type: methodology
+  section: Introduction
+  position: 13
+  source_format: prose
+- id: seg-014
+  text: To supplement the survey findings, in 2024 we interviewed sixteen executives at nine enterprises about both traditional and generative AI and their early thoughts on agentic and robotic AI.
+  type: methodology
+  section: Introduction
+  position: 14
+  source_format: prose
+- id: seg-015
+  text: The data underlying the MIT CISR Enterprise AI Maturity Model comes from the MIT CISR 2022 Future Ready Survey (N=721).
+  type: methodology
+  section: Introduction (footnote)
+  position: 15
+  source_format: prose
+- id: seg-016
+  text: 'We divided respondents into four stages of AI Capability using a measure of Total AI Effectiveness, the equally weighted combination of three measures: effectiveness of AI to (i) improve operations,
+    (ii) improve customer experience, and (iii) support and develop the ecosystem.'
+  type: methodology
+  section: Introduction (footnote)
+  position: 16
+  source_format: prose
+- id: seg-017
+  text: On a 0-100% scale of Total AI Effectiveness, Stage 1 AI Capability=0-49%, Stage 2=50-74%, Stage 3=75-99%, and Stage 4=100%.
+  type: definition
+  section: Introduction (footnote)
+  position: 17
+  source_format: prose
+- id: seg-018
+  text: We supplemented the model with sixteen interviews we conducted in August to November 2024 with senior executives at nine enterprises.
+  type: methodology
+  section: Introduction (footnote)
+  position: 18
+  source_format: prose
+- id: seg-019
+  text: Four Stages of Enterprise AI Maturity
+  type: noise
+  section: Four Stages of Enterprise AI Maturity
+  position: 19
+  source_format: heading
+- id: seg-020
+  text: Enterprises need to cumulatively build capabilities and learnings from AI as they move toward a future-ready state of AI use.
+  type: claim
+  section: Four Stages of Enterprise AI Maturity
+  position: 20
+  source_format: prose
+- id: seg-021
+  text: Each of the four stages of the enterprise AI maturity model describes what enterprises focus on in that stage.
+  type: context
+  section: Four Stages of Enterprise AI Maturity
+  position: 21
+  source_format: prose
+- id: seg-022
+  text: 'Figure 1: The MIT CISR Enterprise AI Maturity Model'
+  type: noise
+  section: Figure 1
+  position: 22
+  source_format: heading
+- id: seg-023
+  text: 'Stage 1: Experiment and Prepare — 28% of responding enterprises'
+  type: statistic
+  section: Figure 1
+  position: 23
+  source_format: table
+- id: seg-024
+  text: 'Stage 2: Build Pilots and Capabilities — 34% of responding enterprises'
+  type: statistic
+  section: Figure 1
+  position: 24
+  source_format: table
+- id: seg-025
+  text: 'Stage 3: Develop AI Ways of Working — 31% of responding enterprises'
+  type: statistic
+  section: Figure 1
+  position: 25
+  source_format: table
+- id: seg-026
+  text: 'Stage 4: Become AI Future Ready — 7% of responding enterprises'
+  type: statistic
+  section: Figure 1
+  position: 26
+  source_format: table
+- id: seg-027
+  text: 'Stage 1 characteristics: Educating the workforce on AI'
+  type: definition
+  section: Figure 1
+  position: 27
+  source_format: table
+- id: seg-028
+  text: 'Stage 1 characteristics: Setting up acceptable use policies'
+  type: definition
+  section: Figure 1
+  position: 28
+  source_format: table
+- id: seg-029
+  text: 'Stage 1 characteristics: Working on making data accessible'
+  type: definition
+  section: Figure 1
+  position: 29
+  source_format: table
+- id: seg-030
+  text: 'Stage 2 characteristics: Ensuring decision-making is using data'
+  type: definition
+  section: Figure 1
+  position: 30
+  source_format: table
+- id: seg-031
+  text: 'Stage 2 characteristics: Identifying where humans need to be in the loop'
+  type: definition
+  section: Figure 1
+  position: 31
+  source_format: table
+- id: seg-032
+  text: 'Stage 2 characteristics: Beginning to simplify and automate processes'
+  type: definition
+  section: Figure 1
+  position: 32
+  source_format: table
+- id: seg-033
+  text: 'Stage 2 characteristics: Creating use cases'
+  type: definition
+  section: Figure 1
+  position: 33
+  source_format: table
+- id: seg-034
+  text: 'Stage 2 characteristics: Sharing data via APIs'
+  type: definition
+  section: Figure 1
+  position: 34
+  source_format: table
+- id: seg-035
+  text: 'Stage 2 characteristics: Leveraging a coach and communicate management style'
+  type: definition
+  section: Figure 1
+  position: 35
+  source_format: table
+- id: seg-036
+  text: 'Stage 3 characteristics: Using LLMs — both out-of-the-box traditional and generative AI models — to augment work'
+  type: definition
+  section: Figure 1
+  position: 36
+  source_format: table
+- id: seg-037
+  text: 'Stage 3 characteristics: Expanding process automation efforts'
+  type: definition
+  section: Figure 1
+  position: 37
+  source_format: table
+- id: seg-038
+  text: 'Stage 3 characteristics: Changing to a more test-and-learn way of working'
+  type: definition
+  section: Figure 1
+  position: 38
+  source_format: table
+- id: seg-039
+  text: 'Stage 3 characteristics: Architecting for reuse'
+  type: definition
+  section: Figure 1
+  position: 39
+  source_format: table
+- id: seg-040
+  text: 'Stage 3 characteristics: Incorporating pretrained models into work and investigating the use of proprietary AI models'
+  type: definition
+  section: Figure 1
+  position: 40
+  source_format: table
+- id: seg-041
+  text: 'Stage 4 characteristics: Exploring autonomous agents'
+  type: definition
+  section: Figure 1
+  position: 41
+  source_format: table
+- id: seg-042
+  text: 'Stage 4 characteristics: Embedding AI into decision-making and processes'
+  type: definition
+  section: Figure 1
+  position: 42
+  source_format: table
+- id: seg-043
+  text: 'Stage 4 characteristics: Creating and selling AI-augmented business services'
+  type: definition
+  section: Figure 1
+  position: 43
+  source_format: table
+- id: seg-044
+  text: 'Stage 4 characteristics: Combining traditional, generative, agentic, and robotic AI'
+  type: definition
+  section: Figure 1
+  position: 44
+  source_format: table
+- id: seg-045
+  text: 'Stage 1 focus: Exploration and Education'
+  type: definition
+  section: Figure 1
+  position: 45
+  source_format: table
+- id: seg-046
+  text: 'Stage 2 focus: Business Cases and Pilots'
+  type: definition
+  section: Figure 1
+  position: 46
+  source_format: table
+- id: seg-047
+  text: 'Stage 3 focus: Scaling AI Platforms and Dashboards'
+  type: definition
+  section: Figure 1
+  position: 47
+  source_format: table
+- id: seg-048
+  text: 'Stage 4 focus: Continuous Innovation and New Revenue Streams'
+  type: definition
+  section: Figure 1
+  position: 48
+  source_format: table
+- id: seg-049
+  text: 'Stage 1 growth: -12.6 percentage points vs. industry average'
+  type: statistic
+  section: Figure 1
+  position: 49
+  source_format: table
+- id: seg-050
+  text: 'Stage 1 profit: -9.6 percentage points vs. industry average'
+  type: statistic
+  section: Figure 1
+  position: 50
+  source_format: table
+- id: seg-051
+  text: 'Stage 2 growth: -3.5 percentage points vs. industry average'
+  type: statistic
+  section: Figure 1
+  position: 51
+  source_format: table
+- id: seg-052
+  text: 'Stage 2 profit: -2.2 percentage points vs. industry average'
+  type: statistic
+  section: Figure 1
+  position: 52
+  source_format: table
+- id: seg-053
+  text: 'Stage 3 growth: +11.3 percentage points vs. industry average'
+  type: statistic
+  section: Figure 1
+  position: 53
+  source_format: table
+- id: seg-054
+  text: 'Stage 3 profit: +8.7 percentage points vs. industry average'
+  type: statistic
+  section: Figure 1
+  position: 54
+  source_format: table
+- id: seg-055
+  text: 'Stage 4 growth: +17.1 percentage points vs. industry average'
+  type: statistic
+  section: Figure 1
+  position: 55
+  source_format: table
+- id: seg-056
+  text: 'Stage 4 profit: +10.4 percentage points vs. industry average'
+  type: statistic
+  section: Figure 1
+  position: 56
+  source_format: table
+- id: seg-057
+  text: 'Source: MIT CISR 2022 Future Ready Survey (N=721) and interviews in 2024 with sixteen executives at nine enterprises.'
+  type: attribution
+  section: Figure 1
+  position: 57
+  source_format: prose
+- id: seg-058
+  text: 'Respondents were grouped into four stages using a measure of Total AI Effectiveness, the equally weighted combo of three measures: effectiveness of AI to (i) improve operations, (ii) improve customer
+    experience, and (iii) support and develop the ecosystem.'
+  type: methodology
+  section: Figure 1
+  position: 58
+  source_format: prose
+- id: seg-059
+  text: On a 0-100% scale of Total AI Effectiveness, Stage 1 AI Capability=0-49%, Stage 2=50-74%, Stage 3=75-99%, Stage 4=100%.
+  type: methodology
+  section: Figure 1
+  position: 59
+  source_format: prose
+- id: seg-060
+  text: Measures of growth and profit are from 2022, calculated as percentage points (pp) above/below industry average.
+  type: methodology
+  section: Figure 1
+  position: 60
+  source_format: prose
+- id: seg-061
+  text: 'Stage 1: Experiment and Prepare'
+  type: noise
+  section: 'Stage 1: Experiment and Prepare'
+  position: 61
+  source_format: heading
+- id: seg-062
+  text: The first stage of developing enterprise AI maturity is about preparing and experimenting to use AI effectively.
+  type: definition
+  section: 'Stage 1: Experiment and Prepare'
+  position: 62
+  source_format: prose
+- id: seg-063
+  text: In our survey analysis, 28 percent of enterprises were in this stage.
+  type: statistic
+  section: 'Stage 1: Experiment and Prepare'
+  position: 63
+  source_format: prose
+- id: seg-064
+  text: Stage 1 enterprises focus on educating their workforce, formulating AI policies, becoming more evidence-based, and experimenting with AI technologies to get more comfortable with automated decision-making.
+  type: definition
+  section: 'Stage 1: Experiment and Prepare'
+  position: 64
+  source_format: prose
+- id: seg-065
+  text: They discuss where humans need to be in the loop for oversight and what is acceptable and ethical use of AI technology.
+  type: definition
+  section: 'Stage 1: Experiment and Prepare'
+  position: 65
+  source_format: prose
+- id: seg-066
+  text: Funding targets AI literacy for the board and top management team, and skill building on AI technologies integrated into enterprise software for the rest of the enterprise.
+  type: recommendation
+  section: 'Stage 1: Experiment and Prepare'
+  position: 66
+  source_format: prose
+- id: seg-067
+  text: During stage 1, the enterprise begins to identify both value creation opportunities from AI and the enterprise capabilities and competencies required to realize them.
+  type: claim
+  section: 'Stage 1: Experiment and Prepare'
+  position: 67
+  source_format: prose
+- id: seg-068
+  text: 'For example, Kaiser Permanente, a US West Coast not-for-profit healthcare enterprise with 12.5 million members, defined seven principles for assessing its responsible use of AI: privacy, reliability,
+    high-quality and affordable outcomes, transparency, equity, customer prioritization, and trust.'
+  type: example
+  section: 'Stage 1: Experiment and Prepare'
+  position: 68
+  source_format: prose
+- id: seg-069
+  text: These principles help Kaiser Permanente ensure that AI tools meet its standards.
+  type: example
+  section: 'Stage 1: Experiment and Prepare'
+  position: 69
+  source_format: prose
+- id: seg-070
+  text: 'Stage 2: Build Pilots and Capabilities'
+  type: noise
+  section: 'Stage 2: Build Pilots and Capabilities'
+  position: 70
+  source_format: heading
+- id: seg-071
+  text: The second stage, representing 34 percent of enterprises in our research, is about setting up AI pilots to demonstrate AI's ability to create value for both the enterprise and its people.
+  type: definition
+  section: 'Stage 2: Build Pilots and Capabilities'
+  position: 71
+  source_format: prose
+- id: seg-072
+  text: In this stage, enterprises define important metrics, begin to simplify and automate business processes, and develop the enterprise capabilities they learned they need during the last stage.
+  type: definition
+  section: 'Stage 2: Build Pilots and Capabilities'
+  position: 72
+  source_format: prose
+- id: seg-073
+  text: Stage 2 enterprises focus on moving from experiments to systematic innovation by piloting use cases, tracking value created in the pilots, and storytelling both internally and externally about learnings
+    from the pilots.
+  type: definition
+  section: 'Stage 2: Build Pilots and Capabilities'
+  position: 73
+  source_format: prose
+- id: seg-074
+  text: Fundamental to stage 2, the enterprise determines how to consolidate organizational data silos and safely and securely serve the data for use with AI; this typically requires a significant investment
+    in, or refinement of, APIs that link the data and the technologies.
+  type: claim
+  section: 'Stage 2: Build Pilots and Capabilities'
+  position: 74
+  source_format: prose
+- id: seg-075
+  text: In an AI pilot, the disability underwriting team at Guardian Life, a US mutual insurance enterprise, is working with a partner to develop a generative AI tool that summarizes documentation and augments
+    decision-making.
+  type: example
+  section: 'Stage 2: Build Pilots and Capabilities'
+  position: 75
+  source_format: prose
+- id: seg-076
+  text: Participating underwriters are saving on average five hours per day, building on Guardian's rich internal data and automated processes.
+  type: evidence
+  section: 'Stage 2: Build Pilots and Capabilities'
+  position: 76
+  source_format: prose
+- id: seg-077
+  text: This pilot is helping Guardian to achieve its goal of reimagining end-to-end process transformation.
+  type: example
+  section: 'Stage 2: Build Pilots and Capabilities'
+  position: 77
+  source_format: prose
+- id: seg-078
+  text: 'Stage 3: Develop AI Ways of Working'
+  type: noise
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 78
+  source_format: heading
+- id: seg-079
+  text: Moving to stage 3 is a big step in the AI journey, both in terms of potential impact on enterprise growth and profitability and the platform capabilities needed to achieve the scale required.
+  type: claim
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 79
+  source_format: prose
+- id: seg-080
+  text: Stage 3, which represented 31 percent of enterprises in our research, is focused on industrializing AI throughout the enterprise.
+  type: definition
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 80
+  source_format: prose
+- id: seg-081
+  text: This includes building a scalable enterprise architecture (a platform for AI that allows for scaling and reusing models), making data and outcomes transparent via business dashboards, developing
+    a pervasive test-and-learn culture, and expanding business process automation efforts.
+  type: claim
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 81
+  source_format: prose
+- id: seg-082
+  text: Ally, the largest all-digital bank in the US, is scaling AI via its Ally.ai platform, which the enterprise launched in July 2023.
+  type: example
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 82
+  source_format: prose
+- id: seg-083
+  text: The platform houses Ally AI tools that leverage technologies including natural language processing, machine learning, predictive analytics, and computer vision, and integrates several commercially
+    available large language models with the enterprise's data in a safe environment.
+  type: example
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 83
+  source_format: prose
+- id: seg-084
+  text: Early value from generative AI use cases includes saving an average three minutes per customer call on more than four million customer calls in 2023 using call summarization.
+  type: evidence
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 84
+  source_format: prose
+- id: seg-085
+  text: Ally developed creative campaigns 34 percent faster using a marketing generative AI chat feature.
+  type: evidence
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 85
+  source_format: prose
+- id: seg-086
+  text: In stage 3 we see enterprises making significant use of foundation models, and small language models (SLMs) that are trained on an industry, a function, or to perform specific tasks (such as onboarding
+    a customer), to advance their journeys.
+  type: claim
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 86
+  source_format: prose
+- id: seg-087
+  text: Foundation models are a type of AI technology trained on vast amounts of data that can be adapted to perform a wide variety of tasks.
+  type: definition
+  section: 'Stage 3: Develop AI Ways of Working (footnote)'
+  position: 87
+  source_format: prose
+- id: seg-088
+  text: The models can be fine-tuned for specific domains or tasks by incorporating smaller, specialized, curated datasets into the training set or by using software plug-ins or add-ons.
+  type: definition
+  section: 'Stage 3: Develop AI Ways of Working (footnote)'
+  position: 88
+  source_format: prose
+- id: seg-089
+  text: Large language models (LLMs) are general-purpose foundation models.
+  type: definition
+  section: 'Stage 3: Develop AI Ways of Working (footnote)'
+  position: 89
+  source_format: prose
+- id: seg-090
+  text: Small language models (SLMs) are typically trained on smaller data sets tailored to specific industries, tasks, or domains and contain far fewer parameters.
+  type: definition
+  section: 'Stage 3: Develop AI Ways of Working (footnote)'
+  position: 90
+  source_format: prose
+- id: seg-091
+  text: SLMs struggle when it comes to general knowledge and understanding but usually have less bias.
+  type: claim
+  section: 'Stage 3: Develop AI Ways of Working (footnote)'
+  position: 91
+  source_format: prose
+- id: seg-092
+  text: They take these foundation models and SLMs and, on secure enterprise platforms, apply them to their own data to create and capture new value.
+  type: claim
+  section: 'Stage 3: Develop AI Ways of Working'
+  position: 92
+  source_format: prose
+- id: seg-093
+  text: 'Stage 4: Become AI Future Ready'
+  type: noise
+  section: 'Stage 4: Become AI Future Ready'
+  position: 93
+  source_format: heading
+- id: seg-094
+  text: In the fourth stage enterprises are what we call AI future ready, which represented 7 percent of enterprises in our research.
+  type: statistic
+  section: 'Stage 4: Become AI Future Ready'
+  position: 94
+  source_format: prose
+- id: seg-095
+  text: AI is embedded in all decision-making in these enterprises.
+  type: claim
+  section: 'Stage 4: Become AI Future Ready'
+  position: 95
+  source_format: prose
+- id: seg-096
+  text: They leverage proprietary AI internally, and many sell new business services based on that capability, the AI capability as a service, or both to other enterprises.
+  type: claim
+  section: 'Stage 4: Become AI Future Ready'
+  position: 96
+  source_format: prose
+- id: seg-097
+  text: We define proprietary AI as the AI infrastructure developed in-house. For instance, an AI platform developed in-house that integrates purchased large language models and enterprise assets such as
+    APIs, data, and business processes is proprietary AI.
+  type: definition
+  section: 'Stage 4: Become AI Future Ready (footnote)'
+  position: 97
+  source_format: prose
+- id: seg-098
+  text: Ping An Insurance, one of the largest financial services enterprises in China, debuted an AI banking platform in 2019 and is now leveraging it.
+  type: example
+  section: 'Stage 4: Become AI Future Ready'
+  position: 98
+  source_format: prose
+- id: seg-099
+  text: By the end of 2022, 49 percent of Ping An's product sales were made by AI service representatives.
+  type: evidence
+  section: 'Stage 4: Become AI Future Ready'
+  position: 99
+  source_format: prose
+- id: seg-100
+  text: By the end of 2022, 82 percent of Ping An's service interactions were handled by AI representatives (i.e., AI software agents).
+  type: evidence
+  section: 'Stage 4: Become AI Future Ready'
+  position: 100
+  source_format: prose
+- id: seg-101
+  text: An AI or intelligent agent is a type of AI software that can understand and respond to its environment without human intervention.
+  type: definition
+  section: 'Stage 4: Become AI Future Ready (footnote)'
+  position: 101
+  source_format: prose
+- id: seg-102
+  text: A smart thermostat is an example of an AI agent, as is a chatbot that can answer questions, or a piece of software that can make decisions.
+  type: definition
+  section: 'Stage 4: Become AI Future Ready (footnote)'
+  position: 102
+  source_format: prose
+- id: seg-103
+  text: AI agents can adapt based on experience.
+  type: definition
+  section: 'Stage 4: Become AI Future Ready (footnote)'
+  position: 103
+  source_format: prose
+- id: seg-104
+  text: Also by the end of 2022, AI representatives had saved RMB 600 million (approximately US$83 million) in labor costs for Ping An.
+  type: evidence
+  section: 'Stage 4: Become AI Future Ready'
+  position: 104
+  source_format: prose
+- id: seg-105
+  text: Ping An additionally provided AI banking as a service to thirty other Chinese banks.
+  type: evidence
+  section: 'Stage 4: Become AI Future Ready'
+  position: 105
+  source_format: prose
+- id: seg-106
+  text: In 2023, Ping An Group reported increased sales, reduced costs, improved efficiency, and reduced risks from using generative AI applications.
+  type: evidence
+  section: 'Stage 4: Become AI Future Ready'
+  position: 106
+  source_format: prose
+- id: seg-107
+  text: 'In our 2024 interviews as part of this research, an emerging theme was that interviewees expected the most value from AI will be created from combining people and platforms with a combination of
+    four types of AI: analytical, generative, agentic and robotic.'
+  type: claim
+  section: 'Stage 4: Become AI Future Ready'
+  position: 107
+  source_format: prose
+- id: seg-108
+  text: Your AI Maturity Stage Today
+  type: noise
+  section: Your AI Maturity Stage Today
+  position: 108
+  source_format: heading
+- id: seg-109
+  text: We recommend that you bring a team together to talk about which of the four stages your enterprise is in today, and your aspirations and time frames regarding your enterprise's use of AI.
+  type: recommendation
+  section: Your AI Maturity Stage Today
+  position: 109
+  source_format: prose
+- id: seg-110
+  text: Then, discuss which enterprise capabilities and skill sets need more work.
+  type: recommendation
+  section: Your AI Maturity Stage Today
+  position: 110
+  source_format: prose
+- id: seg-111
+  text: No matter where you are in the MIT CISR Enterprise AI Maturity Model, be bold.
+  type: recommendation
+  section: Your AI Maturity Stage Today
+  position: 111
+  source_format: prose
+- id: seg-112
+  text: For example, Piyush Gupta, the CEO of DBS Bank, set a KPI of conducting one thousand experiments per year.
+  type: example
+  section: Your AI Maturity Stage Today
+  position: 112
+  source_format: prose
+- id: seg-113
+  text: DBS is building on that experimental mindset, coupled with a years-long investment in a data foundation, to become an AI-fueled bank, with AI pervasive across the enterprise.
+  type: example
+  section: Your AI Maturity Stage Today
+  position: 113
+  source_format: prose
+- id: seg-114
+  text: From 2022 to 2024, DBS Bank doubled the economic impact achieved from AI from S$150 million to S$370 million.
+  type: evidence
+  section: Your AI Maturity Stage Today
+  position: 114
+  source_format: prose
+- id: seg-115
+  text: DBS has delivered over three hundred fifty AI use cases to date.
+  type: evidence
+  section: Your AI Maturity Stage Today
+  position: 115
+  source_format: prose
+- id: seg-116
+  text: DBS expects the economic impact of these AI use cases to exceed S$1 billion (approximately US$740 million) in 2025.
+  type: evidence
+  section: Your AI Maturity Stage Today
+  position: 116
+  source_format: prose
+- id: seg-117
+  text: What are your tangible goals for AI, and how will you get there?
+  type: recommendation
+  section: Your AI Maturity Stage Today
+  position: 117
+  source_format: prose
+- id: seg-118
+  text: Copyright 2024 MIT Center for Information Systems Research, Weill, Woerner, and Sebastian. MIT CISR Research Briefings are published monthly to update the center's member organizations on current
+    research projects.
+  type: noise
+  section: Footer
+  position: 118
+  source_format: prose

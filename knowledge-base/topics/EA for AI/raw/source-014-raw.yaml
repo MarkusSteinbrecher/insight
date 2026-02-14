@@ -1,0 +1,1983 @@
+source_id: source-014
+title: "The Great Rebuild: How AI Is Re-Architecting the Tech Organization"
+url: "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html"
+author: "Deloitte Insights"
+date: 2025-12-09
+type: article
+total_segments: 221
+
+composition:
+  claim: { count: 80, pct: 36.2 }
+  noise: { count: 36, pct: 16.3 }
+  attribution: { count: 31, pct: 14.0 }
+  recommendation: { count: 21, pct: 9.5 }
+  statistic: { count: 17, pct: 7.7 }
+  context: { count: 13, pct: 5.9 }
+  evidence: { count: 13, pct: 5.9 }
+  definition: { count: 4, pct: 1.8 }
+  example: { count: 3, pct: 1.4 }
+  methodology: { count: 3, pct: 1.4 }
+
+signal_ratio: 83.7
+
+segments:
+  - id: seg-001
+    text: "The great rebuild: How AI is re-architecting the tech organization"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+    metadata: {}
+
+  - id: seg-002
+    text: "What will define tomorrow's tech org—and how can leaders start building it today?"
+    type: noise
+    section: "Subtitle"
+    position: 2
+    source_format: heading
+    metadata: {}
+
+  - id: seg-003
+    text: "Article | 15-min read | 09 December 2025"
+    type: noise
+    section: "Metadata"
+    position: 3
+    source_format: prose
+    metadata: {}
+
+  - id: seg-004
+    text: "The era of incremental technology change is over."
+    type: claim
+    section: "Introduction"
+    position: 4
+    source_format: prose
+    metadata: {}
+
+  - id: seg-005
+    text: "In the span of a few years, artificial intelligence has leapt from automating tasks to dismantling and rebuilding the very structure of the technology organization."
+    type: claim
+    section: "Introduction"
+    position: 5
+    source_format: prose
+    metadata: {}
+
+  - id: seg-006
+    text: "78% of tech leaders anticipate broad, targeted, or transformational integration of AI agents into architecture workflows over the next five years, according to Deloitte's 2025 Horizon Architecture Survey."
+    type: statistic
+    section: "Introduction"
+    position: 6
+    source_format: prose
+    metadata:
+      metric: "tech leaders anticipating AI agent integration into architecture workflows"
+      value: 78
+      unit: percent
+      source: "Deloitte 2025 Horizon Architecture Survey"
+      timeframe: "next five years"
+
+  - id: seg-007
+    text: "Yet this is more than a shift in tools and headcount."
+    type: claim
+    section: "Introduction"
+    position: 7
+    source_format: prose
+    metadata: {}
+
+  - id: seg-008
+    text: "AI is reengineering how technology teams are structured, governed, and led."
+    type: claim
+    section: "Introduction"
+    position: 8
+    source_format: prose
+    metadata: {}
+
+  - id: seg-009
+    text: "Tomorrow's model will likely be leaner, faster, and infused with AI at every layer—from architecture to delivery—transforming the tech organization into a dynamic engine that continuously learns and optimizes."
+    type: claim
+    section: "Introduction"
+    position: 9
+    source_format: prose
+    metadata: {}
+
+  - id: seg-010
+    text: "Agents and people will soon be completely integrated in terms of how work gets done, and it's going to happen really fast—faster than most companies are ready for. Companies need to get better at constant road mapping and iteration because the era of 'build it once and forget it' is over."
+    type: claim
+    section: "Introduction"
+    position: 10
+    source_format: quote
+    metadata:
+      speaker: "Tracey Franklin"
+      title: "Chief People and Digital Technology Officer, Moderna"
+
+  - id: seg-011
+    text: "While there's no single, definitive blueprint for structuring a tech organization for an AI-driven world, the path forward is coming into view."
+    type: context
+    section: "Introduction"
+    position: 11
+    source_format: prose
+    metadata: {}
+
+  - id: seg-012
+    text: "Tomorrow's high performers won't just keep pace with AI, they'll let it propel them into entirely new terrain."
+    type: claim
+    section: "Introduction"
+    position: 12
+    source_format: prose
+    metadata: {}
+
+  - id: seg-013
+    text: "The question for every leader today is not whether AI will transform the tech org, but how quickly they can harness its full potential."
+    type: claim
+    section: "Introduction"
+    position: 13
+    source_format: prose
+    metadata: {}
+
+  - id: seg-014
+    text: "How AI is reshaping the tech organization"
+    type: noise
+    section: "How AI is reshaping the tech organization"
+    position: 14
+    source_format: heading
+    metadata: {}
+
+  - id: seg-015
+    text: "Deloitte's Tech Spending Outlook finds that 64% of surveyed organizations plan to increase AI investments over the next two years—a clear sign that leaders recognize the substantial value and transformative potential AI can deliver across the enterprise."
+    type: statistic
+    section: "How AI is reshaping the tech organization"
+    position: 15
+    source_format: prose
+    metadata:
+      metric: "organizations planning to increase AI investments"
+      value: 64
+      unit: percent
+      source: "Deloitte Tech Spending Outlook"
+      timeframe: "next two years"
+
+  - id: seg-016
+    text: "While most acknowledge they're still in the exploratory phases of generative and agentic AI, data shows how AI is reshaping the tech organization in many ways, from priorities and people to purpose."
+    type: context
+    section: "How AI is reshaping the tech organization"
+    position: 16
+    source_format: prose
+    metadata: {}
+
+  - id: seg-017
+    text: "Figure 1: Most organizations are still in exploratory phases of generative and agentic AI adoption."
+    type: context
+    section: "How AI is reshaping the tech organization"
+    position: 17
+    source_format: figure
+    metadata:
+      description: "Figure showing maturity stages of generative and agentic AI adoption across surveyed organizations"
+
+  - id: seg-018
+    text: "Chief information officers (CIOs) in Deloitte's 2025 Tech Executive Survey singled out harnessing the full potential of AI, data, and analytics as the area where they're spending most of their time and energy."
+    type: evidence
+    section: "How AI is reshaping the tech organization — Priorities"
+    position: 18
+    source_format: prose
+    metadata:
+      source: "Deloitte 2025 Tech Executive Survey"
+
+  - id: seg-019
+    text: "While AI has been top of mind for many executives in the past, generative and agentic AI have placed it at the top of the tech organization's agenda—and they're investing accordingly."
+    type: claim
+    section: "How AI is reshaping the tech organization — Priorities"
+    position: 19
+    source_format: prose
+    metadata: {}
+
+  - id: seg-020
+    text: "The percentage of tech budgets allocated to AI is expected to rise significantly over the next two years, from 8% to 13% on average, highlighting how AI is moving from experimentation to core strategy."
+    type: statistic
+    section: "How AI is reshaping the tech organization — Priorities"
+    position: 20
+    source_format: prose
+    metadata:
+      metric: "tech budget allocation to AI"
+      value_from: 8
+      value_to: 13
+      unit: percent
+      timeframe: "next two years"
+
+  - id: seg-021
+    text: "Nearly 70% of tech leaders from the same survey plan to grow their teams in direct response to gen AI—a clear shift from fears of job loss to a strategy of augmentation and specialization."
+    type: statistic
+    section: "How AI is reshaping the tech organization — People"
+    position: 21
+    source_format: prose
+    metadata:
+      metric: "tech leaders planning to grow teams due to gen AI"
+      value: 70
+      unit: percent
+      source: "Deloitte 2025 Tech Executive Survey"
+
+  - id: seg-022
+    text: "AI's continued momentum is also creating new roles, like the chief people and digital technology officer at Moderna and forward-deployed engineers, as well as increasing the presence of others."
+    type: evidence
+    section: "How AI is reshaping the tech organization — People"
+    position: 22
+    source_format: prose
+    metadata: {}
+
+  - id: seg-023
+    text: "The number of AI architect roles is expected to almost double, from 30% today to 58% in the next two years."
+    type: statistic
+    section: "How AI is reshaping the tech organization — People"
+    position: 23
+    source_format: prose
+    metadata:
+      metric: "AI architect role prevalence"
+      value_from: 30
+      value_to: 58
+      unit: percent
+      timeframe: "next two years"
+
+  - id: seg-024
+    text: "AI is driving new ways of working and is no longer a 'plug-and-play' tool but a technology that requires thoughtful design, integration, and governance—tasks that demand specialized expertise."
+    type: claim
+    section: "How AI is reshaping the tech organization — People"
+    position: 24
+    source_format: prose
+    metadata: {}
+
+  - id: seg-025
+    text: "As AI plays a key role in CEOs' current and future strategies, the mandate of the tech organization is changing."
+    type: claim
+    section: "How AI is reshaping the tech organization — Purpose"
+    position: 25
+    source_format: prose
+    metadata: {}
+
+  - id: seg-026
+    text: "CEOs today look to tech leaders to drive business strategy, not just run IT."
+    type: claim
+    section: "How AI is reshaping the tech organization — Purpose"
+    position: 26
+    source_format: prose
+    metadata: {}
+
+  - id: seg-027
+    text: "Most large enterprises (66% in the Tech Exec Survey) view their tech org as a revenue generator rather than a service center."
+    type: statistic
+    section: "How AI is reshaping the tech organization — Purpose"
+    position: 27
+    source_format: prose
+    metadata:
+      metric: "large enterprises viewing tech org as revenue generator"
+      value: 66
+      unit: percent
+      source: "Deloitte Tech Executive Survey"
+
+  - id: seg-028
+    text: "When asked what the tech org's role is in shaping the business, the top response from Deloitte's Tech Spending Outlook was 'strategic leader: enabling the overall business strategy with a focus on technology.'"
+    type: evidence
+    section: "How AI is reshaping the tech organization — Purpose"
+    position: 28
+    source_format: prose
+    metadata:
+      source: "Deloitte Tech Spending Outlook"
+
+  - id: seg-029
+    text: "The increasing number of CIOs reporting directly to CEOs (65% in 2025 versus 41% in 2015) further signals that technology and AI are not just operational concerns—they're central to growth, innovation, and competitive positioning."
+    type: statistic
+    section: "How AI is reshaping the tech organization — Purpose"
+    position: 29
+    source_format: prose
+    metadata:
+      metric: "CIOs reporting directly to CEOs"
+      value_2015: 41
+      value_2025: 65
+      unit: percent
+
+  - id: seg-030
+    text: "The purpose of the tech organization is expanding from 'keep the lights on' to 'light the way forward.'"
+    type: claim
+    section: "How AI is reshaping the tech organization — Purpose"
+    position: 30
+    source_format: prose
+    metadata: {}
+
+  - id: seg-031
+    text: "Strategies to prepare for an AI-powered future"
+    type: noise
+    section: "Strategies to prepare for an AI-powered future"
+    position: 31
+    source_format: heading
+    metadata: {}
+
+  - id: seg-032
+    text: "Organizations are actively assessing their tech operating models as AI gains momentum."
+    type: context
+    section: "Strategies to prepare for an AI-powered future"
+    position: 32
+    source_format: prose
+    metadata: {}
+
+  - id: seg-033
+    text: "When asked how they're evolving their tech op models to meet evolving business demands, just 1% of surveyed IT decision-makers said they had no major changes underway."
+    type: statistic
+    section: "Strategies to prepare for an AI-powered future"
+    position: 33
+    source_format: prose
+    metadata:
+      metric: "IT decision-makers with no major tech op model changes underway"
+      value: 1
+      unit: percent
+
+  - id: seg-034
+    text: "The journey to preparing for an AI-driven future will vary depending on organizational maturity and priorities, among other factors, and will likely start with increasing the adoption of AI and automation."
+    type: context
+    section: "Strategies to prepare for an AI-powered future"
+    position: 34
+    source_format: prose
+    metadata: {}
+
+  - id: seg-035
+    text: "Beyond that, here's how organizations are planning for an AI-driven future, today."
+    type: noise
+    section: "Strategies to prepare for an AI-powered future"
+    position: 35
+    source_format: prose
+    metadata: {}
+
+  - id: seg-036
+    text: "Modernization starts with business problems, not technology"
+    type: noise
+    section: "Modernization starts with business problems, not technology"
+    position: 36
+    source_format: heading
+    metadata: {}
+
+  - id: seg-037
+    text: "Seventy-one percent of surveyed organizations are currently modernizing core infrastructure to support AI implementation."
+    type: statistic
+    section: "Modernization starts with business problems, not technology"
+    position: 37
+    source_format: prose
+    metadata:
+      metric: "organizations modernizing core infrastructure for AI"
+      value: 71
+      unit: percent
+
+  - id: seg-038
+    text: "23% are investing 6% to 10% of annual revenue in modernizing core enterprise systems."
+    type: statistic
+    section: "Modernization starts with business problems, not technology"
+    position: 38
+    source_format: prose
+    metadata:
+      metric: "organizations investing 6-10% of revenue in modernization"
+      value: 23
+      unit: percent
+
+  - id: seg-039
+    text: "But recognition isn't enough; the key is solving real business problems, not just upgrading technology."
+    type: recommendation
+    section: "Modernization starts with business problems, not technology"
+    position: 39
+    source_format: prose
+    metadata: {}
+
+  - id: seg-040
+    text: "Modernization is not about technology for technology's sake; it's about addressing fundamental business problems like costs, go-to-market issues, and so on."
+    type: recommendation
+    section: "Modernization starts with business problems, not technology"
+    position: 40
+    source_format: quote
+    metadata:
+      speaker: "Alan Davidson"
+      title: "CIO, Broadcom"
+
+  - id: seg-041
+    text: "AI is a good example. The technology is evolving at such a rate that conversations taking place about AI today are very different from those that happened six months ago, so it's important to have a tactical plan."
+    type: claim
+    section: "Modernization starts with business problems, not technology"
+    position: 41
+    source_format: quote
+    metadata:
+      speaker: "Alan Davidson"
+      title: "CIO, Broadcom"
+
+  - id: seg-042
+    text: "Without focusing on a specific business problem and the value you want to derive, it could be easy to invest in AI and receive no return."
+    type: recommendation
+    section: "Modernization starts with business problems, not technology"
+    position: 42
+    source_format: quote
+    metadata:
+      speaker: "Alan Davidson"
+      title: "CIO, Broadcom"
+
+  - id: seg-043
+    text: "Architectures designed for modularity and observability"
+    type: noise
+    section: "Architectures designed for modularity and observability"
+    position: 43
+    source_format: heading
+    metadata: {}
+
+  - id: seg-044
+    text: "The AI-driven, future-ready enterprise can't be built on legacy platforms patched together for survival."
+    type: claim
+    section: "Architectures designed for modularity and observability"
+    position: 44
+    source_format: prose
+    metadata: {}
+
+  - id: seg-045
+    text: "66% of surveyed organizations are piloting or exploring options around AI-enhanced enterprise architecture."
+    type: statistic
+    section: "Architectures designed for modularity and observability"
+    position: 45
+    source_format: prose
+    metadata:
+      metric: "organizations piloting or exploring AI-enhanced enterprise architecture"
+      value: 66
+      unit: percent
+
+  - id: seg-046
+    text: "When emerging technologies are used in conjunction with an end-to-end enterprise focus, they can deliver amplified value."
+    type: claim
+    section: "Architectures designed for modularity and observability"
+    position: 46
+    source_format: prose
+    metadata: {}
+
+  - id: seg-047
+    text: "New architectures can be designed for modularity and observability, which, at its core, is the ability to see, understand, and optimize a system by analyzing its external outputs."
+    type: definition
+    section: "Architectures designed for modularity and observability"
+    position: 47
+    source_format: prose
+    metadata:
+      term: "observability"
+
+  - id: seg-048
+    text: "At Western Digital, we're developing an observability architecture to help us take a holistic approach to managing our tech landscape. We're not waiting for perfect AI solutions; we'd rather fail fast on small pilots than miss the wave entirely."
+    type: example
+    section: "Architectures designed for modularity and observability"
+    position: 48
+    source_format: quote
+    metadata:
+      speaker: "Sesh Tirumala"
+      title: "CIO, Western Digital"
+
+  - id: seg-049
+    text: "For global organizations, one size rarely fits all. Ways of working are not the same everywhere throughout the world. Our approach has been to build a modular architecture and a set of guiding core principles supported by an agile team able to operate at speed while localizing as needed."
+    type: example
+    section: "Architectures designed for modularity and observability"
+    position: 49
+    source_format: quote
+    metadata:
+      speaker: "Neeraj Tolmare"
+      title: "SVP and CIO, The Coca-Cola Company"
+
+  - id: seg-050
+    text: "Human–machine collaboration at the heart of tech talent strategy"
+    type: noise
+    section: "Human-machine collaboration"
+    position: 50
+    source_format: heading
+    metadata: {}
+
+  - id: seg-051
+    text: "Recent Deloitte research highlights the rapid evolution of the tech talent landscape."
+    type: context
+    section: "Human-machine collaboration"
+    position: 51
+    source_format: prose
+    metadata: {}
+
+  - id: seg-052
+    text: "As organizations adopt emerging technologies, the most anticipated new roles include:"
+    type: context
+    section: "Human-machine collaboration"
+    position: 52
+    source_format: prose
+    metadata: {}
+
+  - id: seg-053
+    text: "Human-AI collaboration designers, responsible for crafting seamless interactions between people and intelligent systems"
+    type: evidence
+    section: "Human-machine collaboration"
+    position: 53
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-054
+    text: "Edge AI and embedded systems engineers, who bring AI capabilities directly to devices and connected infrastructure"
+    type: evidence
+    section: "Human-machine collaboration"
+    position: 54
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-055
+    text: "Data quality specialists for synthetic data, ensuring that the training data fueling AI systems is trustworthy and representative"
+    type: evidence
+    section: "Human-machine collaboration"
+    position: 55
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-056
+    text: "AI prompt engineers and model trainers, optimizing AI outputs and tailoring models to specific business needs"
+    type: evidence
+    section: "Human-machine collaboration"
+    position: 56
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-057
+    text: "To make AI work in practice, consider how it can be both an upskilling engine and a tool to bridge knowledge gaps."
+    type: recommendation
+    section: "Human-machine collaboration"
+    position: 57
+    source_format: prose
+    metadata: {}
+
+  - id: seg-058
+    text: "Even if you're not a JavaScript expert or a product manager expert, AI can help bridge that gap, or even fill that gap."
+    type: claim
+    section: "Human-machine collaboration"
+    position: 58
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+      title: "Researcher and coauthor of The Phoenix Project and Vibe Coding"
+
+  - id: seg-059
+    text: "As organizations reconsider their tech talent strategy, it's helpful to think about what degree of functional expertise they'll need on their teams given what AI can do."
+    type: recommendation
+    section: "Human-machine collaboration"
+    position: 59
+    source_format: prose
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-060
+    text: "That can help illuminate where to focus any upskilling or reskilling efforts."
+    type: recommendation
+    section: "Human-machine collaboration"
+    position: 60
+    source_format: prose
+    metadata: {}
+
+  - id: seg-061
+    text: "While AI can democratize capabilities and expertise, tomorrow's competitive edge will likely not simply come from adopting AI tools but from building teams that can design, manage, and evolve the way humans and machines work together."
+    type: claim
+    section: "Human-machine collaboration"
+    position: 61
+    source_format: prose
+    metadata: {}
+
+  - id: seg-062
+    text: "The future isn't human or machine, but rather human and machine."
+    type: claim
+    section: "Human-machine collaboration"
+    position: 62
+    source_format: prose
+    metadata: {}
+
+  - id: seg-063
+    text: "Vibe shift: Gene Kim on AI-powered coding in enterprise IT"
+    type: noise
+    section: "Sidebar: Gene Kim Q&A"
+    position: 63
+    source_format: heading
+    metadata: {}
+
+  - id: seg-064
+    text: "Gene Kim is a researcher and Wall Street Journal bestselling author who studies high-performing technology organizations. A former CTO, Kim is the organizer of the annual Enterprise Technology Leadership Summit. His books have sold over one million copies. His latest book, Vibe Coding, was coauthored with Steve Yegge."
+    type: context
+    section: "Sidebar: Gene Kim Q&A"
+    position: 64
+    source_format: prose
+    metadata: {}
+
+  - id: seg-065
+    text: "Q: How are AI coding tools changing the enterprise landscape?"
+    type: noise
+    section: "Sidebar: Gene Kim Q&A"
+    position: 65
+    source_format: prose
+    metadata: {}
+
+  - id: seg-066
+    text: "AI is creating what I call 'autonomous' teams, where you don't necessarily need deep functional expertise in every area because AI can help bridge or fill those gaps."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 66
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-067
+    text: "You might not be a database expert, a business expert, or a product manager, but AI can help you work more independently across these domains."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 67
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-068
+    text: "Any business-domain expert—whether in sales, marketing, or customer support—paired with a developer can now accomplish great things without a lot of oversight."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 68
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-069
+    text: "A senior technology leader said to me, 'I spent 20 years of my career hearing that I under-delivered, was late, and couldn't keep promises. Now it's the opposite—I'm constantly being told I'm going too fast and need to slow down.' That's where all of us want to be."
+    type: example
+    section: "Sidebar: Gene Kim Q&A"
+    position: 69
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+      note: "paraphrasing anonymous senior technology leader"
+
+  - id: seg-070
+    text: "Q: How should IT leaders prepare their teams beyond just saying, 'go learn to code with AI'?"
+    type: noise
+    section: "Sidebar: Gene Kim Q&A"
+    position: 70
+    source_format: prose
+    metadata: {}
+
+  - id: seg-071
+    text: "The people getting the most success are often more senior, technically minded leaders who understand the limitations but also see the potential."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 71
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-072
+    text: "As a leader, you need to set the tone that time can neither be stored nor created, so if something can save us time, we need to use it."
+    type: recommendation
+    section: "Sidebar: Gene Kim Q&A"
+    position: 72
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-073
+    text: "It's interesting that many senior engineers are actually pushing back on AI coding tools. The technology is still janky and unpredictable, so many classically trained coders are resistant, thinking the way they were trained is better."
+    type: evidence
+    section: "Sidebar: Gene Kim Q&A"
+    position: 73
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-074
+    text: "Training is required precisely because the tools are janky. You can't just try once or twice and give up. You need to understand some theory and how they work internally."
+    type: recommendation
+    section: "Sidebar: Gene Kim Q&A"
+    position: 74
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-075
+    text: "Trust in AI correlates directly with usage frequency and duration. The more you use these tools, the better you understand their quirks and limitations. You start giving them bigger problems, and that's where you see huge payoffs."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 75
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-076
+    text: "Q: What advice do you have for CIOs and IT leaders facing this transition?"
+    type: noise
+    section: "Sidebar: Gene Kim Q&A"
+    position: 76
+    source_format: prose
+    metadata: {}
+
+  - id: seg-077
+    text: "Leadership will be critical in helping senior engineers who are resistant to seeing the value and risk getting left behind."
+    type: recommendation
+    section: "Sidebar: Gene Kim Q&A"
+    position: 77
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-078
+    text: "While hiring is down overall, the hiring that is happening will probably favor developers who use AI."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 78
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-079
+    text: "From an economic standpoint, you'd choose someone leveraging AI to accelerate their work over someone insisting on writing every line by hand."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 79
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-080
+    text: "Leaders also play a crucial role in determining who captures the productivity surplus."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 80
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-081
+    text: "If AI isn't discussed openly, people might do a day's work in an hour and not tell anyone."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 81
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-082
+    text: "But in a culture where AI practices are shared, that engineer might say, 'I did five days of work in an hour—here's how.' The value of that knowledge sharing far outweighs the time saved, and the organization captures the benefit."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 82
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-083
+    text: "Q: Do you have any hot takes on what's happening with AI in enterprise IT?"
+    type: noise
+    section: "Sidebar: Gene Kim Q&A"
+    position: 83
+    source_format: prose
+    metadata: {}
+
+  - id: seg-084
+    text: "I believe the days of coding by hand are coming to an end. No one can convince me otherwise."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 84
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-085
+    text: "I don't really care if AI gets much better. Even if AI performance froze at current levels, I'd be incredibly grateful. The leverage you get from existing AI is already miraculous."
+    type: claim
+    section: "Sidebar: Gene Kim Q&A"
+    position: 85
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-086
+    text: "We don't need major advances for it to be useful—it's already useful. That means there's no reason for any software engineer or leader to wait. Jump in now."
+    type: recommendation
+    section: "Sidebar: Gene Kim Q&A"
+    position: 86
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-087
+    text: "Governance that enables speed while managing emerging risks"
+    type: noise
+    section: "Governance that enables speed while managing emerging risks"
+    position: 87
+    source_format: heading
+    metadata: {}
+
+  - id: seg-088
+    text: "Break governance down into three M's: map, measure, and monitor. This means teams can map activities to keep tabs on progress, measure results to see if they're achieving the outcomes they want, and monitor quality to make sure the initial goals are realized."
+    type: recommendation
+    section: "Governance that enables speed while managing emerging risks"
+    position: 88
+    source_format: quote
+    metadata:
+      speaker: "Vince Campisi"
+      title: "Chief Digital Officer, RTX"
+      framework: "Three M's: Map, Measure, Monitor"
+
+  - id: seg-089
+    text: "Next, focus on tactics designed to maintain alignment with strategic intent."
+    type: recommendation
+    section: "Governance that enables speed while managing emerging risks"
+    position: 89
+    source_format: quote
+    metadata:
+      speaker: "Vince Campisi"
+      title: "Chief Digital Officer, RTX"
+
+  - id: seg-090
+    text: "As AI becomes more agentic, organizations can establish governance that starts with leadership's intent and builds in explainability and auditability so humans can verify and trust the results."
+    type: recommendation
+    section: "Governance that enables speed while managing emerging risks"
+    position: 90
+    source_format: quote
+    metadata:
+      speaker: "Vince Campisi"
+      title: "Chief Digital Officer, RTX"
+
+  - id: seg-091
+    text: "Bold ambition prioritizing reimagination over incremental change"
+    type: noise
+    section: "Bold ambition prioritizing reimagination over incremental change"
+    position: 91
+    source_format: heading
+    metadata: {}
+
+  - id: seg-092
+    text: "Transforming the tech org demands more than a series of small, safe steps—it requires a courageous vision that reimagines what's possible."
+    type: claim
+    section: "Bold ambition prioritizing reimagination over incremental change"
+    position: 92
+    source_format: prose
+    metadata: {}
+
+  - id: seg-093
+    text: "Organizations that set bold ambitions harness AI far beyond tactical automation, radically reshaping how technology, talent, and strategy intersect."
+    type: claim
+    section: "Bold ambition prioritizing reimagination over incremental change"
+    position: 93
+    source_format: prose
+    metadata: {}
+
+  - id: seg-094
+    text: "Rather than getting stuck in a cycle of perpetual proofs of concept, consider attacking your biggest problem and go for a big outcome."
+    type: recommendation
+    section: "Bold ambition prioritizing reimagination over incremental change"
+    position: 94
+    source_format: quote
+    metadata:
+      speaker: "Daniel Dines"
+      title: "CEO and Executive Chairman, UiPath"
+
+  - id: seg-095
+    text: "With a significant success in hand, you can then prove that there are not just opportunities to rethink business processes but also potential productivity enhancements and opportunities to uncover new revenue streams."
+    type: claim
+    section: "Bold ambition prioritizing reimagination over incremental change"
+    position: 95
+    source_format: quote
+    metadata:
+      speaker: "Daniel Dines"
+      title: "CEO and Executive Chairman, UiPath"
+
+  - id: seg-096
+    text: "The sooner you get started, the better your position can be in the journey toward those ends."
+    type: recommendation
+    section: "Bold ambition prioritizing reimagination over incremental change"
+    position: 96
+    source_format: quote
+    metadata:
+      speaker: "Daniel Dines"
+      title: "CEO and Executive Chairman, UiPath"
+
+  - id: seg-097
+    text: "Redefining the CIO role"
+    type: noise
+    section: "Redefining the CIO role"
+    position: 97
+    source_format: heading
+    metadata: {}
+
+  - id: seg-098
+    text: "As AI takes hold, the CIO's mandate is expanding from tech strategist to AI evangelist."
+    type: claim
+    section: "Redefining the CIO role"
+    position: 98
+    source_format: prose
+    metadata: {}
+
+  - id: seg-099
+    text: "70% of CIOs from the Tech Executive Survey say their primary role with gen AI at their organizations is either implementing gen AI across the enterprise or serving as an evangelist, helping teams see the possibilities of the technology."
+    type: statistic
+    section: "Redefining the CIO role"
+    position: 99
+    source_format: prose
+    metadata:
+      metric: "CIOs whose primary gen AI role is implementation or evangelism"
+      value: 70
+      unit: percent
+      source: "Deloitte Tech Executive Survey"
+
+  - id: seg-100
+    text: "As AI-enabled capabilities are embedded across organizations and IT is less centralized, CIOs become orchestrators and integrators rather than owners of infrastructure."
+    type: claim
+    section: "Redefining the CIO role"
+    position: 100
+    source_format: prose
+    metadata: {}
+
+  - id: seg-101
+    text: "Almost a third of CIOs say that orchestrating fellow tech leaders is essential in the next 18 months."
+    type: statistic
+    section: "Redefining the CIO role"
+    position: 101
+    source_format: prose
+    metadata:
+      metric: "CIOs saying orchestrating fellow tech leaders is essential"
+      value: 33
+      unit: "percent (approx)"
+      timeframe: "next 18 months"
+
+  - id: seg-102
+    text: "The role now requires deeper integration with business strategy and enterprisewide transformation, making the CIO both a change agent and a responsible gatekeeper."
+    type: claim
+    section: "Redefining the CIO role"
+    position: 102
+    source_format: prose
+    metadata: {}
+
+  - id: seg-103
+    text: "CIOs were once more like chief integration officers because much of their remit was making sure SaaS and other applications worked together effectively. Today, I consider my role a combination of the traditional CIO plus chief data officer, chief AI officer, and chief digital officer."
+    type: claim
+    section: "Redefining the CIO role"
+    position: 103
+    source_format: quote
+    metadata:
+      speaker: "Sesh Tirumala"
+      title: "CIO, Western Digital"
+
+  - id: seg-104
+    text: "This era is an opportunity for technology leaders to step up. We understand the technology, the data, and the processes. Don't wait for permission—lean in as a partner."
+    type: recommendation
+    section: "Redefining the CIO role"
+    position: 104
+    source_format: quote
+    metadata:
+      speaker: "Sesh Tirumala"
+      title: "CIO, Western Digital"
+
+  - id: seg-105
+    text: "Articulate a strong digital ambition and develop a road map for enabling top-line growth and business model shifts, along with a strategy for managing the risks."
+    type: recommendation
+    section: "Redefining the CIO role"
+    position: 105
+    source_format: quote
+    metadata:
+      speaker: "Sesh Tirumala"
+      title: "CIO, Western Digital"
+
+  - id: seg-106
+    text: "Focus on speed, agility, outcomes, and value. With the right approach, there won't be any need to ask for forgiveness later on."
+    type: recommendation
+    section: "Redefining the CIO role"
+    position: 106
+    source_format: quote
+    metadata:
+      speaker: "Sesh Tirumala"
+      title: "CIO, Western Digital"
+
+  - id: seg-107
+    text: "The markers of an AI-powered tech organization"
+    type: noise
+    section: "The markers of an AI-powered tech organization"
+    position: 107
+    source_format: heading
+    metadata: {}
+
+  - id: seg-108
+    text: "Every enterprise's AI journey will be distinct, but successful AI-powered tech organizations share common characteristics."
+    type: context
+    section: "The markers of an AI-powered tech organization"
+    position: 108
+    source_format: prose
+    metadata: {}
+
+  - id: seg-109
+    text: "These markers represent the new standard for tech organizations that thrive in an AI-driven world."
+    type: context
+    section: "The markers of an AI-powered tech organization"
+    position: 109
+    source_format: prose
+    metadata: {}
+
+  - id: seg-110
+    text: "AI as a core collaborator"
+    type: noise
+    section: "AI as a core collaborator"
+    position: 110
+    source_format: heading
+    metadata: {}
+
+  - id: seg-111
+    text: "Tomorrow's tech operating models elevate AI from an add-on tool or efficiency play to an embedded collaborator at every layer—from decision-making and operations to product development."
+    type: claim
+    section: "AI as a core collaborator"
+    position: 111
+    source_format: prose
+    metadata: {}
+
+  - id: seg-112
+    text: "As a co-creator, AI can accelerate road mapping, automate feedback loops, and reprioritize work in real time."
+    type: claim
+    section: "AI as a core collaborator"
+    position: 112
+    source_format: prose
+    metadata: {}
+
+  - id: seg-113
+    text: "Much like the revolutions of cloud and mobile before it, this shift positions AI as the next core capability for competitive advantage."
+    type: claim
+    section: "AI as a core collaborator"
+    position: 113
+    source_format: prose
+    metadata: {}
+
+  - id: seg-114
+    text: "Delivering this vision requires cloud-native, platform-powered foundations."
+    type: claim
+    section: "AI as a core collaborator"
+    position: 114
+    source_format: prose
+    metadata: {}
+
+  - id: seg-115
+    text: "48% of organizations surveyed in the Tech Spending Outlook say they're currently expanding cloud-native and DevOps practices to better align tech with business needs."
+    type: statistic
+    section: "AI as a core collaborator"
+    position: 115
+    source_format: prose
+    metadata:
+      metric: "organizations expanding cloud-native and DevOps practices"
+      value: 48
+      unit: percent
+      source: "Deloitte Tech Spending Outlook"
+
+  - id: seg-116
+    text: "Cloud is no longer just infrastructure. It's the engine of speed, flexibility, and innovation."
+    type: claim
+    section: "AI as a core collaborator"
+    position: 116
+    source_format: prose
+    metadata: {}
+
+  - id: seg-117
+    text: "Modular, API-first, self-service platforms enable rapid scaling while reducing infrastructure overhead; platform engineering and orchestration ensure consistency, governance, and reuse across product lines."
+    type: claim
+    section: "AI as a core collaborator"
+    position: 117
+    source_format: prose
+    metadata: {}
+
+  - id: seg-118
+    text: "In this model, the tech organization becomes the architect for enterprise AI, providing standardized, secure, and scalable building blocks so teams can adopt AI confidently and consistently."
+    type: claim
+    section: "AI as a core collaborator"
+    position: 118
+    source_format: prose
+    metadata: {}
+
+  - id: seg-119
+    text: "Work reimagined for speed"
+    type: noise
+    section: "Work reimagined for speed"
+    position: 119
+    source_format: heading
+    metadata: {}
+
+  - id: seg-120
+    text: "In the years ahead, traditional project teams will likely shift into lean, cross-functional squads aligned to products and value streams—tightening the loop from concept to customer and hardwiring ownership of outcomes."
+    type: claim
+    section: "Work reimagined for speed"
+    position: 120
+    source_format: prose
+    metadata: {}
+
+  - id: seg-121
+    text: "57% of organizations report that they're already shifting from project to product models to bring business and IT closer together."
+    type: statistic
+    section: "Work reimagined for speed"
+    position: 121
+    source_format: prose
+    metadata:
+      metric: "organizations shifting from project to product models"
+      value: 57
+      unit: percent
+
+  - id: seg-122
+    text: "In this model, product lines deliver user-focused features via shared, customer-facing platforms; agile pods govern ways of working and tool choices; and forward-deployed engineers work alongside product or customer teams to shorten the path to value."
+    type: definition
+    section: "Work reimagined for speed"
+    position: 122
+    source_format: prose
+    metadata:
+      term: "product-model tech organization"
+
+  - id: seg-123
+    text: "The result is stronger ownership, faster iteration, and a clearer line of sight to real-world impact."
+    type: claim
+    section: "Work reimagined for speed"
+    position: 123
+    source_format: prose
+    metadata: {}
+
+  - id: seg-124
+    text: "AI, cognitive tools, and robotics can amplify this structure by embedding continuous planning, delivery, and experimentation into daily work."
+    type: claim
+    section: "Work reimagined for speed"
+    position: 124
+    source_format: prose
+    metadata: {}
+
+  - id: seg-125
+    text: "Predictive models and smart automation can replace manual handoffs, while roles like AIOps lead emerge and traditional project management fades."
+    type: claim
+    section: "Work reimagined for speed"
+    position: 125
+    source_format: prose
+    metadata: {}
+
+  - id: seg-126
+    text: "Organizational agility can expand beyond IT, creating an operating model that continually adapts to shifting priorities while preserving speed and accountability at the team level."
+    type: claim
+    section: "Work reimagined for speed"
+    position: 126
+    source_format: prose
+    metadata: {}
+
+  - id: seg-127
+    text: "Human-agent teams at scale"
+    type: noise
+    section: "Human-agent teams at scale"
+    position: 127
+    source_format: heading
+    metadata: {}
+
+  - id: seg-128
+    text: "The future workforce fuses human ingenuity with machine intelligence."
+    type: claim
+    section: "Human-agent teams at scale"
+    position: 128
+    source_format: prose
+    metadata: {}
+
+  - id: seg-129
+    text: "Two-thirds of organizations are piloting, actively using, or close to deploying AI agents."
+    type: statistic
+    section: "Human-agent teams at scale"
+    position: 129
+    source_format: prose
+    metadata:
+      metric: "organizations piloting, using, or close to deploying AI agents"
+      value: 66
+      unit: "percent (approx)"
+
+  - id: seg-130
+    text: "These future teams will likely be a seamless blend of humans, AI agents, and orchestrators, where humans contribute creativity, oversight, and ethical judgment, and AI brings speed, precision, and pattern recognition."
+    type: claim
+    section: "Human-agent teams at scale"
+    position: 130
+    source_format: prose
+    metadata: {}
+
+  - id: seg-131
+    text: "This model fuels perpetual experimentation, rapid prototyping, and scalable innovation across products, services, and operations."
+    type: claim
+    section: "Human-agent teams at scale"
+    position: 131
+    source_format: prose
+    metadata: {}
+
+  - id: seg-132
+    text: "As AI agents assume more complex tasks, digital fluency becomes a core skill for every role."
+    type: claim
+    section: "Human-agent teams at scale"
+    position: 132
+    source_format: prose
+    metadata: {}
+
+  - id: seg-133
+    text: "The tech organization's future success will likely hinge on orchestrating this collaboration, ensuring that humans and machines learn and evolve together."
+    type: claim
+    section: "Human-agent teams at scale"
+    position: 133
+    source_format: prose
+    metadata: {}
+
+  - id: seg-134
+    text: "Embedded governance"
+    type: noise
+    section: "Embedded governance"
+    position: 134
+    source_format: heading
+    metadata: {}
+
+  - id: seg-135
+    text: "Modern tech organizations are replacing slow, point-in-time oversight with adaptive governance cycles: continuous, AI-assisted mechanisms that protect speed without sacrificing safety."
+    type: claim
+    section: "Embedded governance"
+    position: 135
+    source_format: prose
+    metadata: {}
+
+  - id: seg-136
+    text: "Predictive models and real-time signals are transforming decision-making from subjective, opinion-based guesswork to objective, fact-based choices, surfacing risks before they escalate and informing priorities as conditions change."
+    type: claim
+    section: "Embedded governance"
+    position: 136
+    source_format: prose
+    metadata: {}
+
+  - id: seg-137
+    text: "Policies, processes, and controls become living assets—codified, monitored automatically, and iterated in short cycles to keep pace with emerging technologies—so compliance, security, and ethics are embedded in the flow of work rather than bolted on."
+    type: claim
+    section: "Embedded governance"
+    position: 137
+    source_format: prose
+    metadata: {}
+
+  - id: seg-138
+    text: "Delivering this at scale requires strong collaboration among leaders."
+    type: claim
+    section: "Embedded governance"
+    position: 138
+    source_format: prose
+    metadata: {}
+
+  - id: seg-139
+    text: "AI outcomes won't emerge from siloed innovation; they're unlocked when the CIO, chief financial officer (CFO), and chief strategy officer (CSO) operate as a cohesive triumvirate, balancing vision, execution, and value realization."
+    type: claim
+    section: "Embedded governance"
+    position: 139
+    source_format: prose
+    metadata: {}
+
+  - id: seg-140
+    text: "In this dynamic, the CIO drives technology integration, the CFO ensures investments deliver measurable ROI, and the CSO aligns strategy with enterprise priorities."
+    type: definition
+    section: "Embedded governance"
+    position: 140
+    source_format: prose
+    metadata:
+      term: "CIO-CFO-CSO triumvirate"
+
+  - id: seg-141
+    text: "Together, they create the connective tissue between innovation and business outcomes, demonstrating that AI success is as much about shared leadership as it is about advanced technology."
+    type: claim
+    section: "Embedded governance"
+    position: 141
+    source_format: prose
+    metadata: {}
+
+  - id: seg-142
+    text: "Orchestrating ecosystems"
+    type: noise
+    section: "Orchestrating ecosystems"
+    position: 142
+    source_format: heading
+    metadata: {}
+
+  - id: seg-143
+    text: "The tech organization will likely evolve from service provider to ecosystem orchestrator, coordinating across startups, hyperscalers, regulators, and academia to accelerate innovation."
+    type: claim
+    section: "Orchestrating ecosystems"
+    position: 143
+    source_format: prose
+    metadata: {}
+
+  - id: seg-144
+    text: "As digital capabilities diffuse across the enterprise and tech-fluent roles become the norm, the boundaries between IT and the business may dissolve."
+    type: claim
+    section: "Orchestrating ecosystems"
+    position: 144
+    source_format: prose
+    metadata: {}
+
+  - id: seg-145
+    text: "In the years ahead, enterprises will likely operate in fluid innovation networks, running a portfolio of bets and building on what works."
+    type: claim
+    section: "Orchestrating ecosystems"
+    position: 145
+    source_format: prose
+    metadata: {}
+
+  - id: seg-146
+    text: "Success will depend less on owning all the technology and more on orchestrating an adaptive ecosystem—one that experiments continuously and embraces a 'fail fast, learn faster' culture."
+    type: claim
+    section: "Orchestrating ecosystems"
+    position: 146
+    source_format: prose
+    metadata: {}
+
+  - id: seg-147
+    text: "Continuously evolving: Always beta by design"
+    type: noise
+    section: "Continuously evolving: Always beta by design"
+    position: 147
+    source_format: heading
+    metadata: {}
+
+  - id: seg-148
+    text: "The defining trait of tomorrow's tech orgs is perpetual evolution, where change becomes a core capability, not a one-time event."
+    type: claim
+    section: "Continuously evolving: Always beta by design"
+    position: 148
+    source_format: prose
+    metadata: {}
+
+  - id: seg-149
+    text: "Embedding adaptability and an always-beta mindset into their structure, culture, and strategy creates organizations that learn as fast as the technology they harness."
+    type: claim
+    section: "Continuously evolving: Always beta by design"
+    position: 149
+    source_format: prose
+    metadata: {}
+
+  - id: seg-150
+    text: "The way you've always done things doesn't have to be the way you do them tomorrow. Leverage everything you can get out of AI right now because even if performance levels freeze, what AI can do today for your organization and your teams is still miraculous. There's no time to wait. The time to jump is now."
+    type: recommendation
+    section: "Continuously evolving: Always beta by design"
+    position: 150
+    source_format: quote
+    metadata:
+      speaker: "Gene Kim"
+
+  - id: seg-151
+    text: "From writer to director: Steve Yegge on the software developer's transformation"
+    type: noise
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 151
+    source_format: heading
+    metadata: {}
+
+  - id: seg-152
+    text: "A software engineer with more than 30 years of industry experience, Steve Yegge is the coauthor of the book Vibe Coding (with Gene Kim). Yegge has written over a million lines of production code in more than a dozen languages and has led multiple teams of up to 150 people each. He's currently an engineer at Sourcegraph, working on AI coding assistants."
+    type: context
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 152
+    source_format: prose
+    metadata: {}
+
+  - id: seg-153
+    text: "Q: How is AI coding affecting the tech function?"
+    type: noise
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 153
+    source_format: prose
+    metadata: {}
+
+  - id: seg-154
+    text: "IT is a layered activity. We're losing the bottom layer, code generation. Tasks or roles continuously get pushed down into hardware or software, and humans get pushed up the ladder."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 154
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-155
+    text: "A lot of engineering activity involves design, merging workstreams, and leading teams. Everyone's getting pushed up in that direction because AI is writing code."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 155
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-156
+    text: "It also means nonprogrammers are entering the IT function. Roles like product managers and UX designers are helping with coding because we're using AI to produce these shared artifacts."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 156
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-157
+    text: "There's a translation layer between the business and IT that we've never had before. We're seeing small teams—maybe an engineer, a financial analyst, and a marketing person—create software."
+    type: evidence
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 157
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-158
+    text: "Q: How will this change the software engineer's role?"
+    type: noise
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 158
+    source_format: prose
+    metadata: {}
+
+  - id: seg-159
+    text: "You can't trust everything to AI. Eventually, a human needs to look at it."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 159
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-160
+    text: "It's like an old-school technical program manager who used to manage teams of engineers, but now you're managing fleets of AI agents."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 160
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-161
+    text: "But agents can't solve everything. They can work much faster than a human, but our ambitions will get so much bigger."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 161
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-162
+    text: "All the projects that we ever wanted to do, we'll be able to do now, but it will take this constant course-correcting and babysitting and shepherding AI."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 162
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-163
+    text: "As the AI tools get smarter, more nonprogrammers will be able to do this oversight over the next few years."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 163
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-164
+    text: "But right now, it's all about programmers and their ability to be neuroplastic enough to adapt to this entirely new way of working, where they're essentially directing AI."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 164
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-165
+    text: "Q: How do you measure developer productivity in this environment?"
+    type: noise
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 165
+    source_format: prose
+    metadata: {}
+
+  - id: seg-166
+    text: "Companies have been trying to figure this out since AI-powered code completions appeared back in 2022."
+    type: context
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 166
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-167
+    text: "With code completions, the AI would autocomplete the line of code you were writing, and you accepted or ignored it. The productivity metric was the acceptance rate."
+    type: context
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 167
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-168
+    text: "That measure of productivity vanished almost overnight when chat-based coding tools came along, because now all you do is make a request in chat, the AI writes the code, and you copy and paste it."
+    type: evidence
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 168
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-169
+    text: "It was harder to find good metrics because the improvements were more varied and context-dependent than a simple acceptance rate."
+    type: evidence
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 169
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-170
+    text: "Now we have coding agents, where the AI can use tools to run the code itself, see the results, and iterate without you having to manually copy-paste and relay information back and forth."
+    type: definition
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 170
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+      term: "coding agents"
+
+  - id: seg-171
+    text: "People who use coding agents are 10 times more productive than people who don't, by any measure that you pick: lines of code, commits, actual business outcomes."
+    type: statistic
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 171
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+      metric: "productivity multiplier for coding agent users"
+      value: 10
+      unit: "times"
+
+  - id: seg-172
+    text: "It's so obviously an order of magnitude larger than the people who aren't using the coding agents that companies don't even try to measure it."
+    type: evidence
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 172
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-173
+    text: "Then the discussion becomes what to do at performance review time when you're trying to compare people who are 10 times more productive than their peers."
+    type: evidence
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 173
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-174
+    text: "Q: What are your thoughts on hiring developers in the AI era?"
+    type: noise
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 174
+    source_format: prose
+    metadata: {}
+
+  - id: seg-175
+    text: "It's a tough time for new entrants into the field, but my take is that people are being overcautious and they're under-hiring."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 175
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-176
+    text: "They're standing in the way of having an army of brilliant junior programmers building the next-generation thing that could launch the company to the top of its category."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 176
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-177
+    text: "People who are adaptable and neuroplastic have always been needed, but now they're more important than ever."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 177
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-178
+    text: "Hire people who don't have a lot of baggage, not the ones who say, 'I won't do X, I won't do Y.'"
+    type: recommendation
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 178
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-179
+    text: "Invest in them, train them, and give them the flexibility to make mistakes and learn from them as an organization."
+    type: recommendation
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 179
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-180
+    text: "Companies that do this are going to be super successful."
+    type: claim
+    section: "Sidebar: Steve Yegge Q&A"
+    position: 180
+    source_format: quote
+    metadata:
+      speaker: "Steve Yegge"
+
+  - id: seg-181
+    text: "Endnotes"
+    type: noise
+    section: "Endnotes"
+    position: 181
+    source_format: heading
+    metadata: {}
+
+  - id: seg-182
+    text: "Kelly Raskovich et al., 'IT, amplified: AI elevates the reach (and remit) of the tech function,' Deloitte Insights, Dec. 11, 2024."
+    type: attribution
+    section: "Endnotes"
+    position: 182
+    source_format: prose
+    metadata:
+      endnote: 1
+
+  - id: seg-183
+    text: "Deloitte 2025 Horizon Architecture Survey. From June to July 2025, Deloitte conducted an online survey of 250 US technology leaders across industries to understand the state of technology architectures today and how different approaches drive business value. All respondents were leaders within their organization's IT functions (director level and above) and were from commercial companies with US$1 billion or more in annual revenue."
+    type: methodology
+    section: "Endnotes"
+    position: 183
+    source_format: prose
+    metadata:
+      endnote: 2
+      survey_name: "Deloitte 2025 Horizon Architecture Survey"
+      sample_size: 250
+      timeframe: "June to July 2025"
+
+  - id: seg-184
+    text: "Tracey Franklin (chief people and digital technology officer, Moderna), interview with Deloitte, Sept. 26, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 184
+    source_format: prose
+    metadata:
+      endnote: 3
+
+  - id: seg-185
+    text: "Jagjeet Gill, Vibhu Kapoor, Matthew Nehls, and Shivang Aggarwal, 'Fueling Growth, Not Maintenance: How Tech Budgets are Evolving,' The Wall Street Journal, December 2, 2025; Deloitte Tech Spending Outlook; From June to July 2025, Deloitte conducted an online survey of 302 IT procurement leaders, heads of IT, and non-IT executives with technology spending oversight to understand how US enterprises in key industries are managing technology budgets. All respondents were from organizations with US$1 billion or more in annual revenue."
+    type: methodology
+    section: "Endnotes"
+    position: 185
+    source_format: prose
+    metadata:
+      endnote: 4
+      survey_name: "Deloitte Tech Spending Outlook"
+      sample_size: 302
+
+  - id: seg-186
+    text: "Deloitte US, 'New Deloitte Tech Exec Survey spotlights a moment of reinvention for the tech C-suite as need for gen AI skills, cross-functional collaboration becomes critical,' June 17, 2025. From March to April 2025, Deloitte conducted an online survey of 622 US technology leaders across industries to understand how senior technology leadership roles and responsibilities are evolving."
+    type: methodology
+    section: "Endnotes"
+    position: 186
+    source_format: prose
+    metadata:
+      endnote: 5
+      survey_name: "Deloitte 2025 Tech Executive Survey"
+      sample_size: 622
+
+  - id: seg-187
+    text: "Deloitte Tech Spending Outlook."
+    type: attribution
+    section: "Endnotes"
+    position: 187
+    source_format: prose
+    metadata:
+      endnote: 6
+
+  - id: seg-188
+    text: "Deloitte 2025 Tech Executive Survey."
+    type: attribution
+    section: "Endnotes"
+    position: 188
+    source_format: prose
+    metadata:
+      endnote: 7
+
+  - id: seg-189
+    text: "Isabelle Bousquette, 'Why Moderna merged its tech and HR departments,' The Wall Street Journal, May 12, 2025; Lee Chong Ming, 'An OpenAI exec said the company is using a new engineering role to get big customers' projects going fast,' Business Insider, July 23, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 189
+    source_format: prose
+    metadata:
+      endnote: 8
+
+  - id: seg-190
+    text: "Deloitte 2025 Horizon Architecture Survey."
+    type: attribution
+    section: "Endnotes"
+    position: 190
+    source_format: prose
+    metadata:
+      endnote: 9
+
+  - id: seg-191
+    text: "Benjamin Finzi, Brett Weinberg, and Elizabeth Molacek, 'Spring 2025 Fortune/Deloitte CEO Survey,' Deloitte, May 15, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 191
+    source_format: prose
+    metadata:
+      endnote: 10
+
+  - id: seg-192
+    text: "Deloitte US, 'New Deloitte Survey shows tech execs driving growth, shaping strategy, and eyeing the CEO seat;' Deloitte Tech Spending Outlook."
+    type: attribution
+    section: "Endnotes"
+    position: 192
+    source_format: prose
+    metadata:
+      endnote: 11
+
+  - id: seg-193
+    text: "Deloitte 2025 Tech Executive Survey."
+    type: attribution
+    section: "Endnotes"
+    position: 193
+    source_format: prose
+    metadata:
+      endnote: 12
+
+  - id: seg-194
+    text: "Deloitte CIO Program, 'Many tech leaders' influence in the C-suite is growing, new Deloitte research suggests,' Deloitte Insights, Sept. 26, 2024."
+    type: attribution
+    section: "Endnotes"
+    position: 194
+    source_format: prose
+    metadata:
+      endnote: 13
+
+  - id: seg-195
+    text: "Deloitte Tech Spending Outlook."
+    type: attribution
+    section: "Endnotes"
+    position: 195
+    source_format: prose
+    metadata:
+      endnote: 14
+
+  - id: seg-196
+    text: "2025 Deloitte Emerging Technology Trends in the Enterprise Survey."
+    type: attribution
+    section: "Endnotes"
+    position: 196
+    source_format: prose
+    metadata:
+      endnote: 15
+
+  - id: seg-197
+    text: "Katherine Noyes, 'Broadcom CIO: Modernization should be driven by the business,' The Wall Street Journal, Sept. 10, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 197
+    source_format: prose
+    metadata:
+      endnote: 16
+
+  - id: seg-198
+    text: "2025 Deloitte Emerging Technology Trends in the Enterprise Survey."
+    type: attribution
+    section: "Endnotes"
+    position: 198
+    source_format: prose
+    metadata:
+      endnote: 17
+
+  - id: seg-199
+    text: "Michael Caplan et al., 'The technology operating model of the future: Rise of the agentic enterprise,' The Wall Street Journal, Aug. 23, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 199
+    source_format: prose
+    metadata:
+      endnote: 18
+
+  - id: seg-200
+    text: "Katherine Noyes, 'Western Digital CIO: In the AI era, play offense or get left behind,' The Wall Street Journal, Sept. 6, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 200
+    source_format: prose
+    metadata:
+      endnote: 19
+
+  - id: seg-201
+    text: "Katherine Noyes, 'Coca-Cola CIO on scaling AI: From what can we do? to what should we do?' The Wall Street Journal, Jan. 18, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 201
+    source_format: prose
+    metadata:
+      endnote: 20
+
+  - id: seg-202
+    text: "2025 Deloitte Emerging Technology Trends Survey."
+    type: attribution
+    section: "Endnotes"
+    position: 202
+    source_format: prose
+    metadata:
+      endnote: 21
+
+  - id: seg-203
+    text: "Gene Kim (researcher and coauthor of The Phoenix Project and the newly released book, Vibe Coding), interview with Deloitte, Sept 15, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 203
+    source_format: prose
+    metadata:
+      endnote: 22
+
+  - id: seg-204
+    text: "Kyle Forrest, Brad Kreit, Abha Kulkarni, Roxana Corduneanu, and Sue Cantrell, 'AI, demographic shifts, and agility: Preparing for the next workforce evolution,' Deloitte Insights, Aug. 25, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 204
+    source_format: prose
+    metadata:
+      endnote: 23
+
+  - id: seg-205
+    text: "Katherine Noyes, 'RTX CDO on AI: Value beats volume every time,' The Wall Street Journal, Sept. 13, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 205
+    source_format: prose
+    metadata:
+      endnote: 24
+
+  - id: seg-206
+    text: "Katherine Noyes, 'UiPath CEO: Agentic automation will usher in a new era of work,' The Wall Street Journal, Feb. 22, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 206
+    source_format: prose
+    metadata:
+      endnote: 25
+
+  - id: seg-207
+    text: "Deloitte 2025 Tech Executive Survey."
+    type: attribution
+    section: "Endnotes"
+    position: 207
+    source_format: prose
+    metadata:
+      endnote: 26
+
+  - id: seg-208
+    text: "Ibid."
+    type: attribution
+    section: "Endnotes"
+    position: 208
+    source_format: prose
+    metadata:
+      endnote: 27
+
+  - id: seg-209
+    text: "Katherine Noyes, 'Western Digital CIO: In the AI era, play offense or get left behind.'"
+    type: attribution
+    section: "Endnotes"
+    position: 209
+    source_format: prose
+    metadata:
+      endnote: 28
+
+  - id: seg-210
+    text: "Deloitte Tech Spending Outlook."
+    type: attribution
+    section: "Endnotes"
+    position: 210
+    source_format: prose
+    metadata:
+      endnote: 29
+
+  - id: seg-211
+    text: "Ibid."
+    type: attribution
+    section: "Endnotes"
+    position: 211
+    source_format: prose
+    metadata:
+      endnote: 30
+
+  - id: seg-212
+    text: "Gergely Orosz, 'What are forward deployed engineers, and why are they so in demand?' The Pragmatic Engineer, Aug. 12, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 212
+    source_format: prose
+    metadata:
+      endnote: 31
+
+  - id: seg-213
+    text: "2025 Deloitte Emerging Technology Trends in the Enterprise Survey."
+    type: attribution
+    section: "Endnotes"
+    position: 213
+    source_format: prose
+    metadata:
+      endnote: 32
+
+  - id: seg-214
+    text: "Lou DiLorenzo et al., 'AI's ROI triumvirate: CIO, CFO, and chief strategy officer,' The Wall Street Journal, May 10, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 214
+    source_format: prose
+    metadata:
+      endnote: 33
+
+  - id: seg-215
+    text: "Steve Yegge (coauthor of Vibe Coding and software engineer, Sourcegraph), interview with Deloitte, Oct. 1, 2025."
+    type: attribution
+    section: "Endnotes"
+    position: 215
+    source_format: prose
+    metadata:
+      endnote: 34
+
+  - id: seg-216
+    text: "Acknowledgments"
+    type: noise
+    section: "Acknowledgments"
+    position: 216
+    source_format: heading
+    metadata: {}
+
+  - id: seg-217
+    text: "The authors would like to thank executive sponsor Bill Briggs, as well as the Office of the CTO Tech Market Presence team, without whom this report would not be possible: Ed Burns, Caroline Brown, Preetha Devan, Bri Henley, Dana Kublin, Makarand Kukade, Haley Gove Lamb, Heidi Morrow, Sarah Mortier, Abria Perry, Catarina Pires, and Kelly Raskovich."
+    type: noise
+    section: "Acknowledgments"
+    position: 217
+    source_format: prose
+    metadata: {}
+
+  - id: seg-218
+    text: "Much gratitude goes to the many subject matter leaders across Deloitte who contributed to our research for the Business of Technology chapter: Ryan Casden, Nate Paynter, Tarun Sharma, Tim Smith, and Michael Wilson."
+    type: noise
+    section: "Acknowledgments"
+    position: 218
+    source_format: prose
+    metadata: {}
+
+  - id: seg-219
+    text: "Additionally, the authors would like to acknowledge and thank Katarina Alaupovic, Allison Cizowski, Deanna Gorecki, Ben Hebbe, Mikaeli Robinson, and Madelyn Scott; Amanpreet Arora and Nidhi John; as well as the Deloitte Insights team, the Marketing Excellence team, the NExT team, and the Knowledge Services team."
+    type: noise
+    section: "Acknowledgments"
+    position: 219
+    source_format: prose
+    metadata: {}
+
+  - id: seg-220
+    text: "Cover image by: Jim Slatton; Getty Images, Adobe Stock"
+    type: noise
+    section: "Acknowledgments"
+    position: 220
+    source_format: prose
+    metadata: {}
+
+  - id: seg-221
+    text: "Copyright 2026 Deloitte Development LLC. All rights reserved. Member of Deloitte Touche Tohmatsu Limited."
+    type: noise
+    section: "Copyright"
+    position: 221
+    source_format: prose
+    metadata: {}

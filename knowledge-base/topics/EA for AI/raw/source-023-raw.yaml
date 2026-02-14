@@ -1,0 +1,475 @@
+source_id: source-023
+title: "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI Adoption: Bridging Innovation and Governance in Large Organisations"
+url: "https://arxiv.org/abs/2505.06326"
+author: "Alexander Ettinger"
+date: 2025-05-09
+type: paper
+total_segments: 57
+note: "Full 82-page PDF not accessible via available tools; segmented from source note, abstract metadata, and web search excerpts."
+
+composition:
+  claim: { count: 25, pct: 43.9 }
+  recommendation: { count: 7, pct: 12.3 }
+  evidence: { count: 6, pct: 10.5 }
+  methodology: { count: 5, pct: 8.8 }
+  context: { count: 4, pct: 7.0 }
+  definition: { count: 4, pct: 7.0 }
+  noise: { count: 4, pct: 7.0 }
+  statistic: { count: 2, pct: 3.5 }
+  attribution: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+
+signal_ratio: 93.0
+
+segments:
+
+  # ============================================================
+  # METADATA
+  # ============================================================
+
+  - id: seg-001
+    text: "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI Adoption: Bridging Innovation and Governance in Large Organisations"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Alexander Ettinger, Warwick Business School, Master of Business Administration (Global Online MBA)"
+    type: noise
+    section: "Metadata"
+    position: 2
+    source_format: metadata
+
+  - id: seg-003
+    text: "Published May 9, 2025 on arXiv. 82 pages excluding appendix."
+    type: noise
+    section: "Metadata"
+    position: 3
+    source_format: metadata
+
+  # ============================================================
+  # ABSTRACT (reconstructed from search results and source note)
+  # ============================================================
+
+  - id: seg-004
+    text: "Abstract"
+    type: noise
+    section: "Abstract"
+    position: 4
+    source_format: heading
+
+  - id: seg-005
+    text: "Organizations face major challenges in scaling Generative AI, including technology complexity, governance gaps, and resource misalignments."
+    type: claim
+    section: "Abstract"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "This study explores how Enterprise Architecture Management can meet the complex requirements of GenAI adoption within large enterprises."
+    type: context
+    section: "Abstract"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "The research is based on a systematic literature review and the qualitative analysis of 16 semi-structured interviews with experts, examining the relationships between EAM, dynamic capabilities, and GenAI adoption."
+    type: methodology
+    section: "Abstract"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "The findings indicate that EAM, when theorised as sensing, seizing, and transforming dynamic capabilities, can enhance GenAI adoption by improving strategic alignment, governance frameworks, and organisational agility."
+    type: claim
+    section: "Abstract"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "The literature review identified key limitations in existing EA frameworks, particularly their inability to fully address the unique requirements of GenAI."
+    type: evidence
+    section: "Abstract"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "The interviews, analysed using the Gioia methodology, revealed critical enablers and barriers to GenAI adoption across industries."
+    type: evidence
+    section: "Abstract"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "The study highlights the need to tailor EA frameworks to GenAI-specific challenges, including low data governance maturity and the balance between innovation and compliance."
+    type: recommendation
+    section: "Abstract"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Several conceptual frameworks are proposed to guide EA leaders in aligning GenAI maturity with organisational readiness."
+    type: recommendation
+    section: "Abstract"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "The study contributes to academic understanding and industry practice by clarifying the role of EA in bridging innovation and governance in disruptive technology environments."
+    type: context
+    section: "Abstract"
+    position: 13
+    source_format: prose
+
+  # ============================================================
+  # KEY TAKEAWAYS (from source note)
+  # ============================================================
+
+  - id: seg-014
+    text: "EAM is theorized as a dynamic capability (sensing, seizing, transforming) that enables scalable and sustainable GenAI adoption."
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "The study is based on a systematic literature review and qualitative analysis of 16 semi-structured expert interviews using the Gioia methodology."
+    type: methodology
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "The research identifies critical enablers and barriers to GenAI adoption across industries."
+    type: evidence
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Existing EA frameworks, particularly TOGAF, have key limitations: their inability to fully address unique GenAI requirements including ethical governance, lifecycle artifacts, and the speed of AI-driven transformation."
+    type: claim
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "The paper proposes extensions to EA frameworks to meet the needs of automation, AI, and digital governance."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Organizations with clean, modular architectures can leverage GenAI to accelerate development 30-50%, while those with legacy systems are trapped in governance cycles too slow to capture value."
+    type: claim
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "The acceleration paradox: architectural technical debt from rapid GenAI innovation creates a self-reinforcing gap between leaders and laggards."
+    type: claim
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY - Paragraph 1
+  # ============================================================
+
+  - id: seg-021
+    text: "This academic paper examines how Enterprise Architecture Management can serve as a dynamic capability for organizations seeking to adopt Generative AI at scale."
+    type: context
+    section: "Summary"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "Using the dynamic capabilities framework (sensing, seizing, transforming), the research investigates how EAM can enhance strategic alignment, governance frameworks, and organizational agility for GenAI adoption."
+    type: methodology
+    section: "Summary"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "The study is grounded in both a systematic literature review and 16 semi-structured interviews with industry experts, analyzed using the Gioia methodology."
+    type: methodology
+    section: "Summary"
+    position: 23
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY - Paragraph 2
+  # ============================================================
+
+  - id: seg-024
+    text: "The paper reveals an important tension: while EA frameworks like TOGAF provide valuable governance structures, they lack the agility, ethical governance mechanisms, and lifecycle artifacts needed for AI-driven transformation."
+    type: claim
+    section: "Summary"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The research identifies what it calls 'the acceleration paradox': organizations with clean, modular architectures can leverage GenAI to accelerate development by 30-50%, but those navigating legacy systems find themselves trapped in ADM cycles that are too slow to capture value before the next wave of AI innovation renders their architectural decisions obsolete."
+    type: claim
+    section: "Summary"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Organizations with clean, modular architectures can leverage GenAI to accelerate development by 30-50%."
+    type: statistic
+    section: "Summary"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Organizations navigating legacy systems find themselves trapped in ADM cycles that are too slow to capture value before the next wave of AI innovation renders their architectural decisions obsolete."
+    type: claim
+    section: "Summary"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "This creates a widening gap between architectural leaders and laggards."
+    type: claim
+    section: "Summary"
+    position: 28
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY - Paragraph 3
+  # ============================================================
+
+  - id: seg-029
+    text: "Key findings include the need to tailor EA frameworks to GenAI-specific challenges such as low data governance maturity."
+    type: claim
+    section: "Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Organizations must balance innovation and compliance when adopting GenAI."
+    type: claim
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "There is a requirement for new architectural patterns that accommodate rapid experimentation alongside enterprise-grade governance."
+    type: recommendation
+    section: "Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "The paper proposes specific extensions to existing frameworks to bridge these gaps."
+    type: recommendation
+    section: "Summary"
+    position: 32
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES
+  # ============================================================
+
+  - id: seg-033
+    text: "Organizations with clean, modular architectures can leverage GenAI to accelerate development 30-50%, but those navigating legacy systems find themselves trapped in ADM cycles that are too slow to capture value before the next wave of AI innovation renders their architecture decisions obsolete."
+    type: claim
+    section: "Notable Quotes"
+    position: 33
+    source_format: quote
+
+  - id: seg-034
+    text: "TOGAF apparently lacks the agility, ethical governance, and lifecycle artifacts required for AI-driven transformation."
+    type: claim
+    section: "Notable Quotes"
+    position: 34
+    source_format: quote
+
+  - id: seg-035
+    text: "The architectural technical debt accumulating from rapid GenAI innovation creates what researchers call 'the acceleration paradox.'"
+    type: claim
+    section: "Notable Quotes"
+    position: 35
+    source_format: quote
+
+  # ============================================================
+  # THEORETICAL FRAMEWORK (inferred from source note and abstract)
+  # ============================================================
+
+  - id: seg-036
+    text: "The dynamic capabilities framework conceptualizes organizational capabilities in three dimensions: sensing, seizing, and transforming."
+    type: definition
+    section: "Theoretical Framework"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "Sensing refers to the ability to identify and assess opportunities and threats in the external environment."
+    type: definition
+    section: "Theoretical Framework"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Seizing refers to the ability to mobilize resources to capture value from identified opportunities."
+    type: definition
+    section: "Theoretical Framework"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "Transforming refers to the ability to reconfigure organizational assets and structures to sustain competitiveness."
+    type: definition
+    section: "Theoretical Framework"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "EAM, when theorized through this lens, enables organizations to sense emerging GenAI opportunities, seize them through strategic alignment and governance, and transform architectures to sustain adoption."
+    type: claim
+    section: "Theoretical Framework"
+    position: 40
+    source_format: prose
+
+  # ============================================================
+  # FINDINGS - Enablers and Barriers
+  # ============================================================
+
+  - id: seg-041
+    text: "The 16 expert interviews revealed critical enablers for GenAI adoption across industries."
+    type: evidence
+    section: "Findings"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "The expert interviews also revealed critical barriers to GenAI adoption across industries."
+    type: evidence
+    section: "Findings"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Low data governance maturity is a key barrier to GenAI adoption in large organizations."
+    type: claim
+    section: "Findings"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "Technology complexity presents a major challenge for organizations attempting to scale GenAI."
+    type: claim
+    section: "Findings"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "Governance gaps between existing EA frameworks and GenAI requirements hinder effective adoption."
+    type: claim
+    section: "Findings"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "Resource misalignments create obstacles for organizations seeking to implement GenAI at enterprise scale."
+    type: claim
+    section: "Findings"
+    position: 46
+    source_format: prose
+
+  # ============================================================
+  # FINDINGS - TOGAF Limitations
+  # ============================================================
+
+  - id: seg-047
+    text: "TOGAF's Architecture Development Method (ADM) cycles are too slow to capture value before the next wave of AI innovation renders architectural decisions obsolete."
+    type: claim
+    section: "TOGAF Limitations"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "Existing EA frameworks lack lifecycle artifacts specifically designed for AI-driven transformation."
+    type: claim
+    section: "TOGAF Limitations"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "EA frameworks lack ethical governance mechanisms needed for responsible GenAI deployment."
+    type: claim
+    section: "TOGAF Limitations"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "The speed of AI-driven transformation exceeds the pace at which traditional EA frameworks can adapt."
+    type: claim
+    section: "TOGAF Limitations"
+    position: 50
+    source_format: prose
+
+  # ============================================================
+  # PROPOSED EXTENSIONS
+  # ============================================================
+
+  - id: seg-051
+    text: "Extensions to EA frameworks are proposed to address automation, AI, and digital governance requirements."
+    type: recommendation
+    section: "Proposed Extensions"
+    position: 51
+    source_format: prose
+
+  - id: seg-052
+    text: "Conceptual frameworks are proposed to guide EA leaders in aligning GenAI maturity with organisational readiness."
+    type: recommendation
+    section: "Proposed Extensions"
+    position: 52
+    source_format: prose
+
+  # ============================================================
+  # THE ACCELERATION PARADOX
+  # ============================================================
+
+  - id: seg-053
+    text: "Architectural technical debt from rapid GenAI innovation creates a self-reinforcing gap between leaders and laggards."
+    type: claim
+    section: "Acceleration Paradox"
+    position: 53
+    source_format: prose
+
+  - id: seg-054
+    text: "Organizations with clean, modular architectures achieve 30-50% development acceleration through GenAI, further extending their lead over organizations burdened by legacy systems."
+    type: statistic
+    section: "Acceleration Paradox"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "The acceleration paradox is self-reinforcing: architectural leaders gain more from GenAI, widening the gap, while laggards accumulate more technical debt trying to adopt GenAI, further slowing them down."
+    type: evidence
+    section: "Acceleration Paradox"
+    position: 55
+    source_format: prose
+
+  # ============================================================
+  # METHODOLOGY
+  # ============================================================
+
+  - id: seg-056
+    text: "The Gioia methodology was used for qualitative analysis of the 16 semi-structured expert interviews, providing a systematic approach to deriving data structure from interview transcripts."
+    type: methodology
+    section: "Methodology"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "The systematic literature review component examined existing research on EAM, dynamic capabilities, and GenAI adoption."
+    type: context
+    section: "Methodology"
+    position: 57
+    source_format: prose

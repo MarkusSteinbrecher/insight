@@ -1,0 +1,3153 @@
+# Cross-Source Claim Alignment — Comprehensive
+# Topic: Enterprise Architecture for AI
+# Sources analyzed: 30
+# Total claims input: 1,073
+# Generated: 2026-02-14
+
+meta:
+  sources_analyzed: 30
+  total_claims_input: 1073
+  canonical_claims: 136
+  unique_claims: 82
+  contradictions: 18
+  themes: 23
+  theme_breakdown:
+    AI_governance_ethics: 13
+    AI_maturity_adoption: 4
+    AI_strategy_leadership: 9
+    EA_AI_convergence: 6
+    EA_framework_adaptation: 7
+    EA_role_evolution: 3
+    EA_transformation: 2
+    ROI_value_business: 7
+    agent_workforce_management: 3
+    agentic_AI_architecture: 14
+    automation_AI_ops: 4
+    data_architecture: 2
+    governance_org_change: 6
+    infrastructure_cloud: 8
+    innovation_disruption: 2
+    integration_interop: 7
+    knowledge_graph_ontology: 1
+    model_architecture: 23
+    organizational_change: 3
+    process_redesign: 2
+    real_time_continuous: 5
+    security_risk: 4
+    vendor_ecosystem: 1
+
+# ============================================================
+# CANONICAL CLAIMS — 2+ distinct sources agree
+# ============================================================
+
+canonical_claims:
+  # === MODEL ARCHITECTURE ===
+
+  - id: cc-001
+    theme: model_architecture
+    statement: "Generative AI is a transformative force requiring fundamentally new enterprise architecture designs, not just incremental additions to existing systems."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-026
+      - source_id: source-001
+        seg_id: seg-030
+      - source_id: source-004
+        seg_id: seg-004
+      - source_id: source-013
+        seg_id: seg-025
+      - source_id: source-016
+        seg_id: seg-002
+      - source_id: source-028
+        seg_id: seg-009
+      - source_id: source-014
+        seg_id: seg-009
+    source_count: 6
+
+  - id: cc-002
+    theme: model_architecture
+    statement: "LLM hallucinations and unreliable outputs remain a critical challenge that enterprises must architect around, using grounding techniques such as knowledge graphs, RAG, and structured validation."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-049
+      - source_id: source-002
+        seg_id: seg-007
+      - source_id: source-002
+        seg_id: seg-083
+      - source_id: source-004
+        seg_id: seg-031
+      - source_id: source-003
+        seg_id: seg-182
+    source_count: 4
+
+  - id: cc-003
+    theme: model_architecture
+    statement: "AI-powered security agents that continuously analyze threats, detect anomalies, and orchestrate automated responses represent a key architectural capability aligned with Zero Trust principles."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-071
+      - source_id: source-001
+        seg_id: seg-072
+      - source_id: source-001
+        seg_id: seg-114
+      - source_id: source-001
+        seg_id: seg-119
+      - source_id: source-001
+        seg_id: seg-245
+      - source_id: source-001
+        seg_id: seg-282
+      - source_id: source-006
+        seg_id: seg-042
+    source_count: 2
+
+  - id: cc-004
+    theme: model_architecture
+    statement: "Specialized small language models (SLMs) fine-tuned for specific domains often outperform general-purpose LLMs, and the market is shifting toward right-sizing models for tasks rather than pursuing ever-larger models."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-023
+      - source_id: source-003
+        seg_id: seg-152
+      - source_id: source-016
+        seg_id: seg-033
+      - source_id: source-019
+        seg_id: seg-086
+    source_count: 4
+
+  - id: cc-005
+    theme: model_architecture
+    statement: "RAG (Retrieval-Augmented Generation) has become a baseline architectural expectation for production LLM systems, essential for grounding AI outputs in enterprise-specific knowledge."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-031
+      - source_id: source-004
+        seg_id: seg-032
+      - source_id: source-001
+        seg_id: seg-225
+      - source_id: source-015
+        seg_id: seg-010
+      - source_id: source-003
+        seg_id: seg-197
+    source_count: 4
+
+  - id: cc-006
+    theme: model_architecture
+    statement: "GenAI democratizes AI capabilities by providing natural language interfaces that make data and analytics accessible to non-technical practitioners across the organization."
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-016
+      - source_id: source-003
+        seg_id: seg-041
+      - source_id: source-015
+        seg_id: seg-086
+      - source_id: source-003
+        seg_id: seg-012
+    source_count: 2
+
+  - id: cc-007
+    theme: model_architecture
+    statement: "A modern data foundation is a prerequisite for extracting value from GenAI, requiring enterprises to modernize their data platforms and address fragmentation before scaling AI."
+    supporting_sources:
+      - source_id: source-016
+        seg_id: seg-006
+      - source_id: source-016
+        seg_id: seg-035
+      - source_id: source-003
+        seg_id: seg-010
+      - source_id: source-004
+        seg_id: seg-094
+      - source_id: source-005
+        seg_id: seg-032
+    source_count: 4
+
+  - id: cc-008
+    theme: model_architecture
+    statement: "Enterprise architecture is evolving from static documentation toward dynamic, near real-time strategic decision support augmented by AI."
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-004
+      - source_id: source-006
+        seg_id: seg-016
+      - source_id: source-009
+        seg_id: seg-010
+      - source_id: source-015
+        seg_id: seg-002
+      - source_id: source-015
+        seg_id: seg-010
+    source_count: 3
+
+  - id: cc-009
+    theme: model_architecture
+    statement: "GenAI is reimagining entire business processes and value chains, not merely automating existing workflows -- it is a catalyst for process redesign."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-030
+      - source_id: source-003
+        seg_id: seg-171
+      - source_id: source-007
+        seg_id: seg-005
+      - source_id: source-020
+        seg_id: seg-047
+      - source_id: source-014
+        seg_id: seg-005
+    source_count: 5
+
+  - id: cc-010
+    theme: model_architecture
+    statement: "AI model lifecycle management (training, deployment, monitoring, retraining) must be treated as a distinct architectural concern, separate from traditional application management."
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-021
+      - source_id: source-010
+        seg_id: seg-064
+      - source_id: source-010
+        seg_id: seg-090
+      - source_id: source-003
+        seg_id: seg-120
+    source_count: 3
+
+  - id: cc-011
+    theme: model_architecture
+    statement: "Cloud computing platforms provide the scalable compute, storage, and networking infrastructure essential for AI workloads, with cloud-edge topologies enabling latency-sensitive inference at the edge and centralized coordination in the cloud."
+    supporting_sources:
+      - source_id: source-010
+        seg_id: seg-072
+      - source_id: source-001
+        seg_id: seg-218
+      - source_id: source-001
+        seg_id: seg-076
+    source_count: 2
+
+  - id: cc-012
+    theme: model_architecture
+    statement: "Multi-agent systems with specialized agents collaborating through defined protocols represent the emerging architectural pattern for enterprise AI, replacing monolithic AI deployments."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-077
+      - source_id: source-001
+        seg_id: seg-115
+      - source_id: source-006
+        seg_id: seg-031
+      - source_id: source-020
+        seg_id: seg-129
+      - source_id: source-005
+        seg_id: seg-030
+      - source_id: source-021
+        seg_id: seg-023
+    source_count: 5
+
+  - id: cc-013
+    theme: model_architecture
+    statement: "Building AI proofs-of-concept is easy, but operationalizing them at enterprise scale is where most initiatives fail -- the pilot-to-production gap is a central challenge."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-004
+      - source_id: source-023
+        seg_id: seg-044
+      - source_id: source-003
+        seg_id: seg-094
+      - source_id: source-012
+        seg_id: seg-016
+    source_count: 4
+
+  - id: cc-014
+    theme: model_architecture
+    statement: "Combining LLMs with structured enterprise knowledge (knowledge graphs, ontologies, EKG) significantly improves accuracy, trust, and organizational alignment of AI-generated outputs."
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-013
+      - source_id: source-002
+        seg_id: seg-083
+      - source_id: source-002
+        seg_id: seg-151
+      - source_id: source-015
+        seg_id: seg-010
+    source_count: 2
+
+  - id: cc-015
+    theme: model_architecture
+    statement: "GenAI adoption within enterprise architecture is not optional experimentation but a strategic necessity for organizational resilience and competitiveness."
+    supporting_sources:
+      - source_id: source-027
+        seg_id: seg-007
+      - source_id: source-027
+        seg_id: seg-016
+      - source_id: source-010
+        seg_id: seg-020
+      - source_id: source-009
+        seg_id: seg-010
+    source_count: 3
+
+  - id: cc-016
+    theme: model_architecture
+    statement: "As foundation models become commoditized, competitive advantage shifts to each organization's unique combination of proprietary data, domain expertise, and operational know-how."
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-137
+      - source_id: source-016
+        seg_id: seg-012
+      - source_id: source-016
+        seg_id: seg-033
+      - source_id: source-003
+        seg_id: seg-013
+    source_count: 2
+
+  - id: cc-017
+    theme: model_architecture
+    statement: "Security risks from AI systems -- including adversarial inputs, prompt injection, data leakage, and AI-generated deepfakes -- create new attack vectors that require dedicated architectural countermeasures."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-048
+      - source_id: source-001
+        seg_id: seg-097
+      - source_id: source-001
+        seg_id: seg-099
+      - source_id: source-006
+        seg_id: seg-042
+    source_count: 2
+
+  - id: cc-018
+    theme: model_architecture
+    statement: "AI copilots embedded in business applications are automating report generation, document processing, and decision support, significantly enhancing architect and practitioner productivity."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-017
+      - source_id: source-015
+        seg_id: seg-062
+      - source_id: source-002
+        seg_id: seg-006
+      - source_id: source-001
+        seg_id: seg-125
+    source_count: 4
+
+  - id: cc-019
+    theme: model_architecture
+    statement: "Architectural technical debt from rapid GenAI innovation creates a self-reinforcing gap between leaders and laggards -- an 'acceleration paradox' where early movers gain compounding advantages."
+    supporting_sources:
+      - source_id: source-023
+        seg_id: seg-020
+      - source_id: source-023
+        seg_id: seg-035
+      - source_id: source-023
+        seg_id: seg-053
+      - source_id: source-004
+        seg_id: seg-129
+    source_count: 2
+
+  - id: cc-020
+    theme: model_architecture
+    statement: "Industrializing GenAI requires new architectural components beyond traditional stacks, including vector databases, knowledge graphs, prompt management systems, and orchestration layers."
+    supporting_sources:
+      - source_id: source-016
+        seg_id: seg-009
+      - source_id: source-016
+        seg_id: seg-031
+      - source_id: source-005
+        seg_id: seg-032
+      - source_id: source-015
+        seg_id: seg-010
+    source_count: 3
+
+  - id: cc-021
+    theme: model_architecture
+    statement: "Human expertise must remain central to enterprise architecture even as AI automation scales -- the goal is augmentation of human judgment, not replacement."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-138
+      - source_id: source-020
+        seg_id: seg-112
+      - source_id: source-003
+        seg_id: seg-182
+      - source_id: source-007
+        seg_id: seg-125
+    source_count: 3
+
+  - id: cc-022
+    theme: model_architecture
+    statement: "The emergence of AI in enterprise architecture demands the creation of dedicated AI Architect roles and new skill sets combining technical AI knowledge with financial modeling and business analysis."
+    supporting_sources:
+      - source_id: source-030
+        seg_id: seg-034
+      - source_id: source-030
+        seg_id: seg-035
+      - source_id: source-014
+        seg_id: seg-118
+    source_count: 2
+
+  - id: cc-023
+    theme: model_architecture
+    statement: "Centers of Excellence (COEs) serve as organizational structures for overseeing AI model development, productionization, monitoring, and coordination of enterprise AI initiatives."
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-170
+      - source_id: source-003
+        seg_id: seg-197
+      - source_id: source-019
+        seg_id: seg-092
+    source_count: 2
+
+  # === INTEGRATION INTEROP ===
+
+  - id: cc-024
+    theme: integration_interop
+    statement: "Composable, modular architectures are essential for AI systems because AI components evolve at different rates, and rigid architectures become obsolete within months."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-053
+      - source_id: source-004
+        seg_id: seg-055
+      - source_id: source-004
+        seg_id: seg-067
+      - source_id: source-012
+        seg_id: seg-024
+      - source_id: source-012
+        seg_id: seg-026
+    source_count: 2
+
+  - id: cc-025
+    theme: integration_interop
+    statement: "Legacy system integration is a critical challenge for AI adoption, requiring brownfield-aware modernization approaches rather than wholesale rip-and-replace strategies."
+    supporting_sources:
+      - source_id: source-012
+        seg_id: seg-015
+      - source_id: source-012
+        seg_id: seg-028
+      - source_id: source-012
+        seg_id: seg-029
+      - source_id: source-013
+        seg_id: seg-016
+      - source_id: source-020
+        seg_id: seg-097
+      - source_id: source-020
+        seg_id: seg-198
+      - source_id: source-013
+        seg_id: seg-004
+    source_count: 3
+
+  - id: cc-026
+    theme: integration_interop
+    statement: "Open standards and interoperability protocols (MCP, A2A) are essential for avoiding vendor lock-in and enabling heterogeneous agent ecosystems within enterprise architecture."
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-049
+      - source_id: source-005
+        seg_id: seg-035
+      - source_id: source-022
+        seg_id: seg-012
+    source_count: 2
+
+  - id: cc-027
+    theme: integration_interop
+    statement: "Enterprise architectures are evolving from static AI integrations toward orchestrated, self-optimizing environments with intelligence embedded at the integration layer."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-045
+      - source_id: source-001
+        seg_id: seg-192
+      - source_id: source-008
+        seg_id: seg-033
+      - source_id: source-030
+        seg_id: seg-047
+    source_count: 3
+
+  - id: cc-028
+    theme: integration_interop
+    statement: "AI integration must be coordinated across all enterprise architecture domains (business, data, application, technology) rather than treated as a single-domain concern."
+    supporting_sources:
+      - source_id: source-010
+        seg_id: seg-076
+      - source_id: source-010
+        seg_id: seg-020
+      - source_id: source-011
+        seg_id: seg-076
+      - source_id: source-013
+        seg_id: seg-025
+    source_count: 3
+
+  - id: cc-029
+    theme: integration_interop
+    statement: "A layered, iterative approach to AI integration that bridges legacy and modern systems is more practical than building entirely new architectures from scratch."
+    supporting_sources:
+      - source_id: source-013
+        seg_id: seg-011
+      - source_id: source-013
+        seg_id: seg-026
+      - source_id: source-011
+        seg_id: seg-032
+      - source_id: source-027
+        seg_id: seg-022
+    source_count: 3
+
+  - id: cc-030
+    theme: integration_interop
+    statement: "Reducing technical debt is a prerequisite for achieving the agility needed to respond to AI-driven transformation and scale AI initiatives."
+    supporting_sources:
+      - source_id: source-030
+        seg_id: seg-028
+      - source_id: source-004
+        seg_id: seg-129
+      - source_id: source-023
+        seg_id: seg-053
+    source_count: 3
+
+  # === AUTOMATION AI OPS ===
+
+  - id: cc-031
+    theme: automation_AI_ops
+    statement: "Leading organizations achieve value not by layering AI agents onto existing human-designed workflows, but by fundamentally redesigning processes to leverage agent strengths."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-004
+      - source_id: source-020
+        seg_id: seg-005
+      - source_id: source-020
+        seg_id: seg-046
+      - source_id: source-020
+        seg_id: seg-047
+      - source_id: source-018
+        seg_id: seg-035
+    source_count: 2
+
+  - id: cc-032
+    theme: automation_AI_ops
+    statement: "AI agents represent a paradigm shift from automating individual tasks to orchestrating entire cross-system, cross-department workflows autonomously."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-103
+      - source_id: source-005
+        seg_id: seg-012
+      - source_id: source-004
+        seg_id: seg-045
+      - source_id: source-020
+        seg_id: seg-134
+      - source_id: source-014
+        seg_id: seg-005
+    source_count: 5
+
+  - id: cc-033
+    theme: automation_AI_ops
+    statement: "Self-learning, context-aware agents that can perceive environmental changes and reason across multi-modal data are replacing static, rule-based automation frameworks."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-243
+      - source_id: source-020
+        seg_id: seg-099
+      - source_id: source-010
+        seg_id: seg-040
+    source_count: 3
+
+  - id: cc-034
+    theme: automation_AI_ops
+    statement: "AI applied to architecture practice itself -- automating artefact generation, extraction, and analysis -- enhances the architect's effectiveness rather than replacing the role."
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-046
+      - source_id: source-002
+        seg_id: seg-154
+      - source_id: source-015
+        seg_id: seg-034
+      - source_id: source-011
+        seg_id: seg-022
+    source_count: 3
+
+  # === DATA ARCHITECTURE ===
+
+  - id: cc-035
+    theme: data_architecture
+    statement: "AI quality is fundamentally limited by data architecture quality -- organizations need robust data pipelines capable of handling structured, semi-structured, and unstructured data from diverse sources."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-094
+      - source_id: source-010
+        seg_id: seg-063
+      - source_id: source-001
+        seg_id: seg-173
+      - source_id: source-003
+        seg_id: seg-013
+    source_count: 4
+
+  - id: cc-036
+    theme: data_architecture
+    statement: "Competitive advantage lies in proprietary data intelligence -- systems that deeply understand and operate on organization-specific data -- rather than in generic AI models trained on public web data."
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-013
+      - source_id: source-009
+        seg_id: seg-050
+      - source_id: source-017
+        seg_id: seg-010
+    source_count: 3
+
+  # === GOVERNANCE ORG CHANGE ===
+
+  - id: cc-037
+    theme: governance_org_change
+    statement: "Enterprise architecture must evolve from static documentation and periodic reviews to a dynamic, near real-time governance and decision-support function."
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-007
+      - source_id: source-006
+        seg_id: seg-015
+      - source_id: source-006
+        seg_id: seg-028
+      - source_id: source-015
+        seg_id: seg-002
+    source_count: 2
+
+  - id: cc-038
+    theme: governance_org_change
+    statement: "EA must govern AI agent clusters collectively as systems-of-systems, not merely as individual components, requiring new governance patterns for non-deterministic behavior."
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-043
+      - source_id: source-006
+        seg_id: seg-034
+      - source_id: source-005
+        seg_id: seg-037
+    source_count: 2
+
+  - id: cc-039
+    theme: governance_org_change
+    statement: "AI adoption must be tied to business value and organizational impact, not pursued for technology's sake -- it requires clear business objectives and measurable outcomes."
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-090
+      - source_id: source-003
+        seg_id: seg-008
+      - source_id: source-012
+        seg_id: seg-065
+      - source_id: source-008
+        seg_id: seg-007
+    source_count: 3
+
+  - id: cc-040
+    theme: governance_org_change
+    statement: "The combination of AI and human intelligence creates elevated outcomes exceeding what either could achieve independently -- successful organizations focus on augmentation rather than replacement."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-125
+      - source_id: source-020
+        seg_id: seg-112
+      - source_id: source-015
+        seg_id: seg-034
+    source_count: 3
+
+  - id: cc-041
+    theme: governance_org_change
+    statement: "Cultural assessment and organizational readiness are prerequisites for successful GenAI adoption -- technology implementation without organizational alignment leads to failure."
+    supporting_sources:
+      - source_id: source-012
+        seg_id: seg-040
+      - source_id: source-006
+        seg_id: seg-061
+      - source_id: source-023
+        seg_id: seg-046
+    source_count: 3
+
+  - id: cc-042
+    theme: governance_org_change
+    statement: "2026 marks the transition from AI experimentation and pilots to scaling proven solutions into production -- the shift from 'shiny new thing' to 'expected capability'."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-133
+      - source_id: source-008
+        seg_id: seg-016
+      - source_id: source-008
+        seg_id: seg-053
+    source_count: 2
+
+  # === AI GOVERNANCE ETHICS ===
+
+  - id: cc-043
+    theme: AI_governance_ethics
+    statement: "AI governance and observability must be built into enterprise architecture from the start, not bolted on after deployment."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-051
+      - source_id: source-014
+        seg_id: seg-137
+      - source_id: source-001
+        seg_id: seg-107
+      - source_id: source-012
+        seg_id: seg-070
+      - source_id: source-016
+        seg_id: seg-029
+      - source_id: source-026
+        seg_id: seg-003
+    source_count: 6
+
+  - id: cc-044
+    theme: AI_governance_ethics
+    statement: "Enterprise architectures must be designed to accommodate rapidly evolving AI regulations (EU AI Act, NIST AI RMF, GDPR, HIPAA, ISO/IEC 42001) and be adaptable to new compliance requirements as they emerge."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-105
+      - source_id: source-004
+        seg_id: seg-086
+      - source_id: source-012
+        seg_id: seg-059
+      - source_id: source-026
+        seg_id: seg-017
+      - source_id: source-026
+        seg_id: seg-018
+      - source_id: source-025
+        seg_id: seg-005
+      - source_id: source-008
+        seg_id: seg-005
+    source_count: 6
+
+  - id: cc-045
+    theme: AI_governance_ethics
+    statement: "All AI agent decisions must be logged, traceable, and auditable to meet compliance and trust requirements."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-134
+      - source_id: source-001
+        seg_id: seg-107
+      - source_id: source-004
+        seg_id: seg-050
+      - source_id: source-008
+        seg_id: seg-011
+      - source_id: source-021
+        seg_id: seg-036
+      - source_id: source-026
+        seg_id: seg-053
+      - source_id: source-015
+        seg_id: seg-024
+    source_count: 6
+
+  - id: cc-046
+    theme: AI_governance_ethics
+    statement: "Traditional EA governance frameworks (especially TOGAF) lack the agility, ethical governance mechanisms, and lifecycle artifacts required for AI-driven transformation and must evolve."
+    supporting_sources:
+      - source_id: source-023
+        seg_id: seg-017
+      - source_id: source-023
+        seg_id: seg-024
+      - source_id: source-024
+        seg_id: seg-003
+      - source_id: source-024
+        seg_id: seg-011
+      - source_id: source-006
+        seg_id: seg-020
+      - source_id: source-020
+        seg_id: seg-033
+    source_count: 4
+
+  - id: cc-047
+    theme: AI_governance_ethics
+    statement: "EA must shift from periodic, static governance reviews to continuous, near-real-time AI governance that can keep pace with the velocity of AI innovation."
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-003
+      - source_id: source-006
+        seg_id: seg-030
+      - source_id: source-006
+        seg_id: seg-038
+      - source_id: source-014
+        seg_id: seg-135
+      - source_id: source-015
+        seg_id: seg-024
+      - source_id: source-024
+        seg_id: seg-005
+      - source_id: source-026
+        seg_id: seg-064
+    source_count: 5
+
+  - id: cc-048
+    theme: AI_governance_ethics
+    statement: "AI deployment requires coordinated governance across technical, ethical, and regulatory dimensions — not just technical oversight."
+    supporting_sources:
+      - source_id: source-012
+        seg_id: seg-049
+      - source_id: source-006
+        seg_id: seg-047
+      - source_id: source-003
+        seg_id: seg-009
+      - source_id: source-016
+        seg_id: seg-015
+      - source_id: source-023
+        seg_id: seg-049
+      - source_id: source-008
+        seg_id: seg-024
+    source_count: 6
+
+  - id: cc-049
+    theme: AI_governance_ethics
+    statement: "Explainability and transparency of AI decisions are essential requirements for enterprise AI architectures, not optional features."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-132
+      - source_id: source-001
+        seg_id: seg-177
+      - source_id: source-011
+        seg_id: seg-065
+      - source_id: source-004
+        seg_id: seg-040
+      - source_id: source-015
+        seg_id: seg-087
+    source_count: 4
+
+  - id: cc-050
+    theme: AI_governance_ethics
+    statement: "Human oversight, ethical judgment, and human-in-the-loop mechanisms remain essential even as AI systems gain autonomy."
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-033
+      - source_id: source-007
+        seg_id: seg-124
+      - source_id: source-014
+        seg_id: seg-130
+      - source_id: source-020
+        seg_id: seg-114
+      - source_id: source-021
+        seg_id: seg-038
+    source_count: 5
+
+  - id: cc-051
+    theme: AI_governance_ethics
+    statement: "Scaling AI requires balancing speed of deployment with robust governance, monitoring, and change management."
+    supporting_sources:
+      - source_id: source-012
+        seg_id: seg-056
+      - source_id: source-023
+        seg_id: seg-030
+      - source_id: source-004
+        seg_id: seg-016
+      - source_id: source-004
+        seg_id: seg-134
+    source_count: 3
+
+  - id: cc-052
+    theme: AI_governance_ethics
+    statement: "Federated learning enables privacy-preserving, regulation-compliant AI model training across distributed enterprise environments without centralizing sensitive data."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-086
+      - source_id: source-001
+        seg_id: seg-288
+      - source_id: source-001
+        seg_id: seg-186
+      - source_id: source-008
+        seg_id: seg-032
+    source_count: 2
+
+  - id: cc-053
+    theme: AI_governance_ethics
+    statement: "AI can automate and strengthen compliance monitoring, governance reporting, and architecture standards tracking, reducing the manual burden on EA teams."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-079
+      - source_id: source-007
+        seg_id: seg-083
+      - source_id: source-007
+        seg_id: seg-085
+      - source_id: source-007
+        seg_id: seg-128
+      - source_id: source-007
+        seg_id: seg-129
+      - source_id: source-015
+        seg_id: seg-054
+    source_count: 2
+
+  - id: cc-054
+    theme: AI_governance_ethics
+    statement: "Regulated industries (healthcare, finance, government) face heightened scrutiny for AI deployment and require domain-specific compliance mechanisms embedded in their architectures."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-106
+      - source_id: source-001
+        seg_id: seg-230
+      - source_id: source-003
+        seg_id: seg-193
+      - source_id: source-004
+        seg_id: seg-024
+      - source_id: source-001
+        seg_id: seg-256
+    source_count: 3
+
+  - id: cc-055
+    theme: AI_governance_ethics
+    statement: "There is a critical gap between high-level AI governance frameworks and concrete, implementable enterprise architectures — bridging this gap is a key challenge for EA."
+    supporting_sources:
+      - source_id: source-021
+        seg_id: seg-025
+      - source_id: source-021
+        seg_id: seg-031
+      - source_id: source-023
+        seg_id: seg-045
+      - source_id: source-020
+        seg_id: seg-040
+    source_count: 3
+
+  # === AI MATURITY ADOPTION ===
+
+  - id: cc-056
+    theme: AI_maturity_adoption
+    statement: "AI has transitioned from experimental technology to an essential enterprise capability, and 2026 marks the pivot from experimentation to production-scale operationalization."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-003
+      - source_id: source-007
+        seg_id: seg-134
+      - source_id: source-008
+        seg_id: seg-004
+      - source_id: source-008
+        seg_id: seg-052
+      - source_id: source-003
+        seg_id: seg-007
+      - source_id: source-003
+        seg_id: seg-045
+    source_count: 3
+
+  - id: cc-057
+    theme: AI_maturity_adoption
+    statement: "Organizations cannot scale AI without re-architecting their underlying data systems and infrastructure — legacy 'plumbing' is a fundamental bottleneck."
+    supporting_sources:
+      - source_id: source-008
+        seg_id: seg-009
+      - source_id: source-003
+        seg_id: seg-100
+      - source_id: source-011
+        seg_id: seg-067
+      - source_id: source-023
+        seg_id: seg-019
+    source_count: 4
+
+  - id: cc-058
+    theme: AI_maturity_adoption
+    statement: "AI adoption is as much an organizational and change management challenge as it is a technical one."
+    supporting_sources:
+      - source_id: source-012
+        seg_id: seg-044
+      - source_id: source-004
+        seg_id: seg-130
+      - source_id: source-010
+        seg_id: seg-009
+      - source_id: source-011
+        seg_id: seg-023
+    source_count: 4
+
+  - id: cc-059
+    theme: AI_maturity_adoption
+    statement: "AI initiatives must align strategically with business goals rather than being implemented in an ad-hoc manner."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-008
+      - source_id: source-001
+        seg_id: seg-028
+      - source_id: source-030
+        seg_id: seg-037
+    source_count: 3
+
+  # === SECURITY RISK ===
+
+  - id: cc-060
+    theme: security_risk
+    statement: "AI-enhanced security automation (autonomous threat detection, anomaly monitoring, predictive analytics) is becoming essential for enterprise cybersecurity, replacing reactive, preset-based approaches."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-101
+      - source_id: source-001
+        seg_id: seg-120
+      - source_id: source-001
+        seg_id: seg-272
+      - source_id: source-007
+        seg_id: seg-048
+      - source_id: source-010
+        seg_id: seg-039
+      - source_id: source-005
+        seg_id: seg-011
+    source_count: 4
+
+  - id: cc-061
+    theme: security_risk
+    statement: "Zero-trust security enforcement and dynamic, context-aware access control are required for AI agent architectures."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-247
+      - source_id: source-001
+        seg_id: seg-174
+      - source_id: source-007
+        seg_id: seg-084
+      - source_id: source-020
+        seg_id: seg-074
+    source_count: 3
+
+  - id: cc-062
+    theme: security_risk
+    statement: "Enterprise resilience and business continuity must be architected into AI systems to withstand cyber threats, operational failures, and external disruptions."
+    supporting_sources:
+      - source_id: source-009
+        seg_id: seg-042
+      - source_id: source-009
+        seg_id: seg-043
+      - source_id: source-009
+        seg_id: seg-044
+      - source_id: source-001
+        seg_id: seg-102
+      - source_id: source-005
+        seg_id: seg-011
+    source_count: 3
+
+  - id: cc-063
+    theme: security_risk
+    statement: "The risk of AI systems increases exponentially when agents begin influencing one another, requiring new approaches to risk management beyond traditional models."
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-045
+      - source_id: source-006
+        seg_id: seg-039
+      - source_id: source-004
+        seg_id: seg-128
+    source_count: 2
+
+  # === ORGANIZATIONAL CHANGE ===
+
+  - id: cc-064
+    theme: organizational_change
+    statement: "AI augments rather than replaces the human workforce — the future model is a blend of humans and AI agents, with humans contributing creativity, ethical judgment, and oversight."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-115
+      - source_id: source-003
+        seg_id: seg-172
+      - source_id: source-014
+        seg_id: seg-128
+      - source_id: source-014
+        seg_id: seg-130
+      - source_id: source-020
+        seg_id: seg-009
+      - source_id: source-003
+        seg_id: seg-181
+    source_count: 4
+
+  - id: cc-065
+    theme: organizational_change
+    statement: "AI agents represent a new form of 'silicon-based' workforce that enterprises must learn to integrate alongside human workers, fundamentally changing the nature of work."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-108
+      - source_id: source-020
+        seg_id: seg-109
+      - source_id: source-020
+        seg_id: seg-159
+      - source_id: source-005
+        seg_id: seg-010
+      - source_id: source-014
+        seg_id: seg-130
+    source_count: 3
+
+  - id: cc-066
+    theme: organizational_change
+    statement: "Closed-loop intelligence and continuous feedback mechanisms enable organizational learning, adaptation, and dynamic improvement in AI-enabled enterprises."
+    supporting_sources:
+      - source_id: source-013
+        seg_id: seg-005
+      - source_id: source-013
+        seg_id: seg-020
+      - source_id: source-014
+        seg_id: seg-131
+    source_count: 2
+
+  # === EA TRANSFORMATION ===
+
+  - id: cc-067
+    theme: EA_transformation
+    statement: "Traditional project teams are shifting to lean, cross-functional squads aligned to products and value streams, tightening the loop from concept to customer impact."
+    supporting_sources:
+      - source_id: source-014
+        seg_id: seg-120
+      - source_id: source-014
+        seg_id: seg-123
+      - source_id: source-030
+        seg_id: seg-019
+    source_count: 2
+
+  - id: cc-068
+    theme: EA_transformation
+    statement: "Traditional EA processes are largely open-loop, and the EA repository often devolves into outdated artifacts — AI-augmented EA can transform this into a real-time, continuously updated system of record."
+    supporting_sources:
+      - source_id: source-015
+        seg_id: seg-003
+      - source_id: source-015
+        seg_id: seg-012
+      - source_id: source-015
+        seg_id: seg-007
+      - source_id: source-006
+        seg_id: seg-003
+    source_count: 2
+
+  # === AGENTIC AI ARCHITECTURE ===
+
+  - id: cc-069
+    theme: agentic_AI_architecture
+    statement: "Agentic AI represents a fundamental architectural shift from centralized, application-centric IT systems to decentralized, multi-agent architectures where autonomous agents collaborate, reason, and orchestrate workflows across the enterprise."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-001
+      - source_id: source-001
+        seg_id: seg-013
+      - source_id: source-001
+        seg_id: seg-046
+      - source_id: source-005
+        seg_id: seg-001
+      - source_id: source-022
+        seg_id: seg-010
+      - source_id: source-028
+        seg_id: seg-010
+      - source_id: source-028
+        seg_id: seg-021
+      - source_id: source-020
+        seg_id: seg-200
+    source_count: 4
+
+  - id: cc-070
+    theme: agentic_AI_architecture
+    statement: "Agentic architectures require distributed, autonomous agents that communicate through structured protocols (such as A2A and ACP), share context via vectorized memory, and coordinate across domains to deliver scalable, context-aware enterprise intelligence."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-024
+      - source_id: source-001
+        seg_id: seg-043
+      - source_id: source-001
+        seg_id: seg-111
+      - source_id: source-001
+        seg_id: seg-188
+      - source_id: source-005
+        seg_id: seg-025
+      - source_id: source-022
+        seg_id: seg-004
+      - source_id: source-028
+        seg_id: seg-011
+    source_count: 3
+
+  - id: cc-071
+    theme: agentic_AI_architecture
+    statement: "Event-driven architecture (EDA), built on platforms like Apache Kafka, is a foundational prerequisite for agentic AI, decoupling agents from each other and from core enterprise systems to enable asynchronous, scalable coordination."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-221
+      - source_id: source-022
+        seg_id: seg-002
+      - source_id: source-022
+        seg_id: seg-003
+      - source_id: source-022
+        seg_id: seg-011
+      - source_id: source-022
+        seg_id: seg-020
+      - source_id: source-022
+        seg_id: seg-024
+    source_count: 2
+
+  - id: cc-072
+    theme: agentic_AI_architecture
+    statement: "Agentic AI enhances enterprise cybersecurity through proactive, autonomous threat detection and response agents that reduce detection latency and response time from hours to seconds, while also introducing new attack surfaces such as compromised agents and adversarial prompts."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-033
+      - source_id: source-001
+        seg_id: seg-070
+      - source_id: source-001
+        seg_id: seg-096
+      - source_id: source-001
+        seg_id: seg-098
+      - source_id: source-001
+        seg_id: seg-113
+      - source_id: source-001
+        seg_id: seg-118
+      - source_id: source-021
+        seg_id: seg-005
+      - source_id: source-021
+        seg_id: seg-012
+    source_count: 2
+
+  - id: cc-073
+    theme: agentic_AI_architecture
+    statement: "Operational resilience in agentic systems requires fault-tolerant multi-agent patterns including backup failover agents, self-healing behaviors, LLM-based failure forecasting, and automated incident response playbooks."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-025
+      - source_id: source-001
+        seg_id: seg-081
+      - source_id: source-001
+        seg_id: seg-082
+      - source_id: source-001
+        seg_id: seg-083
+      - source_id: source-004
+        seg_id: seg-118
+      - source_id: source-005
+        seg_id: seg-009
+    source_count: 3
+
+  - id: cc-074
+    theme: agentic_AI_architecture
+    statement: "Governance, trust, and accountability for autonomous agent actions -- encompassing auditability, transparency, explainability, and regulatory compliance -- are non-negotiable foundations for scalable enterprise adoption of agentic AI."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-008
+      - source_id: source-001
+        seg_id: seg-051
+      - source_id: source-001
+        seg_id: seg-055
+      - source_id: source-001
+        seg_id: seg-104
+      - source_id: source-001
+        seg_id: seg-108
+      - source_id: source-005
+        seg_id: seg-061
+      - source_id: source-021
+        seg_id: seg-017
+      - source_id: source-021
+        seg_id: seg-019
+    source_count: 3
+
+  - id: cc-075
+    theme: agentic_AI_architecture
+    statement: "Traditional enterprise systems (ERP, CRM) and legacy architectures were not designed for agentic interactions, creating bottlenecks and integration challenges that require fundamental rethinking rather than incremental API additions."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-242
+      - source_id: source-005
+        seg_id: seg-058
+      - source_id: source-020
+        seg_id: seg-023
+      - source_id: source-020
+        seg_id: seg-026
+      - source_id: source-022
+        seg_id: seg-006
+      - source_id: source-022
+        seg_id: seg-019
+    source_count: 4
+
+  - id: cc-076
+    theme: agentic_AI_architecture
+    statement: "Agentic AI is now a core feature of major EA tools, automating data validation, capability mapping, and artifact creation, and is rapidly moving from research labs to production deployment."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-043
+      - source_id: source-017
+        seg_id: seg-003
+      - source_id: source-008
+        seg_id: seg-014
+    source_count: 3
+
+  - id: cc-077
+    theme: agentic_AI_architecture
+    statement: "Modular, composable agent architectures -- where smaller specialized agents are assembled for complex tasks -- reduce complexity, improve testability, and enable platform flexibility and scalable orchestration."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-027
+      - source_id: source-001
+        seg_id: seg-039
+      - source_id: source-001
+        seg_id: seg-235
+      - source_id: source-002
+        seg_id: seg-063
+      - source_id: source-005
+        seg_id: seg-019
+      - source_id: source-020
+        seg_id: seg-143
+    source_count: 4
+
+  - id: cc-078
+    theme: agentic_AI_architecture
+    statement: "The semantic layer or enterprise knowledge graph is a critical differentiator between traditional and agentic architectures, providing the shared understanding that agents need to operate across domains."
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-059
+      - source_id: source-002
+        seg_id: seg-045
+      - source_id: source-001
+        seg_id: seg-172
+      - source_id: source-001
+        seg_id: seg-182
+    source_count: 3
+
+  - id: cc-079
+    theme: agentic_AI_architecture
+    statement: "Successful agentic transformation requires reimagining workflows and processes for an agentic environment rather than simply automating existing human-designed processes."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-034
+      - source_id: source-020
+        seg_id: seg-042
+      - source_id: source-020
+        seg_id: seg-043
+      - source_id: source-020
+        seg_id: seg-057
+      - source_id: source-020
+        seg_id: seg-201
+      - source_id: source-005
+        seg_id: seg-013
+    source_count: 2
+
+  - id: cc-080
+    theme: agentic_AI_architecture
+    statement: "Agentic AI transforms IT operations (AIOps) through predictive monitoring, autonomous diagnostics, LLM-assisted remediation, and self-healing behaviors, lowering mean time to resolution and ensuring 24/7 service resilience."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-121
+      - source_id: source-001
+        seg_id: seg-126
+      - source_id: source-007
+        seg_id: seg-059
+    source_count: 2
+
+  - id: cc-081
+    theme: agentic_AI_architecture
+    statement: "The transition to agentic enterprise is not merely technological evolution but an organizational transformation that reshapes how enterprises operate, compete, and create value, requiring a 3-5 year transformation horizon."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-200
+      - source_id: source-005
+        seg_id: seg-064
+      - source_id: source-001
+        seg_id: seg-029
+      - source_id: source-020
+        seg_id: seg-202
+    source_count: 3
+
+  - id: cc-082
+    theme: agentic_AI_architecture
+    statement: "Multi-modal data integration -- combining structured data, unstructured content, and real-time IoT streams -- is essential for enabling context-aware, intelligent agent behavior in enterprise architectures."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-145
+      - source_id: source-001
+        seg_id: seg-175
+      - source_id: source-001
+        seg_id: seg-166
+      - source_id: source-001
+        seg_id: seg-157
+      - source_id: source-013
+        seg_id: seg-003
+    source_count: 2
+
+  # === ROI VALUE BUSINESS ===
+
+  - id: cc-083
+    theme: ROI_value_business
+    statement: "The EA mandate is shifting from IT optimization to business value creation, with architects uniquely positioned to bridge the gap between technology investments and business outcomes."
+    supporting_sources:
+      - source_id: source-017
+        seg_id: seg-009
+      - source_id: source-017
+        seg_id: seg-021
+      - source_id: source-004
+        seg_id: seg-127
+      - source_id: source-014
+        seg_id: seg-141
+      - source_id: source-015
+        seg_id: seg-059
+    source_count: 4
+
+  - id: cc-084
+    theme: ROI_value_business
+    statement: "AI ROI requires realistic multi-year timelines (typically three years or more), not short-term expectations, and enterprises must shift from experimental pilots to use-case-based applications with measurable returns."
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-093
+      - source_id: source-003
+        seg_id: seg-081
+      - source_id: source-008
+        seg_id: seg-014
+      - source_id: source-005
+        seg_id: seg-064
+    source_count: 3
+
+  - id: cc-085
+    theme: ROI_value_business
+    statement: "Initial AI value comes from internal productivity gains, but the deeper and more significant value lies in applying AI to core value chains, proprietary data, and previously untapped data sources to drive revenue growth."
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-076
+      - source_id: source-003
+        seg_id: seg-085
+      - source_id: source-003
+        seg_id: seg-141
+      - source_id: source-014
+        seg_id: seg-095
+      - source_id: source-030
+        seg_id: seg-008
+    source_count: 4
+
+  - id: cc-086
+    theme: ROI_value_business
+    statement: "AI-augmented decision-making enhances executive and knowledge worker decisions through scenario simulation, risk prediction, and real-time data-informed insights, ensuring alignment between IT investments and business objectives."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-018
+      - source_id: source-001
+        seg_id: seg-128
+      - source_id: source-008
+        seg_id: seg-041
+      - source_id: source-015
+        seg_id: seg-077
+    source_count: 4
+
+  - id: cc-087
+    theme: ROI_value_business
+    statement: "Automation of repetitive work frees human workers to focus on higher-value creative and strategic tasks, elevating AI from an efficiency tool to an embedded collaborator across decision-making, operations, and product development."
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-008
+      - source_id: source-007
+        seg_id: seg-028
+      - source_id: source-014
+        seg_id: seg-111
+      - source_id: source-007
+        seg_id: seg-116
+    source_count: 4
+
+  - id: cc-088
+    theme: ROI_value_business
+    statement: "There is a disconnect between CEO expectations of AI driving top-line revenue growth and CIO expectations of AI driving productivity, creating a critical strategic challenge that enterprise architecture must help bridge."
+    supporting_sources:
+      - source_id: source-030
+        seg_id: seg-009
+      - source_id: source-030
+        seg_id: seg-008
+      - source_id: source-003
+        seg_id: seg-081
+    source_count: 2
+
+  - id: cc-089
+    theme: ROI_value_business
+    statement: "Model size is not always correlated with business value; multi-component AI systems using custom models optimized for specific tasks deliver greater accuracy, cost efficiency, performance, and security."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-020
+      - source_id: source-003
+        seg_id: seg-011
+    source_count: 2
+
+  # === REAL TIME CONTINUOUS ===
+
+  - id: cc-090
+    theme: real_time_continuous
+    statement: "AI enables real-time feedback loops that continuously update EA repositories, making enterprise architecture self-optimizing and shifting from static periodic reviews to dynamic, near-real-time governance."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-087
+      - source_id: source-007
+        seg_id: seg-092
+      - source_id: source-006
+        seg_id: seg-036
+      - source_id: source-006
+        seg_id: seg-052
+      - source_id: source-015
+        seg_id: seg-016
+      - source_id: source-015
+        seg_id: seg-026
+      - source_id: source-017
+        seg_id: seg-015
+    source_count: 4
+
+  - id: cc-091
+    theme: real_time_continuous
+    statement: "EA is evolving from static modeling to a living, continuously learning system -- a closed-loop intelligence paradigm where iterative planning, feedback loops, and adaptive refinement are integral to staying competitive."
+    supporting_sources:
+      - source_id: source-013
+        seg_id: seg-027
+      - source_id: source-009
+        seg_id: seg-039
+      - source_id: source-011
+        seg_id: seg-058
+      - source_id: source-015
+        seg_id: seg-008
+      - source_id: source-007
+        seg_id: seg-105
+    source_count: 5
+
+  - id: cc-092
+    theme: real_time_continuous
+    statement: "AI systems and agents require the same resilience patterns as traditional systems plus AI-specific considerations, including the ability for agents to continue learning and functioning independently when individual nodes become unavailable."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-118
+      - source_id: source-001
+        seg_id: seg-187
+      - source_id: source-001
+        seg_id: seg-251
+    source_count: 2
+
+  - id: cc-093
+    theme: real_time_continuous
+    statement: "Agents require novel orchestration capabilities for complex, dynamic workflows that exceed existing automation tools designed for linear, deterministic processes."
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-024
+      - source_id: source-001
+        seg_id: seg-057
+      - source_id: source-022
+        seg_id: seg-010
+    source_count: 3
+
+  - id: cc-094
+    theme: real_time_continuous
+    statement: "By 2028, AI agent ecosystems will enable networks of specialized agents to dynamically collaborate across multiple applications and business functions, allowing users to achieve goals without interacting with each application individually."
+    supporting_sources:
+      - source_id: source-030
+        seg_id: seg-048
+      - source_id: source-028
+        seg_id: seg-018
+    source_count: 2
+
+  # === INNOVATION DISRUPTION ===
+
+  - id: cc-095
+    theme: innovation_disruption
+    statement: "The future of enterprise technology is human-and-machine collaboration, not human-or-machine replacement -- organizations that master this collaboration will define the future of work."
+    supporting_sources:
+      - source_id: source-014
+        seg_id: seg-062
+      - source_id: source-014
+        seg_id: seg-133
+      - source_id: source-020
+        seg_id: seg-202
+      - source_id: source-020
+        seg_id: seg-203
+      - source_id: source-029
+        seg_id: seg-024
+    source_count: 3
+
+  - id: cc-096
+    theme: innovation_disruption
+    statement: "Enterprises need to cumulatively build AI capabilities and learnings as they progress toward a future-ready state, operating in fluid innovation networks that run a portfolio of bets and build on what works."
+    supporting_sources:
+      - source_id: source-019
+        seg_id: seg-020
+      - source_id: source-014
+        seg_id: seg-145
+    source_count: 2
+
+  # === EA ROLE EVOLUTION ===
+
+  - id: cc-097
+    theme: EA_role_evolution
+    statement: "EA is being reborn as a living, learning function that shifts from designing static structures to stewarding behavioral systems -- turning the EA repository from a documentation graveyard into an operating system for change."
+    supporting_sources:
+      - source_id: source-015
+        seg_id: seg-072
+      - source_id: source-015
+        seg_id: seg-084
+      - source_id: source-015
+        seg_id: seg-094
+      - source_id: source-006
+        seg_id: seg-067
+      - source_id: source-017
+        seg_id: seg-028
+    source_count: 3
+
+  - id: cc-098
+    theme: EA_role_evolution
+    statement: "AI-augmented architects are notified during or before decision points rather than weeks after the fact, with agents pre-checking submissions, generating draft decisions, and surfacing relevant context at the point of decision."
+    supporting_sources:
+      - source_id: source-015
+        seg_id: seg-023
+      - source_id: source-015
+        seg_id: seg-041
+      - source_id: source-015
+        seg_id: seg-053
+      - source_id: source-015
+        seg_id: seg-055
+      - source_id: source-017
+        seg_id: seg-004
+    source_count: 2
+
+  - id: cc-099
+    theme: EA_role_evolution
+    statement: "Architecture is becoming a shared language of the enterprise rather than a specialized discipline, with nonprogrammers entering IT functions and AI enabling broader participation in architecture work."
+    supporting_sources:
+      - source_id: source-015
+        seg_id: seg-091
+      - source_id: source-014
+        seg_id: seg-156
+      - source_id: source-015
+        seg_id: seg-107
+    source_count: 2
+
+  # === PROCESS REDESIGN ===
+
+  - id: cc-100
+    theme: process_redesign
+    statement: "AI should be applied to processes, not to people or organizations, and solid well-defined processes are a prerequisite -- without quantifiable, accurate process understanding, AI application is premature."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-085
+      - source_id: source-020
+        seg_id: seg-089
+      - source_id: source-020
+        seg_id: seg-092
+      - source_id: source-003
+        seg_id: seg-065
+    source_count: 2
+
+  - id: cc-101
+    theme: process_redesign
+    statement: "Traditional EA governance processes -- proposals reviewed days or weeks later, deliberated in committee based on stale information -- are fundamentally incompatible with the pace of AI-driven change."
+    supporting_sources:
+      - source_id: source-015
+        seg_id: seg-013
+      - source_id: source-015
+        seg_id: seg-014
+      - source_id: source-015
+        seg_id: seg-027
+      - source_id: source-006
+        seg_id: seg-052
+    source_count: 2
+
+  # === EA FRAMEWORK ADAPTATION ===
+
+  - id: cc-102
+    theme: EA_framework_adaptation
+    statement: "TOGAF remains the dominant EA framework but requires significant adaptation — extending rather than replacing it — to accommodate AI integration across all four architecture domains (business, data, application, technology)."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-007
+      - source_id: source-007
+        seg_id: seg-135
+      - source_id: source-010
+        seg_id: seg-011
+      - source_id: source-010
+        seg_id: seg-024
+      - source_id: source-010
+        seg_id: seg-054
+      - source_id: source-010
+        seg_id: seg-056
+      - source_id: source-010
+        seg_id: seg-084
+      - source_id: source-010
+        seg_id: seg-088
+      - source_id: source-011
+        seg_id: seg-035
+      - source_id: source-012
+        seg_id: seg-005
+      - source_id: source-025
+        seg_id: seg-024
+      - source_id: source-025
+        seg_id: seg-025
+      - source_id: source-025
+        seg_id: seg-043
+      - source_id: source-027
+        seg_id: seg-001
+    source_count: 6
+
+  - id: cc-103
+    theme: EA_framework_adaptation
+    statement: "There is a significant gap in existing EA literature and frameworks — most research addresses only one or two EA domains rather than providing comprehensive, cross-domain guidance for AI integration."
+    supporting_sources:
+      - source_id: source-010
+        seg_id: seg-021
+      - source_id: source-010
+        seg_id: seg-043
+      - source_id: source-010
+        seg_id: seg-044
+      - source_id: source-010
+        seg_id: seg-045
+      - source_id: source-023
+        seg_id: seg-048
+      - source_id: source-012
+        seg_id: seg-067
+    source_count: 3
+
+  - id: cc-104
+    theme: EA_framework_adaptation
+    statement: "TOGAF's Architecture Development Method (ADM) is too slow for the pace of AI-driven transformation — its phased, deliberative cycle model is fundamentally misaligned with GenAI's velocity, and successful organizations are radically adapting the ADM by collapsing phases and treating it as principles rather than process."
+    supporting_sources:
+      - source_id: source-023
+        seg_id: seg-047
+      - source_id: source-023
+        seg_id: seg-050
+      - source_id: source-024
+        seg_id: seg-001
+      - source_id: source-024
+        seg_id: seg-004
+      - source_id: source-024
+        seg_id: seg-008
+      - source_id: source-024
+        seg_id: seg-017
+      - source_id: source-025
+        seg_id: seg-033
+      - source_id: source-025
+        seg_id: seg-045
+    source_count: 3
+
+  - id: cc-105
+    theme: EA_framework_adaptation
+    statement: "AI should be treated as a native, cross-cutting capability embedded across the entire enterprise architecture — not as a bolt-on technology applied in isolated silos."
+    supporting_sources:
+      - source_id: source-010
+        seg_id: seg-055
+      - source_id: source-010
+        seg_id: seg-081
+      - source_id: source-010
+        seg_id: seg-082
+      - source_id: source-007
+        seg_id: seg-135
+      - source_id: source-027
+        seg_id: seg-001
+      - source_id: source-012
+        seg_id: seg-014
+    source_count: 4
+
+  - id: cc-106
+    theme: EA_framework_adaptation
+    statement: "Organizations with clean, modular architectures gain disproportionate advantage from GenAI (30-50% acceleration), while those burdened by legacy systems face an 'acceleration paradox' — stuck in slow ADM cycles as the technology evolves faster than they can adapt."
+    supporting_sources:
+      - source_id: source-023
+        seg_id: seg-025
+      - source_id: source-023
+        seg_id: seg-027
+      - source_id: source-023
+        seg_id: seg-033
+      - source_id: source-027
+        seg_id: seg-017
+    source_count: 2
+
+  - id: cc-107
+    theme: EA_framework_adaptation
+    statement: "Multi-framework integration approaches (combining TOGAF with complementary methodologies) offer more comprehensive enterprise AI architecture than any single framework alone."
+    supporting_sources:
+      - source_id: source-011
+        seg_id: seg-005
+      - source_id: source-011
+        seg_id: seg-020
+      - source_id: source-011
+        seg_id: seg-027
+      - source_id: source-011
+        seg_id: seg-077
+      - source_id: source-016
+        seg_id: seg-023
+    source_count: 2
+
+  - id: cc-108
+    theme: EA_framework_adaptation
+    statement: "EA roadmaps must balance long-term strategic objectives with the agility to adapt to fast-changing market conditions and emerging technologies."
+    supporting_sources:
+      - source_id: source-009
+        seg_id: seg-037
+      - source_id: source-009
+        seg_id: seg-038
+      - source_id: source-012
+        seg_id: seg-069
+      - source_id: source-025
+        seg_id: seg-028
+    source_count: 3
+
+  # === INFRASTRUCTURE CLOUD ===
+
+  - id: cc-109
+    theme: infrastructure_cloud
+    statement: "Cloud-native architectures are the essential foundation for enterprise AI — providing the scalability, flexibility, and integration capabilities that AI workloads require at production scale."
+    supporting_sources:
+      - source_id: source-009
+        seg_id: seg-018
+      - source_id: source-010
+        seg_id: seg-037
+      - source_id: source-014
+        seg_id: seg-114
+      - source_id: source-014
+        seg_id: seg-116
+      - source_id: source-001
+        seg_id: seg-036
+    source_count: 4
+
+  - id: cc-110
+    theme: infrastructure_cloud
+    statement: "Traditional enterprise IT architectures — built on information silos, manual workflows, ETL-based data pipelines, and legacy platforms — cannot support AI deployment at scale and must be fundamentally rearchitected."
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-003
+      - source_id: source-005
+        seg_id: seg-057
+      - source_id: source-003
+        seg_id: seg-099
+      - source_id: source-014
+        seg_id: seg-044
+      - source_id: source-020
+        seg_id: seg-027
+    source_count: 4
+
+  - id: cc-111
+    theme: infrastructure_cloud
+    statement: "Hybrid and multi-environment infrastructure (cloud, edge, on-premises) is becoming the architectural backbone for enterprise AI, enabling intelligence at scale through distributed agent workloads and cross-environment resilience."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-084
+      - source_id: source-001
+        seg_id: seg-217
+      - source_id: source-001
+        seg_id: seg-249
+      - source_id: source-008
+        seg_id: seg-026
+      - source_id: source-008
+        seg_id: seg-027
+    source_count: 2
+
+  - id: cc-112
+    theme: infrastructure_cloud
+    statement: "Composable, modular, and event-driven infrastructure (microservices, event buses, APIs) enables adaptive AI agent collaboration and scales across business units, geographies, and data domains."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-007
+      - source_id: source-001
+        seg_id: seg-079
+      - source_id: source-001
+        seg_id: seg-190
+      - source_id: source-012
+        seg_id: seg-025
+      - source_id: source-020
+        seg_id: seg-142
+    source_count: 3
+
+  - id: cc-113
+    theme: infrastructure_cloud
+    statement: "AI infrastructure costs at production scale are a significant and often underestimated challenge — cost observability and sustainable economics must be designed in from the start."
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-073
+      - source_id: source-004
+        seg_id: seg-082
+      - source_id: source-003
+        seg_id: seg-025
+    source_count: 2
+
+  - id: cc-114
+    theme: infrastructure_cloud
+    statement: "Real-time integration between EA systems, operational platforms, and AI capabilities is essential for the organization to steer intelligently and keep architectural models current."
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-053
+      - source_id: source-006
+        seg_id: seg-055
+      - source_id: source-015
+        seg_id: seg-044
+      - source_id: source-001
+        seg_id: seg-284
+    source_count: 3
+
+  - id: cc-115
+    theme: infrastructure_cloud
+    statement: "Successful AI deployments should start with specific, well-defined domains rather than attempting enterprise-wide automation all at once."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-128
+      - source_id: source-028
+        seg_id: seg-017
+      - source_id: source-028
+        seg_id: seg-023
+    source_count: 2
+
+  - id: cc-116
+    theme: infrastructure_cloud
+    statement: "Cross-domain alignment — ensuring business strategy, data assets, applications, and technology infrastructure work together — is critical for AI-enabled digital transformation."
+    supporting_sources:
+      - source_id: source-010
+        seg_id: seg-077
+      - source_id: source-010
+        seg_id: seg-086
+      - source_id: source-007
+        seg_id: seg-011
+      - source_id: source-012
+        seg_id: seg-064
+    source_count: 3
+
+  # === AI STRATEGY LEADERSHIP ===
+
+  - id: cc-117
+    theme: AI_strategy_leadership
+    statement: "AI augments rather than replaces human decision-making — collaborative models combining AI predictive analytics, scenario modeling, and human strategic judgment yield better outcomes than full automation."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-118
+      - source_id: source-007
+        seg_id: seg-119
+      - source_id: source-014
+        seg_id: seg-136
+      - source_id: source-020
+        seg_id: seg-169
+    source_count: 3
+
+  - id: cc-118
+    theme: AI_strategy_leadership
+    statement: "The CIO role is expanding from traditional technology steward to strategic AI evangelist and business transformation leader — requiring deeper integration with business strategy and collaboration with CFO and CSO."
+    supporting_sources:
+      - source_id: source-014
+        seg_id: seg-025
+      - source_id: source-014
+        seg_id: seg-026
+      - source_id: source-014
+        seg_id: seg-098
+      - source_id: source-014
+        seg_id: seg-102
+      - source_id: source-014
+        seg_id: seg-103
+      - source_id: source-014
+        seg_id: seg-139
+      - source_id: source-030
+        seg_id: seg-058
+    source_count: 2
+
+  - id: cc-119
+    theme: AI_strategy_leadership
+    statement: "EA must become the convergence point between architecture, data science, and business leadership — requiring hybrid roles that can interpret AI signals, assess strategic impact, and guide structured change."
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-063
+      - source_id: source-006
+        seg_id: seg-064
+      - source_id: source-006
+        seg_id: seg-065
+      - source_id: source-030
+        seg_id: seg-058
+      - source_id: source-017
+        seg_id: seg-016
+    source_count: 3
+
+  - id: cc-120
+    theme: AI_strategy_leadership
+    statement: "Integrating AI into EA provides competitive advantages through reduced operational complexity, enhanced decision-making capabilities, and continuous optimization."
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-025
+      - source_id: source-007
+        seg_id: seg-136
+      - source_id: source-014
+        seg_id: seg-093
+      - source_id: source-009
+        seg_id: seg-014
+    source_count: 3
+
+  - id: cc-121
+    theme: AI_strategy_leadership
+    statement: "Data-driven and AI-enabled decision-making — from scenario planning to real-time intelligence — is becoming the cornerstone of effective enterprise strategy and architecture alignment."
+    supporting_sources:
+      - source_id: source-009
+        seg_id: seg-012
+      - source_id: source-009
+        seg_id: seg-014
+      - source_id: source-009
+        seg_id: seg-049
+      - source_id: source-011
+        seg_id: seg-010
+      - source_id: source-006
+        seg_id: seg-005
+      - source_id: source-014
+        seg_id: seg-136
+    source_count: 4
+
+  - id: cc-122
+    theme: AI_strategy_leadership
+    statement: "Current business architecture and EA artifacts are static, becoming outdated quickly and unable to keep pace with evolving business needs and AI-driven change."
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-025
+      - source_id: source-013
+        seg_id: seg-002
+      - source_id: source-005
+        seg_id: seg-002
+    source_count: 3
+
+  - id: cc-123
+    theme: AI_strategy_leadership
+    statement: "Transformation succeeds only when strategic intent is translated into executable Enterprise Architecture, guided by sustainability principles, and accelerated by AI."
+    supporting_sources:
+      - source_id: source-018
+        seg_id: seg-044
+      - source_id: source-018
+        seg_id: seg-045
+      - source_id: source-009
+        seg_id: seg-053
+      - source_id: source-002
+        seg_id: seg-034
+    source_count: 3
+
+  - id: cc-124
+    theme: AI_strategy_leadership
+    statement: "Architecture review boards must evolve from bureaucratic bottlenecks to AI-augmented decision accelerators."
+    supporting_sources:
+      - source_id: source-015
+        seg_id: seg-006
+      - source_id: source-015
+        seg_id: seg-052
+      - source_id: source-017
+        seg_id: seg-005
+    source_count: 2
+
+  - id: cc-125
+    theme: AI_strategy_leadership
+    statement: "AI-powered digital twins and simulation capabilities will allow architects to rehearse strategic bets, test architecture options, and expose trade-offs before committing resources."
+    supporting_sources:
+      - source_id: source-017
+        seg_id: seg-005
+      - source_id: source-017
+        seg_id: seg-029
+      - source_id: source-007
+        seg_id: seg-071
+    source_count: 2
+
+  # === EA AI CONVERGENCE ===
+
+  - id: cc-126
+    theme: EA_AI_convergence
+    statement: "Enterprise architecture is evolving toward AI-centric models where intelligent systems are deeply embedded into core business functions, making the convergence of EA and AI an immediate organizational necessity."
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-035
+      - source_id: source-009
+        seg_id: seg-006
+      - source_id: source-014
+        seg_id: seg-013
+      - source_id: source-030
+        seg_id: seg-036
+    source_count: 4
+
+  - id: cc-127
+    theme: EA_AI_convergence
+    statement: "AI integration into EA requires holistic, cross-domain guidance spanning all architectural domains — not piecemeal approaches that address only individual technology or data layers."
+    supporting_sources:
+      - source_id: source-010
+        seg_id: seg-010
+      - source_id: source-010
+        seg_id: seg-022
+      - source_id: source-010
+        seg_id: seg-023
+      - source_id: source-010
+        seg_id: seg-082
+      - source_id: source-003
+        seg_id: seg-129
+    source_count: 2
+
+  - id: cc-128
+    theme: EA_AI_convergence
+    statement: "The enterprise architect role is being redefined — from traditional blueprint creator to curator, facilitator, and critical thinker who works within a faster, AI-augmented decision loop."
+    supporting_sources:
+      - source_id: source-015
+        seg_id: seg-035
+      - source_id: source-015
+        seg_id: seg-068
+      - source_id: source-017
+        seg_id: seg-016
+      - source_id: source-030
+        seg_id: seg-036
+    source_count: 3
+
+  - id: cc-129
+    theme: EA_AI_convergence
+    statement: "Sustainability and environmental responsibility are becoming integral considerations in enterprise architecture for AI, not optional add-ons."
+    supporting_sources:
+      - source_id: source-016
+        seg_id: seg-017
+      - source_id: source-018
+        seg_id: seg-030
+      - source_id: source-009
+        seg_id: seg-026
+    source_count: 3
+
+  - id: cc-130
+    theme: EA_AI_convergence
+    statement: "Convergence architectures that unify intelligence and operations — linking insights to execution and making intelligence actionable — represent the target state for enterprise AI."
+    supporting_sources:
+      - source_id: source-013
+        seg_id: seg-009
+      - source_id: source-013
+        seg_id: seg-019
+      - source_id: source-011
+        seg_id: seg-031
+    source_count: 2
+
+  - id: cc-131
+    theme: EA_AI_convergence
+    statement: "EA transformation is incremental and value-generating at each step — it should not be treated as a big-bang redesign, and EA encompasses people, processes, and technology, not just IT systems."
+    supporting_sources:
+      - source_id: source-029
+        seg_id: seg-017
+      - source_id: source-029
+        seg_id: seg-022
+      - source_id: source-010
+        seg_id: seg-085
+    source_count: 2
+
+  # === AGENT WORKFORCE MANAGEMENT ===
+
+  - id: cc-132
+    theme: agent_workforce_management
+    statement: "As AI agents mature within job functions, organizations will need fundamentally new frameworks for managing agents — drawing on but diverging from traditional human resource management concepts to account for agents' unique characteristics."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-173
+      - source_id: source-020
+        seg_id: seg-174
+      - source_id: source-020
+        seg_id: seg-176
+      - source_id: source-020
+        seg_id: seg-187
+      - source_id: source-022
+        seg_id: seg-016
+    source_count: 2
+
+  - id: cc-133
+    theme: agent_workforce_management
+    statement: "AI agent adoption is fundamentally a process and organizational problem rather than a technology problem — it requires rethinking how organizations operate, not just deploying new tools."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-206
+      - source_id: source-020
+        seg_id: seg-207
+      - source_id: source-020
+        seg_id: seg-208
+      - source_id: source-020
+        seg_id: seg-209
+      - source_id: source-029
+        seg_id: seg-007
+    source_count: 2
+
+  - id: cc-134
+    theme: agent_workforce_management
+    statement: "AI agents handle routine and repetitive work while humans shift toward higher-level strategic, creative, and interpersonal tasks — jobs are being restructured, not eliminated."
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-120
+      - source_id: source-020
+        seg_id: seg-211
+      - source_id: source-020
+        seg_id: seg-212
+      - source_id: source-020
+        seg_id: seg-213
+      - source_id: source-014
+        seg_id: seg-154
+      - source_id: source-007
+        seg_id: seg-118
+    source_count: 3
+
+  # === VENDOR ECOSYSTEM ===
+
+  - id: cc-135
+    theme: vendor_ecosystem
+    statement: "The competitive edge from AI comes not from adopting tools but from building teams that can design, manage, and evolve human-machine collaboration — the transformation is deeper than tooling and headcount changes."
+    supporting_sources:
+      - source_id: source-014
+        seg_id: seg-007
+      - source_id: source-014
+        seg_id: seg-061
+      - source_id: source-015
+        seg_id: seg-071
+    source_count: 2
+
+  # === KNOWLEDGE GRAPH ONTOLOGY ===
+
+  - id: cc-136
+    theme: knowledge_graph_ontology
+    statement: "Enterprise knowledge graphs and organizational ontologies are critical infrastructure for AI agents, providing unified semantic understanding across domains and grounding AI outputs in validated organizational concepts."
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-149
+      - source_id: source-005
+        seg_id: seg-029
+      - source_id: source-020
+        seg_id: seg-071
+    source_count: 3
+
+# ============================================================
+# UNIQUE CLAIMS — Single source, notably insightful
+# ============================================================
+
+unique_claims:
+  # === MODEL ARCHITECTURE ===
+
+  - id: uc-001
+    theme: model_architecture
+    statement: "Organizations are exploring agent marketplaces where pre-trained AI agents with specialized capabilities can be composed modularly."
+    source_id: source-001
+    seg_id: seg-234
+    why_notable: "Introduces a novel commercial model -- an app-store-like marketplace for composable AI agents -- that could fundamentally reshape how enterprises procure and assemble AI capabilities."
+
+  - id: uc-002
+    theme: model_architecture
+    statement: "Federated learning allows agents to collaboratively train models across decentralized data environments without centralizing sensitive information."
+    source_id: source-001
+    seg_id: seg-184
+    why_notable: "Addresses the critical tension between AI's need for large training datasets and enterprise data sovereignty/privacy requirements through a specific architectural pattern."
+
+  - id: uc-003
+    theme: model_architecture
+    statement: "The energy consumption of pre-training and fine-tuning foundation models at scale must be factored into architectural decisions."
+    source_id: source-016
+    seg_id: seg-030
+    why_notable: "Uniquely raises environmental sustainability as an explicit enterprise architecture consideration for AI, a dimension most sources ignore entirely."
+
+  - id: uc-004
+    theme: model_architecture
+    statement: "EAM is theorized as a dynamic capability (sensing, seizing, transforming) that enables scalable and sustainable GenAI adoption."
+    source_id: source-023
+    seg_id: seg-014
+    why_notable: "Provides a rigorous theoretical grounding (dynamic capabilities framework from strategic management literature) for why enterprise architecture matters for AI, elevating it above practitioner intuition."
+
+  - id: uc-005
+    theme: model_architecture
+    statement: "If 2025 was about the brain (the LLM), 2026 must be about the nervous system -- the infrastructure connecting AI to enterprise systems."
+    source_id: source-022
+    seg_id: seg-007
+    why_notable: "A compelling metaphor that reframes the 2026 agenda as infrastructure and integration, not model capability -- a useful strategic framing for enterprise architects."
+
+  - id: uc-006
+    theme: model_architecture
+    statement: "In sensitive sectors with high-risk profiles and low risk appetites, tolerance for AI-generated errors is understandably lower compared with tolerance for human professionals."
+    source_id: source-003
+    seg_id: seg-183
+    why_notable: "Highlights an asymmetric trust problem -- the same error rate acceptable from a human is unacceptable from AI -- which has significant implications for deployment architecture in regulated industries."
+
+  - id: uc-007
+    theme: model_architecture
+    statement: "The TIME model provides enterprise architects with a structured approach to prioritize AI investments across the technology portfolio."
+    source_id: source-007
+    seg_id: seg-100
+    why_notable: "Offers a specific, named prioritization framework (TIME: Tolerate, Invest, Migrate, Eliminate) applied to AI portfolio decisions, providing actionable methodology where most sources stay abstract."
+
+  # === AUTOMATION AI OPS ===
+
+  - id: uc-008
+    theme: automation_AI_ops
+    statement: "Vendors are engaging in 'agent washing' -- rebranding existing automation capabilities as 'agents' -- compounding confusion in the market."
+    source_id: source-020
+    seg_id: seg-037
+    why_notable: "Identifies a market distortion pattern (similar to 'AI washing' and 'cloud washing') that enterprise architects must actively guard against when evaluating vendor claims."
+
+  - id: uc-009
+    theme: automation_AI_ops
+    statement: "Stop solutioning for automation and start architecting for agency."
+    source_id: source-018
+    seg_id: seg-035
+    why_notable: "Captures a fundamental mindset shift -- from designing systems that automate predetermined steps to designing systems that can exercise judgment -- which redefines the architect's role."
+
+  # === INTEGRATION INTEROP ===
+
+  - id: uc-010
+    theme: integration_interop
+    statement: "Traditional synchronous, tightly coupled integration patterns (REST APIs to monolithic ERP/CRM) create bottlenecks when agents need to operate autonomously."
+    source_id: source-022
+    seg_id: seg-012
+    why_notable: "Specifically identifies that current enterprise integration patterns are architecturally incompatible with agentic AI, pointing to event-driven and asynchronous patterns as necessary replacements."
+
+  - id: uc-011
+    theme: integration_interop
+    statement: "End-to-end traceability from source to transformation to features to models to reports/APIs is required; go-live should be prevented if lineage or data quality is incomplete."
+    source_id: source-026
+    seg_id: seg-059
+    why_notable: "Proposes a hard architectural gate -- blocking deployment when data lineage is incomplete -- which is a significantly stronger governance position than most sources advocate."
+
+  # === DATA ARCHITECTURE ===
+
+  - id: uc-012
+    theme: data_architecture
+    statement: "Data engineers face significant burnout and fatigue given the number of data sources and tools required to configure usable data pipelines."
+    source_id: source-003
+    seg_id: seg-133
+    why_notable: "Introduces the human cost dimension of data architecture complexity -- most sources discuss data challenges technically but ignore the workforce sustainability angle."
+
+  # === MODEL ARCHITECTURE ===
+
+  - id: uc-013
+    theme: model_architecture
+    statement: "Every act of inference by agents generates tokens, and those tokens constitute data that can reinforce learning systems -- 'digital exhaust' from agents becomes a valuable asset."
+    source_id: source-020
+    seg_id: seg-195
+    why_notable: "Identifies an emerging data flywheel where agent operational output becomes training input, creating a self-reinforcing improvement loop that has architectural implications for data capture and retention."
+
+  - id: uc-014
+    theme: model_architecture
+    statement: "A distinctive feature is the use of shared context envelopes and structured output contracts between agent families for maintaining traceability, provenance, and human-in-the-loop guarantees."
+    source_id: source-021
+    seg_id: seg-023
+    why_notable: "Proposes a specific architectural mechanism (context envelopes and output contracts) for inter-agent communication governance -- concrete enough to be implementable."
+
+  # === GOVERNANCE ORG CHANGE ===
+
+  - id: uc-015
+    theme: governance_org_change
+    statement: "Sustainability is no longer a 'nice-to-have' -- it's a business need that must be embedded in enterprise architecture decisions."
+    source_id: source-009
+    seg_id: seg-024
+    why_notable: "Positions sustainability not as corporate social responsibility but as a core EA design constraint, reflecting growing regulatory and stakeholder pressure."
+
+  # === MODEL ARCHITECTURE ===
+
+  - id: uc-016
+    theme: model_architecture
+    statement: "Even if AI performance froze at current levels, the leverage from existing AI is already miraculous -- the focus should be on adoption, not waiting for better models."
+    source_id: source-014
+    seg_id: seg-085
+    why_notable: "Counters the common 'wait for better AI' excuse for delayed adoption, arguing current capabilities already justify massive architectural investment."
+
+  # === GOVERNANCE ORG CHANGE ===
+
+  - id: uc-017
+    theme: governance_org_change
+    statement: "Companies report a flywheel effect -- continual insights harnessed from data using AI allow them to constantly improve products and services."
+    source_id: source-003
+    seg_id: seg-086
+    why_notable: "Describes a self-reinforcing competitive dynamic where AI-driven insights compound over time, suggesting early movers gain exponentially increasing advantages."
+
+  # === MODEL ARCHITECTURE ===
+
+  - id: uc-018
+    theme: model_architecture
+    statement: "Some areas of HR focus such as workplace culture, employee loyalty, and worker motivation won't be applicable to agents but will remain key pillars for managing human staff."
+    source_id: source-020
+    seg_id: seg-175
+    why_notable: "Addresses the organizational boundary between human and agent workforce management, a novel concern that most EA frameworks have not yet incorporated."
+
+  # === MEASUREMENT METRICS ===
+
+  - id: uc-019
+    theme: measurement_metrics
+    statement: "Financial performance improves at each stage of AI maturity, with enterprises in advanced stages (3-4) performing well above industry average while those in early stages (1-2) perform below average."
+    source_id: source-019
+    seg_id: seg-011
+    why_notable: "Provides one of the few empirical correlations between AI maturity stage and financial outcomes, offering a quantitative argument for progressing through maturity stages."
+
+  - id: uc-020
+    theme: measurement_metrics
+    statement: "As agents scale across operations, they will generate too much performance data for human managers to evaluate, likely driving demand for meta-agents that manage and evaluate other agents."
+    source_id: source-020
+    seg_id: seg-183
+    why_notable: "Identifies an emerging recursive management problem -- agents managing agents -- that creates novel architectural requirements for observability and governance at scale."
+
+  # === AI GOVERNANCE ETHICS ===
+
+  - id: uc-021
+    theme: AI_governance_ethics
+    statement: "Centres of Excellence (COEs) are emerging as a key organizational mechanism for balancing AI governance with enablement, bringing together cross-functional teams from HR, legal, and tech to drive systematic AI oversight."
+    source_id: source-003
+    seg_id: seg-166
+    why_notable: "Offers a concrete organizational structure (COEs) for operationalizing AI governance — most sources discuss governance abstractly, but this names a specific, implementable organizational pattern."
+
+  - id: uc-022
+    theme: AI_governance_ethics
+    statement: "AI governance is tool-agnostic — the underlying governance logic (ownership, data boundaries, lifecycle controls, evidence capture, regulatory adaptability) can be implemented across different EA platforms; what differs is metamodel structures and UI, not governance logic."
+    source_id: source-026
+    seg_id: seg-030
+    why_notable: "Explicitly separates governance principles from tooling — a useful reframing that prevents vendor lock-in thinking and focuses attention on the governance pattern itself."
+
+  - id: uc-023
+    theme: AI_governance_ethics
+    statement: "The 'governance paradox' — the very frameworks designed to ensure sound architectural decisions become impediments to capturing value from AI, as architectural decisions become obsolete before governance cycles complete."
+    source_id: source-024
+    seg_id: seg-011
+    why_notable: "Names a fundamental structural tension that most sources acknowledge indirectly but none articulate this precisely. The paradox framing elevates it from a practical complaint to a strategic dilemma."
+
+  - id: uc-024
+    theme: AI_governance_ethics
+    statement: "AI sovereignty is an EA-led operating model grounded in open frameworks (NIST AI RMF + ISO/IEC 42001), executed via a trusted EA repository, and adaptable to national regulatory contexts."
+    source_id: source-026
+    seg_id: seg-085
+    why_notable: "Uniquely positions AI governance as a matter of national sovereignty — framing it through geopolitical and regulatory independence rather than just compliance."
+
+  - id: uc-025
+    theme: AI_governance_ethics
+    statement: "A twelve-domain taxonomy for organizing AI governance responsibilities, with bounded agent families mediating between security tools and organizational policy, provides a concrete architectural pattern for operationalizing AI governance."
+    source_id: source-021
+    seg_id: seg-020
+    why_notable: "One of the few sources offering a detailed, implementable architectural pattern for AI governance rather than just high-level principles."
+
+  - id: uc-026
+    theme: AI_governance_ethics
+    statement: "In regulated sectors like pharmaceuticals, AI may take five to ten years to determine effectiveness once a product's safety is confirmed."
+    source_id: source-003
+    seg_id: seg-096
+    why_notable: "Offers a concrete timeline that counters the urgency narrative dominant across other sources — a grounding reality check on adoption timelines in highly regulated domains."
+
+  - id: uc-027
+    theme: AI_governance_ethics
+    statement: "Modern governance leaders emphasize metadata-driven control."
+    source_id: source-026
+    seg_id: seg-068
+    why_notable: "Introduces a specific technical governance mechanism (metadata-driven) that no other source mentions, pointing toward a practical implementation approach."
+
+  - id: uc-028
+    theme: AI_governance_ethics
+    statement: "Exceptions, not compliance, become the focus of AI-augmented governance."
+    source_id: source-015
+    seg_id: seg-054
+    why_notable: "A provocative inversion — suggesting that when AI handles routine compliance automatically, the human role shifts to managing exceptions. This reframes what governance teams actually do."
+
+  - id: uc-029
+    theme: AI_governance_ethics
+    statement: "Low data governance maturity is a key barrier to GenAI adoption in large organizations."
+    source_id: source-023
+    seg_id: seg-043
+    why_notable: "While many sources discuss governance frameworks, this uniquely identifies data governance maturity (not AI governance itself) as the blocking factor — an important upstream dependency."
+
+  # === AI MATURITY ADOPTION ===
+
+  - id: uc-030
+    theme: AI_maturity_adoption
+    statement: "Full adoption of the new enterprise technology operating model is likely a decade away."
+    source_id: source-028
+    seg_id: seg-006
+    why_notable: "A rare long-horizon timeline estimate that contrasts sharply with the urgency and 2025-2026 pivot framing of most other sources."
+
+  - id: uc-031
+    theme: AI_maturity_adoption
+    statement: "The componentization principle directly maps to the modular, composable architectures that AI implementations require."
+    source_id: source-029
+    seg_id: seg-023
+    why_notable: "Draws a direct bridge between a longstanding EA principle (componentization) and AI architecture needs — positioning AI readiness as an extension of good EA fundamentals rather than something entirely new."
+
+  - id: uc-032
+    theme: AI_maturity_adoption
+    statement: "Business capability models can be used to quantify AI opportunities, outcomes and risks, and support AI use case prioritization and planning."
+    source_id: source-030
+    seg_id: seg-037
+    why_notable: "Provides a concrete, actionable method for how EA can support AI strategy — using existing business capability models rather than requiring new tools."
+
+  # === SECURITY RISK ===
+
+  - id: uc-033
+    theme: security_risk
+    statement: "Holding AI agents to standards developed for measuring human performance risks misaligning their activities to functions better left to human workers."
+    source_id: source-020
+    seg_id: seg-189
+    why_notable: "A subtle but important insight — applying human performance metrics to AI agents creates perverse incentives and misallocates agent capabilities."
+
+  - id: uc-034
+    theme: security_risk
+    statement: "While promising, MCP faces limitations in handling complex enterprise security requirements and integrating legacy systems."
+    source_id: source-020
+    seg_id: seg-138
+    why_notable: "A rare critical assessment of MCP (Model Context Protocol) — most sources treat emerging standards uncritically."
+
+  # === ORGANIZATIONAL CHANGE ===
+
+  - id: uc-035
+    theme: organizational_change
+    statement: "If AI isn't discussed openly in engineering teams, people might do a day's work in an hour and not tell anyone — the value of knowledge sharing about AI productivity gains far outweighs individual time saved."
+    source_id: source-014
+    seg_id: seg-082
+    why_notable: "Identifies a hidden organizational dynamic where AI productivity gains can be hoarded rather than shared, creating an invisible cultural problem."
+
+  - id: uc-036
+    theme: organizational_change
+    statement: "The tech organization will likely evolve from service provider to ecosystem orchestrator, coordinating across startups, hyperscalers, regulators, and academia to accelerate innovation."
+    source_id: source-014
+    seg_id: seg-143
+    why_notable: "Reframes the entire role of the technology organization — not just adopting AI, but becoming the orchestrator of a multi-stakeholder innovation ecosystem."
+
+  # === EA TRANSFORMATION ===
+
+  - id: uc-037
+    theme: EA_transformation
+    statement: "The days of coding by hand are coming to an end."
+    source_id: source-014
+    seg_id: seg-084
+    why_notable: "A bold, absolutist prediction that goes further than most sources' cautious 'augmentation' framing, representing the most aggressive position on AI's impact on software engineering."
+
+  - id: uc-038
+    theme: EA_transformation
+    statement: "Engineering roles are being pushed upstream — 'A lot of engineering activity involves design, merging workstreams, and leading teams... because AI is writing code.'"
+    source_id: source-014
+    seg_id: seg-155
+    why_notable: "Concretely describes how AI changes the engineering skill profile — from code production to design, integration, and team leadership. This has direct implications for EA team composition."
+
+  # === AI GOVERNANCE ETHICS ===
+
+  - id: uc-039
+    theme: AI_governance_ethics
+    statement: "SLMs (Small Language Models) struggle when it comes to general knowledge and understanding but usually have less bias."
+    source_id: source-019
+    seg_id: seg-091
+    why_notable: "An underexplored trade-off between model scale and bias — suggesting that the enterprise push toward smaller, specialized models may carry governance advantages beyond just cost and latency."
+
+  # === AGENTIC AI ARCHITECTURE ===
+
+  - id: uc-040
+    theme: agentic_AI_architecture
+    statement: "Agentic frameworks incorporate blockchain-backed traceability to ensure both autonomy and accountability in agent interactions."
+    source_id: source-001
+    seg_id: seg-027
+    why_notable: "Blockchain as a trust mechanism for agent accountability is a specific and uncommon architectural proposal that goes beyond typical governance approaches."
+
+  - id: uc-041
+    theme: agentic_AI_architecture
+    statement: "The proposed agentic data fabric enforces zero-trust policies, metadata lineage, and access control, ensuring all AI interactions remain auditable, secure, and compliant."
+    source_id: source-001
+    seg_id: seg-216
+    why_notable: "Combines data fabric architecture with zero-trust security specifically for agentic AI, an emerging integration pattern not widely discussed elsewhere."
+
+  - id: uc-042
+    theme: agentic_AI_architecture
+    statement: "Many so-called agentic initiatives are actually automation use cases in disguise."
+    source_id: source-020
+    seg_id: seg-035
+    why_notable: "A refreshingly honest industry reality check that challenges the agentic AI hype cycle and has important implications for investment decisions."
+
+  - id: uc-043
+    theme: agentic_AI_architecture
+    statement: "Poorly designed agentic applications can actually add work to a process, with some enterprises finding agentic 'workslop' makes processes even less efficient."
+    source_id: source-020
+    seg_id: seg-038
+    why_notable: "The concept of 'workslop' -- agents creating negative productivity -- is a novel and important counter-narrative to the efficiency promises of agentic AI."
+
+  - id: uc-044
+    theme: agentic_AI_architecture
+    statement: "Exploring agentic AI systems in the context of business architecture remains underexplored in current literature and practice."
+    source_id: source-002
+    seg_id: seg-032
+    why_notable: "Identifies a significant gap between the agentic AI hype and its actual application to business architecture, a core EA discipline."
+
+  - id: uc-045
+    theme: agentic_AI_architecture
+    statement: "The traditional 5-layer IT architecture must be expanded to an 11-layer framework to support the agentic enterprise."
+    source_id: source-005
+    seg_id: seg-058
+    why_notable: "A specific, concrete architectural prescription that quantifies the complexity increase from traditional to agentic architecture -- more than doubling the number of layers."
+
+  - id: uc-046
+    theme: agentic_AI_architecture
+    statement: "Hybrid cloud-edge agentic AI deployment optimizes decision latency and maintains operational resilience during cloud outages or network delays."
+    source_id: source-001
+    seg_id: seg-287
+    why_notable: "Addresses the often-overlooked challenge of where agents physically run and how edge deployment affects resilience."
+
+  - id: uc-047
+    theme: agentic_AI_architecture
+    statement: "Existing governance and security frameworks (including NIST AI RMF) articulate principles but do not provide implementable architectures for multi-agent, AI-enabled enterprise environments, creating a critical gap."
+    source_id: source-021
+    seg_id: seg-019
+    why_notable: "A pointed critique of current standards bodies -- frameworks like NIST AI RMF offer risk taxonomies but lack the concrete multi-agent architecture blueprints enterprises actually need."
+
+  - id: uc-048
+    theme: agentic_AI_architecture
+    statement: "Enterprises often misapply agents where simpler tools would suffice, and poorly designed agentic applications can add work rather than removing it, resulting in poor ROI."
+    source_id: source-020
+    seg_id: seg-036
+    why_notable: "The over-application of agents where simpler automation suffices is a practical warning with direct implications for architecture selection decisions."
+
+  # === ROI VALUE BUSINESS ===
+
+  - id: uc-049
+    theme: ROI_value_business
+    statement: "Organizations are beginning to assign individual names to agents to track productivity contributions, recognizing that digital workers may eventually be subject to taxation similar to human employees."
+    source_id: source-020
+    seg_id: seg-185
+    why_notable: "A provocative claim about the trajectory of agent management -- naming and potentially taxing digital workers signals a profound shift in how enterprises conceptualize AI labor."
+
+  - id: uc-050
+    theme: ROI_value_business
+    statement: "Continuously running agents with poorly configured interactions can trigger cascading actions like unpredictable resource consumption and ballooning costs, making cost management critical."
+    source_id: source-020
+    seg_id: seg-145
+    why_notable: "Highlights an underappreciated operational risk of agentic systems -- cost runaway from agent cascading -- that could undermine ROI."
+
+  - id: uc-051
+    theme: ROI_value_business
+    statement: "Modern EA incorporates eco-friendly design principles to reduce environmental impact while improving operational efficiency."
+    source_id: source-009
+    seg_id: seg-025
+    why_notable: "Sustainability as an explicit EA design principle is a distinctive concern not raised by other sources in this dataset."
+
+  - id: uc-052
+    theme: ROI_value_business
+    statement: "Consolidating organizational data silos and safely serving data for AI use typically requires significant investment in or refinement of APIs that link data and technologies."
+    source_id: source-019
+    seg_id: seg-074
+    why_notable: "Highlights that API investment -- not AI model investment -- is often the critical bottleneck for AI maturity, a practical insight often overlooked."
+
+  # === INNOVATION DISRUPTION ===
+
+  - id: uc-053
+    theme: innovation_disruption
+    statement: "When hundreds of AI agents interact, they can exhibit emergent behaviour, diverging from expected norms."
+    source_id: source-006
+    seg_id: seg-032
+    why_notable: "Raises the complex systems concern of emergent behavior in multi-agent environments -- an underexplored risk with significant governance implications."
+
+  - id: uc-054
+    theme: innovation_disruption
+    statement: "The most value from AI will come from combining people and platforms with four types of AI: analytical, generative, agentic, and robotic."
+    source_id: source-019
+    seg_id: seg-107
+    why_notable: "Provides a useful taxonomy of four AI types that need to work together, moving beyond the current singular focus on generative/agentic AI."
+
+  - id: uc-055
+    theme: innovation_disruption
+    statement: "You have to understand the jagged frontier -- the uneven boundary of what AI can and cannot do well."
+    source_id: source-020
+    seg_id: seg-210
+    why_notable: "The 'jagged frontier' concept captures the non-obvious, irregular nature of AI capability boundaries, essential for architects deciding where to deploy agents."
+
+  - id: uc-056
+    theme: innovation_disruption
+    statement: "Enterprise architects can innovate at speed while keeping company-specific data and institutional intelligence firmly under organizational control through AI sovereignty."
+    source_id: source-026
+    seg_id: seg-086
+    why_notable: "AI sovereignty -- maintaining control of proprietary data and intelligence while leveraging AI -- is a strategic concern particularly relevant for regulated industries."
+
+  # === EA ROLE EVOLUTION ===
+
+  - id: uc-057
+    theme: EA_role_evolution
+    statement: "The irony is rich: Architecture, once thought too rigid to keep up with digital change, may now lead it."
+    source_id: source-015
+    seg_id: seg-093
+    why_notable: "A compelling reversal narrative -- EA's perceived weakness (rigidity, structure) becomes its strength in governing the chaos of AI-driven transformation."
+
+  - id: uc-058
+    theme: EA_role_evolution
+    statement: "Think of AI as a cognitive prosthetic for the architect -- surfacing precedents, warnings, and rationale at the point of decision."
+    source_id: source-015
+    seg_id: seg-041
+    why_notable: "The 'cognitive prosthetic' metaphor offers a powerful and specific framing of human-AI collaboration in architecture work, distinct from 'copilot' or 'assistant' framings."
+
+  # === PROCESS REDESIGN ===
+
+  - id: uc-059
+    theme: process_redesign
+    statement: "Agents' real value emerges when they start operating as a collective -- like digital skills that compose into organizational capabilities."
+    source_id: source-020
+    seg_id: seg-068
+    why_notable: "Reframes individual agents as composable 'digital skills' whose collective behavior creates emergent organizational capability, paralleling how human skills combine into teams."
+
+  - id: uc-060
+    theme: process_redesign
+    statement: "Existing business processes were designed around human staff and must be fundamentally redesigned for agentic environments, with end-to-end process redesign including cross-enterprise composite processes as the key to unlocking agent value."
+    source_id: source-020
+    seg_id: seg-052
+    why_notable: "Challenges the common assumption that agents can slot into existing workflows -- the claim that processes must be redesigned end-to-end, including across organizational boundaries, raises the bar significantly for agentic transformation."
+
+  # === EA FRAMEWORK ADAPTATION ===
+
+  - id: uc-061
+    theme: EA_framework_adaptation
+    statement: "The Open Agile Architecture Standard may prove more naturally aligned with AI's rapid iteration cycles than the traditional TOGAF ADM."
+    source_id: source-025
+    seg_id: seg-037
+    why_notable: "Suggests a specific alternative to TOGAF within The Open Group's own portfolio that may be better suited for AI, potentially shifting the framework debate"
+
+  - id: uc-062
+    theme: EA_framework_adaptation
+    statement: "The Open Group Eagle AI Assistant uses AI to help practitioners apply architecture standards — an instance of 'eating your own cooking.'"
+    source_id: source-025
+    seg_id: seg-018
+    why_notable: "The standards body itself using AI to deliver its own standards represents a concrete proof point and meta-validation of the EA-for-AI thesis"
+
+  - id: uc-063
+    theme: EA_framework_adaptation
+    statement: "A distinguishing feature of the framework is the emphasis on closed-loop intelligence — systems that not only generate insights but feed outcomes back into the intelligence layer, creating a continuously learning organization."
+    source_id: source-013
+    seg_id: seg-018
+    why_notable: "Introduces a cybernetics-inspired feedback concept rarely seen in EA frameworks, moving beyond static architecture to self-improving systems"
+
+  - id: uc-064
+    theme: EA_framework_adaptation
+    statement: "The concept of an 'agent tier' as a new enterprise architecture layer directly extends traditional EA layering models like TOGAF's architecture domains."
+    source_id: source-022
+    seg_id: seg-023
+    why_notable: "Proposes a concrete structural addition to established EA models — a new tier dedicated to AI agents sitting between business processes and underlying systems"
+
+  # === INFRASTRUCTURE CLOUD ===
+
+  - id: uc-065
+    theme: infrastructure_cloud
+    statement: "Data infrastructure in most organizations is 'woefully unprepared' for AI — described as having 'Victorian-era plumbing in a modern building' with silos, latency, and security all acting as inhibitors."
+    source_id: source-003
+    seg_id: seg-099
+    why_notable: "Vivid metaphor capturing the severity of the infrastructure gap; particularly striking because it comes from a practitioner-focused report rather than an academic paper"
+
+  - id: uc-066
+    theme: infrastructure_cloud
+    statement: "Size or digital savvy is no predictor of success in infrastructure transformation — large companies face more complex centralization decisions, and digital-native firms may have more complex tooling environments."
+    source_id: source-003
+    seg_id: seg-125
+    why_notable: "Counterintuitive finding that challenges the assumption that digitally mature or large organizations have an inherent advantage in AI infrastructure readiness"
+
+  - id: uc-067
+    theme: infrastructure_cloud
+    statement: "AI infrastructure costs in 2025 shocked organizations unprepared for the economics of production AI."
+    source_id: source-004
+    seg_id: seg-073
+    why_notable: "Provides a concrete temporal anchor for when the AI cost surprise hit enterprises, useful for establishing the urgency of architectural cost planning"
+
+  - id: uc-068
+    theme: infrastructure_cloud
+    statement: "The 'brain vs. nervous system' framing effectively communicates that AI infrastructure is as important as AI models themselves."
+    source_id: source-022
+    seg_id: seg-025
+    why_notable: "A memorable conceptual framing that shifts attention from model capabilities to the equally critical infrastructure layer — useful for executive communication"
+
+  - id: uc-069
+    theme: infrastructure_cloud
+    statement: "Self-healing capability in enterprise infrastructure — where AI agents detect and remediate issues autonomously — reduces downtime and enhances continuity."
+    source_id: source-001
+    seg_id: seg-254
+    why_notable: "Moves beyond AI as a business tool to AI as infrastructure self-management, representing a qualitative shift in how infrastructure is operated"
+
+  - id: uc-070
+    theme: infrastructure_cloud
+    statement: "Closed-source models are typically deployed for internal applications, while open-source models are increasingly used by those expanding into external use cases."
+    source_id: source-003
+    seg_id: seg-144
+    why_notable: "Reveals an emerging deployment pattern that has architectural implications — different model licensing drives different infrastructure choices by use case type"
+
+  # === AI STRATEGY LEADERSHIP ===
+
+  - id: uc-071
+    theme: AI_strategy_leadership
+    statement: "CIOs were once chief integration officers; today the role combines traditional CIO plus chief data officer, chief AI officer, and chief digital officer."
+    source_id: source-014
+    seg_id: seg-103
+    why_notable: "Concrete role consolidation pattern from a practitioner, illustrating how AI is collapsing previously separate C-suite functions into a single mandate"
+
+  - id: uc-072
+    theme: AI_strategy_leadership
+    statement: "AI sovereignty — retaining control over data, models, and decision rights — is moving from an IT concern to a board-level priority."
+    source_id: source-026
+    seg_id: seg-002
+    why_notable: "Frames data and model control as a governance and sovereignty issue at board level, connecting AI architecture to geopolitical and regulatory concerns"
+
+  - id: uc-073
+    theme: AI_strategy_leadership
+    statement: "You need three things to do AI work: leadership, lab, and crowd."
+    source_id: source-020
+    seg_id: seg-215
+    why_notable: "Memorable three-part formula distilling the organizational prerequisites for AI into a simple actionable framework"
+
+  - id: uc-074
+    theme: AI_strategy_leadership
+    statement: "The 'factory and artisan' framework provides a practical classification system that enterprise architects can use to plan their AI architecture strategy."
+    source_id: source-028
+    seg_id: seg-022
+    why_notable: "Offers a novel taxonomy for differentiating AI workload types, which has direct implications for architecture patterns and infrastructure decisions"
+
+  - id: uc-075
+    theme: AI_strategy_leadership
+    statement: "Embedding adaptability and an always-beta mindset into structure, culture, and strategy creates organizations that learn as fast as the technology they harness."
+    source_id: source-014
+    seg_id: seg-149
+    why_notable: "Connects architectural adaptability to organizational learning speed, framing EA as a dynamic capability rather than a static design exercise"
+
+  # === EA AI CONVERGENCE ===
+
+  - id: uc-076
+    theme: EA_AI_convergence
+    statement: "Only 22% of organisations have architectures that fully support AI workloads without modifications, and only 23% can connect AI applications to relevant business data without changes."
+    source_id: source-003
+    seg_id: seg-129
+    why_notable: "Rare quantitative evidence of the EA readiness gap for AI — less than a quarter of organizations are architecturally prepared, making the case for urgent action concrete"
+
+  - id: uc-077
+    theme: EA_AI_convergence
+    statement: "AI compares live operational data with architectural blueprints to identify drift and misalignment."
+    source_id: source-007
+    seg_id: seg-081
+    why_notable: "Describes a concrete AI use case within EA itself — using AI to enforce architectural compliance in real time rather than through periodic manual reviews"
+
+  # === AGENT WORKFORCE MANAGEMENT ===
+
+  - id: uc-078
+    theme: agent_workforce_management
+    statement: "Taking the analogy of agents as digital workers too literally may limit the potential of agents — they have characteristics that go beyond human worker paradigms."
+    source_id: source-020
+    seg_id: seg-188
+    why_notable: "A nuanced warning against over-anthropomorphizing AI agents, suggesting the HR-for-agents metaphor has real limits and could constrain architectural imagination"
+
+  - id: uc-079
+    theme: agent_workforce_management
+    statement: "In an agent-driven environment, systems generate vast amounts of data describing actions taken and outcomes — the key differentiation lies in channeling this byproduct to reinforce agent learning and capabilities."
+    source_id: source-020
+    seg_id: seg-191
+    why_notable: "Identifies agent telemetry and action logs as a strategic data asset and competitive differentiator, not just an operational byproduct"
+
+  # === VENDOR ECOSYSTEM ===
+
+  - id: uc-080
+    theme: vendor_ecosystem
+    statement: "The critical gap between abstract EA theory and practical application — dubbed 'the Grenade' — remains a central challenge in modern Ecosystems Architecture."
+    source_id: source-018
+    seg_id: seg-040
+    why_notable: "Colorful naming of a persistent EA problem that gains new urgency in the AI era — frameworks that sound good on paper but fail in implementation"
+
+  # === OTHER ===
+
+  - id: uc-081
+    theme: other
+    statement: "A 'sovereignty viewpoint' should show which apps and processes touch sensitive data and whether they run in approved data-boundary patterns (sovereign landing zones, in-region processing) with customer-managed keys."
+    source_id: source-026
+    seg_id: seg-047
+    why_notable: "Proposes a specific new architectural viewpoint — the sovereignty viewpoint — that could become standard as data residency requirements proliferate globally"
+
+  - id: uc-082
+    theme: other
+    statement: "Componentization — decomposing a business into reusable people-process-technology bundles — is the foundation of modern EA, where each component becomes a 'living asset' with a team that continually improves it."
+    source_id: source-029
+    seg_id: seg-003
+    why_notable: "Reframes EA components as living assets owned by persistent teams, providing the organizational model that makes AI-era agility possible"
+
+# ============================================================
+# CONTRADICTIONS — Sources genuinely disagree
+# ============================================================
+
+contradictions:
+
+  - id: ct-001
+    theme: model_architecture
+    description: "Whether enterprises should pursue general-purpose large LLMs or specialized smaller models"
+    position_a:
+      statement: "General-purpose foundation models are the core architectural shift -- organizations should fine-tune a small collection of pre-trained foundation models rather than building many purpose-built models."
+      sources:
+        - source_id: source-016
+          seg_id: seg-002
+        - source_id: source-019
+          seg_id: seg-086
+    position_b:
+      statement: "Specialized small language models (SLMs) fine-tuned for specific domains often outperform general-purpose LLMs, and the market will move toward small private LLMs."
+      sources:
+        - source_id: source-004
+          seg_id: seg-023
+        - source_id: source-003
+          seg_id: seg-152
+        - source_id: source-004
+          seg_id: seg-103
+
+  - id: ct-002
+    theme: automation_AI_ops
+    description: "Whether AI agents should automate existing processes or require fundamentally redesigned workflows"
+    position_a:
+      statement: "AI agents can enhance and automate existing business processes, including legacy ERP workflows, through intelligent overlays and API integration."
+      sources:
+        - source_id: source-010
+          seg_id: seg-040
+        - source_id: source-007
+          seg_id: seg-063
+        - source_id: source-013
+          seg_id: seg-004
+    position_b:
+      statement: "Layering agents onto existing human-designed workflows is a fundamental mistake; leading organizations redesign processes from scratch to leverage agent strengths."
+      sources:
+        - source_id: source-020
+          seg_id: seg-004
+        - source_id: source-020
+          seg_id: seg-005
+        - source_id: source-020
+          seg_id: seg-046
+
+  - id: ct-003
+    theme: integration_interop
+    description: "Whether AI integration should work within existing EA frameworks or requires fundamentally new architectural paradigms"
+    position_a:
+      statement: "Established EA patterns (microservices, SOA, layered architecture) can accommodate AI through modular, swappable integration within existing architectural traditions."
+      sources:
+        - source_id: source-012
+          seg_id: seg-026
+        - source_id: source-011
+          seg_id: seg-032
+        - source_id: source-027
+          seg_id: seg-022
+    position_b:
+      statement: "Generative AI requires fundamentally new architecture designs -- the emphasis shifts entirely, requiring new components and paradigms that traditional frameworks cannot accommodate."
+      sources:
+        - source_id: source-001
+          seg_id: seg-026
+        - source_id: source-016
+          seg_id: seg-002
+        - source_id: source-022
+          seg_id: seg-007
+
+  - id: ct-004
+    theme: model_architecture
+    description: "Whether pragmatic incrementalism or bold transformation is the right approach to AI-driven architectural change"
+    position_a:
+      statement: "The architects who succeeded were the most pragmatic -- enterprises cannot rip-and-replace their entire technology stack; iterative, layered approaches are essential."
+      sources:
+        - source_id: source-004
+          seg_id: seg-015
+        - source_id: source-013
+          seg_id: seg-016
+    position_b:
+      statement: "Transforming the tech organization demands more than small, safe steps -- it requires a courageous vision that reimagines what's possible."
+      sources:
+        - source_id: source-014
+          seg_id: seg-092
+        - source_id: source-014
+          seg_id: seg-005
+
+  - id: ct-005
+    theme: governance_org_change
+    description: "Whether the first wave of enterprise GenAI (chatbots, copilots) delivered meaningful value or underperformed"
+    position_a:
+      statement: "AI copilots and chatbots are already delivering significant productivity improvements in enterprise settings, transforming how architects and practitioners work."
+      sources:
+        - source_id: source-015
+          seg_id: seg-062
+        - source_id: source-007
+          seg_id: seg-017
+        - source_id: source-014
+          seg_id: seg-085
+    position_b:
+      statement: "The first wave of general-purpose chatbots, while useful as productivity tools, often don't deliver the automation opportunities businesses need for new efficiencies."
+      sources:
+        - source_id: source-020
+          seg_id: seg-133
+        - source_id: source-020
+          seg_id: seg-069
+
+  - id: ct-006
+    theme: AI_governance_ethics
+    description: "How urgently must enterprises adopt AI — is cautious 'watchful waiting' in regulated sectors a valid strategy, or is immediate action imperative?"
+    position_a:
+      statement: "Organizations in regulated industries should practice 'watchful waiting' as the AI ecosystem evolves, and AI may take 5-10 years to prove effectiveness in sectors like pharma."
+      sources:
+        - source_id: source-003
+          seg_id: seg-193
+        - source_id: source-003
+          seg_id: seg-096
+    position_b:
+      statement: "The experimentation phase is over — 2026 is the pivot point, and enterprises that do not operationalize AI at scale now will be left behind."
+      sources:
+        - source_id: source-008
+          seg_id: seg-004
+        - source_id: source-008
+          seg_id: seg-052
+        - source_id: source-003
+          seg_id: seg-045
+        - source_id: source-007
+          seg_id: seg-134
+
+  - id: ct-007
+    theme: organizational_change
+    description: "Will AI primarily augment the existing workforce, or does it represent a fundamentally new category of autonomous labor that reshapes the workforce?"
+    position_a:
+      statement: "AI augments rather than replaces employees — companies emphasize that AI means more efficiency, doing more with the same number of people, not automating people away."
+      sources:
+        - source_id: source-003
+          seg_id: seg-172
+        - source_id: source-007
+          seg_id: seg-115
+        - source_id: source-003
+          seg_id: seg-036
+    position_b:
+      statement: "AI agents represent a genuinely new 'silicon-based workforce' — digital agents will autonomously handle entire job functions, fundamentally changing the nature of work beyond mere augmentation."
+      sources:
+        - source_id: source-020
+          seg_id: seg-108
+        - source_id: source-020
+          seg_id: seg-159
+        - source_id: source-005
+          seg_id: seg-010
+
+  - id: ct-008
+    theme: AI_governance_ethics
+    description: "Can existing EA frameworks (TOGAF) be adapted for AI, or are they fundamentally inadequate?"
+    position_a:
+      statement: "TOGAF remains a powerful EA framework as a skeleton and can evolve to accommodate agile methods, ethical governance, and AI integration through pragmatic adaptation."
+      sources:
+        - source_id: source-006
+          seg_id: seg-020
+        - source_id: source-024
+          seg_id: seg-014
+        - source_id: source-010
+          seg_id: seg-016
+    position_b:
+      statement: "TOGAF fundamentally lacks the agility, ethical governance mechanisms, and lifecycle artifacts required for AI-driven transformation — the governance gap is structural, not just a matter of adaptation."
+      sources:
+        - source_id: source-023
+          seg_id: seg-017
+        - source_id: source-023
+          seg_id: seg-034
+        - source_id: source-024
+          seg_id: seg-011
+
+  - id: ct-009
+    theme: AI_governance_ethics
+    description: "How much human oversight is needed — should humans remain in the loop for all risky decisions, or can non-programmers increasingly provide adequate AI oversight?"
+    position_a:
+      statement: "Anything that may carry risk still goes through a human worker — human oversight remains non-negotiable for consequential AI decisions."
+      sources:
+        - source_id: source-020
+          seg_id: seg-119
+        - source_id: source-021
+          seg_id: seg-038
+        - source_id: source-006
+          seg_id: seg-033
+    position_b:
+      statement: "As AI tools get smarter, more nonprogrammers will be able to provide this oversight — any business-domain expert paired with a developer can accomplish great things without a lot of oversight."
+      sources:
+        - source_id: source-014
+          seg_id: seg-163
+        - source_id: source-014
+          seg_id: seg-068
+
+  - id: ct-010
+    theme: agentic_AI_architecture
+    description: "Whether agentic AI deployments are succeeding or failing in enterprises"
+    position_a:
+      statement: "Agentic AI is rapidly moving from research labs to production, with enterprises successfully building economically valuable agents that work autonomously at high accuracy levels."
+      sources:
+        - source_id: source-004
+          seg_id: seg-043
+        - source_id: source-020
+          seg_id: seg-226
+        - source_id: source-001
+          seg_id: seg-091
+    position_b:
+      statement: "Despite its promise, many agentic AI implementations are failing, with enterprises encountering significant obstacles translating pilots into production-ready solutions."
+      sources:
+        - source_id: source-020
+          seg_id: seg-001
+        - source_id: source-020
+          seg_id: seg-018
+
+  - id: ct-011
+    theme: agentic_AI_architecture
+    description: "Whether agentic AI should minimize or preserve human oversight"
+    position_a:
+      statement: "Agentic AI systems can adapt, optimize, and secure themselves with minimal human oversight, establishing autonomic enterprise systems."
+      sources:
+        - source_id: source-001
+          seg_id: seg-255
+        - source_id: source-001
+          seg_id: seg-033
+    position_b:
+      statement: "The challenge is not whether to adopt AI but how to integrate it while maintaining human expertise in the loop, with the key being human-AI collaboration, not replacement."
+      sources:
+        - source_id: source-007
+          seg_id: seg-116
+        - source_id: source-020
+          seg_id: seg-202
+        - source_id: source-014
+          seg_id: seg-062
+
+  - id: ct-012
+    theme: ROI_value_business
+    description: "Whether the primary value of enterprise AI lies in productivity gains or revenue growth"
+    position_a:
+      statement: "Technology leaders anticipate the primary value of AI will come from productivity gains and internal operational improvements."
+      sources:
+        - source_id: source-030
+          seg_id: seg-008
+        - source_id: source-005
+          seg_id: seg-008
+    position_b:
+      statement: "The deeper, more significant value lies beneath surface-level productivity in applying AI to core value chains and proprietary data to drive revenue growth and unlock new data sources."
+      sources:
+        - source_id: source-003
+          seg_id: seg-076
+        - source_id: source-003
+          seg_id: seg-141
+        - source_id: source-014
+          seg_id: seg-095
+
+  - id: ct-013
+    theme: agentic_AI_architecture
+    description: "Whether organizations should pursue incremental or revolutionary architectural change for agentic AI"
+    position_a:
+      statement: "Agentic AI requires a fundamental rethinking of enterprise architecture -- not incremental API additions -- representing a structural redefinition from centralized automation to decentralized cognition."
+      sources:
+        - source_id: source-022
+          seg_id: seg-010
+        - source_id: source-001
+          seg_id: seg-046
+    position_b:
+      statement: "Organizations should deliver value where they are and realize immediate value from agentic capabilities while maintaining strategic flexibility, progressing incrementally toward a future-ready state."
+      sources:
+        - source_id: source-018
+          seg_id: seg-009
+        - source_id: source-020
+          seg_id: seg-199
+        - source_id: source-019
+          seg_id: seg-020
+
+  - id: ct-014
+    theme: EA_framework_adaptation
+    description: "Whether TOGAF should be incrementally extended or radically restructured for AI"
+    position_a:
+      statement: "TOGAF should be extended incrementally through Series Guides and supplementary material rather than radically redesigned — established frameworks can be adapted rather than abandoned."
+      sources:
+        - source_id: source-010
+          seg_id: seg-088
+        - source_id: source-025
+          seg_id: seg-043
+        - source_id: source-025
+          seg_id: seg-044
+    position_b:
+      statement: "The ADM is fundamentally misaligned with AI velocity and must be radically adapted — collapsing phases, running them in parallel, and treating the framework as principles rather than process."
+      sources:
+        - source_id: source-024
+          seg_id: seg-004
+        - source_id: source-024
+          seg_id: seg-008
+        - source_id: source-023
+          seg_id: seg-050
+
+  - id: ct-015
+    theme: infrastructure_cloud
+    description: "Whether to start AI deployments narrowly in specific domains or pursue broad enterprise-wide integration"
+    position_a:
+      statement: "Successful deployments focus on specific, well-defined domains rather than attempting enterprise-wide automation — full adoption is likely a decade away."
+      sources:
+        - source_id: source-020
+          seg_id: seg-128
+        - source_id: source-028
+          seg_id: seg-017
+    position_b:
+      statement: "AI must be integrated as a cross-cutting capability across all enterprise architecture domains simultaneously — piecemeal adoption in isolated silos is insufficient."
+      sources:
+        - source_id: source-010
+          seg_id: seg-055
+        - source_id: source-010
+          seg_id: seg-082
+
+  - id: ct-016
+    theme: infrastructure_cloud
+    description: "Whether infrastructure architecture choice (cloud-native, SOA, EDA, microservices) should be context-dependent or converge toward a single pattern"
+    position_a:
+      statement: "SOA, EDA, and Microservices each offer distinct advantages for AI integration — the choice depends on the specific enterprise context, existing infrastructure, and AI use case requirements."
+      sources:
+        - source_id: source-012
+          seg_id: seg-025
+    position_b:
+      statement: "Cloud-native, event-driven microservices architecture is the definitive foundation — composable, adaptive infrastructure redefines how enterprise systems achieve agility."
+      sources:
+        - source_id: source-001
+          seg_id: seg-007
+        - source_id: source-001
+          seg_id: seg-079
+
+  - id: ct-017
+    theme: AI_strategy_leadership
+    description: "Whether AI agent adoption should accelerate now or proceed cautiously"
+    position_a:
+      statement: "True agents are already here and organizations waiting for the technology to mature will be in trouble — the capability is doable today."
+      sources:
+        - source_id: source-020
+          seg_id: seg-224
+        - source_id: source-020
+          seg_id: seg-228
+    position_b:
+      statement: "Full AI adoption is likely a decade away, requiring strategic design and sustained transformation rather than rapid deployment."
+      sources:
+        - source_id: source-028
+          seg_id: seg-017
+        - source_id: source-028
+          seg_id: seg-023
+
+  - id: ct-018
+    theme: EA_AI_convergence
+    description: "Whether the enterprise architect role is being elevated or diminished by AI"
+    position_a:
+      statement: "Enterprise architects must evolve into new strategic roles — curators, facilitators, and critical thinkers who guide AI-augmented systems and simulate strategic bets."
+      sources:
+        - source_id: source-015
+          seg_id: seg-068
+        - source_id: source-017
+          seg_id: seg-016
+        - source_id: source-030
+          seg_id: seg-036
+    position_b:
+      statement: "IT is a layered activity where tasks and roles continuously get pushed down into hardware or software, with humans pushed up the ladder — AI is automating the lower layers of architectural work."
+      sources:
+        - source_id: source-014
+          seg_id: seg-154
+        - source_id: source-014
+          seg_id: seg-100

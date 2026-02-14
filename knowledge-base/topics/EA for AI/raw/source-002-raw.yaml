@@ -1,0 +1,1253 @@
+source_id: source-002
+title: 'Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling'
+author: Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach
+date: 2025-11-17
+document: documents/ER25_PET_Oaj.pdf
+total_segments: 160
+composition:
+  context: { count: 45, pct: 28.1 }
+  claim: { count: 32, pct: 20.0 }
+  noise: { count: 29, pct: 18.1 }
+  evidence: { count: 23, pct: 14.4 }
+  methodology: { count: 21, pct: 13.1 }
+  definition: { count: 8, pct: 5.0 }
+  example: { count: 1, pct: 0.6 }
+  recommendation: { count: 1, pct: 0.6 }
+signal_ratio: 81.9
+segments:
+- id: seg-001
+  text: 'Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling'
+  type: noise
+  section: Title
+  position: 1
+  source_format: heading
+  metadata: {}
+- id: seg-002
+  text: Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach. University of Technology Sydney, 2007, Australia; Capsifi Pvt.
+    Ltd, Sydney, 2000, Australia.
+  type: noise
+  section: Title
+  position: 2
+  source_format: prose
+  metadata: {}
+- id: seg-003
+  text: Abstract
+  type: noise
+  section: Abstract
+  position: 3
+  source_format: heading
+  metadata: {}
+- id: seg-004
+  text: Business Architecture (BA) plays a significant role in aligning business and IT.
+  type: claim
+  section: Abstract
+  position: 4
+  source_format: prose
+  metadata: {}
+- id: seg-005
+  text: Current methods in BA artefact generation and maintenance are largely manual, static, and time-consuming, which limits
+    their effectiveness in dynamic and complex decision-making environments.
+  type: claim
+  section: Abstract
+  position: 5
+  source_format: prose
+  metadata: {}
+- id: seg-006
+  text: Large Language Models (LLMs) have showcased their potential in automating the generation of BA artefacts through customised
+    prompting techniques.
+  type: claim
+  section: Abstract
+  position: 6
+  source_format: prose
+  metadata: {}
+- id: seg-007
+  text: However, they face a key challenge due to the tendency of LLMs to hallucinate, resulting in outputs that may be inaccurate
+    or inconsistent.
+  type: claim
+  section: Abstract
+  position: 7
+  source_format: prose
+  metadata: {}
+- id: seg-008
+  text: Agentic AI offers an alternative approach to LLM-based BA modelling, due to its ability to make autonomous decisions,
+    adapt through learning, and process data in real-time.
+  type: claim
+  section: Abstract
+  position: 8
+  source_format: prose
+  metadata: {}
+- id: seg-009
+  text: To investigate their potential, this research project proposes an Agentic AI-enabled business architecture modelling
+    approach (BA Copilot) that leverages AI agents to automate the generation of BA artefacts.
+  type: context
+  section: Abstract
+  position: 9
+  source_format: prose
+  metadata: {}
+- id: seg-010
+  text: Our work employs an agentic system, implemented using the AutoGen 0.2 framework, integrated with an Enterprise Knowledge
+    Graph (EKG) to semantically contextualise organisational knowledge.
+  type: context
+  section: Abstract
+  position: 10
+  source_format: prose
+  metadata: {}
+- id: seg-011
+  text: The proposed system enables AI agents to extract, reason over, and organise business architecture artefacts.
+  type: claim
+  section: Abstract
+  position: 11
+  source_format: prose
+  metadata: {}
+- id: seg-012
+  text: The key outcomes of this research project are the Agentic AI-enabled Business Modelling Architecture (ABMA) and an
+    agent-based capability modelling process, designed to enhance decision-making in modern enterprise contexts.
+  type: context
+  section: Abstract
+  position: 12
+  source_format: prose
+  metadata: {}
+- id: seg-013
+  text: By incorporating the knowledge graph and reasoning capabilities through LLM in our design, we aim to facilitate user
+    trust in the AI-generated BA artefacts as well.
+  type: claim
+  section: Abstract
+  position: 13
+  source_format: prose
+  metadata: {}
+- id: seg-014
+  text: The current progress of this project involves designing ABMA and implementing a prototype within the scope of business
+    capability modelling (BCM), producing promising preliminary results.
+  type: context
+  section: Abstract
+  position: 14
+  source_format: prose
+  metadata: {}
+- id: seg-015
+  text: We plan to evaluate and extend this work to other BA artefacts and develop a tool that practitioners can use based
+    on our findings.
+  type: context
+  section: Abstract
+  position: 15
+  source_format: prose
+  metadata: {}
+- id: seg-016
+  text: 'Keywords: Capability modelling, Enterprise knowledge graphs, Agentic AI, Business Architecture, Decision Making'
+  type: noise
+  section: Abstract
+  position: 16
+  source_format: prose
+  metadata: {}
+- id: seg-017
+  text: 1. Introduction
+  type: noise
+  section: Introduction
+  position: 17
+  source_format: heading
+  metadata: {}
+- id: seg-018
+  text: Organisations are increasingly interested in the digitalisation of their organisational processes and workflow [1].
+  type: context
+  section: Introduction
+  position: 18
+  source_format: prose
+  metadata: {}
+- id: seg-019
+  text: This requires organisations to fundamentally change their business models and operating environment by adopting contemporary
+    data and digital technologies, such as AI/ML [2].
+  type: claim
+  section: Introduction
+  position: 19
+  source_format: prose
+  metadata: {}
+- id: seg-020
+  text: Despite the potential influence of data and digital technologies on BA methods, a key challenge for organisations
+    is identifying the capabilities, tasks and decisions that can be augmented or supported via AI.
+  type: claim
+  section: Introduction
+  position: 20
+  source_format: prose
+  metadata: {}
+- id: seg-021
+  text: This draws our attention to the BA methods within the enterprise architecture (EA) discipline [3] and how they can
+    support organisations' digital technology-enabled transformations.
+  type: context
+  section: Introduction
+  position: 21
+  source_format: prose
+  metadata: {}
+- id: seg-022
+  text: BA, according to TOGAF [4], is 'a description of the structure and interaction between the business strategy, organisation,
+    functions, business processes, and information needs'.
+  type: definition
+  section: Introduction
+  position: 22
+  source_format: prose
+  metadata: {}
+- id: seg-023
+  text: BA supports various business stakeholders in decision-making by representing and analysing data around entities that
+    govern an enterprise, such as business strategies, goals, capabilities, pain points, business processes, applications,
+    and rules and regulations [4].
+  type: definition
+  section: Introduction
+  position: 23
+  source_format: prose
+  metadata: {}
+- id: seg-024
+  text: Key BA artefacts such as capability maps, value stream maps, and application portfolios provide crucial information
+    for IT investments, performance analysis, and resource utilisation [5].
+  type: claim
+  section: Introduction
+  position: 24
+  source_format: prose
+  metadata: {}
+- id: seg-025
+  text: However, current BA artefacts are static; they become outdated quickly and are unable to keep up with the evolving
+    business decision-making [6].
+  type: claim
+  section: Introduction
+  position: 25
+  source_format: prose
+  metadata: {}
+- id: seg-026
+  text: Static methods refer to traditional, predominantly manual approaches to BA artefact generation, in which the resulting
+    outputs are fixed representations that rapidly become outdated and lack adaptability to dynamic and evolving business
+    environments [7].
+  type: definition
+  section: Introduction
+  position: 26
+  source_format: prose
+  metadata: {}
+- id: seg-027
+  text: Agentic AI, often regarded as the fourth wave of artificial intelligence (AI), evolves from traditional AI agents
+    [8] by integrating deep learning techniques [9], including LLMs [10].
+  type: definition
+  section: Introduction
+  position: 27
+  source_format: prose
+  metadata: {}
+- id: seg-028
+  text: This fusion enables autonomous decision-making, contextual awareness, and the ability to execute complex, multi-step
+    tasks with minimal human input.
+  type: claim
+  section: Introduction
+  position: 28
+  source_format: prose
+  metadata: {}
+- id: seg-029
+  text: Agentic AI has the potential not only to replicate but also to exceed human capabilities in managing complex systems
+    [11].
+  type: claim
+  section: Introduction
+  position: 29
+  source_format: prose
+  metadata: {}
+- id: seg-030
+  text: Such systems are capable of autonomously performing reasoning, planning, and executing actions in real time.
+  type: claim
+  section: Introduction
+  position: 30
+  source_format: prose
+  metadata: {}
+- id: seg-031
+  text: There is growing research interest in generating knowledge relevant to BA through LLMs by using various prompt-based
+    techniques [12].
+  type: context
+  section: Introduction
+  position: 31
+  source_format: prose
+  metadata: {}
+- id: seg-032
+  text: However, exploring agentic AI systems in the context of BA remains underexplored in the current literature and practice
+    [13].
+  type: claim
+  section: Introduction
+  position: 32
+  source_format: prose
+  metadata: {}
+- id: seg-033
+  text: This research is motivated by limitations of current BA methods and focuses on business capability modelling (BCM),
+    which is one of the critical parts of BA.
+  type: context
+  section: Introduction
+  position: 33
+  source_format: prose
+  metadata: {}
+- id: seg-034
+  text: BCM is important to analyse and improve the strategic business and IT alignment [14].
+  type: claim
+  section: Introduction
+  position: 34
+  source_format: prose
+  metadata: {}
+- id: seg-035
+  text: BCM involves identifying and visualising the core and enabling capabilities of an organisation or business area, such
+    as customer relationship management capability, claims management, human resource management capability, etc [15, 16].
+  type: definition
+  section: Introduction
+  position: 35
+  source_format: prose
+  metadata: {}
+- id: seg-036
+  text: In particular, this paper aims to address the limitations of existing manual or static BCM by using an agentic AI-enabled
+    approach [17].
+  type: context
+  section: Introduction
+  position: 36
+  source_format: prose
+  metadata: {}
+- id: seg-037
+  text: This is an ongoing research project aimed at developing a BA Copilot, designed in partnership with Capsifi Pvt. Ltd,
+    a leading platform in BA modelling and operating model transformation.
+  type: context
+  section: Introduction
+  position: 37
+  source_format: prose
+  metadata: {}
+- id: seg-038
+  text: Preliminary work of this project involved conducting a systematic literature survey on BA methods [7] and developing
+    and evaluating reasoning-based prompting techniques for generating BA artefacts [18].
+  type: context
+  section: Introduction
+  position: 38
+  source_format: prose
+  metadata: {}
+- id: seg-039
+  text: Through that, we found that by incorporating reasoning-based prompting techniques, particularly Tree-of-Thought (ToT)
+    [19] results in improved BA artefact generation.
+  type: evidence
+  section: Introduction
+  position: 39
+  source_format: prose
+  metadata: {}
+- id: seg-040
+  text: We are currently extending this work by introducing an agent-based capability modelling process.
+  type: context
+  section: Introduction
+  position: 40
+  source_format: prose
+  metadata: {}
+- id: seg-041
+  text: It is noteworthy that this project is a work-in-progress where our proposed solution is validated and evaluated iteratively.
+  type: context
+  section: Introduction
+  position: 41
+  source_format: prose
+  metadata: {}
+- id: seg-042
+  text: We present our preliminary findings here, which have been validated by the authors, experts in BA modelling.
+  type: context
+  section: Introduction
+  position: 42
+  source_format: prose
+  metadata: {}
+- id: seg-043
+  text: Our results and insights are intended to inform both research and practice in enterprise modelling.
+  type: context
+  section: Introduction
+  position: 43
+  source_format: prose
+  metadata: {}
+- id: seg-044
+  text: 'The key contributions of this research project are as follows:'
+  type: noise
+  section: Introduction
+  position: 44
+  source_format: prose
+  metadata: {}
+- id: seg-045
+  text: The design of the Agentic AI-enabled Business Modelling Architecture (ABMA), which integrates a multi-agent system
+    with enterprise knowledge graphs for structured BA artefacts.
+  type: claim
+  section: Introduction
+  position: 45
+  source_format: bullet
+  metadata: {}
+- id: seg-046
+  text: The ABMA process that automates the extraction, reasoning, and organisation of BA artefacts.
+  type: claim
+  section: Introduction
+  position: 46
+  source_format: bullet
+  metadata: {}
+- id: seg-047
+  text: Proof-of-concept is a tool demonstration of Agentic AI-enabled Business Capability Modelling Architecture (ABCMA),
+    and the modelling process proposed.
+  type: claim
+  section: Introduction
+  position: 47
+  source_format: bullet
+  metadata: {}
+- id: seg-048
+  text: The remainder of the paper is organised as follows. Section 2 provides a research method. Section 3 discusses the
+    concept of approach. Section 4 demonstrates a scenario illustration. Section 5 concludes the paper with challenges and
+    future research directions.
+  type: noise
+  section: Introduction
+  position: 48
+  source_format: prose
+  metadata: {}
+- id: seg-049
+  text: 2. Research Method
+  type: noise
+  section: Research Method
+  position: 49
+  source_format: heading
+  metadata: {}
+- id: seg-050
+  text: This research project adopts the Design Science Research (DSR) method, as BA modelling is naturally complex and organised
+    in layers.
+  type: methodology
+  section: Research Method
+  position: 50
+  source_format: prose
+  metadata: {}
+- id: seg-051
+  text: DSR works well for this kind of problem, as it helps break down complex issues into smaller, more manageable parts
+    clearly and logically.
+  type: claim
+  section: Research Method
+  position: 51
+  source_format: prose
+  metadata: {}
+- id: seg-052
+  text: This project follows the structured DSR hierarchy proposed by Tuunanen et al. [20] as illustrated in Figure 1.
+  type: methodology
+  section: Research Method
+  position: 52
+  source_format: prose
+  metadata: {}
+- id: seg-053
+  text: 'Figure 1: The DSR Method adopted from Tuunanen et al. [20]. A four-stage design science process showing: Problem
+    Analysis (Problem Statement, Proposal) leading to Objectives & Requirements Definition (Tentative design, Design Requirements),
+    then Design & Development (Solution Design, Artefact), and finally Demonstration (Architecture & Process, Proof of Concept),
+    with Design Knowledge Accumulation at the centre.'
+  type: context
+  section: Research Method
+  position: 53
+  source_format: figure
+  metadata: {}
+- id: seg-054
+  text: The adopted DSR has four stages (Figure 1).
+  type: methodology
+  section: Research Method
+  position: 54
+  source_format: prose
+  metadata: {}
+- id: seg-055
+  text: Firstly, we identified the research problem, which is the static and manual nature of traditional BA methods, producing
+    static BA artefacts that become outdated quickly and are unable to keep pace with evolving business decision-making.
+  type: methodology
+  section: Research Method
+  position: 55
+  source_format: prose
+  metadata: {}
+- id: seg-056
+  text: Secondly, our goal was to explore how agentic AI can be leveraged to automate BA artefacts.
+  type: methodology
+  section: Research Method
+  position: 56
+  source_format: prose
+  metadata: {}
+- id: seg-057
+  text: We applied creative thinking to produce a tentative initial design of ABMA.
+  type: methodology
+  section: Research Method
+  position: 57
+  source_format: prose
+  metadata: {}
+- id: seg-058
+  text: Comprehensive research was conducted to develop the ABMA design.
+  type: methodology
+  section: Research Method
+  position: 58
+  source_format: prose
+  metadata: {}
+- id: seg-059
+  text: Thirdly, the design and development are performed iteratively to evolve ABMA.
+  type: methodology
+  section: Research Method
+  position: 59
+  source_format: prose
+  metadata: {}
+- id: seg-060
+  text: Finally, the results of the scenario illustration will be presented and discussed to conclude the project.
+  type: methodology
+  section: Research Method
+  position: 60
+  source_format: prose
+  metadata: {}
+- id: seg-061
+  text: 3. Agentic AI-enabled Business Modelling Architecture (ABMA)
+  type: noise
+  section: ABMA
+  position: 61
+  source_format: heading
+  metadata: {}
+- id: seg-062
+  text: 3.1. Overview
+  type: noise
+  section: ABMA Overview
+  position: 62
+  source_format: heading
+  metadata: {}
+- id: seg-063
+  text: The ABMA (see Figure 2) presents a modular and AI-driven system designed to automate the generation of BA artefacts
+    through the orchestration of autonomous agents.
+  type: claim
+  section: ABMA Overview
+  position: 63
+  source_format: prose
+  metadata: {}
+- id: seg-064
+  text: This system architecture is built upon the principles of agentic AI, natural language interaction, and enterprise
+    knowledge contextualisation to overcome the static and labor-intensive nature of traditional BA methods.
+  type: claim
+  section: ABMA Overview
+  position: 64
+  source_format: prose
+  metadata: {}
+- id: seg-065
+  text: 'The architecture comprises five core layers: user interaction, context extraction, orchestration, processing, and
+    knowledge layer.'
+  type: definition
+  section: ABMA Overview
+  position: 65
+  source_format: prose
+  metadata: {}
+- id: seg-066
+  text: The underlying cognitive framework of ABMA mirrors the way humans' reason through complex tasks.
+  type: claim
+  section: ABMA Overview
+  position: 66
+  source_format: prose
+  metadata: {}
+- id: seg-067
+  text: How each layer interacts and operates is detailed through a demonstration in Section 5.
+  type: noise
+  section: ABMA Overview
+  position: 67
+  source_format: prose
+  metadata: {}
+- id: seg-068
+  text: 'Figure 2: Agentic-AI-enabled BA modelling architecture (Content generation layer). Shows the full ABMA architecture
+    with: User Interface (Feedback Interface, Prompt Interface) connecting to Entity Agent (linked to Ontology and LLM), which
+    passes to Orchestration Agent, which routes to specialized agents (Capability Agent, Value Stream Agent, Value Map Agent,
+    Mapping Agent). Below shows Backend components: Knowledge Graph, API, Templates, Database.'
+  type: context
+  section: ABMA Overview
+  position: 68
+  source_format: figure
+  metadata: {}
+- id: seg-069
+  text: 3.2. ABMA Component Interaction
+  type: noise
+  section: ABMA Component Interaction
+  position: 69
+  source_format: heading
+  metadata: {}
+- id: seg-070
+  text: When architecture is implemented in the real world, the BA artefact generation process is initiated by the user upon
+    submitting a natural language query through the prompt interface within the user interface.
+  type: context
+  section: ABMA Component Interaction
+  position: 70
+  source_format: prose
+  metadata: {}
+- id: seg-071
+  text: There is also a feedback interface for input refinement based on system output.
+  type: context
+  section: ABMA Component Interaction
+  position: 71
+  source_format: prose
+  metadata: {}
+- id: seg-072
+  text: For example, a query can request the generation of capability maps for a specific industry, region, or business function,
+    as detailed in Section 5.
+  type: example
+  section: ABMA Component Interaction
+  position: 72
+  source_format: prose
+  metadata: {}
+- id: seg-073
+  text: Secondly, the natural language query is passed on to the entity agent, which serves as the first point of analysis.
+  type: context
+  section: ABMA Component Interaction
+  position: 73
+  source_format: prose
+  metadata: {}
+- id: seg-074
+  text: It parses the query to extract contextual information such as industry type, artefact category (e.g. operational capability,
+    strategic capability), and geographic or regulatory scope.
+  type: definition
+  section: ABMA Component Interaction
+  position: 74
+  source_format: prose
+  metadata: {}
+- id: seg-075
+  text: The entity agent may delegate tasks to LLM to handle ambiguous or unstructured input.
+  type: context
+  section: ABMA Component Interaction
+  position: 75
+  source_format: prose
+  metadata: {}
+- id: seg-076
+  text: The entity agent is also linked to a reference ontology, providing semantic grounding for the identified entities.
+  type: context
+  section: ABMA Component Interaction
+  position: 76
+  source_format: prose
+  metadata: {}
+- id: seg-077
+  text: This enables the agent to resolve any disambiguation and ensure that the entities identified are aligned with the
+    operational domain.
+  type: claim
+  section: ABMA Component Interaction
+  position: 77
+  source_format: prose
+  metadata: {}
+- id: seg-078
+  text: A specific industry or organisation can have its ontology defined and linked for this purpose.
+  type: context
+  section: ABMA Component Interaction
+  position: 78
+  source_format: prose
+  metadata: {}
+- id: seg-079
+  text: Thirdly, the parsed entities are handed over to the orchestration agent, which is responsible for routing the query
+    to a particular agent based on the identified entities.
+  type: context
+  section: ABMA Component Interaction
+  position: 79
+  source_format: prose
+  metadata: {}
+- id: seg-080
+  text: The agent responsible for the task will generate the artefact in response to the user's query, interacting with the
+    LLM.
+  type: context
+  section: ABMA Component Interaction
+  position: 80
+  source_format: prose
+  metadata: {}
+- id: seg-081
+  text: To ensure semantic accuracy and organisational alignment, the agent will validate the artefacts generated by the LLM
+    against both the domain ontology and the enterprise knowledge graph (EKG).
+  type: claim
+  section: ABMA Component Interaction
+  position: 81
+  source_format: prose
+  metadata: {}
+- id: seg-082
+  text: The input knowledge for generating capability lists is derived from user queries, enriched by reference ontologies,
+    and validated against EKG to ensure semantic accuracy, contextual alignment, and organisational relevance.
+  type: claim
+  section: ABMA Component Interaction
+  position: 82
+  source_format: prose
+  metadata: {}
+- id: seg-083
+  text: This hybrid approach combines the generative strength of the LLM with the semantic control of structured enterprise
+    knowledge, resulting in accurate and context-aware BA modelling, which leads to increased trust in the generated model.
+  type: claim
+  section: ABMA Component Interaction
+  position: 83
+  source_format: prose
+  metadata: {}
+- id: seg-084
+  text: These interactions are illustrated in Figure 2.
+  type: noise
+  section: ABMA Component Interaction
+  position: 84
+  source_format: prose
+  metadata: {}
+- id: seg-085
+  text: Finally, once the agent completes its reasoning, the structured output is returned to the user for feedback, refinement,
+    or re-query.
+  type: context
+  section: ABMA Component Interaction
+  position: 85
+  source_format: prose
+  metadata: {}
+- id: seg-086
+  text: '4. Scenario Illustration: Agentic AI-enabled Business Capability Modelling Process:'
+  type: noise
+  section: Scenario Illustration
+  position: 86
+  source_format: heading
+  metadata: {}
+- id: seg-087
+  text: To demonstrate and validate the practical feasibility of the proposed ABMA, we have developed a proof-of-concept implementation
+    of an agentic AI-based business capability modelling process using AutoGen 0.2, an open-source multi-agent orchestration
+    framework developed by Microsoft.
+  type: methodology
+  section: Scenario Illustration
+  position: 87
+  source_format: prose
+  metadata: {}
+- id: seg-088
+  text: AutoGen 0.2 facilitates the coordination of autonomous agents through structured dialogues and dynamic task delegation,
+    making it well-suited for realising the modularity and autonomy envisioned in the ABMA.
+  type: context
+  section: Scenario Illustration
+  position: 88
+  source_format: prose
+  metadata: {}
+- id: seg-089
+  text: For demonstration purposes, we have implemented this through the OpenAI API GPT-4o.
+  type: methodology
+  section: Scenario Illustration
+  position: 89
+  source_format: prose
+  metadata: {}
+- id: seg-090
+  text: Figure 3 illustrates our design in AutoGen 0.2.
+  type: noise
+  section: Scenario Illustration
+  position: 90
+  source_format: prose
+  metadata: {}
+- id: seg-091
+  text: 'Figure 3: AutoGen 0.2 implementation. Screenshot showing the AutoGen Studio interface with: Entity-Capability-S team
+    configuration with 2 agents (EntityAgent and CapabilityGenerationAgent), OrTerminationCondition, both agents configured
+    with model gpt-4o and 0 tools. The CapabilityGenerationAgent is described as generating capabilities and validating through
+    EKG.'
+  type: context
+  section: Scenario Illustration
+  position: 91
+  source_format: figure
+  metadata: {}
+- id: seg-092
+  text: To understand the value of ontology and EKG in the proposed architecture, we implement this scenario over two configurations.
+  type: methodology
+  section: Scenario Illustration
+  position: 92
+  source_format: prose
+  metadata: {}
+- id: seg-093
+  text: 'Configuration 1: entity agent and capability agent interact with LLM only'
+  type: context
+  section: Scenario Illustration
+  position: 93
+  source_format: bullet
+  metadata: {}
+- id: seg-094
+  text: 'Configuration 2: entity agent and capability agent access ontology and EKG'
+  type: context
+  section: Scenario Illustration
+  position: 94
+  source_format: bullet
+  metadata: {}
+- id: seg-095
+  text: In Configuration 2, the Capsicum BA ontology and EKG, provided by the industry partner, are used in our demonstration
+    [21].
+  type: context
+  section: Scenario Illustration
+  position: 95
+  source_format: prose
+  metadata: {}
+- id: seg-096
+  text: '4.1. Configuration 1: ToT-Prompted Agent Reasoning'
+  type: noise
+  section: Configuration 1
+  position: 96
+  source_format: heading
+  metadata: {}
+- id: seg-097
+  text: In the initial phase of experimentation (as shown in Figure 4), we created an entity agent and a capability agent.
+  type: methodology
+  section: Configuration 1
+  position: 97
+  source_format: prose
+  metadata: {}
+- id: seg-098
+  text: In this configuration, we employed the reasoning-based ToT prompting technique.
+  type: methodology
+  section: Configuration 1
+  position: 98
+  source_format: prose
+  metadata: {}
+- id: seg-099
+  text: ToT enhances the reasoning capabilities of language models by allowing them to explore multiple solution paths in
+    parallel and evaluate intermediate thoughts before arriving at a final response.
+  type: definition
+  section: Configuration 1
+  position: 99
+  source_format: prose
+  metadata: {}
+- id: seg-100
+  text: 'The entity agent was provided with simple instructions to parse user queries into structured entities: BA artefact,
+    industry, region and levels.'
+  type: methodology
+  section: Configuration 1
+  position: 100
+  source_format: prose
+  metadata: {}
+- id: seg-101
+  text: The capability agent received structured entities as input and was tasked with selecting capability definitions and
+    composing a capability map.
+  type: methodology
+  section: Configuration 1
+  position: 101
+  source_format: prose
+  metadata: {}
+- id: seg-102
+  text: At this stage, semantic grounding was limited to rule-based inference and a manually curated ToT prompt technique,
+    without leveraging external knowledge graphs.
+  type: context
+  section: Configuration 1
+  position: 102
+  source_format: prose
+  metadata: {}
+- id: seg-103
+  text: 'Figure 4: Config 1 prompt-based BCM. Shows the data flow: User (Natural language query) passes to Entity agent (Extracts
+    Industry, Artefact, Region, Levels) which connects to LLM, then sends Parsed query to Capability agent (Receives structured
+    input, Generates aligned capabilities), which returns Response to User.'
+  type: context
+  section: Configuration 1
+  position: 103
+  source_format: figure
+  metadata: {}
+- id: seg-104
+  text: The extracted portion (claim management capability) of the response from the complete capability map is shown in Table
+    1.
+  type: noise
+  section: Configuration 1
+  position: 104
+  source_format: prose
+  metadata: {}
+- id: seg-105
+  text: 'Query: Generate a 5-level capability map for the insurance industry in Japan.'
+  type: context
+  section: Configuration 1
+  position: 105
+  source_format: prose
+  metadata: {}
+- id: seg-106
+  text: Table 1. Response to the prompt-based BCM
+  type: noise
+  section: Configuration 1
+  position: 106
+  source_format: prose
+  metadata: {}
+- id: seg-107
+  text: 'Table 1 Row: Level 1 | Capability: Claims Management | Parent: (none) | Description: Ability to identify, track,
+    and respond to a demand or request to indemnify customers under the terms of an agreement'
+  type: evidence
+  section: Configuration 1
+  position: 107
+  source_format: table
+  metadata: {}
+- id: seg-108
+  text: 'Table 1 Row: Level 2 | Capability: Claims Submission | Parent: Claims Management | Description: Facilitating the
+    process of customers submitting claims with the required documentation and information'
+  type: evidence
+  section: Configuration 1
+  position: 108
+  source_format: table
+  metadata: {}
+- id: seg-109
+  text: 'Table 1 Row: Level 3 | Capability: Claims Assistance | Parent: Claims Submission | Description: Providing support
+    to customers during the claim submission process to ensure completeness and compliance'
+  type: evidence
+  section: Configuration 1
+  position: 109
+  source_format: table
+  metadata: {}
+- id: seg-110
+  text: 'Table 1 Row: Level 3 | Capability: Claims Intake | Parent: Claims Submission | Description: Collecting and logging
+    claim information for initial review and assessment'
+  type: evidence
+  section: Configuration 1
+  position: 110
+  source_format: table
+  metadata: {}
+- id: seg-111
+  text: 'Table 1 Row: Level 2 | Capability: Claims Settlement | Parent: Claims Management | Description: Managing the process
+    of evaluating, negotiating, and resolving claims in accordance with policies'
+  type: evidence
+  section: Configuration 1
+  position: 111
+  source_format: table
+  metadata: {}
+- id: seg-112
+  text: 'Table 1 Row: Level 3 | Capability: Claims Evaluation | Parent: Claims Settlement | Description: Assessing the validity
+    and coverage of submitted claims against policy terms'
+  type: evidence
+  section: Configuration 1
+  position: 112
+  source_format: table
+  metadata: {}
+- id: seg-113
+  text: 'Table 1 Row: Level 3 | Capability: Claims Payment | Parent: Claims Settlement | Description: Coordinate the disbursement
+    of approved claim payments to customers'
+  type: evidence
+  section: Configuration 1
+  position: 113
+  source_format: table
+  metadata: {}
+- id: seg-114
+  text: '4.2. Configuration 2: EKG Integration via Stardog'
+  type: noise
+  section: Configuration 2
+  position: 114
+  source_format: heading
+  metadata: {}
+- id: seg-115
+  text: In the second configuration (see Figure 5), semantic validity was introduced through the integration of an EKG, developed
+    by our industry partner, Capsifi.
+  type: methodology
+  section: Configuration 2
+  position: 115
+  source_format: prose
+  metadata: {}
+- id: seg-116
+  text: This graph is hosted on Stardog, a graph database platform that supports RDF/SPARQL-based queries and semantic reasoning.
+  type: context
+  section: Configuration 2
+  position: 116
+  source_format: prose
+  metadata: {}
+- id: seg-117
+  text: The entity agent was extended to query the Stardog-based EKG, enabling more accurate parsing of user queries by grounding
+    extracted entities in organisational semantics (e.g., industry taxonomies, regional classifications, artefacts).
+  type: methodology
+  section: Configuration 2
+  position: 117
+  source_format: prose
+  metadata: {}
+- id: seg-118
+  text: The capability agent used the same EKG to validate whether the requested capability concepts existed within the enterprise
+    ontology.
+  type: methodology
+  section: Configuration 2
+  position: 118
+  source_format: prose
+  metadata: {}
+- id: seg-119
+  text: We used the exact basic instructions for the entity agent and the prompt technique for the capability agent, as we
+    have used in Configuration 1.
+  type: methodology
+  section: Configuration 2
+  position: 119
+  source_format: prose
+  metadata: {}
+- id: seg-120
+  text: The difference is the addition of an EKG.
+  type: context
+  section: Configuration 2
+  position: 120
+  source_format: prose
+  metadata: {}
+- id: seg-121
+  text: In this configuration, we performed a matching test to verify whether the capabilities generated match those in EKG.
+  type: methodology
+  section: Configuration 2
+  position: 121
+  source_format: prose
+  metadata: {}
+- id: seg-122
+  text: If a match was found, the agent retrieved the corresponding subgraph and used it to enhance or tailor the generated
+    capability map.
+  type: context
+  section: Configuration 2
+  position: 122
+  source_format: prose
+  metadata: {}
+- id: seg-123
+  text: If the ontology did not contain a matching concept, the system generated a response indicating the absence of semantic
+    alignment and optionally suggested alternative capabilities or taxonomic nodes.
+  type: context
+  section: Configuration 2
+  position: 123
+  source_format: prose
+  metadata: {}
+- id: seg-124
+  text: 'Figure 5: Config 2 EKG-based BCM. Shows the data flow: User (Natural language query) passes to Entity agent (Extracts
+    industry, artefact, region, & levels; Validates concepts using ontology) which connects to LLM and Ontology (via Ontology
+    lookup), then sends Parsed query to Capability agent (Receives structured input, Queries EKG for matching, Generates aligned
+    capabilities), which connects to EKG (via Matching), and returns Response to User.'
+  type: context
+  section: Configuration 2
+  position: 124
+  source_format: figure
+  metadata: {}
+- id: seg-125
+  text: The extracted portion (claim management capability) of the response from the complete capability map is shown in Table
+    2.
+  type: noise
+  section: Configuration 2
+  position: 125
+  source_format: prose
+  metadata: {}
+- id: seg-126
+  text: 'Query: Generate a 5-level capability map for the insurance industry in Japan'
+  type: context
+  section: Configuration 2
+  position: 126
+  source_format: prose
+  metadata: {}
+- id: seg-127
+  text: Table 2. Response of EKG-based BCM
+  type: noise
+  section: Configuration 2
+  position: 127
+  source_format: prose
+  metadata: {}
+- id: seg-128
+  text: 'Table 2 Row: Level 1 | Capability: Claims Management | Parent: (none) | Description: Handling the entire lifecycle
+    of insurance claims. | Match with EKG: Yes'
+  type: evidence
+  section: Configuration 2
+  position: 128
+  source_format: table
+  metadata: {}
+- id: seg-129
+  text: 'Table 2 Row: Level 2 | Capability: Claims Filing | Parent: Claims Management | Description: Accepting and documenting
+    initial claims from policyholders. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 129
+  source_format: table
+  metadata: {}
+- id: seg-130
+  text: 'Table 2 Row: Level 3 | Capability: Claim Information Collection | Parent: Claims Filing | Description: Gathering
+    necessary information and documentation for the claim. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 130
+  source_format: table
+  metadata: {}
+- id: seg-131
+  text: 'Table 2 Row: Level 3 | Capability: Claim Form Submission | Parent: Claims Filing | Description: Submitting a structured
+    claim form for processing. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 131
+  source_format: table
+  metadata: {}
+- id: seg-132
+  text: 'Table 2 Row: Level 3 | Capability: Initial Claim Verification | Parent: Claims Filing | Description: Conducting preliminary
+    checks to ensure claim validity. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 132
+  source_format: table
+  metadata: {}
+- id: seg-133
+  text: 'Table 2 Row: Level 2 | Capability: Claim Assessment | Parent: Claims Management | Description: Evaluating claims
+    to determine payout eligibility and amounts. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 133
+  source_format: table
+  metadata: {}
+- id: seg-134
+  text: 'Table 2 Row: Level 3 | Capability: Damage Evaluation | Parent: Claim Assessment | Description: Assessing the extent
+    of the damage or loss claimed. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 134
+  source_format: table
+  metadata: {}
+- id: seg-135
+  text: 'Table 2 Row: Level 3 | Capability: Benefit Calculation | Parent: Claim Assessment | Description: Determining benefit
+    payout amounts based on policy terms. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 135
+  source_format: table
+  metadata: {}
+- id: seg-136
+  text: 'Table 2 Row: Level 3 | Capability: Claim Investigation | Parent: Claim Assessment | Description: Investigating claims
+    for fraud or misrepresentation. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 136
+  source_format: table
+  metadata: {}
+- id: seg-137
+  text: 'Table 2 Row: Level 2 | Capability: Claims Settlement | Parent: Claims Management | Description: Managing the process
+    of finalising claims and disbursing payments. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 137
+  source_format: table
+  metadata: {}
+- id: seg-138
+  text: 'Table 2 Row: Level 3 | Capability: Negotiation with Claimant | Parent: Claims Settlement | Description: Engaging
+    with claimants to agree on settlement terms. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 138
+  source_format: table
+  metadata: {}
+- id: seg-139
+  text: 'Table 2 Row: Level 3 | Capability: Payment Processing | Parent: Claims Settlement | Description: Processing payments
+    to settle claims. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 139
+  source_format: table
+  metadata: {}
+- id: seg-140
+  text: 'Table 2 Row: Level 3 | Capability: Settlement Documentation | Parent: Claims Settlement | Description: Documenting
+    agreements and settlements with claimants. | Match with EKG: No'
+  type: evidence
+  section: Configuration 2
+  position: 140
+  source_format: table
+  metadata: {}
+- id: seg-141
+  text: 'Summary of findings:'
+  type: noise
+  section: Summary of Findings
+  position: 141
+  source_format: prose
+  metadata: {}
+- id: seg-142
+  text: 'Key takeaways from the scenario illustration are:'
+  type: noise
+  section: Summary of Findings
+  position: 142
+  source_format: prose
+  metadata: {}
+- id: seg-143
+  text: Configuration 1 performed better at creative, unconstrained generation of the capability map, but was semantically
+    unverified.
+  type: evidence
+  section: Summary of Findings
+  position: 143
+  source_format: bullet
+  metadata: {}
+- id: seg-144
+  text: Configuration 2 offered semantic alignment and potential ontology alignment of capabilities, but it is limited to
+    level 1.
+  type: evidence
+  section: Summary of Findings
+  position: 144
+  source_format: bullet
+  metadata: {}
+- id: seg-145
+  text: 5. Challenges and Future Work
+  type: noise
+  section: Challenges and Future Work
+  position: 145
+  source_format: heading
+  metadata: {}
+- id: seg-146
+  text: This research project proposes the development of a BA copilot that can automate BA modelling through agentic AI.
+  type: context
+  section: Challenges and Future Work
+  position: 146
+  source_format: prose
+  metadata: {}
+- id: seg-147
+  text: We present an illustrative scenario of the proposed method, showcasing the potential of Agentic AI in automating business
+    capability modelling through the proposed ABMA.
+  type: context
+  section: Challenges and Future Work
+  position: 147
+  source_format: prose
+  metadata: {}
+- id: seg-148
+  text: We observe that when EKG is not incorporated into the agent architecture (i.e., Configuration 1 using ToT-prompted
+    agents), entity extraction can be completed using the user query; however, it lacks semantic precision due to the absence
+    of external grounding.
+  type: claim
+  section: Challenges and Future Work
+  position: 148
+  source_format: prose
+  metadata: {}
+- id: seg-149
+  text: Configuration 2 addressed this by integrating an EKG, grounding the entities using organisational ontologies and improving
+    the validity of generated output.
+  type: claim
+  section: Challenges and Future Work
+  position: 149
+  source_format: prose
+  metadata: {}
+- id: seg-150
+  text: These observations suggest that ABMA's modular architecture and agent orchestration proved effective for scalable
+    and context-aware capability mapping.
+  type: claim
+  section: Challenges and Future Work
+  position: 150
+  source_format: prose
+  metadata: {}
+- id: seg-151
+  text: The use of LLMs combined with structured knowledge significantly improved the accuracy and adaptability of generated
+    BCMs.
+  type: claim
+  section: Challenges and Future Work
+  position: 151
+  source_format: prose
+  metadata: {}
+- id: seg-152
+  text: The next step in our project is to evaluate and expand the illustrative scenario to different industries and other
+    hierarchical levels of capability modelling (Levels 2-3), followed by a systematic evaluation of agent performance.
+  type: context
+  section: Challenges and Future Work
+  position: 152
+  source_format: prose
+  metadata: {}
+- id: seg-153
+  text: We plan to extend our implementation to additional BA artefact agents, aiming to develop a more intelligent and autonomous
+    BA method.
+  type: recommendation
+  section: Challenges and Future Work
+  position: 153
+  source_format: prose
+  metadata: {}
+- id: seg-154
+  text: The end goal of this project is to provide architecture that can be adapted by BA experts who are interested in automating
+    their modelling process, while incorporating context-aware reasoning that enables trust in the system.
+  type: claim
+  section: Challenges and Future Work
+  position: 154
+  source_format: prose
+  metadata: {}
+- id: seg-155
+  text: Acknowledgements
+  type: noise
+  section: Acknowledgements
+  position: 155
+  source_format: heading
+  metadata: {}
+- id: seg-156
+  text: We sincerely thank our industry partner, Capsifi, and the University of Technology Sydney for providing research funding
+    and scholarship to support this research.
+  type: noise
+  section: Acknowledgements
+  position: 156
+  source_format: prose
+  metadata: {}
+- id: seg-157
+  text: Declaration on Generative AI
+  type: noise
+  section: Declaration on Generative AI
+  position: 157
+  source_format: heading
+  metadata: {}
+- id: seg-158
+  text: During the preparation of this work, the authors used GPT-4o, Gemini and Claude for experimentation, as detailed in
+    the research method.
+  type: context
+  section: Declaration on Generative AI
+  position: 158
+  source_format: prose
+  metadata: {}
+- id: seg-159
+  text: 'Author(s) also used Grammarly in order to: Grammar and spelling check.'
+  type: noise
+  section: Declaration on Generative AI
+  position: 159
+  source_format: prose
+  metadata: {}
+- id: seg-160
+  text: After using these tools/services, the authors reviewed and edited the content as needed and take full responsibility
+    for the publication's content.
+  type: noise
+  section: Declaration on Generative AI
+  position: 160
+  source_format: prose
+  metadata: {}

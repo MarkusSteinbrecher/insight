@@ -1,0 +1,474 @@
+source_id: source-030
+title: "3 Trends Driving Enterprise Architecture Strategy in 2025"
+url: "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture"
+author: "Gartner"
+date: 2025-01-15
+type: article
+total_segments: 58
+note: "URL behind Gartner paywall (403); segmentation derived from source note and web-accessible summaries"
+
+composition:
+  claim: { count: 15, pct: 25.9 }
+  statistic: { count: 5, pct: 8.6 }
+  evidence: { count: 0, pct: 0.0 }
+  definition: { count: 4, pct: 6.9 }
+  recommendation: { count: 22, pct: 37.9 }
+  context: { count: 2, pct: 3.4 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 10, pct: 17.2 }
+
+signal_ratio: 0.83
+
+segments:
+
+  # ============================================================
+  # INTRODUCTION / MACRO CONTEXT
+  # ============================================================
+
+  - id: seg-001
+    text: "3 Trends Driving Enterprise Architecture Strategy in 2025"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Ongoing recessionary fears, geopolitical threats and disruptive AI capabilities inform the three trends defining the EA landscape in 2025."
+    type: context
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "Heads of enterprise architecture must guide tech investments, evolve models for innovation, and embrace AI for future-ready architecture."
+    type: recommendation
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "To stay relevant, heads of enterprise architecture must prioritize updating the EA value proposition, operating model, technology portfolio and skills to deliver business value."
+    type: recommendation
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  # ============================================================
+  # CEO-CIO EXPECTATION GAP
+  # ============================================================
+
+  - id: seg-005
+    text: "A recent Gartner executive survey finds 62% of CEOs put growth at the top of their business priority list."
+    type: statistic
+    section: "CEO-CIO Expectation Gap"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "More than 80% of CEOs expect AI to contribute to top-line growth in 2025."
+    type: statistic
+    section: "CEO-CIO Expectation Gap"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Only 3% of CIOs expect AI to contribute to top-line growth in 2025."
+    type: statistic
+    section: "CEO-CIO Expectation Gap"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "Technology leaders instead anticipate that the primary value of AI will come from productivity gains."
+    type: claim
+    section: "CEO-CIO Expectation Gap"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "The disconnect between CEO expectations of AI driving top-line growth and CIO expectations of AI driving productivity creates a critical strategic challenge that EA must help bridge."
+    type: claim
+    section: "CEO-CIO Expectation Gap"
+    position: 9
+    source_format: prose
+
+  # ============================================================
+  # FOUR KEY WAYS EA LEADERS MUST CHANGE
+  # ============================================================
+
+  - id: seg-010
+    text: "Four Key Ways EA Leaders Must Change"
+    type: noise
+    section: "Four Key Ways EA Leaders Must Change"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "EA leaders are being driven to change how they deliver value in four key ways."
+    type: context
+    section: "Four Key Ways EA Leaders Must Change"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Develop a new EA operating model."
+    type: recommendation
+    section: "Four Key Ways EA Leaders Must Change"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Modernize the technology portfolio."
+    type: recommendation
+    section: "Four Key Ways EA Leaders Must Change"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Acquire financial modeling and analysis, and AI skills."
+    type: recommendation
+    section: "Four Key Ways EA Leaders Must Change"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Continuously communicate EA's changing value proposition."
+    type: recommendation
+    section: "Four Key Ways EA Leaders Must Change"
+    position: 15
+    source_format: bullet
+
+  # ============================================================
+  # TREND 1: NEW EA OPERATING MODEL
+  # ============================================================
+
+  - id: seg-016
+    text: "Trend 1: Develop a New EA Operating Model for Federated Business Designs"
+    type: noise
+    section: "Trend 1: New EA Operating Model"
+    position: 16
+    source_format: heading
+
+  - id: seg-017
+    text: "EA leaders must develop a new EA operating model to deliver value to organizations that have embraced federated business designs."
+    type: recommendation
+    section: "Trend 1: New EA Operating Model"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "Federated business designs are organizations where decision-making is distributed rather than centralized."
+    type: definition
+    section: "Trend 1: New EA Operating Model"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "The trend toward democratized operating models is intended to improve delivery speed, scale agility and support local autonomy."
+    type: claim
+    section: "Trend 1: New EA Operating Model"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "Federated business designs disrupt the heads of enterprise architecture's landscape of familiar business processes and governance structures, requiring them to update internal service and operating models as well as the enterprise architecture strategy and value proposition."
+    type: claim
+    section: "Trend 1: New EA Operating Model"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "EA has evolved from traditional methods to a business-outcome-driven approach and is now moving toward acting as an internal management consultancy."
+    type: claim
+    section: "Trend 1: New EA Operating Model"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "Consider an internal management consultancy approach with a service catalog that delivers targeted services fueled by collaboration and an enterprise architecture value proposition based on enterprise-level priorities."
+    type: recommendation
+    section: "Trend 1: New EA Operating Model"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Start by understanding the business outcomes EA customers seek and equip the EA team to deliver the services customers need to achieve them."
+    type: recommendation
+    section: "Trend 1: New EA Operating Model"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "By 2028, half of EA teams are expected to rebrand themselves, emphasizing their strategic role as business partners who achieve business goals."
+    type: statistic
+    section: "Trend 1: New EA Operating Model"
+    position: 24
+    source_format: prose
+
+  # ============================================================
+  # TREND 2: MODERNIZE THE TECHNOLOGY PORTFOLIO
+  # ============================================================
+
+  - id: seg-025
+    text: "Trend 2: Modernize and Rationalize the Technology Portfolio"
+    type: noise
+    section: "Trend 2: Modernize Technology Portfolio"
+    position: 25
+    source_format: heading
+
+  - id: seg-026
+    text: "Modernize and rationalize the technology portfolio by reducing technical debt, embracing composable architectures and updating applications."
+    type: recommendation
+    section: "Trend 2: Modernize Technology Portfolio"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Composable architectures enable flexibility and reuse, allowing organizations to assemble and reassemble technology capabilities to meet evolving business needs."
+    type: definition
+    section: "Trend 2: Modernize Technology Portfolio"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Reducing technical debt is a prerequisite for organizations to achieve the agility needed to respond to AI-driven transformation."
+    type: claim
+    section: "Trend 2: Modernize Technology Portfolio"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Orchestrating modernization and transformation involves aligning business and IT using AI governance, platform engineering, roadmapping, automation technologies, and composite applications."
+    type: recommendation
+    section: "Trend 2: Modernize Technology Portfolio"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Drive transformation through collaboration, composite applications, platform engineering, and GenAI frameworks."
+    type: recommendation
+    section: "Trend 2: Modernize Technology Portfolio"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "AI governance platforms oversee and manage AI systems by incorporating responsible AI practices and address potential compliance and business risks, including bias, lack of transparency, data protection and privacy issues, model evaluation and validation, and security threats."
+    type: definition
+    section: "Trend 2: Modernize Technology Portfolio"
+    position: 31
+    source_format: prose
+
+  # ============================================================
+  # TREND 3: EXPAND EA TEAM SKILLS
+  # ============================================================
+
+  - id: seg-032
+    text: "Trend 3: Expand and Enhance the Skills of EA Teams"
+    type: noise
+    section: "Trend 3: Expand EA Skills"
+    position: 32
+    source_format: heading
+
+  - id: seg-033
+    text: "Expand and enhance the skills of EA teams to include financial modeling and analysis, and AI competencies."
+    type: recommendation
+    section: "Trend 3: Expand EA Skills"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "EA teams often need to acquire skills related to financial modeling and analysis, and AI such as data-driven architectures, data modeling, and AI solution development and integration."
+    type: claim
+    section: "Trend 3: Expand EA Skills"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "The emergence of AI in enterprise architecture demands the creation of a dedicated AI Architect role."
+    type: claim
+    section: "Trend 3: Expand EA Skills"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "The AI Architect role is a demand-driven necessity, not a nice-to-have."
+    type: claim
+    section: "Trend 3: Expand EA Skills"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "Business capability models can be used to quantify AI opportunities, outcomes and risks, and support AI use case prioritization and planning."
+    type: claim
+    section: "Trend 3: Expand EA Skills"
+    position: 37
+    source_format: prose
+
+  # ============================================================
+  # ARCHITECTING THE FUTURE / STRATEGIC FRAMEWORK
+  # ============================================================
+
+  - id: seg-038
+    text: "Architecting the Future"
+    type: noise
+    section: "Architecting the Future"
+    position: 38
+    source_format: heading
+
+  - id: seg-039
+    text: "EA teams must architect the future by shaping business and technology blueprints with AI reference models, value stream mapping, product architecture, and resilience planning."
+    type: recommendation
+    section: "Architecting the Future"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Value streams show how organizations create and deliver value to their customers, and enterprise architecture and technology innovation leaders can use value streams to create, design and optimize service and operating models and the technology platforms that drive customer centricity."
+    type: definition
+    section: "Architecting the Future"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "EA teams must assess business and technology trends to optimally architect the future, orchestrate transformation and enhance EA performance."
+    type: recommendation
+    section: "Architecting the Future"
+    position: 41
+    source_format: prose
+
+  # ============================================================
+  # ORCHESTRATING MODERNIZATION
+  # ============================================================
+
+  - id: seg-042
+    text: "Orchestrating Modernisation and Transformation"
+    type: noise
+    section: "Orchestrating Modernization"
+    position: 42
+    source_format: heading
+
+  - id: seg-043
+    text: "EA teams must orchestrate modernization through AI governance, platform engineering, and composite applications."
+    type: recommendation
+    section: "Orchestrating Modernization"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "Leverage AI technologies to implement AI-based autonomous governance through pilot programs."
+    type: recommendation
+    section: "Orchestrating Modernization"
+    position: 44
+    source_format: prose
+
+  # ============================================================
+  # AI AGENT PREDICTIONS
+  # ============================================================
+
+  - id: seg-045
+    text: "AI Agent Adoption Predictions"
+    type: noise
+    section: "AI Agent Predictions"
+    position: 45
+    source_format: heading
+
+  - id: seg-046
+    text: "Gartner predicts 40% of enterprise applications will integrate task-specific AI agents by end of 2026, up from less than 5% in 2025."
+    type: statistic
+    section: "AI Agent Predictions"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "The rapid growth from less than 5% to 40% AI agent integration in enterprise applications underscores the urgency of architectural transformations."
+    type: claim
+    section: "AI Agent Predictions"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "By 2028, AI agent ecosystems will enable networks of specialized agents to dynamically collaborate across multiple applications and multiple business functions, allowing users to achieve goals without interacting with each application individually."
+    type: claim
+    section: "AI Agent Predictions"
+    position: 48
+    source_format: prose
+
+  # ============================================================
+  # RECOMMENDED ACTIONS
+  # ============================================================
+
+  - id: seg-049
+    text: "Recommended Actions for EA Leaders"
+    type: noise
+    section: "Recommended Actions"
+    position: 49
+    source_format: heading
+
+  - id: seg-050
+    text: "Develop a new EA operating model to deliver value to organizations that have embraced federated business designs."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 50
+    source_format: bullet
+
+  - id: seg-051
+    text: "Modernize and rationalize the technology portfolio by reducing technical debt, embracing composable architectures and updating applications."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 51
+    source_format: bullet
+
+  - id: seg-052
+    text: "Expand and enhance the skills of EA teams to include financial modeling and analysis, and AI competencies."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 52
+    source_format: bullet
+
+  - id: seg-053
+    text: "Continuously communicate the value they deliver to stakeholders and internal customers."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 53
+    source_format: bullet
+
+  # ============================================================
+  # ENHANCING EA PERFORMANCE
+  # ============================================================
+
+  - id: seg-054
+    text: "Enhancing EA Performance"
+    type: noise
+    section: "Enhancing EA Performance"
+    position: 54
+    source_format: heading
+
+  - id: seg-055
+    text: "Enhance EA performance through AI literacy, automated governance, and empowering business stakeholders."
+    type: recommendation
+    section: "Enhancing EA Performance"
+    position: 55
+    source_format: prose
+
+  - id: seg-056
+    text: "Priority areas include big bets on AI-related innovations plus organizational resilience and minimum viable architecture."
+    type: claim
+    section: "Enhancing EA Performance"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "CEOs want to see profitable growth through technology-related change."
+    type: claim
+    section: "Enhancing EA Performance"
+    position: 57
+    source_format: prose
+
+  - id: seg-058
+    text: "EA teams must evolve from technical custodians to strategic business partners."
+    type: claim
+    section: "Enhancing EA Performance"
+    position: 58
+    source_format: prose

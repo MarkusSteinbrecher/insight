@@ -1,0 +1,22 @@
+# Sources Queue — Enterprise Architecture for AI
+#
+# Add web sources here for processing. Each entry needs a URL and
+# optionally a note about why it's relevant.
+#
+# After adding entries, run `/research EA for AI` to fetch, process,
+# and integrate them into the knowledge base.
+#
+# Status values:
+#   pending    — not yet processed
+#   processed  — fetched and added as source-NNN.md
+#   skipped    — reviewed and decided not to include (add reason)
+#   failed     — fetch failed (add reason)
+
+queue:
+  # Example entry:
+  # - url: "https://example.com/article-about-ea-and-ai"
+  #   note: "Covers agent governance patterns from a practitioner perspective"
+  #   added: 2026-02-14
+  #   status: pending
+
+  []

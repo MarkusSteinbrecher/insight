@@ -1,0 +1,272 @@
+source_id: source-017
+title: "How Agentic AI Elevates The Enterprise Architect's Role"
+url: "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/"
+author: "Stephane Vanrechem"
+date: 2025-08-25
+type: article
+total_segments: 33
+composition:
+  claim: { count: 11, pct: 33.3 }
+  recommendation: { count: 7, pct: 21.2 }
+  noise: { count: 5, pct: 15.2 }
+  definition: { count: 4, pct: 12.1 }
+  context: { count: 3, pct: 9.1 }
+  evidence: { count: 3, pct: 9.1 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  statistic: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+signal_ratio: 84.8
+
+segments:
+
+  # ============================================================
+  # TITLE & HEADER
+  # ============================================================
+
+  - id: seg-001
+    text: "How Agentic AI Elevates The Enterprise Architect's Role"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # ============================================================
+  # KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-002
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Agentic AI is now a core feature of every major EA tool, automating data validation, capability mapping, and artifact creation."
+    type: claim
+    section: "Key Takeaways"
+    position: 3
+    source_format: bullet
+
+  - id: seg-004
+    text: "Four emerging strategic roles for enterprise architects: (1) Customer/employee-centric value mapper, (2) Digital twin strategist, (3) Enterprise knowledge curator, (4) Agentic governance champion."
+    type: claim
+    section: "Key Takeaways"
+    position: 4
+    source_format: bullet
+
+  - id: seg-005
+    text: "Architects will simulate architecture options using AI-powered digital twins to rehearse strategic bets and expose trade-offs."
+    type: claim
+    section: "Key Takeaways"
+    position: 5
+    source_format: bullet
+
+  - id: seg-006
+    text: "Architects will govern semantic layers and train data teams in RAG and GraphRAG to ensure AI outputs are grounded in trusted context."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 6
+    source_format: bullet
+
+  - id: seg-007
+    text: "Architects must manage 'farms' of AI agents with guardrails and feedback loops for accountability."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+
+  - id: seg-008
+    text: "EA tools market is consolidating around AI capabilities: SAP LeanIX, ServiceNow, Celonis, SAP Signavio are integrating AI for smarter decisions across business, data, application, and technology domains."
+    type: evidence
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+
+  - id: seg-009
+    text: "The EA mandate is shifting from IT optimization to business value creation."
+    type: claim
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+
+  - id: seg-010
+    text: "AI improves data quality in EA repositories and enhances application portfolio management capacity."
+    type: claim
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY
+  # ============================================================
+
+  - id: seg-011
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 11
+    source_format: heading
+
+  - id: seg-012
+    text: "Forrester analyst Stephane Vanrechem examines how agentic AI is not merely automating EA tasks but fundamentally redefining the enterprise architect's role."
+    type: context
+    section: "Summary"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Drawing from Forrester's Wave evaluation of EA management suites, the article documents how AI agents now automate data validation, capability mapping, and artifact creation in every major EA tool."
+    type: evidence
+    section: "Summary"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "Process intelligence software uses AI to mine inefficiencies and recommend improvements."
+    type: claim
+    section: "Summary"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "Agentic AI enables real-time feedback loops that continuously update EA repositories."
+    type: claim
+    section: "Summary"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "The core argument is that enterprise architects must evolve into four new strategic roles."
+    type: claim
+    section: "Summary"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "As customer/employee-centric value mappers, they will build knowledge graphs connecting architectural decisions to measurable business outcomes."
+    type: definition
+    section: "Summary"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "As digital twin strategists, they will use AI-powered simulations to rehearse strategic bets and expose trade-offs before committing resources."
+    type: definition
+    section: "Summary"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "As enterprise knowledge curators, they will govern semantic layers and train teams in RAG and GraphRAG to ensure AI outputs are grounded in trusted organizational context."
+    type: definition
+    section: "Summary"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "As agentic governance champions, they will manage farms of AI agents, establishing guardrails and feedback loops for accountability and business alignment."
+    type: definition
+    section: "Summary"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "The article emphasizes that the EA mandate is shifting from IT optimization to business value creation, and architects are uniquely positioned to orchestrate intelligent ecosystems."
+    type: claim
+    section: "Summary"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "To remain relevant, architects must reframe their role to govern AI usage."
+    type: recommendation
+    section: "Summary"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Architects must maintain control over AI intent."
+    type: recommendation
+    section: "Summary"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "Architects should follow structured AI learning paths."
+    type: recommendation
+    section: "Summary"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Architects should build end-to-end enterprise views."
+    type: recommendation
+    section: "Summary"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Architects should use AI-assisted capability mapping and impact analysis to simulate change."
+    type: recommendation
+    section: "Summary"
+    position: 26
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES
+  # ============================================================
+
+  - id: seg-027
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 27
+    source_format: heading
+
+  - id: seg-028
+    text: "As agentic AI becomes embedded in enterprise architecture tools, it's not just automating tasks — it's redefining the architect's role."
+    type: claim
+    section: "Notable Quotes"
+    position: 28
+    source_format: quote
+
+  - id: seg-029
+    text: "Architects will simulate architecture options using AI-powered digital twins to rehearse strategic bets and expose trade-offs."
+    type: claim
+    section: "Notable Quotes"
+    position: 29
+    source_format: quote
+
+  # ============================================================
+  # RELEVANCE TO TOPIC
+  # ============================================================
+
+  - id: seg-030
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 30
+    source_format: heading
+
+  - id: seg-031
+    text: "This source directly addresses the evolving role of enterprise architects in an AI-driven world — a central theme of the EA for AI research topic."
+    type: context
+    section: "Relevance to Topic"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "The four emerging roles (value mapper, digital twin strategist, knowledge curator, agentic governance champion) provide a practical framework for how EA practitioners should develop new competencies."
+    type: context
+    section: "Relevance to Topic"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "The documentation of AI integration across major EA tools (SAP LeanIX, ServiceNow, Celonis, SAP Signavio) provides evidence that this transformation is already underway in the tooling ecosystem, not just in theory."
+    type: evidence
+    section: "Relevance to Topic"
+    position: 33
+    source_format: prose

@@ -1,0 +1,568 @@
+source_id: source-005
+title: "The Agentic Enterprise - The IT Architecture for the AI-Powered Future"
+url: "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture"
+author: "Salesforce (Agentforce)"
+date: 2024
+type: report
+total_segments: 64
+
+composition:
+  claim: { count: 30, pct: 46.9 }
+  definition: { count: 16, pct: 25.0 }
+  recommendation: { count: 13, pct: 20.3 }
+  noise: { count: 4, pct: 6.2 }
+  context: { count: 1, pct: 1.6 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+
+signal_ratio: 93.8
+
+segments:
+
+  # ============================================================
+  # INTRODUCTION / PROBLEM STATEMENT
+  # ============================================================
+
+  - id: seg-001
+    text: "To realize the vision of AI-powered enterprises, organizations must undergo a business and IT transformation to become Agentic Enterprises."
+    type: claim
+    section: "Introduction"
+    position: 1
+    source_format: prose
+
+  - id: seg-002
+    text: "Today's traditional enterprises face operational challenges: information siloes, employees buried in manual work, misaligned incentives in organizational structures, and disjointed feedback loops between strategies and outcomes."
+    type: claim
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "While traditional architecture may support sub-scale deployments of AI agents today, it cannot fully deliver the business capabilities."
+    type: claim
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Embedding this functionality directly in today's static and deterministic application architecture would introduce unnecessary architectural complexity and risk."
+    type: claim
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The document presents a comprehensive IT architecture framework for enterprises to deploy AI agents at scale over the next 3-5 years."
+    type: context
+    section: "Introduction"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "An Agentic Enterprise is an organization integrating intelligent AI agents with human workers as digital colleagues."
+    type: definition
+    section: "Introduction"
+    position: 6
+    source_format: prose
+
+  # ============================================================
+  # THREE NEW BUSINESS CAPABILITIES
+  # ============================================================
+
+  - id: seg-007
+    text: "Three New Business Capabilities"
+    type: noise
+    section: "Business Capabilities"
+    position: 7
+    source_format: heading
+
+  # -- Innovation-Focused --
+
+  - id: seg-008
+    text: "Augmented Human Productivity: Automation of repetitive work frees human workers to focus on higher-value creative and strategic tasks."
+    type: claim
+    section: "Business Capabilities"
+    position: 8
+    source_format: bullet
+
+  - id: seg-009
+    text: "Adaptive Capability Improvement: Observable agent reasoning enables continuous improvement of enterprise capabilities through feedback loops."
+    type: claim
+    section: "Business Capabilities"
+    position: 9
+    source_format: bullet
+
+  # -- Resilience-Focused --
+
+  - id: seg-010
+    text: "Elastic Workforce Capacity: AI agents handle workload surges dynamically, providing elastic scaling of workforce capacity beyond human headcount limits."
+    type: claim
+    section: "Business Capabilities"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "Predictive Operational Resilience: 24/7 autonomous risk management through agents that continuously monitor and predict operational disruptions."
+    type: claim
+    section: "Business Capabilities"
+    position: 11
+    source_format: bullet
+
+  # -- Excellence-Focused --
+
+  - id: seg-012
+    text: "Autonomous Process Execution: Agents execute business processes at machine speed with consistent quality, removing human bottlenecks from routine workflows."
+    type: claim
+    section: "Business Capabilities"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Transboundary Orchestration: Agents orchestrate work across organizational silos, breaking down departmental boundaries that limit traditional process automation."
+    type: claim
+    section: "Business Capabilities"
+    position: 13
+    source_format: bullet
+
+  # ============================================================
+  # 11-LAYER ARCHITECTURE FRAMEWORK
+  # ============================================================
+
+  - id: seg-014
+    text: "11-Layer Architecture Framework"
+    type: noise
+    section: "Architecture"
+    position: 14
+    source_format: heading
+
+  - id: seg-015
+    text: "The document introduces an expanded IT architecture replacing traditional 5-layer models with an 11-layer framework designed for the agentic enterprise."
+    type: claim
+    section: "Architecture"
+    position: 15
+    source_format: prose
+
+  # -- Layer 1: Experience --
+
+  - id: seg-016
+    text: "Layer 1 — Experience Layer: Multimodal human interfaces providing conversational AI, attribution transparency, proactive notifications, omnichannel experiences, and context-aware personalization."
+    type: definition
+    section: "Architecture"
+    position: 16
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 1
+
+  - id: seg-017
+    text: "The Experience Layer enables humans to interact with agents through natural language, visual interfaces, and proactive alerts rather than traditional form-based UIs."
+    type: claim
+    section: "Architecture"
+    position: 17
+    source_format: prose
+
+  # -- Layer 2: Agentic --
+
+  - id: seg-018
+    text: "Layer 2 — Agentic Layer: Agent lifecycle management including runtime environments, reasoning engines, memory stores, interoperability protocols, and tool registries."
+    type: definition
+    section: "Architecture"
+    position: 18
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 2
+
+  - id: seg-019
+    text: "The Agentic Layer manages the full lifecycle of AI agents from creation through deployment, execution, and retirement, providing the core runtime for autonomous operations."
+    type: claim
+    section: "Architecture"
+    position: 19
+    source_format: prose
+
+  # -- Layer 3: AI/ML --
+
+  - id: seg-020
+    text: "Layer 3 — AI/ML Layer: Centralized intelligence hub managing foundation models, RAG pipelines, trust/safety frameworks, model gateways, development workbenches, and serving infrastructure."
+    type: definition
+    section: "Architecture"
+    position: 20
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 3
+
+  - id: seg-021
+    text: "AI agents fundamentally rely on AI models, requiring sophisticated lifecycle management separate from traditional application architecture."
+    type: claim
+    section: "Architecture"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "AI models should be treated as shared enterprise capabilities with unified lifecycle tooling and governance, not embedded within individual applications."
+    type: recommendation
+    section: "Architecture"
+    position: 22
+    source_format: prose
+
+  # -- Layer 4: Enterprise Orchestration --
+
+  - id: seg-023
+    text: "Layer 4 — Enterprise Orchestration Layer: Blended orchestration combining decentralized choreography with centralized oversight, process governance, shared memory management, and digital twin capabilities."
+    type: definition
+    section: "Architecture"
+    position: 23
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 4
+
+  - id: seg-024
+    text: "Agents need novel orchestration capabilities for complex, dynamic workflows — capabilities that exceed existing automation tools designed for linear, deterministic processes."
+    type: claim
+    section: "Architecture"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Hybrid orchestration combines centralized governance with decentralized agent choreography, allowing agents to coordinate autonomously within governed boundaries."
+    type: claim
+    section: "Architecture"
+    position: 25
+    source_format: prose
+
+  # -- Layer 5: Application & App Services --
+
+  - id: seg-026
+    text: "Layer 5 — Application & App Services Layer: Modular application services exposing business logic as composable tools, with agent embedding SDKs and dynamic UI generation."
+    type: definition
+    section: "Architecture"
+    position: 26
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 5
+
+  - id: seg-027
+    text: "Business logic must be exposed as composable, agent-consumable tools rather than locked inside monolithic applications."
+    type: recommendation
+    section: "Architecture"
+    position: 27
+    source_format: prose
+
+  # -- Layer 6: Semantic --
+
+  - id: seg-028
+    text: "Layer 6 — Semantic Layer: Enterprise Knowledge Graph (EKG) providing unified data understanding through metadata services, business glossaries, semantic models, and reasoning engines."
+    type: definition
+    section: "Architecture"
+    position: 28
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 6
+
+  - id: seg-029
+    text: "Enterprise Knowledge Graphs are critical for providing unified semantic understanding across domains, enabling agents to reason over enterprise concepts consistently."
+    type: claim
+    section: "Architecture"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Agents need common semantic functionality across organizational silos to operate effectively in multi-domain contexts."
+    type: claim
+    section: "Architecture"
+    position: 30
+    source_format: prose
+
+  # -- Layer 7: Data --
+
+  - id: seg-031
+    text: "Layer 7 — Data Layer: Unified data foundation featuring vector databases, data lakehouses, zero-copy federation, master data management, and AI-specialized stores."
+    type: definition
+    section: "Architecture"
+    position: 31
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 7
+
+  - id: seg-032
+    text: "The Data Layer provides the unified data foundation that agents require, including specialized AI-ready stores like vector databases alongside traditional data infrastructure."
+    type: claim
+    section: "Architecture"
+    position: 32
+    source_format: prose
+
+  # -- Layer 8: Infrastructure --
+
+  - id: seg-033
+    text: "Layer 8 — Infrastructure Layer: Cloud-native compute supporting elastic scaling, hybrid/multi-cloud deployment, edge AI, self-healing systems, and sustainable computing."
+    type: definition
+    section: "Architecture"
+    position: 33
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 8
+
+  # -- Layer 9: Integration --
+
+  - id: seg-034
+    text: "Layer 9 — Integration Layer: Universal communication fabric with API management, service mesh, event-driven integration, and capability catalog/marketplace."
+    type: definition
+    section: "Architecture"
+    position: 34
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 9
+
+  - id: seg-035
+    text: "The Integration Layer provides the universal communication fabric that enables agents to discover, connect to, and consume enterprise services and external capabilities."
+    type: claim
+    section: "Architecture"
+    position: 35
+    source_format: prose
+
+  # -- Layer 10: IT Operations & Observability --
+
+  - id: seg-036
+    text: "Layer 10 — IT Operations & Observability Layer: Real-time monitoring, FinOps, agent-specific monitoring, AIOps, closed learning feedback loops, and semantic observability."
+    type: definition
+    section: "Architecture"
+    position: 36
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 10
+
+  - id: seg-037
+    text: "Non-deterministic AI agent behavior requires fundamentally different observability approaches compared to traditional deterministic systems."
+    type: claim
+    section: "Architecture"
+    position: 37
+    source_format: prose
+
+  # -- Layer 11: Security & Governance --
+
+  - id: seg-038
+    text: "Layer 11 — Security & Governance Layer: Trust embedding through zero-trust architecture, LLM guardrails, agent security frameworks, model security, privacy-preserving AI, policy-as-code, and continuous red-teaming."
+    type: definition
+    section: "Architecture"
+    position: 38
+    source_format: bullet
+    metadata:
+      framework: "11-Layer Agentic Enterprise Architecture"
+      layer_number: 11
+
+  - id: seg-039
+    text: "Security must be embedded throughout the architecture as a foundational concern, not bolted on as an afterthought, especially given the autonomous decision-making capabilities of agents."
+    type: recommendation
+    section: "Architecture"
+    position: 39
+    source_format: prose
+
+  # ============================================================
+  # EIGHT DESIGN PRINCIPLES
+  # ============================================================
+
+  - id: seg-040
+    text: "Eight Design Principles"
+    type: noise
+    section: "Design Principles"
+    position: 40
+    source_format: heading
+
+  - id: seg-041
+    text: "Principle 1 — Composability and modularity: Standardized interfaces enabling rapid assembly and reassembly of architectural components and agent capabilities."
+    type: recommendation
+    section: "Design Principles"
+    position: 41
+    source_format: bullet
+
+  - id: seg-042
+    text: "Principle 2 — Data and semantic first: Comprehensive data access with shared semantic understanding must be established before deploying agents at scale."
+    type: recommendation
+    section: "Design Principles"
+    position: 42
+    source_format: bullet
+
+  - id: seg-043
+    text: "Principle 3 — IT and business observability embedded: End-to-end monitoring is essential for non-deterministic AI systems where outcomes are probabilistic rather than predictable."
+    type: recommendation
+    section: "Design Principles"
+    position: 43
+    source_format: bullet
+
+  - id: seg-044
+    text: "Principle 4 — Trust-throughout: Dynamic permissions, comprehensive validation, and audit trails must be woven into every layer of the architecture."
+    type: recommendation
+    section: "Design Principles"
+    position: 44
+    source_format: bullet
+
+  - id: seg-045
+    text: "Principle 5 — Agent-first with human oversight: Agents should be the default tool approach for executing work, with human intervention capability preserved for high-stakes decisions."
+    type: recommendation
+    section: "Design Principles"
+    position: 45
+    source_format: bullet
+
+  - id: seg-046
+    text: "Principle 6 — Reactive and multimodal interaction: Event-driven and real-time processing across multiple data formats and interaction modalities."
+    type: recommendation
+    section: "Design Principles"
+    position: 46
+    source_format: bullet
+
+  - id: seg-047
+    text: "Principle 7 — AI-ready infrastructure: Elastic scaling with ML/LLM pipeline integration, ensuring compute resources match the dynamic demands of agent workloads."
+    type: recommendation
+    section: "Design Principles"
+    position: 47
+    source_format: bullet
+
+  - id: seg-048
+    text: "Principle 8 — Open ecosystem: Interoperability through open standards (MCP, A2A protocols) and well-defined interfaces to avoid vendor lock-in."
+    type: recommendation
+    section: "Design Principles"
+    position: 48
+    source_format: bullet
+
+  - id: seg-049
+    text: "Open standards and interoperability (MCP, A2A protocols) are essential to avoid vendor lock-in and enable a heterogeneous agent ecosystem."
+    type: claim
+    section: "Design Principles"
+    position: 49
+    source_format: prose
+
+  # ============================================================
+  # FOUR-STAGE MATURITY ROADMAP
+  # ============================================================
+
+  - id: seg-050
+    text: "Four-Stage Maturity Roadmap"
+    type: noise
+    section: "Maturity Model"
+    position: 50
+    source_format: heading
+
+  - id: seg-051
+    text: "Organizations should establish foundation layers (data governance, semantic models, AI/ML centralization, observability) before deploying agents at scale."
+    type: recommendation
+    section: "Maturity Model"
+    position: 51
+    source_format: prose
+
+  - id: seg-052
+    text: "Level 1 — Information Retrieval Agents: Trustworthy data-to-agent pipelines with VectorDB, Model Gateway, business glossaries, and transparency UI. Agents retrieve and surface information but do not take autonomous actions."
+    type: definition
+    section: "Maturity Model"
+    position: 52
+    source_format: bullet
+    metadata:
+      framework: "4-Stage Agentic Maturity Model"
+      level: 1
+
+  - id: seg-053
+    text: "Level 2 — Simple Orchestration, Single Domain: Modular application services with action execution, agent reasoning, security frameworks, and domain-specific custom models. Agents begin executing actions within a single business domain."
+    type: definition
+    section: "Maturity Model"
+    position: 53
+    source_format: bullet
+    metadata:
+      framework: "4-Stage Agentic Maturity Model"
+      level: 2
+
+  - id: seg-054
+    text: "Level 3 — Multi-Domain Orchestration: Cross-cutting enterprise architecture featuring Enterprise Knowledge Graph, event-driven integration fabric, AIOps, and policy-as-code. Agents coordinate across multiple business domains."
+    type: definition
+    section: "Maturity Model"
+    position: 54
+    source_format: bullet
+    metadata:
+      framework: "4-Stage Agentic Maturity Model"
+      level: 3
+
+  - id: seg-055
+    text: "Level 4 — Multi-Agent, Multi-Domain: Self-improving autonomous systems with agent self-reflection, closed learning feedback loops, digital twin process modeling, and composable capability catalogs. Multiple agents collaborate across the entire enterprise."
+    type: definition
+    section: "Maturity Model"
+    position: 55
+    source_format: bullet
+    metadata:
+      framework: "4-Stage Agentic Maturity Model"
+      level: 4
+
+  - id: seg-056
+    text: "The maturity model recommends a phased approach, starting with information retrieval (Level 1), progressing through single-domain orchestration (Level 2), then multi-domain orchestration (Level 3), before achieving full multi-agent enterprise orchestration (Level 4)."
+    type: recommendation
+    section: "Maturity Model"
+    position: 56
+    source_format: prose
+
+  # ============================================================
+  # KEY ARCHITECTURAL CLAIMS
+  # ============================================================
+
+  - id: seg-057
+    text: "Traditional enterprise IT architecture cannot support widespread AI agent deployment due to information silos, manual work dependencies, and misaligned organizational incentives."
+    type: claim
+    section: "Key Claims"
+    position: 57
+    source_format: prose
+
+  - id: seg-058
+    text: "Traditional 5-layer IT architecture models are insufficient for the agentic enterprise and must be expanded to 11 layers."
+    type: claim
+    section: "Key Claims"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "The Semantic Layer (Enterprise Knowledge Graph) is the most critical differentiator between traditional and agentic architectures, providing the shared understanding that agents need to operate across domains."
+    type: claim
+    section: "Key Claims"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "Hybrid orchestration — combining centralized governance with decentralized agent choreography — is the correct orchestration model for agentic enterprises."
+    type: claim
+    section: "Key Claims"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "Agent-based architectures require fundamentally different observability, security, and governance approaches compared to deterministic application architectures."
+    type: claim
+    section: "Key Claims"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "AI models should be managed as shared enterprise capabilities, not embedded within individual applications, requiring a dedicated AI/ML layer separate from the application layer."
+    type: claim
+    section: "Key Claims"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "Enterprise architects drive the transformation to agentic enterprises through strategic investment decisions that enable organizations to realize the value from new business capabilities."
+    type: claim
+    section: "Key Claims"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "The 3-5 year timeframe for agentic enterprise transformation reflects the scale of foundational changes needed in data, semantics, and infrastructure before agents can operate at scale."
+    type: claim
+    section: "Key Claims"
+    position: 64
+    source_format: prose

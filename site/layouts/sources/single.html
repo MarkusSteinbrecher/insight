@@ -1,0 +1,172 @@
+{{ define "main" }}
+<style>
+  main.prose { max-width: 1200px !important; }
+</style>
+<div class="sources-layout">
+  <h1>{{ .Title }}</h1>
+  <p class="text-sm opacity-60" id="sources-meta"></p>
+
+  <div class="sources-table-wrap">
+    <table class="sources-table" id="sources-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Type</th>
+          <th>Source Date</th>
+          <th>Relevance</th>
+        </tr>
+      </thead>
+      <tbody id="sources-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<style>
+  .sources-table-wrap {
+    overflow-x: auto;
+    margin-top: 1rem;
+  }
+  .sources-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  .sources-table th {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 2px solid rgba(0,0,0,0.12);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.7;
+    white-space: nowrap;
+  }
+  .sources-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    vertical-align: top;
+  }
+  .sources-table tbody tr:hover {
+    background: rgba(0,0,0,0.02);
+  }
+  .sources-table td a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,0.2);
+    text-underline-offset: 2px;
+  }
+  .sources-table td a:hover {
+    text-decoration-color: currentColor;
+  }
+  .source-type {
+    display: inline-block;
+    padding: 0.1rem 0.4rem;
+    border-radius: 9999px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    background: rgba(0,0,0,0.06);
+  }
+  .source-type.paper { background: #dbeafe; color: #1e40af; }
+  .source-type.report { background: #fef3c7; color: #92400e; }
+  .source-type.blog { background: #d1fae5; color: #065f46; }
+  .source-type.article { background: #ede9fe; color: #5b21b6; }
+  .relevance-dots {
+    white-space: nowrap;
+    letter-spacing: 2px;
+  }
+  /* Dark mode */
+  .dark .sources-table th {
+    border-bottom-color: rgba(255,255,255,0.15);
+  }
+  .dark .sources-table td {
+    border-bottom-color: rgba(255,255,255,0.06);
+  }
+  .dark .sources-table tbody tr:hover {
+    background: rgba(255,255,255,0.03);
+  }
+  .dark .sources-table td a {
+    text-decoration-color: rgba(255,255,255,0.25);
+  }
+  .dark .source-type { background: rgba(255,255,255,0.08); }
+  .dark .source-type.paper { background: #1e3a5f; color: #93c5fd; }
+  .dark .source-type.report { background: #451a03; color: #fcd34d; }
+  .dark .source-type.blog { background: #064e3b; color: #6ee7b7; }
+  .dark .source-type.article { background: #2e1065; color: #c4b5fd; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("{{ "data/sources.json" | absURL }}")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var meta = document.getElementById("sources-meta");
+      meta.textContent = "Topic: " + data.topic + " · " + data.sources.length + " sources · Status: " + data.status + " · Updated: " + data.updated;
+
+      var tbody = document.getElementById("sources-tbody");
+      data.sources.forEach(function (s, i) {
+        var tr = document.createElement("tr");
+
+        // #
+        var tdNum = document.createElement("td");
+        tdNum.textContent = i + 1;
+        tdNum.style.opacity = "0.4";
+        tr.appendChild(tdNum);
+
+        // Title (linked)
+        var tdTitle = document.createElement("td");
+        if (s.url) {
+          var a = document.createElement("a");
+          a.href = s.url;
+          a.target = "_blank";
+          a.rel = "noopener";
+          a.textContent = s.title;
+          tdTitle.appendChild(a);
+        } else {
+          tdTitle.textContent = s.title;
+        }
+        tr.appendChild(tdTitle);
+
+        // Author
+        var tdAuthor = document.createElement("td");
+        tdAuthor.textContent = s.author || "—";
+        tdAuthor.style.whiteSpace = "nowrap";
+        tr.appendChild(tdAuthor);
+
+        // Type
+        var tdType = document.createElement("td");
+        var typeSpan = document.createElement("span");
+        typeSpan.className = "source-type " + (s.type || "");
+        typeSpan.textContent = s.type || "—";
+        tdType.appendChild(typeSpan);
+        tr.appendChild(tdType);
+
+        // Source Date
+        var tdDate = document.createElement("td");
+        tdDate.textContent = s.date || "—";
+        tdDate.style.whiteSpace = "nowrap";
+        tr.appendChild(tdDate);
+
+        // Relevance (dots)
+        var tdRel = document.createElement("td");
+        var dots = "";
+        for (var d = 0; d < 5; d++) {
+          dots += d < s.relevance ? "●" : "○";
+        }
+        tdRel.className = "relevance-dots";
+        tdRel.textContent = dots;
+        tr.appendChild(tdRel);
+
+        tbody.appendChild(tr);
+      });
+    })
+    .catch(function (err) {
+      console.error("Failed to load sources:", err);
+    });
+});
+</script>
+{{ end }}

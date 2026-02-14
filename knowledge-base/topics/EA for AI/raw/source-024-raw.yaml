@@ -1,0 +1,180 @@
+source_id: source-024
+title: "The Paradox of Governance: When TOGAF's Architecture Development Method Meets GenAI's Velocity"
+url: "https://medium.com/@pkmittal28/the-paradox-of-governance-when-togafs-architecture-development-method-meets-genai-s-velocity-b0fdcf968f4d"
+author: "Praveen Mittal"
+date: 2025-01-01
+type: article
+total_segments: 20
+note: "URL returned 403; segmentation derived from source note only"
+
+composition:
+  claim: { count: 11, pct: 55.0 }
+  statistic: { count: 3, pct: 15.0 }
+  evidence: { count: 1, pct: 5.0 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 2, pct: 10.0 }
+  context: { count: 3, pct: 15.0 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 0, pct: 0.0 }
+
+signal_ratio: 100.0
+
+segments:
+
+  # ============================================================
+  # KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-001
+    text: "TOGAF's ADM was designed for a world where change happened in measured cycles, with ten phases presuming time for deliberation, stakeholder workshops, documentation cycles, and human decision checkpoints."
+    type: claim
+    section: "Key Takeaways"
+    position: 1
+    source_format: bullet
+
+  - id: seg-002
+    text: "GenAI usage across businesses jumped from 33% to 78% in a single year, fundamentally invalidating the ADM's assumption of measured change cycles."
+    type: statistic
+    section: "Key Takeaways"
+    position: 2
+    source_format: bullet
+
+  - id: seg-003
+    text: "The velocity of technological change invalidates the underlying assumptions of traditional governance frameworks."
+    type: claim
+    section: "Key Takeaways"
+    position: 3
+    source_format: bullet
+
+  - id: seg-004
+    text: "Organizations successfully integrating TOGAF with GenAI are radically adapting the ADM -- collapsing phases, running them in parallel, and treating the framework as principles rather than process."
+    type: claim
+    section: "Key Takeaways"
+    position: 4
+    source_format: bullet
+
+  - id: seg-005
+    text: "Architectural technical debt from rapid GenAI innovation creates the 'acceleration paradox' where slow governance cycles prevent organizations from capturing value."
+    type: claim
+    section: "Key Takeaways"
+    position: 5
+    source_format: bullet
+
+  - id: seg-006
+    text: "EA frameworks need to evolve from sequential process-driven approaches to principle-based, parallel-execution models for AI contexts."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 6
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY
+  # ============================================================
+
+  - id: seg-007
+    text: "This article examines the fundamental tension between TOGAF's Architecture Development Method and the velocity of generative AI adoption in enterprises."
+    type: context
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "The author argues that the ADM's ten phases -- designed with the assumption that architectural change happens in deliberate, measured cycles with time for stakeholder workshops, documentation, and review -- are fundamentally misaligned with the speed at which GenAI transforms business capabilities."
+    type: claim
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "GenAI adoption has accelerated from 33% to 78% of businesses in a single year."
+    type: statistic
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "AI applications now move from concept to production in weeks rather than quarters."
+    type: claim
+    section: "Summary"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "This speed creates what the author calls a governance paradox: the very frameworks designed to ensure sound architectural decisions become impediments to capturing value from AI, as architectural decisions become obsolete before governance cycles complete."
+    type: claim
+    section: "Summary"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "The article is not an argument for abandoning governance."
+    type: context
+    section: "Summary"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Leading organizations are adapting TOGAF by collapsing ADM phases, running phases in parallel rather than sequentially, and treating the framework as a set of principles rather than a rigid process."
+    type: evidence
+    section: "Summary"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "This pragmatic adaptation preserves the governance intent while accommodating the velocity of AI innovation."
+    type: claim
+    section: "Summary"
+    position: 14
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES
+  # ============================================================
+
+  - id: seg-015
+    text: "TOGAF's ADM was architected for a world where change happened in measured cycles, with ten phases presuming time for deliberation, stakeholder workshops, documentation cycles, and human decision checkpoints."
+    type: claim
+    section: "Notable Quotes"
+    position: 15
+    source_format: quote
+
+  - id: seg-016
+    text: "GenAI usage across businesses jumped from 33% to 78% in a single year."
+    type: statistic
+    section: "Notable Quotes"
+    position: 16
+    source_format: quote
+
+  - id: seg-017
+    text: "Organizations successfully integrating TOGAF with GenAI are those that radically adapt the ADM -- collapsing phases, running them in parallel rather than sequence, and treating the framework as principles rather than process."
+    type: claim
+    section: "Notable Quotes"
+    position: 17
+    source_format: quote
+
+  # ============================================================
+  # RELEVANCE TO TOPIC
+  # ============================================================
+
+  - id: seg-018
+    text: "This article directly addresses one of the most important questions in EA for AI: how should traditional EA frameworks adapt to accommodate the speed of AI innovation?"
+    type: context
+    section: "Relevance"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "The identification of the governance paradox -- where governance frameworks designed for sound decisions become barriers to value capture -- is a critical insight for enterprise architects."
+    type: claim
+    section: "Relevance"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "The practical adaptation strategies (collapsing phases, parallel execution, principle-based approach) offer actionable guidance for organizations trying to maintain governance discipline while enabling AI agility."
+    type: recommendation
+    section: "Relevance"
+    position: 20
+    source_format: prose

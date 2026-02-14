@@ -1,0 +1,303 @@
+source_id: source-016
+title: "7 Architecture Considerations for Generative AI"
+url: "https://www.accenture.com/us-en/blogs/cloud-computing/7-generative-ai-architecture-considerations"
+author: "Accenture (Atish Ray, Chief AI Architect)"
+date: 2023-06-04
+type: article
+total_segments: 37
+note: "Segmented from source note only; original URL could not be fetched at time of processing."
+
+composition:
+  claim: { count: 19, pct: 51.4 }
+  recommendation: { count: 5, pct: 13.5 }
+  noise: { count: 4, pct: 10.8 }
+  definition: { count: 3, pct: 8.1 }
+  context: { count: 3, pct: 8.1 }
+  attribution: { count: 2, pct: 5.4 }
+  evidence: { count: 1, pct: 2.7 }
+  statistic: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+
+signal_ratio: 89.2
+
+segments:
+
+  # ============================================================
+  # KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-001
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Gen AI fundamentally changes enterprise architecture: instead of hundreds of purpose-built AI models, organizations can fine-tune a small collection of pre-trained foundation models."
+    type: claim
+    section: "Key Takeaways"
+    position: 2
+    source_format: bullet
+
+  - id: seg-003
+    text: "Seven key architectural questions: (1) which foundation model, (2) how to access/deploy models, (3) how to adapt models to proprietary data, (4) overall enterprise readiness, (5) environmental impact, (6) how to industrialize Gen AI app development, (7) how to manage the entire Gen AI lifecycle."
+    type: claim
+    section: "Key Takeaways"
+    position: 3
+    source_format: bullet
+
+  - id: seg-004
+    text: "Model access has two principal approaches: 'full control' (deploy on own infrastructure) vs. 'speed and simplicity' (managed cloud service)."
+    type: claim
+    section: "Key Takeaways"
+    position: 4
+    source_format: bullet
+
+  - id: seg-005
+    text: "Data adaptation follows 'buy, build, or boost' — off-the-shelf with in-context learning, fine-tuning with own data, or building ground-up."
+    type: definition
+    section: "Key Takeaways"
+    position: 5
+    source_format: bullet
+
+  - id: seg-006
+    text: "A modern data foundation as part of the enterprise digital core is a prerequisite for extracting value from Gen AI."
+    type: claim
+    section: "Key Takeaways"
+    position: 6
+    source_format: bullet
+
+  - id: seg-007
+    text: "Enterprise readiness requires addressing security, reliability, responsibility, integration/interoperability, and trust — including Responsible AI governance."
+    type: claim
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+
+  - id: seg-008
+    text: "Environmental impact of AI must be considered upfront, especially for pre-training and fine-tuning at scale."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+
+  - id: seg-009
+    text: "Industrializing Gen AI requires new frameworks: vector databases, domain knowledge graphs, prompt management, and orchestration layers."
+    type: claim
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY
+  # ============================================================
+
+  - id: seg-010
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "Written in June 2023 during the early wave of enterprise generative AI adoption, this Accenture article presents seven foundational architectural questions that business leaders must address to scale Gen AI securely, responsibly, and cost-effectively."
+    type: context
+    section: "Summary"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Accenture's Chief AI Architect Atish Ray frames the core architectural shift: when pre-trained foundation models replace hundreds of purpose-built models, the emphasis shifts from data science to domain expertise, and the architecture must change accordingly."
+    type: claim
+    section: "Summary"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "The seven considerations span the full stack: model selection (pure-play vendors, open source, hyperscaler-hosted), deployment approach (self-hosted vs. managed service), data adaptation strategy ('buy, build, or boost'), enterprise readiness (security, trust, Responsible AI), environmental impact (energy consumption of training and fine-tuning), industrialization of AI app development (vector databases, knowledge graphs, orchestration), and lifecycle management (monitoring, versioning, retraining)."
+    type: context
+    section: "Summary"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "Each consideration has distinct architectural implications."
+    type: claim
+    section: "Summary"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "Enterprise readiness goes beyond technical requirements to encompass trust and Responsible AI governance."
+    type: claim
+    section: "Summary"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "The article argues that adopting Gen AI is an ideal time to review overall AI governance standards and operating models."
+    type: recommendation
+    section: "Summary"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "The environmental consideration — often overlooked in enterprise architecture discussions — adds an important sustainability dimension."
+    type: claim
+    section: "Summary"
+    position: 17
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES
+  # ============================================================
+
+  - id: seg-018
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 18
+    source_format: heading
+
+  - id: seg-019
+    text: "Like any new foundational technology, you need to make sure you can scale Gen AI securely, responsibly, cost-effectively and in a way that delivers real value to the business."
+    type: attribution
+    section: "Notable Quotes"
+    position: 19
+    source_format: quote
+
+  - id: seg-020
+    text: "The emphasis shifts from data science to domain expertise. And that's something every successful business has in abundance."
+    type: attribution
+    section: "Notable Quotes"
+    position: 20
+    source_format: quote
+
+  # ============================================================
+  # RELEVANCE TO TOPIC
+  # ============================================================
+
+  - id: seg-021
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "This article provides a practical, action-oriented framework for enterprise architects evaluating generative AI readiness."
+    type: claim
+    section: "Relevance to Topic"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "The seven-question structure maps well to TOGAF's architecture development method phases and provides concrete decision frameworks for each layer of the AI technology stack."
+    type: claim
+    section: "Relevance to Topic"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "While written early in the Gen AI cycle (June 2023), the fundamental architectural questions remain relevant and have been validated by subsequent enterprise adoption patterns."
+    type: evidence
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The 'buy, build, or boost' model adaptation framework and the emphasis on modern data foundations as prerequisites are particularly useful for EA practitioners."
+    type: recommendation
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  # ============================================================
+  # INFERRED CONTENT: 7 ARCHITECTURE CONSIDERATIONS (from takeaways and summary)
+  # ============================================================
+
+  - id: seg-026
+    text: "Consideration 1 — Which Foundation Model: Organizations must choose between pure-play AI vendors, open-source models, and hyperscaler-hosted models when selecting their foundation model."
+    type: claim
+    section: "Architecture Considerations (inferred)"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Consideration 2 — How to Access/Deploy Models: The deployment approach ranges from 'full control' by deploying on own infrastructure to 'speed and simplicity' via managed cloud services."
+    type: definition
+    section: "Architecture Considerations (inferred)"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Consideration 3 — How to Adapt Models to Proprietary Data: Data adaptation strategy follows 'buy, build, or boost' — using off-the-shelf models with in-context learning, fine-tuning with proprietary data, or building from the ground up."
+    type: definition
+    section: "Architecture Considerations (inferred)"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Consideration 4 — Overall Enterprise Readiness: Enterprise readiness encompasses security, reliability, responsibility, integration/interoperability, and trust, including Responsible AI governance frameworks."
+    type: claim
+    section: "Architecture Considerations (inferred)"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Consideration 5 — Environmental Impact: The energy consumption of pre-training and fine-tuning foundation models at scale must be factored into architectural decisions."
+    type: claim
+    section: "Architecture Considerations (inferred)"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Consideration 6 — How to Industrialize Gen AI App Development: Industrializing Gen AI application development requires new architectural components including vector databases, domain knowledge graphs, prompt management systems, and orchestration layers."
+    type: claim
+    section: "Architecture Considerations (inferred)"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Consideration 7 — How to Manage the Entire Gen AI Lifecycle: The full Gen AI lifecycle requires governance over monitoring, versioning, and retraining of models."
+    type: claim
+    section: "Architecture Considerations (inferred)"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "When pre-trained foundation models replace hundreds of purpose-built models, the emphasis shifts from data science to domain expertise."
+    type: claim
+    section: "Architecture Considerations (inferred)"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "Adopting Gen AI is an ideal time to review overall AI governance standards and operating models."
+    type: recommendation
+    section: "Architecture Considerations (inferred)"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "A modern data foundation as part of the enterprise digital core is a prerequisite for extracting value from Gen AI."
+    type: claim
+    section: "Architecture Considerations (inferred)"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Model selection options include pure-play vendors, open source models, and hyperscaler-hosted models, each with different architectural trade-offs."
+    type: context
+    section: "Architecture Considerations (inferred)"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "Security, trust, and Responsible AI governance must be addressed as part of enterprise AI readiness rather than as afterthoughts."
+    type: recommendation
+    section: "Architecture Considerations (inferred)"
+    position: 37
+    source_format: prose

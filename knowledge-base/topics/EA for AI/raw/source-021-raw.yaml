@@ -1,0 +1,398 @@
+source_id: source-021
+title: "The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates"
+url: "https://arxiv.org/abs/2602.11301"
+author: "John M. Willis"
+date: 2026-02-11
+type: paper
+note: "Full paper (43 pages + 12 appendices) not available in HTML; segmented from arXiv abstract and source note"
+total_segments: 48
+
+composition:
+  claim: { count: 27, pct: 56.2 }
+  context: { count: 5, pct: 10.4 }
+  definition: { count: 5, pct: 10.4 }
+  evidence: { count: 3, pct: 6.2 }
+  recommendation: { count: 2, pct: 4.2 }
+  methodology: { count: 2, pct: 4.2 }
+  statistic: { count: 1, pct: 2.1 }
+  example: { count: 1, pct: 2.1 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 2, pct: 4.2 }
+
+signal_ratio: 95.8
+
+segments:
+
+  # ============================================================
+  # TITLE
+  # ============================================================
+
+  - id: seg-001
+    text: "The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # ============================================================
+  # ABSTRACT (from arXiv API)
+  # ============================================================
+
+  - id: seg-002
+    text: "Abstract"
+    type: noise
+    section: "Abstract"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Enterprises are rapidly deploying large language models, retrieval augmented generation pipelines, and tool using agents into production, often on shared high performance computing clusters and cloud accelerator platforms that also support defensive analytics."
+    type: context
+    section: "Abstract"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "These systems increasingly function not as isolated models but as AI estates: socio technical systems spanning models, agents, data pipelines, security tooling, human workflows, and hyperscale infrastructure."
+    type: definition
+    section: "Abstract"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "Existing governance and security frameworks, including the NIST AI Risk Management Framework and systems security engineering guidance, articulate principles and risk functions but do not provide implementable architectures for multi agent, AI enabled cyber defense."
+    type: claim
+    section: "Abstract"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "This paper introduces the Practitioners Blueprint for Secure AI (PBSAI) Governance Ecosystem, a multi agent reference architecture for securing enterprise and hyperscale AI estates."
+    type: context
+    section: "Abstract"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "PBSAI organizes responsibilities into a twelve domain taxonomy and defines bounded agent families that mediate between tools and policy through shared context envelopes and structured output contracts."
+    type: claim
+    section: "Abstract"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "The architecture assumes baseline enterprise security capabilities and encodes key systems security techniques, including analytic monitoring, coordinated defense, and adaptive response."
+    type: claim
+    section: "Abstract"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "A lightweight formal model of agents, context envelopes, and ecosystem level invariants clarifies the traceability, provenance, and human in the loop guarantees enforced across domains."
+    type: methodology
+    section: "Abstract"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "We demonstrate alignment with NIST AI RMF functions and illustrate application in enterprise SOC and hyperscale defensive environments."
+    type: evidence
+    section: "Abstract"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "PBSAI is proposed as a structured, evidence centric foundation for open ecosystem development and future empirical validation."
+    type: claim
+    section: "Abstract"
+    position: 11
+    source_format: prose
+
+  # ============================================================
+  # KEY TAKEAWAYS (from source note - bullet list)
+  # ============================================================
+
+  - id: seg-012
+    text: "Introduces the Practitioners Blueprint for Secure AI (PBSAI) Governance Ecosystem -- a multi-agent reference architecture specifically for securing enterprise AI estates."
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Defines a twelve-domain taxonomy for organizing AI governance responsibilities across the enterprise."
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Uses bounded agent families that mediate between tools and policy through shared context envelopes and structured output contracts."
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Provides a lightweight formal model of agents, context envelopes, and ecosystem-level invariants for traceability, provenance, and human-in-the-loop guarantees."
+    type: methodology
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Demonstrates explicit alignment with NIST AI Risk Management Framework (AI RMF) functions."
+    type: evidence
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Addresses the gap that existing governance and security frameworks (including NIST AI RMF and systems security engineering guidance) do not provide implementable architectures for multi-agent, AI-enabled cyber defense."
+    type: claim
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "43 pages plus 12 pages of appendices -- a comprehensive treatment."
+    type: statistic
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY - Paragraph 1
+  # ============================================================
+
+  - id: seg-019
+    text: "The PBSAI Governance Ecosystem paper addresses a critical gap in enterprise AI: while frameworks like the NIST AI RMF provide governance principles, they do not offer implementable architectures for multi-agent, AI-enabled environments."
+    type: claim
+    section: "Summary"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "The paper proposes a reference architecture that organizes governance responsibilities into a twelve-domain taxonomy and defines bounded agent families that mediate between security tools and organizational policy."
+    type: claim
+    section: "Summary"
+    position: 20
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY - Paragraph 2
+  # ============================================================
+
+  - id: seg-021
+    text: "The architecture treats enterprise AI deployments as 'AI estates' -- socio-technical systems spanning models, agents, data pipelines, security tooling, human workflows, and hyperscale infrastructure."
+    type: definition
+    section: "Summary"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "PBSAI assumes baseline enterprise security capabilities and encodes key systems security techniques including analytic monitoring, coordinated defense, and adaptive response."
+    type: claim
+    section: "Summary"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "A distinctive feature is the use of shared context envelopes and structured output contracts between agent families, providing a formal mechanism for maintaining traceability, provenance, and human-in-the-loop guarantees across domains."
+    type: claim
+    section: "Summary"
+    position: 23
+    source_format: prose
+
+  # ============================================================
+  # SUMMARY - Paragraph 3
+  # ============================================================
+
+  - id: seg-024
+    text: "The paper demonstrates practical application in enterprise Security Operations Center (SOC) and hyperscale defensive environments, showing how the architecture maps to NIST AI RMF functions."
+    type: evidence
+    section: "Summary"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "This makes it one of the few academic works that bridges the gap between high-level AI governance frameworks and concrete, implementable enterprise architectures."
+    type: claim
+    section: "Summary"
+    position: 25
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES
+  # ============================================================
+
+  - id: seg-026
+    text: "Enterprises are rapidly deploying large language models, retrieval augmented generation pipelines, and tool-using agents into production on shared high-performance computing clusters, and these systems function as AI estates: socio-technical systems spanning models, agents, data pipelines, security tooling, human workflows, and hyperscale infrastructure."
+    type: definition
+    section: "Notable Quotes"
+    position: 26
+    source_format: quote
+
+  - id: seg-027
+    text: "Existing governance and security frameworks, including the NIST AI Risk Management Framework and systems security engineering guidance, do not provide implementable architectures for multi-agent, AI-enabled cyber defense."
+    type: claim
+    section: "Notable Quotes"
+    position: 27
+    source_format: quote
+
+  # ============================================================
+  # RELEVANCE TO TOPIC (analytical content reflecting paper)
+  # ============================================================
+
+  - id: seg-028
+    text: "This paper provides one of the most detailed and rigorous reference architectures for AI governance at the enterprise level."
+    type: claim
+    section: "Relevance to Topic"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "The twelve-domain taxonomy and bounded agent family model offer a concrete architectural pattern for organizations trying to operationalize AI governance."
+    type: claim
+    section: "Relevance to Topic"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "The explicit NIST AI RMF alignment and the concept of 'AI estates' as socio-technical systems are directly applicable to enterprise architecture practice."
+    type: claim
+    section: "Relevance to Topic"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "The paper bridges the gap between governance frameworks and implementable architecture -- exactly the intersection that EA for AI needs to address."
+    type: claim
+    section: "Relevance to Topic"
+    position: 31
+    source_format: prose
+
+  # ============================================================
+  # INFERRED CONTENT FROM PAPER STRUCTURE
+  # (Key concepts described in abstract and source note that
+  #  reflect substantive paper content)
+  # ============================================================
+
+  - id: seg-032
+    text: "The PBSAI twelve-domain taxonomy organizes AI governance responsibilities across the enterprise into distinct, bounded domains."
+    type: definition
+    section: "Inferred Architecture"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Bounded agent families are the core architectural unit, each responsible for a specific governance domain and mediating between security tools and organizational policy."
+    type: definition
+    section: "Inferred Architecture"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "Context envelopes serve as a shared communication mechanism between agent families, carrying provenance, traceability, and policy context."
+    type: claim
+    section: "Inferred Architecture"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Structured output contracts define the formal interface between agent families, ensuring consistent and verifiable outputs."
+    type: claim
+    section: "Inferred Architecture"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "The architecture provides ecosystem-level invariants that guarantee traceability across all governance domains."
+    type: claim
+    section: "Inferred Architecture"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "The architecture provides ecosystem-level invariants that guarantee provenance tracking across all governance domains."
+    type: claim
+    section: "Inferred Architecture"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "The architecture provides ecosystem-level invariants that guarantee human-in-the-loop oversight across all governance domains."
+    type: claim
+    section: "Inferred Architecture"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "PBSAI encodes analytic monitoring as a key systems security technique for AI estates."
+    type: claim
+    section: "Inferred Architecture"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "PBSAI encodes coordinated defense as a key systems security technique for AI estates."
+    type: claim
+    section: "Inferred Architecture"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "PBSAI encodes adaptive response as a key systems security technique for AI estates."
+    type: claim
+    section: "Inferred Architecture"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "The architecture assumes baseline enterprise security capabilities are already in place before PBSAI governance layers are applied."
+    type: context
+    section: "Inferred Architecture"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Enterprise AI estates span models, agents, data pipelines, security tooling, human workflows, and hyperscale infrastructure as an integrated socio-technical system."
+    type: context
+    section: "Inferred Architecture"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "The PBSAI architecture maps to NIST AI RMF functions including Govern, Map, Measure, and Manage."
+    type: claim
+    section: "Inferred Architecture"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "The architecture is demonstrated in enterprise Security Operations Center (SOC) environments as a practical application context."
+    type: example
+    section: "Inferred Architecture"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "The architecture is demonstrated in hyperscale defensive environments as a practical application context."
+    type: context
+    section: "Inferred Architecture"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "PBSAI is positioned as a foundation for open ecosystem development, inviting community contribution and extension."
+    type: recommendation
+    section: "Inferred Architecture"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "The paper calls for future empirical validation of the PBSAI architecture in real enterprise deployments."
+    type: recommendation
+    section: "Inferred Architecture"
+    position: 48
+    source_format: prose

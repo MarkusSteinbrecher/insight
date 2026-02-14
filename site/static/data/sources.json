@@ -1,0 +1,529 @@
+{
+  "topic": "Enterprise Architecture for AI",
+  "status": "synthesized",
+  "updated": "2026-02-14",
+  "sources": [
+    {
+      "id": "source-001",
+      "title": "Agentic AI-driven enterprise architecture: a foundational framework for scalable, secure, and resilient systems",
+      "url": "",
+      "author": "Prince Kumar",
+      "date": "2025-03-30",
+      "type": "paper",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "enterprise-architecture",
+        "agent-to-agent-communication",
+        "cybersecurity",
+        "operational-resilience",
+        "multi-agent-systems",
+        "LLM-orchestration",
+        "generative-ai",
+        "data-fabric",
+        "zero-trust"
+      ]
+    },
+    {
+      "id": "source-002",
+      "title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+      "url": "",
+      "author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+      "date": "2025-11-17",
+      "type": "paper",
+      "relevance": 4,
+      "tags": [
+        "agentic-ai",
+        "business-architecture",
+        "capability-modelling",
+        "enterprise-knowledge-graphs",
+        "multi-agent-systems",
+        "TOGAF",
+        "LLM"
+      ]
+    },
+    {
+      "id": "source-003",
+      "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "url": "",
+      "author": "Economist Impact (commissioned by Databricks)",
+      "date": "2024",
+      "type": "report",
+      "relevance": 5,
+      "tags": [
+        "enterprise-ai",
+        "data-architecture",
+        "AI-governance",
+        "GenAI-adoption",
+        "infrastructure",
+        "ROI",
+        "centres-of-excellence",
+        "data-engineering",
+        "enterprise-architecture"
+      ]
+    },
+    {
+      "id": "source-004",
+      "title": "From AI Pilots to Production Reality: Architecture Lessons from 2025 and What 2026 Demands",
+      "url": "https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/",
+      "author": "Nithin Mohan TK",
+      "date": "2026-01-01",
+      "type": "blog",
+      "relevance": 5,
+      "tags": [
+        "enterprise-ai",
+        "production-readiness",
+        "modular-architecture",
+        "AI-governance",
+        "FinOps",
+        "agentic-ai",
+        "RAG"
+      ]
+    },
+    {
+      "id": "source-005",
+      "title": "The Agentic Enterprise - The IT Architecture for the AI-Powered Future",
+      "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
+      "author": "Salesforce (Agentforce)",
+      "date": "2024",
+      "type": "report",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "enterprise-architecture",
+        "reference-architecture",
+        "knowledge-graphs",
+        "agent-orchestration",
+        "zero-trust",
+        "composable-architecture"
+      ]
+    },
+    {
+      "id": "source-006",
+      "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+      "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+      "author": "Morten Stender",
+      "date": "2025-10-21",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "enterprise-architecture",
+        "AI-governance",
+        "digital-twin",
+        "TOGAF",
+        "agentic-ai",
+        "cluster-governance",
+        "real-time-governance"
+      ]
+    },
+    {
+      "id": "source-007",
+      "title": "AI Automation in Enterprise Architecture: The Future of Digital Business Optimization",
+      "url": "https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/",
+      "author": "Carsten Krause",
+      "date": "2025-02-28",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "enterprise-architecture",
+        "TOGAF",
+        "AI-automation",
+        "hyperautomation",
+        "Gartner-TIME-model",
+        "agentic-ai",
+        "digital-transformation"
+      ]
+    },
+    {
+      "id": "source-008",
+      "title": "2026 Predictions: The Architecture, Governance, and AI Trends Every Enterprise Must Prepare For",
+      "url": "https://www.cloudera.com/blog/business/2026-predictions-the-architecture-governance-and-ai-trends-every-enterprise-must-prepare-for.html",
+      "author": "Cloudera",
+      "date": "2026-01-08",
+      "type": "blog",
+      "relevance": 4,
+      "tags": [
+        "enterprise-ai",
+        "data-architecture",
+        "AI-governance",
+        "agentic-ai",
+        "hybrid-infrastructure",
+        "predictions"
+      ]
+    },
+    {
+      "id": "source-009",
+      "title": "Enterprise Architecture Trends for 2026 \u2013 Key Outlook Shaping EA",
+      "url": "https://www.boc-group.com/en/blog/ea/ea-outlook-trends-2025/",
+      "author": "Felix Galanski",
+      "date": "2025-01-07",
+      "type": "article",
+      "relevance": 3,
+      "tags": [
+        "enterprise-architecture",
+        "AI-trends",
+        "sustainability",
+        "cloud-native",
+        "resilience",
+        "data-driven-decisions"
+      ]
+    },
+    {
+      "id": "source-010",
+      "title": "TOGAF-based Enterprise Architecture Framework for Utilizing Artificial Intelligence",
+      "url": "https://ieeexplore.ieee.org/document/10285801/",
+      "author": "Leni Fitriani, Masayu Leylia Khodra, Kridanto Surendro",
+      "date": "2023-10-04",
+      "type": "paper",
+      "relevance": 5,
+      "tags": [
+        "TOGAF",
+        "enterprise-architecture",
+        "AI-integration",
+        "framework",
+        "digital-transformation"
+      ]
+    },
+    {
+      "id": "source-011",
+      "title": "A Novel Enterprise Artificial Intelligence Architecture Framework (NAEF) for Business Capabilities to Decisions/Insights Analysis",
+      "url": "https://ieeexplore.ieee.org/document/10913304/",
+      "author": "Heru Purnomo Ipung",
+      "date": "2024-12-17",
+      "type": "paper",
+      "relevance": 4,
+      "tags": [
+        "enterprise-architecture",
+        "AI-framework",
+        "TOGAF",
+        "BADIR",
+        "data-driven-decisions",
+        "business-capabilities"
+      ]
+    },
+    {
+      "id": "source-012",
+      "title": "A Framework for Gen AI Adoption for Enterprises Leveraging Enterprise Architecture Patterns",
+      "url": "https://ieeexplore.ieee.org/document/11166932/",
+      "author": "Anant Wairagade, Vijay Govindarajan",
+      "date": "2025-08-09",
+      "type": "paper",
+      "relevance": 5,
+      "tags": [
+        "enterprise-architecture",
+        "generative-ai",
+        "SOA",
+        "event-driven-architecture",
+        "microservices",
+        "AI-adoption",
+        "legacy-integration"
+      ]
+    },
+    {
+      "id": "source-013",
+      "title": "Enterprise AI Convergence Architecture",
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html",
+      "author": "Deloitte US",
+      "date": "2024-12-01",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "convergence-architecture",
+        "enterprise-ai",
+        "closed-loop-intelligence",
+        "data-operations-unification",
+        "deloitte"
+      ]
+    },
+    {
+      "id": "source-014",
+      "title": "The Great Rebuild: How AI Is Re-Architecting the Tech Organization",
+      "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+      "author": "Deloitte Insights",
+      "date": "2025-12-09",
+      "type": "report",
+      "relevance": 5,
+      "tags": [
+        "ai-native-organization",
+        "tech-operating-model",
+        "enterprise-architecture",
+        "ai-architect-role",
+        "modularity",
+        "observability",
+        "deloitte"
+      ]
+    },
+    {
+      "id": "source-015",
+      "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+      "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+      "author": "Charles Betz and Stephane Vanrechem",
+      "date": "2025-04-02",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "augmented-architecture",
+        "real-time-ea",
+        "agentic-ai",
+        "ea-tooling",
+        "closed-loop-governance",
+        "architecture-graph",
+        "forrester"
+      ]
+    },
+    {
+      "id": "source-016",
+      "title": "7 Architecture Considerations for Generative AI",
+      "url": "https://www.accenture.com/us-en/blogs/cloud-computing/7-generative-ai-architecture-considerations",
+      "author": "Accenture (with Atish Ray, Chief AI Architect)",
+      "date": "2023-06-04",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "generative-ai-architecture",
+        "foundation-models",
+        "enterprise-readiness",
+        "data-architecture",
+        "responsible-ai",
+        "accenture"
+      ]
+    },
+    {
+      "id": "source-017",
+      "title": "How Agentic AI Elevates The Enterprise Architect's Role",
+      "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
+      "author": "Stephane Vanrechem",
+      "date": "2025-08-25",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "ea-role-evolution",
+        "digital-twins",
+        "knowledge-graphs",
+        "ea-tooling",
+        "forrester"
+      ]
+    },
+    {
+      "id": "source-018",
+      "title": "The Open Group EA Practitioners Conference 2026: Highlights from a Landmark Gathering",
+      "url": "https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/",
+      "author": "Ash Patel, The Open Group",
+      "date": "2026-02-10",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "togaf",
+        "open-group",
+        "ea-standards",
+        "ai-governance",
+        "sustainability",
+        "archimate",
+        "ea-practitioners"
+      ]
+    },
+    {
+      "id": "source-019",
+      "title": "Building Enterprise AI Maturity",
+      "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian",
+      "author": "Peter Weill, Stephanie L. Woerner, Ina M. Sebastian (MIT CISR)",
+      "date": "2024-12-01",
+      "type": "report",
+      "relevance": 5,
+      "tags": [
+        "AI-maturity-model",
+        "enterprise-ai",
+        "organizational-capability",
+        "financial-performance",
+        "enterprise-architecture"
+      ]
+    },
+    {
+      "id": "source-020",
+      "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+      "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+      "author": "Deloitte Insights",
+      "date": "2026-01-06",
+      "type": "report",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "enterprise-architecture",
+        "AI-governance",
+        "silicon-workforce",
+        "agent-orchestration"
+      ]
+    },
+    {
+      "id": "source-021",
+      "title": "The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates",
+      "url": "https://arxiv.org/abs/2602.11301",
+      "author": "John M. Willis",
+      "date": "2026-02-11",
+      "type": "paper",
+      "relevance": 5,
+      "tags": [
+        "AI-governance",
+        "reference-architecture",
+        "multi-agent-systems",
+        "AI-security",
+        "NIST-AI-RMF",
+        "enterprise-ai"
+      ]
+    },
+    {
+      "id": "source-022",
+      "title": "The Enterprise IT Overhaul: Architecting Your Stack for the Agentic AI Era",
+      "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
+      "author": "CIO.com",
+      "date": "2025-11-01",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "agentic-ai",
+        "enterprise-architecture",
+        "event-driven-architecture",
+        "API-modernization",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "source-023",
+      "title": "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI Adoption: Bridging Innovation and Governance in Large Organisations",
+      "url": "https://arxiv.org/abs/2505.06326",
+      "author": "Alexander Ettinger",
+      "date": "2025-05-09",
+      "type": "paper",
+      "relevance": 5,
+      "tags": [
+        "enterprise-architecture",
+        "generative-ai",
+        "dynamic-capabilities",
+        "AI-governance",
+        "organizational-capability",
+        "TOGAF"
+      ]
+    },
+    {
+      "id": "source-024",
+      "title": "The Paradox of Governance: When TOGAF's Architecture Development Method Meets GenAI's Velocity",
+      "url": "https://medium.com/@pkmittal28/the-paradox-of-governance-when-togafs-architecture-development-method-meets-genai-s-velocity-b0fdcf968f4d",
+      "author": "Praveen Mittal",
+      "date": "2025-01-01",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "TOGAF",
+        "ADM",
+        "generative-ai",
+        "governance",
+        "agility",
+        "enterprise-architecture"
+      ]
+    },
+    {
+      "id": "source-025",
+      "title": "The Open Group AI Initiatives and Enterprise Architecture Practitioners Conference 2026",
+      "url": "https://www.opengroup.org/architecture-form/ai-initiatives",
+      "author": "The Open Group",
+      "date": "2026-02-10",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "TOGAF",
+        "open-group",
+        "AI-standards",
+        "enterprise-architecture",
+        "Eagle-AI-Assistant",
+        "architecture-governance"
+      ]
+    },
+    {
+      "id": "source-026",
+      "title": "How Enterprise Architecture Enables AI Sovereignty -- With Governance at the Core",
+      "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
+      "author": "MRCS Cloud",
+      "date": "2025-01-01",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "AI-sovereignty",
+        "AI-governance",
+        "enterprise-architecture",
+        "EU-AI-Act",
+        "NIST",
+        "ISO-42001",
+        "regulatory-compliance"
+      ]
+    },
+    {
+      "id": "source-027",
+      "title": "Navigating NextGen Enterprise Architecture with GenAI",
+      "url": "https://www.deloitte.com/fr/fr/our-thinking/explore/climat-developpement-durable/navigating-nextgen-enterprise-architecture-with-genai.html",
+      "author": "Emmanuel Larroze and Ahmed Iyed Hadj Khalifa, Deloitte France",
+      "date": "2024-04-23",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "togaf-genai",
+        "data-architecture",
+        "application-architecture",
+        "business-strategy",
+        "master-data-management",
+        "deloitte"
+      ]
+    },
+    {
+      "id": "source-028",
+      "title": "Enterprise Technology's Next Chapter: Four Gen AI Shifts That Will Reshape Business Technology",
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/enterprise-technologys-next-chapter-four-gen-ai-shifts-that-will-reshape-business-technology",
+      "author": "McKinsey Digital",
+      "date": "2024-12-02",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "gen-ai-shifts",
+        "multiagent-architecture",
+        "factory-artisan-patterns",
+        "enterprise-operating-model",
+        "mckinsey"
+      ]
+    },
+    {
+      "id": "source-029",
+      "title": "Why You \u2014 Yes, You \u2014 Need Enterprise Architecture",
+      "url": "https://sloanreview.mit.edu/article/why-you-yes-you-need-enterprise-architecture/",
+      "author": "Jeanne Ross and Cynthia Beath",
+      "date": "2020-08-24",
+      "type": "article",
+      "relevance": 3,
+      "tags": [
+        "enterprise-architecture-fundamentals",
+        "componentization",
+        "cross-functional-teams",
+        "organizational-design",
+        "digital-transformation",
+        "mit-sloan"
+      ]
+    },
+    {
+      "id": "source-030",
+      "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
+      "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
+      "author": "Gartner",
+      "date": "2025-01-15",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "ea-trends",
+        "ai-architect-role",
+        "composable-architecture",
+        "technical-debt",
+        "federated-business",
+        "ea-operating-model",
+        "gartner"
+      ]
+    }
+  ]
+}

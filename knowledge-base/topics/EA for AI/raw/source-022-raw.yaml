@@ -1,0 +1,215 @@
+source_id: source-022
+title: "The Enterprise IT Overhaul: Architecting Your Stack for the Agentic AI Era"
+url: "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html"
+author: "CIO.com"
+date: 2025-11-01
+type: article
+total_segments: 25
+note: "Segmented from source note only; original URL was inaccessible at time of processing."
+
+composition:
+  claim: { count: 16, pct: 64.0 }
+  context: { count: 2, pct: 8.0 }
+  recommendation: { count: 2, pct: 8.0 }
+  definition: { count: 1, pct: 4.0 }
+  evidence: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  statistic: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+  noise: { count: 4, pct: 16.0 }
+
+signal_ratio: 84.0
+
+segments:
+
+  # ============================================================
+  # KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-001
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "The fundamental architectural shift for agentic AI is moving from synchronous, tightly coupled connections to event-driven architecture (EDA)."
+    type: claim
+    section: "Key Takeaways"
+    position: 2
+    source_format: bullet
+
+  - id: seg-003
+    text: "An event-driven architecture built on message brokers like Apache Kafka decouples agents from each other and from core enterprise systems."
+    type: claim
+    section: "Key Takeaways"
+    position: 3
+    source_format: bullet
+
+  - id: seg-004
+    text: "The data streaming and messaging backbone becomes the primary agent orchestration layer, requiring investment to handle semantic complexity and volume of agent-to-agent communication."
+    type: claim
+    section: "Key Takeaways"
+    position: 4
+    source_format: bullet
+
+  - id: seg-005
+    text: "Organizations need to create an 'agent tier' in their enterprise architecture comprising cognitive AI for reasoning capabilities and autonomous orchestration systems."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 5
+    source_format: bullet
+
+  - id: seg-006
+    text: "Traditional REST API calls to monolithic systems (ERP, CRM) create bottlenecks for autonomous agents."
+    type: claim
+    section: "Key Takeaways"
+    position: 6
+    source_format: bullet
+
+  - id: seg-007
+    text: "If 2025 was about the brain (the LLM), 2026 must be about the nervous system."
+    type: claim
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+
+  # ============================================================
+  # SUMMARY
+  # ============================================================
+
+  - id: seg-008
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 8
+    source_format: heading
+
+  - id: seg-009
+    text: "This CIO.com article provides a practical architectural blueprint for enterprises preparing their technology stacks for the agentic AI era."
+    type: context
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "The central argument is that agentic AI -- autonomous systems capable of reasoning, planning, and executing multi-step tasks across the enterprise -- requires a fundamental rethinking of enterprise architecture, not incremental API additions."
+    type: claim
+    section: "Summary"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "The article identifies event-driven architecture as the foundational shift required."
+    type: claim
+    section: "Summary"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Traditional synchronous, tightly coupled integration patterns (typical REST API calls to monolithic ERP and CRM systems) create bottlenecks when agents need to operate autonomously."
+    type: claim
+    section: "Summary"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Instead, organizations should adopt asynchronous, event-driven architectures where agents interact with a message bus (like Apache Kafka or Amazon EventBridge) rather than making direct, blocking calls to legacy databases."
+    type: recommendation
+    section: "Summary"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "This allows for long-running tasks where agents can trigger actions and resume when events are published back."
+    type: claim
+    section: "Summary"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "A key architectural concept introduced is the 'agent tier' -- a new layer in the enterprise architecture comprising cognitive AI for reasoning capabilities and autonomous orchestration systems that trigger appropriate applications."
+    type: definition
+    section: "Summary"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "This represents a significant evolution of traditional enterprise architecture layering models, adding an intelligent orchestration layer between business processes and underlying systems."
+    type: claim
+    section: "Summary"
+    position: 16
+    source_format: prose
+
+  # ============================================================
+  # NOTABLE QUOTES
+  # ============================================================
+
+  - id: seg-017
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 17
+    source_format: heading
+
+  - id: seg-018
+    text: "If 2025 was about the brain (the LLM), 2026 must be about the nervous system."
+    type: claim
+    section: "Notable Quotes"
+    position: 18
+    source_format: quote
+
+  - id: seg-019
+    text: "The traditional approach to integrating new tools -- a simple REST API call to a monolithic system like your ERP or CRM -- is a bottleneck for autonomous agents."
+    type: claim
+    section: "Notable Quotes"
+    position: 19
+    source_format: quote
+
+  - id: seg-020
+    text: "An event-driven architecture, typically built on a message broker like Kafka, decouples agents from one another and from your core systems."
+    type: claim
+    section: "Notable Quotes"
+    position: 20
+    source_format: quote
+
+  # ============================================================
+  # RELEVANCE TO TOPIC
+  # ============================================================
+
+  - id: seg-021
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "This article provides concrete, actionable architectural guidance for the technology architecture domain of EA for AI."
+    type: context
+    section: "Relevance to Topic"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "The concept of an 'agent tier' as a new enterprise architecture layer directly extends traditional EA layering models (like TOGAF's architecture domains)."
+    type: claim
+    section: "Relevance to Topic"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The emphasis on event-driven architecture as a prerequisite for agentic AI deployment offers a specific technical pattern that enterprise architects can adopt."
+    type: claim
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The 'brain vs. nervous system' framing effectively communicates that AI infrastructure is as important as AI models themselves."
+    type: claim
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
