@@ -1,0 +1,41 @@
+baseURL = "https://MarkusSteinbrecher.github.io/research-agent/"
+languageCode = "en-us"
+title = "Research Agent"
+theme = "paper"
+
+[params]
+  # Paper theme parameters
+  subtitle = "Technology & AI Thought Leadership"
+  avatar = ""
+  twitter = ""
+
+[taxonomies]
+  tag = "tags"
+  topic = "topics"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    identifier = "pov"
+    name = "POV"
+    url = "/pov/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3

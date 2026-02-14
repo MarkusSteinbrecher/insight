@@ -1,0 +1,25 @@
+# Hugo
+site/public/
+site/resources/
+.hugo_build.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Node (if Hugo modules used)
+node_modules/
+
+# Build artifacts
+dist/
