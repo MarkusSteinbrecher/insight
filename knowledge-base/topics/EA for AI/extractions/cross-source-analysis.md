@@ -627,7 +627,7 @@ The unique claims reinforce this direction: the "cognitive prosthetic" framing f
 
 ---
 
-### Finding 5: Process Redesign Is the Gate, Not Process Automation
+### Finding 5: Process Redesign First, Then Automation
 
 Leading organizations achieve value not by layering AI agents onto existing human-designed workflows, but by fundamentally redesigning processes to leverage agent strengths (cc-031). This is reinforced by the insight that AI should be applied to processes, not to people or organizations, and that solid, well-defined processes are a prerequisite — without quantifiable, accurate process understanding, AI application is premature (cc-100).
 

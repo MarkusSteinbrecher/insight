@@ -130,7 +130,7 @@ This makes the finding both urgent and difficult. The organisations that most ne
 
 ---
 
-### Finding 5: Process Redesign Is the Gate, Not Process Automation
+### Finding 5: Process Redesign First, Then Automation
 
 This is the strongest practitioner-validated finding in the research. Two distinct genuine insights converge: leading organisations achieve value by redesigning processes for agent strengths rather than layering AI onto existing human-designed workflows (cc-031, novelty 7, actionability 7), and solid, well-defined processes are a prerequisite for any AI application -- without quantifiable process understanding, AI deployment is premature (cc-100, novelty 6, actionability 7).
 
