@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enterprise Architecture for AI — Research Synthesis</title>
+  <meta name="description" content="Critical analysis of 30 sources on enterprise architecture for AI. 136 claims analyzed, 21 genuine insights extracted. Evidence-based research synthesis.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── Nav ──────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="nav-link" href="#findings">Findings</a>
+    <a class="nav-link" href="#analysis">Critical Analysis</a>
+    <a class="nav-link" href="#tensions">Tensions</a>
+    <a class="nav-link" href="#positions">Positions</a>
+    <a class="nav-link" href="#gaps">Research Gaps</a>
+    <a class="nav-link" href="#sources">Sources</a>
+  </div>
+</nav>
+
+<!-- ── Hero ─────────────────────────────────────────── -->
+<header class="hero">
+  <div class="container">
+    <p class="section-label">Research Synthesis</p>
+    <h1>Enterprise Architecture for AI</h1>
+    <p class="subtitle">A critical analysis of what the literature actually says — and what it doesn't.</p>
+    <div class="meta">
+      <span>30 sources (2024–2026)</span>
+      <span>136 canonical claims analyzed</span>
+      <span>Updated February 2026</span>
+    </div>
+
+    <div class="stats-strip">
+      <div class="stat-card">
+        <div class="number">30</div>
+        <div class="label">Sources</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">136</div>
+        <div class="label">Claims</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">21</div>
+        <div class="label">Genuine Insights</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">18</div>
+        <div class="label">Contradictions</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">7</div>
+        <div class="label">Key Findings</div>
+      </div>
+      <div class="stat-card">
+        <div class="number">85%</div>
+        <div class="label">Not Genuine</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ── Executive Summary ───────────────────────────── -->
+<section>
+  <div class="container">
+    <p class="section-label">Executive Summary</p>
+    <div class="exec-summary">
+      <p>Enterprise architecture is in trouble, and most of the literature about fixing it is not helping.</p>
+      <p>This synthesis draws from 30 sources published between 2024 and 2026, spanning practitioner articles, academic research, industry reports, and analyst frameworks. Each canonical claim was critically analyzed for novelty, actionability, and platitude risk — and the results are sobering. <strong>Only 21 of 136 claims (15%) survived as genuine insights.</strong> The remaining 85% split between partial insights that need refinement, observations obvious to any experienced practitioner, and outright platitudes dressed in AI terminology.</p>
+      <p>The overall thesis: enterprise architecture must transform itself — its speed, its methods, its assumptions about control — before it can credibly guide the enterprise through AI transformation. The discipline that takes eighteen months to produce a reference architecture cannot govern a technology that reshapes business processes in weeks.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── The Seven Signals ───────────────────────────── -->
+<section id="findings">
+  <div class="container">
+    <p class="section-label">The Seven Signals</p>
+    <h2>Key findings from 30 sources, 136 claims, and critical analysis</h2>
+
+    <!-- Finding 1 -->
+    <div class="finding-card">
+      <div class="finding-header">
+        <span class="finding-number">01</span>
+        <div class="finding-content">
+          <div class="finding-title">The Governance Speed Problem Is Structural, Not Incremental</div>
+          <div class="finding-bottomline">"If your governance takes longer than your deployment cycle, you are not protecting the organisation — you are making decisions on information that has already expired."</div>
+        </div>
+        <svg class="finding-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="finding-body">
+        <p>Whether you run TOGAF, a lightweight architecture review board, or an informal approval chain, the structural issue is identical: governance cycles that are longer than deployment cycles produce decisions based on stale information. A review board that meets monthly to evaluate architectures designed three weeks ago and deployed next Tuesday is not governing — it is performing governance theatre on outdated context.</p>
+        <p>The acceleration paradox compounds this. Organisations with clean, modular architectures gain 30–50% faster AI adoption, while legacy-burdened organisations face a vicious cycle: they cannot adopt AI fast enough to modernise, and they cannot modernise fast enough to adopt AI.</p>
+        <p>The fix is not faster meetings or shorter review cycles — it is closing the governance loop entirely. Forrester envisions AI agents that pre-check architectural proposals against standards, generate draft decisions, and route only exceptions to human architects. The direction is clear: push routine governance decisions into automated or near-instant channels so that human judgment is concentrated where it actually adds value.</p>
+        <div class="practitioner-box">
+          <strong>Practitioner implication:</strong> Measure your governance cycle time today — from architecture proposal submission to approved decision. If it exceeds your deployment cadence, your governance is creating risk, not mitigating it.
+        </div>
+      </div>
+    </div>
+
+    <!-- Finding 2 -->
+    <div class="finding-card">
+      <div class="finding-header">
+        <span class="finding-number">02</span>
+        <div class="finding-content">
+          <div class="finding-title">The Model Is the Commodity — Everything Else Is the Moat</div>
+          <div class="finding-bottomline">"Your competitors can buy the same models you can — your moat is the proprietary data, domain knowledge, and integration quality that no model switch can replicate."</div>
+        </div>
+        <svg class="finding-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="finding-body">
+        <p>Foundation models are commoditising. The difference between Claude, GPT, and Gemini on a well-scoped enterprise task is measured in single-digit percentage points and shrinks with each release cycle. What cannot be replicated by switching models is your proprietary training data, your domain-specific evaluation benchmarks, your curated knowledge base, and the integration depth that connects AI outputs to business actions.</p>
+        <p>Specialised small language models fine-tuned for specific domains outperform general-purpose LLMs on defined tasks at a fraction of the cost. The smartest architectural decision most organisations can make in 2026 is not selecting the biggest model available — it is designing model-serving infrastructure that supports multiple model sizes and treating the model layer as swappable commodity.</p>
+        <p>Three concrete architectural decisions follow: treat AI models as shared enterprise capabilities with unified lifecycle tooling. Design for model portability — can you swap your primary LLM provider within eight hours? Recognise your AI stack evolves at three different speeds: models change monthly, orchestration quarterly, data infrastructure over years.</p>
+        <div class="practitioner-box">
+          <strong>Practitioner implication:</strong> Audit your current AI use cases and classify each by task complexity. Run head-to-head evaluations of a fine-tuned SLM versus your default frontier model on your top three production use cases, measuring accuracy, latency, and cost per inference.
+        </div>
+      </div>
+    </div>
+
+    <!-- Finding 3 -->
+    <div class="finding-card">
+      <div class="finding-header">
+        <span class="finding-number">03</span>
+        <div class="finding-content">
+          <div class="finding-title">Multi-Agent Architecture Is the Microservices Moment — and the Risk Is Qualitatively New</div>
+          <div class="finding-bottomline">"Multi-agent AI is the microservices moment, but with a twist: when your services start hallucinating at each other, the failure modes are ones your playbook has never seen."</div>
+        </div>
+        <svg class="finding-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="finding-body">
+        <p>Five sources independently converge on multi-agent systems with specialised agents collaborating through defined protocols as the emerging architectural pattern. This cluster produced more genuine insights (8 of 21) than any other theme.</p>
+        <p>The microservices parallel is instructive: the decomposition principle is sound — independently deployable, independently scalable, fault-isolated. But the risk profile is qualitatively different. When AI agents influence each other's behaviour through shared context, chained outputs, or collaborative decision-making, feedback loops, emergent behaviours, and cascade failures become possible in ways deterministic microservices never exhibited. Your existing SIEM, observability stack, and risk models were not built for a system where Agent A's hallucination becomes Agent B's confident input, triggering Agent C's autonomous action.</p>
+        <p>The defining architectural bet is not which protocol to adopt but whether you abstract the protocol layer at all. MCP and A2A will evolve, merge, or be superseded. Organisations that implement a protocol abstraction layer will maintain architectural agility as the standards landscape matures.</p>
+        <div class="practitioner-box">
+          <strong>Practitioner implication:</strong> Design your AI platform with an agent registry and protocol abstraction layer from day one. Implement distributed tracing across agent interactions. Define blast-radius controls before you deploy your second agent — not your twentieth.
+        </div>
+      </div>
+    </div>
+
+    <!-- Finding 4 -->
+    <div class="finding-card">
+      <div class="finding-header">
+        <span class="finding-number">04</span>
+        <div class="finding-content">
+          <div class="finding-title">AI-Augmented EA Is Necessary — But Most Organisations Cannot Get There Yet</div>
+          <div class="finding-bottomline">"The EA repository is a graveyard because nobody visits it — and most organisations are not ready to resurrect it with AI because they never built it properly in the first place."</div>
+        </div>
+        <svg class="finding-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="finding-body">
+        <p>Traditional EA operates in open-loop mode. Architects produce documentation that begins going stale the moment it is published. By the next quarterly review, the documented architecture and the actual architecture have diverged so significantly that the documentation is fiction.</p>
+        <p>The vision is specific and technically feasible: harvesting agents that auto-discover architecture from deployment pipelines, dependency agents that map integration patterns, conformance agents that check deployments against standards. But the readiness data tells the story starkly: 85% of organisations are already using generative AI, but only 22% say their architecture can support AI without modification.</p>
+        <p>The path forward is to use automation as the mechanism for building maturity: start with automated discovery from systems that already produce machine-readable data (cloud inventory APIs, CI/CD pipelines, API gateways), and use that to bootstrap an EA repository that was never manually buildable in the first place.</p>
+        <div class="practitioner-box">
+          <strong>Practitioner implication:</strong> Pick the EA artefact that goes stale fastest — typically the application portfolio or integration map — and connect it to an automated data source. Measure staleness before and after. The goal is not a perfect repository — it is a repository that is less wrong than yesterday's.
+        </div>
+      </div>
+    </div>
+
+    <!-- Finding 5 -->
+    <div class="finding-card">
+      <div class="finding-header">
+        <span class="finding-number">05</span>
+        <div class="finding-content">
+          <div class="finding-title">Process Redesign First, Then Automation</div>
+          <div class="finding-bottomline">"Putting an AI agent into a human-shaped process is like giving a self-driving car a steering wheel made for hands — the value is not in the automation, it is in redesigning the entire vehicle."</div>
+        </div>
+        <svg class="finding-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="finding-body">
+        <p>This is the strongest practitioner-validated finding. Organisations take a human-designed workflow — with sequential approval chains that exist because humans get tired, handoff points that exist because humans specialise, review checkpoints that exist because humans lose attention — and bolt an AI agent onto it. The agent inherits all the constraints while exploiting none of its strengths: parallel processing, consistent attention, perfect recall, 24/7 availability.</p>
+        <p>This creates a two-step gate most organisations have not passed. Step one: understand your process well enough to document it quantitatively (process mining, not process mapping). Step two: redesign from scratch for agent strengths, rather than automating the documented process.</p>
+        <div class="practitioner-box">
+          <strong>Practitioner implication:</strong> Before approving your next AI agent deployment, answer two questions. Is the target process documented with quantitative data? Has the workflow been redesigned for agent strengths, or is the agent being inserted into a human-shaped process?
+        </div>
+      </div>
+    </div>
+
+    <!-- Finding 6 -->
+    <div class="finding-card">
+      <div class="finding-header">
+        <span class="finding-number">06</span>
+        <div class="finding-content">
+          <div class="finding-title">The C-Suite Expectation Gap Is an Architecture Problem</div>
+          <div class="finding-bottomline">"The most dangerous AI project is one where the CEO thinks it is building revenue and the CIO thinks it is saving costs — get alignment before you get budget."</div>
+        </div>
+        <svg class="finding-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="finding-body">
+        <p>The CEO expects AI to drive top-line revenue growth. The CIO expects productivity and cost savings. When the AI portfolio is built to deliver productivity gains but evaluated against revenue growth criteria, every project underperforms against at least one sponsor's expectations. This is not a communication problem — it is an architecture problem.</p>
+        <p>The research surfaces a pragmatic two-phase model. Phase one: deploy AI for internal productivity gains (lower risk, measurable returns within quarters). Phase two: apply AI to core value chains and customer-facing products where the revenue upside lives. The architectural trap is building a phase-one platform that cannot evolve into phase two.</p>
+        <div class="practitioner-box">
+          <strong>Practitioner implication:</strong> Survey your C-suite: "What is the primary expected outcome of our AI investments?" Quantify the gap. Then structure your AI portfolio with explicit buckets for each, tracked with different KPIs.
+        </div>
+      </div>
+    </div>
+
+    <!-- Finding 7 -->
+    <div class="finding-card">
+      <div class="finding-header">
+        <span class="finding-number">07</span>
+        <div class="finding-content">
+          <div class="finding-title">Agent Management Is an Emerging Discipline — and Nobody Has the Playbook</div>
+          <div class="finding-bottomline">"You would not hire 500 employees without an HR function — do not deploy 500 AI agents without an agent management discipline."</div>
+        </div>
+        <svg class="finding-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+      <div class="finding-body">
+        <p>As AI agents scale from experimental copilots to production workforce participants, organisations face a management challenge that does not map to any existing discipline. Agents need onboarding (testing, validation, access provisioning), performance management (accuracy monitoring, cost tracking, drift detection), lifecycle management (versioning, retraining, retirement), and misconduct handling.</p>
+        <p>None of this maps cleanly to ITIL. AI agents are non-deterministic, context-dependent, and capable of producing novel failure modes no runbook anticipated. An organisation running five agents can manage them ad hoc. Fifty needs processes. Five hundred — which is where the trajectory points within three to five years — needs a discipline.</p>
+        <p>The field is wide open. No vendor, standards body, or consultancy has published a comprehensive "Agent Service Management" framework. The organisation that develops one defines the category.</p>
+        <div class="practitioner-box">
+          <strong>Practitioner implication:</strong> Create an AI Agent Registry this quarter. For every deployed agent, document its role, capabilities, access permissions, data inputs, decision authority, performance metrics, and accountable human owner.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Critical Analysis ───────────────────────────── -->
+<section id="analysis">
+  <div class="container">
+    <p class="section-label">Critical Analysis</p>
+    <h2>136 claims scored for platitude risk, actionability, and novelty</h2>
+
+    <div class="verdict-grid">
+      <div>
+        <h3 style="font-size:.9rem;margin-bottom:.75rem;color:var(--text-secondary)">Verdict Distribution</h3>
+        <div id="verdict-bars" class="verdict-bars">
+          <div style="color:var(--text-muted);font-size:.85rem">Loading...</div>
+        </div>
+      </div>
+      <div class="score-summary">
+        <h3 style="font-size:.9rem;margin-bottom:.75rem;color:var(--text-secondary)">Average Scores (1–10)</h3>
+        <div class="score-item">
+          <div class="score-label">Platitude Risk</div>
+          <div class="score-value" id="score-platitude">—</div>
+          <div class="score-context">Higher = more cliché</div>
+        </div>
+        <div class="score-item">
+          <div class="score-label">Actionability</div>
+          <div class="score-value" id="score-actionability">—</div>
+          <div class="score-context">Higher = more actionable</div>
+        </div>
+        <div class="score-item">
+          <div class="score-label">Novelty</div>
+          <div class="score-value" id="score-novelty">—</div>
+          <div class="score-context">Higher = more novel</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All</button>
+      <button class="filter-btn" data-filter="genuine_insight" onclick="setFilter('genuine_insight')">Genuine Insight</button>
+      <button class="filter-btn" data-filter="partial_insight" onclick="setFilter('partial_insight')">Partial Insight</button>
+      <button class="filter-btn" data-filter="important_but_obvious" onclick="setFilter('important_but_obvious')">Important but Obvious</button>
+      <button class="filter-btn" data-filter="platitude" onclick="setFilter('platitude')">Platitude</button>
+      <select class="sort-select" onchange="setSort(this.value)">
+        <option value="id">Sort: Default</option>
+        <option value="novelty">Sort: Novelty ↓</option>
+        <option value="actionability">Sort: Actionability ↓</option>
+        <option value="platitude">Sort: Platitude Risk ↓</option>
+      </select>
+    </div>
+
+    <div class="analysis-count" id="analysis-count">Loading...</div>
+    <div class="analysis-list" id="analysis-list"></div>
+    <div class="pagination" id="analysis-pagination"></div>
+  </div>
+</section>
+
+<!-- ── Tensions ─────────────────────────────────────── -->
+<section id="tensions">
+  <div class="container">
+    <p class="section-label">Five Tensions Worth Debating</p>
+    <h2>Where the field genuinely disagrees</h2>
+
+    <div class="tension-card">
+      <h3>Model Sizing: Right-Size SLMs vs. Frontier Model Capabilities</h3>
+      <p class="tension-bottomline">"Design for model portability, not model loyalty. The architect who picks one model and builds everything on it is optimizing for today's benchmark at tomorrow's price."</p>
+    </div>
+
+    <div class="tension-card">
+      <h3>Process Automation vs. Process Redesign</h3>
+      <p class="tension-bottomline">"Putting an AI agent into a human-shaped workflow is like giving a self-driving car a steering wheel designed for hands. The overlay buys time; the redesign buys performance."</p>
+    </div>
+
+    <div class="tension-card">
+      <h3>First-Wave GenAI: Delivered Value vs. Underperformed</h3>
+      <p class="tension-bottomline">"Copilots delivered exactly what they promised — individual productivity. The disappointment is an expectations problem, not a technology failure. Agentic AI is how the organizational ROI shows up."</p>
+    </div>
+
+    <div class="tension-card">
+      <h3>Human Augmentation vs. Silicon Workforce</h3>
+      <p class="tension-bottomline">"'Augmentation not replacement' is what you say when you want to avoid the workforce planning conversation. For some roles, it is true. For others, it is a delay tactic."</p>
+    </div>
+
+    <div class="tension-card">
+      <h3>TOGAF: Adaptable vs. Fundamentally Inadequate</h3>
+      <p class="tension-bottomline">"TOGAF is not dead as a set of principles. It is dead as a process. Since most organizations were not following the process anyway, the honest move is to formalize what they are actually doing."</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Thought Leadership Positions ────────────────── -->
+<section id="positions">
+  <div class="container">
+    <p class="section-label">Thought Leadership Positions</p>
+    <h2>Five positions the data supports but no source states plainly</h2>
+
+    <div class="position-card">
+      <h3>"TOGAF Is Dead for AI — Long Live TOGAF Principles"</h3>
+      <p class="position-desc">TOGAF as a process is finished for AI-era architecture. Continuing to run sequential ADM cycles while competitors deploy AI weekly is not rigor — it is self-inflicted competitive damage. The output: a Governance Principles Card for AI — 10–15 non-negotiable architectural principles with automated enforcement patterns.</p>
+    </div>
+
+    <div class="position-card">
+      <h3>"The Enterprise Knowledge Graph Is the Operating System of the Agent Era"</h3>
+      <p class="position-desc">The knowledge graph is not a component of the AI architecture. It is the foundation. Model selection, agent design, RAG configuration, governance enforcement — all downstream decisions. Agents without shared semantic context are employees without a common language.</p>
+    </div>
+
+    <div class="position-card">
+      <h3>"Agent Management Is the New IT Service Management"</h3>
+      <p class="position-desc">ITSM was built for human-operated technology services. The agent era inverts this: the services are agents. The first to publish a comprehensive Agent Service Management framework — analogous to ITIL but designed for non-deterministic, autonomous digital workers — defines the category.</p>
+    </div>
+
+    <div class="position-card">
+      <h3>"Your AI Governance Is Creating the Risk It Claims to Prevent"</h3>
+      <p class="position-desc">Every week of governance delay means deployment decisions on staler information. Every committee review that takes longer than the deployment cycle it governs forces a choice: bypass governance (compliance risk) or wait (competitive risk). The governance process itself becomes a source of instability.</p>
+    </div>
+
+    <div class="position-card">
+      <h3>"The Real AI Architecture Decision Is the Inter-Agent Communication Layer"</h3>
+      <p class="position-desc">Just as HTTP/REST defined the integration architecture of the SOA era, the agent communication layer will define the agent era. MCP, A2A, and ACP are candidates, but the architectural principle is protocol abstraction — decoupling agent implementations from protocol specifics.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Research Gaps ───────────────────────────────── -->
+<section id="gaps">
+  <div class="container">
+    <p class="section-label">Research Gaps</p>
+    <h2>Seven questions the field needs answered</h2>
+
+    <ol class="gap-list">
+      <li><strong>Economics of AI architecture at scale.</strong> No source provides a rigorous cost model for enterprise AI platforms at production scale. Every enterprise is building its AI business case on back-of-envelope estimates.</li>
+      <li><strong>Inter-agent governance in practice.</strong> Sources identify that multi-agent systems create new governance challenges, but no source provides a concrete, implementable governance architecture.</li>
+      <li><strong>Process redesign methodology for agent-native workflows.</strong> Process redesign for automation has a 30-year methodological history; process redesign for agentic AI has essentially none.</li>
+      <li><strong>AI architecture quality metrics.</strong> No source proposes fitness functions for AI-augmented enterprise architecture. Without agreed-upon metrics, the field cannot distinguish genuine quality from impressive slide decks.</li>
+      <li><strong>Data governance maturity as AI prerequisite.</strong> No source maps data governance maturity levels to specific AI capability tiers.</li>
+      <li><strong>Security architecture for non-deterministic systems.</strong> What does zero-trust look like when the protected entity legitimately produces different outputs for the same input? Uncharted territory.</li>
+      <li><strong>Human-agent workforce transition.</strong> The sources oscillate between augmentation and replacement without providing a framework for managing the transition.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ── Sources ─────────────────────────────────────── -->
+<section id="sources">
+  <div class="container">
+    <p class="section-label">Sources</p>
+    <h2>30 sources analyzed (2024–2026)</h2>
+
+    <div class="sources-table-wrap">
+      <table class="sources-table">
+        <thead>
+          <tr>
+            <th onclick="sortSources('id')"># <span class="sort-icon">↕</span></th>
+            <th onclick="sortSources('title')">Title <span class="sort-icon">↕</span></th>
+            <th onclick="sortSources('author')">Author <span class="sort-icon">↕</span></th>
+            <th onclick="sortSources('type')">Type <span class="sort-icon">↕</span></th>
+            <th onclick="sortSources('date')">Date <span class="sort-icon">↕</span></th>
+            <th onclick="sortSources('relevance')">Relevance <span class="sort-icon">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="sources-tbody">
+          <tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:2rem">Loading sources...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── Methodology ─────────────────────────────────── -->
+<section>
+  <div class="container">
+    <p class="section-label">Methodology</p>
+    <h2>How this research was conducted</h2>
+    <div class="exec-summary">
+      <p>30 sources were collected through web research and document ingestion. Each source was broken into numbered segments (sentences, bullets, table rows) and classified by type (claim, statistic, evidence, definition, recommendation, context, methodology, example, attribution, noise). This produced 1,944 total segments across all sources.</p>
+      <p>Cross-source claim alignment identified 136 canonical claims (themes where 2+ sources agree), 82 unique claims (single-source positions), and 18 direct contradictions. Each canonical claim was then critically analyzed with a verdict (genuine insight, partial insight, important but obvious, platitude) and scored on three dimensions: platitude risk, actionability, and novelty (each 1–10).</p>
+      <p>Findings were calibrated through structured discussion with an experienced practitioner, sharpening several positions and discarding claims that did not survive practitioner scrutiny.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ──────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    Research Agent — Enterprise Architecture for AI · Built with evidence, not opinions
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
