@@ -10,8 +10,9 @@ $ARGUMENTS — The topic to research (e.g., "AI agents in the enterprise", "plat
 
 1. **Create topic directory**:
    - Generate a slug from the topic: lowercase, hyphens, no special characters
-   - Create `knowledge-base/topics/{slug}/` with subdirectories `sources/` and `insights/`
+   - Create `knowledge-base/topics/{slug}/` with subdirectories `documents/`, `sources/`, and `insights/`
    - Create `_index.md` with metadata (status: researching, today's date, auto-generated tags from the taxonomy)
+   - Note: users can also drop PDFs and other files into `documents/` and run `/ingest {slug}` to process them
 
 2. **Launch parallel research agents**:
    Launch 3 web-researcher agents in parallel, each with a different angle:

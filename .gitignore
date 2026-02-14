@@ -21,5 +21,9 @@ Thumbs.db
 # Node (if Hugo modules used)
 node_modules/
 
+# Uploaded documents (PDFs, large binaries) — structured notes are committed, raw files are not
+knowledge-base/topics/*/documents/*
+!knowledge-base/topics/*/documents/.gitkeep
+
 # Build artifacts
 dist/

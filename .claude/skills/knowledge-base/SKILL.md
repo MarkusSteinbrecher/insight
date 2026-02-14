@@ -28,6 +28,8 @@ Brief description of the research focus and scope for this topic.
 ```
 
 ### Source Note Format (`sources/source-NNN.md`)
+
+For web-researched sources:
 ```yaml
 ---
 title: "Source Title"
@@ -37,7 +39,22 @@ date: YYYY-MM-DD
 type: article | report | paper | blog | video | podcast | documentation
 relevance: 4  # 1-5 scale (5 = highly relevant)
 ---
+```
 
+For ingested documents (PDFs, uploaded files):
+```yaml
+---
+title: "Source Title"
+document: "filename.pdf"  # References file in documents/ folder
+author: "Author Name"
+date: YYYY-MM-DD
+type: pdf | report | paper | presentation | spreadsheet
+relevance: 4  # 1-5 scale (5 = highly relevant)
+---
+```
+
+Both formats share the same body structure:
+```markdown
 ## Key Takeaways
 - Takeaway 1
 - Takeaway 2
@@ -109,7 +126,7 @@ Numbered list of all sources with full attribution.
 
 ## Behaviors
 
-1. **Creating a topic**: Generate slug from title, create directory with `_index.md`, empty `sources/` and `insights/` directories
+1. **Creating a topic**: Generate slug from title, create directory with `_index.md`, empty `documents/`, `sources/`, and `insights/` directories
 2. **Adding sources**: Use sequential numbering (source-001, source-002, etc.), update `source_count` in `_index.md`
 3. **Adding insights**: Use sequential numbering (insight-001, insight-002, etc.), update `insight_count` in `_index.md`
 4. **Status transitions**: Update `status` and `updated` date in `_index.md` when stage completes

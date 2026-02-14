@@ -9,7 +9,9 @@ knowledge-base/
 ├── topics/                        # One directory per research topic
 │   └── {topic-slug}/
 │       ├── _index.md              # Topic metadata
-│       ├── sources/               # Web research source notes
+│       ├── documents/             # Raw input files (PDFs, reports, etc.)
+│       │   └── ...                # Drop files here manually
+│       ├── sources/               # Structured source notes (web + document ingestion)
 │       │   ├── source-001.md
 │       │   └── ...
 │       ├── insights/              # Extracted insights and analysis
@@ -22,7 +24,7 @@ knowledge-base/
 
 ## Topic Lifecycle
 
-1. **Researching** — `/research <topic>` creates the topic directory and gathers sources
+1. **Researching** — `/research <topic>` creates the topic directory and gathers web sources. You can also drop PDFs and other files into `documents/` and run `/ingest <topic>` to process them.
 2. **Analyzed** — `/analyze <topic>` extracts insights from collected sources
 3. **Synthesized** — `/synthesize <topic>` creates a comprehensive synthesis document
 4. **Active** — Topic is being used for content creation
@@ -68,6 +70,18 @@ relevance: 4  # 1-5 scale
 ## Notes
 Additional observations.
 ```
+
+## Uploading Documents
+
+To add sources that aren't accessible via web search (paywalled reports, internal documents, downloaded PDFs):
+
+1. Create the topic first: `/research <topic>` (or manually create the directory)
+2. Drop files into `knowledge-base/topics/{topic-slug}/documents/`
+3. Run `/ingest <topic-slug>` to process them into structured source notes
+
+The raw files in `documents/` are gitignored (they're often large binaries). The structured source notes in `sources/` are committed and contain all the extracted information.
+
+## File Formats
 
 ### Insight (`insights/insight-NNN.md`)
 ```yaml

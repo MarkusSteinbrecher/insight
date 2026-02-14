@@ -22,6 +22,7 @@ Static site published to GitHub Pages. Uses the Paper theme. Content types: blog
 
 ```
 /research <topic>  → Gather 8-12 sources per angle from the web
+/ingest <topic>    → Process uploaded documents (PDFs, etc.) into structured source notes
 /analyze <topic>   → Extract insights, patterns, contradictions from sources
 /synthesize <topic> → Create comprehensive synthesis with thought leadership angles
 /ideate <topic>    → (Future) Generate content ideas from synthesis
@@ -50,6 +51,7 @@ Static site published to GitHub Pages. Uses the Paper theme. Content types: blog
 - All content files use Markdown with YAML frontmatter
 - Topic slugs: lowercase, hyphens, no special characters (e.g., `ai-agents-enterprise`)
 - Source notes include: title, URL, author, date, type, relevance (1-5), takeaways, quotes
+- Raw documents (PDFs, etc.) go in `knowledge-base/topics/{topic}/documents/` — these are gitignored by default due to size
 
 ### Citation Style
 - **Blog posts**: Inline hyperlinks `[claim](url)`
@@ -60,7 +62,9 @@ Static site published to GitHub Pages. Uses the Paper theme. Content types: blog
 ```
 knowledge-base/topics/{topic-slug}/
 ├── _index.md          # Topic metadata (title, status, dates, tags)
-├── sources/           # One .md file per source
+├── documents/         # Raw input files (PDFs, reports, screenshots, etc.)
+│   └── ...            # Drop files here manually for processing
+├── sources/           # Structured source notes (from web research AND document ingestion)
 │   ├── source-001.md
 │   └── ...
 ├── insights/          # Extracted insights
