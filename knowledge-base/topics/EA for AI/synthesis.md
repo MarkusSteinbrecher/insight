@@ -154,8 +154,6 @@ The research surfaces a pragmatic two-phase investment model (cc-085). Phase one
 
 The architectural trap is building a phase-one platform that cannot evolve into phase two. Productivity AI can run on a shared tenant with broad model access and minimal integration. Revenue-generating AI demands proprietary data pipelines, domain-specific models, customer-facing reliability requirements, and tight integration with commercial systems. Enterprise architects who design phase-one platforms without phase-two extensibility in mind will face a costly re-platforming exercise precisely when the organisation is ready to pursue the higher-value use cases.
 
-The enterprise architect who can bridge this expectation gap -- who can articulate the two-phase model to the CEO and CIO in terms each understands, who can design the platform to serve both phases, and who can present AI value in both productivity and revenue frames simultaneously -- becomes indispensable. The architect who cannot will watch AI budgets get cut when phase-one productivity gains are dismissed as "not strategic enough" by a CEO expecting revenue impact.
-
 **Practitioner implication**: Survey your C-suite with a single question: "What is the primary expected outcome of our AI investments?" Quantify the gap between revenue-growth and productivity-improvement expectations. Then structure your AI portfolio with explicit buckets for each, tracked with different KPIs, and ensure your platform architecture supports the transition from the first to the second.
 
 **Bottom line**: "The most dangerous AI project is one where the CEO thinks it is building revenue and the CIO thinks it is saving costs -- get alignment before you get budget, or the budget will not survive the first review."
