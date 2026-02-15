@@ -15,7 +15,6 @@ An AI-supported solution for gathering and analysing information from the intern
 ### Prerequisites
 
 - [Claude Code](https://claude.com/claude-code) CLI installed
-- [Hugo](https://gohugo.io/installation/) (extended edition) installed
 - [GitHub CLI](https://cli.github.com/) (`gh`) installed and authenticated
 
 ### Commands
@@ -31,25 +30,19 @@ An AI-supported solution for gathering and analysing information from the intern
 ### Local Development
 
 ```bash
-# Build the Hugo site locally
+# Build site data and serve locally
 ./scripts/build.sh
-
-# Or directly
-hugo server --source site/
+python3 -m http.server 8000 --directory docs/
 ```
 
 ## Project Structure
 
 ```
 ├── knowledge-base/     # Research repository organized by topic
-│   ├── topics/         # One directory per research topic
-│   └── connections/    # Cross-topic relationship map
+│   └── topics/         # One directory per research topic
 ├── content/            # Content pipeline (ideas → drafts → ready)
-├── site/               # Hugo static site for GitHub Pages
+├── docs/               # Static site (HTML/CSS/JS) for GitHub Pages
 ├── .claude/            # Commands, agents, and skills
-└── scripts/            # Build helpers
+└── scripts/            # Build and data generation scripts
 ```
 
-## License
-
-Private repository — all rights reserved.
