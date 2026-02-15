@@ -11,7 +11,10 @@ if [ "${1:-}" = "serve" ]; then
   cd docs && python3 -m http.server 8000
 else
   echo "Building site data..."
+  python3 scripts/build-overview.py
+  python3 scripts/build-stats-data.py
   python3 scripts/build-insights-data.py
   python3 scripts/build-sources-data.py
+  python3 scripts/build-findings-data.py
   echo "Build complete. Site is in docs/"
 fi

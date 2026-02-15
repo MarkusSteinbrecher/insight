@@ -8,7 +8,9 @@ sources_analyzed: 30
 canonical_claims: 136
 unique_claims: 82
 contradictions: 18
-genuine_insights: 21
+high_value_claims: 0
+moderate_value_claims: 66
+contextual_value_claims: 69
 findings: 7
 thought_leadership_positions: 5
 research_gaps: 7
@@ -28,9 +30,11 @@ tags:
 
 ## 1. Executive Summary
 
+> **Note:** This synthesis uses earlier scoring terminology ("genuine insights," "partial insights," "important but obvious," "generic"). The analytical conclusions remain valid.
+
 Enterprise architecture is in trouble, and most of the literature about fixing it is not helping.
 
-This synthesis draws from 30 sources published between 2024 and 2026, spanning practitioner articles, academic research, industry reports, and analyst frameworks. The corpus was processed through a structured extraction pipeline that identified 136 canonical claims, 82 unique claims, and 18 direct contradictions. Each canonical claim was then critically analyzed for novelty, actionability, and platitude risk -- and the results are sobering. Only 21 of 136 claims (15%) survived as genuine insights. The remaining 85% split between partial insights that need significant refinement, observations that are important but obvious to any experienced practitioner, and outright platitudes dressed in AI terminology.
+This synthesis draws from 30 sources published between 2024 and 2026, spanning practitioner articles, academic research, industry reports, and analyst frameworks. The corpus was processed through a structured extraction pipeline that identified 136 canonical claims, 82 unique claims, and 18 direct contradictions. Each canonical claim was then critically analyzed for novelty, actionability, and generality risk -- and the results are sobering. Only 21 of 136 claims (15%) survived as genuine insights. The remaining 85% split between partial insights that need significant refinement, observations that are important but obvious to any experienced practitioner, and outright generalitys dressed in AI terminology.
 
 Seven key findings emerged from this analysis:
 
@@ -44,7 +48,7 @@ Seven key findings emerged from this analysis:
 
 These findings were calibrated through structured discussion with an experienced practitioner, which sharpened several positions: formal frameworks like TOGAF matter less than the literature suggests, AI-augmented governance remains mostly aspirational due to tooling immaturity, and the gap between what the research recommends and what organizations actually do is wider than any single source acknowledges.
 
-The overall thesis is this: enterprise architecture must transform itself -- its speed, its methods, its assumptions about control -- before it can credibly guide the enterprise through AI transformation. The discipline that takes eighteen months to produce a reference architecture cannot govern a technology that reshapes business processes in weeks. The sources that recognize this tension produce genuine insights. The sources that do not produce platitudes.
+The overall thesis is this: enterprise architecture must transform itself -- its speed, its methods, its assumptions about control -- before it can credibly guide the enterprise through AI transformation. The discipline that takes eighteen months to produce a reference architecture cannot govern a technology that reshapes business processes in weeks. The sources that recognize this tension produce genuine insights. The sources that do not produce generalitys.
 
 ## 2. Research Landscape
 
@@ -62,7 +66,7 @@ The corpus has a meaningful blind spot. It is strong on current practice descrip
 
 ## 3. The Seven Signals
 
-What follows are not findings in the academic sense. They are signals -- patterns that emerged from 30 sources, 136 canonical claims, and a critical analysis that discarded the platitudes and consensus-reinforcement to isolate what actually matters for practitioners navigating enterprise architecture in the age of AI. Each signal passed three filters: it had to be supported by evidence across multiple source types, it had to survive critical analysis with a "genuine insight" or strong "partial insight" verdict, and it had to be validated or sharpened through practitioner discussion. Seven survived.
+What follows are not findings in the academic sense. They are signals -- patterns that emerged from 30 sources, 136 canonical claims, and a critical analysis that discarded the generalitys and consensus-reinforcement to isolate what actually matters for practitioners navigating enterprise architecture in the age of AI. Each signal passed three filters: it had to be supported by evidence across multiple source types, it had to survive critical analysis with a "genuine insight" or strong "partial insight" verdict, and it had to be validated or sharpened through practitioner discussion. Seven survived.
 
 ### Finding 1: The Governance Speed Problem Is Structural, Not Incremental
 
@@ -288,7 +292,7 @@ Seven major gaps emerged from this research. Each represents a question the fiel
 
 6. **Security architecture for non-deterministic systems.** Traditional security architectures assume deterministic behavior. AI agents violate this assumption by design. What does zero-trust look like when the protected entity legitimately produces different outputs for the same input? The intersection of zero-trust, non-determinism, and dynamic permission scoping is uncharted territory.
 
-7. **Human-agent workforce transition.** The sources oscillate between augmentation and replacement without providing a framework for managing the transition. How do organizations restructure roles when AI handles 70% of a job's tasks? How do you avoid the rubber-stamp problem? We have change management platitudes where we need task-level decomposition frameworks and role redesign patterns.
+7. **Human-agent workforce transition.** The sources oscillate between augmentation and replacement without providing a framework for managing the transition. How do organizations restructure roles when AI handles 70% of a job's tasks? How do you avoid the rubber-stamp problem? We have change management generalitys where we need task-level decomposition frameworks and role redesign patterns.
 
 ### Content Roadmap
 

@@ -524,6 +524,25 @@
         "ea-operating-model",
         "gartner"
       ]
+    },
+    {
+      "id": "source-031",
+      "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
+      "url": "",
+      "author": "PwC",
+      "date": "2024",
+      "type": "report",
+      "relevance": 4,
+      "tags": [
+        "agentic-ai",
+        "process-automation",
+        "GenAI",
+        "executive-strategy",
+        "service-as-a-software",
+        "multi-agent-systems",
+        "AI-adoption",
+        "ROI"
+      ]
     }
   ]
 }

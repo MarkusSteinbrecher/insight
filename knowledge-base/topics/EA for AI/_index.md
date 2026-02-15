@@ -8,11 +8,12 @@ completed_steps:
   - "0.2"  # Document ingestion
   - "1.1"  # Per-source extraction (30 sources, 2,728 segments)
   - "1.2"  # Cross-source claim alignment (136 canonical, 82 unique, 18 contradictions)
-  - "1.3"  # Critical analysis (21 genuine insights, 55 partial, 45 obvious, 15 platitudes)
+  - "1.3"  # Critical analysis (136 claims assessed)
   - "1.4"  # Cross-source comparison (14,424-word narrative analysis)
   - "2.1"  # Interactive discussion (8 findings discussed, 7 kept, 1 merged)
   - "2.2"  # Synthesis (7 findings, 5 tensions, 5 thought leadership positions, 7 content pieces)
-current_step: "3.1"  # Reader perspective — actionability analysis
+  - "3.1"  # Reader perspective — actionability analysis
+current_step: "3.2"  # Recommendations
 created: 2026-02-14
 updated: 2026-02-14
 tags:
@@ -25,12 +26,11 @@ tags:
   - reference-architecture
   - production-readiness
 source_count: 30
-insight_count: 19
+insight_count: 0
 extraction_count: 30
 canonical_claims: 136
 unique_claims: 82
 contradictions: 18
-genuine_insights: 21
 critical_analysis_parts: 4
 
 # Targeted research inputs

@@ -25,5 +25,8 @@ node_modules/
 knowledge-base/topics/*/documents/*
 !knowledge-base/topics/*/documents/.gitkeep
 
+# Session logs (private)
+knowledge-base/sessions/
+
 # Build artifacts
 dist/

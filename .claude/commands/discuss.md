@@ -15,41 +15,29 @@ The topic must have critical analysis files at `knowledge-base/topics/{topic}/ex
 1. **Load the critical analysis data**:
    - Read all `critical-analysis-part*.yaml` files from `knowledge-base/topics/{topic}/extractions/`
    - Read the `claim-alignment.yaml` for context on supporting claims
-   - Count total findings and group by verdict
+   - Count total findings
 
 2. **Present overview to the user**:
-   - Show total findings, verdict distribution, average scores
+   - Show total findings
    - Ask the user how they want to proceed:
      - **All findings** in order (full walkthrough)
-     - **Genuine insights only** (focus on the best stuff)
-     - **Platitudes and obvious** (focus on what to challenge/discard)
-     - **Most actionable** (sorted by actionability score, descending)
+     - **Selective** (user picks which to discuss)
 
 3. **Walk through findings one at a time**:
    For each finding, present a structured discussion block:
 
    **a) Present the finding:**
-   - Show: statement, verdict, scores (platitude/actionability/novelty)
-   - Show: the critique (skeptic view) and the bottom line
-   - Show: key action items from `what_to_actually_do`
+   - Show: statement, the critique (skeptic view) and the bottom line
+   - Show: key action items from `action_steps`
 
    **b) Ask the user 2-3 targeted questions using AskUserQuestion:**
 
-   Choose questions contextually based on the verdict:
+   Choose questions contextually:
 
-   For **platitudes** and **important_but_obvious**:
-   - "Does this match your experience? Is this truly obvious in your org, or is there a gap between 'everyone knows this' and 'everyone does this'?"
-   - "What's the real blocker? Why isn't this being done if everyone agrees it should be?"
-   - "Is there a specific 'how' that would make this actionable for your audience?"
-
-   For **partial_insights**:
-   - "What resonates here? What part of this is genuinely useful vs. noise?"
+   - "Does this match your experience? Is this widely recognised in your org, or is there a gap between knowing and doing?"
+   - "What resonates here? What part of this is most useful?"
    - "Can you think of a concrete example from your experience that illustrates this?"
-   - "What additional angle or nuance would strengthen this insight?"
-
-   For **genuine_insights**:
-   - "Is this as novel as the analysis suggests? Have you seen this applied in practice?"
-   - "Who in your network would find this most surprising or valuable?"
+   - "Is there a specific 'how' that would make this actionable for your audience?"
    - "What would be the strongest way to present this in a thought leadership piece?"
 
    For **contradictions**:
@@ -60,7 +48,7 @@ The topic must have critical analysis files at `knowledge-base/topics/{topic}/ex
    **c) Record the user's response** — save it as structured discussion notes
 
    **d) Ask a closing question for each finding:**
-   - Verdict: "Based on our discussion, should we: Keep as-is / Upgrade / Downgrade / Flag for deeper research / Discard?"
+   - Assessment: "Based on our discussion, should we: Keep as-is / Upgrade / Downgrade / Flag for deeper research / Discard?"
    - Any specific topics or questions flagged for further investigation
 
 4. **After each finding, ask:** "Continue to next finding, or pause here?"
@@ -81,7 +69,6 @@ The topic must have critical analysis files at `knowledge-base/topics/{topic}/ex
    discussions:
      - finding_id: cc-001
        statement: "..."
-       original_verdict: important_but_obvious
        user_assessment: "keep" | "upgrade" | "downgrade" | "research_further" | "discard"
        user_notes: |
          What the user said about this finding...
@@ -90,7 +77,6 @@ The topic must have critical analysis files at `knowledge-base/topics/{topic}/ex
          - topic: "How organisations actually implement AI governance step-by-step"
            priority: high
            context: "Sources identify the what but not the how"
-       revised_verdict: null  # or new verdict if user changed it
 
    research_topics:
      - topic: "..."
@@ -109,7 +95,7 @@ The topic must have critical analysis files at `knowledge-base/topics/{topic}/ex
    ```
 
 6. **At the end of the session**, present a summary:
-   - Findings discussed and verdicts
+   - Findings discussed and assessments
    - Research topics identified (these become inputs for `/research`)
    - Suggested next steps
 

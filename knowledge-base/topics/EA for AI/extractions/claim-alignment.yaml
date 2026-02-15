@@ -5,10 +5,10 @@
 # Generated: 2026-02-14
 
 meta:
-  sources_analyzed: 30
-  total_claims_input: 1073
+  sources_analyzed: 31
+  total_claims_input: 1109
   canonical_claims: 136
-  unique_claims: 82
+  unique_claims: 85
   contradictions: 18
   themes: 23
   theme_breakdown:
@@ -61,7 +61,11 @@ canonical_claims:
         seg_id: seg-009
       - source_id: source-014
         seg_id: seg-009
-    source_count: 6
+      - source_id: source-031
+        seg_id: seg-007
+      - source_id: source-031
+        seg_id: seg-011
+    source_count: 7
 
   - id: cc-002
     theme: model_architecture
@@ -189,7 +193,11 @@ canonical_claims:
         seg_id: seg-047
       - source_id: source-014
         seg_id: seg-005
-    source_count: 5
+      - source_id: source-031
+        seg_id: seg-012
+      - source_id: source-031
+        seg_id: seg-046
+    source_count: 6
 
   - id: cc-010
     theme: model_architecture
@@ -233,7 +241,13 @@ canonical_claims:
         seg_id: seg-030
       - source_id: source-021
         seg_id: seg-023
-    source_count: 5
+      - source_id: source-031
+        seg_id: seg-013
+      - source_id: source-031
+        seg_id: seg-029
+      - source_id: source-031
+        seg_id: seg-067
+    source_count: 6
 
   - id: cc-013
     theme: model_architecture
@@ -275,7 +289,9 @@ canonical_claims:
         seg_id: seg-020
       - source_id: source-009
         seg_id: seg-010
-    source_count: 3
+      - source_id: source-031
+        seg_id: seg-015
+    source_count: 4
 
   - id: cc-016
     theme: model_architecture
@@ -331,7 +347,13 @@ canonical_claims:
         seg_id: seg-053
       - source_id: source-004
         seg_id: seg-129
-    source_count: 2
+      - source_id: source-031
+        seg_id: seg-089
+      - source_id: source-031
+        seg_id: seg-093
+      - source_id: source-031
+        seg_id: seg-095
+    source_count: 3
 
   - id: cc-020
     theme: model_architecture
@@ -521,7 +543,11 @@ canonical_claims:
         seg_id: seg-134
       - source_id: source-014
         seg_id: seg-005
-    source_count: 5
+      - source_id: source-031
+        seg_id: seg-014
+      - source_id: source-031
+        seg_id: seg-066
+    source_count: 6
 
   - id: cc-033
     theme: automation_AI_ops
@@ -533,7 +559,13 @@ canonical_claims:
         seg_id: seg-099
       - source_id: source-010
         seg_id: seg-040
-    source_count: 3
+      - source_id: source-031
+        seg_id: seg-027
+      - source_id: source-031
+        seg_id: seg-060
+      - source_id: source-031
+        seg_id: seg-062
+    source_count: 4
 
   - id: cc-034
     theme: automation_AI_ops
@@ -563,7 +595,9 @@ canonical_claims:
         seg_id: seg-173
       - source_id: source-003
         seg_id: seg-013
-    source_count: 4
+      - source_id: source-031
+        seg_id: seg-184
+    source_count: 5
 
   - id: cc-036
     theme: data_architecture
@@ -617,7 +651,11 @@ canonical_claims:
         seg_id: seg-065
       - source_id: source-008
         seg_id: seg-007
-    source_count: 3
+      - source_id: source-031
+        seg_id: seg-175
+      - source_id: source-031
+        seg_id: seg-176
+    source_count: 4
 
   - id: cc-040
     theme: governance_org_change
@@ -769,7 +807,11 @@ canonical_claims:
         seg_id: seg-049
       - source_id: source-008
         seg_id: seg-024
-    source_count: 6
+      - source_id: source-031
+        seg_id: seg-019
+      - source_id: source-031
+        seg_id: seg-193
+    source_count: 7
 
   - id: cc-049
     theme: AI_governance_ethics
@@ -801,7 +843,9 @@ canonical_claims:
         seg_id: seg-114
       - source_id: source-021
         seg_id: seg-038
-    source_count: 5
+      - source_id: source-031
+        seg_id: seg-079
+    source_count: 6
 
   - id: cc-051
     theme: AI_governance_ethics
@@ -925,7 +969,11 @@ canonical_claims:
         seg_id: seg-009
       - source_id: source-011
         seg_id: seg-023
-    source_count: 4
+      - source_id: source-031
+        seg_id: seg-195
+      - source_id: source-031
+        seg_id: seg-196
+    source_count: 5
 
   - id: cc-059
     theme: AI_maturity_adoption
@@ -937,7 +985,11 @@ canonical_claims:
         seg_id: seg-028
       - source_id: source-030
         seg_id: seg-037
-    source_count: 3
+      - source_id: source-031
+        seg_id: seg-176
+      - source_id: source-031
+        seg_id: seg-179
+    source_count: 4
 
   # === SECURITY RISK ===
 
@@ -1019,7 +1071,11 @@ canonical_claims:
         seg_id: seg-009
       - source_id: source-003
         seg_id: seg-181
-    source_count: 4
+      - source_id: source-031
+        seg_id: seg-048
+      - source_id: source-031
+        seg_id: seg-053
+    source_count: 5
 
   - id: cc-065
     theme: organizational_change
@@ -1099,7 +1155,13 @@ canonical_claims:
         seg_id: seg-021
       - source_id: source-020
         seg_id: seg-200
-    source_count: 4
+      - source_id: source-031
+        seg_id: seg-022
+      - source_id: source-031
+        seg_id: seg-029
+      - source_id: source-031
+        seg_id: seg-067
+    source_count: 6
 
   - id: cc-070
     theme: agentic_AI_architecture
@@ -1247,7 +1309,9 @@ canonical_claims:
         seg_id: seg-019
       - source_id: source-020
         seg_id: seg-143
-    source_count: 4
+      - source_id: source-031
+        seg_id: seg-067
+    source_count: 5
 
   - id: cc-078
     theme: agentic_AI_architecture
@@ -1321,7 +1385,11 @@ canonical_claims:
         seg_id: seg-157
       - source_id: source-013
         seg_id: seg-003
-    source_count: 2
+      - source_id: source-031
+        seg_id: seg-033
+      - source_id: source-031
+        seg_id: seg-098
+    source_count: 3
 
   # === ROI VALUE BUSINESS ===
 
@@ -1339,7 +1407,11 @@ canonical_claims:
         seg_id: seg-141
       - source_id: source-015
         seg_id: seg-059
-    source_count: 4
+      - source_id: source-031
+        seg_id: seg-020
+      - source_id: source-031
+        seg_id: seg-044
+    source_count: 5
 
   - id: cc-084
     theme: ROI_value_business
@@ -1397,6 +1469,10 @@ canonical_claims:
         seg_id: seg-111
       - source_id: source-007
         seg_id: seg-116
+      - source_id: source-031
+        seg_id: seg-053
+      - source_id: source-031
+        seg_id: seg-075
     source_count: 4
 
   - id: cc-088
@@ -1519,7 +1595,11 @@ canonical_claims:
         seg_id: seg-020
       - source_id: source-014
         seg_id: seg-145
-    source_count: 2
+      - source_id: source-031
+        seg_id: seg-186
+      - source_id: source-031
+        seg_id: seg-190
+    source_count: 3
 
   # === EA ROLE EVOLUTION ===
 
@@ -1689,7 +1769,9 @@ canonical_claims:
         seg_id: seg-001
       - source_id: source-012
         seg_id: seg-014
-    source_count: 4
+      - source_id: source-031
+        seg_id: seg-018
+    source_count: 5
 
   - id: cc-106
     theme: EA_framework_adaptation
@@ -1751,7 +1833,9 @@ canonical_claims:
         seg_id: seg-116
       - source_id: source-001
         seg_id: seg-036
-    source_count: 4
+      - source_id: source-031
+        seg_id: seg-181
+    source_count: 5
 
   - id: cc-110
     theme: infrastructure_cloud
@@ -1837,7 +1921,11 @@ canonical_claims:
         seg_id: seg-017
       - source_id: source-028
         seg_id: seg-023
-    source_count: 2
+      - source_id: source-031
+        seg_id: seg-179
+      - source_id: source-031
+        seg_id: seg-186
+    source_count: 3
 
   - id: cc-116
     theme: infrastructure_cloud
@@ -1867,7 +1955,9 @@ canonical_claims:
         seg_id: seg-136
       - source_id: source-020
         seg_id: seg-169
-    source_count: 3
+      - source_id: source-031
+        seg_id: seg-050
+    source_count: 4
 
   - id: cc-118
     theme: AI_strategy_leadership
@@ -2119,7 +2209,11 @@ canonical_claims:
         seg_id: seg-154
       - source_id: source-007
         seg_id: seg-118
-    source_count: 3
+      - source_id: source-031
+        seg_id: seg-053
+      - source_id: source-031
+        seg_id: seg-075
+    source_count: 4
 
   # === VENDOR ECOSYSTEM ===
 
@@ -2784,6 +2878,27 @@ unique_claims:
     seg_id: seg-003
     why_notable: "Reframes EA components as living assets owned by persistent teams, providing the organizational model that makes AI-era agility possible"
 
+  - id: uc-083
+    theme: ROI_value_business
+    statement: "The 'service-as-a-software' model transforms the enterprise economics of AI adoption — instead of purchasing software licences or SaaS subscriptions, businesses pay for specific outcomes delivered by AI agents, shifting from per-seat pricing to outcome-based pricing."
+    source_id: source-031
+    seg_id: seg-069
+    why_notable: "Introduces a fundamentally different commercial model for AI services that inverts the traditional SaaS relationship — if adopted broadly, this reshapes how enterprises budget for and procure AI capabilities, moving cost structures from fixed to variable and aligning expenditure directly with delivered value."
+
+  - id: uc-084
+    theme: agentic_AI_architecture
+    statement: "The transition from copilot to autopilot modes represents a maturity progression where organizations initially deploy AI in a human-in-the-loop 'copilot' role, build trust through demonstrated reliability, and then transition to autonomous 'autopilot' operation."
+    source_id: source-031
+    seg_id: seg-079
+    why_notable: "Provides a concrete two-stage adoption pathway (copilot then autopilot) with trust-building as the gate between stages — a practical maturity model that most sources lack, addressing the common enterprise question of 'how do we safely increase AI autonomy?'"
+
+  - id: uc-085
+    theme: agentic_AI_architecture
+    statement: "The agentic AI tools ecosystem is bifurcating into commercial solutions (LangGraph, CrewAI) for enterprise-scale deployment and open-source solutions (AutoGen, AutoGPT) for rapid prototyping, with organizations needing to leverage both tracks strategically."
+    source_id: source-031
+    seg_id: seg-170
+    why_notable: "Maps the emerging agentic tooling landscape into a clear commercial vs open-source taxonomy with distinct use cases for each — a practical decision framework for enterprise architects evaluating build-vs-buy options in the fast-evolving agent tooling space."
+
 # ============================================================
 # CONTRADICTIONS — Sources genuinely disagree
 # ============================================================
@@ -2913,6 +3028,8 @@ contradictions:
           seg_id: seg-045
         - source_id: source-007
           seg_id: seg-134
+        - source_id: source-031
+          seg_id: seg-015
 
   - id: ct-007
     theme: organizational_change
@@ -3017,6 +3134,8 @@ contradictions:
           seg_id: seg-202
         - source_id: source-014
           seg_id: seg-062
+        - source_id: source-031
+          seg_id: seg-079
 
   - id: ct-012
     theme: ROI_value_business
@@ -3057,6 +3176,10 @@ contradictions:
           seg_id: seg-199
         - source_id: source-019
           seg_id: seg-020
+        - source_id: source-031
+          seg_id: seg-186
+        - source_id: source-031
+          seg_id: seg-190
 
   - id: ct-014
     theme: EA_framework_adaptation

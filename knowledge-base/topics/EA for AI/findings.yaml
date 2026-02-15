@@ -1,0 +1,33 @@
+# Findings → Claim Mapping
+# Maps each editorial finding (from synthesis.md Section 3) to its supporting canonical claims.
+# Claim IDs reference entries in extractions/claim-alignment.yaml and critical-analysis-part*.yaml.
+# Generated: 2026-02-15
+
+findings:
+  - id: finding-01
+    title: "The Governance Speed Problem Is Structural, Not Incremental"
+    claims: [cc-104, cc-101, cc-046, cc-106, cc-098, cc-097, cc-090, cc-091]
+
+  - id: finding-02
+    title: "The Model Is the Commodity — Everything Else Is the Moat"
+    claims: [cc-016, cc-004, cc-089, cc-024, cc-085]
+
+  - id: finding-03
+    title: "Multi-Agent Architecture Is the Microservices Moment"
+    claims: [cc-012, cc-026, cc-078, cc-136, cc-063]
+
+  - id: finding-04
+    title: "AI-Augmented EA Is Necessary — But Most Organisations Cannot Get There Yet"
+    claims: [cc-068, cc-091, cc-090, cc-098, cc-097]
+
+  - id: finding-05
+    title: "Process Redesign First, Then Automation"
+    claims: [cc-031, cc-100, cc-101]
+
+  - id: finding-06
+    title: "The C-Suite Expectation Gap Is an Architecture Problem"
+    claims: [cc-088, cc-085]
+
+  - id: finding-07
+    title: "Agent Management Is an Emerging Discipline"
+    claims: [cc-132, cc-065]

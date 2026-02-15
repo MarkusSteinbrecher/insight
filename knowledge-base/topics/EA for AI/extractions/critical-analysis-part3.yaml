@@ -7,28 +7,36 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "Agentic AI represents a fundamental architectural shift from centralized, application-centric IT systems to decentralized, multi-agent architectures where autonomous agents collaborate, reason, and orchestrate workflows across the enterprise."
     source_count: 4
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 3
-      novelty: 3
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
     critique: "The framing of agentic AI as a 'fundamental shift' is directionally correct but overstates current reality. Most enterprises are nowhere near decentralized multi-agent architectures; they are experimenting with single-agent copilots bolted onto existing systems. The claim conflates a long-term trajectory with a present-tense architectural reality, which misleads planning timelines."
     practical_value: "Alerts architects that agent-based patterns will eventually demand different topology assumptions than traditional SOA or microservices, but provides no guidance on sequencing or intermediate states."
     action_steps:
       - "Map your current application portfolio into three tiers: agent-ready (APIs, event-driven), agent-adaptable (needs wrapper/adapter), and agent-hostile (batch, monolithic) to quantify your actual starting position."
       - "Identify one workflow (e.g., incident response, procurement approval) where a two-agent collaboration pattern can be piloted without requiring full decentralization."
       - "Document the gap between your current integration backbone (ESB, API gateway) and what an agent communication layer would require, including latency, state management, and security boundaries."
-    bottom_line: "The shift to multi-agent architectures is real, but calling it 'fundamental' today is aspirational marketing -- most enterprises need a decade-long migration path, not a revolution."
+    bottom_line: "The shift to multi-agent architectures is real, but characterizing it as 'fundamental' today is premature -- most enterprises need a decade-long migration path, not a revolution."
 
   - id: cc-070
     theme: "agentic_AI_architecture"
     statement: "Agentic architectures require distributed, autonomous agents that communicate through structured protocols (such as A2A and ACP), share context via vectorized memory, and coordinate across domains to deliver scalable, context-aware enterprise intelligence."
     source_count: 3
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 6
-      novelty: 7
+    ocaf:
+      source_convergence: 3
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.4
+      value_category: MODERATE_VALUE
     critique: "This is one of the more technically specific claims in the set, naming actual protocols (A2A, ACP) and architectural patterns (vectorized memory). The weakness is that these protocols are still immature and competing -- treating them as established standards overstates their readiness. The claim also glosses over the massive data engineering required to make 'shared context via vectorized memory' work across enterprise domains with inconsistent data models."
     practical_value: "Gives architects a concrete technical vocabulary and specific protocols to evaluate, which is far more useful than generic 'agents need to communicate' statements."
     action_steps:
@@ -41,11 +49,15 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "Event-driven architecture (EDA), built on platforms like Apache Kafka, is a foundational prerequisite for agentic AI, decoupling agents from each other and from core enterprise systems to enable asynchronous, scalable coordination."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 6
-      novelty: 4
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "EDA as a prerequisite for agentic AI is a reasonable architectural position but presented as more universally true than it is. Many early agent implementations use synchronous request-response patterns perfectly well. Kafka is named as if it is the only option, ignoring alternatives like Pulsar, NATS, or cloud-native event services. The claim also underplays the operational complexity of running Kafka at scale, which is itself a significant architectural burden."
     practical_value: "Useful reminder that synchronous point-to-point integrations will not scale for multi-agent coordination, pushing architects to invest in event infrastructure early rather than retrofitting."
     action_steps:
@@ -58,11 +70,15 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "Agentic AI enhances enterprise cybersecurity through proactive, autonomous threat detection and response agents that reduce detection latency and response time from hours to seconds, while also introducing new attack surfaces such as compromised agents and adversarial prompts."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 5
-      novelty: 5
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 3
+      claim_type: C
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
     critique: "The dual nature of this claim -- AI improves security AND creates new attack surfaces -- is its strength, but both halves are stated without nuance. The 'hours to seconds' speed claim lacks qualification on what types of threats and at what false-positive rate. The new attack surface discussion names compromised agents and adversarial prompts but misses the deeper issues: agent identity spoofing, tool-use abuse, and the challenge of auditing non-deterministic decision chains."
     practical_value: "Frames the security conversation correctly as a double-edged sword, which helps architects avoid the trap of treating AI security as purely beneficial or purely risky."
     action_steps:
@@ -75,11 +91,15 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "Operational resilience in agentic systems requires fault-tolerant multi-agent patterns including backup failover agents, self-healing behaviors, LLM-based failure forecasting, and automated incident response playbooks."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 6
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "The resilience patterns listed are sensible but mostly borrowed from existing distributed systems engineering (failover, self-healing, automated playbooks) with 'LLM-based' prepended. The genuinely novel element -- using LLMs for failure forecasting -- is mentioned but not developed. The claim does not address the unique resilience challenges of non-deterministic systems: how do you failover an agent whose behavior depends on probabilistic inference and accumulated conversational context?"
     practical_value: "Provides a useful checklist of resilience patterns that architects should implement, even if most are adaptations of existing patterns rather than fundamentally new approaches."
     action_steps:
@@ -92,13 +112,17 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "Governance, trust, and accountability for autonomous agent actions -- encompassing auditability, transparency, explainability, and regulatory compliance -- are non-negotiable foundations for scalable enterprise adoption of agentic AI."
     source_count: 3
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 3
-      novelty: 2
-    critique: "This is a textbook governance statement that could be applied to any enterprise technology adoption. Replace 'agentic AI' with 'cloud computing' or 'RPA' and the claim holds identically. It names desirable properties (auditability, transparency, explainability) without addressing the genuine tension: agent systems are non-deterministic, making traditional audit approaches insufficient. The real insight would be about what new governance mechanisms are needed, not that governance is important."
-    practical_value: "Minimal beyond confirming what any enterprise architect already knows. The value would come from specifying how governance for non-deterministic systems differs from traditional IT governance."
+    ocaf:
+      source_convergence: 3
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is a broadly applicable governance statement that could apply to any enterprise technology adoption. Substituting 'agentic AI' with 'cloud computing' or 'RPA' produces an equally valid claim. It names desirable properties (auditability, transparency, explainability) without addressing the genuine tension: agent systems are non-deterministic, making traditional audit approaches insufficient. The more valuable insight would be about what new governance mechanisms are needed, not that governance is important."
+    practical_value: "Limited beyond reinforcing a widely understood principle. The value would come from specifying how governance for non-deterministic systems differs from traditional IT governance."
     action_steps:
       - "Define a minimum viable audit trail specification for agent actions: every tool invocation, every LLM call with prompt and response hashes, every decision point, stored in an immutable append-only log."
       - "Implement 'reasoning traces' where agents must output their decision rationale in structured format before taking any action classified as high-impact (financial transactions, data modifications, external communications)."
@@ -109,13 +133,17 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "Traditional enterprise systems (ERP, CRM) and legacy architectures were not designed for agentic interactions, creating bottlenecks and integration challenges that require fundamental rethinking rather than incremental API additions."
     source_count: 4
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 5
-      novelty: 4
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 3
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
     critique: "The observation is valid -- SAP, Salesforce, and Oracle were designed for human users navigating screens, not for agents making thousands of API calls per minute. However, the claim underestimates how quickly legacy vendors are adapting (Salesforce Agentforce, SAP Joule) and overstates the need for 'fundamental rethinking.' For many enterprises, the pragmatic path is agent-friendly wrappers around existing systems, not wholesale replacement. The claim also ignores that many legacy systems already have robust APIs that agents can leverage."
-    practical_value: "Helps architects push back on the naive assumption that 'we just need to add an AI layer on top' by highlighting genuine integration friction points."
+    practical_value: "Helps architects challenge the oversimplified assumption that 'we just need to add an AI layer on top' by highlighting genuine integration friction points."
     action_steps:
       - "Audit your top 10 enterprise systems for agent-readiness: API rate limits, bulk operation support, webhook/event capabilities, and whether the API surface covers the full functionality or just a subset."
       - "Identify the three systems where agent interaction will create the most friction (typically those with session-based UIs, complex multi-step transactions, or poor API coverage) and evaluate vendor roadmaps for agent-native interfaces."
@@ -126,28 +154,36 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "Agentic AI is now a core feature of major EA tools, automating data validation, capability mapping, and artifact creation, and is rapidly moving from research labs to production deployment."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 5
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 2
+      claim_type: D
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
     critique: "The claim that agentic AI is a 'core feature' of major EA tools is premature. Most EA tool vendors have added AI assistants or copilots, but these are largely LLM wrappers for natural language queries and document generation -- not truly autonomous agents. The jump from 'research labs to production' is also overstated; most enterprises are running AI-assisted EA in pilot mode, not production. However, the specific use cases mentioned (data validation, capability mapping, artifact creation) are genuinely practical applications where AI adds value today."
     practical_value: "Points architects toward immediate, practical AI applications within their own tooling, which is more actionable than grand architectural visions."
     action_steps:
       - "Evaluate your current EA tool's AI capabilities (LeanIX, Ardoq, Mega, BiZZdesign) against a checklist: auto-classification, relationship inference, stale data detection, natural language querying, and artifact generation."
       - "Run a time-motion study comparing manual capability mapping versus AI-assisted mapping for one business domain, measuring accuracy, time savings, and the amount of human review still required."
       - "Negotiate AI feature access in your next EA tool contract renewal -- many vendors gate AI capabilities behind premium tiers, so understand the cost-benefit before committing."
-    bottom_line: "AI in EA tools is real but still copilot-grade -- useful for automating drudge work, not yet ready to replace architectural judgment."
+    bottom_line: "AI in EA tools is real but still copilot-grade -- useful for automating routine tasks, not yet ready to replace architectural judgment."
 
   - id: cc-077
     theme: "agentic_AI_architecture"
     statement: "Modular, composable agent architectures -- where smaller specialized agents are assembled for complex tasks -- reduce complexity, improve testability, and enable platform flexibility and scalable orchestration."
     source_count: 4
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 6
-      novelty: 4
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "This is essentially the microservices argument repackaged for agents. The benefits claimed (modularity, testability, composability) are the same ones used to justify the shift from monoliths to microservices -- and we know that shift came with enormous hidden costs in distributed system complexity, observability, and operational overhead. The claim does not address the unique challenges of composing non-deterministic components: how do you test a pipeline of agents when each one's output is probabilistic?"
     practical_value: "Provides a sound architectural principle (compose small agents rather than building monolithic ones) that aligns with proven software engineering practices, even if the framing is not novel."
     action_steps:
@@ -160,11 +196,15 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "The semantic layer or enterprise knowledge graph is a critical differentiator between traditional and agentic architectures, providing the shared understanding that agents need to operate across domains."
     source_count: 3
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 5
-      novelty: 7
+    ocaf:
+      source_convergence: 3
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.4
+      value_category: MODERATE_VALUE
     critique: "This is a genuinely important architectural insight that most organizations are underinvesting in. Without a shared semantic model, agents operating across domains will produce inconsistent or contradictory results because they lack common definitions of entities, relationships, and business rules. The weakness is that building an enterprise knowledge graph is a massive undertaking that has defeated most organizations even without AI -- the claim does not address whether lighter-weight approaches (shared ontologies, domain glossaries, entity resolution services) might provide 80% of the value at 20% of the cost."
     practical_value: "Highlights the most underappreciated prerequisite for multi-agent architectures and gives architects a concrete investment thesis for knowledge management infrastructure."
     action_steps:
@@ -177,28 +217,36 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "Successful agentic transformation requires reimagining workflows and processes for an agentic environment rather than simply automating existing human-designed processes."
     source_count: 2
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 4
-      novelty: 3
-    critique: "This is the same advice given for every technology wave since BPR in the 1990s: do not just automate existing processes, redesign them. It was said about ERP, about cloud, about RPA, and now about AI agents. The principle is correct but so well-known that stating it adds no new insight. The claim would be valuable if it described how agent-native process design differs from human-native process design -- for example, agents can run thousands of parallel evaluations, do not need sequential approval chains, and can maintain context across time spans that humans cannot."
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
+    critique: "This principle has been articulated for every technology wave since BPR in the 1990s: do not just automate existing processes, redesign them. It was stated about ERP, about cloud, about RPA, and now about AI agents. The principle is correct but well-established enough that restating it adds limited new insight. The claim would be more valuable if it described how agent-native process design differs from human-native process design -- for example, agents can run thousands of parallel evaluations, do not need sequential approval chains, and can maintain context across time spans that humans cannot."
     practical_value: "Serves as a useful guardrail against the 'paving the cow path' mistake, but needs to be paired with specific examples of what agent-native workflows look like."
     action_steps:
       - "Select one high-volume business process and redesign it from scratch assuming unlimited agent parallelism, zero fatigue, and perfect recall -- then compare this 'agent-native' design against the current process to identify which human-centric constraints can be removed."
       - "Identify the approval and handoff steps in your top five workflows that exist solely because humans cannot maintain context across long time spans or multiple systems -- these are the steps agents can eliminate entirely, not just accelerate."
       - "Create a 'process reimagination workshop' format where business and IT stakeholders co-design workflows assuming agent capabilities, rather than starting from current-state process maps."
-    bottom_line: "Every automation wave says 'reimagine, do not just automate' -- the question is whether your organization will actually do it this time."
+    bottom_line: "Successful agentic transformation requires reimagining workflows for agent capabilities rather than automating existing human-designed processes."
 
   - id: cc-080
     theme: "agentic_AI_architecture"
     statement: "Agentic AI transforms IT operations (AIOps) through predictive monitoring, autonomous diagnostics, LLM-assisted remediation, and self-healing behaviors, lowering mean time to resolution and ensuring 24/7 service resilience."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 5
-      novelty: 4
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 3
+      claim_type: C
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
     critique: "AIOps has been promising predictive monitoring and autonomous remediation for years before LLMs. The addition of LLMs enables better log analysis and more natural runbook interpretation, but the fundamental AIOps challenges -- alert fatigue, correlation across observability signals, safe autonomous action -- remain unsolved. The claim presents these as near-term capabilities when in practice, most organizations struggle to get basic monitoring right, let alone autonomous remediation. The 'self-healing' aspiration is real but measured in years, not quarters."
     practical_value: "Identifies IT operations as a high-value early target for agentic AI, which is correct -- the domain has structured data, clear success metrics, and tolerance for automation."
     action_steps:
@@ -211,64 +259,80 @@ analyses:
     theme: "agentic_AI_architecture"
     statement: "The transition to agentic enterprise is not merely technological evolution but an organizational transformation that reshapes how enterprises operate, compete, and create value, requiring a 3-5 year transformation horizon."
     source_count: 3
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 3
-      novelty: 2
-    critique: "Every major technology shift is described as 'not merely technological but organizational.' This exact framing has been used for cloud, digital transformation, DevOps, and agile. The 3-5 year timeline is the only specific element, and even that is a consultant's safe bet -- long enough to be unfalsifiable, short enough to create urgency. The claim provides no insight into what makes the agentic organizational transformation qualitatively different from previous ones, or what specific organizational structures need to change."
-    practical_value: "The 3-5 year horizon is a useful planning anchor for enterprise architects building roadmaps, but the rest is standard change management rhetoric."
+    ocaf:
+      source_convergence: 3
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 3
+      claim_type: N
+      value_score: 2.4
+      value_category: CONTEXTUAL_VALUE
+    critique: "The framing of a technology shift as 'not merely technological but organizational' has been applied to cloud, digital transformation, DevOps, and agile in similar terms. The 3-5 year timeline is the only specific element, and it is broad enough to accommodate a wide range of outcomes while being narrow enough to suggest urgency. The claim provides no insight into what makes the agentic organizational transformation qualitatively different from previous ones, or what specific organizational structures need to change."
+    practical_value: "The 3-5 year horizon is a useful planning anchor for enterprise architects building roadmaps, but the remainder restates established change management principles without AI-specific differentiation."
     action_steps:
       - "Build a three-phase agentic transformation roadmap with concrete milestones: Phase 1 (Year 1) -- copilot-grade agents in 5 workflows; Phase 2 (Years 2-3) -- multi-agent orchestration in 2 domains; Phase 3 (Years 4-5) -- cross-domain agent collaboration with governance."
       - "Identify the three organizational changes most likely to block agentic adoption (typically: security approval processes, procurement cycles for AI services, and lack of prompt engineering skills) and start addressing them now."
       - "Establish an 'agentic readiness' scorecard covering technology, skills, governance, and culture dimensions, and baseline your organization to track progress quarterly."
-    bottom_line: "Calling agentic AI an 'organizational transformation' is true but unhelpful -- every technology trend claims to be one, and this framing does not tell you what to actually change."
+    bottom_line: "The transition to agentic enterprise is an organizational transformation -- not just a technology shift -- requiring a 3-5 year horizon to reshape how enterprises operate and compete."
 
   - id: cc-082
     theme: "agentic_AI_architecture"
     statement: "Multi-modal data integration -- combining structured data, unstructured content, and real-time IoT streams -- is essential for enabling context-aware, intelligent agent behavior in enterprise architectures."
     source_count: 2
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 4
-      novelty: 3
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
     critique: "Multi-modal data integration has been an enterprise architecture goal for two decades under various labels (MDM, data fabric, data mesh, unified data platforms). Adding 'for AI agents' does not make this a new insight. The claim is correct that agents need access to diverse data types, but it understates the difficulty: most enterprises cannot even integrate their structured data reliably, let alone add unstructured content and IoT streams. The claim would be more valuable if it specified what level of data integration agents actually need versus the gold-plated vision."
-    practical_value: "Reminds architects that data integration is the unglamorous prerequisite that will determine whether agent deployments succeed or produce garbage outputs."
+    practical_value: "Reminds architects that data integration is the foundational prerequisite that will determine whether agent deployments succeed or produce unreliable outputs."
     action_steps:
       - "Audit your top three agent use cases and list exactly which data sources each agent needs -- then assess whether those sources are currently accessible via API, require batch extraction, or are locked in silos with no programmatic access."
       - "Implement a data access abstraction layer for agents that provides a unified query interface across structured (SQL), unstructured (vector search), and streaming (event) data sources, rather than having each agent manage its own data connections."
       - "Prioritize data quality over data breadth: for your first agent deployments, ensure one or two data sources are clean, current, and well-documented rather than connecting agents to ten sources of questionable quality."
-    bottom_line: "Multi-modal data integration is the prerequisite everyone acknowledges and nobody finishes -- agents will not fix your data problems, they will amplify them."
+    bottom_line: "Multi-modal data integration is a widely recognized prerequisite that most organizations have not fully achieved -- agents will not resolve underlying data problems, they will amplify them."
 
   - id: cc-083
     theme: "ROI_value_business"
     statement: "The EA mandate is shifting from IT optimization to business value creation, with architects uniquely positioned to bridge the gap between technology investments and business outcomes."
     source_count: 4
-    verdict: platitude
-    scores:
-      platitude: 8
-      actionability: 2
-      novelty: 1
-    critique: "This claim has been the opening slide of EA conference presentations for at least fifteen years. The shift from 'IT optimization to business value' has been the stated aspiration of every EA practice since TOGAF 9.0. Saying architects are 'uniquely positioned' is self-congratulatory framing common in analyst reports targeting EA practitioners. There is no evidence that the AI era makes this shift more real or more urgent than previous waves. The claim provides zero specific guidance on how an architect should actually create business value."
-    practical_value: "None beyond motivational framing. An architect reading this learns nothing about what to do differently on Monday morning."
+    ocaf:
+      source_convergence: 3
+      specificity: 1
+      evidence_type: 2
+      actionability: 1
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.4
+      value_category: CONTEXTUAL_VALUE
+    critique: "This claim has been a recurring theme in EA discourse for at least fifteen years. The shift from 'IT optimization to business value' has been the stated aspiration of every EA practice since TOGAF 9.0. Describing architects as 'uniquely positioned' is aspirational framing common in analyst reports targeting EA practitioners, but it is not substantiated here. There is no evidence presented that the AI era makes this shift more real or more urgent than previous waves. The claim provides no specific guidance on how an architect should actually create business value."
+    practical_value: "Limited to motivational framing. The claim does not identify specific actions or practices an architect should adopt to make this shift concrete."
     action_steps:
       - "Pick one business KPI (revenue per customer, cost per transaction, time to market) and trace it back to specific technology capabilities and architecture decisions -- make this mapping explicit and share it with business stakeholders."
       - "Attend three business unit strategy meetings in the next quarter without presenting any technology content -- just listen and document where architecture could enable or constrain their strategic goals."
       - "Create a 'value contribution log' where you track every architecture decision and its measurable business impact over six months, building an evidence base rather than relying on abstract positioning claims."
-    bottom_line: "EA has been claiming to shift toward business value for 15 years -- if you are still making this argument, you have not actually made the shift."
+    bottom_line: "The EA mandate is shifting from IT optimization to business value creation, with architects bridging the gap between technology investments and business outcomes."
 
   - id: cc-084
     theme: "ROI_value_business"
     statement: "AI ROI requires realistic multi-year timelines (typically three years or more), not short-term expectations, and enterprises must shift from experimental pilots to use-case-based applications with measurable returns."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 5
-      novelty: 4
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 3
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
     critique: "The multi-year timeline is a useful corrective to the hype cycle, but 'three years or more' is vague enough to cover almost any outcome. The advice to shift from pilots to use-case-based applications is more actionable but still lacks specificity about what distinguishes a productive use case from a pilot that never graduates. The claim does not address the political reality that most CxOs expect returns within 12-18 months, making the 'realistic timeline' advice hard to implement without a credible short-term value demonstration strategy."
-    practical_value: "Provides political cover for architects pushing back on unrealistic ROI expectations, and correctly identifies the pilot-to-production gap as the key challenge."
+    practical_value: "Provides a useful reference point for architects managing stakeholder expectations around AI ROI timelines, and correctly identifies the pilot-to-production gap as the key challenge."
     action_steps:
       - "Structure your AI investment business case with a 'quick wins fund long bets' model: identify three use cases that deliver measurable value within 6 months to fund the longer-term architectural investments."
       - "Define graduation criteria for AI pilots before they start: minimum accuracy, maximum cost per inference, user adoption threshold, and integration requirements that must be met before scaling."
@@ -279,11 +343,15 @@ analyses:
     theme: "ROI_value_business"
     statement: "Initial AI value comes from internal productivity gains, but the deeper and more significant value lies in applying AI to core value chains, proprietary data, and previously untapped data sources to drive revenue growth."
     source_count: 4
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 5
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "The two-phase value model (productivity first, then revenue) is a genuinely useful framing that helps sequence AI investments. However, the claim underestimates how difficult the second phase is. Applying AI to 'core value chains and proprietary data' requires data engineering, domain expertise, and organizational change that most enterprises are not prepared for. The claim also assumes a clean progression that rarely happens in practice -- many organizations get stuck in the productivity phase because the governance and data foundations for revenue-driving AI are absent."
     practical_value: "Provides a clear investment sequencing framework: start with productivity gains to build capability and credibility, then pivot to revenue-driving applications."
     action_steps:
@@ -296,45 +364,57 @@ analyses:
     theme: "ROI_value_business"
     statement: "AI-augmented decision-making enhances executive and knowledge worker decisions through scenario simulation, risk prediction, and real-time data-informed insights, ensuring alignment between IT investments and business objectives."
     source_count: 4
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 3
-      novelty: 2
-    critique: "AI-augmented decision-making has been a business intelligence promise since the early 2000s. The specific mechanisms mentioned (scenario simulation, risk prediction) are capabilities that BI and analytics platforms have offered for years. The claim does not explain what LLMs or modern AI add beyond what existing decision support tools provide. The trailing clause about 'alignment between IT investments and business objectives' is a non-sequitur grafted onto an otherwise reasonable observation about decision support."
+    ocaf:
+      source_convergence: 3
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
+    critique: "AI-augmented decision-making has been a business intelligence promise since the early 2000s. The specific mechanisms mentioned (scenario simulation, risk prediction) are capabilities that BI and analytics platforms have offered for years. The claim does not explain what LLMs or modern AI add beyond what existing decision support tools provide. The trailing clause about 'alignment between IT investments and business objectives' is loosely connected to the otherwise reasonable observation about decision support and weakens the overall coherence of the claim."
     practical_value: "Limited. Decision-makers already know they want better data and simulation capabilities. The claim does not help architects design or implement AI-augmented decision systems."
     action_steps:
       - "Identify the three highest-stakes recurring decisions in your organization (e.g., quarterly capacity planning, vendor selection, market entry) and document what data, analysis, and scenarios decision-makers currently use versus what they wish they had."
       - "Build an LLM-powered 'decision brief generator' that automatically assembles relevant data, historical precedents, risk factors, and scenario analyses for one specific decision type as a proof of concept."
       - "Measure the delta between AI-augmented and unaugmented decisions on a specific metric (time to decide, quality of outcome, confidence level) over a 90-day trial period."
-    bottom_line: "AI-augmented decision-making is a rebrand of business intelligence -- the new capabilities are real but evolutionary, not revolutionary."
+    bottom_line: "AI-augmented decision-making extends existing business intelligence capabilities -- the improvements are real but evolutionary, not revolutionary."
 
   - id: cc-087
     theme: "ROI_value_business"
     statement: "Automation of repetitive work frees human workers to focus on higher-value creative and strategic tasks, elevating AI from an efficiency tool to an embedded collaborator across decision-making, operations, and product development."
     source_count: 4
-    verdict: platitude
-    scores:
-      platitude: 9
-      actionability: 2
-      novelty: 1
-    critique: "This is the quintessential automation platitude, repeated verbatim since the first industrial robot. 'Frees humans for higher-value work' has been the promise of every automation technology and almost never materializes as described -- more commonly, automation eliminates roles or creates new but equally routine tasks around managing the automation. The claim provides no evidence that AI automation follows a different pattern, nor does it address the organizational dynamics of role displacement, reskilling costs, or the gap between 'freed up' and 'productively redeployed.'"
-    practical_value: "Essentially zero. This framing is politically comfortable but empirically unsupported and architecturally irrelevant."
+    ocaf:
+      source_convergence: 3
+      specificity: 1
+      evidence_type: 1
+      actionability: 1
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.2
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is a widely repeated generic statement, restated in essentially the same form since the earliest industrial automation. 'Frees humans for higher-value work' has been the stated rationale for every automation technology, but historical evidence shows mixed results -- automation frequently restructures roles or creates new tasks around managing the automation rather than straightforwardly elevating work. The claim provides no evidence that AI automation follows a different pattern, nor does it address the organizational dynamics of role displacement, reskilling costs, or the gap between 'freed up' and 'productively redeployed.'"
+    practical_value: "Very limited. The framing is broadly acceptable but lacks empirical grounding and does not translate into architectural decisions or implementation guidance."
     action_steps:
       - "For each process you automate with AI, create an explicit 'workforce transition plan' that documents which specific roles are affected, what new skills those individuals need, and the timeline and budget for reskilling."
       - "Track what actually happens to workers whose tasks are automated: are they redeployed to higher-value work, given new routine tasks, or made redundant? Use this data to challenge or validate the 'frees humans' narrative."
-      - "Reframe the business case from 'freeing humans for higher-value work' to the honest metric: cost reduction, throughput increase, error reduction, or some combination -- this makes the investment case credible rather than aspirational."
+      - "Reframe the business case from 'freeing humans for higher-value work' to measurable outcomes: cost reduction, throughput increase, error reduction, or some combination -- this makes the investment case concrete rather than aspirational."
     bottom_line: "Every automation wave promises to free humans for higher-value work -- track what actually happens to those humans, because the data rarely matches the promise."
 
   - id: cc-088
     theme: "ROI_value_business"
     statement: "There is a disconnect between CEO expectations of AI driving top-line revenue growth and CIO expectations of AI driving productivity, creating a critical strategic challenge that enterprise architecture must help bridge."
     source_count: 2
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 6
-      novelty: 7
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 3
+      claim_type: D
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "This is a genuinely useful observation that names a specific, measurable organizational tension rather than a vague aspiration. The CEO-CIO expectation gap is real, documented in multiple surveys, and creates material project risk when AI investments are justified on productivity grounds but evaluated on revenue growth criteria. The weakness is attributing the bridging role to 'enterprise architecture' specifically -- this is really a strategy and governance challenge that EA can inform but not own."
     practical_value: "High. Architects who understand this disconnect can proactively align their AI portfolios with both executive perspectives and avoid the trap of delivering productivity gains that are perceived as failing to deliver revenue growth."
     action_steps:
@@ -347,11 +427,15 @@ analyses:
     theme: "ROI_value_business"
     statement: "Model size is not always correlated with business value; multi-component AI systems using custom models optimized for specific tasks deliver greater accuracy, cost efficiency, performance, and security."
     source_count: 2
-    verdict: genuine_insight
-    scores:
-      platitude: 2
-      actionability: 7
-      novelty: 7
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 4
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.4
+      value_category: MODERATE_VALUE
     critique: "This directly challenges the prevailing 'bigger model is better' narrative and is backed by practical engineering experience. The insight that task-specific models outperform general-purpose large models on cost, latency, and accuracy for defined use cases is well-supported but still contrarian relative to market hype. The claim could be stronger by quantifying the cost differential -- running GPT-4 for a classification task that a fine-tuned BERT can handle is 100x more expensive. The security angle (smaller models have smaller attack surfaces) is also underdeveloped but correct."
     practical_value: "Directly actionable for architects making model selection decisions and helps justify investment in model evaluation and optimization rather than defaulting to the largest available model."
     action_steps:
@@ -364,11 +448,15 @@ analyses:
     theme: "real_time_continuous"
     statement: "AI enables real-time feedback loops that continuously update EA repositories, making enterprise architecture self-optimizing and shifting from static periodic reviews to dynamic, near-real-time governance."
     source_count: 4
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 5
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "The concept of continuously updated EA repositories is genuinely valuable and addresses a real pain point -- stale architecture documentation. However, 'self-optimizing' overstates what is achievable. AI can detect drift between documented and actual architectures, flag inconsistencies, and suggest updates, but 'optimizing' implies autonomous architectural decision-making that is far from current capability. The shift from periodic to continuous governance is the real insight but is buried under the grander 'self-optimizing' framing."
     practical_value: "Identifies a high-value, near-term application of AI for EA: keeping architecture documentation current through automated detection and updates rather than relying on manual reviews."
     action_steps:
@@ -381,28 +469,36 @@ analyses:
     theme: "real_time_continuous"
     statement: "EA is evolving from static modeling to a living, continuously learning system -- a closed-loop intelligence paradigm where iterative planning, feedback loops, and adaptive refinement are integral to staying competitive."
     source_count: 5
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 2
-      novelty: 2
-    critique: "This is a restatement of cc-090 in more abstract, grandiose language. 'Living, continuously learning system' and 'closed-loop intelligence paradigm' are buzzword constructions that sound impressive but convey no specific architectural guidance. The claim is supported by 5 sources, which paradoxically suggests it is well-established conventional wisdom rather than a novel insight. EA practitioners have been told their discipline needs to become 'living' and 'adaptive' for at least a decade."
-    practical_value: "Essentially a motivational poster for EA teams. Does not provide any mechanism, pattern, or practice for actually making EA 'living' or 'continuously learning.'"
+    ocaf:
+      source_convergence: 4
+      specificity: 1
+      evidence_type: 2
+      actionability: 1
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is a restatement of cc-090 at a higher level of abstraction. 'Living, continuously learning system' and 'closed-loop intelligence paradigm' are conceptual framings that do not convey specific architectural guidance. The claim is supported by 5 sources, which suggests it is well-established conventional wisdom rather than a novel insight. EA practitioners have been advised that their discipline needs to become 'living' and 'adaptive' for at least a decade."
+    practical_value: "Limited to directional aspiration for EA teams. Does not provide any mechanism, pattern, or practice for actually making EA 'living' or 'continuously learning.'"
     action_steps:
       - "Define one concrete feedback loop: pick a specific EA artifact (e.g., application portfolio), identify a real-time data source that should update it (e.g., deployment logs), and build the automation to close the loop within 30 days."
       - "Measure your current EA planning cycle time from 'insight identified' to 'guidance published' and set a target to reduce it by 50% using AI-assisted analysis and drafting."
       - "Implement a 'learning log' for your EA practice that captures every instance where an architecture recommendation was wrong or outdated, and use these as training data to improve future recommendations."
-    bottom_line: "Calling EA a 'living system' is what you say before you have actually built the feedback loops -- pick one loop and close it before declaring the paradigm shift."
+    bottom_line: "Describing EA as a 'living system' is an aspiration that becomes meaningful only when backed by concrete feedback loops -- implementing one closed loop delivers more value than declaring the paradigm shift."
 
   - id: cc-092
     theme: "real_time_continuous"
     statement: "AI systems and agents require the same resilience patterns as traditional systems plus AI-specific considerations, including the ability for agents to continue learning and functioning independently when individual nodes become unavailable."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 5
-      novelty: 5
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
     critique: "The 'same plus more' framing is useful because it correctly positions AI resilience as an extension of existing practices rather than a completely new discipline. The specific call-out about agents continuing to function when nodes are unavailable is a genuinely important design consideration that most architects have not grappled with. However, the claim understates the qualitative difference: agent resilience is harder because agents carry state (conversation context, learned preferences) that traditional stateless services do not. Simply surviving node loss is not sufficient if the agent's accumulated context is lost."
     practical_value: "Helps architects understand that their existing resilience playbook is necessary but insufficient for agent architectures, and points to specific gaps around stateful resilience."
     action_steps:
@@ -415,11 +511,15 @@ analyses:
     theme: "real_time_continuous"
     statement: "Agents require novel orchestration capabilities for complex, dynamic workflows that exceed existing automation tools designed for linear, deterministic processes."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 5
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "The claim correctly identifies a real gap: tools like Airflow, Step Functions, and traditional BPM engines are designed for deterministic, DAG-based workflows and struggle with the non-deterministic, branching, and context-dependent workflows that agents produce. However, the claim is vague about what 'novel orchestration capabilities' actually means. The emerging landscape (LangGraph, CrewAI, AutoGen) is addressing this, but the claim does not name these or describe the architectural patterns needed."
     practical_value: "Alerts architects that their existing workflow automation tools are not sufficient for agent orchestration, saving them from the common mistake of trying to force agent workflows into deterministic pipeline tools."
     action_steps:
@@ -432,12 +532,16 @@ analyses:
     theme: "real_time_continuous"
     statement: "By 2028, AI agent ecosystems will enable networks of specialized agents to dynamically collaborate across multiple applications and business functions, allowing users to achieve goals without interacting with each application individually."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 4
-      novelty: 5
-    critique: "The vision of agents abstracting away individual applications is compelling and probably directionally correct, but the 2028 timeline is suspiciously precise for what would be a massive shift in enterprise software interaction patterns. This is a Gartner-style prediction designed to be specific enough to seem authoritative but far enough out to be unfalsifiable. The claim also underestimates the barriers: application vendors have no incentive to become invisible behind an agent layer, and enterprises have massive training and process investments in current application interfaces."
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 2
+      claim_type: P
+      value_score: 2.2
+      value_category: CONTEXTUAL_VALUE
+    critique: "The vision of agents abstracting away individual applications is compelling and probably directionally correct, but the 2028 timeline is notably precise for what would be a massive shift in enterprise software interaction patterns. The specific date lends an appearance of certainty that the underlying evidence does not support, and the timeline is distant enough to be difficult to verify. The claim also underestimates the barriers: application vendors have limited incentive to become invisible behind an agent layer, and enterprises have massive training and process investments in current application interfaces."
     practical_value: "Provides a useful long-term vision for application portfolio strategy: invest in applications with strong API and agent-integration capabilities, and deprioritize those that require direct UI interaction."
     action_steps:
       - "Evaluate your application portfolio through an 'agent-accessibility' lens: which applications have comprehensive APIs, webhooks, and structured data access that agents can leverage, and which are UI-only or have limited programmatic interfaces?"
@@ -449,29 +553,37 @@ analyses:
     theme: "innovation_disruption"
     statement: "The future of enterprise technology is human-and-machine collaboration, not human-or-machine replacement -- organizations that master this collaboration will define the future of work."
     source_count: 3
-    verdict: platitude
-    scores:
-      platitude: 9
+    ocaf:
+      source_convergence: 3
+      specificity: 1
+      evidence_type: 1
       actionability: 1
-      novelty: 1
-    critique: "This is perhaps the most well-worn platitude in the enterprise technology lexicon. 'Human-and-machine collaboration, not replacement' has been the safe, politically correct framing for every automation technology since the 1950s. It is designed to be inoffensive to all audiences and actionable by none. The claim provides no insight into what effective human-machine collaboration looks like, how to design for it, or what organizational structures support it. The trailing assertion about 'defining the future of work' is pure hyperbole."
-    practical_value: "None. This is a conference keynote sentiment, not architectural guidance."
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.2
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is perhaps the most frequently repeated generic statement in the enterprise technology lexicon. 'Human-and-machine collaboration, not replacement' has been the standard framing for every automation technology since the 1950s. It is broadly acceptable but does not provide actionable guidance. The claim provides no insight into what effective human-machine collaboration looks like, how to design for it, or what organizational structures support it. The trailing assertion about 'defining the future of work' significantly overstates the claim's specificity."
+    practical_value: "Minimal. The statement operates at a level of abstraction that does not translate into architectural decisions or implementation patterns."
     action_steps:
       - "For each AI deployment, explicitly define the human-machine boundary: which decisions does the AI make autonomously, which does it recommend for human approval, and which are fully human? Document this as a 'collaboration contract.'"
       - "Design feedback mechanisms where human corrections to AI outputs are captured and used to improve the AI system, creating a genuine collaboration loop rather than a one-way automation."
       - "Measure collaboration effectiveness: track task completion time, quality, and user satisfaction for AI-assisted versus unassisted workflows, and use the data to optimize the collaboration boundary."
-    bottom_line: "Saying 'collaboration not replacement' is what you say when you have no specific thesis about where humans add value and where machines do -- develop that thesis."
+    bottom_line: "The future of enterprise technology is human-and-machine collaboration, not replacement -- organizations that master this collaboration will define the future of work."
 
   - id: cc-096
     theme: "innovation_disruption"
     statement: "Enterprises need to cumulatively build AI capabilities and learnings as they progress toward a future-ready state, operating in fluid innovation networks that run a portfolio of bets and build on what works."
     source_count: 2
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 3
-      novelty: 2
-    critique: "This is generic innovation portfolio management advice applied to AI. 'Build capabilities cumulatively,' 'run a portfolio of bets,' and 'build on what works' are principles from any innovation management textbook. The phrase 'fluid innovation networks' is consultant-speak that adds no specificity. The claim does not address AI-specific challenges like model deprecation (your fine-tuned GPT-3.5 investment becomes worthless when the API is retired), rapid capability shifts that invalidate previous assumptions, or the tension between building proprietary capabilities and leveraging rapidly improving general-purpose models."
+    ocaf:
+      source_convergence: 2
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is standard innovation portfolio management advice applied to AI. 'Build capabilities cumulatively,' 'run a portfolio of bets,' and 'build on what works' are principles from established innovation management literature. The phrase 'fluid innovation networks' is broadly stated without specific guidance. The claim does not address AI-specific challenges like model deprecation (a fine-tuned GPT-3.5 investment becomes obsolete when the API is retired), rapid capability shifts that invalidate previous assumptions, or the tension between building proprietary capabilities and leveraging rapidly improving general-purpose models."
     practical_value: "Limited. The general principle of cumulative capability building is sound but provides no AI-specific guidance."
     action_steps:
       - "Create an 'AI capability inventory' that tracks not just deployed models and applications but also accumulated organizational assets: training datasets, evaluation benchmarks, prompt libraries, fine-tuned models, and integration patterns."
@@ -483,28 +595,36 @@ analyses:
     theme: "EA_role_evolution"
     statement: "EA is being reborn as a living, learning function that shifts from designing static structures to stewarding behavioral systems -- turning the EA repository from a documentation graveyard into an operating system for change."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 4
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
     critique: "The 'documentation graveyard' metaphor is evocative and accurately describes the state of most EA repositories. The shift from 'designing static structures' to 'stewarding behavioral systems' is a genuine reframing that hints at a meaningful change in the EA operating model. However, the claim is more aspiration than prescription -- it does not explain what 'stewarding behavioral systems' means in practice or what an 'operating system for change' looks like architecturally. The 'living, learning function' language is also overused in this claim set (see cc-091)."
     practical_value: "The diagnostic value is high -- naming the 'documentation graveyard' problem resonates with practitioners and creates urgency. The prescriptive value is low because the alternative is described in abstract terms."
     action_steps:
       - "Audit your EA repository: what percentage of artifacts have been updated in the last 90 days? What percentage have been accessed by someone other than the author? These two metrics tell you whether you have a living system or a documentation graveyard."
       - "Redesign your EA operating model around 'guardrails and nudges' rather than 'documents and reviews': define automated policies that check architectural compliance at deployment time rather than relying on pre-deployment review boards."
       - "Implement three 'behavioral sensors' that monitor actual system behavior and flag deviations from architectural intent: API call patterns, data flow paths, and dependency graphs generated from production telemetry."
-    bottom_line: "The EA repository is a graveyard because nobody visits it -- make it useful by connecting it to production reality, not by writing more documents."
+    bottom_line: "EA repositories become stale when they are disconnected from operational reality -- the path to a 'living' repository is integration with production systems, not additional documentation."
 
   - id: cc-098
     theme: "EA_role_evolution"
     statement: "AI-augmented architects are notified during or before decision points rather than weeks after the fact, with agents pre-checking submissions, generating draft decisions, and surfacing relevant context at the point of decision."
     source_count: 2
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 7
-      novelty: 7
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 4
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.4
+      value_category: MODERATE_VALUE
     critique: "This is one of the most concrete and actionable claims in the entire set. It describes a specific, implementable change in the EA operating model: shifting from reactive review to proactive, AI-assisted intervention at the point of decision. The vision of agents pre-checking architectural submissions and generating draft decisions with relevant context is achievable with current technology. The main risk is that this could devolve into yet another automated gating mechanism that developers route around, unless the AI assistance is genuinely helpful rather than bureaucratic."
     practical_value: "High. This gives architects a clear target operating model for AI-augmented governance that is both technically feasible and organizationally transformative."
     action_steps:
@@ -517,45 +637,57 @@ analyses:
     theme: "EA_role_evolution"
     statement: "Architecture is becoming a shared language of the enterprise rather than a specialized discipline, with nonprogrammers entering IT functions and AI enabling broader participation in architecture work."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 4
-      novelty: 5
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
     critique: "The democratization of architecture through AI is a real trend -- natural language interfaces to EA repositories, AI-generated architecture diagrams, and conversational querying of system dependencies all lower the barrier to participation. However, the claim overstates the degree to which architecture can be democratized. Core architectural judgment -- tradeoff analysis, long-term implications of technical debt, emergent system behavior -- requires deep expertise that AI assists but does not replace. The risk of 'broader participation' is uninformed architectural decisions that create long-term damage."
     practical_value: "Useful signal for EA teams to invest in making their work accessible to non-technical stakeholders through AI-powered interfaces, while maintaining expert oversight on consequential decisions."
     action_steps:
       - "Build a natural language query interface for your EA repository that allows business stakeholders to ask questions like 'What systems does customer onboarding depend on?' or 'What happens if we retire System X?' without needing to navigate complex architecture diagrams."
       - "Create tiered architecture participation levels: 'inform' (anyone can query and explore), 'propose' (business analysts can suggest changes with AI assistance), and 'decide' (only qualified architects approve structural changes)."
-      - "Develop AI-assisted architecture training modules that help nonprogrammers understand basic architectural concepts (dependencies, scalability, security boundaries) so their participation is informed rather than naive."
+      - "Develop AI-assisted architecture training modules that help nonprogrammers understand basic architectural concepts (dependencies, scalability, security boundaries) so their participation is grounded in foundational knowledge."
     bottom_line: "Democratizing architecture means making it understandable to everyone, not making everyone an architect -- AI enables the former without requiring the latter."
 
   - id: cc-100
     theme: "process_redesign"
     statement: "AI should be applied to processes, not to people or organizations, and solid well-defined processes are a prerequisite -- without quantifiable, accurate process understanding, AI application is premature."
     source_count: 2
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 7
-      novelty: 6
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 4
+      temporal_durability: 5
+      claim_type: N
+      value_score: 3.6
+      value_category: MODERATE_VALUE
     critique: "The insistence on process maturity as a prerequisite for AI application is a valuable contrarian position in a market that pushes 'apply AI everywhere immediately.' The distinction between applying AI to processes versus people or organizations is useful but underdeveloped -- it implies that process mining and documentation should precede AI application, which many organizations skip in their rush to deploy. The weakness is that it is too absolute: some AI applications (like copilots for knowledge workers) apply to people rather than processes and are still valuable."
     practical_value: "High. Provides a clear sequencing principle (understand and document your processes before automating them with AI) that prevents the common failure of applying AI to poorly understood workflows."
     action_steps:
       - "Before approving any AI automation project, require a process documentation assessment: Is the target process documented? Are its inputs, outputs, decision points, and exception paths defined? If not, invest in process mining first."
       - "Use process mining tools (Celonis, UiPath Process Mining, Microsoft Process Advisor) on your top 10 candidate processes to generate data-driven process maps, identifying actual versus assumed process flows before applying AI."
       - "Create a 'process AI-readiness' scoring rubric: documented (yes/no), quantified (metrics exist?), stable (low variation?), exception-handled (edge cases known?). Only processes scoring 3/4 or above are candidates for AI automation."
-    bottom_line: "You cannot automate what you do not understand -- process mining is the unsexy prerequisite that determines whether your AI investment succeeds or fails."
+    bottom_line: "You cannot automate what you do not understand -- process mining is the underappreciated prerequisite that determines whether your AI investment succeeds or fails."
 
   - id: cc-101
     theme: "process_redesign"
     statement: "Traditional EA governance processes -- proposals reviewed days or weeks later, deliberated in committee based on stale information -- are fundamentally incompatible with the pace of AI-driven change."
     source_count: 2
-    verdict: genuine_insight
-    scores:
-      platitude: 2
-      actionability: 7
-      novelty: 7
+    ocaf:
+      source_convergence: 2
+      specificity: 5
+      evidence_type: 3
+      actionability: 4
+      temporal_durability: 4
+      claim_type: D
+      value_score: 3.6
+      value_category: MODERATE_VALUE
     critique: "This is a sharp, specific, and genuinely insightful observation. It names the exact failure mode: governance decisions based on stale information because the review cycle is slower than the change cycle. This is not just a speed problem -- it is a structural problem where the governance process itself becomes a source of risk because decisions made on outdated context may be worse than no governance at all. The claim would be even stronger if it quantified the mismatch: typical EA review cycles of 2-4 weeks versus AI deployment cycles of days."
     practical_value: "Directly actionable. Gives architects a specific, defensible argument for redesigning governance processes and a clear problem to solve: reduce governance cycle time to match deployment cadence."
     action_steps:
@@ -568,15 +700,19 @@ analyses:
     theme: "EA_framework_adaptation"
     statement: "TOGAF remains the dominant EA framework but requires significant adaptation -- extending rather than replacing it -- to accommodate AI integration across all four architecture domains (business, data, application, technology)."
     source_count: 6
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 4
-      novelty: 3
-    critique: "This is the safe, consensus position on TOGAF and AI: do not throw it away, extend it. Supported by 6 sources, it is the most well-established claim in this set, which also makes it the least surprising. The claim does not specify what extensions are needed, which domains require the most adaptation, or what new architecture building blocks AI introduces. 'Extend rather than replace' is the path of least resistance and does not address the possibility that TOGAF's core assumptions (sequential ADM phases, governance-by-committee, document-centric artifacts) may be structurally misaligned with AI's pace and nature."
-    practical_value: "Provides political cover for architects who want to evolve rather than abandon their TOGAF investment, but does not provide the content of those extensions."
+    ocaf:
+      source_convergence: 4
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 3
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is the consensus position on TOGAF and AI: do not discard it, extend it. Supported by 6 sources, it is the most well-established claim in this set, which also makes it the least novel. The claim does not specify what extensions are needed, which domains require the most adaptation, or what new architecture building blocks AI introduces. 'Extend rather than replace' is a conservative approach that does not address the possibility that TOGAF's core assumptions (sequential ADM phases, governance-by-committee, document-centric artifacts) may be structurally misaligned with AI's pace and nature."
+    practical_value: "Supports architects who want to evolve rather than abandon their TOGAF investment, but does not specify the content of those extensions."
     action_steps:
       - "Map AI-specific architectural concerns to TOGAF's four domains: Business (AI-augmented processes, human-AI roles), Data (training data, vector stores, feature stores), Application (model serving, agent platforms, orchestration), Technology (GPU infrastructure, MLOps tooling) and identify where TOGAF's standard content metamodel needs new building blocks."
       - "Audit your ADM cycle time and compare it to your AI deployment cadence -- if your ADM iteration takes 6 months and you deploy AI models monthly, you have a structural mismatch that requires compressing or parallelizing ADM phases."
       - "Create an 'AI Architecture Extension' document for your organization's TOGAF practice that defines AI-specific principles, reference architectures, building blocks, and governance policies as formal extensions to your existing architecture framework."
-    bottom_line: "TOGAF is the hammer everyone already owns -- telling people to keep using it with modifications is safe advice, but the modifications matter more than the framework."
+    bottom_line: "TOGAF is the framework most organizations already use -- advising them to extend rather than replace it is a low-risk position, but the specific extensions needed matter more than the framework itself."

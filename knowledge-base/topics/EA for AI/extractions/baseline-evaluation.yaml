@@ -1,0 +1,597 @@
+meta:
+  baseline_question: "How does Enterprise Architecture change because of AI?"
+  baseline_created: 2026-02-15
+  evaluated: 2026-02-15
+  total_claims: 136
+  common: 68
+  additional: 62
+  new: 6
+
+evaluations:
+  # === MODEL ARCHITECTURE (cc-001 to cc-023) ===
+
+  - id: cc-001
+    category: common
+    rationale: "Multiple baseline sources (1, 4, 6, 8) discuss GenAI requiring fundamentally new enterprise architecture designs."
+
+  - id: cc-002
+    category: additional
+    rationale: "Baseline discusses AI challenges broadly but not specific grounding techniques (RAG, knowledge graphs, structured validation) for hallucination mitigation."
+
+  - id: cc-003
+    category: additional
+    rationale: "Baseline does not specifically address AI-powered security agents or their alignment with Zero Trust principles."
+
+  - id: cc-004
+    category: additional
+    rationale: "No baseline source discusses SLMs vs LLMs or the model right-sizing strategy — adds a specific, actionable architectural decision beyond the baseline."
+
+  - id: cc-005
+    category: additional
+    rationale: "RAG as a specific architectural pattern is not discussed in baseline sources, though the broader topic of AI architecture is well-covered."
+
+  - id: cc-006
+    category: common
+    rationale: "Baseline source 13 discusses AI transforming data into clear visuals and dashboards; democratization through AI is well-represented."
+
+  - id: cc-007
+    category: common
+    rationale: "Baseline source 14 explicitly states data architecture as a prerequisite for AI success."
+
+  - id: cc-008
+    category: common
+    rationale: "Baseline sources 3, 7, and 12 all discuss EA evolving from static documentation to dynamic, real-time capability."
+
+  - id: cc-009
+    category: common
+    rationale: "Baseline source 6 discusses rethinking workflows; process redesign through AI is a well-represented theme."
+
+  - id: cc-010
+    category: additional
+    rationale: "MLOps and model lifecycle management as a distinct architectural concern are not addressed in any baseline source."
+
+  - id: cc-011
+    category: common
+    rationale: "Cloud as AI infrastructure is well-established; baseline source 25 discusses edge computing and source 2 discusses hybrid infrastructure."
+
+  - id: cc-012
+    category: additional
+    rationale: "Baseline discusses agents broadly (sources 8, 9, 21) but not multi-agent collaboration through defined protocols as a specific architectural pattern."
+
+  - id: cc-013
+    category: common
+    rationale: "Baseline source 4 directly states that 7 out of 10 GenAI projects never made it past pilot stage."
+
+  - id: cc-014
+    category: additional
+    rationale: "Knowledge graph + LLM combination as a specific architectural pattern is not discussed in baseline, though AI accuracy is a general theme."
+
+  - id: cc-015
+    category: common
+    rationale: "Baseline sources 6, 11, and 23 discuss AI adoption as a strategic necessity and imperative."
+
+  - id: cc-016
+    category: additional
+    rationale: "Model commoditization and the strategic shift to proprietary data as competitive moat are not discussed in the baseline."
+
+  - id: cc-017
+    category: additional
+    rationale: "AI-specific attack vectors (prompt injection, data leakage, deepfakes) are not covered in any baseline source."
+
+  - id: cc-018
+    category: common
+    rationale: "Baseline sources 1, 12, and 15 discuss AI automating tasks and augmenting architect productivity."
+
+  - id: cc-019
+    category: additional
+    rationale: "The 'acceleration paradox' concept — where early movers gain compounding advantages — is not present in baseline sources."
+
+  - id: cc-020
+    category: additional
+    rationale: "Specific GenAI stack components (vector databases, knowledge graphs, prompt management, orchestration) are not enumerated in any baseline source."
+
+  - id: cc-021
+    category: common
+    rationale: "Baseline source 12 explicitly discusses augmentation — architects remain in the loop but the loop is smaller and faster."
+
+  - id: cc-022
+    category: additional
+    rationale: "The specific call for dedicated AI Architect roles combining technical AI knowledge with financial modeling is not in the baseline."
+
+  - id: cc-023
+    category: common
+    rationale: "Centers of Excellence are a widely known organizational pattern for technology adoption; any practitioner would encounter this advice."
+
+  # === INTEGRATION & INTEROP (cc-024 to cc-030) ===
+
+  - id: cc-024
+    category: common
+    rationale: "Composable, modular architecture is a well-established principle; baseline source 7 discusses dynamic adaptability."
+
+  - id: cc-025
+    category: common
+    rationale: "Legacy integration challenges are discussed in baseline source 4 (architectures not built for intelligence at scale)."
+
+  - id: cc-026
+    category: additional
+    rationale: "Specific interoperability protocols (MCP, A2A) for agent ecosystems are not mentioned in any baseline source."
+
+  - id: cc-027
+    category: additional
+    rationale: "Intelligence embedded at the integration layer (self-optimizing middleware) goes beyond the baseline's discussion of dynamic systems."
+
+  - id: cc-028
+    category: common
+    rationale: "Cross-domain AI integration is covered by baseline source 14 (EA governing AI alongside traditional IT) and is a core EA principle."
+
+  - id: cc-029
+    category: common
+    rationale: "Layered, iterative modernization is a long-established enterprise architecture practice well-known to practitioners."
+
+  - id: cc-030
+    category: common
+    rationale: "Technical debt as a barrier to agility is a long-established observation in software engineering and enterprise IT."
+
+  # === AUTOMATION & AI OPS (cc-031 to cc-034) ===
+
+  - id: cc-031
+    category: additional
+    rationale: "The specific anti-pattern of bolting agents onto human workflows (vs redesigning for agent strengths) goes beyond the baseline's general 'rethinking workflows' theme."
+
+  - id: cc-032
+    category: additional
+    rationale: "The evolution from task automation to cross-system workflow orchestration via agents adds specificity beyond the baseline's general agent discussion."
+
+  - id: cc-033
+    category: additional
+    rationale: "Context-aware, self-learning agents replacing rule-based automation is more specific than the baseline's general mention of agentic AI beyond chatbots."
+
+  - id: cc-034
+    category: common
+    rationale: "Baseline sources 1, 10, 11, and 15 discuss AI automating EA tasks such as analysis, documentation, and impact assessments."
+
+  # === DATA ARCHITECTURE (cc-035 to cc-036) ===
+
+  - id: cc-035
+    category: common
+    rationale: "Baseline source 14 states data architecture as a prerequisite for AI success; this restates the 'garbage in, garbage out' principle."
+
+  - id: cc-036
+    category: additional
+    rationale: "The specific framing of proprietary data intelligence as competitive advantage (vs generic AI models) is not in the baseline."
+
+  # === GOVERNANCE & ORG CHANGE (cc-037 to cc-042) ===
+
+  - id: cc-037
+    category: common
+    rationale: "Baseline sources 3, 7, and 12 all discuss the shift from static documentation to dynamic, real-time EA governance."
+
+  - id: cc-038
+    category: new
+    rationale: "No baseline source discusses governing multi-agent clusters as systems-of-systems or the emergent behavior challenges of non-deterministic agent networks."
+
+  - id: cc-039
+    category: common
+    rationale: "Tying technology adoption to business value is a foundational principle applicable across all technology waves."
+
+  - id: cc-040
+    category: common
+    rationale: "Baseline source 12 discusses augmentation; the 'human + AI creates elevated outcomes' framing is well-represented in common discourse."
+
+  - id: cc-041
+    category: common
+    rationale: "Organizational readiness as a prerequisite for technology adoption is well-established across every major technology framework."
+
+  - id: cc-042
+    category: common
+    rationale: "Baseline source 2 directly states 2026 marks the transition from experimentation to intelligence orchestration."
+
+  # === AI GOVERNANCE & ETHICS (cc-043 to cc-055) ===
+
+  - id: cc-043
+    category: common
+    rationale: "Baseline sources 14 and 24 discuss governance; building governance in from the start is a widely accepted principle."
+
+  - id: cc-044
+    category: additional
+    rationale: "The baseline mentions governance generally but not specific regulations (EU AI Act, NIST AI RMF, ISO/IEC 42001) by name."
+
+  - id: cc-045
+    category: common
+    rationale: "Audit logging and traceability are fundamental enterprise requirements; baseline source 24 discusses governance frameworks."
+
+  - id: cc-046
+    category: additional
+    rationale: "The specific critique of TOGAF's limitations (agility gaps, missing ethical governance, missing AI lifecycle artifacts) goes beyond baseline's general TOGAF discussion."
+
+  - id: cc-047
+    category: common
+    rationale: "The shift from periodic to continuous governance overlaps with the baseline's well-represented theme of real-time EA (sources 7, 12)."
+
+  - id: cc-048
+    category: common
+    rationale: "Multi-dimensional governance (technical, ethical, regulatory) is addressed in baseline source 17 (AI ethics in governance checkpoints)."
+
+  - id: cc-049
+    category: common
+    rationale: "Explainability and transparency have been recognized requirements since GDPR; baseline source 17 discusses AI ethics guidelines."
+
+  - id: cc-050
+    category: common
+    rationale: "Human oversight is discussed in baseline source 12 (architects remain in the loop) and is a widely accepted AI principle."
+
+  - id: cc-051
+    category: common
+    rationale: "Balancing deployment speed with governance is a generic technology management challenge well-known to practitioners."
+
+  - id: cc-052
+    category: new
+    rationale: "No baseline source discusses federated learning as a privacy-preserving AI training approach; this is a specific technical pattern absent from common EA-AI discourse."
+
+  - id: cc-053
+    category: additional
+    rationale: "Using AI to automate compliance monitoring and governance reporting is a meta-application not specifically discussed in the baseline."
+
+  - id: cc-054
+    category: common
+    rationale: "Heightened regulatory scrutiny for AI in healthcare, finance, and government is widely understood across the industry."
+
+  - id: cc-055
+    category: additional
+    rationale: "The meta-observation about the gap between high-level governance frameworks and concrete implementable architectures is not present in the baseline."
+
+  # === AI MATURITY & ADOPTION (cc-056 to cc-059) ===
+
+  - id: cc-056
+    category: common
+    rationale: "Essentially restates baseline source 2 (2026 transition from experimentation to orchestration) and source 4 (pilot-to-production gap)."
+
+  - id: cc-057
+    category: common
+    rationale: "Baseline source 4 discusses architectures not built for intelligence at scale; legacy infrastructure as bottleneck is well-represented."
+
+  - id: cc-058
+    category: common
+    rationale: "AI adoption as an organizational challenge is a long-established observation applicable to every technology adoption wave."
+
+  - id: cc-059
+    category: common
+    rationale: "Strategic alignment of technology with business goals is the foundational premise of enterprise architecture as a discipline."
+
+  # === SECURITY & RISK (cc-060 to cc-063) ===
+
+  - id: cc-060
+    category: additional
+    rationale: "AI-enhanced security automation patterns (autonomous threat detection, predictive analytics) are not specifically discussed in the baseline."
+
+  - id: cc-061
+    category: additional
+    rationale: "Zero-trust security with dynamic, context-aware access control specifically for AI agents goes beyond the baseline's general governance discussion."
+
+  - id: cc-062
+    category: common
+    rationale: "Enterprise resilience and business continuity are established requirements for all enterprise systems, well-known to practitioners."
+
+  - id: cc-063
+    category: new
+    rationale: "No baseline source discusses cascading risk from inter-agent influence or the emergent risk dynamics of AI agents influencing each other."
+
+  # === ORGANIZATIONAL CHANGE (cc-064 to cc-068) ===
+
+  - id: cc-064
+    category: common
+    rationale: "The augmentation-not-replacement narrative has been the standard industry framing since 2017 and is well-represented in baseline source 12."
+
+  - id: cc-065
+    category: additional
+    rationale: "The 'silicon-based workforce' metaphor for AI agents — triggering HR-like questions about management and accountability — is not in the baseline."
+
+  - id: cc-066
+    category: additional
+    rationale: "The closed-loop intelligence framing from control systems theory adds analytical depth beyond the baseline's general discussion of dynamic systems."
+
+  - id: cc-067
+    category: common
+    rationale: "Cross-functional squads aligned to products and value streams is a decade-old organizational pattern well-known to practitioners."
+
+  - id: cc-068
+    category: additional
+    rationale: "The specific open-loop vs closed-loop diagnosis of EA repositories with AI-powered auto-discovery as a solution goes beyond baseline's general dynamic EA theme."
+
+  # === AGENTIC AI ARCHITECTURE (cc-069 to cc-082) ===
+
+  - id: cc-069
+    category: common
+    rationale: "Baseline sources 8, 9, and 21 discuss the agent-first enterprise and agents moving from experimental to production."
+
+  - id: cc-070
+    category: additional
+    rationale: "Specific protocols (A2A, ACP) and patterns (vectorized shared memory) for agent communication are not in any baseline source."
+
+  - id: cc-071
+    category: additional
+    rationale: "Event-driven architecture as a specific prerequisite for agentic AI (with Kafka named) goes beyond the baseline's general agent discussion."
+
+  - id: cc-072
+    category: additional
+    rationale: "The dual nature of agentic AI for cybersecurity (enhances detection but introduces new attack surfaces) is not specifically in the baseline."
+
+  - id: cc-073
+    category: additional
+    rationale: "Specific resilience patterns for multi-agent systems (failover agents, self-healing, LLM failure forecasting) are not in the baseline."
+
+  - id: cc-074
+    category: common
+    rationale: "Governance, transparency, and auditability for AI are well-represented governance principles in baseline sources 14, 17, and 24."
+
+  - id: cc-075
+    category: additional
+    rationale: "The specific observation that ERP/CRM systems were not designed for agentic interactions (rate limits, transaction semantics) goes beyond the baseline."
+
+  - id: cc-076
+    category: additional
+    rationale: "Baseline source 16 mentions Salesforce EA Agent but the broader claim about agentic AI as a core feature of major EA tools adds detail."
+
+  - id: cc-077
+    category: additional
+    rationale: "Composable agent architectures with specific benefits (testability, orchestration) apply the microservices pattern to agents beyond baseline's general discussion."
+
+  - id: cc-078
+    category: new
+    rationale: "No baseline source discusses the semantic layer or enterprise knowledge graph as a critical differentiator for agentic vs traditional architectures."
+
+  - id: cc-079
+    category: additional
+    rationale: "Reimagining workflows specifically for agent strengths (parallel processing, zero fatigue, perfect recall) goes beyond baseline's general workflow rethinking theme."
+
+  - id: cc-080
+    category: additional
+    rationale: "Agentic AI transforming IT operations (AIOps) with predictive monitoring and autonomous diagnostics is not specifically in the baseline."
+
+  - id: cc-081
+    category: additional
+    rationale: "The specific 3-5 year transformation horizon for the agentic enterprise adds concreteness beyond the baseline's general agent emergence theme."
+
+  - id: cc-082
+    category: additional
+    rationale: "Multi-modal data integration (structured + unstructured + IoT) specifically for agent context-awareness goes beyond the baseline's general data discussion."
+
+  # === ROI & BUSINESS VALUE (cc-083 to cc-089) ===
+
+  - id: cc-083
+    category: common
+    rationale: "Baseline sources 20 and 23 discuss EA driving business outcomes and EA as a strategic force."
+
+  - id: cc-084
+    category: common
+    rationale: "Multi-year AI ROI timelines are widely understood; any practitioner searching AI adoption would encounter this guidance."
+
+  - id: cc-085
+    category: additional
+    rationale: "The two-phase value model (productivity gains first, then revenue from core value chains and proprietary data) is not specifically in the baseline."
+
+  - id: cc-086
+    category: common
+    rationale: "AI-augmented decision-making through analytics and scenario modeling extends well-known BI capabilities discussed broadly across the industry."
+
+  - id: cc-087
+    category: common
+    rationale: "Automation freeing humans for higher-value work has been the stated rationale for every automation technology wave."
+
+  - id: cc-088
+    category: additional
+    rationale: "The specific CEO-CIO expectation gap (revenue growth vs productivity) on AI investment outcomes is not present in any baseline source."
+
+  - id: cc-089
+    category: additional
+    rationale: "The insight that model size does not correlate with business value and task-specific models deliver better results is not in the baseline."
+
+  # === REAL-TIME & CONTINUOUS (cc-090 to cc-094) ===
+
+  - id: cc-090
+    category: additional
+    rationale: "The specific mechanism of real-time feedback loops continuously updating EA repositories adds implementation detail beyond the baseline's general dynamic EA theme."
+
+  - id: cc-091
+    category: common
+    rationale: "EA as a living, continuously learning system is well-represented in baseline sources 3, 7, and 12."
+
+  - id: cc-092
+    category: additional
+    rationale: "AI-specific resilience patterns (stateful context preservation for agents) go beyond the baseline's general discussion of system resilience."
+
+  - id: cc-093
+    category: additional
+    rationale: "Novel orchestration requirements for non-deterministic agent workflows that exceed traditional DAG-based tools are not in the baseline."
+
+  - id: cc-094
+    category: additional
+    rationale: "The specific 2028 vision of agent ecosystems enabling cross-application collaboration adds timeline concreteness beyond the baseline's general agent theme."
+
+  # === INNOVATION & DISRUPTION (cc-095 to cc-096) ===
+
+  - id: cc-095
+    category: common
+    rationale: "Human-machine collaboration (not replacement) is the most frequently repeated generic statement in enterprise technology discourse."
+
+  - id: cc-096
+    category: common
+    rationale: "Cumulative capability building and portfolio management are standard innovation management principles, not specific to AI."
+
+  # === EA ROLE EVOLUTION (cc-097 to cc-099) ===
+
+  - id: cc-097
+    category: common
+    rationale: "EA as a living, learning function is discussed in baseline sources 3, 7, and 12; the 'documentation graveyard' diagnosis is well-known."
+
+  - id: cc-098
+    category: additional
+    rationale: "The specific operating model of AI agents pre-checking submissions and generating draft decisions at the point of decision goes beyond baseline source 12's general augmentation theme."
+
+  - id: cc-099
+    category: additional
+    rationale: "Architecture as a shared language with nonprogrammers participating through AI interfaces is not specifically discussed in the baseline."
+
+  # === PROCESS REDESIGN (cc-100 to cc-101) ===
+
+  - id: cc-100
+    category: additional
+    rationale: "The specific principle that process maturity and process mining must precede AI application is a contrarian position not present in the baseline."
+
+  - id: cc-101
+    category: additional
+    rationale: "The sharp diagnosis that governance decisions based on stale information may be worse than no governance adds specificity beyond baseline's general real-time EA theme."
+
+  # === EA FRAMEWORK ADAPTATION (cc-102 to cc-108) ===
+
+  - id: cc-102
+    category: common
+    rationale: "Baseline sources 17 and 18 discuss TOGAF adaptation for AI and blended framework approaches; this is the consensus position."
+
+  - id: cc-103
+    category: additional
+    rationale: "The meta-observation about gaps in existing EA literature (most research covers only one or two domains) is not present in the baseline."
+
+  - id: cc-104
+    category: additional
+    rationale: "The specific practice of collapsing ADM phases and treating TOGAF as principles rather than process goes beyond baseline source 18's general blended-framework mention."
+
+  - id: cc-105
+    category: common
+    rationale: "Treating AI as a cross-cutting concern embedded across all domains is a standard EA principle applied to each technology wave."
+
+  - id: cc-106
+    category: additional
+    rationale: "The specific 30-50% acceleration metric for clean architectures and the 'acceleration paradox' framing are not in any baseline source."
+
+  - id: cc-107
+    category: common
+    rationale: "Baseline source 18 directly discusses blended frameworks and their 34% faster time-to-value over pure TOGAF adherence."
+
+  - id: cc-108
+    category: common
+    rationale: "Balancing long-term strategy with short-term agility is a generic planning challenge applicable to all enterprise functions."
+
+  # === INFRASTRUCTURE & CLOUD (cc-109 to cc-116) ===
+
+  - id: cc-109
+    category: common
+    rationale: "Cloud-native as the foundation for AI is a baseline assumption well-established since 2018 across the industry."
+
+  - id: cc-110
+    category: common
+    rationale: "Baseline source 4 discusses enterprise architectures not built for intelligence at scale; legacy limitations are well-represented."
+
+  - id: cc-111
+    category: common
+    rationale: "Baseline source 2 directly discusses hybrid infrastructure as the architectural backbone for 2026."
+
+  - id: cc-112
+    category: additional
+    rationale: "The specific connection of event-driven infrastructure (microservices, event buses) to AI agent collaboration patterns is not in the baseline."
+
+  - id: cc-113
+    category: additional
+    rationale: "AI infrastructure cost underestimation and the need for cost observability from day one are not discussed in any baseline source."
+
+  - id: cc-114
+    category: additional
+    rationale: "Real-time integration specifically between EA systems and operational AI capabilities adds implementation detail beyond the baseline's general dynamic EA theme."
+
+  - id: cc-115
+    category: common
+    rationale: "Starting with specific domains rather than enterprise-wide rollout is standard implementation advice applicable across all technology deployments."
+
+  - id: cc-116
+    category: common
+    rationale: "Cross-domain alignment is the core purpose of enterprise architecture as a discipline, not an insight specific to AI."
+
+  # === AI STRATEGY & LEADERSHIP (cc-117 to cc-125) ===
+
+  - id: cc-117
+    category: common
+    rationale: "AI augmenting rather than replacing human decision-making is the standard framing in enterprise AI discourse since 2018."
+
+  - id: cc-118
+    category: common
+    rationale: "The CIO role expansion narrative has accompanied every major technology wave and is well-known to practitioners."
+
+  - id: cc-119
+    category: additional
+    rationale: "The specific call for hybrid roles combining architecture, data science, and business strategy skills goes beyond the baseline's general EA evolution discussion."
+
+  - id: cc-120
+    category: common
+    rationale: "Generic competitive advantages from AI in EA (reduced complexity, enhanced decisions) are broadly stated benefits any practitioner would expect."
+
+  - id: cc-121
+    category: common
+    rationale: "Data-driven decision-making has been a cornerstone of enterprise strategy discourse since the business intelligence era."
+
+  - id: cc-122
+    category: common
+    rationale: "Baseline sources 3 and 12 discuss EA artifacts becoming stale; this is a well-recognized problem in the field."
+
+  - id: cc-123
+    category: common
+    rationale: "Translating strategic intent into executable architecture is the core definition of EA practice, not a finding specific to AI."
+
+  - id: cc-124
+    category: additional
+    rationale: "The specific suggestion to transform Architecture Review Boards using AI augmentation (pre-screening, automated compliance checking) is not in the baseline."
+
+  - id: cc-125
+    category: additional
+    rationale: "AI-powered digital twins for architecture simulation and rehearsing strategic bets is a forward-looking application not discussed in any baseline source."
+
+  # === EA-AI CONVERGENCE (cc-126 to cc-131) ===
+
+  - id: cc-126
+    category: common
+    rationale: "EA evolving toward AI-centric models is the overarching theme of the baseline, discussed across multiple sources."
+
+  - id: cc-127
+    category: common
+    rationale: "Cross-domain guidance for AI integration restates the fundamental EA cross-domain principle without AI-specific elaboration."
+
+  - id: cc-128
+    category: additional
+    rationale: "The specific role redefinition from blueprint creator to curator/facilitator within an AI-augmented decision loop goes beyond baseline source 12's general augmentation theme."
+
+  - id: cc-129
+    category: additional
+    rationale: "Sustainability and environmental responsibility as integral architectural considerations for AI are not mentioned in any baseline source."
+
+  - id: cc-130
+    category: additional
+    rationale: "Convergence architectures that close the loop from insights to automated execution go beyond the baseline's general dynamic EA discussion."
+
+  - id: cc-131
+    category: common
+    rationale: "Incremental transformation with value at each step is standard EA practice guidance that has been the recommended approach for decades."
+
+  # === AGENT WORKFORCE MANAGEMENT (cc-132 to cc-134) ===
+
+  - id: cc-132
+    category: new
+    rationale: "No baseline source discusses the need for fundamentally new management frameworks for AI agents analogous to (but diverging from) human resource management."
+
+  - id: cc-133
+    category: common
+    rationale: "Technology adoption as an organizational problem (not just a technology problem) is a standard observation applicable to every technology wave."
+
+  - id: cc-134
+    category: common
+    rationale: "AI handling routine work while humans shift to strategic tasks is the well-established augmentation narrative repeated across the industry."
+
+  # === VENDOR ECOSYSTEM (cc-135) ===
+
+  - id: cc-135
+    category: additional
+    rationale: "The distinction between tool adoption and team capability for designing human-machine collaboration is not specifically in the baseline."
+
+  # === KNOWLEDGE GRAPH & ONTOLOGY (cc-136) ===
+
+  - id: cc-136
+    category: new
+    rationale: "No baseline source discusses enterprise knowledge graphs and organizational ontologies as critical infrastructure for grounding AI agent outputs in validated organizational concepts."

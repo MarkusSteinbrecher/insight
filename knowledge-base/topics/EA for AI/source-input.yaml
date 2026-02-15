@@ -1,0 +1,19 @@
+# Source Input — Enterprise Architecture for AI
+#
+# Add sources here for processing. Supports web URLs and local documents.
+# After adding entries, run:
+#   /research EA for AI   — to fetch and process web sources
+#   /ingest EA for AI     — to process documents from documents/
+
+sources:
+  # Web source example:
+  # - url: "https://example.com/article"
+  #   note: "Covers agent governance patterns"
+  #   added: 2026-02-15
+
+  # Document example:
+  # - document: "reports/deloitte-ai-2026.pdf"
+  #   note: "Deloitte AI trends report, drop file in documents/ first"
+  #   added: 2026-02-15
+
+  []

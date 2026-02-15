@@ -10,7 +10,7 @@ discussions:
   - finding_id: cc-104
     statement: "TOGAF's ADM is too slow for AI-driven transformation -- by the time a full ADM cycle completes, the AI landscape has shifted"
     original_verdict: genuine_insight
-    scores: { platitude: 2, actionability: 8, novelty: 7 }
+    scores: { generality: 2, actionability: 8, novelty: 7 }
     user_assessment: keep
     user_notes: |
       TOGAF isn't widely used. Most organisations don't use TOGAF formally.
@@ -20,7 +20,7 @@ discussions:
   - finding_id: cc-004
     statement: "SLMs outperform LLMs for domain-specific tasks; right-sizing models is more important than defaulting to the largest available"
     original_verdict: genuine_insight
-    scores: { platitude: 3, actionability: 7, novelty: 7 }
+    scores: { generality: 3, actionability: 7, novelty: 7 }
     user_assessment: keep
     user_notes: |
       Multi-model is common. Sophisticated orgs already do this.
@@ -30,7 +30,7 @@ discussions:
   - finding_id: cc-016
     statement: "Foundation models commoditize; competitive advantage lies in proprietary data, domain expertise, and integration quality"
     original_verdict: genuine_insight
-    scores: { platitude: 3, actionability: 7, novelty: 7 }
+    scores: { generality: 3, actionability: 7, novelty: 7 }
     user_assessment: keep
     user_notes: |
       Novel enough as-is. The commoditization angle is fresh and useful framing.
@@ -39,7 +39,7 @@ discussions:
   - finding_id: cc-026
     statement: "MCP/A2A protocols are necessary for agent interoperability and vendor-neutral agent communication"
     original_verdict: genuine_insight
-    scores: { platitude: 3, actionability: 6, novelty: 7 }
+    scores: { generality: 3, actionability: 6, novelty: 7 }
     user_assessment: keep
     user_notes: |
       Recommend the pattern, not the protocol. Abstract the communication layer.
@@ -51,7 +51,7 @@ discussions:
   - finding_id: cc-031
     statement: "Redesign processes for agent strengths rather than automating existing human workflows"
     original_verdict: genuine_insight
-    scores: { platitude: 3, actionability: 7, novelty: 7 }
+    scores: { generality: 3, actionability: 7, novelty: 7 }
     user_assessment: keep
     user_notes: |
       Mostly bolting on. True process redesign is rare in practice.
@@ -62,7 +62,7 @@ discussions:
   - finding_id: cc-089
     statement: "Model size does not equal business value; multi-component architectures with right-sized models outperform monolithic large models"
     original_verdict: genuine_insight
-    scores: { platitude: 2, actionability: 7, novelty: 7 }
+    scores: { generality: 2, actionability: 7, novelty: 7 }
     user_assessment: merge
     user_notes: |
       Merge with cc-004. Same insight about right-sizing models.
@@ -74,7 +74,7 @@ discussions:
   - finding_id: cc-098
     statement: "AI-augmented architects are notified during or before decision points, with agents pre-checking submissions and surfacing context at the point of decision"
     original_verdict: genuine_insight
-    scores: { platitude: 3, actionability: 7, novelty: 7 }
+    scores: { generality: 3, actionability: 7, novelty: 7 }
     user_assessment: keep
     user_notes: |
       Mostly aspirational. EA repositories and tooling aren't mature enough
@@ -86,7 +86,7 @@ discussions:
   - finding_id: cc-100
     statement: "AI should be applied to processes, not to people or organisations; solid well-defined processes are a prerequisite"
     original_verdict: genuine_insight
-    scores: { platitude: 3, actionability: 7, novelty: 6 }
+    scores: { generality: 3, actionability: 7, novelty: 6 }
     user_assessment: keep
     user_notes: |
       Process first is correct. Organisations that skip process understanding

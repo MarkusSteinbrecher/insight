@@ -1,80 +1,80 @@
 ---
-title: "Sources Overview"
 topic: ea-for-ai
-total_sources: 30
-by_type:
-  article: 16
-  paper: 7
-  report: 5
-  blog: 2
-by_relevance:
-  5: 17
-  4: 12
-  3: 1
-date_range: "2020-08 to 2026-02"
-updated: 2026-02-14
+total_sources: 31
+by_type: { article: 16, blog: 2, paper: 7, report: 6 }
+updated: 2026-02-15
 ---
 
 # Sources Overview: Enterprise Architecture for AI
 
-30 sources spanning academic papers, industry reports, practitioner articles, and blogs. Curated to cover the intersection of enterprise architecture and AI adoption (2020-2026, weighted heavily toward 2024-2026).
+31 sources: 16 articles, 7 papers, 6 reports, 2 blogs.
 
 ## Source Table
 
-| ID | Title | Author / Org | Type | Date | Rel | Origin |
-|----|-------|-------------|------|------|-----|--------|
-| 001 | Agentic AI-driven EA Framework | Prince Kumar | paper | 2025-03 | 5 | PDF |
-| 002 | Business Architecture Copilot (ABMA) | Oaj, Gill, Bandara, Roach | paper | 2025-11 | 4 | PDF |
-| 003 | Unlocking Enterprise AI | Economist Impact / Databricks | report | 2024 | 5 | PDF |
-| 004 | AI Pilots to Production Reality | Nithin Mohan TK | blog | 2026-01 | 5 | [Web](https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/) |
-| 005 | The Agentic Enterprise | Salesforce (Agentforce) | report | 2024 | 5 | [Web](https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture) |
-| 006 | Future of EA in the Age of AI | Morten Stender | article | 2025-10 | 5 | [Web](https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/) |
-| 007 | AI Automation in EA | Carsten Krause / CDO Times | article | 2025-02 | 4 | [Web](https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/) |
-| 008 | 2026 Predictions: Architecture & AI | Cloudera | blog | 2026-01 | 4 | [Web](https://www.cloudera.com/blog/business/2026-predictions-the-architecture-governance-and-ai-trends-every-enterprise-must-prepare-for.html) |
-| 009 | EA Trends for 2026 | Felix Galanski / BOC Group | article | 2025-01 | 3 | [Web](https://www.boc-group.com/en/blog/ea/ea-outlook-trends-2025/) |
-| 010 | TOGAF-based EA Framework for AI | Fitriani, Khodra, Surendro | paper | 2023-10 | 5 | [Web](https://ieeexplore.ieee.org/document/10285801/) |
-| 011 | Novel EA AI Framework (NAEF) | Heru Purnomo Ipung | paper | 2024-12 | 4 | [Web](https://ieeexplore.ieee.org/document/10913304/) |
-| 012 | Gen AI Adoption via EA Patterns | Wairagade, Govindarajan | paper | 2025-08 | 5 | [Web](https://ieeexplore.ieee.org/document/11166932/) |
-| 013 | Enterprise AI Convergence Architecture | Deloitte US | article | 2024-12 | 5 | [Web](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html) |
-| 014 | The Great Rebuild (Tech Trends 2026) | Deloitte Insights | report | 2025-12 | 5 | [Web](https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html) |
-| 015 | The Augmented Architect | Betz, Vanrechem / Forrester | article | 2025-04 | 5 | [Web](https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/) |
-| 016 | 7 Architecture Considerations for GenAI | Accenture | article | 2023-06 | 4 | [Web](https://www.accenture.com/us-en/blogs/cloud-computing/7-generative-ai-architecture-considerations) |
-| 017 | Agentic AI Elevates the EA Role | Vanrechem / Forrester | article | 2025-08 | 5 | [Web](https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/) |
-| 018 | EA Practitioners Conference 2026 | Ash Patel / The Open Group | article | 2026-02 | 4 | [Web](https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/) |
-| 019 | Building Enterprise AI Maturity | Weill, Woerner, Sebastian / MIT CISR | report | 2024-12 | 5 | [Web](https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian) |
-| 020 | Agentic Reality Check (Tech Trends 2026) | Deloitte Insights | report | 2026-01 | 5 | [Web](https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html) |
-| 021 | PBSAI Governance Ecosystem | John M. Willis | paper | 2026-02 | 5 | [Web](https://arxiv.org/abs/2602.11301) |
-| 022 | Enterprise IT Overhaul for Agentic AI | CIO.com | article | 2025-11 | 4 | [Web](https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html) |
-| 023 | EA as Dynamic Capability for GenAI | Alexander Ettinger | paper | 2025-05 | 5 | [Web](https://arxiv.org/abs/2505.06326) |
-| 024 | Paradox of Governance: TOGAF vs GenAI | Praveen Mittal | article | 2025-01 | 4 | [Web](https://medium.com/@pkmittal28/the-paradox-of-governance-when-togafs-architecture-development-method-meets-genai-s-velocity-b0fdcf968f4d) |
-| 025 | Open Group AI Initiatives | The Open Group | article | 2026-02 | 4 | [Web](https://www.opengroup.org/architecture-form/ai-initiatives) |
-| 026 | EA Enables AI Sovereignty | MRCS Cloud | article | 2025-01 | 4 | [Web](https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core) |
-| 027 | Navigating NextGen EA with GenAI | Larroze, Hadj Khalifa / Deloitte FR | article | 2024-04 | 4 | [Web](https://www.deloitte.com/fr/fr/our-thinking/explore/climat-developpement-durable/navigating-nextgen-enterprise-architecture-with-genai.html) |
-| 028 | Four Gen AI Shifts | McKinsey Digital | article | 2024-12 | 5 | [Web](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/enterprise-technologys-next-chapter-four-gen-ai-shifts-that-will-reshape-business-technology) |
-| 029 | Why You Need Enterprise Architecture | Ross, Beath / MIT Sloan | article | 2020-08 | 3 | [Web](https://sloanreview.mit.edu/article/why-you-yes-you-need-enterprise-architecture/) |
-| 030 | 3 Trends Driving EA Strategy in 2025 | Gartner | article | 2025-01 | 4 | [Web](https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture) |
+| # | Title | Author | Type | Status | Updated |
+|---|-------|--------|------|--------|---------|
+| 001 | Agentic AI-driven enterprise architecture: a foundational... | Prince Kumar | paper | analyzed | 2026-02-14 |
+| 002 | Business Architecture Copilot: Agentic AI-enabled Busines... | Eesha Oaj et al. | paper | analyzed | 2026-02-14 |
+| 003 | Unlocking Enterprise AI: Opportunities and Strategies | Economist Impact (commissioned by Databricks) | report | analyzed | 2026-02-14 |
+| 004 | From AI Pilots to Production Reality: Architecture Lesson... | Nithin Mohan TK | blog | analyzed | 2026-02-14 |
+| 005 | The Agentic Enterprise - The IT Architecture for the AI-P... | Salesforce (Agentforce) | report | analyzed | 2026-02-14 |
+| 006 | The Future of Enterprise Architecture in the Age of AI: T... | Morten Stender | article | analyzed | 2026-02-14 |
+| 007 | AI Automation in Enterprise Architecture: The Future of D... | Carsten Krause | article | analyzed | 2026-02-14 |
+| 008 | 2026 Predictions: The Architecture, Governance, and AI Tr... | Cloudera | blog | analyzed | 2026-02-14 |
+| 009 | Enterprise Architecture Trends for 2026 – Key Outlook Sha... | Felix Galanski | article | analyzed | 2026-02-14 |
+| 010 | TOGAF-based Enterprise Architecture Framework for Utilizi... | Leni Fitriani et al. | paper | analyzed | 2026-02-14 |
+| 011 | A Novel Enterprise Artificial Intelligence Architecture F... | Heru Purnomo Ipung | paper | analyzed | 2026-02-14 |
+| 012 | A Framework for Gen AI Adoption for Enterprises Leveragin... | Anant Wairagade, Vijay Govindarajan | paper | analyzed | 2026-02-14 |
+| 013 | Enterprise AI Convergence Architecture | Deloitte US | article | analyzed | 2026-02-14 |
+| 014 | The Great Rebuild: How AI Is Re-Architecting the Tech Org... | Deloitte Insights | report | analyzed | 2026-02-14 |
+| 015 | The Augmented Architect: Real-Time Enterprise Architectur... | Charles Betz and Stephane Vanrechem | article | analyzed | 2026-02-14 |
+| 016 | 7 Architecture Considerations for Generative AI | Accenture (with Atish Ray, Chief AI Architect) | article | analyzed | 2026-02-14 |
+| 017 | How Agentic AI Elevates The Enterprise Architect's Role | Stephane Vanrechem | article | analyzed | 2026-02-14 |
+| 018 | The Open Group EA Practitioners Conference 2026: Highligh... | Ash Patel, The Open Group | article | analyzed | 2026-02-14 |
+| 019 | Building Enterprise AI Maturity | Peter Weill et al. | report | analyzed | 2026-02-14 |
+| 020 | The Agentic Reality Check: Preparing for a Silicon-Based ... | Deloitte Insights | report | analyzed | 2026-02-14 |
+| 021 | The PBSAI Governance Ecosystem: A Multi-Agent AI Referenc... | John M. Willis | paper | analyzed | 2026-02-14 |
+| 022 | The Enterprise IT Overhaul: Architecting Your Stack for t... | CIO.com | article | analyzed | 2026-02-14 |
+| 023 | Enterprise Architecture as a Dynamic Capability for Scala... | Alexander Ettinger | paper | analyzed | 2026-02-14 |
+| 024 | The Paradox of Governance: When TOGAF's Architecture Deve... | Praveen Mittal | article | analyzed | 2026-02-14 |
+| 025 | The Open Group AI Initiatives and Enterprise Architecture... | The Open Group | article | analyzed | 2026-02-14 |
+| 026 | How Enterprise Architecture Enables AI Sovereignty -- Wit... | MRCS Cloud | article | analyzed | 2026-02-14 |
+| 027 | Navigating NextGen Enterprise Architecture with GenAI | Emmanuel Larroze and Ahmed Iyed Hadj Khalifa, Deloitte France | article | analyzed | 2026-02-14 |
+| 028 | Enterprise Technology's Next Chapter: Four Gen AI Shifts ... | McKinsey Digital | article | analyzed | 2026-02-14 |
+| 029 | Why You — Yes, You — Need Enterprise Architecture | Jeanne Ross and Cynthia Beath | article | analyzed | 2026-02-14 |
+| 030 | 3 Trends Driving Enterprise Architecture Strategy in 2025 | Gartner | article | analyzed | 2026-02-14 |
+| 031 | Agentic AI — the new frontier in GenAI: An executive play... | PwC | report | analyzed | 2026-02-15 |
+
+## Status Key
+
+- **gathered** — Source note created (source-NNN.md exists)
+- **segmented** — Raw segments extracted (raw/source-NNN-raw.yaml exists)
+- **analyzed** — Included in claim alignment and critical analysis
+- **queued** — In source-input.yaml, not yet processed
 
 ## By Type
 
-- **Articles** (16): Practitioner perspectives from Forrester, Deloitte, Accenture, Gartner, The Open Group, and independents
-- **Papers** (7): Academic research from IEEE, arXiv, and university-affiliated authors
-- **Reports** (5): Industry surveys and research from Economist Impact, Deloitte, Salesforce, MIT CISR
-- **Blogs** (2): Practitioner-oriented operational insights
+- **Article** (16): Practitioner and analyst articles — 006, 007, 009, 013, 015, 016, 017, 018, 022, 024, 025, 026, 027, 028, 029, 030
+- **Paper** (7): Academic and research papers — 001, 002, 010, 011, 012, 021, 023
+- **Report** (6): Industry reports and surveys — 003, 005, 014, 019, 020, 031
+- **Blog** (2): Practitioner blog posts — 004, 008
 
 ## By Institution
 
 | Institution | Count | Source IDs |
 |-------------|-------|-----------|
 | Deloitte | 4 | 013, 014, 020, 027 |
+| IEEE | 3 | 010, 011, 012 |
 | Forrester | 2 | 015, 017 |
 | The Open Group | 2 | 018, 025 |
 | MIT (CISR + Sloan) | 2 | 019, 029 |
-| IEEE papers | 3 | 010, 011, 012 |
-| arXiv papers | 2 | 021, 023 |
-| Independent | 15 | All others |
+| arXiv | 2 | 021, 023 |
+| McKinsey | 1 | 028 |
+| Gartner | 1 | 030 |
+| Independent | 14 | — |
 
 ## Adding Sources
 
-To add new sources to this topic, see the queue file:
-- **Web sources**: Add URLs to `sources-queue.yaml` in this topic directory, then run `/research <topic>` to process
-- **Documents**: Drop PDFs/files into `documents/`, then run `/ingest <topic>` to process
+To add new sources to this topic:
+- **Web sources**: Add URLs to `source-input.yaml` in the topic directory, then run `/research <topic>`
+- **Documents**: Drop PDFs/files into `documents/`, add an entry to `source-input.yaml`, then run `/ingest <topic>`

@@ -7,28 +7,36 @@ analyses:
     theme: "data_architecture"
     statement: "AI quality is fundamentally limited by data architecture quality -- organizations need robust data pipelines capable of handling structured, semi-structured, and unstructured data from diverse sources."
     source_count: 4
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 5
-      novelty: 2
-    critique: "This is 'garbage in, garbage out' restated for the AI era. Data quality has been the number-one cited blocker in every analytics maturity survey for the past two decades. The claim adds nothing by extending it to AI -- the mechanism is different (training data bias, embedding quality, retrieval relevance) but the prescription remains frustratingly vague: 'robust data pipelines' could mean anything from a lakehouse migration to a metadata catalog rollout."
-    practical_value: "Useful primarily as executive ammunition to secure data infrastructure investment before launching AI initiatives, but practitioners already know this."
+    ocaf:
+      source_convergence: 3
+      specificity: 2
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: C
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
+    critique: "This restates the well-established 'garbage in, garbage out' principle for the AI era. Data quality has been the number-one cited blocker in every analytics maturity survey for the past two decades. The claim does not differentiate the AI-specific mechanisms (training data bias, embedding quality, retrieval relevance) from general data quality concerns, and the prescription remains underspecified: 'robust data pipelines' could mean anything from a lakehouse migration to a metadata catalog rollout."
+    practical_value: "Useful primarily as executive justification to secure data infrastructure investment before launching AI initiatives, though the principle itself is widely understood among practitioners."
     action_steps:
       - "Inventory your top 10 AI use cases and map each to the specific data sources, formats, and freshness requirements it depends on -- identify which pipelines exist and which are missing."
       - "Measure your current data pipeline latency from source to AI-consumable format; if any pipeline exceeds the decision window of its downstream AI use case, flag it for re-engineering."
       - "Implement automated data quality scoring at ingestion points so AI teams get a 'data readiness' metric before they start model development."
-    bottom_line: "Everyone agrees data is important for AI; almost nobody has actually audited whether their data pipelines can serve AI workloads at the speed and quality required."
+    bottom_line: "The principle that data quality matters for AI is widely accepted; the operational gap is that few organizations have actually audited whether their data pipelines can serve AI workloads at the speed and quality required."
 
   - id: cc-036
     theme: "data_architecture"
     statement: "Competitive advantage lies in proprietary data intelligence -- systems that deeply understand and operate on organization-specific data -- rather than in generic AI models trained on public web data."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 6
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.4
+      value_category: MODERATE_VALUE
     critique: "The core insight -- that model commoditization shifts value to proprietary data -- is directionally correct and increasingly validated by market dynamics. However, the claim oversimplifies: competitive advantage also comes from proprietary workflows, integration depth, and speed of iteration, not just data. It also ignores that many organizations' proprietary data is too messy, siloed, or sparse to actually confer advantage without massive cleanup investment."
     practical_value: "Provides a useful strategic framing for where to invest: build moats around data assets and domain-specific fine-tuning rather than chasing the latest foundation model."
     action_steps:
@@ -41,12 +49,16 @@ analyses:
     theme: "governance_org_change"
     statement: "Enterprise architecture must evolve from static documentation and periodic reviews to a dynamic, near real-time governance and decision-support function."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 5
-      novelty: 5
-    critique: "The diagnosis is accurate -- EA as a quarterly PowerPoint exercise is dead. But 'dynamic, near real-time governance' is aspirational hand-waving without specifying what triggers decisions, who has authority, and what tooling makes real-time governance feasible. The claim also conflates two distinct problems: the staleness of EA artifacts (a tooling/process problem) and the speed of governance decisions (an authority/delegation problem). You can have real-time dashboards and still have month-long approval cycles."
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
+    critique: "The diagnosis is accurate -- EA as a quarterly documentation exercise is no longer viable. However, 'dynamic, near real-time governance' is stated at a high level of abstraction without specifying what triggers decisions, who has authority, and what tooling makes real-time governance feasible. The claim also conflates two distinct problems: the staleness of EA artifacts (a tooling/process problem) and the speed of governance decisions (an authority/delegation problem). An organization can have real-time dashboards and still have month-long approval cycles."
     practical_value: "Useful as a mandate to modernize EA tooling and decision rights, but practitioners need to decompose this into the artifact problem and the authority problem separately."
     action_steps:
       - "Measure your current EA governance cycle time from 'architecture decision requested' to 'decision rendered' -- if it exceeds 2 weeks, your governance is too slow for AI deployment cadence."
@@ -58,11 +70,15 @@ analyses:
     theme: "governance_org_change"
     statement: "EA must govern AI agent clusters collectively as systems-of-systems, not merely as individual components, requiring new governance patterns for non-deterministic behavior."
     source_count: 2
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 5
-      novelty: 7
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.2
+      value_category: MODERATE_VALUE
     critique: "This is one of the few claims that identifies a genuinely new architectural challenge. Multi-agent systems produce emergent behaviors that cannot be predicted by analyzing individual agents -- this breaks traditional EA's component-level governance model. The claim could go further: it's not just about governance patterns but about entirely new observability requirements (inter-agent communication tracing, collective decision auditing, emergent behavior detection). The 'systems-of-systems' framing from defense architecture is apt but the field lacks mature patterns to implement it."
     practical_value: "Alerts enterprise architects to a blind spot: your existing governance model treats AI as individual services, but agent clusters behave more like ecosystems. This reframing changes how you scope architecture reviews."
     action_steps:
@@ -75,95 +91,119 @@ analyses:
     theme: "governance_org_change"
     statement: "AI adoption must be tied to business value and organizational impact, not pursued for technology's sake -- it requires clear business objectives and measurable outcomes."
     source_count: 3
-    verdict: platitude
-    scores:
-      platitude: 9
-      actionability: 3
-      novelty: 1
-    critique: "This is the most generic technology adoption advice possible, applicable to literally every technology wave since ERP. Substitute 'cloud,' 'blockchain,' 'IoT,' or 'big data' for 'AI' and the statement is unchanged. It offers no AI-specific insight into how business value measurement differs for AI (hint: it does -- AI value is probabilistic, often realized through avoided costs, and frequently emerges from unexpected use cases rather than planned ones). The claim's prevalence across 3 sources reflects how safely obvious it is."
-    practical_value: "Useful only as a sanity check for the most junior stakeholders. Any experienced practitioner already knows this."
+    ocaf:
+      source_convergence: 3
+      specificity: 1
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is broadly applicable technology adoption advice, unchanged across every technology wave since ERP. Substituting 'cloud,' 'blockchain,' 'IoT,' or 'big data' for 'AI' produces the same statement. It offers no AI-specific insight into how business value measurement differs for AI -- notably, AI value is probabilistic, often realized through avoided costs, and frequently emerges from unexpected use cases rather than planned ones. The claim's prevalence across 3 sources reflects its wide acceptance rather than its analytical depth."
+    practical_value: "Limited as stated. The claim restates a widely understood position without identifying the specific ways AI business value measurement differs from traditional technology ROI."
     action_steps:
       - "For each AI initiative, define a specific, measurable baseline metric before deployment and a target improvement with a time-bound measurement window."
       - "Establish a 90-day kill criterion: if an AI initiative hasn't demonstrated measurable value within 90 days of deployment, either pivot the use case or shut it down."
-    bottom_line: "Telling people to tie AI to business value is like telling them to breathe -- the real challenge is measuring AI's value when outcomes are probabilistic and emergent."
+    bottom_line: "AI adoption must be tied to clear business objectives and measurable outcomes, not pursued for technology's sake."
 
   - id: cc-040
     theme: "governance_org_change"
     statement: "The combination of AI and human intelligence creates elevated outcomes exceeding what either could achieve independently -- successful organizations focus on augmentation rather than replacement."
     source_count: 3
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 3
-      novelty: 2
-    critique: "The 'augmentation not replacement' narrative has been the default industry talking point since 2017. While directionally correct, it obscures the reality that some tasks are being fully automated and some roles will be eliminated. The claim's real weakness is its vagueness: it provides no framework for determining which tasks should be augmented versus automated, which roles benefit most from AI pairing, or how to design human-AI collaboration interfaces. The 'elevated outcomes' framing lacks any empirical grounding in the sources."
-    practical_value: "Marginally useful for change management messaging to reduce workforce anxiety, but lacks the specificity needed to actually design human-AI workflows."
+    ocaf:
+      source_convergence: 3
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
+    critique: "The 'augmentation not replacement' narrative has been a standard industry position since 2017. While directionally correct, it obscures the reality that some tasks are being fully automated and some roles will be eliminated. The claim's primary weakness is its lack of specificity: it provides no framework for determining which tasks should be augmented versus automated, which roles benefit most from AI pairing, or how to design human-AI collaboration interfaces. The 'elevated outcomes' framing lacks empirical grounding in the sources."
+    practical_value: "Has some value for change management messaging to reduce workforce anxiety, but lacks the specificity needed to actually design human-AI workflows."
     action_steps:
       - "For each AI deployment, explicitly classify every affected task as 'automate fully,' 'augment with AI assistance,' or 'keep human-only' -- don't let the augmentation narrative become an excuse to avoid hard workforce planning decisions."
       - "Prototype human-in-the-loop interfaces for your top 3 AI use cases and measure whether human+AI actually outperforms AI-only on your specific tasks -- don't assume augmentation is always better."
       - "Design feedback loops where human corrections to AI outputs are captured and used to improve the model, making the augmentation relationship genuinely synergistic rather than just supervisory."
-    bottom_line: "Augmentation sounds nicer than automation, but the real work is deciding task-by-task where humans add value and where they're just adding latency."
+    bottom_line: "The augmentation framing is directionally sound, but the real work is deciding task-by-task where humans add value and where full automation is more effective."
 
   - id: cc-041
     theme: "governance_org_change"
     statement: "Cultural assessment and organizational readiness are prerequisites for successful GenAI adoption -- technology implementation without organizational alignment leads to failure."
     source_count: 3
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 4
-      novelty: 2
-    critique: "Every major technology adoption framework since the 1990s has emphasized organizational readiness. This claim merely applies the same principle to GenAI without identifying what's different about GenAI readiness. The unique cultural challenges of GenAI -- tolerance for non-deterministic outputs, willingness to delegate judgment to machines, comfort with AI-generated content -- are not addressed. A genuinely useful claim would specify which cultural attributes predict GenAI adoption success versus failure."
-    practical_value: "Serves as a reminder to not skip the people side, but provides no GenAI-specific readiness dimensions to actually assess."
+    ocaf:
+      source_convergence: 3
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: C
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
+    critique: "Every major technology adoption framework since the 1990s has emphasized organizational readiness. This claim applies the same principle to GenAI without identifying what is different about GenAI readiness specifically. The unique cultural challenges of GenAI -- tolerance for non-deterministic outputs, willingness to delegate judgment to machines, comfort with AI-generated content -- are not addressed. A more useful version would specify which cultural attributes predict GenAI adoption success versus failure."
+    practical_value: "Serves as a reminder to address the organizational dimension, but provides no GenAI-specific readiness dimensions to actually assess."
     action_steps:
       - "Survey your workforce on specific GenAI readiness dimensions: comfort with non-deterministic outputs, willingness to use AI-generated drafts, trust in AI recommendations for their domain."
       - "Identify your organization's 'AI champions' -- early adopters who are already using GenAI tools effectively -- and formalize their role as peer mentors."
       - "Run a controlled pilot measuring adoption rates across teams with different cultural profiles to empirically identify which cultural factors actually predict GenAI uptake in your specific context."
-    bottom_line: "Culture eats AI strategy for breakfast, but 'assess your culture' is useless advice unless you know which specific cultural attributes matter for GenAI."
+    bottom_line: "Cultural assessment and organizational readiness are prerequisites for successful GenAI adoption -- technology implementation without organizational alignment leads to failure."
 
   - id: cc-042
     theme: "governance_org_change"
     statement: "2026 marks the transition from AI experimentation and pilots to scaling proven solutions into production -- the shift from 'shiny new thing' to 'expected capability'."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 4
-      novelty: 4
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 2
+      claim_type: P
+      value_score: 2.2
+      value_category: CONTEXTUAL_VALUE
     critique: "The directional observation is valid -- there is a real shift happening from POCs to production. But analysts have declared 'this is the year AI goes mainstream' annually since 2018. The claim is more useful as a temporal marker than as an insight. What would be genuinely insightful is identifying what specifically enables the transition (MLOps maturity, cost reduction, regulatory clarity) and what continues to block it (data readiness, talent, governance overhead). The framing also ignores that many organizations are still in experimentation while others scaled years ago -- the market is not moving in lockstep."
     practical_value: "Creates urgency for organizations still in pilot mode, which has some value for executive conversations, but the year-specific framing risks being seen as vendor hype."
     action_steps:
       - "Audit your AI portfolio: classify each initiative as 'experiment,' 'pilot,' 'production,' or 'scaled' and honestly assess how many have moved beyond pilot stage."
       - "For pilots that have been running more than 6 months without progressing to production, conduct a post-mortem identifying whether the blocker is technical, organizational, or economic."
       - "Set a concrete target: by end of Q2 2026, at least 3 AI initiatives must be in production with defined SLAs, not just running as best-effort experiments."
-    bottom_line: "Every year is 'the year of AI in production' until you actually measure how many of your pilots graduated -- most organizations will find the answer is embarrassingly few."
+    bottom_line: "The 'year of AI in production' has been declared repeatedly -- the meaningful metric is how many pilots have actually graduated to production, and for most organizations that number remains low."
 
   - id: cc-043
     theme: "AI_governance_ethics"
     statement: "AI governance and observability must be built into enterprise architecture from the start, not bolted on after deployment."
     source_count: 6
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 4
-      novelty: 2
-    critique: "This is the 'security by design' argument repackaged for AI governance, and it has been conventional wisdom for at least five years. Six sources supporting it confirms its obviousness, not its profundity. The claim fails to address why organizations consistently fail to do this despite knowing they should -- typically because governance adds friction to already-slow deployment cycles, and teams rationally choose speed over compliance when incentives reward delivery. The real insight would be how to make governance-by-design cheaper and less friction-laden than bolt-on governance."
-    practical_value: "Validates the principle but practitioners need implementation patterns, not another reminder that they should have started earlier."
+    ocaf:
+      source_convergence: 4
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
+    critique: "This applies the well-established 'security by design' principle to AI governance, and it has been conventional wisdom for at least five years. Six sources supporting it confirms its broad acceptance. The claim does not address why organizations consistently fail to implement this despite agreement -- typically because governance adds friction to deployment cycles, and teams rationally choose speed over compliance when incentives reward delivery. The more actionable insight would be how to make governance-by-design lower-friction than bolt-on governance."
+    practical_value: "Validates the principle but practitioners need implementation patterns, not a reiteration of the principle itself."
     action_steps:
       - "Create a lightweight 'AI deployment checklist' with governance and observability requirements that must be satisfied before any AI model reaches production -- make it 10 items or fewer to avoid process paralysis."
       - "Embed observability instrumentation (logging, drift detection, performance monitoring) into your AI deployment templates and CI/CD pipelines so it's automatic, not optional."
       - "Calculate the actual cost of retrofitting governance onto your existing AI deployments versus the cost of building it in from the start -- use this data to make the business case concrete rather than aspirational."
-    bottom_line: "Everyone agrees governance should be built-in, not bolted-on -- the actual challenge is making built-in governance so lightweight that teams don't route around it."
+    bottom_line: "The principle that governance should be built-in rather than bolted-on is broadly accepted -- the actual challenge is making built-in governance lightweight enough that teams adopt it consistently."
 
   - id: cc-044
     theme: "AI_governance_ethics"
     statement: "Enterprise architectures must be designed to accommodate rapidly evolving AI regulations (EU AI Act, NIST AI RMF, GDPR, HIPAA, ISO/IEC 42001) and be adaptable to new compliance requirements as they emerge."
     source_count: 6
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 5
-      novelty: 4
+    ocaf:
+      source_convergence: 4
+      specificity: 3
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 3
+      claim_type: N
+      value_score: 3.2
+      value_category: MODERATE_VALUE
     critique: "The observation that the regulatory landscape is fragmented and fast-moving is accurate and increasingly urgent. The specificity of naming EU AI Act, NIST AI RMF, and ISO/IEC 42001 adds some value. However, the prescription -- 'be adaptable' -- is where the claim falls flat. Adaptability in architecture means specific things: abstraction layers that decouple compliance logic from business logic, configurable policy engines, automated compliance reporting. None of these specifics are provided. The claim also doesn't address the real tension: different regulations conflict with each other (EU AI Act transparency requirements vs. trade secret protections, for example)."
     practical_value: "Useful for flagging the regulatory dimension to architects who may be focused only on technical capabilities, and the specific regulation names provide a starting checklist."
     action_steps:
@@ -176,28 +216,36 @@ analyses:
     theme: "AI_governance_ethics"
     statement: "All AI agent decisions must be logged, traceable, and auditable to meet compliance and trust requirements."
     source_count: 6
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 6
-      novelty: 2
-    critique: "Audit logging is a fundamental requirement for any enterprise system, not just AI. The claim applies a well-established principle (auditability) to a new domain (AI agents) without addressing the genuinely novel challenges: AI agent decisions are often probabilistic and context-dependent, making traditional audit logs insufficient. What does 'tracing' mean when an LLM's reasoning is emergent from billions of parameters? The claim conflates structured decision logging (feasible) with explainability of neural network inference (still an open research problem). Six sources agree because this is table stakes, not thought leadership."
+    ocaf:
+      source_convergence: 4
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 5
+      claim_type: N
+      value_score: 3.4
+      value_category: MODERATE_VALUE
+    critique: "Audit logging is a fundamental requirement for any enterprise system, not just AI. The claim applies a well-established principle (auditability) to a new domain (AI agents) without addressing the genuinely novel challenges: AI agent decisions are often probabilistic and context-dependent, making traditional audit logs insufficient. What does 'tracing' mean when an LLM's reasoning is emergent from billions of parameters? The claim conflates structured decision logging (feasible) with explainability of neural network inference (still an open research problem). Six sources agree on this point, reflecting its status as a baseline requirement rather than a differentiating insight."
     practical_value: "Provides a clear mandate for engineering teams to implement logging, which is actionable even if obvious. The gap is in the how, not the what."
     action_steps:
       - "Implement structured decision logs for all AI agents that capture: input context, model version, confidence score, output decision, and any human override -- make this a non-negotiable deployment requirement."
       - "Build an audit trail viewer that allows compliance teams to reconstruct the full decision chain for any AI-influenced business outcome within 24 hours of a query."
       - "Test your audit trail by running a mock regulatory inquiry: pick a random AI decision from last month and see if you can trace it back to inputs, model, and rationale within your target SLA."
-    bottom_line: "Logging AI decisions is table stakes -- the hard question nobody's answering is what 'traceable' means when the decision-maker is a neural network."
+    bottom_line: "Logging AI decisions is a baseline requirement -- the unresolved question is what 'traceable' means when the decision-maker is a neural network whose reasoning is not inherently interpretable."
 
   - id: cc-046
     theme: "AI_governance_ethics"
     statement: "Traditional EA governance frameworks (especially TOGAF) lack the agility, ethical governance mechanisms, and lifecycle artifacts required for AI-driven transformation and must evolve."
     source_count: 4
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 6
-      novelty: 7
+    ocaf:
+      source_convergence: 3
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: D
+      value_score: 3.4
+      value_category: MODERATE_VALUE
     critique: "This claim makes a specific, falsifiable assertion about a named framework (TOGAF) and identifies concrete deficiencies: agility, ethical governance mechanisms, and lifecycle artifacts. This is more valuable than generic 'governance must evolve' claims because it gives practitioners a starting point for gap analysis. The critique could go further by identifying which specific TOGAF phases break down (the ADM cycle time, the lack of AI-specific building blocks, the absence of model lifecycle management in the Technology Architecture domain). The 4-source support from academic and practitioner sources adds credibility."
     practical_value: "Directly useful for any organization using TOGAF as their EA framework -- it identifies specific areas where supplementary governance is needed rather than wholesale framework replacement."
     action_steps:
@@ -210,112 +258,140 @@ analyses:
     theme: "AI_governance_ethics"
     statement: "EA must shift from periodic, static governance reviews to continuous, near-real-time AI governance that can keep pace with the velocity of AI innovation."
     source_count: 5
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 5
-      novelty: 4
-    critique: "This claim overlaps significantly with cc-037 but focuses specifically on AI governance speed. The insight that governance cadence must match innovation cadence is valid but not new -- agile and DevOps movements made the same argument about software delivery governance years ago. What's missing is the recognition that 'continuous governance' is an oxymoron in most organizations because governance implies deliberation, which implies time. The real question is which governance decisions can be automated (and thus made continuous) versus which require human judgment (and thus will always have latency). Five sources support this because it's the safe version of a harder truth: some governance must simply be eliminated, not accelerated."
+    ocaf:
+      source_convergence: 4
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.2
+      value_category: MODERATE_VALUE
+    critique: "This claim overlaps significantly with cc-037 but focuses specifically on AI governance speed. The insight that governance cadence must match innovation cadence is valid but not new -- agile and DevOps movements made the same argument about software delivery governance years ago. What is missing is the recognition that 'continuous governance' presents an inherent tension in most organizations because governance implies deliberation, which implies time. The key question is which governance decisions can be automated (and thus made continuous) versus which require human judgment (and thus will always have latency). Five sources support this because it states the aspiration without addressing the harder structural question: some governance may need to be eliminated rather than accelerated."
     practical_value: "Motivates the right conversation but needs to be decomposed into automatable governance (can be continuous) and judgment-based governance (needs faster but not continuous cycles)."
     action_steps:
       - "Classify your current AI governance decisions into three tiers: automatable (policy compliance checks), expeditable (standard risk assessments), and deliberative (novel ethical dilemmas) -- apply different cadences to each."
       - "Implement automated policy-as-code for tier-1 governance decisions so they execute at deployment time without human review."
       - "Reduce your tier-2 governance review cycle from monthly/quarterly to weekly sprint-aligned reviews with a maximum 48-hour SLA for standard AI deployment approvals."
-    bottom_line: "Continuous governance is a fantasy -- the real win is automating the routine 80% of governance decisions so humans can focus on the 20% that actually need judgment."
+    bottom_line: "Fully continuous governance is impractical as stated -- the real opportunity is automating the routine majority of governance decisions so human reviewers can focus on the decisions that genuinely require judgment."
 
   - id: cc-048
     theme: "AI_governance_ethics"
     statement: "AI deployment requires coordinated governance across technical, ethical, and regulatory dimensions -- not just technical oversight."
     source_count: 6
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 3
-      novelty: 2
-    critique: "This is a restatement of the well-established principle that AI governance is multidimensional. Six sources agree because it's impossible to disagree with. The claim provides no framework for how to coordinate across these dimensions, who owns each dimension, or how conflicts between dimensions are resolved (e.g., when regulatory compliance requires data retention that ethical principles say should be minimized). The word 'coordinated' does heavy lifting while saying nothing about coordination mechanisms."
+    ocaf:
+      source_convergence: 4
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
+    critique: "This restates the well-established principle that AI governance is multidimensional. Six sources support it, reflecting broad consensus on the principle. However, the claim provides no framework for how to coordinate across these dimensions, who owns each dimension, or how conflicts between dimensions are resolved (e.g., when regulatory compliance requires data retention that ethical principles say should be minimized). The term 'coordinated' implies a resolution mechanism without specifying one."
     practical_value: "Serves as a checklist reminder to ensure governance isn't purely technical, but offers no practical coordination model."
     action_steps:
       - "Establish a cross-functional AI governance board with explicit representation from engineering, legal, ethics/compliance, and business -- meet biweekly with a standing agenda that covers all three dimensions."
       - "Create a single-page AI governance decision template that requires sign-off from technical, ethical, and regulatory reviewers before any high-risk AI system goes to production."
       - "Document and publish your organization's hierarchy of governance priorities: when technical feasibility, ethical principles, and regulatory requirements conflict, which takes precedence and who decides?"
-    bottom_line: "Multi-dimensional governance sounds sophisticated until you realize nobody has defined who breaks the tie when your ethics board and your legal team disagree."
+    bottom_line: "Multi-dimensional governance is a sound principle, but it remains incomplete without a defined resolution mechanism for when technical, ethical, and regulatory requirements conflict."
 
   - id: cc-049
     theme: "AI_governance_ethics"
     statement: "Explainability and transparency of AI decisions are essential requirements for enterprise AI architectures, not optional features."
     source_count: 4
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 4
-      novelty: 2
-    critique: "Explainability has been a recognized requirement since GDPR's 'right to explanation' provisions. The claim doesn't address the fundamental tension: the most capable AI models (large language models, deep neural networks) are inherently less explainable than simpler models, creating a capability-explainability tradeoff that practitioners must navigate. Saying explainability is 'essential' without addressing this tradeoff is unhelpful. The claim also conflates explainability (understanding why a model made a decision) with transparency (understanding what data and processes were involved), which are different technical challenges."
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
+    critique: "Explainability has been a recognized requirement since GDPR's 'right to explanation' provisions. The claim does not address the fundamental tension: the most capable AI models (large language models, deep neural networks) are inherently less explainable than simpler models, creating a capability-explainability tradeoff that practitioners must navigate. Stating explainability is 'essential' without addressing this tradeoff leaves practitioners without guidance on the hard decisions. The claim also conflates explainability (understanding why a model made a decision) with transparency (understanding what data and processes were involved), which are different technical challenges."
     practical_value: "Reinforces a principle that should guide architecture decisions, but practitioners need guidance on how to implement explainability for LLM-based systems specifically, which remains an open problem."
     action_steps:
       - "Define explainability requirements per use case risk level: low-risk use cases may need only confidence scores, while high-risk decisions (credit, hiring, medical) need full reasoning chains and counterfactual explanations."
       - "Implement a 'glass box' wrapper around black-box models: capture the input features, prompt, retrieved context, and output for every decision, even if the internal model reasoning isn't fully interpretable."
       - "Test your explainability by asking business users to explain a sample of AI decisions to a simulated regulator -- if they can't, your transparency is insufficient regardless of what your architecture supports."
-    bottom_line: "Demanding explainability from AI is like demanding nutritional labels on food -- obviously important, but the hard part is defining what goes on the label for a system that doesn't know why it decided what it decided."
+    bottom_line: "Explainability is a necessary requirement, but the implementation challenge is defining what constitutes adequate explanation for systems whose decision processes are not inherently interpretable."
 
   - id: cc-050
     theme: "AI_governance_ethics"
     statement: "Human oversight, ethical judgment, and human-in-the-loop mechanisms remain essential even as AI systems gain autonomy."
     source_count: 5
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 3
-      novelty: 2
-    critique: "This is a universally agreed-upon principle that appears in virtually every AI ethics framework ever published. Five sources confirm its ubiquity, not its novelty. The claim doesn't engage with the genuinely difficult questions: at what autonomy level does human oversight become a rubber stamp? How do you maintain meaningful human judgment when AI processes thousands of decisions per hour? When does human-in-the-loop become human-on-the-loop become human-out-of-the-loop? The claim also doesn't address the growing evidence that human oversight can actually degrade performance when humans override correct AI decisions due to automation bias or distrust."
+    ocaf:
+      source_convergence: 4
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
+    critique: "This is a widely accepted principle that appears in virtually every AI ethics framework published to date. Five sources confirm its broad acceptance. The claim does not engage with the more difficult questions: at what autonomy level does human oversight become perfunctory? How do you maintain meaningful human judgment when AI processes thousands of decisions per hour? When does human-in-the-loop become human-on-the-loop become human-out-of-the-loop? The claim also does not address the growing evidence that human oversight can actually degrade performance when humans override correct AI decisions due to automation bias or distrust."
     practical_value: "Serves as a governance principle but offers no guidance on the spectrum from full human control to full AI autonomy or how to calibrate oversight to the risk level of each decision."
     action_steps:
       - "Define an explicit autonomy ladder for each AI system: Level 1 (AI recommends, human decides), Level 2 (AI decides, human reviews), Level 3 (AI decides, human audits samples), Level 4 (AI decides autonomously with exception-based alerts)."
       - "For each AI system, set the autonomy level based on a risk matrix combining decision reversibility, potential harm magnitude, and regulatory requirements -- don't apply one-size-fits-all human-in-the-loop."
       - "Measure the quality impact of human oversight: track cases where human overrides improved outcomes versus degraded them, and use this data to calibrate appropriate oversight levels."
-    bottom_line: "Human-in-the-loop is a comforting mantra until you realize the human is reviewing 500 AI decisions per hour and rubber-stamping 499 of them."
+    bottom_line: "Human-in-the-loop is a sound principle, but its effectiveness depends on whether the oversight is meaningful at scale -- reviewing hundreds of AI decisions per hour risks reducing oversight to a formality."
 
   - id: cc-051
     theme: "AI_governance_ethics"
     statement: "Scaling AI requires balancing speed of deployment with robust governance, monitoring, and change management."
     source_count: 3
-    verdict: platitude
-    scores:
-      platitude: 8
-      actionability: 2
-      novelty: 1
-    critique: "This is the most generic formulation of the speed-versus-control tradeoff, applicable to any technology at any scale. Replace 'AI' with 'microservices,' 'cloud migration,' or 'digital transformation' and the statement is equally true and equally useless. It provides no guidance on where on the speed-governance spectrum an organization should land, what governance is non-negotiable versus nice-to-have, or how to reduce the friction cost of governance so the tradeoff becomes less painful. Three sources agree because disagreeing is impossible."
-    practical_value: "None beyond acknowledging a tension that every technology leader already feels. The claim is too abstract to guide any concrete decision."
+    ocaf:
+      source_convergence: 3
+      specificity: 1
+      evidence_type: 2
+      actionability: 1
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.4
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is a broadly stated formulation of the speed-versus-control tradeoff, applicable to any technology at any scale. Replacing 'AI' with 'microservices,' 'cloud migration,' or 'digital transformation' produces an equally valid statement. It provides no guidance on where on the speed-governance spectrum an organization should land, what governance is non-negotiable versus discretionary, or how to reduce the friction cost of governance so the tradeoff becomes less painful. Three sources support this, reflecting its uncontroversial nature."
+    practical_value: "Limited beyond acknowledging a tension that technology leaders widely recognize. The claim is too abstract to guide specific decisions."
     action_steps:
       - "Quantify your governance overhead: measure how many days governance processes add to your average AI deployment timeline and calculate the business cost of that delay."
       - "Identify your three highest-friction governance steps and design lightweight alternatives that maintain risk coverage while cutting cycle time by at least 50%."
-    bottom_line: "Balancing speed and governance is not an insight -- it's a description of every engineering leader's daily life."
+    bottom_line: "Scaling AI requires balancing deployment speed with robust governance, monitoring, and change management."
 
   - id: cc-052
     theme: "AI_governance_ethics"
     statement: "Federated learning enables privacy-preserving, regulation-compliant AI model training across distributed enterprise environments without centralizing sensitive data."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 5
-      novelty: 5
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 3
+      claim_type: D
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "Federated learning is a genuine technical approach with real applicability, making this claim more concrete than most in this set. However, it oversells federated learning as a clean solution: real-world implementations face significant challenges including communication overhead, model convergence issues with non-IID data distributions, vulnerability to model poisoning attacks, and the fact that gradient updates can still leak private information. The claim positions federated learning as a solved pattern when it's still maturing. Only 2 sources support it, suggesting the consensus is thinner than the confidence of the statement implies."
     practical_value: "Introduces a specific architectural pattern that many enterprise architects may not be familiar with, and correctly positions it as relevant to cross-jurisdiction compliance challenges."
     action_steps:
       - "Identify use cases where training data is distributed across regulatory jurisdictions or organizational boundaries and cannot be centralized -- these are your candidate use cases for federated learning."
       - "Run a proof-of-concept comparing federated learning model quality versus centralized training on a non-sensitive dataset to understand the accuracy-privacy tradeoff in your specific context."
       - "Evaluate federated learning platforms (NVIDIA FLARE, PySyft, TensorFlow Federated) against your infrastructure and determine whether the integration cost is justified by your compliance requirements."
-    bottom_line: "Federated learning is the right idea for privacy-preserving AI, but it's still an engineering research project disguised as an enterprise-ready pattern."
+    bottom_line: "Federated learning is a promising approach for privacy-preserving AI, but it is still maturing and should not be treated as an enterprise-ready pattern without careful evaluation of its current limitations."
 
   - id: cc-053
     theme: "AI_governance_ethics"
     statement: "AI can automate and strengthen compliance monitoring, governance reporting, and architecture standards tracking, reducing the manual burden on EA teams."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 6
-      novelty: 5
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.2
+      value_category: MODERATE_VALUE
     critique: "This is an interesting meta-claim: using AI to improve the governance of AI. The irony is productive -- if governance is a bottleneck for AI deployment, automating governance with AI could be the unlock. However, the claim is supported by only 2 sources and primarily from a single source (source-007), which limits the consensus strength. The practical challenge not addressed is the circular dependency: you need governed, trusted AI to automate governance, but you don't have efficient governance to deploy that AI. The claim also doesn't address the risk of AI-automated governance missing novel compliance issues that fall outside trained patterns."
     practical_value: "Points to a genuinely high-value application of AI that EA teams could implement relatively quickly, especially for pattern-matching tasks like architecture standards compliance checking."
     action_steps:
@@ -328,45 +404,57 @@ analyses:
     theme: "AI_governance_ethics"
     statement: "Regulated industries (healthcare, finance, government) face heightened scrutiny for AI deployment and require domain-specific compliance mechanisms embedded in their architectures."
     source_count: 3
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 5
-      novelty: 2
-    critique: "Regulated industries face heightened scrutiny for everything, not just AI. This claim applies a universally known fact to AI without providing domain-specific insights. What would be valuable is identifying which regulations create the most friction for AI specifically (e.g., HIPAA's minimum necessary standard conflicts with LLMs' tendency to access broad data contexts), or which domain-specific AI compliance patterns have emerged (e.g., FDA's approach to AI/ML-based Software as a Medical Device). The claim stays at the level of 'regulated industries are regulated,' which adds nothing."
-    practical_value: "Reminds architects to consider regulatory context, but any architect in healthcare or finance already knows this. The value would be in the specifics, which are absent."
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 5
+      claim_type: D
+      value_score: 3.2
+      value_category: MODERATE_VALUE
+    critique: "Regulated industries face heightened scrutiny for all technology deployments, not just AI. This claim applies a well-known principle to AI without providing domain-specific insights. Greater value would come from identifying which regulations create the most friction for AI specifically (e.g., HIPAA's minimum necessary standard conflicts with LLMs' tendency to access broad data contexts), or which domain-specific AI compliance patterns have emerged (e.g., FDA's approach to AI/ML-based Software as a Medical Device). The claim remains at a level of generality that does not advance practitioners' understanding."
+    practical_value: "Reminds architects to consider regulatory context, but architects in healthcare or finance are generally already aware of this. The value would increase substantially with domain-specific AI compliance details."
     action_steps:
       - "For healthcare AI: map each AI use case against FDA's AI/ML action plan categories and determine whether your AI system qualifies as a Software as a Medical Device (SaMD) requiring 510(k) clearance."
       - "For financial services AI: implement model risk management aligned with SR 11-7 (OCC/Fed guidance) including model validation, ongoing monitoring, and documentation requirements specific to AI/ML models."
       - "Build a regulatory requirements matrix mapping each AI use case to applicable regulations, required compliance mechanisms, and the architectural components that enforce them."
-    bottom_line: "Saying regulated industries need more compliance is like saying rainy cities need more umbrellas -- the value is in knowing exactly which umbrella fits which storm."
+    bottom_line: "Regulated industries face heightened scrutiny for AI deployment and require domain-specific compliance mechanisms embedded in their architectures."
 
   - id: cc-055
     theme: "AI_governance_ethics"
     statement: "There is a critical gap between high-level AI governance frameworks and concrete, implementable enterprise architectures -- bridging this gap is a key challenge for EA."
     source_count: 3
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 5
-      novelty: 7
+    ocaf:
+      source_convergence: 3
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: D
+      value_score: 3.4
+      value_category: MODERATE_VALUE
     critique: "This is a genuinely important meta-observation about the state of the field. Most AI governance literature operates at the principles level ('AI should be fair, transparent, accountable') while most enterprise architecture literature operates at the technical level ('use microservices, implement API gateways'). The chasm between 'AI should be ethical' and 'here's how to configure your deployment pipeline to enforce ethical constraints' is real, under-addressed, and represents a significant opportunity for thought leadership. The claim correctly identifies this as an EA-specific challenge rather than a general AI challenge."
     practical_value: "Frames a clear problem statement that enterprise architects can own: translating abstract governance principles into concrete architecture decisions, patterns, and enforcement mechanisms."
     action_steps:
-      - "Take your organization's AI ethics principles and for each one, identify the specific architectural mechanism that enforces it -- if you can't point to a technical control, the principle is aspirational theater."
+      - "Take your organization's AI ethics principles and for each one, identify the specific architectural mechanism that enforces it -- if you can't point to a technical control, the principle lacks operational implementation."
       - "Create an 'AI governance implementation playbook' that maps each governance requirement to specific architecture patterns, tooling, and configuration -- make it the bridge between your CISO's policies and your platform team's backlog."
       - "Publish reference architectures for your top 3 AI use case types (e.g., customer-facing GenAI, internal process automation, decision support) that embed governance controls as architectural components, not as afterthought checklists."
-    bottom_line: "The AI governance industry has produced a mountain of principles and a molehill of implementable architecture -- EA is uniquely positioned to close that gap."
+    bottom_line: "The AI governance field has produced extensive principles documentation but far less implementable architecture -- EA is uniquely positioned to close that gap."
 
   - id: cc-056
     theme: "AI_maturity_adoption"
     statement: "AI has transitioned from experimental technology to an essential enterprise capability, and 2026 marks the pivot from experimentation to production-scale operationalization."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 3
-      novelty: 3
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 2
+      claim_type: P
+      value_score: 2.4
+      value_category: CONTEXTUAL_VALUE
     critique: "This is essentially the same claim as cc-042, restated with slightly different emphasis. The observation that AI is becoming essential rather than experimental is directionally correct but has been made in industry reports for at least three years running, each time claiming 'this year' is the inflection point. The 2026 framing is more credible than previous claims given ChatGPT's impact and enterprise LLM adoption rates, but it's still an analyst prediction, not an empirical finding. The claim doesn't address the bimodal reality: some organizations are years into production AI while others haven't started."
     practical_value: "Creates useful urgency for laggard organizations but risks false precision about timing. More useful as a trend observation than a planning date."
     action_steps:
@@ -379,11 +467,15 @@ analyses:
     theme: "AI_maturity_adoption"
     statement: "Organizations cannot scale AI without re-architecting their underlying data systems and infrastructure -- legacy 'plumbing' is a fundamental bottleneck."
     source_count: 4
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 5
-      novelty: 3
+    ocaf:
+      source_convergence: 3
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: C
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "Legacy infrastructure as a bottleneck for new technology adoption is among the oldest observations in enterprise IT. The claim applies it to AI without specifying what 're-architecting' means in this context. The genuinely useful version would identify which specific legacy infrastructure patterns block AI scaling: batch-only data pipelines that can't support real-time inference, monolithic data warehouses that can't serve feature stores, network architectures that can't handle GPU cluster communication patterns, or storage systems that can't handle vector embedding workloads. Four sources agree because the frustration with legacy systems is universal."
     practical_value: "Validates the investment case for infrastructure modernization, but the lack of specificity means it could justify any infrastructure project regardless of AI relevance."
     action_steps:
@@ -396,43 +488,55 @@ analyses:
     theme: "AI_maturity_adoption"
     statement: "AI adoption is as much an organizational and change management challenge as it is a technical one."
     source_count: 4
-    verdict: platitude
-    scores:
-      platitude: 8
-      actionability: 2
-      novelty: 1
-    critique: "This is perhaps the most evergreen technology platitude in existence. It has been said about every technology wave -- ERP, CRM, cloud, mobile, big data, IoT, blockchain, and now AI. Four sources agree because it is impossible to disagree with. The claim provides zero AI-specific insight into what makes AI's organizational challenges different from previous technology waves (hint: non-deterministic outputs that require new trust models, AI-generated content that blurs authorship, and workforce anxiety about replacement are all genuinely novel organizational challenges that this claim doesn't mention)."
-    practical_value: "None. Any technology leader who doesn't already know this has bigger problems than AI adoption."
+    ocaf:
+      source_convergence: 3
+      specificity: 1
+      evidence_type: 2
+      actionability: 1
+      temporal_durability: 5
+      claim_type: D
+      value_score: 2.4
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is a long-established observation that has been applied to every technology wave -- ERP, CRM, cloud, mobile, big data, IoT, blockchain, and now AI. Four sources agree, reflecting its broad and uncontroversial acceptance. The claim provides no AI-specific insight into what makes AI's organizational challenges different from previous technology waves -- notably, non-deterministic outputs that require new trust models, AI-generated content that blurs authorship, and workforce anxiety about replacement are all genuinely novel organizational challenges that this claim does not address."
+    practical_value: "Limited. The claim restates a widely understood principle without identifying the specific organizational challenges unique to AI adoption."
     action_steps:
       - "Map the specific organizational change challenges unique to AI: workforce trust in non-deterministic systems, comfort with AI-generated outputs, revised performance metrics for augmented roles, and new accountability models when AI contributes to decisions."
       - "Allocate at least 30% of your AI program budget to change management, training, and organizational design -- track this allocation explicitly rather than burying it in project budgets."
-    bottom_line: "Saying AI adoption is an organizational challenge is not a finding -- it's the opening line of every consulting pitch deck for the last decade."
+    bottom_line: "AI adoption is as much an organizational and change management challenge as it is a technical one."
 
   - id: cc-059
     theme: "AI_maturity_adoption"
     statement: "AI initiatives must align strategically with business goals rather than being implemented in an ad-hoc manner."
     source_count: 3
-    verdict: platitude
-    scores:
-      platitude: 9
-      actionability: 2
-      novelty: 1
-    critique: "This is cc-039 restated in slightly different words. 'Technology should align with business goals' is not a finding -- it's the foundational premise of enterprise architecture as a discipline. Three sources support it because it's the safest possible claim any analyst can make. The irony is that some of the most valuable AI applications emerged from ad-hoc experimentation rather than strategic alignment (ChatGPT usage by employees, shadow AI), suggesting that strict strategic alignment can actually suppress organic AI innovation."
-    practical_value: "Zero incremental value. This is the definition of enterprise architecture, not an insight about AI."
+    ocaf:
+      source_convergence: 3
+      specificity: 1
+      evidence_type: 2
+      actionability: 1
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.4
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is cc-039 restated in slightly different words. 'Technology should align with business goals' is the foundational premise of enterprise architecture as a discipline, not a finding specific to AI. Three sources support it, reflecting its uncontroversial nature. Notably, some of the most valuable AI applications emerged from ad-hoc experimentation rather than strategic alignment (employee-driven ChatGPT usage, shadow AI), suggesting that strict strategic alignment can actually suppress organic AI innovation."
+    practical_value: "Limited incremental value. This restates the core premise of enterprise architecture rather than providing an AI-specific insight."
     action_steps:
       - "Rather than just 'aligning to strategy,' create a dual-track AI portfolio: strategic initiatives aligned to business goals AND a governed experimentation sandbox where teams can explore ad-hoc AI applications that might reveal unexpected value."
       - "Review your AI initiatives quarterly against both strategic fit and emergent value -- kill the ones that have neither, but don't kill promising experiments just because they weren't in the strategic plan."
-    bottom_line: "Strategic alignment is not an AI insight -- it's the premise of EA itself, and ironically, over-aligning can kill the experimentation that makes AI valuable."
+    bottom_line: "AI initiatives must align strategically with business goals rather than being implemented ad hoc -- though over-alignment can kill the experimentation that makes AI valuable."
 
   - id: cc-060
     theme: "security_risk"
     statement: "AI-enhanced security automation (autonomous threat detection, anomaly monitoring, predictive analytics) is becoming essential for enterprise cybersecurity, replacing reactive, preset-based approaches."
     source_count: 4
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 5
-      novelty: 4
+    ocaf:
+      source_convergence: 3
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 3
+      claim_type: D
+      value_score: 3.2
+      value_category: MODERATE_VALUE
     critique: "The shift from signature-based to AI-driven security is real and measurable in the market (SIEM vendors have all pivoted to AI-powered detection). The claim correctly identifies the transition from reactive to predictive security. However, it oversells autonomy -- most AI security tools augment SOC analysts rather than replacing them, and fully autonomous threat response is still limited to well-defined scenarios (e.g., automated blocking of known attack patterns). The claim also doesn't address the adversarial dimension: attackers are using AI too, creating an arms race that makes AI security a moving target, not a solved architecture pattern."
     practical_value: "Useful for justifying investment in AI-powered security tooling and for reframing security architecture from rule-based to anomaly-based detection paradigms."
     action_steps:
@@ -445,11 +549,15 @@ analyses:
     theme: "security_risk"
     statement: "Zero-trust security enforcement and dynamic, context-aware access control are required for AI agent architectures."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 6
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.4
+      value_category: MODERATE_VALUE
     critique: "Applying zero-trust principles to AI agents is a legitimately important architectural requirement that many organizations haven't considered. The insight is that AI agents, unlike traditional services, may need access to varying resources based on task context, making static permissions inadequate. The claim correctly identifies that AI agents need 'dynamic, context-aware' access control, which goes beyond standard zero-trust implementations. However, the claim doesn't address the unique challenges: AI agents may need to request permissions they weren't designed to need (emergent tool use), and their access patterns may be unpredictable, making traditional least-privilege models difficult to configure."
     practical_value: "Directly actionable for security architects designing AI agent platforms -- it identifies a specific architectural requirement that differs from standard zero-trust implementation."
     action_steps:
@@ -462,12 +570,16 @@ analyses:
     theme: "security_risk"
     statement: "Enterprise resilience and business continuity must be architected into AI systems to withstand cyber threats, operational failures, and external disruptions."
     source_count: 3
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 4
-      novelty: 2
-    critique: "Resilience and business continuity are established requirements for all enterprise systems, not just AI. The claim merely extends this principle to AI without identifying what's different about AI system resilience. AI systems have unique resilience challenges: model degradation over time (drift), dependency on external APIs that may change or disappear, training data that may become stale or biased, and inference infrastructure (GPU clusters) with different failure modes than traditional compute. None of these AI-specific considerations are addressed."
+    ocaf:
+      source_convergence: 3
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 5
+      claim_type: N
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
+    critique: "Resilience and business continuity are established requirements for all enterprise systems, not just AI. The claim extends this principle to AI without identifying what is different about AI system resilience. AI systems have unique resilience challenges: model degradation over time (drift), dependency on external APIs that may change or disappear, training data that may become stale or biased, and inference infrastructure (GPU clusters) with different failure modes than traditional compute. None of these AI-specific considerations are addressed."
     practical_value: "Serves as a reminder but adds no AI-specific resilience thinking. Practitioners need patterns for model fallback, graceful degradation when AI services fail, and drift detection."
     action_steps:
       - "Design explicit fallback paths for every AI-dependent workflow: what happens when the AI model is unavailable, returns low-confidence results, or produces obviously incorrect outputs? Every AI integration needs a defined degraded-mode operation."
@@ -479,11 +591,15 @@ analyses:
     theme: "security_risk"
     statement: "The risk of AI systems increases exponentially when agents begin influencing one another, requiring new approaches to risk management beyond traditional models."
     source_count: 2
-    verdict: genuine_insight
-    scores:
-      platitude: 2
-      actionability: 5
-      novelty: 8
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: D
+      value_score: 3.2
+      value_category: MODERATE_VALUE
     critique: "This is one of the most forward-looking claims in the set and identifies a genuinely novel risk category. When AI agents influence each other's behavior -- through shared context, collaborative decision-making, or chained outputs -- you get emergent risk dynamics that resemble complex adaptive systems more than traditional IT risk models. The 'exponential' framing may be hyperbolic, but the directional point is sound: inter-agent influence creates feedback loops, cascade failures, and emergent behaviors that linear risk models can't capture. Only 2 sources support this, likely because the problem is still emerging, but that's precisely what makes it a genuine insight rather than an obvious consensus."
     practical_value: "Highly valuable for risk management teams designing frameworks for multi-agent AI systems -- it correctly identifies that the risk model must change fundamentally, not just scale."
     action_steps:
@@ -496,28 +612,36 @@ analyses:
     theme: "organizational_change"
     statement: "AI augments rather than replaces the human workforce -- the future model is a blend of humans and AI agents, with humans contributing creativity, ethical judgment, and oversight."
     source_count: 4
-    verdict: important_but_obvious
-    scores:
-      platitude: 7
-      actionability: 3
-      novelty: 2
-    critique: "This is essentially cc-040 restated with minor variation. The 'augmentation not replacement' framing has been the consensus industry narrative since Accenture and Gartner popularized it around 2017. Four sources agree because it's the safe, non-controversial position that doesn't alarm workers or regulators. The claim lists 'creativity, ethical judgment, and oversight' as human contributions without acknowledging that AI is increasingly capable in creative tasks and that 'oversight' of AI systems requires specialized skills most workers don't yet have. The claim is comforting but not insightful."
+    ocaf:
+      source_convergence: 3
+      specificity: 2
+      evidence_type: 2
+      actionability: 2
+      temporal_durability: 4
+      claim_type: N
+      value_score: 2.6
+      value_category: CONTEXTUAL_VALUE
+    critique: "This is essentially cc-040 restated with minor variation. The 'augmentation not replacement' framing has been the consensus industry narrative since it was popularized around 2017. Four sources support it, reflecting its broad acceptance as a non-controversial position. The claim lists 'creativity, ethical judgment, and oversight' as human contributions without acknowledging that AI is increasingly capable in creative tasks and that 'oversight' of AI systems requires specialized skills most workers do not yet have. The claim would benefit from addressing these nuances."
     practical_value: "Useful for HR and change management messaging but provides no practical framework for redesigning roles, workflows, or team structures around human-AI collaboration."
     action_steps:
       - "Conduct a task-level decomposition of your top 20 roles: for each task, classify whether AI should handle it, augment it, or leave it to humans, based on current AI capabilities and your risk tolerance."
       - "Create new job descriptions that explicitly define how each role interacts with AI tools -- including which AI outputs the person is accountable for reviewing, correcting, and approving."
       - "Invest in upskilling programs focused on AI collaboration skills: prompt engineering, output validation, understanding model limitations, and knowing when to override AI recommendations."
-    bottom_line: "The humans-plus-AI narrative is reassuring but vague -- the real work is redesigning every role to specify exactly what the human does that the AI can't."
+    bottom_line: "The humans-plus-AI narrative is directionally sound but underspecified -- the practical work is redesigning roles at the task level to define where human contribution is essential versus where AI can operate independently."
 
   - id: cc-065
     theme: "organizational_change"
     statement: "AI agents represent a new form of 'silicon-based' workforce that enterprises must learn to integrate alongside human workers, fundamentally changing the nature of work."
     source_count: 3
-    verdict: partial_insight
-    scores:
-      platitude: 4
-      actionability: 4
-      novelty: 5
+    ocaf:
+      source_convergence: 3
+      specificity: 4
+      evidence_type: 3
+      actionability: 2
+      temporal_durability: 4
+      claim_type: D
+      value_score: 3.2
+      value_category: MODERATE_VALUE
     critique: "The 'silicon-based workforce' metaphor is evocative and does reframe the challenge usefully: if you treat AI agents as workers rather than tools, you naturally think about onboarding, performance management, role definition, and team integration. This is a more productive framing than the traditional 'AI as technology' perspective. However, the metaphor breaks down in important ways: AI agents don't have agency, career development, or intrinsic motivation, and treating them too literally as workers risks anthropomorphization that leads to misplaced trust. Three sources support this framing, which is still relatively novel in enterprise architecture literature."
     practical_value: "The workforce metaphor is practically useful because it triggers the right organizational questions: who manages the AI agents, who's accountable for their output, how do you measure their performance, and how do you 'fire' an underperforming model?"
     action_steps:
@@ -530,11 +654,15 @@ analyses:
     theme: "organizational_change"
     statement: "Closed-loop intelligence and continuous feedback mechanisms enable organizational learning, adaptation, and dynamic improvement in AI-enabled enterprises."
     source_count: 2
-    verdict: partial_insight
-    scores:
-      platitude: 5
-      actionability: 5
-      novelty: 5
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.0
+      value_category: MODERATE_VALUE
     critique: "The closed-loop concept from control systems theory is genuinely applicable to AI-enabled organizations and represents a meaningful shift from open-loop processes (plan, execute, review annually) to closed-loop systems (plan, execute, measure, adjust continuously). The claim is more substantive than generic 'continuous improvement' because it implies specific architectural requirements: telemetry, feedback channels, automated retraining, and adaptive decision systems. However, only 2 sources support it, and the claim doesn't specify what the feedback loops actually look like in practice or how to prevent feedback loops from amplifying biases."
     practical_value: "Introduces a systems engineering concept that enterprise architects can apply to design self-improving organizational processes, moving beyond static process definitions."
     action_steps:
@@ -547,11 +675,15 @@ analyses:
     theme: "EA_transformation"
     statement: "Traditional project teams are shifting to lean, cross-functional squads aligned to products and value streams, tightening the loop from concept to customer impact."
     source_count: 2
-    verdict: important_but_obvious
-    scores:
-      platitude: 6
-      actionability: 5
-      novelty: 2
+    ocaf:
+      source_convergence: 2
+      specificity: 3
+      evidence_type: 2
+      actionability: 3
+      temporal_durability: 4
+      claim_type: D
+      value_score: 2.8
+      value_category: CONTEXTUAL_VALUE
     critique: "This is a restatement of the agile and product-centric operating model transformation that has been underway across enterprises for a decade. Spotify squads, value stream alignment, and product-versus-project thinking are well-established organizational design patterns. The claim doesn't specify what's different about this shift in the context of AI -- for example, that AI squads need data engineers, ML engineers, and domain experts in addition to traditional software roles, or that AI products have different lifecycle management requirements (model versioning, retraining, drift monitoring) than traditional software products."
     practical_value: "Valid organizational design advice but not AI-specific. The value would increase significantly if it addressed how AI changes squad composition and workflow."
     action_steps:
@@ -564,15 +696,19 @@ analyses:
     theme: "EA_transformation"
     statement: "Traditional EA processes are largely open-loop, and the EA repository often devolves into outdated artifacts -- AI-augmented EA can transform this into a real-time, continuously updated system of record."
     source_count: 2
-    verdict: genuine_insight
-    scores:
-      platitude: 3
-      actionability: 6
-      novelty: 7
+    ocaf:
+      source_convergence: 2
+      specificity: 4
+      evidence_type: 3
+      actionability: 3
+      temporal_durability: 4
+      claim_type: N
+      value_score: 3.2
+      value_category: MODERATE_VALUE
     critique: "This claim makes a specific, verifiable diagnosis (EA repositories become stale artifacts) and proposes a concrete solution (AI-augmented continuous updates). The open-loop versus closed-loop framing from control systems theory is genuinely illuminating when applied to EA practice. Most EA teams struggle with repository currency precisely because manual updates can't keep pace with system changes. AI-powered discovery (scanning codebases, infrastructure-as-code, API catalogs, deployment pipelines) could genuinely solve this problem by automatically detecting architectural changes and updating the system of record. The claim is limited by only 2 sources, but the technical feasibility and practical value are high."
     practical_value: "Directly addresses one of the most persistent complaints about EA practice -- stale documentation -- and proposes a technically feasible solution using AI capabilities that exist today."
     action_steps:
       - "Implement automated architecture discovery: connect your EA repository to your CI/CD pipelines, infrastructure-as-code repos, and API gateways to auto-detect and catalog system changes as they're deployed."
       - "Build an LLM-powered architecture documentation generator that creates and updates architecture decision records by analyzing code commits, infrastructure changes, and deployment events."
       - "Measure your EA repository currency: compare the 'last updated' date of each architecture artifact against the actual system state and quantify the staleness gap -- use this as the baseline for your AI-augmented EA initiative."
-    bottom_line: "The dirty secret of EA is that most architecture repositories are fiction within 6 months of creation -- AI-powered auto-discovery is the first realistic path to keeping them honest."
+    bottom_line: "A persistent challenge in EA is that most architecture repositories become outdated within months of creation -- AI-powered auto-discovery represents the first realistic path to maintaining repository accuracy."

@@ -1,0 +1,1157 @@
+{
+  "generated": "2026-02-15",
+  "total_findings": 7,
+  "total_claims_linked": 30,
+  "findings": [
+    {
+      "id": "finding-01",
+      "title": "The Governance Speed Problem Is Structural, Not Incremental",
+      "claim_count": 8,
+      "claims": [
+        {
+          "id": "cc-104",
+          "statement": "TOGAF's Architecture Development Method (ADM) is too slow for the pace of AI-driven transformation \u2014 its phased, deliberative cycle model is fundamentally misaligned with GenAI's velocity, and successful organizations are radically adapting the ADM by collapsing phases and treating it as principles rather than process.",
+          "source_count": 3,
+          "bottom_line": "TOGAF is not dead for AI \u2014 but if you are running it as a sequential 6-month process while your competitors ship AI in 6 weeks, you have turned your framework into a competitive disadvantage.",
+          "sources": [
+            {
+              "id": "source-023",
+              "title": "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI Adoption: Bridging Innovation and Governance in Large Organisations",
+              "author": "Alexander Ettinger",
+              "url": "https://arxiv.org/abs/2505.06326",
+              "quotes": [
+                "TOGAF's Architecture Development Method (ADM) cycles are too slow to capture value before the next wave of AI innovation renders architectural decisions obsolete.",
+                "The speed of AI-driven transformation exceeds the pace at which traditional EA frameworks can adapt."
+              ]
+            },
+            {
+              "id": "source-024",
+              "title": "The Paradox of Governance: When TOGAF's Architecture Development Method Meets GenAI's Velocity",
+              "author": "Praveen Mittal",
+              "url": "https://medium.com/@pkmittal28/the-paradox-of-governance-when-togafs-architecture-development-method-meets-genai-s-velocity-b0fdcf968f4d",
+              "quotes": [
+                "TOGAF's ADM was designed for a world where change happened in measured cycles, with ten phases presuming time for deliberation, stakeholder workshops, documentation cycles, and human decision checkpoints.",
+                "Organizations successfully integrating TOGAF with GenAI are radically adapting the ADM -- collapsing phases, running them in parallel, and treating the framework as principles rather than process.",
+                "The author argues that the ADM's ten phases -- designed with the assumption that architectural change happens in deliberate, measured cycles with time for stakeholder workshops, documentation, and review -- are fundamentally misaligned with the speed at which GenAI transforms business capabilities.",
+                "Organizations successfully integrating TOGAF with GenAI are those that radically adapt the ADM -- collapsing phases, running them in parallel rather than sequence, and treating the framework as principles rather than process."
+              ]
+            },
+            {
+              "id": "source-025",
+              "title": "The Open Group AI Initiatives and Enterprise Architecture Practitioners Conference 2026",
+              "author": "The Open Group",
+              "url": "https://www.opengroup.org/architecture-form/ai-initiatives",
+              "quotes": [
+                "The core ADM framework has not yet been fundamentally restructured for AI-native organizations.",
+                "While The Open Group is developing AI-powered tools for architects and hosting workshops on AI in the enterprise, the fundamental TOGAF ADM has not yet been restructured for AI-native development."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-101",
+          "statement": "Traditional EA governance processes -- proposals reviewed days or weeks later, deliberated in committee based on stale information -- are fundamentally incompatible with the pace of AI-driven change.",
+          "source_count": 2,
+          "bottom_line": "If your governance process takes longer than your deployment cycle, your governance is not protecting you -- it is creating risk by forcing decisions on stale information.",
+          "sources": [
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "A proposal is submitted, reviewed days or weeks later, deliberated in committee, and eventually approved \u2014 often based on stale information.",
+                "By then, the initiative may have pivoted or the environment may have changed.",
+                "That means no more digging through stale wikis or emailing 10 teams for basic system lifecycle info."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "These are not quarterly review topics; they are near real-time decisions."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-046",
+          "statement": "Traditional EA governance frameworks (especially TOGAF) lack the agility, ethical governance mechanisms, and lifecycle artifacts required for AI-driven transformation and must evolve.",
+          "source_count": 4,
+          "bottom_line": "TOGAF was built for a world where architecture changed quarterly and systems were deterministic -- AI breaks both assumptions, and the framework hasn't caught up.",
+          "sources": [
+            {
+              "id": "source-023",
+              "title": "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI Adoption: Bridging Innovation and Governance in Large Organisations",
+              "author": "Alexander Ettinger",
+              "url": "https://arxiv.org/abs/2505.06326",
+              "quotes": [
+                "Existing EA frameworks, particularly TOGAF, have key limitations: their inability to fully address unique GenAI requirements including ethical governance, lifecycle artifacts, and the speed of AI-driven transformation.",
+                "The paper reveals an important tension: while EA frameworks like TOGAF provide valuable governance structures, they lack the agility, ethical governance mechanisms, and lifecycle artifacts needed for AI-driven transformation."
+              ]
+            },
+            {
+              "id": "source-024",
+              "title": "The Paradox of Governance: When TOGAF's Architecture Development Method Meets GenAI's Velocity",
+              "author": "Praveen Mittal",
+              "url": "https://medium.com/@pkmittal28/the-paradox-of-governance-when-togafs-architecture-development-method-meets-genai-s-velocity-b0fdcf968f4d",
+              "quotes": [
+                "The velocity of technological change invalidates the underlying assumptions of traditional governance frameworks.",
+                "This speed creates what the author calls a governance paradox: the very frameworks designed to ensure sound architectural decisions become impediments to capturing value from AI, as architectural decisions become obsolete before governance cycles complete."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "It argues that although TOGAF remains a powerful EA framework as a skeleton, it must evolve to accommodate agile methods, ethical governance, and advanced systems integration with near-realtime updates."
+              ]
+            },
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "Traditional IT governance models don't account for AI systems that make independent decisions and take actions."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-106",
+          "statement": "Organizations with clean, modular architectures gain disproportionate advantage from GenAI (30-50% acceleration), while those burdened by legacy systems face an 'acceleration paradox' \u2014 stuck in slow ADM cycles as the technology evolves faster than they can adapt.",
+          "source_count": 2,
+          "bottom_line": "Clean architecture is not just good practice \u2014 it is a measurable accelerator for AI adoption, and the gap between modular and legacy-burdened organizations widens with each generation of AI capability.",
+          "sources": [
+            {
+              "id": "source-023",
+              "title": "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI Adoption: Bridging Innovation and Governance in Large Organisations",
+              "author": "Alexander Ettinger",
+              "url": "https://arxiv.org/abs/2505.06326",
+              "quotes": [
+                "The research identifies what it calls 'the acceleration paradox': organizations with clean, modular architectures can leverage GenAI to accelerate development by 30-50%, but those navigating legacy systems find themselves trapped in ADM cycles that are too slow to capture value before the next wave of AI innovation renders their architectural decisions obsolete.",
+                "Organizations navigating legacy systems find themselves trapped in ADM cycles that are too slow to capture value before the next wave of AI innovation renders their architectural decisions obsolete.",
+                "Organizations with clean, modular architectures can leverage GenAI to accelerate development 30-50%, but those navigating legacy systems find themselves trapped in ADM cycles that are too slow to capture value before the next wave of AI innovation renders their architecture decisions obsolete."
+              ]
+            },
+            {
+              "id": "source-027",
+              "title": "Navigating NextGen Enterprise Architecture with GenAI",
+              "author": "Emmanuel Larroze and Ahmed Iyed Hadj Khalifa, Deloitte France",
+              "url": "https://www.deloitte.com/fr/fr/our-thinking/explore/climat-developpement-durable/navigating-nextgen-enterprise-architecture-with-genai.html",
+              "quotes": [
+                "Organizations that fail to align GenAI with their EA frameworks are positioned as competitively disadvantaged."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-098",
+          "statement": "AI-augmented architects are notified during or before decision points rather than weeks after the fact, with agents pre-checking submissions, generating draft decisions, and surfacing relevant context at the point of decision.",
+          "source_count": 2,
+          "bottom_line": "The best architecture governance is invisible -- AI agents that surface the right context at the right moment are worth more than a hundred review board meetings.",
+          "sources": [
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "Architects are notified \u2014 not weeks after the fact but during or even before decision points.",
+                "Think of it as a cognitive prosthetic for the architect: surfacing precedents, warnings, and rationale at the point of decision.",
+                "Agents pre-check submissions.",
+                "Draft decisions are generated and validated before the meeting even starts."
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "How Agentic AI Elevates The Enterprise Architect's Role",
+              "author": "Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
+              "quotes": [
+                "Four emerging strategic roles for enterprise architects: (1) Customer/employee-centric value mapper, (2) Digital twin strategist, (3) Enterprise knowledge curator, (4) Agentic governance champion."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-097",
+          "statement": "EA is being reborn as a living, learning function that shifts from designing static structures to stewarding behavioral systems -- turning the EA repository from a documentation graveyard into an operating system for change.",
+          "source_count": 3,
+          "bottom_line": "EA repositories become stale when they are disconnected from operational reality -- the path to a 'living' repository is integration with production systems, not additional documentation.",
+          "sources": [
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "It's a new mental model: the EA repository as an operating system for change, not just a documentation graveyard.",
+                "This shift turns EA from a designer of structures to a steward of behavioral systems \u2014 where loops, not just stacks, matter most.",
+                "We are witnessing the rebirth of EA as a living, learning function \u2014 a system of intelligence powered by feedback loops, driven by data, and guided by augmented human judgment."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "The future of EA is not about modelling; it is about interacting."
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "How Agentic AI Elevates The Enterprise Architect's Role",
+              "author": "Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
+              "quotes": [
+                "As agentic AI becomes embedded in enterprise architecture tools, it's not just automating tasks \u2014 it's redefining the architect's role."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-090",
+          "statement": "AI enables real-time feedback loops that continuously update EA repositories, making enterprise architecture self-optimizing and shifting from static periodic reviews to dynamic, near-real-time governance.",
+          "source_count": 4,
+          "bottom_line": "The real opportunity is not self-optimizing architecture but self-documenting architecture -- keeping the repository current is hard enough and valuable enough.",
+          "sources": [
+            {
+              "id": "source-007",
+              "title": "AI Automation in Enterprise Architecture: The Future of Digital Business Optimization",
+              "author": "Carsten Krause",
+              "url": "https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/",
+              "quotes": [
+                "AI enables real-time feedback loops, making enterprise architecture self-optimizing.",
+                "AI continuously learns from feedback loops, refining business and IT alignment over time."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "For sure, EA will continue to rely on the concept of the digital twin, but now it must respond to AI signals much closer and near real time.",
+                "These are not quarterly review topics; they are near real-time decisions."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "These signals are fed into a living architecture graph that reflects the true current state of the enterprise.",
+                "AI augments the architect by continuously updating the repository to expose only fresh data."
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "How Agentic AI Elevates The Enterprise Architect's Role",
+              "author": "Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
+              "quotes": [
+                "Agentic AI enables real-time feedback loops that continuously update EA repositories."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-091",
+          "statement": "EA is evolving from static modeling to a living, continuously learning system -- a closed-loop intelligence paradigm where iterative planning, feedback loops, and adaptive refinement are integral to staying competitive.",
+          "source_count": 5,
+          "bottom_line": "Describing EA as a 'living system' is an aspiration that becomes meaningful only when backed by concrete feedback loops -- implementing one closed loop delivers more value than declaring the paradigm shift.",
+          "sources": [
+            {
+              "id": "source-013",
+              "title": "Enterprise AI Convergence Architecture",
+              "author": "Deloitte US",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html",
+              "quotes": [
+                "The closed-loop intelligence concept represents a paradigm shift from traditional EA's static models to dynamic, continuously learning systems."
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "Enterprise Architecture Trends for 2026 \u2013 Key Outlook Shaping EA",
+              "author": "Felix Galanski",
+              "url": "https://www.boc-group.com/en/blog/ea/ea-outlook-trends-2025/",
+              "quotes": [
+                "This trend emphasizes continuous improvement, where feedback loops and iterative planning become integral to staying competitive."
+              ]
+            },
+            {
+              "id": "source-011",
+              "title": "A Novel Enterprise Artificial Intelligence Architecture Framework (NAEF) for Business Capabilities to Decisions/Insights Analysis",
+              "author": "Heru Purnomo Ipung",
+              "url": "https://ieeexplore.ieee.org/document/10913304/",
+              "quotes": [
+                "The framework incorporates iterative refinement as a core principle, allowing continuous improvement of AI architecture based on feedback."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "What if it operated in real time, continuously enriched by machine-readable data and supported by intelligent agents that advise, validate, and even act?"
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Automation in Enterprise Architecture: The Future of Digital Business Optimization",
+              "author": "Carsten Krause",
+              "url": "https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/",
+              "quotes": [
+                "Together these technologies create comprehensive automation ecosystems that adapt and optimize continuously."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        }
+      ]
+    },
+    {
+      "id": "finding-02",
+      "title": "The Model Is the Commodity \u2014 Everything Else Is the Moat",
+      "claim_count": 5,
+      "claims": [
+        {
+          "id": "cc-016",
+          "statement": "As foundation models become commoditized, competitive advantage shifts to each organization's unique combination of proprietary data, domain expertise, and operational know-how.",
+          "source_count": 2,
+          "bottom_line": "The model is the commodity; your data and domain knowledge are the moat -- architect accordingly.",
+          "sources": [
+            {
+              "id": "source-003",
+              "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+              "author": "Economist Impact (commissioned by Databricks)",
+              "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+              "quotes": [
+                "As foundation models become commoditised, usage will be a baseline, not a boost \u2014 each company must find their edge: their unique recipe of data, need and know-how.",
+                "The future lies not only with AI models trained on web data, but with true data intelligence \u2014 systems that deeply understand and operate on an organisation's specific, often sensitive data sets."
+              ]
+            },
+            {
+              "id": "source-016",
+              "title": "7 Architecture Considerations for Generative AI",
+              "author": "Accenture (with Atish Ray, Chief AI Architect)",
+              "url": "https://www.accenture.com/us-en/blogs/cloud-computing/7-generative-ai-architecture-considerations",
+              "quotes": [
+                "Accenture's Chief AI Architect Atish Ray frames the core architectural shift: when pre-trained foundation models replace hundreds of purpose-built models, the emphasis shifts from data science to domain expertise, and the architecture must change accordingly.",
+                "When pre-trained foundation models replace hundreds of purpose-built models, the emphasis shifts from data science to domain expertise."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-004",
+          "statement": "Specialized small language models (SLMs) fine-tuned for specific domains often outperform general-purpose LLMs, and the market is shifting toward right-sizing models for tasks rather than pursuing ever-larger models.",
+          "source_count": 4,
+          "bottom_line": "The smartest architectural decision in 2026 isn't picking the biggest model -- it's right-sizing models to tasks.",
+          "sources": [
+            {
+              "id": "source-004",
+              "title": "From AI Pilots to Production Reality: Architecture Lessons from 2025 and What 2026 Demands",
+              "author": "Nithin Mohan TK",
+              "url": "https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/",
+              "quotes": [
+                "Specialized small language models (SLMs) fine-tuned for specific domains often outperformed general-purpose LLMs on targeted tasks"
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+              "author": "Economist Impact (commissioned by Databricks)",
+              "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+              "quotes": [
+                "\"In the future, the market will move to the use of small private LLMs. But GenAI is a new technology. We still need to learn how to launch and put initiatives into production in an agile way.\""
+              ]
+            },
+            {
+              "id": "source-016",
+              "title": "7 Architecture Considerations for Generative AI",
+              "author": "Accenture (with Atish Ray, Chief AI Architect)",
+              "url": "https://www.accenture.com/us-en/blogs/cloud-computing/7-generative-ai-architecture-considerations",
+              "quotes": [
+                "When pre-trained foundation models replace hundreds of purpose-built models, the emphasis shifts from data science to domain expertise."
+              ]
+            },
+            {
+              "id": "source-019",
+              "title": "Building Enterprise AI Maturity",
+              "author": "Peter Weill, Stephanie L. Woerner, Ina M. Sebastian (MIT CISR)",
+              "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian",
+              "quotes": [
+                "In stage 3 we see enterprises making significant use of foundation models, and small language models (SLMs) that are trained on an industry, a function, or to perform specific tasks (such as onboarding a customer), to advance their journeys."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-089",
+          "statement": "Model size is not always correlated with business value; multi-component AI systems using custom models optimized for specific tasks deliver greater accuracy, cost efficiency, performance, and security.",
+          "source_count": 2,
+          "bottom_line": "The biggest model is rarely the best model -- right-sizing your AI to the task saves money, reduces risk, and often improves accuracy.",
+          "sources": [
+            {
+              "id": "source-004",
+              "title": "From AI Pilots to Production Reality: Architecture Lessons from 2025 and What 2026 Demands",
+              "author": "Nithin Mohan TK",
+              "url": "https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/",
+              "quotes": [
+                "Organizations learned that model size isn't always correlated with business value."
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+              "author": "Economist Impact (commissioned by Databricks)",
+              "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+              "quotes": [
+                "The future also lies in AI systems and agents comprising multiple components, using custom models, each optimised for specific tasks \u2014 this approach allows for greater accuracy, cost, performance and security."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-024",
+          "statement": "Composable, modular architectures are essential for AI systems because AI components evolve at different rates, and rigid architectures become obsolete within months.",
+          "source_count": 2,
+          "bottom_line": "The real modularity challenge isn't components -- it's that your AI stack has three different clocks ticking at three different speeds.",
+          "sources": [
+            {
+              "id": "source-004",
+              "title": "From AI Pilots to Production Reality: Architecture Lessons from 2025 and What 2026 Demands",
+              "author": "Nithin Mohan TK",
+              "url": "https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/",
+              "quotes": [
+                "AI technology evolved so rapidly in 2025 that rigid architectures became obsolete within months.",
+                "Organizations that thrived adopted composable, modular architectures built on these principles:",
+                "In a rapidly evolving AI landscape, architectural flexibility isn't optional\u2014it's survival."
+              ]
+            },
+            {
+              "id": "source-012",
+              "title": "A Framework for Gen AI Adoption for Enterprises Leveraging Enterprise Architecture Patterns",
+              "author": "Anant Wairagade, Vijay Govindarajan",
+              "url": "https://ieeexplore.ieee.org/document/11166932/",
+              "quotes": [
+                "Microservices provide the composability and modularity needed for AI systems where individual models and components evolve at different rates.",
+                "These established EA patterns can support modular, swappable AI integration within existing enterprise architectures, working within rather than against existing architectural traditions."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-085",
+          "statement": "Initial AI value comes from internal productivity gains, but the deeper and more significant value lies in applying AI to core value chains, proprietary data, and previously untapped data sources to drive revenue growth.",
+          "source_count": 3,
+          "bottom_line": "Productivity gains from AI are table stakes -- the competitive moat comes from applying AI to data and processes your competitors cannot replicate.",
+          "sources": [
+            {
+              "id": "source-003",
+              "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+              "author": "Economist Impact (commissioned by Databricks)",
+              "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+              "quotes": [
+                "Internal operational improvements have been the initial focus, but companies are now shifting towards external AI applications that could drive significant revenue growth and unlock value from previously untapped data sources.",
+                "Growth and revenue will come for companies that can extract the most value from their data \u2014 unstructured data has historically been challenging to process, manage and use, but offers immense value.",
+                "\"Most of the value that you see on AI is buried in the bottom. The top is immediate benefits like productivity, but that's the starting point. You've not gone into your core value chain, that's when you go beneath the iceberg. That is where your proprietary data is.\""
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "The Great Rebuild: How AI Is Re-Architecting the Tech Organization",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+              "quotes": [
+                "With a significant success in hand, you can then prove that there are not just opportunities to rethink business processes but also potential productivity enhancements and opportunities to uncover new revenue streams."
+              ]
+            },
+            {
+              "id": "source-030",
+              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
+              "author": "Gartner",
+              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
+              "quotes": [
+                "Technology leaders instead anticipate that the primary value of AI will come from productivity gains."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ]
+    },
+    {
+      "id": "finding-03",
+      "title": "Multi-Agent Architecture Is the Microservices Moment",
+      "claim_count": 5,
+      "claims": [
+        {
+          "id": "cc-012",
+          "statement": "Multi-agent systems with specialized agents collaborating through defined protocols represent the emerging architectural pattern for enterprise AI, replacing monolithic AI deployments.",
+          "source_count": 6,
+          "bottom_line": "Multi-agent is the microservices moment for AI -- learn from that era's mistakes and design for observability from the start.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "Agentic AI-driven enterprise architecture: a foundational framework for scalable, secure, and resilient systems",
+              "author": "Prince Kumar",
+              "url": "https://www.google.com/search?q=Agentic+AI-driven+enterprise+architecture%3A+a+foundational+framework+for+scalable%2C+secure%2C+and+resilient+systems",
+              "quotes": [
+                "Micro-agents perform domain-specific tasks (e.g., data summarization, anomaly detection) and offload compute-intensive reasoning to centralized LLMs only when high-confidence responses are needed.",
+                "These agents collaborate through A2A messaging protocols to validate anomalies, escalate incidents, and trigger automated containment actions."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "This is not about a single GenAI agent; it is about the collective intelligence of many."
+              ]
+            },
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "Broad automation remains possible but requires multiple specialized agents working in an orchestrated fashion rather than single, monolithic solutions."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "The Agentic Enterprise - The IT Architecture for the AI-Powered Future",
+              "author": "Salesforce (Agentforce)",
+              "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
+              "quotes": [
+                "Agents need common semantic functionality across organizational silos to operate effectively in multi-domain contexts."
+              ]
+            },
+            {
+              "id": "source-021",
+              "title": "The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates",
+              "author": "John M. Willis",
+              "url": "https://arxiv.org/abs/2602.11301",
+              "quotes": [
+                "A distinctive feature is the use of shared context envelopes and structured output contracts between agent families, providing a formal mechanism for maintaining traceability, provenance, and human-in-the-loop guarantees across domains."
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
+              "author": "PwC",
+              "url": "https://www.google.com/search?q=Agentic+AI+%E2%80%94+the+new+frontier+in+GenAI%3A+An+executive+playbook",
+              "quotes": [
+                "This technology involves multiple AI agents working together, each specialising in different tasks or data types, to solve complex problems and automate processes.",
+                "Multi-agent and system conversation: Agentic AI facilitates communication between different agents to construct complex workflows. It can also integrate with other systems or tools, such as email, code executors, or search engines, to perform a variety of tasks.",
+                "Agentic AI customer service architecture uses a three-tier model: a master agent (customer support agent at the top), an orchestrator agent (customer support agent in the middle), and micro-agents at the bottom (user experience agent, FAQ agent, issue resolution agent, status updates agent, feedback collection agent, and Nth agent)."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-026",
+          "statement": "Open standards and interoperability protocols (MCP, A2A) are essential for avoiding vendor lock-in and enabling heterogeneous agent ecosystems within enterprise architecture.",
+          "source_count": 2,
+          "bottom_line": "MCP and A2A may become foundational interoperability standards for the agent era -- early alignment with these protocols can reduce future lock-in risk.",
+          "sources": [
+            {
+              "id": "source-005",
+              "title": "The Agentic Enterprise - The IT Architecture for the AI-Powered Future",
+              "author": "Salesforce (Agentforce)",
+              "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
+              "quotes": [
+                "Open standards and interoperability (MCP, A2A protocols) are essential to avoid vendor lock-in and enable a heterogeneous agent ecosystem.",
+                "The Integration Layer provides the universal communication fabric that enables agents to discover, connect to, and consume enterprise services and external capabilities."
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The Enterprise IT Overhaul: Architecting Your Stack for the Agentic AI Era",
+              "author": "CIO.com",
+              "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
+              "quotes": [
+                "Traditional synchronous, tightly coupled integration patterns (typical REST API calls to monolithic ERP and CRM systems) create bottlenecks when agents need to operate autonomously."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-078",
+          "statement": "The semantic layer or enterprise knowledge graph is a critical differentiator between traditional and agentic architectures, providing the shared understanding that agents need to operate across domains.",
+          "source_count": 3,
+          "bottom_line": "Agents without a shared semantic layer are like employees without a common language -- they will be busy, but they will not be aligned.",
+          "sources": [
+            {
+              "id": "source-005",
+              "title": "The Agentic Enterprise - The IT Architecture for the AI-Powered Future",
+              "author": "Salesforce (Agentforce)",
+              "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
+              "quotes": [
+                "The Semantic Layer (Enterprise Knowledge Graph) is the most critical differentiator between traditional and agentic architectures, providing the shared understanding that agents need to operate across domains."
+              ]
+            },
+            {
+              "id": "source-002",
+              "title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+              "author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+              "url": "https://www.google.com/search?q=Business+Architecture+Copilot%3A+Agentic+AI-enabled+Business+Capability+Modelling",
+              "quotes": [
+                "The design of the Agentic AI-enabled Business Modelling Architecture (ABMA), which integrates a multi-agent system with enterprise knowledge graphs for structured BA artefacts."
+              ]
+            },
+            {
+              "id": "source-001",
+              "title": "Agentic AI-driven enterprise architecture: a foundational framework for scalable, secure, and resilient systems",
+              "author": "Prince Kumar",
+              "url": "https://www.google.com/search?q=Agentic+AI-driven+enterprise+architecture%3A+a+foundational+framework+for+scalable%2C+secure%2C+and+resilient+systems",
+              "quotes": [
+                "In an Agentic AI-driven enterprise architecture, integrating diverse data sources is foundational for enabling intelligent, context-aware, and autonomous agent behavior.",
+                "Moreover, agentic systems benefit from emerging data fabric architectures, which provide a semantic layer across siloed systems and enforce consistent data access rules."
+              ]
+            }
+          ],
+          "baseline_category": "new"
+        },
+        {
+          "id": "cc-136",
+          "statement": "Enterprise knowledge graphs and organizational ontologies are critical infrastructure for AI agents, providing unified semantic understanding across domains and grounding AI outputs in validated organizational concepts.",
+          "source_count": 3,
+          "bottom_line": "AI agents without an enterprise knowledge graph rely on generic knowledge rather than organization-specific context \u2014 the knowledge graph is foundational infrastructure that determines whether AI outputs are grounded in validated organizational concepts or based on unverified assumptions.",
+          "sources": [
+            {
+              "id": "source-002",
+              "title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+              "author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+              "url": "https://www.google.com/search?q=Business+Architecture+Copilot%3A+Agentic+AI-enabled+Business+Capability+Modelling",
+              "quotes": [
+                "Configuration 2 addressed this by integrating an EKG, grounding the entities using organisational ontologies and improving the validity of generated output."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "The Agentic Enterprise - The IT Architecture for the AI-Powered Future",
+              "author": "Salesforce (Agentforce)",
+              "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
+              "quotes": [
+                "Enterprise Knowledge Graphs are critical for providing unified semantic understanding across domains, enabling agents to reason over enterprise concepts consistently."
+              ]
+            },
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "Agents have the ability to pass context between each other, to reason across boundaries, and to interact over protocols like agent-to-agent."
+              ]
+            }
+          ],
+          "baseline_category": "new"
+        },
+        {
+          "id": "cc-063",
+          "statement": "The risk of AI systems increases exponentially when agents begin influencing one another, requiring new approaches to risk management beyond traditional models.",
+          "source_count": 2,
+          "bottom_line": "Single AI agents are manageable risks; AI agents influencing AI agents is a fundamentally different risk category that your current framework isn't built to assess.",
+          "sources": [
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "The risk increases exponentially when AI agents begin influencing one another.",
+                "This is akin to occurrence management in risk domains: there is no time for retrospective analysis."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "From AI Pilots to Production Reality: Architecture Lessons from 2025 and What 2026 Demands",
+              "author": "Nithin Mohan TK",
+              "url": "https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/",
+              "quotes": [
+                "Risk management \u2013 Every architectural decision is a risk/reward trade-off requiring explicit consideration"
+              ]
+            }
+          ],
+          "baseline_category": "new"
+        }
+      ]
+    },
+    {
+      "id": "finding-04",
+      "title": "AI-Augmented EA Is Necessary \u2014 But Most Organisations Cannot Get There Yet",
+      "claim_count": 5,
+      "claims": [
+        {
+          "id": "cc-068",
+          "statement": "Traditional EA processes are largely open-loop, and the EA repository often devolves into outdated artifacts -- AI-augmented EA can transform this into a real-time, continuously updated system of record.",
+          "source_count": 2,
+          "bottom_line": "A persistent challenge in EA is that most architecture repositories become outdated within months of creation -- AI-powered auto-discovery represents the first realistic path to maintaining repository accuracy.",
+          "sources": [
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "The EA repository, intended as the source of truth, devolves into a dusty attic of outdated diagrams and deliverables.",
+                "Traditional EA processes are largely open-loop.",
+                "But what if the EA function was no longer confined to episodic review and disconnected models?"
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "Enterprise Architecture (EA) is no longer a discipline defined by static artefacts and quarterly governance reviews."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-091",
+          "statement": "EA is evolving from static modeling to a living, continuously learning system -- a closed-loop intelligence paradigm where iterative planning, feedback loops, and adaptive refinement are integral to staying competitive.",
+          "source_count": 5,
+          "bottom_line": "Describing EA as a 'living system' is an aspiration that becomes meaningful only when backed by concrete feedback loops -- implementing one closed loop delivers more value than declaring the paradigm shift.",
+          "sources": [
+            {
+              "id": "source-013",
+              "title": "Enterprise AI Convergence Architecture",
+              "author": "Deloitte US",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html",
+              "quotes": [
+                "The closed-loop intelligence concept represents a paradigm shift from traditional EA's static models to dynamic, continuously learning systems."
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "Enterprise Architecture Trends for 2026 \u2013 Key Outlook Shaping EA",
+              "author": "Felix Galanski",
+              "url": "https://www.boc-group.com/en/blog/ea/ea-outlook-trends-2025/",
+              "quotes": [
+                "This trend emphasizes continuous improvement, where feedback loops and iterative planning become integral to staying competitive."
+              ]
+            },
+            {
+              "id": "source-011",
+              "title": "A Novel Enterprise Artificial Intelligence Architecture Framework (NAEF) for Business Capabilities to Decisions/Insights Analysis",
+              "author": "Heru Purnomo Ipung",
+              "url": "https://ieeexplore.ieee.org/document/10913304/",
+              "quotes": [
+                "The framework incorporates iterative refinement as a core principle, allowing continuous improvement of AI architecture based on feedback."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "What if it operated in real time, continuously enriched by machine-readable data and supported by intelligent agents that advise, validate, and even act?"
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Automation in Enterprise Architecture: The Future of Digital Business Optimization",
+              "author": "Carsten Krause",
+              "url": "https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/",
+              "quotes": [
+                "Together these technologies create comprehensive automation ecosystems that adapt and optimize continuously."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-090",
+          "statement": "AI enables real-time feedback loops that continuously update EA repositories, making enterprise architecture self-optimizing and shifting from static periodic reviews to dynamic, near-real-time governance.",
+          "source_count": 4,
+          "bottom_line": "The real opportunity is not self-optimizing architecture but self-documenting architecture -- keeping the repository current is hard enough and valuable enough.",
+          "sources": [
+            {
+              "id": "source-007",
+              "title": "AI Automation in Enterprise Architecture: The Future of Digital Business Optimization",
+              "author": "Carsten Krause",
+              "url": "https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/",
+              "quotes": [
+                "AI enables real-time feedback loops, making enterprise architecture self-optimizing.",
+                "AI continuously learns from feedback loops, refining business and IT alignment over time."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "For sure, EA will continue to rely on the concept of the digital twin, but now it must respond to AI signals much closer and near real time.",
+                "These are not quarterly review topics; they are near real-time decisions."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "These signals are fed into a living architecture graph that reflects the true current state of the enterprise.",
+                "AI augments the architect by continuously updating the repository to expose only fresh data."
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "How Agentic AI Elevates The Enterprise Architect's Role",
+              "author": "Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
+              "quotes": [
+                "Agentic AI enables real-time feedback loops that continuously update EA repositories."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-098",
+          "statement": "AI-augmented architects are notified during or before decision points rather than weeks after the fact, with agents pre-checking submissions, generating draft decisions, and surfacing relevant context at the point of decision.",
+          "source_count": 2,
+          "bottom_line": "The best architecture governance is invisible -- AI agents that surface the right context at the right moment are worth more than a hundred review board meetings.",
+          "sources": [
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "Architects are notified \u2014 not weeks after the fact but during or even before decision points.",
+                "Think of it as a cognitive prosthetic for the architect: surfacing precedents, warnings, and rationale at the point of decision.",
+                "Agents pre-check submissions.",
+                "Draft decisions are generated and validated before the meeting even starts."
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "How Agentic AI Elevates The Enterprise Architect's Role",
+              "author": "Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
+              "quotes": [
+                "Four emerging strategic roles for enterprise architects: (1) Customer/employee-centric value mapper, (2) Digital twin strategist, (3) Enterprise knowledge curator, (4) Agentic governance champion."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-097",
+          "statement": "EA is being reborn as a living, learning function that shifts from designing static structures to stewarding behavioral systems -- turning the EA repository from a documentation graveyard into an operating system for change.",
+          "source_count": 3,
+          "bottom_line": "EA repositories become stale when they are disconnected from operational reality -- the path to a 'living' repository is integration with production systems, not additional documentation.",
+          "sources": [
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "It's a new mental model: the EA repository as an operating system for change, not just a documentation graveyard.",
+                "This shift turns EA from a designer of structures to a steward of behavioral systems \u2014 where loops, not just stacks, matter most.",
+                "We are witnessing the rebirth of EA as a living, learning function \u2014 a system of intelligence powered by feedback loops, driven by data, and guided by augmented human judgment."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "The future of EA is not about modelling; it is about interacting."
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "How Agentic AI Elevates The Enterprise Architect's Role",
+              "author": "Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
+              "quotes": [
+                "As agentic AI becomes embedded in enterprise architecture tools, it's not just automating tasks \u2014 it's redefining the architect's role."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        }
+      ]
+    },
+    {
+      "id": "finding-05",
+      "title": "Process Redesign First, Then Automation",
+      "claim_count": 3,
+      "claims": [
+        {
+          "id": "cc-031",
+          "statement": "Leading organizations achieve value not by layering AI agents onto existing human-designed workflows, but by fundamentally redesigning processes to leverage agent strengths.",
+          "source_count": 2,
+          "bottom_line": "Putting an AI agent into a human-shaped workflow is like giving a self-driving car a steering wheel made for hands.",
+          "sources": [
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "They're trying to automate existing processes -- tasks designed by and for human workers -- without reimagining how the work should actually be done.",
+                "Leading organizations are discovering something different: True value comes from redesigning operations, not just layering agents onto old workflows.",
+                "Leading enterprises don't simply layer agents onto existing workflows.",
+                "Instead, they redesign processes to leverage the unique strengths of agents."
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "The Open Group EA Practitioners Conference 2026: Highlights from a Landmark Gathering",
+              "author": "Ash Patel, The Open Group",
+              "url": "https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/",
+              "quotes": [
+                "In this session, Dave introduced the essential flip: stop solutioning for automation and start architecting for agency."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-100",
+          "statement": "AI should be applied to processes, not to people or organizations, and solid well-defined processes are a prerequisite -- without quantifiable, accurate process understanding, AI application is premature.",
+          "source_count": 2,
+          "bottom_line": "You cannot automate what you do not understand -- process mining is the underappreciated prerequisite that determines whether your AI investment succeeds or fails.",
+          "sources": [
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "We also realized that you apply AI to processes, not to people, organizations, or companies.",
+                "AI is a process improvement technology, so if you don't have solid processes, you should not proceed.",
+                "Without that, we would have been trying to apply AI to something that wasn't quantifiable and might not be accurate."
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+              "author": "Economist Impact (commissioned by Databricks)",
+              "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+              "quotes": [
+                "Whether in productivity or in prototyping, companies are picking their pilots carefully \u2014 Providence, a healthcare organisation, explains its approach of being 'very methodical and very intentional' to avoid the mindset of 'spray and pray'."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-101",
+          "statement": "Traditional EA governance processes -- proposals reviewed days or weeks later, deliberated in committee based on stale information -- are fundamentally incompatible with the pace of AI-driven change.",
+          "source_count": 2,
+          "bottom_line": "If your governance process takes longer than your deployment cycle, your governance is not protecting you -- it is creating risk by forcing decisions on stale information.",
+          "sources": [
+            {
+              "id": "source-015",
+              "title": "The Augmented Architect: Real-Time Enterprise Architecture In The Age Of AI",
+              "author": "Charles Betz and Stephane Vanrechem",
+              "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "A proposal is submitted, reviewed days or weeks later, deliberated in committee, and eventually approved \u2014 often based on stale information.",
+                "By then, the initiative may have pivoted or the environment may have changed.",
+                "That means no more digging through stale wikis or emailing 10 teams for basic system lifecycle info."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Future of Enterprise Architecture in the Age of AI: The Shift Towards Near Real-Time Digital Governance",
+              "author": "Morten Stender",
+              "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
+              "quotes": [
+                "These are not quarterly review topics; they are near real-time decisions."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ]
+    },
+    {
+      "id": "finding-06",
+      "title": "The C-Suite Expectation Gap Is an Architecture Problem",
+      "claim_count": 2,
+      "claims": [
+        {
+          "id": "cc-088",
+          "statement": "There is a disconnect between CEO expectations of AI driving top-line revenue growth and CIO expectations of AI driving productivity, creating a critical strategic challenge that enterprise architecture must help bridge.",
+          "source_count": 2,
+          "bottom_line": "The most dangerous AI project is one where the CEO thinks it is building revenue and the CIO thinks it is saving costs -- get alignment before you get budget.",
+          "sources": [
+            {
+              "id": "source-030",
+              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
+              "author": "Gartner",
+              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
+              "quotes": [
+                "The disconnect between CEO expectations of AI driving top-line growth and CIO expectations of AI driving productivity creates a critical strategic challenge that EA must help bridge.",
+                "Technology leaders instead anticipate that the primary value of AI will come from productivity gains."
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+              "author": "Economist Impact (commissioned by Databricks)",
+              "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+              "quotes": [
+                "Investors expect AI to shift from a 'tell me' to a 'show me' story, with current disconnects between investments and revenue generation to come under increased scrutiny \u2014 this may be years away, not quarters."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-085",
+          "statement": "Initial AI value comes from internal productivity gains, but the deeper and more significant value lies in applying AI to core value chains, proprietary data, and previously untapped data sources to drive revenue growth.",
+          "source_count": 3,
+          "bottom_line": "Productivity gains from AI are table stakes -- the competitive moat comes from applying AI to data and processes your competitors cannot replicate.",
+          "sources": [
+            {
+              "id": "source-003",
+              "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+              "author": "Economist Impact (commissioned by Databricks)",
+              "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+              "quotes": [
+                "Internal operational improvements have been the initial focus, but companies are now shifting towards external AI applications that could drive significant revenue growth and unlock value from previously untapped data sources.",
+                "Growth and revenue will come for companies that can extract the most value from their data \u2014 unstructured data has historically been challenging to process, manage and use, but offers immense value.",
+                "\"Most of the value that you see on AI is buried in the bottom. The top is immediate benefits like productivity, but that's the starting point. You've not gone into your core value chain, that's when you go beneath the iceberg. That is where your proprietary data is.\""
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "The Great Rebuild: How AI Is Re-Architecting the Tech Organization",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+              "quotes": [
+                "With a significant success in hand, you can then prove that there are not just opportunities to rethink business processes but also potential productivity enhancements and opportunities to uncover new revenue streams."
+              ]
+            },
+            {
+              "id": "source-030",
+              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
+              "author": "Gartner",
+              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
+              "quotes": [
+                "Technology leaders instead anticipate that the primary value of AI will come from productivity gains."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ]
+    },
+    {
+      "id": "finding-07",
+      "title": "Agent Management Is an Emerging Discipline",
+      "claim_count": 2,
+      "claims": [
+        {
+          "id": "cc-132",
+          "statement": "As AI agents mature within job functions, organizations will need fundamentally new frameworks for managing agents \u2014 drawing on but diverging from traditional human resource management concepts to account for agents' unique characteristics.",
+          "source_count": 2,
+          "bottom_line": "You would not hire 500 employees without an HR function \u2014 do not deploy 500 AI agents without an agent management function.",
+          "sources": [
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "As agents mature within job functions, organizations will need equally mature approaches to managing them.",
+                "This will likely require an entirely new framework for managing agents that not only leans on traditional human resource management concepts for areas where agents share similarities with human workers, but also diverges to account for their unique characteristics.",
+                "Other features of worker management can be extended to apply to agents, even if they look slightly different.",
+                "When calibrated properly, the framework for managing agents will drive strong collaboration between human and digital workers."
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The Enterprise IT Overhaul: Architecting Your Stack for the Agentic AI Era",
+              "author": "CIO.com",
+              "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
+              "quotes": [
+                "This represents a significant evolution of traditional enterprise architecture layering models, adding an intelligent orchestration layer between business processes and underlying systems."
+              ]
+            }
+          ],
+          "baseline_category": "new"
+        },
+        {
+          "id": "cc-065",
+          "statement": "AI agents represent a new form of 'silicon-based' workforce that enterprises must learn to integrate alongside human workers, fundamentally changing the nature of work.",
+          "source_count": 3,
+          "bottom_line": "Calling AI agents a 'silicon workforce' is more than a metaphor -- it's an organizational design principle that triggers all the right questions about management, accountability, and integration.",
+          "sources": [
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "Perhaps the most significant shift when implementing AI agents involves recognizing that agents represent a new form of labor, one that may share some similarities with the human (or carbon-based) workforce.",
+                "Some organizations are beginning to think beyond using agents as simple automation tools and are starting to explore ways to integrate them with their human workforce.",
+                "The future enterprise is likely to experience significant changes in the fundamental nature of work, extending beyond traditional carbon-based workforces to include digital agents that autonomously handle entire job functions."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "The Agentic Enterprise - The IT Architecture for the AI-Powered Future",
+              "author": "Salesforce (Agentforce)",
+              "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
+              "quotes": [
+                "Elastic Workforce Capacity: AI agents handle workload surges dynamically, providing elastic scaling of workforce capacity beyond human headcount limits."
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "The Great Rebuild: How AI Is Re-Architecting the Tech Organization",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+              "quotes": [
+                "These future teams will likely be a seamless blend of humans, AI agents, and orchestrators, where humans contribute creativity, oversight, and ethical judgment, and AI brings speed, precision, and pattern recognition."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,14 @@
 # Research Agent
 
-A Claude Code-powered system for creating thought leadership content on Technology and AI topics.
+An AI-supported solution for gathering and analysing information from the internet (e.g. thought leadership articles, points fo view) on a specific topic.
 
 ## What It Does
 
-- **Research**: Gathers and organizes sources from the web on any tech/AI topic
-- **Analyze**: Extracts insights, patterns, and contradictions from collected sources
-- **Synthesize**: Creates comprehensive synthesis documents with thought leadership angles
-- **Publish**: Generates blog posts, POVs, and presentations published to GitHub Pages
+- **Baseline**: Defines a knowledge baseline for the user (either manually or automatically)
+- **Research**: Gathers and organizes sources or uploaded manually (PDFs) from the web on any topic
+- **Analyze**: Converts the sources into a raw structure into segments and identify claims (COMMENT - add our claims classifiers here)
+- **Synthesize**: Creates findings from all sources and links them
+- **Publish**: work-in-progress
 
 ## Quick Start
 
