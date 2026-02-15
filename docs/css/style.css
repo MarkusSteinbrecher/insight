@@ -488,19 +488,9 @@ a.stat-card:hover .label {
 }
 
 .source-detail {
-  padding: .75rem 1rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+  padding: .25rem 0 0;
 }
-.source-detail-label {
-  font-size: .75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .06em;
-  color: var(--text-muted);
-  margin-bottom: .75rem;
-}
+/* source-detail-label removed — replaced by source-accordion-title */
 
 .source-claim-item {
   padding: .75rem 0;
@@ -530,6 +520,115 @@ a.stat-card:hover .label {
   background: var(--accent-light);
   color: var(--accent);
   white-space: nowrap;
+}
+
+/* ── Source Inner Accordions ─────────────────────────── */
+.source-accordion {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: .5rem;
+  overflow: hidden;
+}
+.source-accordion:last-child { margin-bottom: 0; }
+.source-accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem .75rem;
+  cursor: pointer;
+  background: var(--bg);
+  user-select: none;
+}
+.source-accordion-header:hover { background: var(--accent-light); }
+.source-accordion-header-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+}
+.source-accordion-title {
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.source-accordion-chevron {
+  width: 14px;
+  height: 14px;
+  color: var(--text-muted);
+  transition: transform .2s;
+  flex-shrink: 0;
+}
+.source-accordion.open .source-accordion-chevron { transform: rotate(180deg); }
+.source-accordion-body {
+  display: none;
+  padding: .75rem;
+  border-top: 1px solid var(--border);
+  background: #fff;
+}
+.source-accordion.open .source-accordion-body { display: block; }
+
+/* Rendered markdown inside source accordion */
+.source-body-html {
+  font-size: .85rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+.source-body-html h2 {
+  font-size: .9rem;
+  font-weight: 700;
+  margin: 1.25rem 0 .4rem;
+  color: var(--text);
+}
+.source-body-html h2:first-child { margin-top: 0; }
+.source-body-html h3 {
+  font-size: .85rem;
+  font-weight: 600;
+  margin: 1rem 0 .3rem;
+}
+.source-body-html p { margin: 0 0 .6rem; }
+.source-body-html ul, .source-body-html ol {
+  margin: 0 0 .6rem;
+  padding-left: 1.5rem;
+}
+.source-body-html li { margin-bottom: .3rem; }
+.source-body-html blockquote {
+  border-left: 3px solid var(--accent);
+  padding: .3rem 0 .3rem .75rem;
+  margin: .5rem 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+.source-body-html strong { font-weight: 600; }
+.source-body-html a { color: var(--accent); }
+.source-body-html a:hover { text-decoration: underline; }
+
+/* Claims legend inside accordion header */
+.source-claims-legend {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+.source-legend-item {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  font-size: .7rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: .15rem .4rem;
+  border-radius: 100px;
+  transition: background .15s, opacity .15s;
+}
+.source-legend-item:hover { background: var(--accent-light); }
+.source-legend-item.active {
+  background: var(--accent-light);
+  color: var(--accent);
+  font-weight: 600;
 }
 
 .sources-table .nowrap { white-space: nowrap; }

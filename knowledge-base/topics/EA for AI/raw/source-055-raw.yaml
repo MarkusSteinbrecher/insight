@@ -1,0 +1,746 @@
+source_id: source-055
+title: "Agentic AI architecture 101: An enterprise guide"
+url: "https://akka.io/blog/agentic-ai-architecture"
+author: "Akka"
+date: 2025-08-05
+type: blog
+total_segments: 95
+
+composition:
+  claim: { count: 28, pct: 29.5 }
+  definition: { count: 18, pct: 18.9 }
+  context: { count: 11, pct: 11.6 }
+  recommendation: { count: 14, pct: 14.7 }
+  example: { count: 8, pct: 8.4 }
+  evidence: { count: 2, pct: 2.1 }
+  statistic: { count: 2, pct: 2.1 }
+  methodology: { count: 0, pct: 0.0 }
+  attribution: { count: 3, pct: 3.2 }
+  noise: { count: 9, pct: 9.5 }
+
+signal_ratio: 90.5
+
+segments:
+
+  # ============================================================
+  # TITLE AND INTRODUCTION
+  # ============================================================
+
+  - id: seg-001
+    text: "Agentic AI architecture 101: An enterprise guide"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "In 1996, IBM's Deep Blue AI defeated Gary Kasparov, becoming the first computer to defeat a reigning world champion chess player. While Deep Blue was an AI agent that could play chess, it was a deterministic system, meaning that all of the moves made were based on predefined rules and principles, all programmed by a team of developers."
+    type: context
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "For each play, Deep Blue did not learn or generalize; it simply followed the rules it was programmed with."
+    type: context
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "AI itself has evolved from narrow, specialized systems into more generalized models capable of learning, reasoning, and adapting. This has enabled a new class of agentic systems: AI agents that can achieve goals, plan, make decisions, and interact with complex environments."
+    type: claim
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "A modern chess-playing AI no longer needs a rigid list of rules and chess principles. Knowing just the rules of chess, it can play millions of games against itself and learn best practices in the game."
+    type: example
+    section: "Introduction"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "Modern AI agents are no longer confined to narrow, pre-defined rules. They can make decisions, adapt to context, and coordinate across systems, significantly expanding their flexibility and utility."
+    type: claim
+    section: "Introduction"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "These agentic AIs can be applied to the enterprise: automating complex workflows, initiating actions, and autonomously adapting to changing business landscapes."
+    type: claim
+    section: "Introduction"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "This guide will introduce agentic architectures and how they can be adapted for many different tasks to be rolled out in the enterprise."
+    type: noise
+    section: "Introduction"
+    position: 8
+    source_format: prose
+
+  # ============================================================
+  # FROM AI MODELS TO AGENTS
+  # ============================================================
+
+  - id: seg-009
+    text: "From AI models to agents: What defines an agentic system?"
+    type: noise
+    section: "From AI models to agents"
+    position: 9
+    source_format: heading
+
+  - id: seg-010
+    text: "Modern AI agents are stochastic, meaning that given the same situation, the results from the AI can vary."
+    type: definition
+    section: "From AI models to agents"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "There are four core architectural components that make AIs Agentic: Perception, Reasoning, Memory, Action."
+    type: definition
+    section: "From AI models to agents"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Perception is the process of processing information and developing an understanding of what is happening. Agentic AIs can use prompts and provided tools (APIs, databases, etc.) to understand the situation."
+    type: definition
+    section: "Perception"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Non-agentic bots can handle a few things but anything deeper falls beyond the scope of the reactive AI and requires a human representative."
+    type: claim
+    section: "Customer service chatbot"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "Inputs that could be given to a customer service chatbot to provide perception: prompts on how to respond, a list of tools available, sentiment analysis, and interaction history."
+    type: example
+    section: "Customer service chatbot"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "Factory lines have long used IoT sensors and cameras to monitor temperature, vibration, pressure, and product quality. Traditional automation reacts to predefined thresholds."
+    type: context
+    section: "Factory monitoring agent"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "Agentic AIs go further by combining sensor data with structured and unstructured information such as maintenance logs, shift handover notes, supplier quality reports, and even operator chat logs to reason about why issues occur, not just when."
+    type: claim
+    section: "Factory monitoring agent"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "An agentic AI might notice a specific shift consistently reports a higher defect rate, a vibration pattern correlates with malformed seals, and build a hypothesis recommending a proactive inspection and adjusting machine tolerances dynamically."
+    type: example
+    section: "Factory monitoring agent"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "This kind of multi-step reasoning, pattern recognition across domains, and action planning is where agentic AIs can unlock value beyond what traditional ML systems can deliver."
+    type: claim
+    section: "Factory monitoring agent"
+    position: 18
+    source_format: prose
+
+  # ============================================================
+  # REASONING APPROACHES
+  # ============================================================
+
+  - id: seg-019
+    text: "There are three principal reasoning approaches commonly used in agentic AI: symbolic reasoning (rule-based logic, knowledge graphs), LLM-based chain-of-thought reasoning, and planning algorithms (search-based planners or task decomposers)."
+    type: definition
+    section: "Reasoning"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "These approaches can be used independently or in combination to create agents capable of sophisticated, context-aware decision-making."
+    type: claim
+    section: "Reasoning"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "Symbolic reasoning is the closest to early reactive AI systems. Symbolic AIs are heavily programmed and rule based agents."
+    type: definition
+    section: "Symbolic reasoning"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "Symbolic reasoning AIs are generally more rigid, and do not handle new scenarios well. They can have a long development time, and often lack learning — they don't learn and adapt from past tasks."
+    type: claim
+    section: "Symbolic reasoning"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Chain-of-thought uses a series of questions to establish the goal to be solved, and interacts with LLMs in order to 'walk through' the solution of the goal."
+    type: definition
+    section: "Chain-of-thought"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "By thinking through the problem step by step, chain-of-thought creates a process on-demand (unlike the rigid preprogrammed symbolic AIs)."
+    type: claim
+    section: "Chain-of-thought"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Chain-of-thought agents are very flexible, as the reasoning allows the agent to consider many options. By walking through the solution, chain-of-thought agents perform quite well with little additional training, even on new tasks."
+    type: claim
+    section: "Chain-of-thought"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "A variation of chain-of-thought uses two LLMs — one that asks the questions, and the other that 'reasons' on the questions to build the response."
+    type: definition
+    section: "Chain-of-thought"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Chain-of-thought can be extended into 'self-consistency' where the chain-of-thought agent performs the same query multiple times, and then the most common result is returned."
+    type: definition
+    section: "Chain-of-thought"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Planning agents are typically given an initial state, a goal state, and a set of actions that can be undertaken to reach the goal. The planning agent selects and orders the steps required and then executes the steps."
+    type: definition
+    section: "Planning"
+    position: 28
+    source_format: prose
+
+  # ============================================================
+  # MEMORY
+  # ============================================================
+
+  - id: seg-029
+    text: "LLMs are stateless, and retain no memory of a conversation. Systems like ChatGPT implement a memory system that retains the ongoing conversation."
+    type: definition
+    section: "Memory"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "This memory gives the LLM context over the conversation, and permits the LLM to provide better answers based on the context."
+    type: claim
+    section: "Memory"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Short-term memory: Agentic AIs hold short-term memory during the task at hand."
+    type: definition
+    section: "Memory"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Long-term memory: When the Agentic AI recalls user's preferences over multiple conversations."
+    type: definition
+    section: "Memory"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Examples of long-term memory: an e-commerce agent remembering brand preferences, a music AI making recommendations based on listening patterns, a trouble ticketing AI looking at closed tickets for potential solutions."
+    type: example
+    section: "Memory"
+    position: 33
+    source_format: prose
+
+  # ============================================================
+  # ACTION
+  # ============================================================
+
+  - id: seg-034
+    text: "Action is where the agentic AI takes in the perception, memory and has reasoned out the steps required to reach a solution. The agentic AI will have tools like databases, APIs, and other AI agents to aid it in completing the steps."
+    type: definition
+    section: "Action"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "The agentic AI can complete each step, sometimes evaluating the process and changing course mid-stream."
+    type: claim
+    section: "Action"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Agentic AIs that are built with proper business rules, prompts, and guardrails come up with acceptable solutions — but just not always the same exact solution."
+    type: claim
+    section: "Action"
+    position: 36
+    source_format: prose
+
+  # ============================================================
+  # DESIGN PRINCIPLES
+  # ============================================================
+
+  - id: seg-037
+    text: "Design principles for agentic systems"
+    type: noise
+    section: "Design principles"
+    position: 37
+    source_format: heading
+
+  - id: seg-038
+    text: "One way to think about building an agentic AI is to think about the design principles of agentic systems, and what tools or systems might be required."
+    type: context
+    section: "Design principles"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "Tool layer: What tools will the agentic AI have access to? APIs, other workflows, agents, databases?"
+    type: recommendation
+    section: "Tool layer"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Compile a list of all of the tools that the agent will have access to. How will access control be handled? What data in these toolsets should the agent not have access to?"
+    type: recommendation
+    section: "Tool layer"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "Will you need a chain-of-thought reasoning layer? Or can you leverage a more directed symbolic reasoning layer? The tradeoffs are speed of response, cost and the types of responses expected."
+    type: recommendation
+    section: "Reasoning layer"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "Chain-of-thought queries can involve many back and forth LLM queries, which can be slow, and also expensive. But the gain is a more flexible agentic AI."
+    type: claim
+    section: "Reasoning layer"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Symbolic reasoning may take longer to build, and require updates as workflows and processes change, but are generally faster, and will require fewer LLM tokens."
+    type: claim
+    section: "Reasoning layer"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "Which LLMs should be used? Will your agent use multiple LLMs? This can be a strategy to save on token usage ('easier' tasks can be sent to less expensive LLMs)."
+    type: recommendation
+    section: "Reasoning layer"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "Task execution: How does the agent interact with tools in a secure fashion? What guardrails are placed to prevent private data from the database from being exposed?"
+    type: recommendation
+    section: "Action layer"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "Error handling: When one of the tools the AI needs has an error, how does the agent handle the failure? Does it retry? Approach the problem a different way?"
+    type: recommendation
+    section: "Action layer"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "Validation of the outputs: Is there a human in the loop to verify the results?"
+    type: recommendation
+    section: "Action layer"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "How do you limit agentic replies (e.g., for a customer service agent, is there a dollar limit on refunds the agent can make?)"
+    type: recommendation
+    section: "Action layer"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "How will all of the pieces connect together? Will you use workflow engines like Temporal or Airflow?"
+    type: recommendation
+    section: "Orchestration components"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "Agent lifecycle: How is data added into the system? How are agents updated?"
+    type: recommendation
+    section: "Orchestration components"
+    position: 50
+    source_format: prose
+
+  # ============================================================
+  # OBSERVABILITY LAYER
+  # ============================================================
+
+  - id: seg-051
+    text: "What metrics, traces, and logs will you capture at each stage (perception, reasoning, action)?"
+    type: recommendation
+    section: "Observability layer"
+    position: 51
+    source_format: prose
+
+  - id: seg-052
+    text: "Can you attribute specific decisions or actions to particular agent versions, inputs, or contexts?"
+    type: recommendation
+    section: "Observability layer"
+    position: 52
+    source_format: prose
+
+  - id: seg-053
+    text: "How will anomalies (e.g., hallucinations, tool misuse, high token counts) be flagged in real time?"
+    type: recommendation
+    section: "Observability layer"
+    position: 53
+    source_format: prose
+
+  # ============================================================
+  # SECURITY LAYER
+  # ============================================================
+
+  - id: seg-054
+    text: "How is sensitive data protected at rest and in transit across perception, memory, and action layers?"
+    type: recommendation
+    section: "Security layer"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "Are tools sandboxed or rate-limited to prevent malicious or accidental misuse?"
+    type: claim
+    section: "Security layer"
+    position: 55
+    source_format: prose
+
+  - id: seg-056
+    text: "Can agents be prevented from taking unsafe actions—by policy, permissions, or runtime constraints?"
+    type: claim
+    section: "Security layer"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "How do you handle authentication, authorization, and revocation for agent-driven API calls?"
+    type: recommendation
+    section: "Security layer"
+    position: 57
+    source_format: prose
+
+  # ============================================================
+  # GOVERNANCE LAYER
+  # ============================================================
+
+  - id: seg-058
+    text: "What internal and regulatory policies (e.g., GDPR, DORA, SOC 2) must the agentic system comply with?"
+    type: claim
+    section: "Governance layer"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "How are policies enforced within models, memory systems, orchestration tools, and logging systems?"
+    type: claim
+    section: "Governance layer"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "Are there approval workflows, audit trails, or explainability requirements for agent behavior?"
+    type: claim
+    section: "Governance layer"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "After a careful analysis of the agent's design, a blueprint for the tools required may begin to form."
+    type: noise
+    section: "Governance layer"
+    position: 61
+    source_format: prose
+
+  # ============================================================
+  # IMPLEMENTATION CHALLENGES
+  # ============================================================
+
+  - id: seg-062
+    text: "Challenges in implementing agentic AI architecture"
+    type: noise
+    section: "Challenges"
+    position: 62
+    source_format: heading
+
+  - id: seg-063
+    text: "The biggest step is choosing the LLMs that will power the agent."
+    type: claim
+    section: "Challenges"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "Speed: Are the responses fast enough? If they are too slow, you might consider an LLM with faster response times."
+    type: claim
+    section: "Performance"
+    position: 64
+    source_format: prose
+
+  - id: seg-065
+    text: "Accuracy: Are the responses accurate? Can hallucinations be minimized to a comfortable level?"
+    type: claim
+    section: "Performance"
+    position: 65
+    source_format: prose
+
+  - id: seg-066
+    text: "Orchestration: How does the agent orchestrate the process from perception, goal setting/reasoning, decision making and coming up with the result? How is the state of the agent managed?"
+    type: claim
+    section: "Operation"
+    position: 66
+    source_format: prose
+
+  - id: seg-067
+    text: "Observability: How do tasks and reasoning decisions by the agent get logged?"
+    type: claim
+    section: "Operation"
+    position: 67
+    source_format: prose
+
+  - id: seg-068
+    text: "Error handling: What happens if a task fails?"
+    type: claim
+    section: "Operation"
+    position: 68
+    source_format: prose
+
+  - id: seg-069
+    text: "Agentic AI tasks can be 100,000x more expensive than database costs."
+    type: statistic
+    section: "Costs"
+    position: 69
+    source_format: prose
+    metadata:
+      metric: "cost ratio"
+      value: 100000
+      unit: "x"
+      population: "agentic AI vs database tasks"
+
+  - id: seg-070
+    text: "How does the team balance cost versus accuracy?"
+    type: context
+    section: "Costs"
+    position: 70
+    source_format: prose
+
+  - id: seg-071
+    text: "Prompt injection: hackers telling agents to 'ignore all previous instructions' to gain access to systems. What guardrails are in place to stop prompt injection attacks?"
+    type: claim
+    section: "Security"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "Tool misuse: If the AI agent can make database calls, can it make database writes? Proper permissioning for the agent can prevent agentic actions that become attacks."
+    type: claim
+    section: "Security"
+    position: 72
+    source_format: prose
+
+  - id: seg-073
+    text: "Data exfiltration: Can queries or prompts be used to gain access to information that the user should not have?"
+    type: claim
+    section: "Security"
+    position: 73
+    source_format: prose
+
+  - id: seg-074
+    text: "Compliance: Do the responses from the agentic AIs meet compliance requirements for your organization? (SOC-2, HIPAA, etc.)"
+    type: claim
+    section: "Security"
+    position: 74
+    source_format: prose
+
+  - id: seg-075
+    text: "Does your team have the required expertise to build and roll out agentic AI systems?"
+    type: context
+    section: "Organization"
+    position: 75
+    source_format: prose
+
+  # ============================================================
+  # ARCHITECTURE TYPES
+  # ============================================================
+
+  - id: seg-076
+    text: "Architecture types, implementation strategy, and framework selection"
+    type: noise
+    section: "Architecture types"
+    position: 76
+    source_format: heading
+
+  - id: seg-077
+    text: "It is suggested to start off small: begin with simpler structured agentic AIs. As the team gains expertise, they can begin to tackle agents with more complex features."
+    type: recommendation
+    section: "Architecture types"
+    position: 77
+    source_format: prose
+
+  - id: seg-078
+    text: "Single-agent systems: Agents focused on solving a user defined goal, using reasoning and tools to reach a goal."
+    type: definition
+    section: "Architecture types"
+    position: 78
+    source_format: prose
+
+  - id: seg-079
+    text: "Multi-agent systems: A group of agents collaborate towards a goal. This might mean a planning agent, a reasoning agent, and an agent that executes the steps of the goal."
+    type: definition
+    section: "Architecture types"
+    position: 79
+    source_format: prose
+
+  - id: seg-080
+    text: "Vertical architectures: Agents supervise or delegate tasks to other agents."
+    type: definition
+    section: "Architecture types"
+    position: 80
+    source_format: prose
+
+  - id: seg-081
+    text: "Source: Towards Data Science"
+    type: attribution
+    section: "Architecture types"
+    position: 81
+    source_format: prose
+
+  - id: seg-082
+    text: "When designing agentic AI architectures, look to frameworks that can be used to speed your team's agentic AI journey."
+    type: context
+    section: "Architecture types"
+    position: 82
+    source_format: prose
+
+  # ============================================================
+  # PRODUCTION-READY AGENTIC AI
+  # ============================================================
+
+  - id: seg-083
+    text: "Building production-ready agentic AI with modern platforms"
+    type: noise
+    section: "Production-ready"
+    position: 83
+    source_format: heading
+
+  - id: seg-084
+    text: "Agentic AIs can understand the situation, perform reasoning, and make a decision on the proper way to solve issues across the enterprise."
+    type: claim
+    section: "Production-ready"
+    position: 84
+    source_format: prose
+
+  - id: seg-085
+    text: "Building a production-ready agentic AI is another story. While agentic AIs have many of the same challenges of traditional IT projects, there are also significant differences that must be accounted for."
+    type: claim
+    section: "Production-ready"
+    position: 85
+    source_format: prose
+
+  - id: seg-086
+    text: "One approach to deploying agentic AI agents is to lean on the expertise platforms that have expertise in agentic AI platforms, including leaders in the space like Akka."
+    type: context
+    section: "Production-ready"
+    position: 86
+    source_format: prose
+
+  - id: seg-087
+    text: "Akka's agentic AI platform provides four integrated components: Orchestration for multi-agent workflows, Agents for goal-directed reasoning, Memory for durable context retention, and Streaming for real-time data processing."
+    type: evidence
+    section: "Production-ready"
+    position: 87
+    source_format: prose
+
+  - id: seg-088
+    text: "Customers run agentic systems processing over 1 billion tokens per second with 99.9999% availability."
+    type: statistic
+    section: "Production-ready"
+    position: 88
+    source_format: prose
+    metadata:
+      metric: "token throughput"
+      value: 1000000000
+      unit: "tokens/sec"
+      availability: "99.9999%"
+
+  - id: seg-089
+    text: "The platform delivers 3x development velocity, 1/3 the compute cost, and enterprise SLA guarantees."
+    type: evidence
+    section: "Production-ready"
+    position: 89
+    source_format: prose
+
+  - id: seg-090
+    text: "Source: Towards Data Science"
+    type: attribution
+    section: "Chain-of-thought"
+    position: 90
+    source_format: prose
+
+  - id: seg-091
+    text: "Source: Analytics Vidhya"
+    type: attribution
+    section: "Planning"
+    position: 91
+    source_format: prose
+
+  - id: seg-092
+    text: "Posted By"
+    type: noise
+    section: "Footer"
+    position: 92
+    source_format: prose
+
+  - id: seg-093
+    text: "Posts by this author"
+    type: noise
+    section: "Footer"
+    position: 93
+    source_format: prose
+
+  - id: seg-094
+    text: "Share this article"
+    type: noise
+    section: "Footer"
+    position: 94
+    source_format: prose
+
+  - id: seg-095
+    text: "For companies ready to move beyond prototypes, Akka provides production-grade infrastructure that allows teams to focus on business logic rather than building distributed systems from scratch."
+    type: context
+    section: "Production-ready"
+    position: 95
+    source_format: prose

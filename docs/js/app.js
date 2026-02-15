@@ -291,11 +291,12 @@ function renderSourcesTable() {
   tbody.innerHTML = items.map(s => {
     const claims = claimIndex[s.id] || [];
     const claimCount = claims.length;
-    const chevron = claimCount
+    const hasDetail = claimCount || s.body_html;
+    const chevron = hasDetail
       ? '<svg class="source-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>'
       : '';
     return `
-    <tr class="source-row${claimCount ? ' has-claims' : ''}" data-source-id="${s.id}">
+    <tr class="source-row${hasDetail ? ' has-claims' : ''}" data-source-id="${s.id}">
       <td>${s.id.replace('source-', '')} ${chevron}</td>
       <td class="source-title">${s.url
         ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`
@@ -306,35 +307,62 @@ function renderSourcesTable() {
       <td>${renderBaselineBar(s._baselineCounts, claimCount)}</td>
       <td>${renderRelevanceDots(s._relevanceDots)}</td>
     </tr>
-    ${claimCount ? `
+    ${(s.body_html || claimCount) ? `
     <tr class="source-detail-row" data-source-detail="${s.id}">
       <td colspan="7">
         <div class="source-detail">
-          <div class="source-detail-label">${claimCount} claim${claimCount !== 1 ? 's' : ''} reference this source</div>
-          ${claims.map(c => {
-            const srcBBadge = c.baseline_category
-              ? `<span class="baseline-badge baseline-${c.baseline_category}">${esc(c.baseline_category)}</span>`
-              : '';
-            return `
-            <div class="source-claim-item">
-              <div class="source-claim-head">
-                <span class="analysis-id">${esc(c.claimId)}</span>${srcBBadge}
-                ${c.findings.length ? c.findings.map(f =>
-                  `<span class="finding-tag" title="${esc(f.title)}">Finding ${f.id.replace('finding-', '')}</span>`
-                ).join('') : ''}
+          ${s.body_html ? `
+          <div class="source-accordion open" data-accordion="summary-${s.id}">
+            <div class="source-accordion-header">
+              <span class="source-accordion-title">Source Notes</span>
+              <svg class="source-accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+            <div class="source-accordion-body">
+              <div class="source-body-html">${s.body_html}</div>
+            </div>
+          </div>` : ''}
+          ${claimCount ? `
+          <div class="source-accordion open" data-accordion="claims-${s.id}">
+            <div class="source-accordion-header">
+              <div class="source-accordion-header-row">
+                <span class="source-accordion-title">${claimCount} Claim${claimCount !== 1 ? 's' : ''} Reference This Source</span>
+                <div class="source-claims-legend">
+                  <span class="source-legend-item" data-filter="new" data-source="${s.id}"><span class="baseline-legend-dot new"></span> New</span>
+                  <span class="source-legend-item" data-filter="additional" data-source="${s.id}"><span class="baseline-legend-dot additional"></span> Additional</span>
+                  <span class="source-legend-item" data-filter="common" data-source="${s.id}"><span class="baseline-legend-dot common"></span> Common</span>
+                </div>
               </div>
-              <div class="source-claim-assessment">${esc(c.bottom_line)}</div>
-              ${c.quotes.length ? c.quotes.map(q =>
-                `<p class="source-quote">\u201c${esc(q)}\u201d</p>`
-              ).join('') : ''}
-            </div>`;
-          }).join('')}
+              <svg class="source-accordion-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+            <div class="source-accordion-body">
+              <div class="source-claims-list" data-claims-source="${s.id}">
+              ${claims.map(c => {
+                const srcBBadge = c.baseline_category
+                  ? `<span class="baseline-badge baseline-${c.baseline_category}">${esc(c.baseline_category)}</span>`
+                  : '';
+                return `
+                <div class="source-claim-item" data-claim-category="${c.baseline_category || ''}">
+                  <div class="source-claim-head">
+                    <span class="analysis-id">${esc(c.claimId)}</span>${srcBBadge}
+                    ${c.findings.length ? c.findings.map(f =>
+                      `<span class="finding-tag" title="${esc(f.title)}">Finding ${f.id.replace('finding-', '')}</span>`
+                    ).join('') : ''}
+                  </div>
+                  <div class="source-claim-assessment">${esc(c.bottom_line)}</div>
+                  ${c.quotes.length ? c.quotes.map(q =>
+                    `<p class="source-quote">\u201c${esc(q)}\u201d</p>`
+                  ).join('') : ''}
+                </div>`;
+              }).join('')}
+              </div>
+            </div>
+          </div>` : ''}
         </div>
       </td>
     </tr>` : ''}`;
   }).join('');
 
-  // Accordion toggle
+  // Row accordion toggle (open/close detail row)
   tbody.querySelectorAll('.source-row.has-claims').forEach(row => {
     row.addEventListener('click', (e) => {
       if (e.target.closest('a')) return;
@@ -343,6 +371,43 @@ function renderSourcesTable() {
       if (detail) {
         row.classList.toggle('open');
         detail.classList.toggle('open');
+      }
+    });
+  });
+
+  // Inner accordion toggle (summary / claims sections)
+  tbody.querySelectorAll('.source-accordion-header').forEach(header => {
+    header.addEventListener('click', (e) => {
+      // Don't toggle if clicking a legend filter item
+      if (e.target.closest('.source-legend-item')) return;
+      const accordion = header.closest('.source-accordion');
+      if (accordion) accordion.classList.toggle('open');
+    });
+  });
+
+  // Claims legend filter
+  tbody.querySelectorAll('.source-legend-item').forEach(item => {
+    item.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const category = item.dataset.filter;
+      const sourceId = item.dataset.source;
+      const claimsList = tbody.querySelector(`[data-claims-source="${sourceId}"]`);
+      if (!claimsList) return;
+
+      // Toggle active state
+      const wasActive = item.classList.contains('active');
+      // Clear all legend items for this source
+      claimsList.closest('.source-accordion').querySelectorAll('.source-legend-item').forEach(li => li.classList.remove('active'));
+
+      if (wasActive) {
+        // Show all claims
+        claimsList.querySelectorAll('.source-claim-item').forEach(ci => { ci.style.display = ''; });
+      } else {
+        item.classList.add('active');
+        // Filter claims by category
+        claimsList.querySelectorAll('.source-claim-item').forEach(ci => {
+          ci.style.display = ci.dataset.claimCategory === category ? '' : 'none';
+        });
       }
     });
   });

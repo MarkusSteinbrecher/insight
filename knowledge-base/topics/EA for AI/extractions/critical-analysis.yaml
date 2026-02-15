@@ -4960,3 +4960,79 @@ analyses:
     spending were directed toward AI and agents?
   bottom_line: AI budgets are accelerating from 3% to 5% of business budgets -- but without FinOps discipline (which 90% of
     organisations lack), faster spending does not equal faster value creation.
+
+# === SOURCE-055 NEW CLAIMS ===
+
+- id: cc-163
+  theme: agent_reasoning_approaches
+  statement: Agentic AI systems rely on three principal reasoning approaches -- symbolic reasoning (rule-based logic),
+    LLM-based chain-of-thought reasoning, and planning algorithms -- each with distinct tradeoffs in flexibility, cost,
+    and development time, and can be combined to increase reasoning power.
+  source_count: 2
+  ocaf:
+    source_convergence: 2
+    specificity: 4
+    evidence_type: 2
+    actionability: 4
+    temporal_durability: 4
+    claim_type: D
+    value_score: 3.2
+    value_category: MODERATE_VALUE
+  critique: 'The three-part taxonomy of reasoning approaches (symbolic, chain-of-thought, planning) is well-established in
+    the AI literature and provides a useful framework for architectural decision-making. The tradeoff analysis --
+    chain-of-thought being flexible but expensive, symbolic being rigid but fast -- is accurate and practically relevant.
+    However, the taxonomy is not exhaustive; reinforcement learning, retrieval-augmented generation, and hybrid
+    neuro-symbolic approaches are not covered. The claim also does not address how to evaluate which approach is
+    appropriate for a given enterprise use case, beyond general cost-speed-flexibility considerations. Source-001
+    discusses similar reasoning architectures but at a more abstract level.'
+  practical_value: Directly actionable for teams designing agent architectures. The tradeoff framing (flexibility vs.
+    cost vs. development time) maps to real engineering decisions. The recommendation to combine approaches is sound
+    but would benefit from concrete examples of when to use each pattern.
+  action_steps:
+  - Map each planned agent use case to the reasoning approach best suited to its requirements -- use symbolic reasoning
+    for well-defined rule-heavy domains, chain-of-thought for open-ended problem solving, and planning for goal-directed
+    multi-step workflows.
+  - Evaluate the cost implications of each approach -- chain-of-thought can consume 10-100x more tokens than symbolic
+    reasoning for the same task, which has direct budget impact at scale.
+  - Consider hybrid architectures that route simpler tasks to cheaper symbolic or planning approaches and reserve
+    chain-of-thought for complex reasoning -- this is effectively an LLM routing strategy.
+  bottom_line: The three-part reasoning taxonomy provides a practical decision framework for agent architecture design,
+    but teams should extend it with cost modelling and use-case-specific selection criteria rather than treating
+    it as exhaustive.
+
+- id: cc-164
+  theme: agent_memory_architecture
+  statement: Agentic AI systems require a dedicated memory architecture distinguishing short-term memory (task-level
+    conversation context) from long-term memory (cross-session user preferences and historical data), as LLMs are
+    inherently stateless and cannot retain context without external memory systems.
+  source_count: 2
+  ocaf:
+    source_convergence: 2
+    specificity: 3
+    evidence_type: 2
+    actionability: 3
+    temporal_durability: 4
+    claim_type: D
+    value_score: 2.8
+    value_category: MODERATE_VALUE
+  critique: 'The distinction between short-term and long-term memory is accurate and architecturally significant. LLM
+    statelessness is a fundamental constraint that enterprises must design around. However, the treatment is introductory
+    and omits important architectural considerations: what storage backends support each memory type (vector databases,
+    Redis, graph databases), how memory interacts with context windows and token limits, how stale or incorrect memories
+    are managed, and the privacy implications of persistent memory (particularly under GDPR and similar regulations).
+    Source-001 discusses vectorized memory (pgvector, Pinecone) and RAG as memory mechanisms, providing more technical
+    depth. The claim also does not address episodic memory or shared memory across multi-agent systems, which are
+    emerging architectural patterns.'
+  practical_value: Useful as a foundational concept for teams new to agent architecture. The short-term vs. long-term
+    distinction provides a starting taxonomy. However, production implementations will need significantly more detail
+    on storage, retrieval, and governance of agent memory.
+  action_steps:
+  - Design an explicit memory architecture for each agent, specifying short-term context management (conversation
+    buffers, sliding windows) and long-term persistence (vector stores, knowledge graphs).
+  - Address memory governance -- what data is stored, for how long, who can access it, and how it complies with data
+    protection regulations.
+  - Evaluate the impact of memory on token consumption and cost -- persistent context injection can significantly
+    increase per-request costs.
+  bottom_line: Agent memory architecture is a real and underappreciated design concern, but the short-term vs. long-term
+    framing is a starting point, not a complete blueprint -- production systems need storage, governance, and cost
+    strategies around memory.

@@ -154,3 +154,10 @@ sources:
     note: "PwC CH — AI governance and enterprise adoption strategy"
     added: 2026-02-15
     status: segmented
+
+  # --- Akka ---
+  - url: "https://akka.io/blog/agentic-ai-architecture"
+    source: source-055
+    note: "Akka — agentic AI architecture patterns"
+    added: 2026-02-15
+    status: gathered

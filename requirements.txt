@@ -1,0 +1,5 @@
+pyyaml
+ddgs
+beautifulsoup4
+playwright
+markdown

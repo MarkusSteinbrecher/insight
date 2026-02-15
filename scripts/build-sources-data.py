@@ -13,6 +13,8 @@ import os
 import re
 import sys
 
+import markdown
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES_GLOB = os.path.join(
     ROOT, "knowledge-base", "topics", "*", "sources", "source-*.md"
@@ -30,7 +32,7 @@ def parse_frontmatter(filepath):
     # Match YAML frontmatter between --- delimiters
     match = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
     if not match:
-        return {}
+        return {}, content
 
     fm = {}
     for line in match.group(1).split("\n"):
@@ -63,14 +65,26 @@ def parse_frontmatter(filepath):
     if tags:
         fm["tags"] = tags
 
-    return fm
+    # Return frontmatter and body (everything after frontmatter)
+    body = content[match.end():].strip()
+    return fm, body
+
+
+def body_to_html(body):
+    """Convert markdown body to HTML, excluding the Full Text section."""
+    # Strip the "## Full Text" section (raw scraped content, too large for the site)
+    body = re.sub(r"^## Full Text\s*\n.*", "", body, flags=re.DOTALL | re.MULTILINE)
+    body = body.strip()
+    if not body:
+        return ""
+    return markdown.markdown(body)
 
 
 def get_topic_meta():
     """Read topic _index.md files to get topic metadata."""
     topics = {}
     for index_path in glob.glob(INDEX_GLOB):
-        fm = parse_frontmatter(index_path)
+        fm, _ = parse_frontmatter(index_path)
         parts = index_path.split(os.sep)
         topic_idx = parts.index("topics") + 1
         topic_slug = parts[topic_idx]
@@ -99,8 +113,9 @@ def build_sources_data():
         if topic_slug not in sources_by_topic:
             sources_by_topic[topic_slug] = []
 
-        fm = parse_frontmatter(filepath)
+        fm, body = parse_frontmatter(filepath)
         source_id = os.path.basename(filepath).replace(".md", "")
+        html = body_to_html(body)
 
         sources_by_topic[topic_slug].append({
             "id": source_id,
@@ -111,6 +126,7 @@ def build_sources_data():
             "type": fm.get("type", ""),
             "relevance": int(fm.get("relevance", 3)),
             "tags": fm.get("tags", []),
+            "body_html": html,
         })
 
     # For now, output the first (or only) topic

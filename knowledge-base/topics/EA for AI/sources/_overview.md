@@ -1,13 +1,13 @@
 ---
 topic: ea-for-ai
-total_sources: 54
-by_type: { article: 31, blog: 2, paper: 7, report: 14 }
+total_sources: 55
+by_type: { article: 32, blog: 2, paper: 7, report: 14 }
 updated: 2026-02-15
 ---
 
 # Sources Overview: Enterprise Architecture for AI
 
-54 sources: 31 articles, 14 reports, 7 papers, 2 blogs.
+55 sources: 32 articles, 14 reports, 7 papers, 2 blogs.
 
 ## Source Table
 
@@ -67,6 +67,7 @@ updated: 2026-02-15
 | 052 | A Roadmap for Scaling AI Agents in the Modern Enterprise | Sebastian Ahrens et al. | article | analyzed | 2026-02-15 |
 | 053 | Enterprise Architecture in Swiss SMEs | Rejhan Fazlic, Markus Hegi (PwC Switzerland) | article | analyzed | 2026-02-15 |
 | 054 | AI Giants Are Rewriting the Enterprise Playbook | Sebastian Ahrens (PwC Switzerland) | article | analyzed | 2026-02-15 |
+| 055 | Agentic AI architecture 101: An enterprise guide | akka.io | article | segmented | 2026-02-15 |
 
 ## Status Key
 
@@ -77,7 +78,7 @@ updated: 2026-02-15
 
 ## By Type
 
-- **Article** (31): Practitioner and analyst articles — 006, 007, 009, 013, 015, 016, 017, 018, 022, 024, 025, 026, 027, 028, 029, 030, 032, 033, 034, 035, 036, 042, 043, 044, 045, 047, 048, 051, 052, 053, 054
+- **Article** (32): Practitioner and analyst articles — 006, 007, 009, 013, 015, 016, 017, 018, 022, 024, 025, 026, 027, 028, 029, 030, 032, 033, 034, 035, 036, 042, 043, 044, 045, 047, 048, 051, 052, 053, 054, 055
 - **Report** (14): Industry reports and surveys — 003, 005, 014, 019, 020, 031, 037, 038, 039, 040, 041, 046, 049, 050
 - **Paper** (7): Academic and research papers — 001, 002, 010, 011, 012, 021, 023
 - **Blog** (2): Practitioner blog posts — 004, 008
@@ -86,21 +87,15 @@ updated: 2026-02-15
 
 | Institution | Count | Source IDs |
 |-------------|-------|-----------|
-| PwC | 7 | 031, 049, 050, 051, 052, 053, 054 |
-| BCG / BCG Platinion | 5 | 032, 033, 034, 035, 036 |
 | Deloitte | 4 | 013, 014, 020, 027 |
-| KPMG | 3 | 046, 047, 048 |
-| Bain & Company | 3 | 037, 038, 039 |
-| Capgemini | 3 | 040, 041, 042 |
-| EY | 3 | 043, 044, 045 |
 | IEEE | 3 | 010, 011, 012 |
+| MIT (CISR + Sloan) | 3 | 019, 029, 035 |
 | Forrester | 2 | 015, 017 |
 | The Open Group | 2 | 018, 025 |
-| MIT (CISR + Sloan) | 2 | 019, 029 |
 | arXiv | 2 | 021, 023 |
 | McKinsey | 1 | 028 |
 | Gartner | 1 | 030 |
-| Independent | 13 | 001, 002, 003, 004, 005, 006, 007, 008, 009, 016, 022, 024, 026 |
+| Independent | 37 | — |
 
 ## Adding Sources
 

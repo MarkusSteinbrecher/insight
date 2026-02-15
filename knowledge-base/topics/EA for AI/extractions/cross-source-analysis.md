@@ -1,8 +1,8 @@
 # Cross-Source Analysis: Enterprise Architecture for AI
 
-**Generated:** 2026-02-14
-**Sources analyzed:** 30
-**Canonical claims:** 136 | **Unique claims:** 82 | **Contradictions:** 18
+**Generated:** 2026-02-15
+**Sources analyzed:** 55 (updated from 30)
+**Canonical claims:** 164 | **Unique claims:** 108 | **Contradictions:** 24
 
 ---
 
@@ -745,3 +745,17 @@ Building on the finding that process redesign outperforms process automation (cc
 **Direction 4: Enterprise Architecture Quality Metrics for AI**
 
 The field needs a set of validated, measurable architecture fitness functions specific to AI-augmented enterprise architecture. This research should define: (a) what constitutes a well-architected AI platform (modularity, observability, governance automation, cost efficiency, model portability), (b) quantitative metrics for each quality dimension that can be assessed through automated tooling, and (c) maturity levels that allow organizations to benchmark their AI architecture quality against peers. This fills the gap where the EA profession currently has no agreed-upon way to measure whether an organization's architecture is actually ready for AI or merely claims to be — particularly given that only 22% of organisations have architectures that fully support AI workloads without modifications (uc-076).
+
+---
+
+### Addendum: Source-055 (Akka — Agentic AI Architecture 101)
+
+Source-055 is a vendor blog from Akka providing an introductory guide to agentic AI architecture. As a practitioner/vendor perspective, it contributes two themes not previously articulated in the corpus.
+
+**Agent Reasoning Approaches (cc-163).** The source presents a three-part taxonomy of reasoning approaches for agentic systems: symbolic reasoning (rule-based, fast but rigid), chain-of-thought (LLM-based, flexible but expensive), and planning algorithms (goal-directed step sequencing). It articulates clear tradeoffs between these approaches — symbolic reasoning requires more development time but fewer tokens at runtime, while chain-of-thought is immediately flexible but can be orders of magnitude more expensive. This taxonomy is practically useful for architecture teams selecting reasoning strategies and connects to cost concerns raised elsewhere (cc-113, uc-124). The source's claim that agentic AI tasks can be 100,000x more expensive than database costs provides a concrete, if unverified, cost ratio that makes the token economics discussion tangible.
+
+**Agent Memory Architecture (cc-164).** The source introduces a short-term vs. long-term memory distinction for agentic AI — short-term memory holds conversation context during a task, while long-term memory persists user preferences and historical data across sessions. This builds on source-001's discussion of vectorized memory and RAG but frames it from a practitioner design perspective rather than an infrastructure perspective. The omission of shared memory for multi-agent systems and memory governance (privacy, staleness, cost) limits the architectural completeness.
+
+**Reinforcement of existing themes.** Beyond new contributions, source-055 reinforces several existing canonical claims: the fundamental architectural shift to agentic systems (cc-069), the need for modular composable agent architectures (cc-077), security concerns including prompt injection and tool misuse (cc-017), and governance requirements (cc-074). Its layered design principles (tool, reasoning, action, orchestration, observability, security, governance) align closely with the multi-layer reference architectures proposed by source-001 and source-043.
+
+**Limitations.** As a vendor blog, source-055 includes promotional content for Akka's platform in its final section. The claimed metrics (1 billion tokens/second, 99.9999% availability, 3x velocity) are vendor assertions without independent verification. The article is introductory in scope and does not provide the technical depth found in academic sources (source-001, source-002) or the strategic framing of consultancy sources (source-033 through source-054).

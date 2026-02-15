@@ -25,13 +25,13 @@ tags:
   - AI-governance
   - reference-architecture
   - production-readiness
-source_count: 54
-insight_count: 0
-extraction_count: 54
-canonical_claims: 162
-unique_claims: 106
+source_count: 55
+insight_count: 3
+extraction_count: 55
+canonical_claims: 164
+unique_claims: 108
 contradictions: 24
-critical_analysis_claims: 162
+critical_analysis_claims: 164
 
 # Targeted research inputs
 research_keywords:
