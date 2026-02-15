@@ -1,0 +1,1890 @@
+source_id: source-049
+title: '2024 Cloud and AI Business Survey: Building the AI-Powered Business'
+url: 'https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html'
+author: 'PwC Research'
+date: 2024-09-17
+total_segments: 198
+
+composition:
+  claim: { count: 54, pct: 27.3 }
+  statistic: { count: 68, pct: 34.3 }
+  evidence: { count: 12, pct: 6.1 }
+  definition: { count: 4, pct: 2.0 }
+  recommendation: { count: 24, pct: 12.1 }
+  context: { count: 10, pct: 5.1 }
+  methodology: { count: 8, pct: 4.0 }
+  example: { count: 7, pct: 3.5 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 11, pct: 5.6 }
+
+signal_ratio: 94.4
+
+segments:
+  - id: seg-001
+    text: '2024 Cloud and AI Business Survey: Building the AI-powered business: 4 ways cloud leaders redefine success'
+    type: noise
+    section: 'Title'
+    position: 1
+    source_format: heading
+    metadata: {}
+
+  - id: seg-002
+    text: 'Are we still in an AI hype cycle?'
+    type: context
+    section: 'Opening'
+    position: 2
+    source_format: prose
+    metadata: {}
+
+  - id: seg-003
+    text: 'It depends on who you ask.'
+    type: context
+    section: 'Opening'
+    position: 3
+    source_format: prose
+    metadata: {}
+
+  - id: seg-004
+    text: 'But regardless of whether they are an AI skeptic, champion or realist, they would likely agree that AI has already fundamentally changed business.'
+    type: claim
+    section: 'Opening'
+    position: 4
+    source_format: prose
+    metadata: {}
+
+  - id: seg-005
+    text: 'It has reset expectations, enabled new cloud architectures and opened up a world of possibilities unimaginable just a few short years ago.'
+    type: claim
+    section: 'Opening'
+    position: 5
+    source_format: prose
+    metadata: {}
+
+  - id: seg-006
+    text: 'As a maturing technology, we have moved from a focus on experimentation and singular AI use cases to an imperative to think bigger and bolder about its role in business reinvention.'
+    type: claim
+    section: 'Opening'
+    position: 6
+    source_format: prose
+    metadata: {}
+
+  - id: seg-007
+    text: 'Organizations will soon be AI-first and cloud-powered — adopting these technologies not as tools, but as fundamental components at every level of the business, driving innovation, efficiency and competitiveness across the business landscape.'
+    type: claim
+    section: 'Opening'
+    position: 7
+    source_format: prose
+    metadata: {}
+
+  - id: seg-008
+    text: 'The question business leaders should be asking: What does success look like in an AI-led, cloud-powered economy that redefines how industries operate, compete and thrive?'
+    type: context
+    section: 'Opening'
+    position: 8
+    source_format: prose
+    metadata: {}
+
+  - id: seg-009
+    text: 'As leading companies are already proving, the decisions you make today will shape your organizations future, determining whether you emerge as an industry leader or get left behind.'
+    type: claim
+    section: 'Opening'
+    position: 9
+    source_format: prose
+    metadata: {}
+
+  - id: seg-010
+    text: 'Our recent survey of more than 1,000 business and tech execs, conducted between June and July 2024, sheds light on this shift.'
+    type: methodology
+    section: 'Opening'
+    position: 10
+    source_format: prose
+    metadata:
+      sample_size: 1030
+      timeframe: 'June-July 2024'
+
+  - id: seg-011
+    text: 'We identified a select group of companies — 12% of those surveyed — that we call the Top Performers.'
+    type: methodology
+    section: 'Opening'
+    position: 11
+    source_format: prose
+    metadata:
+      metric: 'Top Performer share of sample'
+      value: 12
+      unit: '%'
+
+  - id: seg-012
+    text: 'These companies are already reaping the rewards of their investments in AI and cloud technologies, setting the pace for what it means to be a successful, modern enterprise.'
+    type: claim
+    section: 'Opening'
+    position: 12
+    source_format: prose
+    metadata: {}
+
+  - id: seg-013
+    text: 'This is not just a fleeting trend; it is a strategic trajectory toward becoming AI-first, much like the transition to cloud-first businesses before them.'
+    type: claim
+    section: 'Opening'
+    position: 13
+    source_format: prose
+    metadata: {}
+
+  - id: seg-014
+    text: "It's not just Top Performers that are seeing results."
+    type: context
+    section: 'Opening'
+    position: 14
+    source_format: prose
+    metadata: {}
+
+  - id: seg-015
+    text: 'Among the rest of the companies in our survey (88% of respondents), many are also seeing early returns on their GenAI investments.'
+    type: claim
+    section: 'Opening'
+    position: 15
+    source_format: prose
+    metadata: {}
+
+  - id: seg-016
+    text: '41% say they have already seen improved customer experience through GenAI.'
+    type: statistic
+    section: 'Opening'
+    position: 16
+    source_format: prose
+    metadata:
+      metric: 'Companies seeing improved customer experience through GenAI'
+      value: 41
+      unit: '%'
+      population: 'Non-Top Performer respondents'
+
+  - id: seg-017
+    text: '40% say they have already achieved increased productivity.'
+    type: statistic
+    section: 'Opening'
+    position: 17
+    source_format: prose
+    metadata:
+      metric: 'Companies achieving increased productivity through GenAI'
+      value: 40
+      unit: '%'
+      population: 'Non-Top Performer respondents'
+
+  - id: seg-018
+    text: 'Across each of the 10 categories we asked about, many companies say they have already achieved value — but Top Performers stand out because they are 2X more likely than other companies to have done so.'
+    type: claim
+    section: 'Opening'
+    position: 18
+    source_format: prose
+    metadata: {}
+
+  - id: seg-019
+    text: 'As with any big opportunity, there is risk.'
+    type: context
+    section: 'Opening'
+    position: 19
+    source_format: prose
+    metadata: {}
+
+  - id: seg-020
+    text: 'AI, for all its potential, carries inherent challenges — missteps in accuracy, organizational readiness and process optimization can derail progress.'
+    type: claim
+    section: 'Opening'
+    position: 20
+    source_format: prose
+    metadata: {}
+
+  - id: seg-021
+    text: 'But the greater risk lies in doing nothing.'
+    type: claim
+    section: 'Opening'
+    position: 21
+    source_format: prose
+    metadata: {}
+
+  - id: seg-022
+    text: 'Everything else can be addressed through hard work and Responsible AI practices, which can help mitigate risk while unlocking value.'
+    type: recommendation
+    section: 'Opening'
+    position: 22
+    source_format: prose
+    metadata: {}
+
+  - id: seg-023
+    text: 'AI and Cloud Investments Pay Off for Many Companies — Especially Top Performers'
+    type: noise
+    section: 'Cloud-Powered Value'
+    position: 23
+    source_format: heading
+    metadata: {}
+
+  - id: seg-024
+    text: 'Improved profitability: Top Performers 72% | Other Companies 37%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 24
+    source_format: table
+    metadata:
+      metric: 'Improved profitability from cloud'
+      value: 72
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-025
+    text: 'Increased productivity: Top Performers 70% | Other Companies 40%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 25
+    source_format: table
+    metadata:
+      metric: 'Increased productivity from cloud'
+      value: 70
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-026
+    text: 'Faster time to market: Top Performers 68% | Other Companies 33%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 26
+    source_format: table
+    metadata:
+      metric: 'Faster time to market from cloud'
+      value: 68
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-027
+    text: 'Improved customer experience: Top Performers 67% | Other Companies 36%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 27
+    source_format: table
+    metadata:
+      metric: 'Improved customer experience from cloud'
+      value: 67
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-028
+    text: 'Products and services innovation: Top Performers 67% | Other Companies 35%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 28
+    source_format: table
+    metadata:
+      metric: 'Product/service innovation from cloud'
+      value: 67
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-029
+    text: 'Cost savings: Top Performers 65% | Other Companies 33%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 29
+    source_format: table
+    metadata:
+      metric: 'Cost savings from cloud'
+      value: 65
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-030
+    text: 'Optimized tax technology strategy: Top Performers 54% | Other Companies 24%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 30
+    source_format: table
+    metadata:
+      metric: 'Optimized tax technology from cloud'
+      value: 54
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-031
+    text: 'New channels to engage customers: Top Performers 54% | Other Companies 26%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 31
+    source_format: table
+    metadata:
+      metric: 'New customer channels from cloud'
+      value: 54
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-032
+    text: 'New revenue streams: Top Performers 52% | Other Companies 25%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 32
+    source_format: table
+    metadata:
+      metric: 'New revenue streams from cloud'
+      value: 52
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-033
+    text: 'Market expansion: Top Performers 50% | Other Companies 21%'
+    type: statistic
+    section: 'Cloud-Powered Value'
+    position: 33
+    source_format: table
+    metadata:
+      metric: 'Market expansion from cloud'
+      value: 50
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-034
+    text: 'Increased productivity from AI: Top Performers 75% | Other Companies 40%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 34
+    source_format: table
+    metadata:
+      metric: 'Increased productivity from AI'
+      value: 75
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-035
+    text: 'New revenue streams from AI: Top Performers 63% | Other Companies 24%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 35
+    source_format: table
+    metadata:
+      metric: 'New revenue streams from AI'
+      value: 63
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-036
+    text: 'Improved customer experience from AI: Top Performers 61% | Other Companies 41%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 36
+    source_format: table
+    metadata:
+      metric: 'Improved customer experience from AI'
+      value: 61
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-037
+    text: 'Faster time to market from AI: Top Performers 60% | Other Companies 28%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 37
+    source_format: table
+    metadata:
+      metric: 'Faster time to market from AI'
+      value: 60
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-038
+    text: 'Improved profitability from AI: Top Performers 60% | Other Companies 32%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 38
+    source_format: table
+    metadata:
+      metric: 'Improved profitability from AI'
+      value: 60
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-039
+    text: 'New channels to engage customers from AI: Top Performers 56% | Other Companies 27%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 39
+    source_format: table
+    metadata:
+      metric: 'New customer channels from AI'
+      value: 56
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-040
+    text: 'Cost savings from AI: Top Performers 54% | Other Companies 29%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 40
+    source_format: table
+    metadata:
+      metric: 'Cost savings from AI'
+      value: 54
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-041
+    text: 'Products and services innovation from AI: Top Performers 54% | Other Companies 28%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 41
+    source_format: table
+    metadata:
+      metric: 'Product/service innovation from AI'
+      value: 54
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-042
+    text: 'Market expansion from AI: Top Performers 52% | Other Companies 20%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 42
+    source_format: table
+    metadata:
+      metric: 'Market expansion from AI'
+      value: 52
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-043
+    text: 'Optimized tax technology strategy from AI: Top Performers 41% | Other Companies 16%'
+    type: statistic
+    section: 'AI-Powered Value'
+    position: 43
+    source_format: table
+    metadata:
+      metric: 'Optimized tax technology from AI'
+      value: 41
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-044
+    text: "How 'Intrinsic AI' Is Resetting Strategy"
+    type: noise
+    section: 'Intrinsic AI'
+    position: 44
+    source_format: heading
+    metadata: {}
+
+  - id: seg-045
+    text: 'AI is fast becoming integral to every aspect of business — your strategy, your customer offerings, your capability systems (people, process and technology), even how you manage risk and preserve value.'
+    type: claim
+    section: 'Intrinsic AI'
+    position: 45
+    source_format: prose
+    metadata: {}
+
+  - id: seg-046
+    text: 'As AI rapidly becomes a natural part of how businesses operate and grow, it will bring disruptive change to every industry.'
+    type: claim
+    section: 'Intrinsic AI'
+    position: 46
+    source_format: prose
+    metadata: {}
+
+  - id: seg-047
+    text: 'Even companies that are not yet going big on AI will be affected by market shifts and need to consider how it changes business models, service provider relationships, the talent pool, stakeholder expectations, reporting requirements — everything.'
+    type: claim
+    section: 'Intrinsic AI'
+    position: 47
+    source_format: prose
+    metadata: {}
+
+  - id: seg-048
+    text: 'An intrinsic-AI company will have AI-based systems and processes embedded into every level of the business and its strategy.'
+    type: definition
+    section: 'Intrinsic AI'
+    position: 48
+    source_format: prose
+    metadata: {}
+
+  - id: seg-049
+    text: 'Top Performers are twice as likely than other companies, on average, to have already implemented AI governance and ethics frameworks.'
+    type: evidence
+    section: 'Intrinsic AI'
+    position: 49
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-050
+    text: 'Top Performers are twice as likely to have deployed GenAI across multiple business functions.'
+    type: evidence
+    section: 'Intrinsic AI'
+    position: 50
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-051
+    text: 'Top Performers are twice as likely to have integrated AI into strategic planning processes.'
+    type: evidence
+    section: 'Intrinsic AI'
+    position: 51
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-052
+    text: 'Top Performers are twice as likely to have established dedicated AI leadership roles.'
+    type: evidence
+    section: 'Intrinsic AI'
+    position: 52
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-053
+    text: 'Top Performers are twice as likely to have created AI-ready data infrastructure.'
+    type: evidence
+    section: 'Intrinsic AI'
+    position: 53
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-054
+    text: 'Top Performers are twice as likely to have implemented comprehensive AI training programs.'
+    type: evidence
+    section: 'Intrinsic AI'
+    position: 54
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-055
+    text: 'Of non-Top Performers, most report planning to implement these initiatives within the next 12 months, but up to a fifth of them are still two to three years out.'
+    type: evidence
+    section: 'Intrinsic AI'
+    position: 55
+    source_format: prose
+    metadata: {}
+
+  - id: seg-056
+    text: 'Consider the economics of your cloud and AI investments.'
+    type: recommendation
+    section: 'Budget Considerations'
+    position: 56
+    source_format: prose
+    metadata: {}
+
+  - id: seg-057
+    text: "Given AI's rapid pace of advancement, you will want to make sure you are positioned to take advantage of new capabilities as they become available."
+    type: recommendation
+    section: 'Budget Considerations'
+    position: 57
+    source_format: prose
+    metadata: {}
+
+  - id: seg-058
+    text: "You will need to allocate funds to start your transformations, but a well-thought-out strategy will consider the savings that AI-enabled workflows and processes can deliver."
+    type: recommendation
+    section: 'Budget Considerations'
+    position: 58
+    source_format: prose
+    metadata: {}
+
+  - id: seg-059
+    text: '92% of Top Performers expect to increase cloud budgets in their next planning cycle.'
+    type: statistic
+    section: 'Budget Considerations'
+    position: 59
+    source_format: prose
+    metadata:
+      metric: 'Top Performers expecting cloud budget increase'
+      value: 92
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-060
+    text: '63% of Top Performers plan to increase cloud budgets by 6% or more — significantly higher than inflation.'
+    type: statistic
+    section: 'Budget Considerations'
+    position: 60
+    source_format: prose
+    metadata:
+      metric: 'Top Performers planning 6%+ cloud budget increase'
+      value: 63
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-061
+    text: 'The ability to leverage AI is cited most often as the reason for increased investments, with Top Performers more often citing it (63%).'
+    type: statistic
+    section: 'Budget Considerations'
+    position: 61
+    source_format: prose
+    metadata:
+      metric: 'Top Performers citing AI as investment driver'
+      value: 63
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-062
+    text: 'Other investment drivers include the need for improved scalability and flexibility, accelerated R&D and demand for cloud custom apps.'
+    type: context
+    section: 'Budget Considerations'
+    position: 62
+    source_format: prose
+    metadata: {}
+
+  - id: seg-063
+    text: "AI's reach and influence throughout organizations can help meet most every other business need on the investment list."
+    type: claim
+    section: 'Budget Considerations'
+    position: 63
+    source_format: prose
+    metadata: {}
+
+  - id: seg-064
+    text: 'About a third (34%) of Top Performers noted that sustainability was a driver for increasing cloud budgets.'
+    type: statistic
+    section: 'Budget Considerations'
+    position: 64
+    source_format: prose
+    metadata:
+      metric: 'Top Performers citing sustainability as cloud budget driver'
+      value: 34
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-065
+    text: 'The biggest mistake we see businesses making regarding investments is looking at AI mainly from a tech angle, greatly undercutting its value.'
+    type: claim
+    section: 'Budget Considerations'
+    position: 65
+    source_format: prose
+    metadata: {}
+
+  - id: seg-066
+    text: 'What is often missing is a recognition that AI is becoming essential and integral to business sustainability.'
+    type: claim
+    section: 'Budget Considerations'
+    position: 66
+    source_format: prose
+    metadata: {}
+
+  - id: seg-067
+    text: 'That shift to an AI-intrinsic business requires fundamental change across the value chain.'
+    type: claim
+    section: 'Budget Considerations'
+    position: 67
+    source_format: prose
+    metadata: {}
+
+  - id: seg-068
+    text: 'Integrating all that takes time, but the rewards are clear.'
+    type: claim
+    section: 'Budget Considerations'
+    position: 68
+    source_format: prose
+    metadata: {}
+
+  - id: seg-069
+    text: 'How to Get More Value from Cloud and AI Investments'
+    type: noise
+    section: 'Getting Value'
+    position: 69
+    source_format: heading
+    metadata: {}
+
+  - id: seg-070
+    text: 'To position your company as an AI-led, cloud-powered business, identify your business and technology needs and the investments that can help you see your goals met.'
+    type: recommendation
+    section: 'Getting Value'
+    position: 70
+    source_format: prose
+    metadata: {}
+
+  - id: seg-071
+    text: 'The actions our Top Performers are taking provide a good framework.'
+    type: context
+    section: 'Getting Value'
+    position: 71
+    source_format: prose
+    metadata: {}
+
+  - id: seg-072
+    text: '1. Prioritize AI-Powered Cloud Architectures to Redefine Strategy'
+    type: noise
+    section: 'Strategy 1'
+    position: 72
+    source_format: heading
+    metadata: {}
+
+  - id: seg-073
+    text: 'As AI becomes ingrained in how companies do business, next-generation cloud architectures that take advantage of the latest AI capabilities are fueling modern business strategies.'
+    type: claim
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 73
+    source_format: prose
+    metadata: {}
+
+  - id: seg-074
+    text: 'While most companies still think about AI as part of their technology strategy — or worse, spinning up disconnected AI initiatives across the business — Top Performers are going all-in, making it an integrated part of the business plan across functions.'
+    type: claim
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 74
+    source_format: prose
+    metadata: {}
+
+  - id: seg-075
+    text: '67% of Top Performers have a formalized strategy, including an approach to identifying, implementing and tracking the use of AI across the organization.'
+    type: statistic
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 75
+    source_format: prose
+    metadata:
+      metric: 'Top Performers with formalized AI strategy'
+      value: 67
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-076
+    text: 'Just 37% of other companies say the same.'
+    type: statistic
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 76
+    source_format: prose
+    metadata:
+      metric: 'Other companies with formalized AI strategy'
+      value: 37
+      unit: '%'
+      population: 'Other companies'
+
+  - id: seg-077
+    text: 'While responsibility for technology architecture and cloud engineering typically falls to a CIO and other tech leaders, the choices made establish a foundation that make AI-centric transformation and new business models possible — and that is a CEO-level consideration.'
+    type: claim
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 77
+    source_format: prose
+    metadata: {}
+
+  - id: seg-078
+    text: 'It is crucial for CIOs to partner with their CEOs, perhaps in new ways, to make the right technology choices and inspire the rest of their organizations.'
+    type: recommendation
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 78
+    source_format: prose
+    metadata: {}
+
+  - id: seg-079
+    text: 'Together, you can set expectations and continually demonstrate how various AI initiatives are fundamental to business strategy and growth.'
+    type: recommendation
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 79
+    source_format: prose
+    metadata: {}
+
+  - id: seg-080
+    text: 'Given AI applicability and impact to all areas of the business, every C-suite executive has an important role to play.'
+    type: claim
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 80
+    source_format: prose
+    metadata: {}
+
+  - id: seg-081
+    text: 'In the near term, we expect more companies to appoint chief AI officers to help establish that vision and drive strategy together with senior leadership from across the business.'
+    type: claim
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 81
+    source_format: prose
+    metadata: {}
+
+  - id: seg-082
+    text: 'In the front office, CIOs team with CMOs to focus on hyper-personalization and loyalty ecosystems.'
+    type: example
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 82
+    source_format: prose
+    metadata: {}
+
+  - id: seg-083
+    text: 'Chief revenue officers are looking at how their sales teams leverage AI to accelerate deal cycles, curate proposals and presentations, and accelerate general time to market for products.'
+    type: example
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 83
+    source_format: prose
+    metadata: {}
+
+  - id: seg-084
+    text: 'In the middle office, CIOs work with COOs and their teams — including procurement, customer service, risk and sustainability leads — using AI to modernize and streamline their processes.'
+    type: example
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 84
+    source_format: prose
+    metadata: {}
+
+  - id: seg-085
+    text: 'This helps the front office better meet customers where they are and provides internal teams with the ability to run the business at a higher velocity with less tech debt and cumbersome systems.'
+    type: claim
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 85
+    source_format: prose
+    metadata: {}
+
+  - id: seg-086
+    text: 'In the back office, CIOs and their IT teams can drive new ways of working and reinvent backend systems to accelerate delivery and drive business strategy.'
+    type: recommendation
+    section: 'Strategy 1 - AI-Powered Cloud Architectures'
+    position: 86
+    source_format: prose
+    metadata: {}
+
+  - id: seg-087
+    text: '72% of Top Performers say they have achieved all-in cloud adoption when it comes to modernizing data, compared to just 33% of other companies.'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 87
+    source_format: prose
+    metadata:
+      metric: 'All-in cloud adoption for data modernization'
+      value: 72
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-088
+    text: 'By moving their data to cloud and making it more easily ingestible by large language models (LLMs), Top Performers are more readily able to unlock new value from their data as they integrate new AI capabilities.'
+    type: claim
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 88
+    source_format: prose
+    metadata: {}
+
+  - id: seg-089
+    text: 'Top Performers are also more mature than other companies when it comes to other cloud engineering disciplines — by a factor of more than 2X.'
+    type: claim
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 89
+    source_format: prose
+    metadata: {}
+
+  - id: seg-090
+    text: 'Top Performers all-in on cloud for security: 70% versus 37%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 90
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for security'
+      value: 70
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-091
+    text: 'Top Performers all-in on cloud for innovation and prototyping: 68% versus 31%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 91
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for innovation/prototyping'
+      value: 68
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-092
+    text: 'Top Performers all-in on cloud for AI: 60% versus 27%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 92
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for AI'
+      value: 60
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-093
+    text: 'Top Performers all-in on cloud for migration: 59% versus 25%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 93
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for migration'
+      value: 59
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-094
+    text: 'Top Performers all-in on cloud for application modernization: 57% versus 27%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 94
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for app modernization'
+      value: 57
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-095
+    text: 'Top Performers all-in on cloud for native app development: 57% versus 24%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 95
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for native app development'
+      value: 57
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-096
+    text: 'Top Performers all-in on cloud for infrastructure and operations: 56% versus 27%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 96
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for infrastructure/operations'
+      value: 56
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-097
+    text: 'Top Performers all-in on cloud for industry-specific applications: 54% versus 25%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 97
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for industry-specific apps'
+      value: 54
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-098
+    text: 'Top Performers all-in on cloud for integration platforms: 53% versus 24%'
+    type: statistic
+    section: 'Strategy 1 - Cloud Adoption'
+    position: 98
+    source_format: table
+    metadata:
+      metric: 'All-in cloud adoption for integration platforms'
+      value: 53
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-099
+    text: "To better understand where and how AI will impact your business and industry the most, begin by considering what's possible now that couldn't be done before."
+    type: recommendation
+    section: 'Strategy 1 - Assessment'
+    position: 99
+    source_format: prose
+    metadata: {}
+
+  - id: seg-100
+    text: 'Think about what can be done differently and how you can better serve customers, with AI performing work in new ways alongside your employees.'
+    type: recommendation
+    section: 'Strategy 1 - Assessment'
+    position: 100
+    source_format: prose
+    metadata: {}
+
+  - id: seg-101
+    text: 'Many companies undertake a formal assessment to quantify potential revenue impacts to current business models while also identifying the areas most ripe for AI-driven growth.'
+    type: recommendation
+    section: 'Strategy 1 - Assessment'
+    position: 101
+    source_format: prose
+    metadata: {}
+
+  - id: seg-102
+    text: 'Based on that high-level outlook, they prioritize cloud modernization, AI capabilities and training and upskilling as they move toward an AI-centric operating model.'
+    type: recommendation
+    section: 'Strategy 1 - Assessment'
+    position: 102
+    source_format: prose
+    metadata: {}
+
+  - id: seg-103
+    text: "It is important to remember that you can't always predict where the biggest impact could come from."
+    type: claim
+    section: 'Strategy 1 - Assessment'
+    position: 103
+    source_format: prose
+    metadata: {}
+
+  - id: seg-104
+    text: 'Many companies in the pharma industry, for example, started by using AI to improve data analysis and insights.'
+    type: example
+    section: 'Strategy 1 - Assessment'
+    position: 104
+    source_format: prose
+    metadata: {}
+
+  - id: seg-105
+    text: 'This exploration ultimately led to wholly new approaches and a complete redesign of the clinical trials process — reducing time to market from 7-10 years to less than 2 years.'
+    type: example
+    section: 'Strategy 1 - Assessment'
+    position: 105
+    source_format: prose
+    metadata: {}
+
+  - id: seg-106
+    text: '2. Double Down on Data Modernization'
+    type: noise
+    section: 'Strategy 2'
+    position: 106
+    source_format: heading
+    metadata: {}
+
+  - id: seg-107
+    text: 'Data is essential to success, but GenAI raises the stakes.'
+    type: claim
+    section: 'Strategy 2 - Data Modernization'
+    position: 107
+    source_format: prose
+    metadata: {}
+
+  - id: seg-108
+    text: 'GenAI is helping companies do more with less — it can often find insights in unstructured data, whether customer phone call logs or holistic policy documents.'
+    type: claim
+    section: 'Strategy 2 - Data Modernization'
+    position: 108
+    source_format: prose
+    metadata: {}
+
+  - id: seg-109
+    text: 'It can also do more with more, like scanning and summarizing text, audio or imagery to find value in data sets that were too obscure, too poorly organized or too vast for employees to make use of.'
+    type: claim
+    section: 'Strategy 2 - Data Modernization'
+    position: 109
+    source_format: prose
+    metadata: {}
+
+  - id: seg-110
+    text: 'As GenAI becomes a commodity product — with everyone using similar models from the same few vendors — it is your data and specialty knowledge that will set you apart.'
+    type: claim
+    section: 'Strategy 2 - Data Modernization'
+    position: 110
+    source_format: prose
+    metadata: {}
+
+  - id: seg-111
+    text: 'Your data will allow you to customize models to help you offer unique products, services and experiences.'
+    type: claim
+    section: 'Strategy 2 - Data Modernization'
+    position: 111
+    source_format: prose
+    metadata: {}
+
+  - id: seg-112
+    text: 'That requires a new architecture and operating model, which includes an AI-ready data platform and appropriate governance.'
+    type: recommendation
+    section: 'Strategy 2 - Data Modernization'
+    position: 112
+    source_format: prose
+    metadata: {}
+
+  - id: seg-113
+    text: '98% of Top Performers agree that their company is well equipped in terms of its data architecture and governance needed to leverage GenAI.'
+    type: statistic
+    section: 'Strategy 2 - Data Modernization'
+    position: 113
+    source_format: prose
+    metadata:
+      metric: 'Top Performers with adequate data architecture/governance for GenAI'
+      value: 98
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-114
+    text: '69% of Top Performers say they have already implemented data modernization to take advantage of GenAI, compared to just 31% of other companies.'
+    type: statistic
+    section: 'Strategy 2 - Data Modernization'
+    position: 114
+    source_format: prose
+    metadata:
+      metric: 'Implemented data modernization for GenAI'
+      value: 69
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-115
+    text: '82% of Top Performers say most of their front office data is in cloud, compared with 63% for other companies.'
+    type: statistic
+    section: 'Strategy 2 - Data Distribution'
+    position: 115
+    source_format: prose
+    metadata:
+      metric: 'Front office data in cloud'
+      value: 82
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-116
+    text: '74% of Top Performers have most of their middle-office data in cloud, compared with 52% for other companies.'
+    type: statistic
+    section: 'Strategy 2 - Data Distribution'
+    position: 116
+    source_format: prose
+    metadata:
+      metric: 'Middle-office data in cloud'
+      value: 74
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-117
+    text: '79% of Top Performers have most of their back-office data in cloud, compared with 61% for other companies.'
+    type: statistic
+    section: 'Strategy 2 - Data Distribution'
+    position: 117
+    source_format: prose
+    metadata:
+      metric: 'Back-office data in cloud'
+      value: 79
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-118
+    text: 'Top Performers are more than twice as likely to report being all-in on GenAI adoption across the business given their data is more widely accessible.'
+    type: claim
+    section: 'Strategy 2 - Data Distribution'
+    position: 118
+    source_format: prose
+    metadata: {}
+
+  - id: seg-119
+    text: 'Front office GenAI adoption: Top Performers 67% | Other Companies 27%'
+    type: statistic
+    section: 'Strategy 2 - GenAI Adoption'
+    position: 119
+    source_format: table
+    metadata:
+      metric: 'Front office GenAI adoption'
+      value: 67
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-120
+    text: 'Middle office GenAI adoption: Top Performers 63% | Other Companies 26%'
+    type: statistic
+    section: 'Strategy 2 - GenAI Adoption'
+    position: 120
+    source_format: table
+    metadata:
+      metric: 'Middle office GenAI adoption'
+      value: 63
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-121
+    text: 'Back office GenAI adoption: Top Performers 61% | Other Companies 24%'
+    type: statistic
+    section: 'Strategy 2 - GenAI Adoption'
+    position: 121
+    source_format: table
+    metadata:
+      metric: 'Back office GenAI adoption'
+      value: 61
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-122
+    text: 'Some companies start in the front office, such as with customer call centers where AI has helped boost customer satisfaction and significantly reduced average call center handling time, call abandonment and misrouting.'
+    type: example
+    section: 'Strategy 2 - Implementation'
+    position: 122
+    source_format: prose
+    metadata: {}
+
+  - id: seg-123
+    text: 'We will see fewer human team members while AI agents or AI team members take on more tasks.'
+    type: claim
+    section: 'Strategy 2 - Implementation'
+    position: 123
+    source_format: prose
+    metadata: {}
+
+  - id: seg-124
+    text: 'Your employees will have a critical role to play in orchestrating the work of their AI counterparts and will focus on other aspects of the work.'
+    type: claim
+    section: 'Strategy 2 - Implementation'
+    position: 124
+    source_format: prose
+    metadata: {}
+
+  - id: seg-125
+    text: 'Other companies are first applying this new operating model in back-office functions like finance and IT.'
+    type: context
+    section: 'Strategy 2 - Implementation'
+    position: 125
+    source_format: prose
+    metadata: {}
+
+  - id: seg-126
+    text: 'Wherever you start, it is crucial to think beyond singular use cases.'
+    type: recommendation
+    section: 'Strategy 2 - Implementation'
+    position: 126
+    source_format: prose
+    metadata: {}
+
+  - id: seg-127
+    text: 'Most GenAI use cases fall within six repeatable patterns.'
+    type: claim
+    section: 'Strategy 2 - Implementation'
+    position: 127
+    source_format: prose
+    metadata: {}
+
+  - id: seg-128
+    text: 'Consider the pattern of deep retrieval — applying a model to search for specific information within documents or data.'
+    type: definition
+    section: 'Strategy 2 - Implementation'
+    position: 128
+    source_format: prose
+    metadata: {}
+
+  - id: seg-129
+    text: 'If you successfully customize the model to extract key terms from legal contracts, you can then apply that same model to do the same for tax regulations, financial reports, employee resumes and so on.'
+    type: example
+    section: 'Strategy 2 - Implementation'
+    position: 129
+    source_format: prose
+    metadata: {}
+
+  - id: seg-130
+    text: 'That can lead to exponential value creation.'
+    type: claim
+    section: 'Strategy 2 - Implementation'
+    position: 130
+    source_format: prose
+    metadata: {}
+
+  - id: seg-131
+    text: "To Top Performers, cloud and AI aren't merely operational tools — they're strategic assets that drive business success and produce value from data."
+    type: claim
+    section: 'Strategy 2 - Implementation'
+    position: 131
+    source_format: prose
+    metadata: {}
+
+  - id: seg-132
+    text: 'Mirroring this thinking can help set your company up as a leader in the future AI-led, cloud-powered economy.'
+    type: recommendation
+    section: 'Strategy 2 - Implementation'
+    position: 132
+    source_format: prose
+    metadata: {}
+
+  - id: seg-133
+    text: '3. Evolve the IT Function with AI to Become a Strategic Powerhouse'
+    type: noise
+    section: 'Strategy 3'
+    position: 133
+    source_format: heading
+    metadata: {}
+
+  - id: seg-134
+    text: 'With an AI-led company as the new North Star, reinventing IT is critical — and more feasible.'
+    type: claim
+    section: 'Strategy 3 - IT Evolution'
+    position: 134
+    source_format: prose
+    metadata: {}
+
+  - id: seg-135
+    text: "The technology function's role in driving new capabilities, products and services, and business models is contingent on embracing new ways of working through AI-powered workflows (also called agentic workflows)."
+    type: claim
+    section: 'Strategy 3 - IT Evolution'
+    position: 135
+    source_format: prose
+    metadata: {}
+
+  - id: seg-136
+    text: 'While this shift to a new operating model in which AI seamlessly performs work in concert with humans is happening across business functions, for many businesses IT is a natural place to start.'
+    type: claim
+    section: 'Strategy 3 - IT Evolution'
+    position: 136
+    source_format: prose
+    metadata: {}
+
+  - id: seg-137
+    text: "AI's influence on the software development life cycle is drawing significant attention as it drives revolutionary changes across the discipline."
+    type: claim
+    section: 'Strategy 3 - IT Evolution'
+    position: 137
+    source_format: prose
+    metadata: {}
+
+  - id: seg-138
+    text: 'Software developers work alongside AI agents that can autonomously take ideas and turn them into requirements, then turn requirements into user stories, user stories into test cases, test cases into code and code into documentation.'
+    type: definition
+    section: 'Strategy 3 - IT Evolution'
+    position: 138
+    source_format: prose
+    metadata: {}
+
+  - id: seg-139
+    text: 'Companies are already seeing considerable payback, with efficiency gains upwards of 30%, along with enhanced quality and speed to market.'
+    type: statistic
+    section: 'Strategy 3 - IT Evolution'
+    position: 139
+    source_format: prose
+    metadata:
+      metric: 'Software development efficiency gains from AI'
+      value: 30
+      unit: '%+'
+      population: 'Companies using AI in software development'
+
+  - id: seg-140
+    text: '65% of Top Performers say they have holistically adopted AI in IT, including in app development and app management.'
+    type: statistic
+    section: 'Strategy 3 - IT Evolution'
+    position: 140
+    source_format: prose
+    metadata:
+      metric: 'Holistic AI adoption in IT'
+      value: 65
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-141
+    text: 'This compares with just 28% of all-in adoption for other companies.'
+    type: statistic
+    section: 'Strategy 3 - IT Evolution'
+    position: 141
+    source_format: prose
+    metadata:
+      metric: 'Holistic AI adoption in IT'
+      value: 28
+      unit: '%'
+      population: 'Other companies'
+
+  - id: seg-142
+    text: 'Across 15 different IT areas Top Performers are consistently more likely than other companies to have broadly adopted GenAI.'
+    type: claim
+    section: 'Strategy 3 - IT Evolution'
+    position: 142
+    source_format: prose
+    metadata: {}
+
+  - id: seg-143
+    text: '82% of Top Performers have broadly adopted GenAI for modernization versus 53% of other companies.'
+    type: statistic
+    section: 'Strategy 3 - GenAI in IT'
+    position: 143
+    source_format: table
+    metadata:
+      metric: 'GenAI adoption for modernization'
+      value: 82
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-144
+    text: 'In software development, 75% of Top Performers have broadly adopted GenAI, compared with 51% of other companies.'
+    type: statistic
+    section: 'Strategy 3 - GenAI in IT'
+    position: 144
+    source_format: table
+    metadata:
+      metric: 'GenAI adoption for software development'
+      value: 75
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-145
+    text: 'Application management GenAI adoption: Top Performers 71% versus other companies 44%.'
+    type: statistic
+    section: 'Strategy 3 - GenAI in IT'
+    position: 145
+    source_format: table
+    metadata:
+      metric: 'GenAI adoption for application management'
+      value: 71
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-146
+    text: 'Infrastructure optimization GenAI adoption: Top Performers 68% versus other companies 41%.'
+    type: statistic
+    section: 'Strategy 3 - GenAI in IT'
+    position: 146
+    source_format: table
+    metadata:
+      metric: 'GenAI adoption for infrastructure optimization'
+      value: 68
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-147
+    text: 'IT service management GenAI adoption: Top Performers 65% versus other companies 39%.'
+    type: statistic
+    section: 'Strategy 3 - GenAI in IT'
+    position: 147
+    source_format: table
+    metadata:
+      metric: 'GenAI adoption for IT service management'
+      value: 65
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-148
+    text: 'Cybersecurity GenAI adoption: Top Performers 62% versus other companies 36%.'
+    type: statistic
+    section: 'Strategy 3 - GenAI in IT'
+    position: 148
+    source_format: table
+    metadata:
+      metric: 'GenAI adoption for cybersecurity'
+      value: 62
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-149
+    text: 'Help desk support GenAI adoption: Top Performers 61% versus other companies 35%.'
+    type: statistic
+    section: 'Strategy 3 - GenAI in IT'
+    position: 149
+    source_format: table
+    metadata:
+      metric: 'GenAI adoption for help desk support'
+      value: 61
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-150
+    text: 'Across the 15 IT categories, the delta for broad adoption between Top Performers and everyone else averages 23 percentage points.'
+    type: statistic
+    section: 'Strategy 3 - GenAI in IT'
+    position: 150
+    source_format: prose
+    metadata:
+      metric: 'Average GenAI adoption gap between Top Performers and others'
+      value: 23
+      unit: 'percentage points'
+      population: 'Across 15 IT categories'
+
+  - id: seg-151
+    text: 'The ways AI is changing IT extend well beyond internal capabilities — most companies look to third parties for at least some software and application development, application maintenance, help desk IT service management and cybersecurity.'
+    type: claim
+    section: 'Strategy 3 - Third Party'
+    position: 151
+    source_format: prose
+    metadata: {}
+
+  - id: seg-152
+    text: 'How these suppliers leverage AI can also be transformative for you.'
+    type: claim
+    section: 'Strategy 3 - Third Party'
+    position: 152
+    source_format: prose
+    metadata: {}
+
+  - id: seg-153
+    text: 'Across industries, AI has reduced the hours IT vendors need to provide high-quality services to their customers.'
+    type: claim
+    section: 'Strategy 3 - Third Party'
+    position: 153
+    source_format: prose
+    metadata: {}
+
+  - id: seg-154
+    text: 'Tech leaders can identify efficiencies and other KPIs that vendors should be achieving.'
+    type: recommendation
+    section: 'Strategy 3 - Third Party'
+    position: 154
+    source_format: prose
+    metadata: {}
+
+  - id: seg-155
+    text: 'This might drive companies to renegotiate contracts or select new solutions and suppliers.'
+    type: recommendation
+    section: 'Strategy 3 - Third Party'
+    position: 155
+    source_format: prose
+    metadata: {}
+
+  - id: seg-156
+    text: '4. Reset Cloud Provider Relationships and Expectations'
+    type: noise
+    section: 'Strategy 4'
+    position: 156
+    source_format: heading
+    metadata: {}
+
+  - id: seg-157
+    text: 'Even the most effective strategy can falter if you fail to maintain that same level of intention and engagement when dealing with suppliers and third parties.'
+    type: claim
+    section: 'Strategy 4 - CSP Relationships'
+    position: 157
+    source_format: prose
+    metadata: {}
+
+  - id: seg-158
+    text: 'Cloud service providers (CSPs), from hyperscalers to LLM specialty vendors, are instrumental to your success as they continue to invest in and develop next-generation cloud and AI capabilities.'
+    type: claim
+    section: 'Strategy 4 - CSP Relationships'
+    position: 158
+    source_format: prose
+    metadata: {}
+
+  - id: seg-159
+    text: "They are the bedrock that will make possible an AI-first economy, which could be here sooner than many of us expected."
+    type: claim
+    section: 'Strategy 4 - CSP Relationships'
+    position: 159
+    source_format: prose
+    metadata: {}
+
+  - id: seg-160
+    text: 'How you manage your CSP strategy, contracts and interactions is key.'
+    type: recommendation
+    section: 'Strategy 4 - CSP Relationships'
+    position: 160
+    source_format: prose
+    metadata: {}
+
+  - id: seg-161
+    text: '56% primarily use one CSP for more than half of their workloads and other CSPs for specialized tasks, up from 53% in 2022.'
+    type: statistic
+    section: 'Strategy 4 - CSP Strategy'
+    position: 161
+    source_format: prose
+    metadata:
+      metric: 'Companies using primary CSP for majority workloads'
+      value: 56
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-162
+    text: '27% say they use one CSP exclusively, down from 34% in the last survey.'
+    type: statistic
+    section: 'Strategy 4 - CSP Strategy'
+    position: 162
+    source_format: prose
+    metadata:
+      metric: 'Companies using single CSP exclusively'
+      value: 27
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-163
+    text: 'Top Performers are more likely to say they use a single CSP (38%).'
+    type: statistic
+    section: 'Strategy 4 - CSP Strategy'
+    position: 163
+    source_format: prose
+    metadata:
+      metric: 'Top Performers using single CSP'
+      value: 38
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-164
+    text: '34% report using public cloud in all areas of their businesses, and another 51% use it in at least some areas.'
+    type: statistic
+    section: 'Strategy 4 - CSP Strategy'
+    position: 164
+    source_format: prose
+    metadata:
+      metric: 'Companies using public cloud in all business areas'
+      value: 34
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-165
+    text: 'Just 5% of all companies surveyed said they do not use public cloud at all.'
+    type: statistic
+    section: 'Strategy 4 - CSP Strategy'
+    position: 165
+    source_format: prose
+    metadata:
+      metric: 'Companies not using public cloud'
+      value: 5
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-166
+    text: 'When asked about how well their primary CSPs were meeting expectations, most respondents rate them favorably, with Top Performers more likely to strongly agree.'
+    type: evidence
+    section: 'Strategy 4 - CSP Performance'
+    position: 166
+    source_format: prose
+    metadata: {}
+
+  - id: seg-167
+    text: 'Top Performers rate CSPs favorably for KPIs and performance monitoring: 61% versus 39% for other companies.'
+    type: statistic
+    section: 'Strategy 4 - CSP Performance'
+    position: 167
+    source_format: prose
+    metadata:
+      metric: 'CSP favorability for KPIs/monitoring'
+      value: 61
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-168
+    text: 'Top Performers rate CSPs favorably for needed tech support: 60% versus 46% for other companies.'
+    type: evidence
+    section: 'Strategy 4 - CSP Performance'
+    position: 168
+    source_format: prose
+    metadata: {}
+
+  - id: seg-169
+    text: 'Top Performers rate CSPs favorably for capability evolution engagement: 61% versus 43% for other companies.'
+    type: evidence
+    section: 'Strategy 4 - CSP Performance'
+    position: 169
+    source_format: prose
+    metadata: {}
+
+  - id: seg-170
+    text: 'In most areas, only a minority of companies expect to evolve their CSP relationships.'
+    type: claim
+    section: 'Strategy 4 - CSP Evolution'
+    position: 170
+    source_format: prose
+    metadata: {}
+
+  - id: seg-171
+    text: 'Just 35% of Top Performers (and 38% of other companies) plan to renegotiate pricing, contracts and SLAs.'
+    type: statistic
+    section: 'Strategy 4 - CSP Evolution'
+    position: 171
+    source_format: prose
+    metadata:
+      metric: 'Top Performers planning CSP contract renegotiation'
+      value: 35
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-172
+    text: 'With AI rapidly changing how tech services are deployed — at efficiencies of 20% to 40% — renegotiating contracts is an obvious area for discussion.'
+    type: recommendation
+    section: 'Strategy 4 - CSP Evolution'
+    position: 172
+    source_format: prose
+    metadata: {}
+
+  - id: seg-173
+    text: 'Companies should consider whether there are new AI-based solutions that might replace many existing ones.'
+    type: recommendation
+    section: 'Strategy 4 - CSP Evolution'
+    position: 173
+    source_format: prose
+    metadata: {}
+
+  - id: seg-174
+    text: 'We have seen companies revisit their sourcing strategies and vendor management to recover significant value in the multi-millions — savings that can be invested in new AI capabilities and offerings.'
+    type: evidence
+    section: 'Strategy 4 - CSP Evolution'
+    position: 174
+    source_format: prose
+    metadata: {}
+
+  - id: seg-175
+    text: 'Monitoring and managing security and compliance: Top Performers 55% versus other companies 52%.'
+    type: statistic
+    section: 'Strategy 4 - CSP Focus Areas'
+    position: 175
+    source_format: table
+    metadata:
+      metric: 'CSP focus on security and compliance'
+      value: 55
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-176
+    text: 'Evaluating types of services provided: Top Performers 48% versus other companies 44%.'
+    type: statistic
+    section: 'Strategy 4 - CSP Focus Areas'
+    position: 176
+    source_format: table
+    metadata:
+      metric: 'CSP focus on evaluating services'
+      value: 48
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-177
+    text: 'Collaborating on future-state capabilities: Top Performers 44% versus other companies 38%.'
+    type: statistic
+    section: 'Strategy 4 - CSP Focus Areas'
+    position: 177
+    source_format: table
+    metadata:
+      metric: 'CSP collaboration on future-state'
+      value: 44
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-178
+    text: 'Assessing carbon footprint sustainability impact: Top Performers 39% versus other companies 29%.'
+    type: statistic
+    section: 'Strategy 4 - CSP Focus Areas'
+    position: 178
+    source_format: table
+    metadata:
+      metric: 'CSP focus on carbon footprint'
+      value: 39
+      unit: '%'
+      population: 'Top Performers'
+
+  - id: seg-179
+    text: 'Multinational organizations should address global data residency, availability and privacy requirements, such as GDPR, DORA or the India Companies Act.'
+    type: recommendation
+    section: 'Strategy 4 - Compliance'
+    position: 179
+    source_format: prose
+    metadata: {}
+
+  - id: seg-180
+    text: 'CIOs and data leaders should make sure their CSPs provide hosting solutions that can accommodate those requirements.'
+    type: recommendation
+    section: 'Strategy 4 - Compliance'
+    position: 180
+    source_format: prose
+    metadata: {}
+
+  - id: seg-181
+    text: 'These requirements also affect a company ability to apply AI to this data, so it is an important area to consider.'
+    type: claim
+    section: 'Strategy 4 - Compliance'
+    position: 181
+    source_format: prose
+    metadata: {}
+
+  - id: seg-182
+    text: 'Top Performers are notably more engaged than other companies in assessing carbon footprint impact (39% versus 29%).'
+    type: evidence
+    section: 'Strategy 4 - Sustainability'
+    position: 182
+    source_format: prose
+    metadata: {}
+
+  - id: seg-183
+    text: 'Understanding and managing the carbon impacts of both CSP offerings and in-house data centers is likely to become more important.'
+    type: claim
+    section: 'Strategy 4 - Sustainability'
+    position: 183
+    source_format: prose
+    metadata: {}
+
+  - id: seg-184
+    text: 'CIOs should be looking at how well positioned providers are to deliver the compute they will need to power next-generation architectures and capabilities.'
+    type: recommendation
+    section: 'Strategy 4 - Sustainability'
+    position: 184
+    source_format: prose
+    metadata: {}
+
+  - id: seg-185
+    text: 'Tech leaders are starting to think about implications for the US power grid and business sustainability.'
+    type: claim
+    section: 'Strategy 4 - Sustainability'
+    position: 185
+    source_format: prose
+    metadata: {}
+
+  - id: seg-186
+    text: 'They will want to work closely with sustainability leaders and chief risk officers to make sure that their sustainability goals are considered when choosing providers.'
+    type: recommendation
+    section: 'Strategy 4 - Sustainability'
+    position: 186
+    source_format: prose
+    metadata: {}
+
+  - id: seg-187
+    text: 'What Are Cloud and AI Top Performers?'
+    type: noise
+    section: 'Methodology'
+    position: 187
+    source_format: heading
+    metadata: {}
+
+  - id: seg-188
+    text: 'We identify Top Performers based on two indexes of performance, cloud and generative AI (GenAI).'
+    type: methodology
+    section: 'Methodology'
+    position: 188
+    source_format: prose
+    metadata: {}
+
+  - id: seg-189
+    text: 'We develop a cloud performance index based on the company cloud maturity and the measurable value it has achieved in areas such as revenue growth, profitability, capabilities and security.'
+    type: methodology
+    section: 'Methodology'
+    position: 189
+    source_format: prose
+    metadata: {}
+
+  - id: seg-190
+    text: 'The scoring system awards 100 points for companies that have already achieved measurable value, 66 points for those expecting to achieve it within 12 months, 33 points for those expecting it in 12+ months and 0 points for those not expecting measurable value.'
+    type: methodology
+    section: 'Methodology'
+    position: 190
+    source_format: prose
+    metadata: {}
+
+  - id: seg-191
+    text: 'Similarly, we develop a GenAI performance index based on a company current adoption of generative AI and the measurable value they have already achieved.'
+    type: methodology
+    section: 'Methodology'
+    position: 191
+    source_format: prose
+    metadata: {}
+
+  - id: seg-192
+    text: 'We classify 124 respondents (12% of the total sample) as overall Top Performers, scoring at the top range for both cloud and GenAI performance indexes.'
+    type: definition
+    section: 'Methodology'
+    position: 192
+    source_format: prose
+    metadata:
+      metric: 'Number of Top Performers in sample'
+      value: 124
+      unit: 'respondents'
+
+  - id: seg-193
+    text: 'About the Survey'
+    type: noise
+    section: 'Survey Methodology'
+    position: 193
+    source_format: heading
+    metadata: {}
+
+  - id: seg-194
+    text: 'Between June 4, 2024 and July 9, 2024, PwC surveyed 1,030 executives in the United States (308 in business roles, 722 in technology roles) on topics related to cloud and generative AI.'
+    type: methodology
+    section: 'Survey Methodology'
+    position: 194
+    source_format: prose
+    metadata:
+      sample_size: 1030
+      business_roles: 308
+      technology_roles: 722
+      country: 'United States'
+
+  - id: seg-195
+    text: 'Respondents are from companies that have at least $500 million in revenue.'
+    type: methodology
+    section: 'Survey Methodology'
+    position: 195
+    source_format: prose
+    metadata:
+      minimum_revenue: '$500 million'
+
+  - id: seg-196
+    text: 'Industries represented: Tech, media, telecom (22%), Financial services (21%), Consumer markets (18%), Health (17%), Industrial products (13%), Energy, utilities and mining (6%).'
+    type: context
+    section: 'Survey Methodology'
+    position: 196
+    source_format: prose
+    metadata: {}
+
+  - id: seg-197
+    text: 'PwC Research, PwC global Centre of Excellence for market research and insight, conducted this survey.'
+    type: context
+    section: 'Survey Methodology'
+    position: 197
+    source_format: prose
+    metadata: {}
+
+  - id: seg-198
+    text: 'Maximize the power of your cloud and AI investments to grow and reinvent your business.'
+    type: noise
+    section: 'Call to Action'
+    position: 198
+    source_format: prose
+    metadata: {}

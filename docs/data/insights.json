@@ -91,6 +91,100 @@
             "Generative AI (GenAI) is being recognised as a game-changer for innovation in the region, empowering enterprises by automating routine tasks, enhancing customer experiences and assisting in critical decision-making processes.",
             "This surge in investment reflects the transformative potential of GenAI, particularly in enhancing productivity, streamlining business processes, and reshaping value chains across industries."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "From rigid roadmaps to real-time systems, 25 years of enterprise IT evolution have brought us to a defining moment \u2014 but the architecture of tomorrow is still taking shape."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Organizations are defining operations as code to accelerate innovation, boost resilience, and make human-machine collaboration more transparent and adaptive."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Agentic AI is a structural shift in enterprise tech, reshaping companies with agents that can reason, coordinate, and execute complex workflows.",
+            "Agentic AI isn't just another wave of automation; it's a structural shift in enterprise technology, one with the potential to completely redefine how work gets done.",
+            "But to fully capture the value while navigating the risks, they will need to rethink how AI is embedded across the architecture\u2014the systems, processes, and governance."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "Companies can't scale their AI solutions without also reshaping their technology function to enable this massive shift.",
+            "This will fundamentally reshape the technology function across architecture, operating models, talent, and funding approaches, in several important ways:"
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "AI is reshaped from a supporting technology to the digital backbone of enterprise operations.",
+            "The common thread across all five trends is that AI is no longer a discrete technology initiative but a fundamental reshaping of how enterprises operate."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "AI becomes the operating fabric of modern business, not a supporting technology.",
+            "The article positions AI as transitioning from a tool that supports business to the operating system that runs business."
+          ]
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
+        },
+        {
+          "id": "source-051",
+          "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
+          "author": "Dan Priest (PwC US)",
+          "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
+          "quotes": []
+        },
+        {
+          "id": "source-047",
+          "title": "AI and Transformations: The Enterprise Power Couple",
+          "author": "KPMG US",
+          "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -332,6 +426,15 @@
           "quotes": [
             "COEs can also be a forcing function for improving co-ordination and coherence overall \u2014 technical innovations like synthetic data and RAG can also strengthen model performance."
           ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "To enable use of approved models and common components (e.g., vector indexing or retrieval augmented generation) across use cases, an integrated AIaaS platform, rather than point solutions, needs to be created for each use case."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -443,6 +546,78 @@
           "quotes": [
             "The Data Layer provides the unified data foundation that agents require, including specialized AI-ready stores like vector databases alongside traditional data infrastructure."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Invest in a robust, continually improving data foundation."
+          ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "Poor data quality, suboptimal integration mechanisms, and inadequate business alignment undermine AI application effectiveness.",
+            "Data governance: Is relevant training data available in proper format with acceptable quality? How can privacy be protected?"
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Scalable access to structured and unstructured data is essential.",
+            "Most organizations still lack the required ingestion pipelines for unstructured sources such as documents, emails, voice recordings, images, videos, and call transcripts."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "Data platform capabilities will need to be strengthened to incorporate more unstructured data sets (and treat them with the same discipline as structured ones), shared data catalogues, data versioning, and data lineage supported by data product teams."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "The biggest insight from these transformations is that the most important aspects of the transformation are process redesign and cleaning up the data and application environment."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Data foundations become critical as AI moves from experimentation to enterprise-wide deployment."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Scalable data infrastructure is cited by 51% as a critical enabler."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -498,6 +673,24 @@
           "quotes": [
             "Yet its practitioners are often thwarted by an overwhelming paradox: They must guide the evolution of vast, dynamic enterprises using tools and processes that are static, fragmented, and slow.",
             "It is the emerging reality \u2014 a direct consequence of what we have called the sleeping giant waking up: the operationalization of architecture via closed feedback loops, AI agents, large language models (LLMs), retrieval-augmented generation, vector databases, and dynamic graph-based systems."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Once gatekeepers of rigid standards and long-term roadmaps, enterprise architects are becoming collaborative technology advisors that design and oversee modular systems in real-time."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "The next era will codify operations and decision making, and work will become visible and measurable, and will constantly improve."
           ]
         }
       ],
@@ -581,6 +774,70 @@
             "Against this backdrop, multimodal GenAI agentic frameworks has emerged as transformative catalysts, enabling businesses to accelerate process automation at an unprecedented scale.",
             "Agentic AI systems can significantly enhance an organisation's competitive edge by automating complex workflows, reducing operational costs, and improving decision-making processes. These systems are designed to adapt to changing business environments, driving higher productivity and enabling organisations to stay competitive."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "For CEOs, the central question is no longer 'Where can I automate a step?' but rather 'How will process design itself fundamentally change?'",
+            "Agentic systems invite leaders to rethink the design of whole workflows, blending human judgment and machine autonomy in ways that legacy processes were never built to accommodate."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "For CEOs, the central question is no longer 'Where can I automate a step?' but rather 'How will process design itself fundamentally change?'",
+            "Agentic systems invite leaders to rethink the design of whole workflows, blending human judgment and machine autonomy in ways that legacy processes were never built to accommodate."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "A common mistake is automating what already exists, but real value comes from a zero-based approach \u2014 starting with the outcome you want and reinventing how to deliver it."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Reimagining processes from end to end accelerates returns, lowers cost per agent, and lays the groundwork for scalable, enterprise-wide adoption."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Tech-forward enterprises are already turning their focus from automating tasks to redesigning entire workflows.",
+            "Redesign entire workflows, not siloed activities or use cases."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "\"The functional transformation strategically mapped AI use cases against business goals and our entire value chain, reimagining workflows and operations around AI.\""
+          ]
+        },
+        {
+          "id": "source-047",
+          "title": "AI and Transformations: The Enterprise Power Couple",
+          "author": "KPMG US",
+          "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -635,6 +892,42 @@
           "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
           "quotes": [
             "GenAI stands out among other uses of data in the technology arsenal for how much upkeep and maintenance it requires \u2014 LLMs suffer from model drift over time, as the information they were trained on becomes dated and their performance deteriorates."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "The solution is to ensure transparency with the right techniques, keep humans in-the-loop, and manage AI workloads with Machine Learning Operations (MLOps) and robust observability tools."
+          ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "Continuous AI model effectiveness monitoring."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "AI models will need to be treated with the same discipline as software code by adopting MLOps processes that use DevOps to manage models through their life cycle."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Software engineering and DevOps processes, both tooling and workflows, need to evolve to manage the full life cycle of AI agents, including how they are tested, monitored, and safely deployed as they learn and adapt over time."
           ]
         }
       ],
@@ -766,6 +1059,49 @@
             "Multi-agent and system conversation: Agentic AI facilitates communication between different agents to construct complex workflows. It can also integrate with other systems or tools, such as email, code executors, or search engines, to perform a variety of tasks.",
             "Agentic AI customer service architecture uses a three-tier model: a master agent (customer support agent at the top), an orchestrator agent (customer support agent in the middle), and micro-agents at the bottom (user experience agent, FAQ agent, issue resolution agent, status updates agent, feedback collection agent, and Nth agent)."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Orchestrator-Workers is the fifth workflow pattern, coordinating a lead agent that delegates to worker agents."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "One global consumer goods company rebuilt their workflow around meta-agents that orchestrated the work and worker agents that generated insights, tested ideas, and created concepts."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Higher-level orchestrator agents are like project managers that oversee a whole process, breaking it down into subtasks and tracking progress."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Level 4: Multi-agent constellations (e.g., any-to-any agent, loosely coupled collaborative agents)"
+          ]
+        },
+        {
+          "id": "source-052",
+          "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
+          "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
+          "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -829,6 +1165,58 @@
           "quotes": [
             "Enterprises need a structured framework for Gen AI adoption that addresses both technical architecture patterns and organizational readiness factors."
           ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "Deploying AI models at operational scale remains difficult but remains essential for generating genuine value."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Yet a year on, most organizations remain stuck in experimentation mode, satisfied with minor productivity gains that haven't delivered significant value."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "The 38% operationalization rate suggests that the majority of GenAI use cases remain in pilot or proof-of-concept stages."
+          ]
+        },
+        {
+          "id": "source-043",
+          "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+          "author": "Dan Diasio, Joe Depa (EY)",
+          "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+          "quotes": [
+            "The initiative addresses a significant market challenge: 87% of senior leaders report substantial barriers to adopting agentic AI."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "Amidst the drive to create exponential value, EY teams encountered proof of concept (POC) fatigue, as scattered AI initiatives throughout the global organization threatened to dilute focus and squander resources."
+          ]
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -940,6 +1328,58 @@
           "quotes": [
             "The central question isn\u2019t whether to adopt this technology, but how swiftly organisations can integrate it to stay ahead of the competition."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "As part of this shift, architecture has become a strategic boardroom topic, no longer relegated to an 'IT for IT' backroom discussion, and concepts like AI-powered self-optimization are actively debated and embraced."
+          ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "89% of C-level executives surveyed across 50 markets ranked AI and GenAI among their top three priorities for 2024."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Forward-looking leaders aren't asking if agentic AI will reshape their business but how to prepare their organizations to deploy it safely and effectively."
+          ]
+        },
+        {
+          "id": "source-043",
+          "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+          "author": "Dan Diasio, Joe Depa (EY)",
+          "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+          "quotes": [
+            "EY positions AI-native transformation as a competitive necessity, not an optional enhancement."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "According to a recent EY CEO Outlook Pulse survey, an overwhelming majority of CEOs, approximately 99%, are planning to invest in generative AI."
+          ]
+        },
+        {
+          "id": "source-051",
+          "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
+          "author": "Dan Priest (PwC US)",
+          "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -987,6 +1427,33 @@
             "Accenture's Chief AI Architect Atish Ray frames the core architectural shift: when pre-trained foundation models replace hundreds of purpose-built models, the emphasis shifts from data science to domain expertise, and the architecture must change accordingly.",
             "When pre-trained foundation models replace hundreds of purpose-built models, the emphasis shifts from data science to domain expertise."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "CEOs should embed the company's business context and proprietary intelligence into agent systems."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "CEOs should embed the company's business context and proprietary intelligence into agent systems."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Competitive advantage depends on how precisely an organization can describe itself to the systems that run its processes."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -1033,6 +1500,16 @@
           "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
           "quotes": [
             "As GenAI agents proliferate, their interactions become complex and potentially risky."
+          ]
+        },
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "Enterprise security must be redefined for AI and nation-state threats that target AI systems and data pipelines.",
+            "Traditional security approaches are insufficient for protecting AI models, training data, and inference pipelines."
           ]
         }
       ],
@@ -1097,6 +1574,16 @@
           "quotes": [
             "Additionally, LLM-based chatbot agents can resolve support tickets, generate scripts, or answer platform-specific configuration queries, continually improving through reinforcement and prompt optimization."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "The development process is also ripe for AI transformation, from generating code for developers and building test cases for production and monitoring, to supporting the work of business analysts.",
+            "BCG benchmarks show that AI can increase the efficiency of development by up to 50%, and potentially even more in the future depending on the use case."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -1155,6 +1642,82 @@
             "Early adopters -- Learning curve: Benefit from the initial learning curve and shape industry standards. Late movers: Miss out on early learning opportunities and industry influence.",
             "Early adopters -- Barriers to entry: Create barriers for competitors through deep AI integration. Late movers: Face higher barriers to entry due to established competitors."
           ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Those that are not equipped to adapt in real time will struggle to keep up with those that are.",
+            "Enterprises that are legible to machines today are moving faster, and their momentum will only increase."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Organizations that swiftly adapt their management playbook to make full use of this transformative technology will gain the edge."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "But as the leaders move forward, falling behind risks ceding competitive ground that may be difficult to recover.",
+            "The organizations that move decisively will extend their lead; those that hesitate risk being left behind."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "Organizations that adopt agentic AI early will establish operational advantages that compound over time.",
+            "Late adopters will face increasing difficulty catching up as leading organizations build proprietary data and operational intelligence advantages."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Those that wait will struggle to catch up."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
+        },
+        {
+          "id": "source-051",
+          "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
+          "author": "Dan Priest (PwC US)",
+          "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
+          "quotes": []
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
+        },
+        {
+          "id": "source-047",
+          "title": "AI and Transformations: The Enterprise Power Couple",
+          "author": "KPMG US",
+          "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -1209,6 +1772,26 @@
           "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
           "quotes": [
             "It is the emerging reality \u2014 a direct consequence of what we have called the sleeping giant waking up: the operationalization of architecture via closed feedback loops, AI agents, large language models (LLMs), retrieval-augmented generation, vector databases, and dynamic graph-based systems."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "The platform should include data connectors as a core component.",
+            "The platform should include orchestration frameworks.",
+            "The platform should include model management capabilities."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "This includes laying the groundwork for agent development toolchains, enabling seamless system interoperability, and fast-tracking the modernization of vector databases, event architectures, and core infrastructure."
           ]
         }
       ],
@@ -1265,6 +1848,42 @@
           "quotes": [
             "\"Individuals using GenAI must have the ability to independently evaluate its outputs and handle them responsibly.\""
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Proven technical experts will be needed to navigate options thoughtfully and define the right course of action for the business."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Organizations can automate parts of their processes while amplifying the value and impact of their human workers."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Plan for human-in-the-loop oversight for now\u2014think Iron Man suits, not fully autonomous Iron Man robots."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "\"The true potential of AI can only be realized if it remains human-centric.\""
+          ]
         }
       ],
       "baseline_category": "common"
@@ -1310,6 +1929,17 @@
           "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
           "quotes": [
             "In this model, the tech organization becomes the architect for enterprise AI, providing standardized, secure, and scalable building blocks so teams can adopt AI confidently and consistently."
+          ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "The complexity of these interdependencies demands a new organizational position: the Enterprise AI Architect.",
+            "Technical AI knowledge represents only part of required expertise.",
+            "The Enterprise AI Architect role sits at the intersection of business strategy, technical AI capabilities, and governance policy."
           ]
         }
       ],
@@ -1405,6 +2035,41 @@
             "Microservices provide the composability and modularity needed for AI systems where individual models and components evolve at different rates.",
             "These established EA patterns can support modular, swappable AI integration within existing enterprise architectures, working within rather than against existing architectural traditions."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Microservices, event-driven patterns, and low-code platforms will increasingly become central architectural features, promoting changeability and scalability.",
+            "It needs to be data-centric, cloud-native, increasingly autonomous, and above all, modular."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Agentic AI architecture builds on the rise of composable microservices architecture and the use of enterprise cloud services that many companies have already been investing in."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Monolithic enterprise backbones evolve into living ecosystems of intelligent, modular, continuously learning applications."
+          ]
+        },
+        {
+          "id": "source-053",
+          "title": "Enterprise Architecture in Swiss SMEs",
+          "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -1463,6 +2128,33 @@
             "When an organization examines its end-to-end processes, it will likely discover workflows that span multiple systems, including legacy software.",
             "Examining the future of system modernization, early evidence suggests that a hybrid approach is most likely to prevail, where agents extend the useful life of legacy systems, while organizations pursue the selective modernization of critical business processes."
           ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "Different business units within organizations often deploy varied solutions from multiple vendors, creating fragmentation across the enterprise.",
+            "Decentralized IT landscapes amplify these challenges."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "However, these modern systems will need to work alongside existing infrastructure for the foreseeable future, which could add some architectural complexity in the near term.",
+            "Achieving this may require reworking older, batch-based systems to be more flexible, accessible by APIs, and able to respond to real-time events."
+          ]
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -1508,6 +2200,46 @@
           "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
           "quotes": [
             "Traditional synchronous, tightly coupled integration patterns (typical REST API calls to monolithic ERP and CRM systems) create bottlenecks when agents need to operate autonomously."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "MCP is described as a \"USB-C port for AI agents\" \u2014 a standardized connection reducing integration complexity.",
+            "MCP is an open-source protocol that standardizes how agents access tools and data, acting like a universal adapter between AI agents and the tools, data, and prompts they use.",
+            "Built and open-sourced by Anthropic, MCP is emerging as the de facto standard for connecting AI agents to other systems.",
+            "BCG helps redesign organizations with intelligence at the core, and open and interoperable capabilities like MCP and A2A can accelerate this, enabling sustained, autonomous competitive advantage."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "As agents roll out across the tech stack, consistent interoperability standards, such as the model context protocol (MCP), and frictionless integrations will be critical for breaking down silos and capturing the full value of agentic AI."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Standards battles will play out at lightning pace (witness the MCP and Agent-to-Agent adoption tipping points); incumbents may try to selectively open source their IP; and domain-specific leaders will emerge.",
+            "Select vendors strategically to limit (or at least balance) agent lock-in and preserve optionality for future evolution."
+          ]
+        },
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "Organizations should optimize flexibility in model selection rather than committing to single-vendor lock-in."
           ]
         }
       ],
@@ -1619,6 +2351,50 @@
           "quotes": [
             "Deloitte's convergence architecture directly addresses the architectural challenge of making AI enterprise-ready \u2014 not as a bolt-on capability but as a fundamental organizing principle that unifies previously siloed operational and analytical layers."
           ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "Answering them requires comprehensive understanding of organizational business and IT environments plus deep AI expertise.",
+            "Five critical questions \u2014 value, model governance, platforms, data, delivery \u2014 provide a structured framework for enterprise AI planning."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Enterprise architecture must adapt to accommodate all five trends simultaneously rather than treating them as independent initiatives."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "Building an autonomous enterprise requires coordinated transformation across all four dimensions rather than technology deployment alone."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Enterprise-wide AI deployment requires simultaneous progress on technology, people, governance, and data fronts."
+          ]
+        },
+        {
+          "id": "source-053",
+          "title": "Enterprise Architecture in Swiss SMEs",
+          "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -1674,6 +2450,15 @@
           "quotes": [
             "For the EA for AI research topic, it provides a practical bridge between traditional EA methodology and AI integration -- showing how existing EA standards can accommodate rather than be replaced by AI-driven approaches."
           ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Agentic AI should complement rather than take over the existing architecture."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -1728,6 +2513,25 @@
           "quotes": [
             "Architectural technical debt from rapid GenAI innovation creates a self-reinforcing gap between leaders and laggards."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "This means balancing innovation with architectural discipline while keeping an eye on technical debt and IT sprawl."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Keep up the pace. The critical work remains redesigning processes and workflows while cleaning and standardizing data. Any further delay compounds technical debt and makes catching up much harder.",
+            "There's no way to cut corners on process, data, and application cleanup."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -1775,6 +2579,43 @@
           "url": "https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/",
           "quotes": [
             "In this session, Dave introduced the essential flip: stop solutioning for automation and start architecting for agency."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "A common mistake is automating what already exists, but real value comes from a zero-based approach \u2014 starting with the outcome you want and reinventing how to deliver it."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "A zero-based approach starts with the outcome you want and reinvents how to deliver it, rather than automating what already exists.",
+            "CEOs should redesign work around zero-based, outcome-driven processes."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "CEOs should redesign work around zero-based, outcome-driven processes."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Reimagining processes from end to end accelerates returns, lowers cost per agent, and lays the groundwork for scalable, enterprise-wide adoption."
           ]
         }
       ],
@@ -1858,6 +2699,58 @@
             "By collaborating and constantly learning, these agents enhance decision-making, optimise processes, and drive innovation. It combines range of advanced AI techniques to process diverse data types and automate complex tasks.",
             "The agentic AI performs dynamic reasoning and decision-making, leveraging a series of autonomous agents, analysing customer issues, considering multiple factors, and applying learned knowledge to resolve problems more efficiently. The outcome is quicker, solution-oriented, and fluid conversations that enhance customer experience and set new standards for efficiency and responsiveness in automated customer service."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "AI agents move beyond prediction and conversation to actually reshape business processes and get work done."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "AI agents handle tasks previously performed by human workers, shifting human work toward oversight, orchestration, and continual improvement."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "AI agents can reason, collaborate, and coordinate actions, allowing them to accomplish complex, multistep, nondeterministic processes that have so far depended on humans."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "Over time, workflow and orchestration systems could be powered or replaced by agentic AI that can act semi-autonomously, as that capability matures."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "AI agents can adjust workflows and reroute processes in real time based on changing conditions and incoming data."
+          ]
+        },
+        {
+          "id": "source-052",
+          "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
+          "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
+          "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -1923,6 +2816,25 @@
             "While traditional rule-based chatbots (software-as-a-service) provided basic 24/7 support, and Retrieval Augmented Generated (RAG)-based chatbots enhanced human-like interactions (enhanced software-as-a-service), agentic AI surpasses both in terms of accuracy, contextual coherence, and problem-solving ability.",
             "In contrast, the novel approach of agentic AI allows it to understand nuances in language, generating accurate responses even to complex or unseen queries. Its ability to learn from vast datasets enhances precision and adaptability, making it superior for customer interactions."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Agentic AI is redefining how businesses operate, installing intelligent virtual assistants that can analyze data and make decisions without human intervention.",
+            "Unlike earlier AI waves, agentic AI systems can observe, understand, plan, and execute tasks with minimal human intervention."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Agentic AI derives value from adaptability \u2014 responding to changing conditions and learning over time."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -1977,6 +2889,16 @@
           "url": "https://ieeexplore.ieee.org/document/10913304/",
           "quotes": [
             "Focus on translating business objectives into actionable insights through a structured data-to-decisions pipeline."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "IT landscapes will increasingly be governed by AI, enabling architectural inefficiencies to be spotted and complex application portfolios to be optimized.",
+            "The technology will also handle things like continuous value tracking, serving as a strong link between IT and the business by producing holistic insights across functions."
           ]
         }
       ],
@@ -2050,6 +2972,33 @@
           "quotes": [
             "Assess capabilities -- Data readiness: Do you have access to quality, multimodal data?"
           ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "\"Poor data quality, wrong integration mechanisms, and suboptimal exposure to the business will all have a detrimental impact on results.\""
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "These data sources are critical for agentic reasoning, especially in manual or exception-driven processes where necessary knowledge often resides outside core systems of record or even outside the organization."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "Operational systems with significant unstructured data will face substantial re-architecting due to generative AI's ability to make use of previously underutilized data sources."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -2103,6 +3052,25 @@
           "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
           "quotes": [
             "AI improves data quality in EA repositories and enhances application portfolio management capacity."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Organizations need to identify their business context fabric by surfacing the unwritten principles their teams follow.",
+            "Expert workshops help surface the unwritten principles teams follow, which can then be translated into the prompts and decision trees agents use."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Most companies can define more of their work than they realize, but vital knowledge often hides in binders and spreadsheets, in side conversations, or in people's heads."
           ]
         }
       ],
@@ -2261,6 +3229,72 @@
             "Vision alignment -- Define clear objectives: What do you aim to achieve \u2013 cost reduction, revenue growth, customer satisfaction, or building an economic moat?",
             "Vision alignment -- Align AI initiatives with business goals: Ensure that AI projects are underpinned by your company\u2019s strategic objectives. Whether it\u2019s cost reduction, increasing revenue, customer satisfaction, or creating a competitive advantage, aligning AI efforts with business goals ensures relevance and maximises impact."
           ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "This comprehensive perspective enables professionals to evaluate whether proposed solutions genuinely serve business objectives or represent experimental ventures.",
+            "Value assurance: Where does AI provide greatest utility within the organization and which business processes benefit most?"
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Make the transformation business-led."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Organizations are planning to accelerate AI investments, prioritizing functions with well-defined processes and measurable outcomes.",
+            "The survey findings suggest a shift from technology-driven AI adoption to business-outcome-driven AI adoption."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "The challenge lay in harmonizing these efforts, aligning them with business goals to optimize performance, enrich experiences, and unlock sustainable growth, while positioning humans firmly at the center of the work."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
+        },
+        {
+          "id": "source-051",
+          "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
+          "author": "Dan Priest (PwC US)",
+          "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
+          "quotes": []
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
+        },
+        {
+          "id": "source-046",
+          "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
+          "author": "KPMG International",
+          "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -2314,6 +3348,43 @@
           "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
           "quotes": [
             "This is not just automation \u2014 it's augmentation."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Strategic oversight, ethical governance, and the ability to orchestrate human-AI teams become the most critical human skills."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "When organizations express their operations in the form of structured logic, they can test and refine how work gets done and automate parts of their processes, while amplifying the value and impact of their human workers."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "66% of organizations report measurable productivity and decision-quality improvements through human-AI collaboration.",
+            "Human-AI collaboration is delivering tangible results in productivity and decision quality."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "Agentic AI is positioned as augmenting human capabilities rather than displacing human workers."
           ]
         }
       ],
@@ -2369,6 +3440,51 @@
           "quotes": [
             "Resource misalignments create obstacles for organizations seeking to implement GenAI at enterprise scale."
           ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Organizational enthusiasm for agentic AI is running ahead of organizational readiness in governance, talent, and accountability.",
+            "Many companies deploy these systems without fully addressing strategic tensions around governance, talent, and accountability."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "This demands governance and cultural readiness to embed AI into the fabric of enterprise decision-making.",
+            "Cultural readiness is as important as technical readiness for successful AI transformation."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "The survey reveals a gap between AI investment intentions and organizational readiness to absorb those investments productively."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "The ambition to augment people potential brought EY face-to-face with the imperative for comprehensive upskilling and change management."
+          ]
+        },
+        {
+          "id": "source-054",
+          "title": "AI Giants Are Rewriting the Enterprise Playbook",
+          "author": "Sebastian Ahrens (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -2414,6 +3530,25 @@
           "quotes": [
             "The previous years focused on testing AI capabilities; 2026 concentrates on scaling proven solutions.",
             "Enterprises now compete on execution."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "2026 marks the shift from proof-of-concept to proof-of-impact for AI.",
+            "The Year of Truth for AI signals a shift from hype to measurable impact, as organizations focus on trust and enterprise-wide adoption."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "The shift from AI hype to AI realism marks a new era of pragmatic, enterprise-wide implementation."
           ]
         }
       ],
@@ -2496,6 +3631,60 @@
           "quotes": [
             "Enterprise Architecture (EA) is the function that turns high-level principles into deployable designs, enforceable controls, and auditable evidence -- so your organization can innovate with AI without losing control of its institutional intelligence."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Trust, governance, and transparency precede autonomy in this framework.",
+            "Strategic enterprise-grade deployments are characterized by active governance, automated monitoring, and comprehensive risk management."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Build governance and controls into that logic from the start, not as afterthoughts."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "For agentic AI to scale safely across the enterprise, these guardrails must be built in from the start, not bolted on later.",
+            "Define and embed observability, security, governance, and controls, providing traceability, accountability, anomaly detection, and cost discipline."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Advance AI readiness through governance and strategic guardrails."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "The commitment to responsible AI reflects a dedication to building confidence in AI, aligning technology solutions, enterprise processes, and AI infrastructure with core values of ethical governance and risk mitigation."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -2577,6 +3766,15 @@
           "url": "https://www.cloudera.com/blog/business/2026-predictions-the-architecture-governance-and-ai-trends-every-enterprise-must-prepare-for.html",
           "quotes": [
             "According to Cloudera's leadership, this year marks when enterprises transition from proofs of concept and isolated model deployments to operationalizing AI at scale with measurable return on investment, while prioritizing governance and security alongside computational capabilities."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "This included contributing to the G7 Principles and Code of Conduct and the EU AI Act."
           ]
         }
       ],
@@ -2660,6 +3858,43 @@
           "quotes": [
             "The result is a form of continuous architecture governance \u2014 high-velocity, high-confidence, and fully traceable, supporting outcome-driven and valuable EA as never before."
           ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Real-time explainability, behavioral observability, and adaptive security are essential to mitigate risk, maintain customer trust, and avoid regulatory or reputational fallout."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
+        },
+        {
+          "id": "source-046",
+          "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
+          "author": "KPMG International",
+          "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
+          "quotes": []
+        },
+        {
+          "id": "source-054",
+          "title": "AI Giants Are Rewriting the Enterprise Playbook",
+          "author": "Sebastian Ahrens (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -2724,6 +3959,24 @@
           "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
           "quotes": [
             "Traditional IT governance models don't account for AI systems that make independent decisions and take actions."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Once gatekeepers of rigid standards and long-term roadmaps, enterprise architects are becoming collaborative technology advisors that design and oversee modular systems in real-time."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "As agents take on more decision making, governance and controls must evolve."
           ]
         }
       ],
@@ -2798,6 +4051,15 @@
           "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
           "quotes": [
             "Outcome: Continuous governance aligned to NIST 'MEASURE/MANAGE' outcomes and ISO/IEC 42001's management-system evidence needs."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Governance frameworks must evolve continuously to keep pace with the rapidly changing AI capability landscape."
           ]
         }
       ],
@@ -2890,6 +4152,50 @@
             "Organisations\u2019 AI strategies should leverage multimodal GenAI capabilities while ensuring ethical AI safeguards to drive autonomous process re-engineering and enhanced decision-making across all lines of business.",
             "Risk management -- Ethical considerations: Address potential biases and compliance issues."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "The importance of adhering to responsible AI practices increases as agents delve into the weeds of risk management and process integrity."
+          ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "Model governance: Should implementations use GenAI, Machine Learning, or conventional algorithms? How can responsible AI use and model stability be ensured?"
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Enterprise-wide AI adoption requires trust, governance, and cultural readiness as foundational prerequisites."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "EY teams integrated AI into the core business strategy with ethical governance to promote a humans-at-the-center transformation approach.",
+            "Committing to responsible AI significantly advanced the EY transformation strategy, engaging key stakeholders across geographies and regions in risk management, client services and technology."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -2953,6 +4259,15 @@
           "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
           "quotes": [
             "With chat interfaces, visualization tools, and explainable AI, stakeholders far beyond the EA team can engage:"
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Real-time explainability, behavioral observability, and adaptive security are essential to mitigate risk, maintain customer trust, and avoid regulatory or reputational fallout."
           ]
         }
       ],
@@ -3035,6 +4350,68 @@
           "quotes": [
             "This human-in-the-loop approach helps organisations build trust in AI capabilities over time. As AI systems demonstrate their reliability, businesses can confidently transition to an \"autopilot\" mode, where AI operates autonomously, enhancing efficiency and reducing the need for human oversight."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "The solution is to ensure transparency with the right techniques, keep humans in-the-loop, and manage AI workloads with Machine Learning Operations (MLOps) and robust observability tools."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "The agent executes autonomously within strict guardrails, and humans shift from approvers to exception handlers, intervening only when the system flags an anomaly or during random spot-checks."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Excessive supervision can negate the benefits of autonomy.",
+            "Insufficient oversight exposes organizations to operational and compliance risks."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Human-in-the-loop applications are likely the pragmatic reality for years."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Human oversight remains essential even as AI agents take on operational roles within intelligent operations."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "Human oversight remains essential for strategic decisions, ethical considerations, and edge cases that require judgment."
+          ]
+        },
+        {
+          "id": "source-046",
+          "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
+          "author": "KPMG International",
+          "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -3089,6 +4466,41 @@
             "They focused on measurable ROI, robust governance, and modular architectures that could adapt as AI technology evolved at breakneck speed.",
             "The architectures that succeed will be those that treat AI as they would any other enterprise capability: with rigorous governance, thoughtful integration, continuous monitoring, and unwavering focus on measurable business value."
           ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Dynamic, risk-based governance is essential for managing agentic AI."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Companies need a shared AI platform that gives P&L owners freedom within a frame \u2014 centralized infrastructure with decentralized innovation."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "Risk management processes were designed to evolve alongside the pace of AI innovation, striking a balance between speed and emerging risks.",
+            "A reluctance to evolve these processes could stifle innovation or, conversely, lead to inadequate risk controls, potentially undermining the firm's competitive edge and long-term strategic objectives."
+          ]
+        },
+        {
+          "id": "source-051",
+          "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
+          "author": "Dan Priest (PwC US)",
+          "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -3353,6 +4765,59 @@
             "The present trajectory of artificial intelligence \u2014 investment, adoption, and results \u2014 makes abundantly clear that the technology is going to become an integral part of every business, irrespective of industry.",
             "In the years ahead, winners and losers will be defined by who is able to graduate from experiments to implementation at scale."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "35% of companies have begun using agentic AI.",
+            "Another 44% of companies plan to deploy agentic AI soon."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "In less than two years, 35% of companies are already exploring agentic AI."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "The upcoming year will see AI become the backbone of enterprise architecture."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Organizations across industries view AI as a core lever for long-term growth, efficiency, and competitive advantage."
+          ]
+        },
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "AI velocity is the defining competitive factor for 2026, where speed of innovation and adoption determines market leadership."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -3416,6 +4881,41 @@
           "quotes": [
             "Organizations with clean, modular architectures can leverage GenAI to accelerate development 30-50%, while those with legacy systems are trapped in governance cycles too slow to capture value."
           ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "Decentralized AI adoption without architectural coordination leads to poor outcomes \u2014 integration failures, data quality issues, and suboptimal business exposure."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "To fully realize the potential of agentic AI, many organizations will need to modernize their technology foundations.",
+            "Current architectures simply cannot handle this balance when AI agents are used in the thousands across the enterprise\u2014yet."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "Additionally, generative AI accelerates the need for modernizing enterprise architecture, such as adopting API-driven integrations and cloud-first infrastructure, to deploy generative AI solutions more effectively."
+          ]
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -3488,6 +4988,60 @@
             "Organisational change -- Educate and upskill: Begin by familiarising your workforce with the core concepts of data and AI. Understand what it is, how it works, and its potential applications in your organisation, business function and/or industry.",
             "Organisational change -- Foster innovation: Encourage a culture of innovation within your organisation by promoting experimentation and collaboration."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "The 10/20/70 rule states that algorithms account for 10% of AI transformation work.",
+            "People and processes account for 70% of AI transformation work."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "The 10/20/70 rule applies: 10% algorithms, 20% tech, 70% people and processes.",
+            "Success requires treating agentic AI as a management inflection point requiring investment in systems, structures, skills, and strategy."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "The ambition to augment people potential brought EY face-to-face with the imperative for comprehensive upskilling and change management."
+          ]
+        },
+        {
+          "id": "source-043",
+          "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+          "author": "Dan Diasio, Joe Depa (EY)",
+          "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+          "quotes": [
+            "The barriers span organizational, cultural, and technical dimensions."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Organizations will need to be more deliberate about governance, skills, accountability and human-AI chemistry to realize the full transformative value of AI."
+          ]
+        },
+        {
+          "id": "source-054",
+          "title": "AI Giants Are Rewriting the Enterprise Playbook",
+          "author": "Sebastian Ahrens (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -3550,6 +5104,43 @@
           "quotes": [
             "Vision alignment -- Align AI initiatives with business goals: Ensure that AI projects are underpinned by your company\u2019s strategic objectives. Whether it\u2019s cost reduction, increasing revenue, customer satisfaction, or creating a competitive advantage, aligning AI efforts with business goals ensures relevance and maximises impact.",
             "Vision alignment -- Start with high-impact use cases: Identify areas where AI can deliver significant value quickly. Prioritise projects that address pressing challenges or offer substantial benefits, such as cost reduction or revenue growth, to demonstrate AI ROI early on."
+          ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "Enterprise AI Architects must understand strategic organizational goals at mid to long-term horizons."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "We can expect this new breed of architect to be more aligned with the business in terms of strategy and value delivery, while also taking on a more cross-functional, embedded role."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Set ambitious goals based on top-down diagnostics, not trials and pilots.",
+            "Charge general managers with meeting these targets, not the CIO or CTO."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "Honing the focus on strategic AI investments, prioritizing long-term value and measurable growth, EY teams narrowed over 800 AI use cases down to 20 key opportunities."
           ]
         }
       ],
@@ -3615,6 +5206,17 @@
           "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
           "quotes": [
             "Predictive Operational Resilience: 24/7 autonomous risk management through agents that continuously monitor and predict operational disruptions."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "AI-enabled security will also characterize the coming years of architecture innovation, with use cases including real-time threat detection and mitigation.",
+            "From a security standpoint, self-healing capabilities have become crucial now that sophisticated cyberattacks are often autonomous.",
+            "The right AI-enabled security capabilities will simultaneously detect, isolate, patch, and remediate a threat in real time\u2014whereas a human operator may not react quickly enough to mitigate damage and downtime."
           ]
         }
       ],
@@ -3726,6 +5328,16 @@
           "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
           "quotes": [
             "Predictive Operational Resilience: 24/7 autonomous risk management through agents that continuously monitor and predict operational disruptions."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Resilience mechanisms can also be implemented to defend against single points of failure and prevent costly system-wide outages.",
+            "Mechanisms for self-healing will be essential if organizations are to maintain high availability and security while cutting costs."
           ]
         }
       ],
@@ -3848,6 +5460,58 @@
             "Moreover, agentic AI systems can handle large volumes of data and extract actionable insights, which can be used to optimise operations and enhance customer experiences. By automating routine tasks, these systems free up human resources to focus on more strategic initiatives, thereby increasing overall organisational agility and responsiveness.",
             "Agentic AI can significantly enhance business efficiency and productivity by automating routine tasks and processes. This allows employees to focus on more strategic and creative activities."
           ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "AI agents handle tasks previously performed by human workers, shifting human work toward oversight, orchestration, and continual improvement."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Just as importantly, the precious capacity of technical talent can be redeployed to more value-adding tasks."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Explicitly defining operations also makes collaboration between people and machines more natural and predictable."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "The augmentation model elevates human workers to higher-value strategic and creative tasks while AI handles routine execution."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "With a focus on augmenting people, EY adopted a human-centered, transparent approach to transformation that fosters AI literacy, drives consistent integration into daily workflows, and addresses employee reservations toward new technologies and tools."
+          ]
+        },
+        {
+          "id": "source-051",
+          "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
+          "author": "Dan Priest (PwC US)",
+          "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -3904,6 +5568,25 @@
           "quotes": [
             "These future teams will likely be a seamless blend of humans, AI agents, and orchestrators, where humans contribute creativity, oversight, and ethical judgment, and AI brings speed, precision, and pattern recognition."
           ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Agentic AI blurs the line between tool and teammate.",
+            "76% of executives view agentic AI more as a coworker than a tool."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "76% of executives view agentic AI more as a coworker than a tool."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -3949,6 +5632,15 @@
           "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
           "quotes": [
             "This model fuels perpetual experimentation, rapid prototyping, and scalable innovation across products, services, and operations."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Learning loops must be institutionalized so that both human and AI capabilities improve continuously."
           ]
         }
       ],
@@ -4129,6 +5821,41 @@
             "Multi-agent and system conversation: Agentic AI facilitates communication between different agents to construct complex workflows. It can also integrate with other systems or tools, such as email, code executors, or search engines, to perform a variety of tasks.",
             "Agentic AI customer service architecture uses a three-tier model: a master agent (customer support agent at the top), an orchestrator agent (customer support agent in the middle), and micro-agents at the bottom (user experience agent, FAQ agent, issue resolution agent, status updates agent, feedback collection agent, and Nth agent)."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Agentic AI is redefining how businesses operate, installing intelligent virtual assistants that can analyze data and make decisions without human intervention."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Organizations must develop new management frameworks for workflows, governance, investment planning, and talent strategies."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "The next decade will be defined by a shift toward autonomous, adaptive, and self-optimizing systems.",
+            "The enterprise of tomorrow operates as an integrated, intelligent system rather than a collection of automated functions."
+          ]
+        },
+        {
+          "id": "source-052",
+          "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
+          "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
+          "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -4244,6 +5971,13 @@
             "An event-driven architecture, typically built on a message broker like Kafka, decouples agents from one another and from your core systems.",
             "The emphasis on event-driven architecture as a prerequisite for agentic AI deployment offers a specific technical pattern that enterprise architects can adopt."
           ]
+        },
+        {
+          "id": "source-052",
+          "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
+          "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
+          "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -4411,6 +6145,41 @@
             "Addresses the gap that existing governance and security frameworks (including NIST AI RMF and systems security engineering guidance) do not provide implementable architectures for multi-agent, AI-enabled cyber defense.",
             "The PBSAI Governance Ecosystem paper addresses a critical gap in enterprise AI: while frameworks like the NIST AI RMF provide governance principles, they do not offer implementable architectures for multi-agent, AI-enabled environments."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Trust, governance, and transparency precede autonomy in this framework.",
+            "The platform should include responsible AI controls."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "To make this work at scale\u2014and safely\u2014enterprises must establish robust frameworks for identity, consent, and fine-grained access control."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "Secure foundations are essential because autonomous AI agents operating at scale introduce new categories of risk."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -4475,6 +6244,35 @@
           "quotes": [
             "Traditional REST API calls to monolithic systems (ERP, CRM) create bottlenecks for autonomous agents.",
             "The traditional approach to integrating new tools -- a simple REST API call to a monolithic system like your ERP or CRM -- is a bottleneck for autonomous agents."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Organizations must decide whether to quickly retrofit agentic AI into existing workflows or take the time to reimagine those workflows altogether.",
+            "While retrofitting delivers faster results, reimagining workflows around hybrid human-AI teams unlocks greater competitive advantages."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Current architectures simply cannot handle this balance when AI agents are used in the thousands across the enterprise\u2014yet."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "Fragmented systems and manual orchestration are inadequate for the scale and speed that agentic AI demands.",
+            "Most enterprises today operate with siloed AI implementations that do not communicate or coordinate across functions."
           ]
         }
       ],
@@ -4604,6 +6402,43 @@
           "quotes": [
             "Agentic AI customer service architecture uses a three-tier model: a master agent (customer support agent at the top), an orchestrator agent (customer support agent in the middle), and micro-agents at the bottom (user experience agent, FAQ agent, issue resolution agent, status updates agent, feedback collection agent, and Nth agent)."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "The Workflow Tier delivers automation through five core patterns.",
+            "Prompt Chaining is the first workflow pattern, sequencing multiple prompts for complex tasks.",
+            "Routing is the second workflow pattern, directing tasks to specialized agents or models.",
+            "Parallelization is the third workflow pattern, running multiple agent tasks concurrently."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Most organizations will need to support a mix of frameworks."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Living ecosystems of modular applications represent an evolutionary step beyond microservices architecture toward continuously adaptive systems."
+          ]
+        },
+        {
+          "id": "source-052",
+          "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
+          "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
+          "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -4708,6 +6543,33 @@
           "quotes": [
             "Transboundary Orchestration: Agents orchestrate work across organizational silos, breaking down departmental boundaries that limit traditional process automation."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Concentrate approximately 80% of efforts on end-to-end workflow redesign and new offerings, with only 20% on broad AI deployment.",
+            "To create real value and distinctive advantage, concentrate resources on reshaping end-to-end workflows and inventing new, revenue-generating business models."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "This means removing unnecessary steps, redefining roles, consolidating tasks, and ensuring logic is sound before automating.",
+            "AI agents operate on the basis of knowledge, so organizations must explicitly define best practices for each process."
+          ]
+        },
+        {
+          "id": "source-047",
+          "title": "AI and Transformations: The Enterprise Power Couple",
+          "author": "KPMG US",
+          "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -4753,6 +6615,18 @@
           "url": "https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/",
           "quotes": [
             "Agentic AI significantly enhances each ADM phase, making enterprise architecture more agile, data-driven, and continuously optimized."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Self-healing and event-driven architectures are increasing in popularity, and AI-enabled predictive maintenance is widespread.",
+            "AI is set to take over the operating layer, with Artificial Intelligence for IT Operations (AIOps) platforms supporting self-healing systems, managing infrastructure requirements, and detecting anomalies.",
+            "GenAI has the potential to significantly enhance reliability through predictive maintenance, which could reduce system downtime by 50 to 60%.",
+            "Because of this, self-healing systems will become the new standard for efficiency, security, and overall resilience."
           ]
         }
       ],
@@ -4809,6 +6683,40 @@
           "quotes": [
             "The convergence of agentic and generative AI carries profound implications for digital transformation and the future of IT strategy."
           ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Success requires treating agentic AI as a management inflection point requiring investment in systems, structures, skills, and strategy."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "The next decade represents a fundamental transformation in how enterprises operate, with agentic AI as the catalyst."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "The five-year investment horizon signals that organizations view AI as a sustained strategic capability rather than a one-time technology deployment."
+          ]
+        },
+        {
+          "id": "source-047",
+          "title": "AI and Transformations: The Enterprise Power Couple",
+          "author": "KPMG US",
+          "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -4866,6 +6774,24 @@
           "quotes": [
             "Multimodality capabilities allow AI agents to understand, employ reasoning, and interact like humans, enhancing their effectiveness and versatility to solve a wide range of business problems.",
             "Manufacturing -- Siemens AG: Siemens transformed its maintenance operations by deploying AI models that analyse sensor data from machinery. The system predicts equipment failures before they occur, scheduling maintenance proactively. The multimodal framework processes data from various sources -- vibration, temperature, and acoustic signals -- providing a holistic view of equipment health and proactive maintenance orchestrated by the agentic AI models."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "These data sources are critical for agentic reasoning, especially in manual or exception-driven processes where necessary knowledge often resides outside core systems of record or even outside the organization."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "Data analytics and ML systems need to cover more unstructured data assets, as well as an AI as a service (AIaaS) platform and machine learning operations (MLOps) for reuse of common components and efficient deployment of new models."
           ]
         }
       ],
@@ -4941,6 +6867,25 @@
             "Integrated effectively, agentic AI can enhance efficiency, lower costs, improve customer experience, and drive revenue growth.",
             "Agentic AI offers significant advantages in efficiency, decision-making, and customer interaction. By automating routine tasks and providing intelligent insights, agentic AI can help organisations save time, reduce cost, and improve overall productivity."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Architecture is a strategic enabler of resilience, speed, and long-term value.",
+            "We can expect this new breed of architect to be more aligned with the business in terms of strategy and value delivery, while also taking on a more cross-functional, embedded role."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "\"The goal is to improve not just productivity, but revenue, customer experience, risk management, innovation, or decision-making.\""
+          ]
         }
       ],
       "baseline_category": "common"
@@ -4995,6 +6940,16 @@
           "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
           "quotes": [
             "The 3-5 year timeframe for agentic enterprise transformation reflects the scale of foundational changes needed in data, semantics, and infrastructure before agents can operate at scale."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "More than half of organizations commit to sustained AI investment over a five-year horizon.",
+            "The multi-year AI advantage thesis is that early, sustained investment in AI fundamentals creates compounding returns over time."
           ]
         }
       ],
@@ -5052,6 +7007,41 @@
           "quotes": [
             "Technology leaders instead anticipate that the primary value of AI will come from productivity gains."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "70% of AI's potential value is concentrated in core business functions.",
+            "To create real value and distinctive advantage, concentrate resources on reshaping end-to-end workflows and inventing new, revenue-generating business models."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "But when deeply embedded in functional workflows in areas such as sales, development, and product management, the gains compounded\u2014especially after heavy data cleaning and curation as well as continuous high-quality governance."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "\"The goal is to improve not just productivity, but revenue, customer experience, risk management, innovation, or decision-making.\""
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -5114,6 +7104,16 @@
           "url": "https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/",
           "quotes": [
             "Scenario modeling for investment planning."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "Decision cycles that previously required weeks of analysis and committee deliberation can be compressed to minutes or seconds.",
+            "Accelerated decision-making is enabled by AI agents that can gather, analyze, and synthesize information autonomously."
           ]
         }
       ],
@@ -5179,6 +7179,42 @@
           "quotes": [
             "Agentic AI can significantly enhance business efficiency and productivity by automating routine tasks and processes. This allows employees to focus on more strategic and creative activities.",
             "This transition expands the services available to organisations of all sizes, freeing them to focus on strategic priorities while AI systems manage the operational burden. Adopting these AI-driven services positions businesses to stay competitive in an ever-evolving marketplace."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Just as importantly, the precious capacity of technical talent can be redeployed to more value-adding tasks."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Work is moving to teams centered on oversight, orchestration, and continual improvement of agent-driven processes rather than manual delivery."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "This shift will free up engineers to focus on higher-value work like architecture, strategy, and innovation."
+          ]
+        },
+        {
+          "id": "source-043",
+          "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+          "author": "Dan Diasio, Joe Depa (EY)",
+          "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+          "quotes": [
+            "Employee capacity was freed for higher-value work."
           ]
         }
       ],
@@ -5409,6 +7445,49 @@
           "quotes": [
             "Together these technologies create comprehensive automation ecosystems that adapt and optimize continuously."
           ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Processes become living artifacts \u2014 continuously tested, verified, monitored, and adapted."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Prescriptive and predictive analytics, powered by machine learning and Large Language Models (LLMs), have a central role to play in the continuous optimization we foresee."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Continuously learning applications adapt to changing conditions without requiring complete system redesign."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "The autonomous enterprise is not a destination but a continuous evolution toward greater adaptiveness and self-optimization."
+          ]
+        },
+        {
+          "id": "source-046",
+          "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
+          "author": "KPMG International",
+          "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -5610,6 +7689,24 @@
           "quotes": [
             "The cross-functional team model anticipates the human-AI collaboration patterns emerging in AI-native organizations."
           ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "The goal is an \"Agentic Enterprise Operating System\" where human creativity and machine initiative evolve together."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "The second breakthrough is human-AI convergence via autonomous agents that interpret and act on business logic."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -5665,6 +7762,31 @@
             "Meticulous execution -- Start small: Begin with small pilot projects to test the effectiveness of agentic AI in your business environment.",
             "Scale up -- Gradual expansion: Once the pilot projects are successful, gradually scale up the implementation of agentic AI across more areas of your operations."
           ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Organizations that invest in AI essentials now will be positioned to capture disproportionate value as AI capabilities mature."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "In doing so, they established a repeatable playbook that others can now follow\u2014grounded in robust methodology, analytic tools, and clear benchmarks."
+          ]
+        },
+        {
+          "id": "source-054",
+          "title": "AI Giants Are Rewriting the Enterprise Playbook",
+          "author": "Sebastian Ahrens (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -5720,6 +7842,15 @@
           "url": "https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/",
           "quotes": [
             "As agentic AI becomes embedded in enterprise architecture tools, it's not just automating tasks \u2014 it's redefining the architect's role."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "As software development becomes increasingly like building with blocks (think cloud services and ready-made APIs), architects will embed themselves in agile teams and help to manage living systems."
           ]
         }
       ],
@@ -5862,6 +7993,16 @@
           "quotes": [
             "Whether in productivity or in prototyping, companies are picking their pilots carefully \u2014 Providence, a healthcare organisation, explains its approach of being 'very methodical and very intentional' to avoid the mindset of 'spray and pray'."
           ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Much of AI's value depends on how clearly an organization defines its desired outcomes.",
+            "When workflows and decision rules are written down and maintained, AI can amplify what already works instead of patching what does not."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -5998,6 +8139,22 @@
           "quotes": [
             "GenAI aligned with TOGAF methodology can reshape both business and IT landscapes across all four TOGAF architecture domains (Business, Data, Application, Technology)."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Enterprise Architecture Management (EAM) frameworks are a major advantage when it comes to adopting new technologies in a structured, thoughtful way."
+          ]
+        },
+        {
+          "id": "source-053",
+          "title": "Enterprise Architecture in Swiss SMEs",
+          "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -6188,6 +8345,50 @@
           "quotes": [
             "Agentic AI, differentiated by its advanced human-like reasoning and interaction capabilities, is transforming the manufacturing, healthcare, finance, retail, transportation, and energy sectors, among others."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Without proper integration, AI adds complexity, increases risk, and obscures decision logic."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "Generative AI will affect systems across the entire enterprise."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "The five trends are interconnected \u2014 AI as backbone drives Cloud 3.0 requirements, which enables Intelligent Ops, all underpinned by sovereignty principles."
+          ]
+        },
+        {
+          "id": "source-043",
+          "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+          "author": "Dan Diasio, Joe Depa (EY)",
+          "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+          "quotes": [
+            "AI should be the architectural principle, not the add-on.",
+            "The seven-tier model positions AI as the organizing principle for the entire enterprise rather than a supplementary tool."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -6338,6 +8539,42 @@
           "quotes": [
             "With greatly expanded guidance and how-to material, the TOGAF Standard 10th Edition enables organizations to operate in an efficient and effective way across a broad range of use-cases, including agile enterprises and Digital Transformation."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Making critical decisions regarding the trade-off between incremental modernization and the rapid adoption of new technologies will remain a core focus for architects, with hype-driven decisions presenting a significant risk."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Companies should maintain an architectural North Star but sustain progress with fit-for-purpose, domain-specific, and human-in-the-loop builds for the foreseeable future.",
+            "Take a principled but flexible view of architecture. Balance long-term vision with flexible, domain-specific solutions to keep pace with AI's progress."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "The transform now versus build tomorrow balance requires dual-track investment strategies.",
+            "Balance transform now and build tomorrow \u2014 efficiency today and reinvention for the future."
+          ]
+        },
+        {
+          "id": "source-053",
+          "title": "Enterprise Architecture in Swiss SMEs",
+          "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -6411,6 +8648,62 @@
           "quotes": [
             "Assess capabilities -- Technology infrastructure: Is your IT environment ready for AI integration?"
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Workflow Tier"
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "Multitenant systems are more efficient than single-tenant environments because they can expand in response to demand and operate across global networks."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Cloud becomes the operational backbone for AI.",
+            "Cloud architecture decisions are no longer purely about cost optimization but about enabling AI workloads at scale."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
+        },
+        {
+          "id": "source-046",
+          "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
+          "author": "KPMG International",
+          "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -6475,6 +8768,40 @@
           "quotes": [
             "Data architecture constraints: Current enterprise data architectures, built around extract, transform, load (ETL) processes and data warehouses, create friction for agent deployment."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Distributed architectures built on APIs are bringing the era of static, monolithic systems to an end."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Most companies aren't ready: Capturing full value requires rethinking systems, data, and governance to support scalable, safe agent deployment."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Enterprise reality: Data isn't clean, and privacy, security, and intellectual property are real concerns."
+          ]
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -6523,6 +8850,23 @@
             "After years of tension between on-premise control and cloud elasticity, 2026 brings true convergence.",
             "Hybrid infrastructure transitions from compromise between legacy and cloud systems to 'the architectural backbone that enables intelligence at scale.'"
           ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Cloud is entering its next evolution \u2014 a phase where hybrid, private, multi-cloud and sovereign architectures are no longer niche but fundamental.",
+            "Fine-tuning on proprietary data, managing data sensitivity, and deploying low-latency inference push organizations toward hybrid, private, multi-cloud, and sovereign cloud models."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -6579,6 +8923,24 @@
           "quotes": [
             "These protocols represent the foundational layer for what experts describe as a 'microservices approach to AI': deploying numerous smaller, specialized agents across various platforms closer to where workflow instructions and data reside."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Microservices, event-driven patterns, and low-code platforms will increasingly become central architectural features, promoting changeability and scalability."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Monolithic enterprise backbones evolve into living ecosystems of intelligent, modular, continuously learning applications."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -6625,6 +8987,39 @@
           "quotes": [
             "Revenue growth has been the least effective metric for justifying investment to date, with experts arguing that AI returns will take time to accrue given the need for experimentation, iteration and digital infrastructure overhauls."
           ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "At the same time, organizations must manage the volatility of compute costs through dynamic resource allocation, edge deployment strategies, and AI-native financial operations practices."
+          ]
+        },
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "AI FinOps is positioned as the key ROI measurement mechanism for managing and optimizing AI spend across the enterprise.",
+            "Institutionalizing AI FinOps enables organizations to move from ad hoc AI spending to disciplined financial management of AI investments."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -6736,6 +9131,49 @@
             "Vision alignment -- Start with high-impact use cases: Identify areas where AI can deliver significant value quickly. Prioritise projects that address pressing challenges or offer substantial benefits, such as cost reduction or revenue growth, to demonstrate AI ROI early on.",
             "Meticulous execution -- Start small: Begin with small pilot projects to test the effectiveness of agentic AI in your business environment."
           ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Focus on a few \"reshape and invent\" big bets."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Focus on a few business domains to generate early value, rather than just building capabilities."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Take a principled but flexible view of architecture. Expect domain-specific platforms, not one-size-fits-all enterprise systems\u2014for example, tailored solutions for supply chain, sales, and other key domains."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "The solution was to narrow from breadth to depth \u2014 from 800+ use cases to 20 key opportunities."
+          ]
+        },
+        {
+          "id": "source-053",
+          "title": "Enterprise Architecture in Swiss SMEs",
+          "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -6790,6 +9228,15 @@
           "url": "https://ieeexplore.ieee.org/document/11166932/",
           "quotes": [
             "Enterprise architecture patterns enable operational efficiency gains by providing structured approaches to AI service deployment, integration, and management."
+          ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "The five critical questions span AI capabilities, data management, cloud infrastructure, and integration methodologies."
           ]
         }
       ],
@@ -6854,6 +9301,15 @@
           "url": "https://www.google.com/search?q=Agentic+AI+%E2%80%94+the+new+frontier+in+GenAI%3A+An+executive+playbook",
           "quotes": [
             "Agentic AI systems can analyse vast amounts of data quickly and accurately, providing valuable insights to inform better decision-making. Businesses can leverage these insights to optimise revenue and operations, identify market trends, and make data-driven decisions."
+          ]
+        },
+        {
+          "id": "source-042",
+          "title": "Agentic AI and the Enterprise of Tomorrow",
+          "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+          "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+          "quotes": [
+            "Agentic AI enables organizations to shift from reactive to anticipatory operations by continuously monitoring signals and predicting disruptions."
           ]
         }
       ],
@@ -6961,6 +9417,16 @@
           "quotes": [
             "The core argument is that enterprise architects must evolve into four new strategic roles."
           ]
+        },
+        {
+          "id": "source-032",
+          "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+          "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+          "quotes": [
+            "The Enterprise AI Architect role sits at the intersection of business strategy, technical AI capabilities, and governance policy.",
+            "Bridging technical and business language gaps."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -7015,6 +9481,15 @@
           "url": "https://www.boc-group.com/en/blog/ea/ea-outlook-trends-2025/",
           "quotes": [
             "AI also accelerates the decision-making process, providing leaders with actionable intelligence in real-time."
+          ]
+        },
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "Organizations capable of rapid innovation adoption while maintaining governance and interoperability will capture disproportionate market advantages."
           ]
         }
       ],
@@ -7134,6 +9609,16 @@
           "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
           "quotes": [
             "Today's traditional enterprises face operational challenges: information siloes, employees buried in manual work, misaligned incentives in organizational structures, and disjointed feedback loops between strategies and outcomes."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "The lack of documentation and accessible information slows decision making and constrains growth.",
+            "Most companies can define more of their work than they realize, but vital knowledge often hides in binders and spreadsheets, in side conversations, or in people's heads."
           ]
         }
       ],
@@ -7345,6 +9830,41 @@
           "quotes": [
             "The AI Architect role is a demand-driven necessity, not a nice-to-have."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Architects won't just design systems\u2014they will architect platforms for autonomy, adaptability, and sustained strategic advantage."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "The upcoming year will see AI become the backbone of enterprise architecture."
+          ]
+        },
+        {
+          "id": "source-043",
+          "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+          "author": "Dan Diasio, Joe Depa (EY)",
+          "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+          "quotes": [
+            "Rather than incrementally adding AI to existing systems, EY proposes building organizations from the ground up with AI integration as a foundational principle.",
+            "The core philosophy is ground-up redesign rather than incremental AI bolt-on."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -7448,6 +9968,24 @@
           "quotes": [
             "The AI Architect role is a demand-driven necessity, not a nice-to-have."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Once gatekeepers of rigid standards and long-term roadmaps, enterprise architects are becoming collaborative technology advisors that design and oversee modular systems in real-time.",
+            "We can expect this new breed of architect to be more aligned with the business in terms of strategy and value delivery, while also taking on a more cross-functional, embedded role.",
+            "Gen AI tooling blurs lines between Enterprise and Solution architecture."
+          ]
+        },
+        {
+          "id": "source-053",
+          "title": "Enterprise Architecture in Swiss SMEs",
+          "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -7502,6 +10040,32 @@
           "quotes": [
             "Whether through energy-efficient systems, sustainable supply chains, or reducing the carbon footprint of IT infrastructures, businesses can enhance their reputation and cut costs by embracing green architectures."
           ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "We believe Green IT is a significant opportunity to create smarter, more efficient systems.",
+            "Architects' priorities will continue to include translating business strategy into tech capabilities and driving change when it comes to real-world concerns like the environmental impact of IT operations."
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "EY transformation efforts demonstrate that responsible, practical and strategic AI applications can lead to a more equitable and sustainable future."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
         }
       ],
       "baseline_category": "additional"
@@ -7594,6 +10158,22 @@
           "quotes": [
             "The entry point concept allows organizations to identify specific, actionable locations within their architecture where AI can be introduced incrementally."
           ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Delivering value early helps fund the rest of an agentic transformation."
+          ]
+        },
+        {
+          "id": "source-053",
+          "title": "Enterprise Architecture in Swiss SMEs",
+          "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"
@@ -7642,6 +10222,15 @@
           "quotes": [
             "This represents a significant evolution of traditional enterprise architecture layering models, adding an intelligent orchestration layer between business processes and underlying systems."
           ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Agentic AI systems should be managed more like a human coworker than like a traditional tool, requiring dynamic, risk-based governance models."
+          ]
         }
       ],
       "baseline_category": "new"
@@ -7689,6 +10278,24 @@
           "url": "https://sloanreview.mit.edu/article/why-you-yes-you-need-enterprise-architecture/",
           "quotes": [
             "Traditional management separates IT (systems), functional leaders (processes), and business managers (people) \u2014 EA integrates these into unified component teams."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "People and processes account for 70% of AI transformation work."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "The 10/20/70 rule applies: 10% algorithms, 20% tech, 70% people and processes."
           ]
         }
       ],
@@ -7757,6 +10364,42 @@
             "Agentic AI can significantly enhance business efficiency and productivity by automating routine tasks and processes. This allows employees to focus on more strategic and creative activities.",
             "This transition expands the services available to organisations of all sizes, freeing them to focus on strategic priorities while AI systems manage the operational burden. Adopting these AI-driven services positions businesses to stay competitive in an ever-evolving marketplace."
           ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Work is moving to teams centered on oversight, orchestration, and continual improvement of agent-driven processes rather than manual delivery.",
+            "Middle management layers will shrink; new roles emphasize orchestration over oversight.",
+            "As AI agents handle routine execution, the traditional operating model will be radically altered."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "AI agents are also poised to transform how engineering teams operate, taking on more of the day-to-day development, testing, deployment, and system operations."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Developers will specify outcomes while AI generates and maintains components, shortening delivery cycles and improving quality."
+          ]
+        },
+        {
+          "id": "source-052",
+          "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
+          "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
+          "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
+          "quotes": []
         }
       ],
       "baseline_category": "common"

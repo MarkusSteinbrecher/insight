@@ -1,0 +1,306 @@
+source_id: source-038
+title: 'Updating Enterprise Technology to Scale to "AI Everywhere"'
+url: 'https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/'
+author: 'Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)'
+date: 2024-09-25
+total_segments: 41
+composition:
+  recommendation: { count: 17, pct: 41.5 }
+  claim: { count: 15, pct: 36.6 }
+  noise: { count: 5, pct: 12.2 }
+  context: { count: 2, pct: 4.9 }
+  evidence: { count: 2, pct: 4.9 }
+  definition: { count: 0, pct: 0.0 }
+  statistic: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+signal_ratio: 87.8
+segments:
+- id: seg-001
+  text: 'Updating Enterprise Technology to Scale to "AI Everywhere"'
+  type: noise
+  section: Header
+  position: 1
+  source_format: heading
+  metadata: {}
+- id: seg-002
+  text: 'The rapid adoption of generative AI has CIOs managing significant changes in the ways that work gets done.'
+  type: context
+  section: Header
+  position: 2
+  source_format: prose
+  metadata: {}
+- id: seg-003
+  text: 'At a Glance'
+  type: noise
+  section: At a Glance
+  position: 3
+  source_format: heading
+  metadata: {}
+- id: seg-004
+  text: "Companies can't scale their AI solutions without also reshaping their technology function to enable this massive shift."
+  type: claim
+  section: At a Glance
+  position: 4
+  source_format: bullet
+  metadata: {}
+- id: seg-005
+  text: 'Taking an "AI everywhere" approach to re-architecting the tech stack is a critical, foundational step.'
+  type: claim
+  section: At a Glance
+  position: 5
+  source_format: bullet
+  metadata: {}
+- id: seg-006
+  text: 'Equally important will be upgrading current ways of working to make the best use of new AI solutions, which will require bringing the discipline of software development to the adoption of AI models.'
+  type: claim
+  section: At a Glance
+  position: 6
+  source_format: bullet
+  metadata: {}
+- id: seg-007
+  text: "This article is part of Bain's 2024 Technology Report."
+  type: noise
+  section: At a Glance
+  position: 7
+  source_format: prose
+  metadata: {}
+- id: seg-008
+  text: 'Companies are moving beyond the experimentation phase of proofs of concept and minimum viable products, and beginning to scale up generative AI across the organization.'
+  type: context
+  section: Main Article
+  position: 8
+  source_format: prose
+  metadata: {}
+- id: seg-009
+  text: 'As they do, CIOs will need to own, develop, and maintain production-grade AI solutions while efficiently delivering them at scale.'
+  type: claim
+  section: Main Article
+  position: 9
+  source_format: prose
+  metadata: {}
+- id: seg-010
+  text: 'At the same time, they will need to enhance their own function''s productivity with the generative AI tools they are deploying to the rest of the organization.'
+  type: claim
+  section: Main Article
+  position: 10
+  source_format: prose
+  metadata: {}
+- id: seg-011
+  text: 'This will fundamentally reshape the technology function across architecture, operating models, talent, and funding approaches, in several important ways:'
+  type: claim
+  section: Main Article
+  position: 11
+  source_format: prose
+  metadata: {}
+- id: seg-012
+  text: 'Re-architecting the entire tech stack with an "AI everywhere" approach, integrating machine learning (ML) and generative AI'
+  type: recommendation
+  section: Main Article
+  position: 12
+  source_format: bullet
+  metadata: {}
+- id: seg-013
+  text: 'Upgrading ways of working to incorporate AI solution development across product management, software development, operations, and support processes'
+  type: recommendation
+  section: Main Article
+  position: 13
+  source_format: bullet
+  metadata: {}
+- id: seg-014
+  text: 'Upskilling engineering teams to integrate, test, and scale AI systems to production grade, while using AI tools to boost engineering productivity'
+  type: recommendation
+  section: Main Article
+  position: 14
+  source_format: bullet
+  metadata: {}
+- id: seg-015
+  text: 'Redefining the mix of tech spending to support AI investments and infrastructure run costs, capturing the efficiencies from AI in areas like software development and service management'
+  type: recommendation
+  section: Main Article
+  position: 15
+  source_format: bullet
+  metadata: {}
+- id: seg-016
+  text: 'Reviewing risk management and governance to successfully deploy and upgrade AI models'
+  type: recommendation
+  section: Main Article
+  position: 16
+  source_format: bullet
+  metadata: {}
+- id: seg-017
+  text: 'While all five of these processes will reshape the technology function, the first two—architecture with AI everywhere and upgrading ways of working—are the critical foundations to get right first.'
+  type: claim
+  section: Main Article
+  position: 17
+  source_format: prose
+  metadata: {}
+- id: seg-018
+  text: 'Architecture with AI everywhere'
+  type: noise
+  section: Architecture with AI Everywhere
+  position: 18
+  source_format: heading
+  metadata: {}
+- id: seg-019
+  text: 'Generative AI will affect systems across the entire enterprise.'
+  type: claim
+  section: Architecture with AI Everywhere
+  position: 19
+  source_format: prose
+  metadata: {}
+- id: seg-020
+  text: 'Operational systems with significant unstructured data will face substantial re-architecting due to generative AI''s ability to make use of previously underutilized data sources.'
+  type: claim
+  section: Architecture with AI Everywhere
+  position: 20
+  source_format: prose
+  metadata: {}
+- id: seg-021
+  text: 'In our experience, the most common solution patterns for generative AI use cases in operational systems fall within the areas of content generation, knowledge management, and reporting and documentation.'
+  type: evidence
+  section: Architecture with AI Everywhere
+  position: 21
+  source_format: prose
+  metadata: {}
+- id: seg-022
+  text: 'CIOs and other tech buyers will need to decide between building or buying generative AI solutions for these uses, based on the potential competitive advantage and the cost and capability required.'
+  type: recommendation
+  section: Architecture with AI Everywhere
+  position: 22
+  source_format: prose
+  metadata: {}
+- id: seg-023
+  text: 'Currently, many companies are building or tailoring the solutions they need using foundation models because the necessary commercial solutions are not yet ready.'
+  type: evidence
+  section: Architecture with AI Everywhere
+  position: 23
+  source_format: prose
+  metadata: {}
+- id: seg-024
+  text: 'Buying may become more practical and popular as existing software-as-a-service (SaaS) solutions incorporate generative AI.'
+  type: claim
+  section: Architecture with AI Everywhere
+  position: 24
+  source_format: prose
+  metadata: {}
+- id: seg-025
+  text: 'Integration, workflow, and orchestration systems will need to work seamlessly with AI models to enable more complex automation workflows.'
+  type: claim
+  section: Architecture with AI Everywhere
+  position: 25
+  source_format: prose
+  metadata: {}
+- id: seg-026
+  text: 'Additionally, generative AI accelerates the need for modernizing enterprise architecture, such as adopting API-driven integrations and cloud-first infrastructure, to deploy generative AI solutions more effectively.'
+  type: claim
+  section: Architecture with AI Everywhere
+  position: 26
+  source_format: prose
+  metadata: {}
+- id: seg-027
+  text: 'Over time, workflow and orchestration systems could be powered or replaced by agentic AI that can act semi-autonomously, as that capability matures.'
+  type: claim
+  section: Architecture with AI Everywhere
+  position: 27
+  source_format: prose
+  metadata: {}
+- id: seg-028
+  text: 'Data analytics and ML systems need to cover more unstructured data assets, as well as an AI as a service (AIaaS) platform and machine learning operations (MLOps) for reuse of common components and efficient deployment of new models.'
+  type: recommendation
+  section: Architecture with AI Everywhere
+  position: 28
+  source_format: prose
+  metadata: {}
+- id: seg-029
+  text: 'Data platform capabilities will need to be strengthened to incorporate more unstructured data sets (and treat them with the same discipline as structured ones), shared data catalogues, data versioning, and data lineage supported by data product teams.'
+  type: recommendation
+  section: Architecture with AI Everywhere
+  position: 29
+  source_format: prose
+  metadata: {}
+- id: seg-030
+  text: 'To enable use of approved models and common components (e.g., vector indexing or retrieval augmented generation) across use cases, an integrated AIaaS platform, rather than point solutions, needs to be created for each use case.'
+  type: recommendation
+  section: Architecture with AI Everywhere
+  position: 30
+  source_format: prose
+  metadata: {}
+- id: seg-031
+  text: 'Upgraded ways of working'
+  type: noise
+  section: Upgraded Ways of Working
+  position: 31
+  source_format: heading
+  metadata: {}
+- id: seg-032
+  text: 'As generative AI model use cases get deployed across critical systems and complexity increases (for example, daisy-chained AI use cases), it will put further demands on collaboration, quality control, reliability, and scalability.'
+  type: claim
+  section: Upgraded Ways of Working
+  position: 32
+  source_format: prose
+  metadata: {}
+- id: seg-033
+  text: 'AI models will need to be treated with the same discipline as software code by adopting MLOps processes that use DevOps to manage models through their life cycle.'
+  type: recommendation
+  section: Upgraded Ways of Working
+  position: 33
+  source_format: prose
+  metadata: {}
+- id: seg-034
+  text: 'Companies should set up a federated AI development model in line with the AIaaS platform.'
+  type: recommendation
+  section: Upgraded Ways of Working
+  position: 34
+  source_format: prose
+  metadata: {}
+- id: seg-035
+  text: 'This should define the roles of teams that produce and consume AI services, as well as the processes for federated contribution and how datasets and models are to be shared.'
+  type: recommendation
+  section: Upgraded Ways of Working
+  position: 35
+  source_format: prose
+  metadata: {}
+- id: seg-036
+  text: 'Given the pace of evolution of generative AI, it is also imperative to create AI-first software development processes that allow for rapid iteration of new solutions and architectures.'
+  type: recommendation
+  section: Upgraded Ways of Working
+  position: 36
+  source_format: prose
+  metadata: {}
+- id: seg-037
+  text: 'Agile teams need to factor in dependencies between applications, AI models, and data teams.'
+  type: recommendation
+  section: Upgraded Ways of Working
+  position: 37
+  source_format: prose
+  metadata: {}
+- id: seg-038
+  text: 'Software development and service management processes should also adopt generative AI tools, including coding assistants, knowledge management, and error detection.'
+  type: recommendation
+  section: Upgraded Ways of Working
+  position: 38
+  source_format: prose
+  metadata: {}
+- id: seg-039
+  text: 'Clear guidelines are required on how to deploy these tools, regularly monitor their impact, and manage risks.'
+  type: recommendation
+  section: Upgraded Ways of Working
+  position: 39
+  source_format: prose
+  metadata: {}
+- id: seg-040
+  text: 'Many of these choices will need to be made in a landscape of rapidly evolving generative AI technologies, necessitating some no-regret moves now while maintaining flexibility to adapt.'
+  type: recommendation
+  section: Upgraded Ways of Working
+  position: 40
+  source_format: prose
+  metadata: {}
+- id: seg-041
+  text: 'As a result, this topic will become a priority for CIOs, creating significant change in the function, far beyond what we have seen in recent years.'
+  type: claim
+  section: Upgraded Ways of Working
+  position: 41
+  source_format: prose
+  metadata: {}

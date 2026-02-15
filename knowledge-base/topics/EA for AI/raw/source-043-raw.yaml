@@ -1,0 +1,404 @@
+source_id: source-043
+title: 'EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises'
+url: https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises
+author: 'Dan Diasio, Joe Depa (EY)'
+date: 2025-12-08
+total_segments: 46
+
+composition:
+  claim: { count: 12, pct: 26.1 }
+  definition: { count: 8, pct: 17.4 }
+  recommendation: { count: 6, pct: 13.0 }
+  context: { count: 5, pct: 10.9 }
+  evidence: { count: 5, pct: 10.9 }
+  statistic: { count: 3, pct: 6.5 }
+  example: { count: 2, pct: 4.3 }
+  attribution: { count: 2, pct: 4.3 }
+  noise: { count: 3, pct: 6.5 }
+
+signal_ratio: 93.5
+
+segments:
+- id: seg-001
+  text: 'EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises'
+  type: noise
+  section: Title
+  position: 1
+  source_format: heading
+  metadata: {}
+
+- id: seg-002
+  text: 'December 8, 2025 | London, United Kingdom'
+  type: noise
+  section: Header
+  position: 2
+  source_format: prose
+  metadata: {}
+
+- id: seg-003
+  text: 'EY introduced EY.ai Value Blueprints, a comprehensive suite designed to help organizations transform into AI-native enterprises.'
+  type: context
+  section: Overview
+  position: 3
+  source_format: prose
+  metadata: {}
+
+- id: seg-004
+  text: 'The initiative addresses a significant market challenge: 87% of senior leaders report substantial barriers to adopting agentic AI.'
+  type: statistic
+  section: Overview
+  position: 4
+  source_format: prose
+  metadata:
+    metric: Senior leaders reporting barriers to agentic AI adoption
+    value: 87
+    unit: '%'
+    population: Senior leaders
+
+- id: seg-005
+  text: 'The announcement coincides with widespread executive struggles in implementing agentic AI solutions.'
+  type: context
+  section: Core Problem
+  position: 5
+  source_format: prose
+  metadata: {}
+
+- id: seg-006
+  text: 'Rather than incrementally adding AI to existing systems, EY proposes building organizations from the ground up with AI integration as a foundational principle.'
+  type: claim
+  section: Core Problem
+  position: 6
+  source_format: prose
+  metadata: {}
+
+- id: seg-007
+  text: 'EY.ai Value Blueprints operates through seven interconnected architectural tiers.'
+  type: definition
+  section: Seven-Tier Framework
+  position: 7
+  source_format: prose
+  metadata: {}
+
+- id: seg-008
+  text: 'Customer — New experiences, products, and business models'
+  type: definition
+  section: Seven-Tier Framework
+  position: 8
+  source_format: bullet
+  metadata: {}
+
+- id: seg-009
+  text: 'Workforce — Collaborative human-AI models with role-based interfaces'
+  type: definition
+  section: Seven-Tier Framework
+  position: 9
+  source_format: bullet
+  metadata: {}
+
+- id: seg-010
+  text: 'Processes — AI-enabled methodology and accelerators'
+  type: definition
+  section: Seven-Tier Framework
+  position: 10
+  source_format: bullet
+  metadata: {}
+
+- id: seg-011
+  text: 'Trust — Responsible AI frameworks with controls and security'
+  type: definition
+  section: Seven-Tier Framework
+  position: 11
+  source_format: bullet
+  metadata: {}
+
+- id: seg-012
+  text: 'Intelligence — Enterprise knowledge encoding and advanced analytics'
+  type: definition
+  section: Seven-Tier Framework
+  position: 12
+  source_format: bullet
+  metadata: {}
+
+- id: seg-013
+  text: 'Agentic Platform — Technology infrastructure supporting AI at scale'
+  type: definition
+  section: Seven-Tier Framework
+  position: 13
+  source_format: bullet
+  metadata: {}
+
+- id: seg-014
+  text: 'Systems of Record — Reliable data connectors for agents and humans'
+  type: definition
+  section: Seven-Tier Framework
+  position: 14
+  source_format: bullet
+  metadata: {}
+
+- id: seg-015
+  text: 'The seven tiers form interconnected layers of an AI-native organization.'
+  type: claim
+  section: Seven-Tier Framework
+  position: 15
+  source_format: prose
+  metadata: {}
+
+- id: seg-016
+  text: 'The framework is structured around seven essential tiers forming interconnected layers that span from customer experience design through to systems of record architecture.'
+  type: claim
+  section: Seven-Tier Framework
+  position: 16
+  source_format: prose
+  metadata: {}
+
+- id: seg-017
+  text: 'AI should be the architectural principle, not the add-on.'
+  type: claim
+  section: Core Philosophy
+  position: 17
+  source_format: prose
+  metadata: {}
+
+- id: seg-018
+  text: 'Organizations choosing incremental adoption risk being outmaneuvered by competitors who rebuild from the foundation.'
+  type: claim
+  section: Core Philosophy
+  position: 18
+  source_format: prose
+  metadata: {}
+
+- id: seg-019
+  text: 'The core philosophy is ground-up redesign rather than incremental AI bolt-on.'
+  type: claim
+  section: Core Philosophy
+  position: 19
+  source_format: prose
+  metadata: {}
+
+- id: seg-020
+  text: 'A global healthcare client utilized EY.ai Value Blueprints for order-to-cash processes.'
+  type: example
+  section: Real-World Application
+  position: 20
+  source_format: prose
+  metadata: {}
+
+- id: seg-021
+  text: 'The healthcare implementation achieved reduced manual work and streamlined order processing.'
+  type: evidence
+  section: Real-World Application
+  position: 21
+  source_format: prose
+  metadata: {}
+
+- id: seg-022
+  text: 'Customer self-service improvements were delivered alongside faster response times.'
+  type: evidence
+  section: Real-World Application
+  position: 22
+  source_format: prose
+  metadata: {}
+
+- id: seg-023
+  text: 'The implementation enhanced engagement and increased loyalty.'
+  type: evidence
+  section: Real-World Application
+  position: 23
+  source_format: prose
+  metadata: {}
+
+- id: seg-024
+  text: 'Stronger revenue protection was achieved through the AI-native approach.'
+  type: evidence
+  section: Real-World Application
+  position: 24
+  source_format: prose
+  metadata: {}
+
+- id: seg-025
+  text: 'Employee capacity was freed for higher-value work.'
+  type: evidence
+  section: Real-World Application
+  position: 25
+  source_format: prose
+  metadata: {}
+
+- id: seg-026
+  text: '"Build the organization of the future from the ground up, with autonomous systems fully integrated — not just added on later."'
+  type: attribution
+  section: Leadership Perspective
+  position: 26
+  source_format: quote
+  metadata:
+    speaker: Dan Diasio
+    role: EY Global AI Consulting Leader
+
+- id: seg-027
+  text: 'Dan Diasio, EY Global AI Consulting Leader, emphasized that this approach fundamentally changes how businesses operate rather than slowly layering technology onto legacy systems.'
+  type: attribution
+  section: Leadership Perspective
+  position: 27
+  source_format: prose
+  metadata:
+    speaker: Dan Diasio
+    role: EY Global AI Consulting Leader
+
+- id: seg-028
+  text: 'Customer experience design is the first tier, focused on new experiences, products, and business models.'
+  type: recommendation
+  section: Seven-Tier Framework Detail
+  position: 28
+  source_format: prose
+  metadata: {}
+
+- id: seg-029
+  text: 'Workforce collaboration models comprise the second tier, establishing collaborative human-AI models with role-based interfaces.'
+  type: recommendation
+  section: Seven-Tier Framework Detail
+  position: 29
+  source_format: prose
+  metadata: {}
+
+- id: seg-030
+  text: 'Process reimagining is the third tier, applying AI-enabled methodology and accelerators to transform existing processes.'
+  type: recommendation
+  section: Seven-Tier Framework Detail
+  position: 30
+  source_format: prose
+  metadata: {}
+
+- id: seg-031
+  text: 'Trust and security controls form the fourth tier, embedding responsible AI frameworks with governance controls and security measures.'
+  type: recommendation
+  section: Seven-Tier Framework Detail
+  position: 31
+  source_format: prose
+  metadata: {}
+
+- id: seg-032
+  text: 'Intelligence systems are the fifth tier, focused on enterprise knowledge encoding and advanced analytics capabilities.'
+  type: recommendation
+  section: Seven-Tier Framework Detail
+  position: 32
+  source_format: prose
+  metadata: {}
+
+- id: seg-033
+  text: 'Agentic platform infrastructure is the sixth tier, providing the technology infrastructure to support AI at scale.'
+  type: recommendation
+  section: Seven-Tier Framework Detail
+  position: 33
+  source_format: prose
+  metadata: {}
+
+- id: seg-034
+  text: 'The seven-tier model positions AI as the organizing principle for the entire enterprise rather than a supplementary tool.'
+  type: claim
+  section: Framework Analysis
+  position: 34
+  source_format: prose
+  metadata: {}
+
+- id: seg-035
+  text: 'EY.ai Value Blueprints are designed to address end-to-end transformation, not isolated use cases.'
+  type: claim
+  section: Framework Analysis
+  position: 35
+  source_format: prose
+  metadata: {}
+
+- id: seg-036
+  text: 'The blueprints provide a structured path from strategy through implementation for each tier.'
+  type: claim
+  section: Framework Analysis
+  position: 36
+  source_format: prose
+  metadata: {}
+
+- id: seg-037
+  text: '87% of senior leaders report significant barriers to agentic AI adoption, indicating that the problem is widespread and not limited to technology readiness alone.'
+  type: claim
+  section: Market Context
+  position: 37
+  source_format: prose
+  metadata: {}
+
+- id: seg-038
+  text: 'The barriers span organizational, cultural, and technical dimensions.'
+  type: claim
+  section: Market Context
+  position: 38
+  source_format: prose
+  metadata: {}
+
+- id: seg-039
+  text: 'The Order-to-Cash blueprint demonstrates how the seven-tier model applies to a specific business process.'
+  type: example
+  section: Real-World Application
+  position: 39
+  source_format: prose
+  metadata: {}
+
+- id: seg-040
+  text: 'The healthcare case study shows tangible outcomes across multiple dimensions including efficiency, customer experience, and revenue.'
+  type: context
+  section: Real-World Application
+  position: 40
+  source_format: prose
+  metadata: {}
+
+- id: seg-041
+  text: 'EY positions AI-native transformation as a competitive necessity, not an optional enhancement.'
+  type: claim
+  section: Strategic Positioning
+  position: 41
+  source_format: prose
+  metadata: {}
+
+- id: seg-042
+  text: 'The suite addresses the gap between AI experimentation and enterprise-wide AI integration.'
+  type: context
+  section: Strategic Positioning
+  position: 42
+  source_format: prose
+  metadata: {}
+
+- id: seg-043
+  text: 'The research found that barriers to agentic AI adoption are substantial and affect the majority of organizations attempting deployment.'
+  type: statistic
+  section: Market Context
+  position: 43
+  source_format: prose
+  metadata:
+    metric: Organizations facing barriers
+    value: 87
+    unit: '%'
+    population: Senior leaders
+
+- id: seg-044
+  text: 'Systems of record architecture forms the seventh and foundational tier, providing reliable data connectors for both agents and humans.'
+  type: context
+  section: Seven-Tier Framework Detail
+  position: 44
+  source_format: prose
+  metadata: {}
+
+- id: seg-045
+  text: 'EY.ai Value Blueprints'
+  type: noise
+  section: Footer
+  position: 45
+  source_format: prose
+  metadata: {}
+
+- id: seg-046
+  text: 'The announcement was made as part of the broader EY.ai initiative to accelerate enterprise AI transformation.'
+  type: statistic
+  section: Market Context
+  position: 46
+  source_format: prose
+  metadata:
+    metric: Research sample
+    value: 87
+    unit: '%'
+    population: Senior leaders surveyed

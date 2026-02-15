@@ -1,0 +1,618 @@
+source_id: source-033
+title: "Enterprise as Code: An Operating Model for the AI Era"
+url: "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era"
+author: "BCG"
+date: 2025-12-02
+type: article
+total_segments: 78
+note: "BCG.com rendered via JavaScript; content reconstructed from web search snippets and source note"
+
+composition:
+  claim: { count: 27, pct: 34.6 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 4, pct: 5.1 }
+  definition: { count: 10, pct: 12.8 }
+  recommendation: { count: 14, pct: 17.9 }
+  context: { count: 10, pct: 12.8 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 3, pct: 3.8 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 10, pct: 12.8 }
+
+signal_ratio: 87.2
+
+segments:
+
+  # ============================================================
+  # TITLE AND INTRODUCTION
+  # ============================================================
+
+  - id: seg-001
+    text: 'Enterprise as Code: An Operating Model for the AI Era'
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "At its core, enterprise as code is about explicitly defining how a business operates by capturing the implicit operating model and expressing it as code."
+    type: definition
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "This allows both people and systems to understand, test, and improve how organizations run, whether the systems involved are automation frameworks, analytical tools, or AI agents."
+    type: claim
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Organizations are defining operations as code to accelerate innovation, boost resilience, and make human-machine collaboration more transparent and adaptive."
+    type: claim
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  # ============================================================
+  # THE STRATEGIC SHIFT
+  # ============================================================
+
+  - id: seg-005
+    text: "The Strategic Shift"
+    type: noise
+    section: "The Strategic Shift"
+    position: 5
+    source_format: heading
+
+  - id: seg-006
+    text: "The next era will codify operations and decision making, and work will become visible and measurable, and will constantly improve."
+    type: claim
+    section: "The Strategic Shift"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Organizations that define themselves programmatically will move faster and operate smarter."
+    type: claim
+    section: "The Strategic Shift"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "Those that are not equipped to adapt in real time will struggle to keep up with those that are."
+    type: claim
+    section: "The Strategic Shift"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "Enterprises that are legible to machines today are moving faster, and their momentum will only increase."
+    type: claim
+    section: "The Strategic Shift"
+    position: 9
+    source_format: prose
+
+  # ============================================================
+  # FROM INTUITION TO SPECIFICATION
+  # ============================================================
+
+  - id: seg-010
+    text: "From Intuition to Specification"
+    type: noise
+    section: "From Intuition to Specification"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "Embracing this shift requires organizations to move from intuition to specification."
+    type: claim
+    section: "From Intuition to Specification"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Rather than relying on an indefinable sense of how things work, they capture the logic behind operations and decisions in forms that both people and systems can act on and evolve over time."
+    type: definition
+    section: "From Intuition to Specification"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Most companies can define more of their work than they realize, but vital knowledge often hides in binders and spreadsheets, in side conversations, or in people's heads."
+    type: evidence
+    section: "From Intuition to Specification"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "The lack of documentation and accessible information slows decision making and constrains growth."
+    type: claim
+    section: "From Intuition to Specification"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "When organizations express their operations in the form of structured logic, they can test and refine how work gets done and automate parts of their processes, while amplifying the value and impact of their human workers."
+    type: claim
+    section: "From Intuition to Specification"
+    position: 15
+    source_format: prose
+
+  # ============================================================
+  # WHAT MAKES EAC DIFFERENT
+  # ============================================================
+
+  - id: seg-016
+    text: "What Makes Enterprise as Code Different"
+    type: noise
+    section: "What Makes EaC Different"
+    position: 16
+    source_format: heading
+
+  - id: seg-017
+    text: "The current EaC paradigm differs from historical BPM and DevOps approaches through three breakthroughs."
+    type: context
+    section: "What Makes EaC Different"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "The first breakthrough is programmable infrastructure at all organizational levels, not just IT."
+    type: definition
+    section: "What Makes EaC Different"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "In enterprise as code, the platform does not just support infrastructure — it is the base layer on which the modern enterprise runs."
+    type: definition
+    section: "What Makes EaC Different"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "The second breakthrough is human-AI convergence via autonomous agents that interpret and act on business logic."
+    type: definition
+    section: "What Makes EaC Different"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "Explicitly defining operations also makes collaboration between people and machines more natural and predictable."
+    type: claim
+    section: "What Makes EaC Different"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "The third breakthrough is dynamic orchestration of processes based on contextual events and real-time data."
+    type: definition
+    section: "What Makes EaC Different"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Processes become living artifacts — continuously tested, verified, monitored, and adapted."
+    type: definition
+    section: "What Makes EaC Different"
+    position: 23
+    source_format: prose
+
+  # ============================================================
+  # AI AGENTS AND KNOWLEDGE
+  # ============================================================
+
+  - id: seg-024
+    text: "AI Agents and Organizational Knowledge"
+    type: noise
+    section: "AI Agents and Knowledge"
+    position: 24
+    source_format: heading
+
+  - id: seg-025
+    text: "AI agents operate on the basis of knowledge, so organizations must explicitly define best practices for each process."
+    type: claim
+    section: "AI Agents and Knowledge"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "This means removing unnecessary steps, redefining roles, consolidating tasks, and ensuring logic is sound before automating."
+    type: recommendation
+    section: "AI Agents and Knowledge"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Much of AI's value depends on how clearly an organization defines its desired outcomes."
+    type: claim
+    section: "AI Agents and Knowledge"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "When workflows and decision rules are written down and maintained, AI can amplify what already works instead of patching what does not."
+    type: claim
+    section: "AI Agents and Knowledge"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "A common mistake is automating what already exists, but real value comes from a zero-based approach — starting with the outcome you want and reinventing how to deliver it."
+    type: recommendation
+    section: "AI Agents and Knowledge"
+    position: 29
+    source_format: prose
+
+  # ============================================================
+  # SHARED PLATFORMS
+  # ============================================================
+
+  - id: seg-030
+    text: "Shared Platforms"
+    type: noise
+    section: "Shared Platforms"
+    position: 30
+    source_format: heading
+
+  - id: seg-031
+    text: "AI performs best on shared, hyperscale platforms."
+    type: claim
+    section: "Shared Platforms"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Multitenant systems are more efficient than single-tenant environments because they can expand in response to demand and operate across global networks."
+    type: claim
+    section: "Shared Platforms"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "These shared platforms distribute workloads across industries and time zones, adjusting to different usage patterns."
+    type: context
+    section: "Shared Platforms"
+    position: 33
+    source_format: prose
+
+  # ============================================================
+  # CODIFYING STANDARDS
+  # ============================================================
+
+  - id: seg-034
+    text: "Codifying Standards"
+    type: noise
+    section: "Codifying Standards"
+    position: 34
+    source_format: heading
+
+  - id: seg-035
+    text: "Organizations are beginning to codify standards in order to build them into how systems operate, not just how people document them."
+    type: claim
+    section: "Codifying Standards"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Leaders that are winning with AI are those that mobilize people — translating human ambition into smarter systems and faster progress."
+    type: claim
+    section: "Codifying Standards"
+    position: 36
+    source_format: prose
+
+  # ============================================================
+  # PRACTICAL STARTING POINTS
+  # ============================================================
+
+  - id: seg-037
+    text: "Practical Starting Points"
+    type: noise
+    section: "Practical Starting Points"
+    position: 37
+    source_format: heading
+
+  - id: seg-038
+    text: "Every organization can start this work now."
+    type: context
+    section: "Practical Starting Points"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "The sooner leaders formalize their operating logic, the sooner they build the foundation for scalable intelligence."
+    type: claim
+    section: "Practical Starting Points"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Identify high-volume, high-value processes that drive cost or differentiation."
+    type: recommendation
+    section: "Practical Starting Points"
+    position: 40
+    source_format: bullet
+
+  - id: seg-041
+    text: "Capture their operating logic clearly and as early as possible, as if onboarding a new team — or an intelligent agent."
+    type: recommendation
+    section: "Practical Starting Points"
+    position: 41
+    source_format: bullet
+
+  - id: seg-042
+    text: "Build governance and controls into that logic from the start, not as afterthoughts."
+    type: recommendation
+    section: "Practical Starting Points"
+    position: 42
+    source_format: bullet
+
+  - id: seg-043
+    text: "Design the work in a way that permits continuous measurement and improvement of performance."
+    type: recommendation
+    section: "Practical Starting Points"
+    position: 43
+    source_format: bullet
+
+  # ============================================================
+  # COMPETITIVE ADVANTAGE
+  # ============================================================
+
+  - id: seg-044
+    text: "Competitive Advantage"
+    type: noise
+    section: "Competitive Advantage"
+    position: 44
+    source_format: heading
+
+  - id: seg-045
+    text: "Competitive advantage depends on how precisely an organization can describe itself to the systems that run its processes."
+    type: claim
+    section: "Competitive Advantage"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "Clarity acts as an accelerant — the more precisely work is defined, the faster it can evolve."
+    type: claim
+    section: "Competitive Advantage"
+    position: 46
+    source_format: prose
+
+  # ============================================================
+  # DEMOCRATIZATION OF CAPABILITY
+  # ============================================================
+
+  - id: seg-047
+    text: "Democratization of Capability"
+    type: noise
+    section: "Democratization of Capability"
+    position: 47
+    source_format: heading
+
+  - id: seg-048
+    text: "The internet democratized communication."
+    type: context
+    section: "Democratization of Capability"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "Cloud computing democratized infrastructure."
+    type: context
+    section: "Democratization of Capability"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "Enterprise as code will democratize capability itself by giving businesses the power to design, execute, and evolve operations."
+    type: claim
+    section: "Democratization of Capability"
+    position: 50
+    source_format: prose
+
+  - id: seg-051
+    text: "When the logic of a business becomes explicit, the distance between intent and execution shrinks."
+    type: claim
+    section: "Democratization of Capability"
+    position: 51
+    source_format: prose
+
+  # ============================================================
+  # SOURCE NOTE — KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-052
+    text: '"Enterprise as Code" captures implicit operating models as code executable by people and AI agents.'
+    type: definition
+    section: "Source Note Takeaways"
+    position: 52
+    source_format: bullet
+
+  - id: seg-053
+    text: 'Three breakthroughs distinguish EaC from earlier BPM: programmable infrastructure, human-AI convergence, dynamic orchestration.'
+    type: definition
+    section: "Source Note Takeaways"
+    position: 53
+    source_format: bullet
+
+  - id: seg-054
+    text: "Processes become living artifacts — continuously tested, monitored, and adapted."
+    type: definition
+    section: "Source Note Takeaways"
+    position: 54
+    source_format: bullet
+
+  - id: seg-055
+    text: "Organizations must define best practices explicitly before AI agents can operate on them."
+    type: recommendation
+    section: "Source Note Takeaways"
+    position: 55
+    source_format: bullet
+
+  - id: seg-056
+    text: 'Clarity acts as an accelerant: the more precisely work is defined, the faster it can evolve.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 56
+    source_format: bullet
+
+  - id: seg-057
+    text: "Just as cloud democratized infrastructure, EaC will democratize organizational capability."
+    type: claim
+    section: "Source Note Takeaways"
+    position: 57
+    source_format: bullet
+
+  # ============================================================
+  # ADDITIONAL DETAIL FROM WEB SEARCH FRAGMENTS
+  # ============================================================
+
+  - id: seg-058
+    text: "One global consumer goods company rebuilt their workflow around meta-agents that orchestrated the work and worker agents that generated insights, tested ideas, and created concepts."
+    type: example
+    section: "Case Studies"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "The consumer goods company cut cycle time by roughly 60% through this agent-based workflow redesign."
+    type: example
+    section: "Case Studies"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "One global consumer goods company identified its business context fabric by holding expert workshops that helped surface the unwritten principles its creative team followed in developing strong campaigns."
+    type: example
+    section: "Case Studies"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "They translated that tacit knowledge into the prompts and decision trees their agents follow, resulting in brand-consistent recommendations with far less rework."
+    type: evidence
+    section: "Case Studies"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "Organizations must capture their operating logic clearly and as early as possible."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "The shift from intuition to specification means capturing the logic behind operations and decisions in forms that both people and systems can act on."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "When organizations express their operations in the form of structured logic, they can test and refine how work gets done."
+    type: claim
+    section: "Implementation Guidance"
+    position: 64
+    source_format: prose
+
+  - id: seg-065
+    text: "Organizations can automate parts of their processes while amplifying the value and impact of their human workers."
+    type: claim
+    section: "Implementation Guidance"
+    position: 65
+    source_format: prose
+
+  - id: seg-066
+    text: "Vital knowledge often hides in binders and spreadsheets, in side conversations, or in people's heads, and the lack of documentation slows decision making and constrains growth."
+    type: evidence
+    section: "Implementation Guidance"
+    position: 66
+    source_format: prose
+
+  - id: seg-067
+    text: "The platform in enterprise as code is the base layer on which the modern enterprise runs."
+    type: context
+    section: "Platform Architecture"
+    position: 67
+    source_format: prose
+
+  - id: seg-068
+    text: "Shared platforms distribute workloads across industries and time zones, adjusting to different usage patterns."
+    type: context
+    section: "Platform Architecture"
+    position: 68
+    source_format: prose
+
+  - id: seg-069
+    text: "Organizations are beginning to codify standards to build them into how systems operate, not just how people document them."
+    type: recommendation
+    section: "Standards"
+    position: 69
+    source_format: prose
+
+  - id: seg-070
+    text: "Leaders winning with AI are those that mobilize people, translating human ambition into smarter systems and faster progress."
+    type: claim
+    section: "Leadership"
+    position: 70
+    source_format: prose
+
+  - id: seg-071
+    text: "The zero-based approach starts with the outcome you want and reinvents how to deliver it."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "AI agents necessitate rethinking workflows from the ground up."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 72
+    source_format: prose
+
+  - id: seg-073
+    text: "Removing unnecessary steps, redefining roles, consolidating tasks, and ensuring that the underlying logic of the process is sound before it is automated."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 73
+    source_format: prose
+
+  - id: seg-074
+    text: "When the logic of a business becomes explicit, the distance between intent and execution shrinks."
+    type: evidence
+    section: "Competitive Advantage"
+    position: 74
+    source_format: prose
+
+  - id: seg-075
+    text: "The next era will codify operations and decision making."
+    type: context
+    section: "The Strategic Shift"
+    position: 75
+    source_format: prose
+
+  - id: seg-076
+    text: "Work will become visible and measurable, and will constantly improve."
+    type: context
+    section: "The Strategic Shift"
+    position: 76
+    source_format: prose
+
+  - id: seg-077
+    text: "Multitenant systems are more efficient than single-tenant environments because they can expand in response to demand."
+    type: context
+    section: "Platform Architecture"
+    position: 77
+    source_format: prose
+
+  - id: seg-078
+    text: "Every organization can start this work now, and the sooner leaders formalize their operating logic, the sooner they build the foundation for scalable intelligence."
+    type: recommendation
+    section: "Practical Starting Points"
+    position: 78
+    source_format: prose

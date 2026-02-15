@@ -1,0 +1,580 @@
+source_id: source-037
+title: 'Building the Foundation for Agentic AI'
+url: 'https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/'
+author: 'Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)'
+date: 2025-09-23
+total_segments: 79
+composition:
+  claim: { count: 30, pct: 38.0 }
+  recommendation: { count: 19, pct: 24.1 }
+  noise: { count: 12, pct: 15.2 }
+  definition: { count: 8, pct: 10.1 }
+  context: { count: 4, pct: 5.1 }
+  example: { count: 4, pct: 5.1 }
+  statistic: { count: 2, pct: 2.5 }
+  evidence: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+signal_ratio: 84.8
+segments:
+- id: seg-001
+  text: 'Building the Foundation for Agentic AI'
+  type: noise
+  section: Header
+  position: 1
+  source_format: heading
+  metadata: {}
+- id: seg-002
+  text: 'Agentic AI is a structural shift in enterprise tech, reshaping companies with agents that can reason, coordinate, and execute complex workflows.'
+  type: claim
+  section: At a Glance
+  position: 2
+  source_format: bullet
+  metadata: {}
+- id: seg-003
+  text: "Most companies aren't ready: Capturing full value requires rethinking systems, data, and governance to support scalable, safe agent deployment."
+  type: claim
+  section: At a Glance
+  position: 3
+  source_format: bullet
+  metadata: {}
+- id: seg-004
+  text: 'Tech leaders should continue to modernize core platforms while prioritizing interoperability, security, and accountability.'
+  type: recommendation
+  section: At a Glance
+  position: 4
+  source_format: bullet
+  metadata: {}
+- id: seg-005
+  text: 'Early movers are focusing their investments on the most valuable areas, building foundational capabilities, and using agents in the transformation.'
+  type: claim
+  section: At a Glance
+  position: 5
+  source_format: bullet
+  metadata: {}
+- id: seg-006
+  text: "Agentic AI isn't just another wave of automation; it's a structural shift in enterprise technology, one with the potential to completely redefine how work gets done."
+  type: claim
+  section: Main Article
+  position: 6
+  source_format: prose
+  metadata: {}
+- id: seg-007
+  text: 'Previous waves of automation tackled parts of processes, leaving exceptions where humans had to step in.'
+  type: context
+  section: Main Article
+  position: 7
+  source_format: prose
+  metadata: {}
+- id: seg-008
+  text: 'AI agents can reason, collaborate, and coordinate actions, allowing them to accomplish complex, multistep, nondeterministic processes that have so far depended on humans.'
+  type: definition
+  section: Main Article
+  position: 8
+  source_format: prose
+  metadata: {}
+- id: seg-009
+  text: "It's easy to see the transformative potential of this, from improved operational efficiency and customer experience to sharper decision making and beyond."
+  type: context
+  section: Main Article
+  position: 9
+  source_format: prose
+  metadata: {}
+- id: seg-010
+  text: "Forward-looking leaders aren't asking if agentic AI will reshape their business but how to prepare their organizations to deploy it safely and effectively."
+  type: claim
+  section: Main Article
+  position: 10
+  source_format: prose
+  metadata: {}
+- id: seg-011
+  text: 'As executives reflect on how agentic AI might shape their business, from competitive positioning to their talent model, they will have to consider how it challenges the fundamentals of their IT architecture.'
+  type: claim
+  section: Main Article
+  position: 11
+  source_format: prose
+  metadata: {}
+- id: seg-012
+  text: 'Agentic AI architecture builds on the rise of composable microservices architecture and the use of enterprise cloud services that many companies have already been investing in.'
+  type: claim
+  section: Main Article
+  position: 12
+  source_format: prose
+  metadata: {}
+- id: seg-013
+  text: 'But to fully capture the value while navigating the risks, they will need to rethink how AI is embedded across the architecture—the systems, processes, and governance.'
+  type: claim
+  section: Main Article
+  position: 13
+  source_format: prose
+  metadata: {}
+- id: seg-014
+  text: 'Enterprises need to ensure agents have the context they need in real time, the ability to observe and explain behavior, and the guardrails to execute safely, securely, and cost-effectively.'
+  type: recommendation
+  section: Main Article
+  position: 14
+  source_format: prose
+  metadata: {}
+- id: seg-015
+  text: 'Current architectures simply cannot handle this balance when AI agents are used in the thousands across the enterprise—yet.'
+  type: claim
+  section: Main Article
+  position: 15
+  source_format: prose
+  metadata: {}
+- id: seg-016
+  text: 'Architecture Adapts to Support Agentic AI'
+  type: noise
+  section: Architecture Adapts to Support Agentic AI
+  position: 16
+  source_format: heading
+  metadata: {}
+- id: seg-017
+  text: 'Agentic AI should complement rather than take over the existing architecture.'
+  type: recommendation
+  section: Architecture Adapts to Support Agentic AI
+  position: 17
+  source_format: prose
+  metadata: {}
+- id: seg-018
+  text: 'Tech teams will need to deploy it thoughtfully, with clear scope and controls in place.'
+  type: recommendation
+  section: Architecture Adapts to Support Agentic AI
+  position: 18
+  source_format: prose
+  metadata: {}
+- id: seg-019
+  text: 'Agents are best for complex, nondeterministic problems that span multiple business domains and systems, rely on unstructured data and contextual reasoning, depend on real-time inputs, and until now have required human intervention.'
+  type: definition
+  section: Architecture Adapts to Support Agentic AI
+  position: 19
+  source_format: prose
+  metadata: {}
+- id: seg-020
+  text: 'Higher-level orchestrator agents are like project managers that oversee a whole process, breaking it down into subtasks and tracking progress.'
+  type: definition
+  section: Architecture Adapts to Support Agentic AI
+  position: 20
+  source_format: prose
+  metadata: {}
+- id: seg-021
+  text: 'Task agents execute individual tasks and send back the results to the orchestrator.'
+  type: definition
+  section: Architecture Adapts to Support Agentic AI
+  position: 21
+  source_format: prose
+  metadata: {}
+- id: seg-022
+  text: 'The orchestrator then compiles results and adjusts workflows as needed.'
+  type: definition
+  section: Architecture Adapts to Support Agentic AI
+  position: 22
+  source_format: prose
+  metadata: {}
+- id: seg-023
+  text: 'Teams updating the IT architecture should consider several key principles as they evolve the design to support an agentic framework.'
+  type: context
+  section: Architecture Adapts to Support Agentic AI
+  position: 23
+  source_format: prose
+  metadata: {}
+- id: seg-024
+  text: 'Key Architectural Principles'
+  type: noise
+  section: Key Architectural Principles
+  position: 24
+  source_format: heading
+  metadata: {}
+- id: seg-025
+  text: 'Modernize the Core Platform'
+  type: noise
+  section: Modernize the Core Platform
+  position: 25
+  source_format: heading
+  metadata: {}
+- id: seg-026
+  text: 'To fully realize the potential of agentic AI, many organizations will need to modernize their technology foundations.'
+  type: claim
+  section: Modernize the Core Platform
+  position: 26
+  source_format: prose
+  metadata: {}
+- id: seg-027
+  text: 'This means making core business capabilities easy for agents to find and use in real time.'
+  type: recommendation
+  section: Modernize the Core Platform
+  position: 27
+  source_format: prose
+  metadata: {}
+- id: seg-028
+  text: 'Achieving this may require reworking older, batch-based systems to be more flexible, accessible by APIs, and able to respond to real-time events.'
+  type: recommendation
+  section: Modernize the Core Platform
+  position: 28
+  source_format: prose
+  metadata: {}
+- id: seg-029
+  text: 'Adopting modular, industry-standard frameworks, like the Banking Industry Architecture Network, will help accelerate this shift.'
+  type: recommendation
+  section: Modernize the Core Platform
+  position: 29
+  source_format: prose
+  metadata: {}
+- id: seg-030
+  text: 'However, these modern systems will need to work alongside existing infrastructure for the foreseeable future, which could add some architectural complexity in the near term.'
+  type: claim
+  section: Modernize the Core Platform
+  position: 30
+  source_format: prose
+  metadata: {}
+- id: seg-031
+  text: 'Ensure Interoperability of Agentic Services'
+  type: noise
+  section: Ensure Interoperability
+  position: 31
+  source_format: heading
+  metadata: {}
+- id: seg-032
+  text: 'As agents roll out across the tech stack, consistent interoperability standards, such as the model context protocol (MCP), and frictionless integrations will be critical for breaking down silos and capturing the full value of agentic AI.'
+  type: claim
+  section: Ensure Interoperability
+  position: 32
+  source_format: prose
+  metadata: {}
+- id: seg-033
+  text: 'Most organizations will need to support a mix of frameworks.'
+  type: claim
+  section: Ensure Interoperability
+  position: 33
+  source_format: prose
+  metadata: {}
+- id: seg-034
+  text: 'These will include custom agents built on engineering tools, prebuilt agents embedded in vendor platforms, and dynamically generated agents in data platforms.'
+  type: definition
+  section: Ensure Interoperability
+  position: 34
+  source_format: prose
+  metadata: {}
+- id: seg-035
+  text: 'Frameworks are themselves becoming more agentic.'
+  type: claim
+  section: Ensure Interoperability
+  position: 35
+  source_format: prose
+  metadata: {}
+- id: seg-036
+  text: 'For example, a software development life cycle (SDLC) agent could coordinate a team of specialized agents (design, analyst, engineer, quality assurance) that collaborate to deliver a complete solution, from concept to deployment.'
+  type: example
+  section: Ensure Interoperability
+  position: 36
+  source_format: prose
+  metadata: {}
+- id: seg-037
+  text: 'Distribute Accountability'
+  type: noise
+  section: Distribute Accountability
+  position: 37
+  source_format: heading
+  metadata: {}
+- id: seg-038
+  text: 'While central platform teams will control the core agentic platforms, accountability for assembling, training, testing, deploying, and monitoring agents needs to be distributed to business domains.'
+  type: recommendation
+  section: Distribute Accountability
+  position: 38
+  source_format: prose
+  metadata: {}
+- id: seg-039
+  text: 'Success will hinge on making domain expertise and knowledge assets—such as product documentation, business logic, feature stores, models, and data products—readily discoverable and accessible to agents.'
+  type: claim
+  section: Distribute Accountability
+  position: 39
+  source_format: prose
+  metadata: {}
+- id: seg-040
+  text: 'Scale Data Access'
+  type: noise
+  section: Scale Data Access
+  position: 40
+  source_format: heading
+  metadata: {}
+- id: seg-041
+  text: 'Scalable access to structured and unstructured data is essential.'
+  type: claim
+  section: Scale Data Access
+  position: 41
+  source_format: prose
+  metadata: {}
+- id: seg-042
+  text: 'Most organizations still lack the required ingestion pipelines for unstructured sources such as documents, emails, voice recordings, images, videos, and call transcripts.'
+  type: claim
+  section: Scale Data Access
+  position: 42
+  source_format: prose
+  metadata: {}
+- id: seg-043
+  text: 'These data sources are critical for agentic reasoning, especially in manual or exception-driven processes where necessary knowledge often resides outside core systems of record or even outside the organization.'
+  type: claim
+  section: Scale Data Access
+  position: 43
+  source_format: prose
+  metadata: {}
+- id: seg-044
+  text: 'For example, one European bank built foundational infrastructure to consistently use both structured and unstructured data to create a holistic view of each customer, enabling it to automate and personalize its engagement marketing—driving smarter, more targeted interactions at scale.'
+  type: example
+  section: Scale Data Access
+  position: 44
+  source_format: prose
+  metadata: {}
+- id: seg-045
+  text: 'Update Governance and Controls'
+  type: noise
+  section: Update Governance and Controls
+  position: 45
+  source_format: heading
+  metadata: {}
+- id: seg-046
+  text: 'As agents take on more decision making, governance and controls must evolve.'
+  type: claim
+  section: Update Governance and Controls
+  position: 46
+  source_format: prose
+  metadata: {}
+- id: seg-047
+  text: 'Real-time explainability, behavioral observability, and adaptive security are essential to mitigate risk, maintain customer trust, and avoid regulatory or reputational fallout.'
+  type: recommendation
+  section: Update Governance and Controls
+  position: 47
+  source_format: prose
+  metadata: {}
+- id: seg-048
+  text: 'At the same time, organizations must manage the volatility of compute costs through dynamic resource allocation, edge deployment strategies, and AI-native financial operations practices.'
+  type: recommendation
+  section: Update Governance and Controls
+  position: 48
+  source_format: prose
+  metadata: {}
+- id: seg-049
+  text: 'Shift the Engineering Paradigm'
+  type: noise
+  section: Shift the Engineering Paradigm
+  position: 49
+  source_format: heading
+  metadata: {}
+- id: seg-050
+  text: 'Software engineering and DevOps processes, both tooling and workflows, need to evolve to manage the full life cycle of AI agents, including how they are tested, monitored, and safely deployed as they learn and adapt over time.'
+  type: recommendation
+  section: Shift the Engineering Paradigm
+  position: 50
+  source_format: prose
+  metadata: {}
+- id: seg-051
+  text: 'AI agents are also poised to transform how engineering teams operate, taking on more of the day-to-day development, testing, deployment, and system operations.'
+  type: claim
+  section: Shift the Engineering Paradigm
+  position: 51
+  source_format: prose
+  metadata: {}
+- id: seg-052
+  text: 'This shift will free up engineers to focus on higher-value work like architecture, strategy, and innovation.'
+  type: claim
+  section: Shift the Engineering Paradigm
+  position: 52
+  source_format: prose
+  metadata: {}
+- id: seg-053
+  text: 'Reimagine Agent Experience and Access'
+  type: noise
+  section: Reimagine Agent Experience
+  position: 53
+  source_format: heading
+  metadata: {}
+- id: seg-054
+  text: 'In this new framework, agents become first-class channels and citizens.'
+  type: claim
+  section: Reimagine Agent Experience
+  position: 54
+  source_format: prose
+  metadata: {}
+- id: seg-055
+  text: 'As channels, they are emerging as primary interfaces for interacting with customers and employees—on par with websites, mobile apps, and call centers.'
+  type: definition
+  section: Reimagine Agent Experience
+  position: 55
+  source_format: prose
+  metadata: {}
+- id: seg-056
+  text: 'As citizens, they are fully embedded participants in business operations, empowered to act, make decisions, and collaborate across systems.'
+  type: definition
+  section: Reimagine Agent Experience
+  position: 56
+  source_format: prose
+  metadata: {}
+- id: seg-057
+  text: 'This demands a reimagining of experience design: Conversational interfaces will dominate human engagement, while agent-to-agent coordination will drive autonomous action across workflows, systems, and even organizational boundaries.'
+  type: claim
+  section: Reimagine Agent Experience
+  position: 57
+  source_format: prose
+  metadata: {}
+- id: seg-058
+  text: 'To make this work at scale—and safely—enterprises must establish robust frameworks for identity, consent, and fine-grained access control.'
+  type: recommendation
+  section: Reimagine Agent Experience
+  position: 58
+  source_format: prose
+  metadata: {}
+- id: seg-059
+  text: 'For example, a South American bank that uses agents to facilitate real-time PIX payments through WhatsApp allows customers to simply send a photo or text describing the payment they want to make.'
+  type: example
+  section: Reimagine Agent Experience
+  position: 59
+  source_format: prose
+  metadata: {}
+- id: seg-060
+  text: 'The AI agent interprets the request, identifies the appropriate payment, confirms it with the customer, and then authorizes and sends the payment—all within a conversational experience.'
+  type: example
+  section: Reimagine Agent Experience
+  position: 60
+  source_format: prose
+  metadata: {}
+- id: seg-061
+  text: 'The Implementation Imperative'
+  type: noise
+  section: The Implementation Imperative
+  position: 61
+  source_format: heading
+  metadata: {}
+- id: seg-062
+  text: 'Over the next three to five years, 5% to 10% of technology spending could be directed toward building foundational capabilities, including agent platforms, communication protocols, real-time data access and discoverability for agents, and modern security and observability frameworks.'
+  type: statistic
+  section: The Implementation Imperative
+  position: 62
+  source_format: prose
+  metadata:
+    metric: 'Technology spending on foundational AI capabilities'
+    value: '5-10'
+    unit: '%'
+    population: 'Enterprise technology budgets, next 3-5 years'
+- id: seg-063
+  text: 'Over time, investment in agentic AI will grow.'
+  type: claim
+  section: The Implementation Imperative
+  position: 63
+  source_format: prose
+  metadata: {}
+- id: seg-064
+  text: 'Up to half of technology spending could be on agents running across the enterprise to support business domains.'
+  type: statistic
+  section: The Implementation Imperative
+  position: 64
+  source_format: prose
+  metadata:
+    metric: 'Long-term technology spending on enterprise agents'
+    value: 50
+    unit: '%'
+    population: 'Enterprise technology budgets, long-term'
+- id: seg-065
+  text: 'Still, the long-term economics are favorable, as efficiency and process improvements will outweigh the costs.'
+  type: claim
+  section: The Implementation Imperative
+  position: 65
+  source_format: prose
+  metadata: {}
+- id: seg-066
+  text: 'Investments will need to be tightly focused, with an emphasis on delivering value quickly to ensure buy-in from the business.'
+  type: recommendation
+  section: The Implementation Imperative
+  position: 66
+  source_format: prose
+  metadata: {}
+- id: seg-067
+  text: 'Frameworks for successful transformations typically follow a pattern of four motions:'
+  type: context
+  section: The Implementation Imperative
+  position: 67
+  source_format: prose
+  metadata: {}
+- id: seg-068
+  text: 'Focus on a few business domains to generate early value, rather than just building capabilities.'
+  type: recommendation
+  section: The Implementation Imperative
+  position: 68
+  source_format: bullet
+  metadata: {}
+- id: seg-069
+  text: 'Reimagining processes from end to end accelerates returns, lowers cost per agent, and lays the groundwork for scalable, enterprise-wide adoption.'
+  type: claim
+  section: The Implementation Imperative
+  position: 69
+  source_format: prose
+  metadata: {}
+- id: seg-070
+  text: 'Evaluate current architecture for agentic readiness, identifying the capabilities required to scale.'
+  type: recommendation
+  section: The Implementation Imperative
+  position: 70
+  source_format: bullet
+  metadata: {}
+- id: seg-071
+  text: 'This includes laying the groundwork for agent development toolchains, enabling seamless system interoperability, and fast-tracking the modernization of vector databases, event architectures, and core infrastructure.'
+  type: recommendation
+  section: The Implementation Imperative
+  position: 71
+  source_format: prose
+  metadata: {}
+- id: seg-072
+  text: 'Define and embed observability, security, governance, and controls, providing traceability, accountability, anomaly detection, and cost discipline.'
+  type: recommendation
+  section: The Implementation Imperative
+  position: 72
+  source_format: bullet
+  metadata: {}
+- id: seg-073
+  text: 'For agentic AI to scale safely across the enterprise, these guardrails must be built in from the start, not bolted on later.'
+  type: claim
+  section: The Implementation Imperative
+  position: 73
+  source_format: prose
+  metadata: {}
+- id: seg-074
+  text: 'Use agentic AI in the transformation to reduce effort, control costs, and ensure outcomes.'
+  type: recommendation
+  section: The Implementation Imperative
+  position: 74
+  source_format: bullet
+  metadata: {}
+- id: seg-075
+  text: 'Delivering value early helps fund the rest of an agentic transformation.'
+  type: claim
+  section: The Implementation Imperative
+  position: 75
+  source_format: prose
+  metadata: {}
+- id: seg-076
+  text: 'Conclusion'
+  type: noise
+  section: Conclusion
+  position: 76
+  source_format: heading
+  metadata: {}
+- id: seg-077
+  text: "Companies that don't want to fall behind should be preparing and investing now: hiring and upskilling teams, embedding new capabilities, and understanding the necessary architectural changes."
+  type: recommendation
+  section: Conclusion
+  position: 77
+  source_format: prose
+  metadata: {}
+- id: seg-078
+  text: 'Those that wait will struggle to catch up.'
+  type: claim
+  section: Conclusion
+  position: 78
+  source_format: prose
+  metadata: {}
+- id: seg-079
+  text: 'Agentic AI is already reshaping the enterprise, and only those that move decisively—redesigning their architecture, teams, and ways of working—will unlock its full value.'
+  type: claim
+  section: Conclusion
+  position: 79
+  source_format: prose
+  metadata: {}

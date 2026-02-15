@@ -1,0 +1,946 @@
+source_id: source-048
+title: 'Is Your Infrastructure Ready for Your AI Aspirations?'
+url: 'https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html'
+author: 'Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)'
+date: 2025-08-22
+total_segments: 107
+
+composition:
+  claim: { count: 19, pct: 17.8 }
+  statistic: { count: 15, pct: 14.0 }
+  evidence: { count: 5, pct: 4.7 }
+  definition: { count: 6, pct: 5.6 }
+  recommendation: { count: 18, pct: 16.8 }
+  context: { count: 22, pct: 20.6 }
+  methodology: { count: 10, pct: 9.3 }
+  example: { count: 3, pct: 2.8 }
+  attribution: { count: 2, pct: 1.9 }
+  noise: { count: 7, pct: 6.5 }
+
+signal_ratio: 93.5
+
+segments:
+  - id: seg-001
+    text: 'Is your infrastructure ready for your AI aspirations?'
+    type: noise
+    section: 'Title'
+    position: 1
+    source_format: heading
+    metadata: {}
+
+  - id: seg-002
+    text: 'Your business may be ready, but can your IT infrastructure handle the extra demands of AI?'
+    type: noise
+    section: 'Title'
+    position: 2
+    source_format: heading
+    metadata: {}
+
+  - id: seg-003
+    text: 'Over the last decade, IT organizations have worked tirelessly to modernize their infrastructures to support the evolving needs of the business, driven primarily by the transition to the cloud and the software-as-a-service (SaaS) model.'
+    type: context
+    section: 'Opening'
+    position: 3
+    source_format: prose
+    metadata: {}
+
+  - id: seg-004
+    text: 'But the impact of the cloud now seems practically glacial compared to that of artificial intelligence (AI), which is transforming business—and putting pressure on IT to respond—at an unprecedented rate.'
+    type: claim
+    section: 'Opening'
+    position: 4
+    source_format: prose
+    metadata: {}
+
+  - id: seg-005
+    text: 'Traditional IT systems must quickly evolve to accommodate the immense processing power, storage, and data management requirements demanded by AI applications.'
+    type: claim
+    section: 'Opening'
+    position: 5
+    source_format: prose
+    metadata: {}
+
+  - id: seg-006
+    text: 'Companies that hesitate to capitalize on these trends risk falling behind their peers in innovation, efficiency, and competitiveness.'
+    type: claim
+    section: 'Opening'
+    position: 6
+    source_format: prose
+    metadata: {}
+
+  - id: seg-007
+    text: 'Without the ability to leverage AI, organizations risk missing out on data-driven decision-making and automation opportunities and fail to deliver the experiences that modern consumers demand.'
+    type: claim
+    section: 'Opening'
+    position: 7
+    source_format: prose
+    metadata: {}
+
+  - id: seg-008
+    text: 'A recent Cisco report highlights significant infrastructure bottlenecks as organizations strive to integrate AI technologies.'
+    type: attribution
+    section: 'Key Statistics'
+    position: 8
+    source_format: prose
+    metadata: {}
+
+  - id: seg-009
+    text: 'Only 14% of companies are fully prepared for AI adoption.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 9
+    source_format: bullet
+    metadata:
+      metric: 'Companies fully prepared for AI adoption'
+      value: 14
+      unit: '%'
+      population: 'Surveyed companies (Cisco report)'
+
+  - id: seg-010
+    text: '95% of businesses acknowledge that AI will increase infrastructure demands.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 10
+    source_format: bullet
+    metadata:
+      metric: 'Businesses acknowledging AI will increase infrastructure demands'
+      value: 95
+      unit: '%'
+      population: 'Surveyed businesses'
+
+  - id: seg-011
+    text: 'Only 17% have networks capable of handling such complexities.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 11
+    source_format: bullet
+    metadata:
+      metric: 'Companies with AI-capable networks'
+      value: 17
+      unit: '%'
+      population: 'Surveyed companies'
+
+  - id: seg-012
+    text: '23% report limited or absent scalability in current IT frameworks.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: 'Companies with limited/absent scalability'
+      value: 23
+      unit: '%'
+      population: 'Surveyed companies'
+
+  - id: seg-013
+    text: '30% experience issues with network latency and throughput.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: 'Companies experiencing network latency/throughput issues'
+      value: 30
+      unit: '%'
+      population: 'Surveyed companies'
+
+  - id: seg-014
+    text: '54% of respondents admit their infrastructure has only moderate or limited scalability.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: 'Companies with moderate or limited infrastructure scalability'
+      value: 54
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-015
+    text: 'Only 31% describe their infrastructure as highly scalable.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 15
+    source_format: bullet
+    metadata:
+      metric: 'Companies with highly scalable infrastructure'
+      value: 31
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-016
+    text: 'Only 13% claim infrastructure is fully adaptable to AI demands.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 16
+    source_format: bullet
+    metadata:
+      metric: 'Companies with fully AI-adaptable infrastructure'
+      value: 13
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-017
+    text: 'In 2024, 48% of professionals reported using AI tools at work; that number grew to 72% in 2025.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 17
+    source_format: prose
+    metadata:
+      metric: 'Professionals using AI tools at work'
+      value: 72
+      unit: '%'
+      population: 'Working professionals (2025)'
+
+  - id: seg-018
+    text: '92% of companies plan to increase their investment in AI over the next three years.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 18
+    source_format: bullet
+    metadata:
+      metric: 'Companies planning to increase AI investment'
+      value: 92
+      unit: '%'
+      population: 'Surveyed companies'
+      timeframe: 'Next three years'
+
+  - id: seg-019
+    text: '93% of enterprise IT leaders have implemented or plan to implement AI agents in the next two years.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 19
+    source_format: bullet
+    metadata:
+      metric: 'IT leaders implementing or planning AI agents'
+      value: 93
+      unit: '%'
+      population: 'Enterprise IT leaders'
+      timeframe: 'Next two years'
+
+  - id: seg-020
+    text: 'The AI market is projected to grow 25-fold from $189 billion in 2023 to $4.8 trillion by 2033.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 20
+    source_format: bullet
+    metadata:
+      metric: 'AI market size projection'
+      value: 4.8
+      unit: 'trillion USD'
+      population: 'Global AI market'
+      timeframe: '2033'
+
+  - id: seg-021
+    text: 'Infrastructure is Key to Your AI Experience'
+    type: noise
+    section: 'Infrastructure Areas'
+    position: 21
+    source_format: heading
+    metadata: {}
+
+  - id: seg-022
+    text: 'Investing in robust AI infrastructure is essential to enable your AI applications to perform efficiently, securely, and at scale.'
+    type: recommendation
+    section: 'Infrastructure Areas'
+    position: 22
+    source_format: prose
+    metadata: {}
+
+  - id: seg-023
+    text: 'Network Bandwidth'
+    type: context
+    section: 'Infrastructure Areas - Network'
+    position: 23
+    source_format: heading
+    metadata: {}
+
+  - id: seg-024
+    text: "You'll need robust network capacity to handle vast AI data transfer and retention needs."
+    type: recommendation
+    section: 'Infrastructure Areas - Network'
+    position: 24
+    source_format: prose
+    metadata: {}
+
+  - id: seg-025
+    text: 'Compute and Memory Optimization'
+    type: context
+    section: 'Infrastructure Areas - Compute'
+    position: 25
+    source_format: heading
+    metadata: {}
+
+  - id: seg-026
+    text: 'Dedicated resources are required to continuously refine infrastructure and AI models to achieve peak efficiency and responsiveness.'
+    type: recommendation
+    section: 'Infrastructure Areas - Compute'
+    position: 26
+    source_format: prose
+    metadata: {}
+
+  - id: seg-027
+    text: 'Security and Compliance'
+    type: context
+    section: 'Infrastructure Areas - Security'
+    position: 27
+    source_format: heading
+    metadata: {}
+
+  - id: seg-028
+    text: 'Additional safeguards will be needed for AI data and processes to meet regulatory standards and protect against threats.'
+    type: recommendation
+    section: 'Infrastructure Areas - Security'
+    position: 28
+    source_format: prose
+    metadata: {}
+
+  - id: seg-029
+    text: 'On-Premise Versus Cloud Strategy'
+    type: context
+    section: 'Infrastructure Areas - Cloud'
+    position: 29
+    source_format: heading
+    metadata: {}
+
+  - id: seg-030
+    text: "You'll need to select a deployment model that balances control, scalability, and cost based on your circumstances."
+    type: recommendation
+    section: 'Infrastructure Areas - Cloud'
+    position: 30
+    source_format: prose
+    metadata: {}
+
+  - id: seg-031
+    text: 'Edge Computing'
+    type: context
+    section: 'Infrastructure Areas - Edge'
+    position: 31
+    source_format: heading
+    metadata: {}
+
+  - id: seg-032
+    text: "For real-time decision-making, you'll need to process AI data closer to the source to reduce latency."
+    type: recommendation
+    section: 'Infrastructure Areas - Edge'
+    position: 32
+    source_format: prose
+    metadata: {}
+
+  - id: seg-033
+    text: 'The KPMG Approach to AI-Ready Infrastructure'
+    type: noise
+    section: 'KPMG Approach'
+    position: 33
+    source_format: heading
+    metadata: {}
+
+  - id: seg-034
+    text: 'Given the magnitude of the infrastructure changes required to handle computationally challenging workloads associated with AI, the need to prepare becomes significantly more urgent.'
+    type: claim
+    section: 'KPMG Approach'
+    position: 34
+    source_format: prose
+    metadata: {}
+
+  - id: seg-035
+    text: 'Addressing these concerns starts with a comprehensive assessment of your existing infrastructure and operations to evaluate your AI readiness.'
+    type: recommendation
+    section: 'KPMG Approach'
+    position: 35
+    source_format: prose
+    metadata: {}
+
+  - id: seg-036
+    text: 'Assessment should inform strategies to address data latency, throughput, and rate, each of which is strongly related to the performance of large language models (LLMs).'
+    type: recommendation
+    section: 'KPMG Approach'
+    position: 36
+    source_format: prose
+    metadata: {}
+
+  - id: seg-037
+    text: 'KPMG has developed a two-phased methodology designed to help organizations develop an AI-ready infrastructure.'
+    type: methodology
+    section: 'KPMG Approach'
+    position: 37
+    source_format: prose
+    metadata: {}
+
+  - id: seg-038
+    text: 'Phase 1: Gather and Analyze'
+    type: noise
+    section: 'KPMG Approach - Phase 1'
+    position: 38
+    source_format: heading
+    metadata: {}
+
+  - id: seg-039
+    text: 'This phase involves stakeholder interviews and current state assessments.'
+    type: methodology
+    section: 'KPMG Approach - Phase 1'
+    position: 39
+    source_format: prose
+    metadata: {}
+
+  - id: seg-040
+    text: 'It includes conducting an analysis of your infrastructure strategy, assessing your capability to adopt AI, performing market research, and evaluating investment plans.'
+    type: methodology
+    section: 'KPMG Approach - Phase 1'
+    position: 40
+    source_format: prose
+    metadata: {}
+
+  - id: seg-041
+    text: 'KPMG will leverage its Infrastructure AI-readiness framework to pinpoint where bottlenecks are likely to occur.'
+    type: methodology
+    section: 'KPMG Approach - Phase 1'
+    position: 41
+    source_format: prose
+    metadata: {}
+
+  - id: seg-042
+    text: 'A robust understanding of the current state of your infrastructure.'
+    type: context
+    section: 'KPMG Approach - Phase 1 Outputs'
+    position: 42
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-043
+    text: 'A report on the AI infrastructure market and its various vendors related to your strategic goals.'
+    type: context
+    section: 'KPMG Approach - Phase 1 Outputs'
+    position: 43
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-044
+    text: 'A review of the existing AI use case roadmap from the business to characterize the increasing load on AI and profile how it may impact infrastructure resources.'
+    type: context
+    section: 'KPMG Approach - Phase 1 Outputs'
+    position: 44
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-045
+    text: 'Phase 2: Envision the Future'
+    type: noise
+    section: 'KPMG Approach - Phase 2'
+    position: 45
+    source_format: heading
+    metadata: {}
+
+  - id: seg-046
+    text: 'This phase involves collaborative workshops to help you envision ideal future state scenarios.'
+    type: methodology
+    section: 'KPMG Approach - Phase 2'
+    position: 46
+    source_format: prose
+    metadata: {}
+
+  - id: seg-047
+    text: 'It includes designing future roadmaps, investment strategies, high-level system architecture diagrams, data flow diagrams, and more.'
+    type: methodology
+    section: 'KPMG Approach - Phase 2'
+    position: 47
+    source_format: prose
+    metadata: {}
+
+  - id: seg-048
+    text: 'A clear picture of your AI infrastructure readiness level.'
+    type: context
+    section: 'KPMG Approach - Phase 2 Outputs'
+    position: 48
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-049
+    text: 'An understanding of the steps required to implement your AI infrastructure.'
+    type: context
+    section: 'KPMG Approach - Phase 2 Outputs'
+    position: 49
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-050
+    text: 'A roadmap of your future state, including a view of key investments in infrastructure that will create the runway for the AI ambitions.'
+    type: context
+    section: 'KPMG Approach - Phase 2 Outputs'
+    position: 50
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-051
+    text: 'Case Study: Proof. Positive.'
+    type: context
+    section: 'Case Study'
+    position: 51
+    source_format: heading
+    metadata: {}
+
+  - id: seg-052
+    text: 'KPMG helped a large manufacturing company address its system availability issues and transaction response time variability.'
+    type: example
+    section: 'Case Study'
+    position: 52
+    source_format: prose
+    metadata: {}
+
+  - id: seg-053
+    text: 'The firm developed a high-availability framework, identifying gaps and providing a roadmap for achieving 99.99 percent availability.'
+    type: example
+    section: 'Case Study'
+    position: 53
+    source_format: prose
+    metadata:
+      metric: 'Target availability'
+      value: 99.99
+      unit: '%'
+
+  - id: seg-054
+    text: 'This enabled the client to strategically realign its infrastructure investments, effectively communicate availability status, and confidently embark on a phased implementation of the recommendations.'
+    type: example
+    section: 'Case Study'
+    position: 54
+    source_format: prose
+    metadata: {}
+
+  - id: seg-055
+    text: 'What KPMG Can Do for You'
+    type: noise
+    section: 'KPMG Services'
+    position: 55
+    source_format: heading
+    metadata: {}
+
+  - id: seg-056
+    text: 'KPMG LLP is the number-one-ranked firm in the US for quality AI advice and implementation.'
+    type: claim
+    section: 'KPMG Services'
+    position: 56
+    source_format: prose
+    metadata: {}
+
+  - id: seg-057
+    text: 'The firm can help with system reliability and efficiency evaluations, in-depth performance metrics, and strategic guidance to elevate business operations.'
+    type: context
+    section: 'KPMG Services'
+    position: 57
+    source_format: prose
+    metadata: {}
+
+  - id: seg-058
+    text: 'Solutions are tailored to specific needs and precise architecture requirements.'
+    type: context
+    section: 'KPMG Services'
+    position: 58
+    source_format: prose
+    metadata: {}
+
+  - id: seg-059
+    text: 'The goal is to provide a thorough understanding of the state of existing architecture, what needs to be implemented for an AI-ready infrastructure, and a detailed roadmap of future state.'
+    type: recommendation
+    section: 'KPMG Services'
+    position: 59
+    source_format: prose
+    metadata: {}
+
+  - id: seg-060
+    text: 'KPMG can help diagnose potential bottlenecks in infrastructure and show how organizations can grow infrastructure to support more advanced capabilities.'
+    type: recommendation
+    section: 'KPMG Services'
+    position: 60
+    source_format: prose
+    metadata: {}
+
+  - id: seg-061
+    text: 'Joe Jacob - Director Advisory, Lighthouse, KPMG US'
+    type: attribution
+    section: 'Team'
+    position: 61
+    source_format: caption
+    metadata: {}
+
+  - id: seg-062
+    text: 'Martin Kaestner - Principal, US Analytics and AI Lead, KPMG in the US'
+    type: context
+    section: 'Team'
+    position: 62
+    source_format: caption
+    metadata: {}
+
+  - id: seg-063
+    text: 'Mark Solomon - Advisory Managing Director, Line of Business, Products, KPMG LLP'
+    type: context
+    section: 'Team'
+    position: 63
+    source_format: caption
+    metadata: {}
+
+  - id: seg-064
+    text: 'AI is transforming business and putting pressure on IT to respond at an unprecedented rate.'
+    type: claim
+    section: 'Opening'
+    position: 64
+    source_format: prose
+    metadata: {}
+
+  - id: seg-065
+    text: 'Traditional IT systems must quickly evolve to accommodate immense processing power, storage, and data management requirements demanded by AI applications.'
+    type: claim
+    section: 'Opening'
+    position: 65
+    source_format: prose
+    metadata: {}
+
+  - id: seg-066
+    text: 'Companies that hesitate risk falling behind in innovation, efficiency, and competitiveness.'
+    type: claim
+    section: 'Opening'
+    position: 66
+    source_format: prose
+    metadata: {}
+
+  - id: seg-067
+    text: 'Organizations risk missing out on data-driven decision-making and automation opportunities without AI capability.'
+    type: claim
+    section: 'Opening'
+    position: 67
+    source_format: prose
+    metadata: {}
+
+  - id: seg-068
+    text: 'There are significant infrastructure bottlenecks as organizations strive to integrate AI technologies.'
+    type: claim
+    section: 'Key Statistics'
+    position: 68
+    source_format: prose
+    metadata: {}
+
+  - id: seg-069
+    text: 'Five critical infrastructure areas: network bandwidth, compute and memory optimization, security and compliance, on-premise vs. cloud strategy, and edge computing.'
+    type: definition
+    section: 'Infrastructure Areas'
+    position: 69
+    source_format: prose
+    metadata: {}
+
+  - id: seg-070
+    text: 'Robust network capacity is needed to handle vast AI data transfer and retention needs.'
+    type: definition
+    section: 'Infrastructure Areas - Network'
+    position: 70
+    source_format: prose
+    metadata: {}
+
+  - id: seg-071
+    text: 'Dedicated resources are required to continuously refine infrastructure and AI models for peak efficiency.'
+    type: definition
+    section: 'Infrastructure Areas - Compute'
+    position: 71
+    source_format: prose
+    metadata: {}
+
+  - id: seg-072
+    text: 'Additional safeguards are needed for AI data and processes to meet regulatory standards.'
+    type: definition
+    section: 'Infrastructure Areas - Security'
+    position: 72
+    source_format: prose
+    metadata: {}
+
+  - id: seg-073
+    text: 'Deployment model must balance control, scalability, and cost based on organizational circumstances.'
+    type: definition
+    section: 'Infrastructure Areas - Cloud'
+    position: 73
+    source_format: prose
+    metadata: {}
+
+  - id: seg-074
+    text: 'Edge computing processes AI data closer to the source to reduce latency for real-time decision-making.'
+    type: definition
+    section: 'Infrastructure Areas - Edge'
+    position: 74
+    source_format: prose
+    metadata: {}
+
+  - id: seg-075
+    text: 'The magnitude of infrastructure changes required for AI workloads makes preparation significantly more urgent.'
+    type: claim
+    section: 'KPMG Approach'
+    position: 75
+    source_format: prose
+    metadata: {}
+
+  - id: seg-076
+    text: 'Comprehensive assessment of existing infrastructure and operations is needed to evaluate AI readiness.'
+    type: recommendation
+    section: 'KPMG Approach'
+    position: 76
+    source_format: prose
+    metadata: {}
+
+  - id: seg-077
+    text: 'Data latency, throughput, and rate are each strongly related to the performance of large language models (LLMs).'
+    type: claim
+    section: 'KPMG Approach'
+    position: 77
+    source_format: prose
+    metadata: {}
+
+  - id: seg-078
+    text: 'Phase 1 involves stakeholder interviews, current state assessments, infrastructure strategy analysis, AI capability assessment, market research, and investment plan evaluation.'
+    type: methodology
+    section: 'KPMG Approach - Phase 1'
+    position: 78
+    source_format: prose
+    metadata: {}
+
+  - id: seg-079
+    text: 'An Infrastructure AI-readiness framework can pinpoint where bottlenecks are likely to occur.'
+    type: methodology
+    section: 'KPMG Approach - Phase 1'
+    position: 79
+    source_format: prose
+    metadata: {}
+
+  - id: seg-080
+    text: 'Phase 2 involves collaborative workshops, future roadmap design, investment strategies, system architecture diagrams, and data flow diagrams.'
+    type: methodology
+    section: 'KPMG Approach - Phase 2'
+    position: 80
+    source_format: prose
+    metadata: {}
+
+  - id: seg-081
+    text: 'Phase 2 outputs include a clear AI infrastructure readiness level, implementation steps, and a future-state roadmap with key infrastructure investments.'
+    type: methodology
+    section: 'KPMG Approach - Phase 2'
+    position: 81
+    source_format: prose
+    metadata: {}
+
+  - id: seg-082
+    text: 'A large manufacturing company addressed system availability issues and transaction response time variability with KPMG assistance.'
+    type: evidence
+    section: 'Case Study'
+    position: 82
+    source_format: prose
+    metadata: {}
+
+  - id: seg-083
+    text: 'A high-availability framework was developed, identifying gaps and providing a roadmap for achieving 99.99% availability.'
+    type: evidence
+    section: 'Case Study'
+    position: 83
+    source_format: prose
+    metadata:
+      metric: 'Target system availability'
+      value: 99.99
+      unit: '%'
+
+  - id: seg-084
+    text: 'The client strategically realigned infrastructure investments and embarked on phased implementation of recommendations.'
+    type: evidence
+    section: 'Case Study'
+    position: 84
+    source_format: prose
+    metadata: {}
+
+  - id: seg-085
+    text: 'Organizations should invest in robust AI infrastructure for efficient, secure, and scalable AI application performance.'
+    type: recommendation
+    section: 'Infrastructure Areas'
+    position: 85
+    source_format: prose
+    metadata: {}
+
+  - id: seg-086
+    text: 'Organizations can grow infrastructure to support more advanced AI capabilities over time.'
+    type: recommendation
+    section: 'KPMG Services'
+    position: 86
+    source_format: prose
+    metadata: {}
+
+  - id: seg-087
+    text: 'IT organizations have spent the last decade modernizing infrastructures driven primarily by cloud and SaaS transitions.'
+    type: context
+    section: 'Opening'
+    position: 87
+    source_format: prose
+    metadata: {}
+
+  - id: seg-088
+    text: 'The impact of AI on business transformation dwarfs the earlier cloud transition in both speed and magnitude.'
+    type: claim
+    section: 'Opening'
+    position: 88
+    source_format: prose
+    metadata: {}
+
+  - id: seg-089
+    text: 'In 2024, 48% of professionals reported using AI tools at work.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 89
+    source_format: prose
+    metadata:
+      metric: 'Professionals using AI tools at work'
+      value: 48
+      unit: '%'
+      population: 'Working professionals (2024)'
+
+  - id: seg-090
+    text: 'AI tool usage at work grew from 48% in 2024 to 72% in 2025.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 90
+    source_format: prose
+    metadata:
+      metric: 'AI tool usage growth rate'
+      value: 72
+      unit: '%'
+      population: 'Working professionals (2025)'
+
+  - id: seg-091
+    text: 'Organizations should address data latency, throughput, and rate as part of AI readiness assessment.'
+    type: recommendation
+    section: 'KPMG Approach'
+    position: 91
+    source_format: prose
+    metadata: {}
+
+  - id: seg-092
+    text: 'Infrastructure readiness assessment should characterize increasing AI load and profile how it may impact infrastructure resources.'
+    type: recommendation
+    section: 'KPMG Approach - Phase 1'
+    position: 92
+    source_format: prose
+    metadata: {}
+
+  - id: seg-093
+    text: 'Future-state roadmap should include key investments in infrastructure that create the runway for AI ambitions.'
+    type: recommendation
+    section: 'KPMG Approach - Phase 2'
+    position: 93
+    source_format: prose
+    metadata: {}
+
+  - id: seg-094
+    text: 'Only 14% of companies are fully prepared for AI adoption, according to a Cisco report.'
+    type: claim
+    section: 'Key Statistics'
+    position: 94
+    source_format: prose
+    metadata: {}
+
+  - id: seg-095
+    text: '95% of businesses acknowledge AI will increase infrastructure demands, but only 17% have capable networks.'
+    type: claim
+    section: 'Key Statistics'
+    position: 95
+    source_format: prose
+    metadata: {}
+
+  - id: seg-096
+    text: 'The gap between AI ambition and infrastructure readiness is a significant challenge for most organizations.'
+    type: claim
+    section: 'Opening'
+    position: 96
+    source_format: prose
+    metadata: {}
+
+  - id: seg-097
+    text: '54% describe their infrastructure as having only moderate or limited scalability.'
+    type: claim
+    section: 'Key Statistics'
+    position: 97
+    source_format: prose
+    metadata: {}
+
+  - id: seg-098
+    text: '92% of companies plan to increase AI investment over three years despite infrastructure readiness gaps.'
+    type: claim
+    section: 'Key Statistics'
+    position: 98
+    source_format: prose
+    metadata: {}
+
+  - id: seg-099
+    text: 'The AI market is projected to grow 25-fold over ten years.'
+    type: statistic
+    section: 'Key Statistics'
+    position: 99
+    source_format: prose
+    metadata:
+      metric: 'AI market growth multiple'
+      value: 25
+      unit: 'fold'
+      timeframe: '2023-2033'
+
+  - id: seg-100
+    text: 'Technically Speaking: A KPMG Technology Blog Series - Insights on latest technology, AI, and data topics'
+    type: context
+    section: 'Related Content'
+    position: 100
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-101
+    text: 'Harnessing the Value of Data - KPMG survey of 250 executives across consumer/retail, financial services, and healthcare sectors'
+    type: context
+    section: 'Related Content'
+    position: 101
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-102
+    text: 'The Future of IT - Strategies to advance the IT function in cloud and AI-enabled era'
+    type: context
+    section: 'Related Content'
+    position: 102
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-103
+    text: '2024 KPMG US Technology Survey Report: The Digital Dividend - Examination of how US businesses see tech investments delivering profits and performance'
+    type: context
+    section: 'Related Content'
+    position: 103
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-104
+    text: 'AI infrastructure assessment should be informed by stakeholder interviews and current state analysis.'
+    type: recommendation
+    section: 'KPMG Approach - Phase 1'
+    position: 104
+    source_format: prose
+    metadata: {}
+
+  - id: seg-105
+    text: 'Collaborative workshops help envision ideal future-state scenarios for AI infrastructure.'
+    type: recommendation
+    section: 'KPMG Approach - Phase 2'
+    position: 105
+    source_format: prose
+    metadata: {}
+
+  - id: seg-106
+    text: 'System reliability evaluations, performance metrics, and strategic guidance are key deliverables for AI infrastructure planning.'
+    type: evidence
+    section: 'KPMG Services'
+    position: 106
+    source_format: prose
+    metadata: {}
+
+  - id: seg-107
+    text: 'Solutions should be tailored to specific needs and precise architecture requirements.'
+    type: evidence
+    section: 'KPMG Services'
+    position: 107
+    source_format: prose
+    metadata: {}

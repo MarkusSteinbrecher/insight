@@ -1,0 +1,647 @@
+source_id: source-040
+title: 'TechnoVision 2026: Top 5 Tech Trends to Watch'
+url: https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/
+author: 'Pascal Brier, Mark Roberts (Capgemini)'
+date: 2026-01-12
+total_segments: 78
+
+composition:
+  claim: { count: 28, pct: 35.9 }
+  recommendation: { count: 11, pct: 14.1 }
+  definition: { count: 11, pct: 14.1 }
+  context: { count: 13, pct: 16.7 }
+  evidence: { count: 5, pct: 6.4 }
+  noise: { count: 6, pct: 7.7 }
+  statistic: { count: 0, pct: 0.0 }
+  example: { count: 2, pct: 2.6 }
+  attribution: { count: 2, pct: 2.6 }
+  methodology: { count: 0, pct: 0.0 }
+
+signal_ratio: 92.3
+
+segments:
+- id: seg-001
+  text: 'TechnoVision 2026: Top 5 Tech Trends to Watch'
+  type: noise
+  section: Title
+  position: 1
+  source_format: heading
+  metadata: {}
+
+- id: seg-002
+  text: 'Top Tech Trends 2026: AI Backbone, Intelligent Apps, Cloud 3.0 and More'
+  type: noise
+  section: Subtitle
+  position: 2
+  source_format: heading
+  metadata: {}
+
+- id: seg-003
+  text: 'Explore 2026''s top tech trends transforming enterprise IT — from AI''s rise as the digital backbone and software that builds itself, to intelligent apps, dual-use defense tech, and the paradox of tech sovereignty.'
+  type: context
+  section: Introduction
+  position: 3
+  source_format: prose
+  metadata: {}
+
+- id: seg-004
+  text: 'Technology leadership in 2026 is about constructing durable foundations that future innovation will depend on.'
+  type: claim
+  section: Introduction
+  position: 4
+  source_format: prose
+  metadata: {}
+
+- id: seg-005
+  text: 'Capgemini''s flagship TechnoVision 2026 report identifies five transformative technology trends for the year ahead.'
+  type: context
+  section: Introduction
+  position: 5
+  source_format: prose
+  metadata: {}
+
+- id: seg-006
+  text: 'Trend 1 — The Year of Truth for AI'
+  type: noise
+  section: Trend 1
+  position: 6
+  source_format: heading
+  metadata: {}
+
+- id: seg-007
+  text: 'The upcoming year will see AI become the backbone of enterprise architecture.'
+  type: claim
+  section: Trend 1
+  position: 7
+  source_format: prose
+  metadata: {}
+
+- id: seg-008
+  text: '2026 marks the shift from proof-of-concept to proof-of-impact for AI.'
+  type: claim
+  section: Trend 1
+  position: 8
+  source_format: prose
+  metadata: {}
+
+- id: seg-009
+  text: 'The Year of Truth for AI signals a shift from hype to measurable impact, as organizations focus on trust and enterprise-wide adoption.'
+  type: claim
+  section: Trend 1
+  position: 9
+  source_format: prose
+  metadata: {}
+
+- id: seg-010
+  text: 'AI shifts from isolated proofs of concept to coherent, adaptive, and trusted value systems.'
+  type: claim
+  section: Trend 1
+  position: 10
+  source_format: prose
+  metadata: {}
+
+- id: seg-011
+  text: 'Organizations invest in robust data foundations and Human-AI chemistry.'
+  type: recommendation
+  section: Trend 1
+  position: 11
+  source_format: prose
+  metadata: {}
+
+- id: seg-012
+  text: 'This demands governance and cultural readiness to embed AI into the fabric of enterprise decision-making.'
+  type: claim
+  section: Trend 1
+  position: 12
+  source_format: prose
+  metadata: {}
+
+- id: seg-013
+  text: 'AI is reshaped from a supporting technology to the digital backbone of enterprise operations.'
+  type: claim
+  section: Trend 1
+  position: 13
+  source_format: prose
+  metadata: {}
+
+- id: seg-014
+  text: 'Enterprise-wide AI adoption requires trust, governance, and cultural readiness as foundational prerequisites.'
+  type: recommendation
+  section: Trend 1
+  position: 14
+  source_format: prose
+  metadata: {}
+
+- id: seg-015
+  text: 'Trend 2 — AI Is Eating Software'
+  type: noise
+  section: Trend 2
+  position: 15
+  source_format: heading
+  metadata: {}
+
+- id: seg-016
+  text: 'The paradigm moves from writing code to expressing intent.'
+  type: claim
+  section: Trend 2
+  position: 16
+  source_format: prose
+  metadata: {}
+
+- id: seg-017
+  text: 'Developers articulate desired outcomes, and AI autonomously delivers, integrating and maintaining systems.'
+  type: claim
+  section: Trend 2
+  position: 17
+  source_format: prose
+  metadata: {}
+
+- id: seg-018
+  text: 'Software becomes self-assembling and self-healing.'
+  type: claim
+  section: Trend 2
+  position: 18
+  source_format: prose
+  metadata: {}
+
+- id: seg-019
+  text: 'AI is increasingly generating and maintaining software parts, shifting the development lifecycle across industries.'
+  type: claim
+  section: Trend 2
+  position: 19
+  source_format: prose
+  metadata: {}
+
+- id: seg-020
+  text: 'Developers will specify outcomes while AI generates and maintains components, shortening delivery cycles and improving quality.'
+  type: claim
+  section: Trend 2
+  position: 20
+  source_format: prose
+  metadata: {}
+
+- id: seg-021
+  text: 'Competitive edge shifts from coding proficiency to mastering orchestration and governance of AI-generated systems.'
+  type: claim
+  section: Trend 2
+  position: 21
+  source_format: prose
+  metadata: {}
+
+- id: seg-022
+  text: 'Reskilling toward systems thinking and AI orchestration is required as the nature of software development changes.'
+  type: recommendation
+  section: Trend 2
+  position: 22
+  source_format: prose
+  metadata: {}
+
+- id: seg-023
+  text: 'Trend 3 — Cloud 3.0'
+  type: noise
+  section: Trend 3
+  position: 23
+  source_format: heading
+  metadata: {}
+
+- id: seg-024
+  text: 'Cloud becomes the operational backbone for AI.'
+  type: claim
+  section: Trend 3
+  position: 24
+  source_format: prose
+  metadata: {}
+
+- id: seg-025
+  text: 'AI cannot scale only on classical public cloud infrastructure.'
+  type: claim
+  section: Trend 3
+  position: 25
+  source_format: prose
+  metadata: {}
+
+- id: seg-026
+  text: 'Fine-tuning on proprietary data, managing data sensitivity, and deploying low-latency inference push organizations toward hybrid, private, multi-cloud, and sovereign cloud models.'
+  type: claim
+  section: Trend 3
+  position: 26
+  source_format: prose
+  metadata: {}
+
+- id: seg-027
+  text: 'Cloud is entering its next evolution — a phase where hybrid, private, multi-cloud and sovereign architectures are no longer niche but fundamental.'
+  type: claim
+  section: Trend 3
+  position: 27
+  source_format: prose
+  metadata: {}
+
+- id: seg-028
+  text: 'Cloud 3.0 is becoming the operational backbone for AI and agentic workloads.'
+  type: definition
+  section: Trend 3
+  position: 28
+  source_format: prose
+  metadata: {}
+
+- id: seg-029
+  text: 'Hybrid, private, multi-cloud and sovereign cloud models are essential infrastructure requirements for AI workloads at scale.'
+  type: recommendation
+  section: Trend 3
+  position: 29
+  source_format: prose
+  metadata: {}
+
+- id: seg-030
+  text: 'Data sensitivity requirements drive the need for sovereign cloud architectures that keep proprietary data under organizational control.'
+  type: claim
+  section: Trend 3
+  position: 30
+  source_format: prose
+  metadata: {}
+
+- id: seg-031
+  text: 'Low-latency inference demands distributed compute architectures closer to the point of use.'
+  type: claim
+  section: Trend 3
+  position: 31
+  source_format: prose
+  metadata: {}
+
+- id: seg-032
+  text: 'Trend 4 — The Rise of Intelligent Ops'
+  type: noise
+  section: Trend 4
+  position: 32
+  source_format: heading
+  metadata: {}
+
+- id: seg-033
+  text: 'Monolithic enterprise backbones evolve into living ecosystems of intelligent, modular, continuously learning applications.'
+  type: claim
+  section: Trend 4
+  position: 33
+  source_format: prose
+  metadata: {}
+
+- id: seg-034
+  text: 'Intelligent Ops blends human oversight with autonomous AI agents.'
+  type: definition
+  section: Trend 4
+  position: 34
+  source_format: prose
+  metadata: {}
+
+- id: seg-035
+  text: 'Intelligent Ops are automated processes that combine data, AI and digital processes.'
+  type: definition
+  section: Trend 4
+  position: 35
+  source_format: prose
+  metadata: {}
+
+- id: seg-036
+  text: 'Enterprise systems are undergoing a fundamental shift toward intelligent operations.'
+  type: claim
+  section: Trend 4
+  position: 36
+  source_format: prose
+  metadata: {}
+
+- id: seg-037
+  text: 'The shift puts the process back at the core, making business processes themselves intelligent rather than just the tools supporting them.'
+  type: claim
+  section: Trend 4
+  position: 37
+  source_format: prose
+  metadata: {}
+
+- id: seg-038
+  text: 'Living ecosystems of modular, learning applications replace monolithic backbones.'
+  type: definition
+  section: Trend 4
+  position: 38
+  source_format: prose
+  metadata: {}
+
+- id: seg-039
+  text: 'Human oversight remains essential even as AI agents take on operational roles within intelligent operations.'
+  type: recommendation
+  section: Trend 4
+  position: 39
+  source_format: prose
+  metadata: {}
+
+- id: seg-040
+  text: 'Continuously learning applications adapt to changing conditions without requiring complete system redesign.'
+  type: definition
+  section: Trend 4
+  position: 40
+  source_format: prose
+  metadata: {}
+
+- id: seg-041
+  text: 'Trend 5 — The Borderless Paradox of Tech Sovereignty'
+  type: context
+  section: Trend 5
+  position: 41
+  source_format: heading
+  metadata: {}
+
+- id: seg-042
+  text: 'The race is for resilient interdependence — balancing open collaboration with strategic self-reliance.'
+  type: claim
+  section: Trend 5
+  position: 42
+  source_format: prose
+  metadata: {}
+
+- id: seg-043
+  text: 'Sovereignty principles must be embedded into architecture rather than pursuing isolationist strategies.'
+  type: recommendation
+  section: Trend 5
+  position: 43
+  source_format: prose
+  metadata: {}
+
+- id: seg-044
+  text: 'Sovereignty is no longer defined by isolation, but by resilient interdependence.'
+  type: definition
+  section: Trend 5
+  position: 44
+  source_format: prose
+  metadata: {}
+
+- id: seg-045
+  text: 'Organizations will focus on risk mitigation and selective control over key layers.'
+  type: recommendation
+  section: Trend 5
+  position: 45
+  source_format: prose
+  metadata: {}
+
+- id: seg-046
+  text: 'Securing business continuity will become the primary imperative through diversified suppliers and sovereign alternatives.'
+  type: claim
+  section: Trend 5
+  position: 46
+  source_format: prose
+  metadata: {}
+
+- id: seg-047
+  text: 'Tech sovereignty emerges as a strategic priority, driving organizations to build resilient interdependence.'
+  type: context
+  section: Trend 5
+  position: 47
+  source_format: prose
+  metadata: {}
+
+- id: seg-048
+  text: 'The paradox is that achieving true technology sovereignty requires more collaboration, not less.'
+  type: claim
+  section: Trend 5
+  position: 48
+  source_format: prose
+  metadata: {}
+
+- id: seg-049
+  text: 'Sovereign alternatives and diversified suppliers provide business continuity without isolating the organization from the global technology ecosystem.'
+  type: definition
+  section: Trend 5
+  position: 49
+  source_format: prose
+  metadata: {}
+
+- id: seg-050
+  text: 'The five trends are interconnected — AI as backbone drives Cloud 3.0 requirements, which enables Intelligent Ops, all underpinned by sovereignty principles.'
+  type: claim
+  section: Cross-Cutting Themes
+  position: 50
+  source_format: prose
+  metadata: {}
+
+- id: seg-051
+  text: 'AI is reshaping the software development lifecycle, the cloud consumption model, enterprise operations, and even the concept of technology sovereignty simultaneously.'
+  type: context
+  section: Cross-Cutting Themes
+  position: 51
+  source_format: prose
+  metadata: {}
+
+- id: seg-052
+  text: 'Enterprise architecture must adapt to accommodate all five trends simultaneously rather than treating them as independent initiatives.'
+  type: recommendation
+  section: Cross-Cutting Themes
+  position: 52
+  source_format: prose
+  metadata: {}
+
+- id: seg-053
+  text: 'The common thread across all five trends is that AI is no longer a discrete technology initiative but a fundamental reshaping of how enterprises operate.'
+  type: claim
+  section: Cross-Cutting Themes
+  position: 53
+  source_format: prose
+  metadata: {}
+
+- id: seg-054
+  text: 'Technology leadership in 2026 requires building durable foundations rather than chasing individual technology implementations.'
+  type: recommendation
+  section: Cross-Cutting Themes
+  position: 54
+  source_format: prose
+  metadata: {}
+
+- id: seg-055
+  text: 'The report positions these trends as an integrated transformation agenda rather than a menu of options.'
+  type: context
+  section: Cross-Cutting Themes
+  position: 55
+  source_format: prose
+  metadata: {}
+
+- id: seg-056
+  text: 'The shift from proof-of-concept to proof-of-impact requires enterprises to demonstrate measurable value from AI deployments.'
+  type: context
+  section: Implications for Enterprise Architecture
+  position: 56
+  source_format: prose
+  metadata: {}
+
+- id: seg-057
+  text: 'Data foundations become critical as AI moves from experimentation to enterprise-wide deployment.'
+  type: evidence
+  section: Implications for Enterprise Architecture
+  position: 57
+  source_format: prose
+  metadata: {}
+
+- id: seg-058
+  text: 'Human-AI chemistry — the ability of humans and AI to collaborate effectively — is positioned as a core organizational capability.'
+  type: definition
+  section: Implications for Enterprise Architecture
+  position: 58
+  source_format: prose
+  metadata: {}
+
+- id: seg-059
+  text: 'Governance becomes a foundational layer rather than an oversight function in the AI-backbone enterprise.'
+  type: claim
+  section: Implications for Enterprise Architecture
+  position: 59
+  source_format: prose
+  metadata: {}
+
+- id: seg-060
+  text: 'Cultural readiness is as important as technical readiness for successful AI transformation.'
+  type: claim
+  section: Implications for Enterprise Architecture
+  position: 60
+  source_format: prose
+  metadata: {}
+
+- id: seg-061
+  text: 'The software development paradigm shift requires new skills focused on intent expression and AI orchestration rather than traditional coding.'
+  type: evidence
+  section: Implications for Enterprise Architecture
+  position: 61
+  source_format: prose
+  metadata: {}
+
+- id: seg-062
+  text: 'Self-assembling software creates opportunities for faster delivery but also introduces new risks around quality assurance and system integrity.'
+  type: evidence
+  section: Implications for Enterprise Architecture
+  position: 62
+  source_format: prose
+  metadata: {}
+
+- id: seg-063
+  text: 'Cloud architecture decisions are no longer purely about cost optimization but about enabling AI workloads at scale.'
+  type: evidence
+  section: Implications for Enterprise Architecture
+  position: 63
+  source_format: prose
+  metadata: {}
+
+- id: seg-064
+  text: 'The transition from monolithic to modular enterprise systems requires incremental migration strategies.'
+  type: context
+  section: Implications for Enterprise Architecture
+  position: 64
+  source_format: prose
+  metadata: {}
+
+- id: seg-065
+  text: 'Dual-use defense technology is an emerging trend referenced in the report description.'
+  type: context
+  section: Additional Themes
+  position: 65
+  source_format: prose
+  metadata: {}
+
+- id: seg-066
+  text: 'The report was published January 12, 2026, reflecting the most current Capgemini perspective on technology trends.'
+  type: context
+  section: Publication Context
+  position: 66
+  source_format: prose
+  metadata: {}
+
+- id: seg-067
+  text: 'Pascal Brier serves as Chief Innovation Officer at Capgemini.'
+  type: context
+  section: Attribution
+  position: 67
+  source_format: prose
+  metadata: {}
+
+- id: seg-068
+  text: 'The modular, learning application paradigm requires new approaches to integration, testing, and deployment.'
+  type: evidence
+  section: Implications for Enterprise Architecture
+  position: 68
+  source_format: prose
+  metadata: {}
+
+- id: seg-069
+  text: '"We have now entered a new, more pragmatic and realistic era of AI-driven transformation."'
+  type: attribution
+  section: Quotes
+  position: 69
+  source_format: quote
+  metadata:
+    speaker: Pascal Brier
+    role: Chief Innovation Officer, Capgemini
+
+- id: seg-070
+  text: 'The report serves as Capgemini''s annual flagship technology outlook.'
+  type: context
+  section: Publication Context
+  position: 70
+  source_format: prose
+  metadata: {}
+
+- id: seg-071
+  text: 'Agentic workloads are specifically called out as a driver of Cloud 3.0 requirements.'
+  type: claim
+  section: Trend Intersections
+  position: 71
+  source_format: prose
+  metadata: {}
+
+- id: seg-072
+  text: 'Multi-cloud strategies are evolving from cost optimization plays to AI readiness requirements.'
+  type: context
+  section: Trend Intersections
+  position: 72
+  source_format: prose
+  metadata: {}
+
+- id: seg-073
+  text: 'Sovereign cloud models address both regulatory compliance and competitive data protection needs.'
+  type: definition
+  section: Trend Intersections
+  position: 73
+  source_format: prose
+  metadata: {}
+
+- id: seg-074
+  text: 'The convergence of AI backbone, Cloud 3.0, and Intelligent Ops creates an integrated enterprise platform requirement.'
+  type: claim
+  section: Trend Intersections
+  position: 74
+  source_format: prose
+  metadata: {}
+
+- id: seg-075
+  text: 'Capgemini positions these trends as requiring coordinated investment rather than sequential adoption.'
+  type: attribution
+  section: Trend Intersections
+  position: 75
+  source_format: prose
+  metadata: {}
+
+- id: seg-076
+  text: 'Organizations must balance investing in current operational efficiency with building the architectural foundations for future AI-driven capabilities.'
+  type: recommendation
+  section: Strategic Implications
+  position: 76
+  source_format: prose
+  metadata: {}
+
+- id: seg-077
+  text: 'The self-healing software paradigm promises reduced maintenance burden but requires robust monitoring and fallback mechanisms.'
+  type: example
+  section: Risk Considerations
+  position: 77
+  source_format: prose
+  metadata: {}
+
+- id: seg-078
+  text: 'Living ecosystems of modular applications represent an evolutionary step beyond microservices architecture toward continuously adaptive systems.'
+  type: example
+  section: Architectural Evolution
+  position: 78
+  source_format: prose
+  metadata: {}

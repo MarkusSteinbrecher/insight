@@ -1,0 +1,862 @@
+source_id: source-035
+title: "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves"
+url: "https://www.bcg.com/publications/2025/machines-that-manage-themselves"
+author: "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)"
+date: 2025-11-14
+type: article
+total_segments: 106
+note: "BCG.com rendered via JavaScript; content reconstructed from web search snippets, MIT Sloan companion article, and source note"
+
+composition:
+  claim: { count: 39, pct: 36.8 }
+  statistic: { count: 7, pct: 6.6 }
+  evidence: { count: 7, pct: 6.6 }
+  definition: { count: 12, pct: 11.3 }
+  recommendation: { count: 18, pct: 17.0 }
+  context: { count: 12, pct: 11.3 }
+  methodology: { count: 2, pct: 1.9 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 2, pct: 1.9 }
+  noise: { count: 7, pct: 6.6 }
+
+signal_ratio: 93.4
+
+segments:
+
+  # ============================================================
+  # TITLE AND INTRODUCTION
+  # ============================================================
+
+  - id: seg-001
+    text: 'Leading in the Age of AI Agents: Managing the Machines That Manage Themselves'
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "This article is a companion piece to the MIT Sloan Management Review / BCG survey of 2,000+ leaders across 100+ countries."
+    type: attribution
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: 'The report is titled "The Emerging Agentic Enterprise: How Leaders Must Navigate a New Age of AI."'
+    type: attribution
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The survey covered 2,102 executives across 21 industries and 116 countries in spring 2025."
+    type: methodology
+    section: "Introduction"
+    position: 4
+    source_format: prose
+    metadata:
+      sample_size: 2102
+      industries: 21
+      countries: 116
+      period: "spring 2025"
+
+  - id: seg-005
+    text: "Agentic AI is both software and colleague — a form of artificial intelligence that acts."
+    type: definition
+    section: "Introduction"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "Organizations must develop new management frameworks for workflows, governance, investment planning, and talent strategies."
+    type: claim
+    section: "Introduction"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Agentic AI is neither a tool nor a teammate — it is both and thrives in that blur."
+    type: definition
+    section: "Introduction"
+    position: 7
+    source_format: prose
+
+  # ============================================================
+  # ADOPTION AND SURVEY DATA
+  # ============================================================
+
+  - id: seg-008
+    text: "Adoption and Survey Data"
+    type: noise
+    section: "Adoption Data"
+    position: 8
+    source_format: heading
+
+  - id: seg-009
+    text: "In less than two years, 35% of companies are already exploring agentic AI."
+    type: statistic
+    section: "Adoption Data"
+    position: 9
+    source_format: prose
+    metadata:
+      metric: "Companies exploring agentic AI"
+      value: 35
+      unit: "%"
+
+  - id: seg-010
+    text: "35%+ of companies already deploy agentic AI systems capable of autonomous planning, action, and learning."
+    type: statistic
+    section: "Adoption Data"
+    position: 10
+    source_format: prose
+    metadata:
+      metric: "Companies deploying autonomous agentic AI"
+      value: 35
+      unit: "%+"
+
+  - id: seg-011
+    text: "Another 44% of companies plan to implement agentic AI."
+    type: statistic
+    section: "Adoption Data"
+    position: 11
+    source_format: prose
+    metadata:
+      metric: "Companies planning agentic AI implementation"
+      value: 44
+      unit: "%"
+
+  - id: seg-012
+    text: "76% of executives view agentic AI more as a coworker than a tool."
+    type: statistic
+    section: "Adoption Data"
+    position: 12
+    source_format: prose
+    metadata:
+      metric: "Executives viewing agentic AI as coworker"
+      value: 76
+      unit: "%"
+
+  - id: seg-013
+    text: "AI-native firms achieve 25 to 35 times more revenue per employee than traditional competitors."
+    type: statistic
+    section: "Adoption Data"
+    position: 13
+    source_format: prose
+    metadata:
+      metric: "Revenue per employee multiplier for AI-native firms"
+      value: "25-35"
+      unit: "times"
+      population: "AI-native vs traditional firms"
+
+  - id: seg-014
+    text: "Organizational enthusiasm for agentic AI is running ahead of organizational readiness in governance, talent, and accountability."
+    type: claim
+    section: "Adoption Data"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "Many companies deploy these systems without fully addressing strategic tensions around governance, talent, and accountability."
+    type: claim
+    section: "Adoption Data"
+    position: 15
+    source_format: prose
+
+  # ============================================================
+  # FOUR ORGANIZATIONAL TENSIONS
+  # ============================================================
+
+  - id: seg-016
+    text: "Four Organizational Tensions"
+    type: noise
+    section: "Organizational Tensions"
+    position: 16
+    source_format: heading
+
+  - id: seg-017
+    text: "The article identifies four organizational tensions that must be managed when deploying agentic AI."
+    type: context
+    section: "Organizational Tensions"
+    position: 17
+    source_format: prose
+
+  # --- Tension 1: Scalability vs. Adaptability ---
+
+  - id: seg-018
+    text: 'Tension 1: Scalability versus Adaptability'
+    type: noise
+    section: "Tension 1"
+    position: 18
+    source_format: heading
+
+  - id: seg-019
+    text: "The first tension is balancing machine efficiency with human flexibility."
+    type: definition
+    section: "Tension 1"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "Traditional automation excels at performing predefined tasks at scale."
+    type: context
+    section: "Tension 1"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "Agentic AI derives value from adaptability — responding to changing conditions and learning over time."
+    type: claim
+    section: "Tension 1"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "Constraining systems too tightly limits their effectiveness, while excessive freedom creates unpredictability."
+    type: claim
+    section: "Tension 1"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Organizations should design processes to accommodate both scale and learning."
+    type: recommendation
+    section: "Tension 1"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The organizations best positioned to benefit from agentic AI are those that design processes to accommodate both scale and learning, treating adaptability as a strategic capability and not a by-product."
+    type: claim
+    section: "Tension 1"
+    position: 24
+    source_format: prose
+
+  # --- Tension 2: Experience vs. Expediency ---
+
+  - id: seg-025
+    text: 'Tension 2: Experience versus Expediency'
+    type: noise
+    section: "Tension 2"
+    position: 25
+    source_format: heading
+
+  - id: seg-026
+    text: "AI systems simultaneously depreciate through model drift while appreciating through learning."
+    type: claim
+    section: "Tension 2"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Unlike traditional tools or workers with predictable value trajectories, agentic systems create unique financial challenges."
+    type: claim
+    section: "Tension 2"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Companies adopting hybrid investment models and diversified AI portfolios are better positioned to capture sustained value than those relying solely on conventional financial frameworks."
+    type: claim
+    section: "Tension 2"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Agentic AI forces organizations to rethink how they assess cost, timing, and return on investment."
+    type: claim
+    section: "Tension 2"
+    position: 29
+    source_format: prose
+
+  # --- Tension 3: Supervision vs. Autonomy ---
+
+  - id: seg-030
+    text: 'Tension 3: Supervision versus Autonomy'
+    type: noise
+    section: "Tension 3"
+    position: 30
+    source_format: heading
+
+  - id: seg-031
+    text: "Dynamic, risk-based governance is essential for managing agentic AI."
+    type: claim
+    section: "Tension 3"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Excessive supervision can negate the benefits of autonomy."
+    type: claim
+    section: "Tension 3"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Insufficient oversight exposes organizations to operational and compliance risks."
+    type: claim
+    section: "Tension 3"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: 'Agentic AI systems should be managed more like a human coworker than like a traditional tool, requiring dynamic, risk-based governance models.'
+    type: recommendation
+    section: "Tension 3"
+    position: 34
+    source_format: prose
+
+  # --- Tension 4: Retrofitting vs. Reimagining ---
+
+  - id: seg-035
+    text: 'Tension 4: Retrofitting versus Reimagining'
+    type: noise
+    section: "Tension 4"
+    position: 35
+    source_format: heading
+
+  - id: seg-036
+    text: "Quick retrofitting delivers faster but limited gains."
+    type: claim
+    section: "Tension 4"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "Reimagining from first principles unlocks competitive advantage, though requiring larger upfront investment."
+    type: claim
+    section: "Tension 4"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Organizations must decide whether to quickly retrofit agentic AI into existing workflows or take the time to reimagine those workflows altogether."
+    type: claim
+    section: "Tension 4"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "While retrofitting delivers faster results, reimagining workflows around hybrid human-AI teams unlocks greater competitive advantages."
+    type: claim
+    section: "Tension 4"
+    position: 39
+    source_format: prose
+
+  # ============================================================
+  # PROCESS DESIGN TRANSFORMATION
+  # ============================================================
+
+  - id: seg-040
+    text: "Process Design Transformation"
+    type: context
+    section: "Process Design"
+    position: 40
+    source_format: heading
+
+  - id: seg-041
+    text: "For CEOs, the central question is no longer 'Where can I automate a step?' but rather 'How will process design itself fundamentally change?'"
+    type: claim
+    section: "Process Design"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "Agentic systems invite leaders to rethink the design of whole workflows, blending human judgment and machine autonomy in ways that legacy processes were never built to accommodate."
+    type: claim
+    section: "Process Design"
+    position: 42
+    source_format: prose
+
+  # ============================================================
+  # LEADERSHIP PLAYBOOK (FIVE DIMENSIONS)
+  # ============================================================
+
+  - id: seg-043
+    text: "Five-Dimension Leadership Playbook"
+    type: context
+    section: "Leadership Playbook"
+    position: 43
+    source_format: heading
+
+  - id: seg-044
+    text: "The article proposes a five-dimension leadership playbook for the agentic era."
+    type: context
+    section: "Leadership Playbook"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: 'Dimension 1: Reimagine the work using a zero-based approach.'
+    type: recommendation
+    section: "Leadership Playbook"
+    position: 45
+    source_format: bullet
+
+  - id: seg-046
+    text: "A zero-based approach starts with the outcome you want and reinvents how to deliver it, rather than automating what already exists."
+    type: definition
+    section: "Leadership Playbook"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: 'Dimension 2: Guide actions, not just decisions.'
+    type: recommendation
+    section: "Leadership Playbook"
+    position: 47
+    source_format: bullet
+
+  - id: seg-048
+    text: 'Dimension 3: Rethink structures and talent — emphasize orchestrators, not overseers.'
+    type: recommendation
+    section: "Leadership Playbook"
+    position: 48
+    source_format: bullet
+
+  - id: seg-049
+    text: 'Dimension 4: Institutionalize learning loops.'
+    type: recommendation
+    section: "Leadership Playbook"
+    position: 49
+    source_format: bullet
+
+  - id: seg-050
+    text: 'Dimension 5: Build radical adaptability toward an "Agentic Enterprise Operating System."'
+    type: recommendation
+    section: "Leadership Playbook"
+    position: 50
+    source_format: bullet
+
+  - id: seg-051
+    text: 'The goal is an "Agentic Enterprise Operating System" where human creativity and machine initiative evolve together.'
+    type: definition
+    section: "Leadership Playbook"
+    position: 51
+    source_format: prose
+
+  # ============================================================
+  # MIDDLE MANAGEMENT AND ORGANIZATIONAL STRUCTURE
+  # ============================================================
+
+  - id: seg-052
+    text: "Middle Management and Organizational Structure"
+    type: context
+    section: "Organizational Structure"
+    position: 52
+    source_format: heading
+
+  - id: seg-053
+    text: "Middle management layers will shrink; new roles emphasize orchestration over oversight."
+    type: claim
+    section: "Organizational Structure"
+    position: 53
+    source_format: prose
+
+  - id: seg-054
+    text: "43% of extensive adopters anticipate hiring generalists in place of specialists."
+    type: statistic
+    section: "Organizational Structure"
+    position: 54
+    source_format: prose
+    metadata:
+      metric: "Extensive adopters anticipating generalist hiring"
+      value: 43
+      unit: "%"
+      population: "Extensive agentic AI adopters"
+
+  - id: seg-055
+    text: "45% of extensive adopters anticipate a reduction in layers of middle management."
+    type: statistic
+    section: "Organizational Structure"
+    position: 55
+    source_format: prose
+    metadata:
+      metric: "Extensive adopters anticipating middle management reduction"
+      value: 45
+      unit: "%"
+      population: "Extensive agentic AI adopters"
+
+  - id: seg-056
+    text: "This implies broader organizational redesign — if agents coordinate workflows, traditional managerial spans of control increase and the number of hierarchical layers decreases."
+    type: claim
+    section: "Organizational Structure"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "Strategic oversight, ethical governance, and the ability to orchestrate human-AI teams become the most critical human skills."
+    type: claim
+    section: "Organizational Structure"
+    position: 57
+    source_format: prose
+
+  - id: seg-058
+    text: "Work is moving to teams centered on oversight, orchestration, and continual improvement of agent-driven processes rather than manual delivery."
+    type: claim
+    section: "Organizational Structure"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "Promotion and compensation systems built around routine analysis or coordination may become obsolete."
+    type: claim
+    section: "Organizational Structure"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "Organizations will need to reward new capabilities like orchestrating hybrid teams and managing exceptions."
+    type: recommendation
+    section: "Organizational Structure"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: '"Generalist" describes leaders who can span domains, manage ambiguity, and supervise human-AI collaboration at scale.'
+    type: definition
+    section: "Organizational Structure"
+    position: 61
+    source_format: prose
+
+  # ============================================================
+  # THE 10/20/70 RULE
+  # ============================================================
+
+  - id: seg-062
+    text: 'The 10/20/70 Rule'
+    type: context
+    section: "10/20/70 Rule"
+    position: 62
+    source_format: heading
+
+  - id: seg-063
+    text: 'The 10/20/70 rule applies: 10% algorithms, 20% tech, 70% people and processes.'
+    type: claim
+    section: "10/20/70 Rule"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "Organizations should follow the 10/20/70 rule to emphasize people and processes as part of guiding principles for scaling agentic AI."
+    type: recommendation
+    section: "10/20/70 Rule"
+    position: 64
+    source_format: prose
+
+  # ============================================================
+  # INVESTMENT AND VALUE
+  # ============================================================
+
+  - id: seg-065
+    text: "Investment and Value"
+    type: context
+    section: "Investment"
+    position: 65
+    source_format: heading
+
+  - id: seg-066
+    text: "AI-native firms are already achieving 25 to 35 times more revenue per employee compared to traditional peers."
+    type: evidence
+    section: "Investment"
+    position: 66
+    source_format: prose
+
+  - id: seg-067
+    text: "Success requires treating agentic AI as a management inflection point requiring investment in systems, structures, skills, and strategy."
+    type: claim
+    section: "Investment"
+    position: 67
+    source_format: prose
+
+  - id: seg-068
+    text: "Organizations that swiftly adapt their management playbook to make full use of this transformative technology will gain the edge."
+    type: claim
+    section: "Investment"
+    position: 68
+    source_format: prose
+
+  # ============================================================
+  # GOVERNANCE AND ACCOUNTABILITY
+  # ============================================================
+
+  - id: seg-069
+    text: "Governance and Accountability"
+    type: context
+    section: "Governance"
+    position: 69
+    source_format: heading
+
+  - id: seg-070
+    text: "Agentic AI sits between tools and human workers, deriving much of its value from adaptability — how it responds to changing conditions and learns over time."
+    type: definition
+    section: "Governance"
+    position: 70
+    source_format: prose
+
+  - id: seg-071
+    text: "Treating adaptability as a strategic capability, not a by-product, is essential."
+    type: recommendation
+    section: "Governance"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "Dynamic, risk-based governance models are required because agentic AI should be managed more like a human coworker than a traditional tool."
+    type: recommendation
+    section: "Governance"
+    position: 72
+    source_format: prose
+
+  # ============================================================
+  # AGENTIC ENTERPRISE OPERATING SYSTEM
+  # ============================================================
+
+  - id: seg-073
+    text: "Agentic Enterprise Operating System"
+    type: context
+    section: "Agentic Enterprise OS"
+    position: 73
+    source_format: heading
+
+  - id: seg-074
+    text: "As AI agents handle routine execution, the traditional operating model will be radically altered."
+    type: claim
+    section: "Agentic Enterprise OS"
+    position: 74
+    source_format: prose
+
+  - id: seg-075
+    text: 'The goal is an "Agentic Enterprise Operating System" where human creativity and machine initiative evolve together.'
+    type: definition
+    section: "Agentic Enterprise OS"
+    position: 75
+    source_format: prose
+
+  - id: seg-076
+    text: "Leaders must build radical adaptability into the operating model."
+    type: recommendation
+    section: "Agentic Enterprise OS"
+    position: 76
+    source_format: prose
+
+  # ============================================================
+  # SOURCE NOTE — KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-077
+    text: "Enthusiasm for agentic AI is running ahead of organizational readiness in governance, talent, and accountability."
+    type: claim
+    section: "Source Note Takeaways"
+    position: 77
+    source_format: bullet
+
+  - id: seg-078
+    text: 'Four organizational tensions: scalability vs. adaptability, experience vs. expediency, supervision vs. autonomy, retrofitting vs. reimagining.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 78
+    source_format: bullet
+
+  - id: seg-079
+    text: "AI-native firms achieve 25-35x more revenue per employee than traditional competitors."
+    type: evidence
+    section: "Source Note Takeaways"
+    position: 79
+    source_format: bullet
+
+  - id: seg-080
+    text: "Middle management layers will shrink; new roles emphasize orchestration over oversight."
+    type: claim
+    section: "Source Note Takeaways"
+    position: 80
+    source_format: bullet
+
+  - id: seg-081
+    text: 'The goal is an "Agentic Enterprise Operating System" where human creativity and machine initiative evolve together.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 81
+    source_format: bullet
+
+  - id: seg-082
+    text: 'The 10/20/70 rule: 10% algorithms, 20% tech, 70% people and processes.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 82
+    source_format: bullet
+
+  # ============================================================
+  # MIT SLOAN COMPANION — ADDITIONAL DETAIL
+  # ============================================================
+
+  - id: seg-083
+    text: "More than one-third of surveyed companies are already deploying agentic AI systems that can plan, act, and learn autonomously."
+    type: evidence
+    section: "MIT Sloan Companion"
+    position: 83
+    source_format: prose
+
+  - id: seg-084
+    text: "Another 44% are planning to do so."
+    type: evidence
+    section: "MIT Sloan Companion"
+    position: 84
+    source_format: prose
+
+  - id: seg-085
+    text: "These systems represent a fundamental shift from tools that simply assist employees to teammates that pursue goals and adapt based on outcomes."
+    type: definition
+    section: "MIT Sloan Companion"
+    position: 85
+    source_format: prose
+
+  - id: seg-086
+    text: "Researchers at MIT and BCG describe agentic AI as a new class of systems that can plan, act, and learn on their own."
+    type: definition
+    section: "MIT Sloan Companion"
+    position: 86
+    source_format: prose
+
+  - id: seg-087
+    text: "The flexibility tension is about balancing scalability and adaptability."
+    type: context
+    section: "MIT Sloan Companion"
+    position: 87
+    source_format: prose
+
+  - id: seg-088
+    text: "Traditional automation excels at performing predefined tasks at scale, while agentic AI derives value from adaptability — responding to changing conditions and learning over time."
+    type: evidence
+    section: "MIT Sloan Companion"
+    position: 88
+    source_format: prose
+
+  - id: seg-089
+    text: "The investment tension arises because agentic systems simultaneously depreciate through model drift while appreciating through continuous learning."
+    type: claim
+    section: "MIT Sloan Companion"
+    position: 89
+    source_format: prose
+
+  - id: seg-090
+    text: "Companies adopting hybrid investment models and diversified AI portfolios are better positioned to capture sustained value."
+    type: recommendation
+    section: "MIT Sloan Companion"
+    position: 90
+    source_format: prose
+
+  - id: seg-091
+    text: "The control tension requires balancing oversight with autonomy."
+    type: context
+    section: "MIT Sloan Companion"
+    position: 91
+    source_format: prose
+
+  - id: seg-092
+    text: "Excessive supervision negates autonomy benefits; insufficient oversight introduces operational and compliance risks."
+    type: claim
+    section: "MIT Sloan Companion"
+    position: 92
+    source_format: prose
+
+  - id: seg-093
+    text: "The scope tension means organizations can quickly retrofit agentic capabilities into existing workflows or redesign processes from first principles."
+    type: definition
+    section: "MIT Sloan Companion"
+    position: 93
+    source_format: prose
+
+  - id: seg-094
+    text: "Organizational enthusiasm for agentic AI outpaces readiness."
+    type: claim
+    section: "MIT Sloan Companion"
+    position: 94
+    source_format: prose
+
+  - id: seg-095
+    text: "Success requires treating agentic AI as a management inflection point requiring investment in systems, structures, skills, and strategy."
+    type: recommendation
+    section: "MIT Sloan Companion"
+    position: 95
+    source_format: prose
+
+  # ============================================================
+  # ADDITIONAL SEARCH FRAGMENTS
+  # ============================================================
+
+  - id: seg-096
+    text: "Africa leads in agentic AI adoption according to the MIT SMR / BCG report findings."
+    type: evidence
+    section: "Additional Findings"
+    position: 96
+    source_format: prose
+
+  - id: seg-097
+    text: "The survey methodology included interviews with senior leaders in addition to the quantitative survey."
+    type: methodology
+    section: "Methodology"
+    position: 97
+    source_format: prose
+
+  - id: seg-098
+    text: "CEOs should redesign work around zero-based, outcome-driven processes."
+    type: recommendation
+    section: "CEO Recommendations"
+    position: 98
+    source_format: prose
+
+  - id: seg-099
+    text: "CEOs should embed the company's business context and proprietary intelligence into agent systems."
+    type: recommendation
+    section: "CEO Recommendations"
+    position: 99
+    source_format: prose
+
+  - id: seg-100
+    text: "CEOs should assemble a shared AI platform that gives teams freedom within a frame."
+    type: recommendation
+    section: "CEO Recommendations"
+    position: 100
+    source_format: prose
+
+  - id: seg-101
+    text: "Agentic AI systems can observe, plan, act, and learn with minimal human intervention."
+    type: definition
+    section: "Definitions"
+    position: 101
+    source_format: prose
+
+  - id: seg-102
+    text: "AI agents handle tasks previously performed by human workers, shifting human work toward oversight, orchestration, and continual improvement."
+    type: claim
+    section: "Organizational Impact"
+    position: 102
+    source_format: prose
+
+  - id: seg-103
+    text: "Agentic AI blurs the line between tool and teammate."
+    type: claim
+    section: "Organizational Impact"
+    position: 103
+    source_format: prose
+
+  - id: seg-104
+    text: "Learning loops must be institutionalized so that both human and AI capabilities improve continuously."
+    type: recommendation
+    section: "Learning"
+    position: 104
+    source_format: prose
+
+  - id: seg-105
+    text: "Radical adaptability means the operating model itself must be designed to evolve."
+    type: claim
+    section: "Agentic Enterprise OS"
+    position: 105
+    source_format: prose
+
+  - id: seg-106
+    text: "The traditional operating model will be radically altered as AI agents handle routine execution."
+    type: evidence
+    section: "Agentic Enterprise OS"
+    position: 106
+    source_format: prose

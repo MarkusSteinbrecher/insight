@@ -6,16 +6,16 @@ phase: 2
 completed_steps:
   - "0.1"  # Web research
   - "0.2"  # Document ingestion
-  - "1.1"  # Per-source extraction (30 sources, 2,728 segments)
-  - "1.2"  # Cross-source claim alignment (136 canonical, 82 unique, 18 contradictions)
-  - "1.3"  # Critical analysis (136 claims assessed)
+  - "1.1"  # Per-source extraction (54 sources, ~4,712 segments)
+  - "1.2"  # Cross-source claim alignment (162 canonical, 106 unique, 24 contradictions)
+  - "1.3"  # Critical analysis (136 claims assessed — needs update for new claims)
   - "1.4"  # Cross-source comparison (14,424-word narrative analysis)
   - "2.1"  # Interactive discussion (8 findings discussed, 7 kept, 1 merged)
   - "2.2"  # Synthesis (7 findings, 5 tensions, 5 thought leadership positions, 7 content pieces)
   - "3.1"  # Reader perspective — actionability analysis
 current_step: "3.2"  # Recommendations
 created: 2026-02-14
-updated: 2026-02-14
+updated: 2026-02-15
 tags:
   - enterprise-architecture
   - AI
@@ -25,13 +25,13 @@ tags:
   - AI-governance
   - reference-architecture
   - production-readiness
-source_count: 30
+source_count: 54
 insight_count: 0
-extraction_count: 30
-canonical_claims: 136
-unique_claims: 82
-contradictions: 18
-critical_analysis_parts: 4
+extraction_count: 54
+canonical_claims: 162
+unique_claims: 106
+contradictions: 24
+critical_analysis_claims: 136
 
 # Targeted research inputs
 research_keywords:

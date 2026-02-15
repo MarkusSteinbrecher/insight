@@ -1,0 +1,704 @@
+source_id: source-046
+title: 'Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow'
+url: 'https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html'
+author: 'KPMG International'
+date: 2026-01-21
+total_segments: 80
+
+composition:
+  claim: { count: 26, pct: 32.5 }
+  statistic: { count: 10, pct: 12.5 }
+  evidence: { count: 1, pct: 1.2 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 18, pct: 22.5 }
+  context: { count: 13, pct: 16.2 }
+  methodology: { count: 3, pct: 3.8 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 3, pct: 3.8 }
+  noise: { count: 6, pct: 7.5 }
+
+signal_ratio: 92.5
+
+segments:
+  - id: seg-001
+    text: 'Global tech report 2026'
+    type: noise
+    section: 'Title'
+    position: 1
+    source_format: heading
+    metadata: {}
+
+  - id: seg-002
+    text: "Explore how organizations navigate today's emerging tech — and prepare for what's next"
+    type: noise
+    section: 'Title'
+    position: 2
+    source_format: heading
+    metadata: {}
+
+  - id: seg-003
+    text: "Disruption isn't slowing down — it's accelerating"
+    type: claim
+    section: 'Introduction'
+    position: 3
+    source_format: heading
+    metadata: {}
+
+  - id: seg-004
+    text: 'AI, quantum, and other next generation technologies are rewriting the rules of business.'
+    type: claim
+    section: 'Introduction'
+    position: 4
+    source_format: prose
+    metadata: {}
+
+  - id: seg-005
+    text: 'Strategy and execution must keep pace with an unwavering focus on ROI.'
+    type: recommendation
+    section: 'Introduction'
+    position: 5
+    source_format: prose
+    metadata: {}
+
+  - id: seg-006
+    text: 'Are you ready to lead in the Intelligence Age?'
+    type: noise
+    section: 'Introduction'
+    position: 6
+    source_format: prose
+    metadata: {}
+
+  - id: seg-007
+    text: 'To excel, organizations need to balance ambition with rational thinking.'
+    type: recommendation
+    section: 'Introduction'
+    position: 7
+    source_format: prose
+    metadata: {}
+
+  - id: seg-008
+    text: 'To thrive amid disruption, leaders should modernize their methods of measuring tech value, adopt strategies that favor flexibility and speed, and build cultures that welcome change.'
+    type: recommendation
+    section: 'Introduction'
+    position: 8
+    source_format: prose
+    metadata: {}
+
+  - id: seg-009
+    text: 'Expectations are high and adoption is rapid, but scaling introduces additional complexity and returns vary widely.'
+    type: claim
+    section: 'Introduction'
+    position: 9
+    source_format: prose
+    metadata: {}
+
+  - id: seg-010
+    text: 'Technology leaders should also keep one eye on the horizon — anticipating the future and preparing for the magnitude of disruptions to come.'
+    type: recommendation
+    section: 'Introduction'
+    position: 10
+    source_format: prose
+    metadata: {}
+
+  - id: seg-011
+    text: "KPMG's Global tech report 2026, Leading in the Intelligence Age: Excelling today, shaping tomorrow examines how organizations are responding."
+    type: context
+    section: 'Introduction'
+    position: 11
+    source_format: prose
+    metadata: {}
+
+  - id: seg-012
+    text: 'Key findings from our research'
+    type: noise
+    section: 'Key Findings'
+    position: 12
+    source_format: heading
+    metadata: {}
+
+  - id: seg-013
+    text: 'Meeting the challenge of the Intelligence Age'
+    type: noise
+    section: 'Key Findings'
+    position: 13
+    source_format: heading
+    metadata: {}
+
+  - id: seg-014
+    text: 'In an era characterized by the immense growth of tech, most organizations have bold plans to uplift maturity in 2026, fueling the shift from experimentation to scale.'
+    type: claim
+    section: 'Meeting the challenge of the Intelligence Age'
+    position: 14
+    source_format: prose
+    metadata: {}
+
+  - id: seg-015
+    text: 'However, intensifying challenges of tech debt, cost pressures and talent shortages are holding many back from realizing their tech goals.'
+    type: claim
+    section: 'Meeting the challenge of the Intelligence Age'
+    position: 15
+    source_format: prose
+    metadata: {}
+
+  - id: seg-016
+    text: 'Building adaptive strategies amid continual disruption'
+    type: noise
+    section: 'Key Findings'
+    position: 16
+    source_format: heading
+    metadata: {}
+
+  - id: seg-017
+    text: 'With the fast pace of innovation, tech plans are often obsolete before implementation.'
+    type: claim
+    section: 'Building adaptive strategies amid continual disruption'
+    position: 17
+    source_format: prose
+    metadata: {}
+
+  - id: seg-018
+    text: 'To thrive amid this constant change, technology leaders must coordinate investment priorities across the enterprise.'
+    type: recommendation
+    section: 'Building adaptive strategies amid continual disruption'
+    position: 18
+    source_format: prose
+    metadata: {}
+
+  - id: seg-019
+    text: 'Build clarity around strategic decision making.'
+    type: recommendation
+    section: 'Building adaptive strategies amid continual disruption'
+    position: 19
+    source_format: prose
+    metadata: {}
+
+  - id: seg-020
+    text: 'Create a culture that can leverage the best of tech.'
+    type: recommendation
+    section: 'Building adaptive strategies amid continual disruption'
+    position: 20
+    source_format: prose
+    metadata: {}
+
+  - id: seg-021
+    text: 'Ensure the foundations of data and resilience are spot on.'
+    type: recommendation
+    section: 'Building adaptive strategies amid continual disruption'
+    position: 21
+    source_format: prose
+    metadata: {}
+
+  - id: seg-022
+    text: 'Realizing value from tech investment'
+    type: claim
+    section: 'Key Findings'
+    position: 22
+    source_format: heading
+    metadata: {}
+
+  - id: seg-023
+    text: 'ROI on tech investment can vary dramatically based on factors such as readiness, diligent governance, execution discipline, and organizational agility.'
+    type: claim
+    section: 'Realizing value from tech investment'
+    position: 23
+    source_format: prose
+    metadata: {}
+
+  - id: seg-024
+    text: 'Investment decision making, particularly for new AI tools, has often been based on indirect and hypothetical benefits, adding to the complexity of getting it right.'
+    type: claim
+    section: 'Realizing value from tech investment'
+    position: 24
+    source_format: prose
+    metadata: {}
+
+  - id: seg-025
+    text: 'Tech executives need to look at the typical pattern of ROI for guidance and update their ROI KPIs to align with the kinds of business value that AI can generate.'
+    type: recommendation
+    section: 'Realizing value from tech investment'
+    position: 25
+    source_format: prose
+    metadata: {}
+
+  - id: seg-026
+    text: 'The foundations for the next wave'
+    type: context
+    section: 'Key Findings'
+    position: 26
+    source_format: heading
+    metadata: {}
+
+  - id: seg-027
+    text: 'The rise of agentic AI is commanding the attention of tech executives, but there are even more disruptive AI tech trends on the horizon.'
+    type: claim
+    section: 'The foundations for the next wave'
+    position: 27
+    source_format: prose
+    metadata: {}
+
+  - id: seg-028
+    text: 'Quantum provides immense computing power and calls for superior security, while Artificial General Intelligence and Artificial Superintelligence hold unpredictable potential.'
+    type: claim
+    section: 'The foundations for the next wave'
+    position: 28
+    source_format: prose
+    metadata: {}
+
+  - id: seg-029
+    text: 'One eye must always remain fixed on what is coming next.'
+    type: recommendation
+    section: 'The foundations for the next wave'
+    position: 29
+    source_format: prose
+    metadata: {}
+
+  - id: seg-030
+    text: 'The KPMG data shows tech executives expect a sharp move from pilots to ROI in the next year.'
+    type: claim
+    section: 'Featured Expert Quote - Zack Kass'
+    position: 30
+    source_format: quote
+    metadata: {}
+
+  - id: seg-031
+    text: '88 percent of organizations are already embedding AI agents.'
+    type: statistic
+    section: 'Featured Expert Quote - Zack Kass'
+    position: 31
+    source_format: quote
+    metadata:
+      metric: 'Organizations embedding AI agents'
+      value: 88
+      unit: '%'
+      population: 'Surveyed organizations'
+
+  - id: seg-032
+    text: 'High performers expect about half of their tech teams to be permanent human staff by 2027.'
+    type: statistic
+    section: 'Featured Expert Quote - Zack Kass'
+    position: 32
+    source_format: quote
+    metadata:
+      metric: 'Permanent human staff in tech teams'
+      value: 50
+      unit: '%'
+      population: 'High performers by 2027'
+
+  - id: seg-033
+    text: 'Zack Kass, Global AI advisor, thought leader, and former Head of Go-to-Market, OpenAI'
+    type: attribution
+    section: 'Featured Expert Quote - Zack Kass'
+    position: 33
+    source_format: caption
+    metadata: {}
+
+  - id: seg-034
+    text: 'Your 2026 agenda'
+    type: context
+    section: 'Your 2026 Agenda'
+    position: 34
+    source_format: heading
+    metadata: {}
+
+  - id: seg-035
+    text: 'Accelerating learning, building a future-ready and agent-empowered workforce, and having one eye on emerging technology trends are just some of the essentials that should be on your 2026 agenda.'
+    type: recommendation
+    section: 'Your 2026 Agenda'
+    position: 35
+    source_format: prose
+    metadata: {}
+
+  - id: seg-036
+    text: 'Discover even more future-forward technology transformation tips in our report.'
+    type: context
+    section: 'Your 2026 Agenda'
+    position: 36
+    source_format: prose
+    metadata: {}
+
+  - id: seg-037
+    text: 'Adoption is rapid, but returns vary widely.'
+    type: claim
+    section: 'Featured Expert Quote - Guy Holland'
+    position: 37
+    source_format: quote
+    metadata: {}
+
+  - id: seg-038
+    text: 'Static planning is becoming obsolete.'
+    type: claim
+    section: 'Featured Expert Quote - Guy Holland'
+    position: 38
+    source_format: quote
+    metadata: {}
+
+  - id: seg-039
+    text: 'Organizations need adaptive strategies embracing flexibility and speed.'
+    type: recommendation
+    section: 'Featured Expert Quote - Guy Holland'
+    position: 39
+    source_format: quote
+    metadata: {}
+
+  - id: seg-040
+    text: 'Guy Holland, Global Leader, CIO Center of Excellence, KPMG International'
+    type: attribution
+    section: 'Featured Expert Quote - Guy Holland'
+    position: 40
+    source_format: caption
+    metadata: {}
+
+  - id: seg-041
+    text: 'About the research'
+    type: context
+    section: 'About the Research'
+    position: 41
+    source_format: heading
+    metadata: {}
+
+  - id: seg-042
+    text: 'The KPMG Global tech report 2026 is based on a survey of 2,500 tech executives from 27 countries.'
+    type: methodology
+    section: 'About the Research'
+    position: 42
+    source_format: prose
+    metadata:
+      sample_size: 2500
+      population: 'Tech executives'
+      countries: 27
+
+  - id: seg-043
+    text: '43% from Europe, Middle East and Africa (EMEA)'
+    type: statistic
+    section: 'About the Research'
+    position: 43
+    source_format: bullet
+    metadata:
+      metric: 'Regional distribution - EMEA'
+      value: 43
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-044
+    text: '29% from Asia-Pacific (ASPAC)'
+    type: statistic
+    section: 'About the Research'
+    position: 44
+    source_format: bullet
+    metadata:
+      metric: 'Regional distribution - ASPAC'
+      value: 29
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-045
+    text: '28% from the Americas'
+    type: statistic
+    section: 'About the Research'
+    position: 45
+    source_format: bullet
+    metadata:
+      metric: 'Regional distribution - Americas'
+      value: 28
+      unit: '%'
+      population: 'Survey respondents'
+
+  - id: seg-046
+    text: 'The tech executives represent eight industries: automotive, consumer and retail, energy, financial services, government, healthcare and life sciences, industrial manufacturing, and tech and telecom.'
+    type: methodology
+    section: 'About the Research'
+    position: 46
+    source_format: prose
+    metadata: {}
+
+  - id: seg-047
+    text: 'A significant proportion are senior leaders, and all organizations surveyed have annual revenues above US$100 million.'
+    type: methodology
+    section: 'About the Research'
+    position: 47
+    source_format: prose
+    metadata:
+      minimum_revenue: 'US$100 million'
+
+  - id: seg-048
+    text: 'The report features insights from global technology leaders including Dean Bortz (Google), Zack Kass (OpenAI), Noelle Russell (AI Leadership Institute), and Seth Patton (Microsoft 365 Copilot).'
+    type: attribution
+    section: 'About the Research'
+    position: 48
+    source_format: prose
+    metadata: {}
+
+  - id: seg-049
+    text: 'Most organizations have bold plans to uplift maturity in 2026, fueling the shift from experimentation to scale.'
+    type: claim
+    section: 'Meeting the challenge of the Intelligence Age'
+    position: 49
+    source_format: prose
+    metadata: {}
+
+  - id: seg-050
+    text: 'Tech debt, cost pressures and talent shortages are intensifying challenges holding many organizations back from realizing their tech goals.'
+    type: claim
+    section: 'Meeting the challenge of the Intelligence Age'
+    position: 50
+    source_format: prose
+    metadata: {}
+
+  - id: seg-051
+    text: 'With the fast pace of innovation, tech plans are often obsolete before implementation.'
+    type: claim
+    section: 'Building adaptive strategies amid continual disruption'
+    position: 51
+    source_format: prose
+    metadata: {}
+
+  - id: seg-052
+    text: 'Technology leaders must coordinate investment priorities across the enterprise, build clarity around strategic decision making, create a culture that can leverage the best of tech, and ensure the foundations of data and resilience are spot on.'
+    type: recommendation
+    section: 'Building adaptive strategies amid continual disruption'
+    position: 52
+    source_format: prose
+    metadata: {}
+
+  - id: seg-053
+    text: 'ROI on tech investment can vary dramatically based on readiness, diligent governance, execution discipline, and organizational agility.'
+    type: claim
+    section: 'Realizing value from tech investment'
+    position: 53
+    source_format: prose
+    metadata: {}
+
+  - id: seg-054
+    text: 'Investment decision making for new AI tools has often been based on indirect and hypothetical benefits.'
+    type: claim
+    section: 'Realizing value from tech investment'
+    position: 54
+    source_format: prose
+    metadata: {}
+
+  - id: seg-055
+    text: 'Tech executives need to update their ROI KPIs to align with the kinds of business value that AI can generate.'
+    type: recommendation
+    section: 'Realizing value from tech investment'
+    position: 55
+    source_format: prose
+    metadata: {}
+
+  - id: seg-056
+    text: 'The rise of agentic AI is commanding the attention of tech executives.'
+    type: claim
+    section: 'The foundations for the next wave'
+    position: 56
+    source_format: prose
+    metadata: {}
+
+  - id: seg-057
+    text: 'There are even more disruptive AI tech trends on the horizon, including quantum computing, AGI, and ASI.'
+    type: claim
+    section: 'The foundations for the next wave'
+    position: 57
+    source_format: prose
+    metadata: {}
+
+  - id: seg-058
+    text: 'Quantum provides immense computing power and calls for superior security.'
+    type: claim
+    section: 'The foundations for the next wave'
+    position: 58
+    source_format: prose
+    metadata: {}
+
+  - id: seg-059
+    text: 'AGI and ASI hold unpredictable potential.'
+    type: claim
+    section: 'The foundations for the next wave'
+    position: 59
+    source_format: prose
+    metadata: {}
+
+  - id: seg-060
+    text: 'Organizations need to always keep one eye fixed on what is coming next.'
+    type: recommendation
+    section: 'The foundations for the next wave'
+    position: 60
+    source_format: prose
+    metadata: {}
+
+  - id: seg-061
+    text: 'Bobby Soni - Global Technology Consulting Leader, KPMG International'
+    type: context
+    section: 'Key Contacts'
+    position: 61
+    source_format: caption
+    metadata: {}
+
+  - id: seg-062
+    text: 'Guy Holland - Global CIO Center of Excellence Leader, KPMG International'
+    type: context
+    section: 'Key Contacts'
+    position: 62
+    source_format: caption
+    metadata: {}
+
+  - id: seg-063
+    text: 'Organizations need to balance ambition with rational thinking to excel.'
+    type: claim
+    section: 'Introduction'
+    position: 63
+    source_format: prose
+    metadata: {}
+
+  - id: seg-064
+    text: 'Leaders should modernize their methods of measuring tech value.'
+    type: recommendation
+    section: 'Introduction'
+    position: 64
+    source_format: prose
+    metadata: {}
+
+  - id: seg-065
+    text: 'Leaders should adopt strategies that favor flexibility and speed.'
+    type: recommendation
+    section: 'Introduction'
+    position: 65
+    source_format: prose
+    metadata: {}
+
+  - id: seg-066
+    text: 'Leaders should build cultures that welcome change.'
+    type: recommendation
+    section: 'Introduction'
+    position: 66
+    source_format: prose
+    metadata: {}
+
+  - id: seg-067
+    text: 'Scaling introduces additional complexity and returns vary widely.'
+    type: claim
+    section: 'Introduction'
+    position: 67
+    source_format: prose
+    metadata: {}
+
+  - id: seg-068
+    text: 'KPMG 2025 Global CEO Outlook'
+    type: context
+    section: 'Related insights'
+    position: 68
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-069
+    text: 'Global Customer Experience Excellence (CEE) 2025-2026'
+    type: context
+    section: 'Related insights'
+    position: 69
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-070
+    text: 'Cybersecurity considerations 2025'
+    type: context
+    section: 'Related insights'
+    position: 70
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-071
+    text: 'Trust, attitudes and use of artificial intelligence: A global study 2025'
+    type: context
+    section: 'Related insights'
+    position: 71
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-072
+    text: 'Agentic AI advantage: Unlocking next-level value'
+    type: context
+    section: 'Related insights'
+    position: 72
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-073
+    text: 'KPMG global tech report 2024'
+    type: context
+    section: 'Related insights'
+    position: 73
+    source_format: bullet
+    metadata: {}
+
+  - id: seg-074
+    text: 'Tech executives expect a sharp move from pilots to ROI in the next year.'
+    type: claim
+    section: 'Featured Expert Quote - Zack Kass'
+    position: 74
+    source_format: quote
+    metadata: {}
+
+  - id: seg-075
+    text: '88 percent of organizations are already embedding AI agents into workflows and products.'
+    type: statistic
+    section: 'Featured Expert Quote - Zack Kass'
+    position: 75
+    source_format: quote
+    metadata:
+      metric: 'AI agent embedding rate'
+      value: 88
+      unit: '%'
+      population: 'Surveyed organizations'
+
+  - id: seg-076
+    text: 'High performers expect approximately 50% of tech teams to remain permanent human staff by 2027.'
+    type: statistic
+    section: 'Featured Expert Quote - Zack Kass'
+    position: 76
+    source_format: quote
+    metadata:
+      metric: 'Permanent human staff ratio in tech teams'
+      value: 50
+      unit: '%'
+      population: 'High performers'
+      timeframe: '2027'
+
+  - id: seg-077
+    text: 'All organizations surveyed have annual revenues above US$100 million.'
+    type: statistic
+    section: 'About the Research'
+    position: 77
+    source_format: prose
+    metadata:
+      metric: 'Minimum revenue threshold'
+      value: 100
+      unit: 'million USD'
+      population: 'All surveyed organizations'
+
+  - id: seg-078
+    text: 'Eight industries represented: automotive, consumer and retail, energy, financial services, government, healthcare and life sciences, industrial manufacturing, and tech and telecom.'
+    type: statistic
+    section: 'About the Research'
+    position: 78
+    source_format: prose
+    metadata:
+      metric: 'Number of industries represented'
+      value: 8
+      unit: 'industries'
+
+  - id: seg-079
+    text: '2,500 tech executives from 27 countries surveyed.'
+    type: statistic
+    section: 'About the Research'
+    position: 79
+    source_format: prose
+    metadata:
+      metric: 'Survey sample size'
+      value: 2500
+      unit: 'executives'
+
+  - id: seg-080
+    text: 'A significant proportion of respondents are senior leaders.'
+    type: evidence
+    section: 'About the Research'
+    position: 80
+    source_format: prose
+    metadata: {}

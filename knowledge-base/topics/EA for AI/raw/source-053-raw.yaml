@@ -1,0 +1,911 @@
+source_id: source-053
+title: "Enterprise Architecture in Swiss SMEs"
+url: "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html"
+author: "Rejhan Fazlic, Markus Hegi (PwC Switzerland)"
+date: 2024-11-06
+total_segments: 119
+
+composition:
+  recommendation: { count: 33, pct: 27.7 }
+  claim: { count: 29, pct: 24.4 }
+  context: { count: 19, pct: 16.0 }
+  noise: { count: 14, pct: 11.8 }
+  definition: { count: 11, pct: 9.2 }
+  example: { count: 10, pct: 8.4 }
+  evidence: { count: 3, pct: 2.5 }
+  statistic: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+
+signal_ratio: 88.2
+
+segments:
+
+  # ============================================================
+  # INTRODUCTION
+  # ============================================================
+
+  - id: seg-001
+    text: "Enterprise architecture in Swiss SMEs"
+    type: noise
+    section: "Introduction"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Building a pragmatic approach for strategic advantage"
+    type: noise
+    section: "Introduction"
+    position: 2
+    source_format: heading
+
+  # ============================================================
+  # WHAT IS ENTERPRISE ARCHITECTURE?
+  # ============================================================
+
+  - id: seg-003
+    text: "What is enterprise architecture?"
+    type: noise
+    section: "What is Enterprise Architecture?"
+    position: 3
+    source_format: heading
+
+  - id: seg-004
+    text: "Enterprise architecture frameworks provide a structured approach for organisations to align business processes with technology, ensuring that IT systems are designed in ways that support your company's goals."
+    type: definition
+    section: "What is Enterprise Architecture?"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "EA frameworks allow a structured and transparent approach for optimising costs, identifying and managing risks, improving agility and enhancing collaboration."
+    type: definition
+    section: "What is Enterprise Architecture?"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "TOGAF, one of the most popular EA frameworks, offers a comprehensive methodology for designing, planning and governing enterprise IT."
+    type: context
+    section: "What is Enterprise Architecture?"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "For mid-sized firms, implementing an EA framework can seem like a daunting task due to resource constraints, but with a pragmatic approach, the benefits outweigh the challenges."
+    type: claim
+    section: "What is Enterprise Architecture?"
+    position: 7
+    source_format: prose
+
+  # ============================================================
+  # SCALABILITY AND CUSTOMISATION
+  # ============================================================
+
+  - id: seg-008
+    text: "Enterprise architecture for Swiss SMEs: tailor TOGAF to your needs"
+    type: noise
+    section: "Scalability and Customisation"
+    position: 8
+    source_format: heading
+
+  - id: seg-009
+    text: "1. Scalability and customisation: start small, grow smart"
+    type: noise
+    section: "Scalability and Customisation"
+    position: 9
+    source_format: heading
+
+  - id: seg-010
+    text: "EA frameworks like TOGAF might seem overwhelming, but Swiss SMEs don't need to tackle it all at once."
+    type: context
+    section: "Scalability and Customisation"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "Think modular — like building a house, you focus on the essential rooms first and then add extras as needed."
+    type: recommendation
+    section: "Scalability and Customisation"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Instead of adopting every TOGAF element in its entirety in each phase, focus on the topics that directly align with your company's priorities."
+    type: recommendation
+    section: "Scalability and Customisation"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Starting with TOGAF doesn't necessarily require a fully-fledged EA tool suite."
+    type: claim
+    section: "Scalability and Customisation"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "A low-tech approach using templates in Excel and Word can be a suitable starting point until you become familiar with the framework."
+    type: recommendation
+    section: "Scalability and Customisation"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "As you gain more experience, you can then choose the EA tool that best suits your specific needs."
+    type: recommendation
+    section: "Scalability and Customisation"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "Following a pragmatic approach, for example, a Swiss manufacturing SME might begin with the following."
+    type: context
+    section: "Scalability and Customisation"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "Capability mapping: define the core competencies and how they generate value."
+    type: example
+    section: "Scalability and Customisation"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Business processes: define the core processes for these capabilities, like order fulfilment or product development, and document the core business requirements."
+    type: example
+    section: "Scalability and Customisation"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Applications: map the applications to the core business processes and identify potential gaps."
+    type: example
+    section: "Scalability and Customisation"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "IT infrastructure: document the technology that supports these applications and evaluate how fit for purpose they are."
+    type: example
+    section: "Scalability and Customisation"
+    position: 20
+    source_format: bullet
+
+  # ============================================================
+  # BUDGETING FOR ENTERPRISE ARCHITECTURE
+  # ============================================================
+
+  - id: seg-021
+    text: "2. Budgeting for enterprise architecture"
+    type: noise
+    section: "Budgeting"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "One challenge for mid-sized firms is the cost and resources burden that comes with EA framework implementation."
+    type: context
+    section: "Budgeting"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Swiss firms can manage costs by taking a phased approach, using existing in-house resources where possible and outsourcing specific tasks when necessary."
+    type: recommendation
+    section: "Budgeting"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "Embracing open source: Use free, open-source tools for EA documentation and analysis in the initial stages."
+    type: recommendation
+    section: "Budgeting"
+    position: 24
+    source_format: bullet
+
+  - id: seg-025
+    text: "There are many resources available, such as ArchiMate (standardised modelling language that enables your organisation to describe and analyse your organisation's architecture) and EA Navigator, which can provide a foundation while minimising up-front investments."
+    type: context
+    section: "Budgeting"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Making use of existing resources: Focus on the knowledge of your in-house expertise and train your IT experts in specific TOGAF areas."
+    type: recommendation
+    section: "Budgeting"
+    position: 26
+    source_format: bullet
+
+  - id: seg-027
+    text: "This not only saves costs but also fosters a culture of internal ownership and expertise."
+    type: claim
+    section: "Budgeting"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Strategic outsourcing: For specialised tasks, such as architecture reviews or system integration, consider outsourcing to consultants with proven experience in TOGAF."
+    type: recommendation
+    section: "Budgeting"
+    position: 28
+    source_format: bullet
+
+  - id: seg-029
+    text: "This ensures you get the right expertise without building a large, dedicated internal team."
+    type: claim
+    section: "Budgeting"
+    position: 29
+    source_format: prose
+
+  # ============================================================
+  # ALIGNMENT WITH BUSINESS GOALS
+  # ============================================================
+
+  - id: seg-030
+    text: "3. Alignment with business goals"
+    type: noise
+    section: "Alignment with Business Goals"
+    position: 30
+    source_format: heading
+
+  - id: seg-031
+    text: "EA frameworks are powerful tools for aligning technology and business, but in mid-sized firms there often isn't a dedicated team to manage this alignment."
+    type: context
+    section: "Alignment with Business Goals"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "It's crucial to create a lean architecture practice that focuses on immediate business priorities, such as increasing operational efficiency, improving customer service and reducing costs."
+    type: recommendation
+    section: "Alignment with Business Goals"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Cross-functional teams: Establish a cross-functional team that includes business and IT leaders who meet regularly to make sure that IT initiatives align with business objectives."
+    type: recommendation
+    section: "Alignment with Business Goals"
+    position: 33
+    source_format: bullet
+
+  - id: seg-034
+    text: "Visual communication: Use visual tools, such as process flow diagrams, roadmaps and dashboards, to communicate the alignment between IT and business goals to your stakeholders."
+    type: recommendation
+    section: "Alignment with Business Goals"
+    position: 34
+    source_format: bullet
+
+  - id: seg-035
+    text: "This promotes a shared understanding of the strategic direction."
+    type: claim
+    section: "Alignment with Business Goals"
+    position: 35
+    source_format: prose
+
+  # ============================================================
+  # GOVERNANCE AND FLEXIBILITY
+  # ============================================================
+
+  - id: seg-036
+    text: "4. Governance and flexibility"
+    type: noise
+    section: "Governance and Flexibility"
+    position: 36
+    source_format: heading
+
+  - id: seg-037
+    text: "Swiss SMEs often operate in fast-paced industries where adaptability is crucial."
+    type: context
+    section: "Governance and Flexibility"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Traditional EA governance models can feel like a bureaucratic hurdle, slowing down decision-making and hindering innovation."
+    type: claim
+    section: "Governance and Flexibility"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "A pragmatic approach instead allows you to respond quickly to changing market conditions."
+    type: claim
+    section: "Governance and Flexibility"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "A Swiss mid-sized manufacturer might implement an agile governance model to quickly approve new software for production optimisation in response to a competitor's innovation."
+    type: example
+    section: "Governance and Flexibility"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "Implement lightweight governance: Don't create a complex, multi-layered governance structure."
+    type: recommendation
+    section: "Governance and Flexibility"
+    position: 41
+    source_format: bullet
+
+  - id: seg-042
+    text: "Instead, opt for smaller, agile teams with clearly defined roles and responsibilities."
+    type: recommendation
+    section: "Governance and Flexibility"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "This empowers teams to make decisions quickly while ensuring alignment with your overall strategy."
+    type: claim
+    section: "Governance and Flexibility"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "Keep decision-making simple: Establish clear but flexible criteria for IT investments, such as alignment with business goals or return on investment (ROI)."
+    type: recommendation
+    section: "Governance and Flexibility"
+    position: 44
+    source_format: bullet
+
+  # ============================================================
+  # TALENT AND RESOURCE CONSTRAINTS
+  # ============================================================
+
+  - id: seg-045
+    text: "5. Talent and resource constraints"
+    type: noise
+    section: "Talent and Resource Constraints"
+    position: 45
+    source_format: heading
+
+  - id: seg-046
+    text: "Mid-sized firms often lack the IT talent and resources that larger firms have, which can make adopting an EA framework a challenge."
+    type: context
+    section: "Talent and Resource Constraints"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "By focusing on core areas and avoiding unnecessary complexity, firms can make meaningful progress without overstretching their resources."
+    type: recommendation
+    section: "Talent and Resource Constraints"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "Build up your EA capabilities gradually."
+    type: recommendation
+    section: "Talent and Resource Constraints"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "Start with a small, cross-functional team and develop skills by assigning part-time roles in EA to existing employees who are already involved in strategic IT decisions."
+    type: recommendation
+    section: "Talent and Resource Constraints"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "Focus on training staff incrementally through workshops, mentoring and certification programmes like TOGAF Foundation."
+    type: recommendation
+    section: "Talent and Resource Constraints"
+    position: 50
+    source_format: prose
+
+  # ============================================================
+  # FLEXIBILITY FOR FUTURE GROWTH
+  # ============================================================
+
+  - id: seg-051
+    text: "6. Flexibility for future growth"
+    type: noise
+    section: "Flexibility for Future Growth"
+    position: 51
+    source_format: heading
+
+  - id: seg-052
+    text: "Mid-sized firms must remain flexible to accommodate future growth and changing market conditions."
+    type: claim
+    section: "Flexibility for Future Growth"
+    position: 52
+    source_format: prose
+
+  - id: seg-053
+    text: "EA frameworks can seem rigid, but by using a phased, iterative approach, firms can make sure their architecture grows and evolves in line with business needs."
+    type: claim
+    section: "Flexibility for Future Growth"
+    position: 53
+    source_format: prose
+
+  - id: seg-054
+    text: "Adopt a pragmatic 'just enough architecture' approach."
+    type: recommendation
+    section: "Flexibility for Future Growth"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "This means only defining architecture components that are necessary for immediate projects or business needs, but leaving room to scale or evolve as the business grows."
+    type: definition
+    section: "Flexibility for Future Growth"
+    position: 55
+    source_format: prose
+
+  - id: seg-056
+    text: "Design processes that allow for frequent reassessment and adjustment of the architecture to ensure it can pivot as business conditions change."
+    type: recommendation
+    section: "Flexibility for Future Growth"
+    position: 56
+    source_format: prose
+
+  # ============================================================
+  # TOGAF PHASE EXAMPLE
+  # ============================================================
+
+  - id: seg-057
+    text: "Example: A pragmatic approach to each TOGAF phase"
+    type: noise
+    section: "TOGAF Phase Example"
+    position: 57
+    source_format: heading
+
+  - id: seg-058
+    text: "By adopting a pragmatic approach, mid-sized firms can harness the power of TOGAF without being overwhelmed, ensuring architecture initiatives deliver business value."
+    type: claim
+    section: "TOGAF Phase Example"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "Imagine a Swiss mid-sized manufacturer that built its reputation on reliable on-premise systems."
+    type: example
+    section: "TOGAF Phase Example"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "The rise of ERP cloud solutions and its adoption by competitors is putting pressure on the firm's ability to meet growing client demands for innovation and real-time analytics."
+    type: context
+    section: "TOGAF Phase Example"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "To remain competitive, mid-sized firms can look pragmatically at the TOGAF framework to align their target IT infrastructure and strategy with business goals in a structured way."
+    type: claim
+    section: "TOGAF Phase Example"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "Preliminary phase — Describe the objective of the initiative and which elements it covers regarding TOGAF. Example: Document Level 1 processes affected, business objects, applications, IT systems and interfaces. Document key stakeholders and their roles."
+    type: definition
+    section: "TOGAF Phase Example"
+    position: 62
+    source_format: table
+
+  - id: seg-063
+    text: "Phase A Architecture Vision — Define a short vision statement outlining the desired future state and which business goals it supports. Example: Objective 1 define the priorities of the business (e.g. flexibility, costs). Objective 2 evaluate the best IT architecture to support those priorities. Objective 3 document all information in a repository (TOGAF standard)."
+    type: definition
+    section: "TOGAF Phase Example"
+    position: 63
+    source_format: table
+
+  - id: seg-064
+    text: "Phase B Business Architecture — Instead of mapping every process variant, prioritise critical business processes that are feeling the strain of legacy systems, such as order fulfilment, inventory management and production planning. Example: Initial data can be gathered in a simple Excel sheet documenting core processes, key stakeholders and business objects."
+    type: definition
+    section: "TOGAF Phase Example"
+    position: 64
+    source_format: table
+
+  - id: seg-065
+    text: "Phase C Information Systems Architecture — Identify all involved applications and IT systems and focus on interfaces and potential shadow IT that is involved in supporting the business processes. Example: Initial data can be gathered in a similar Excel sheet. When documenting relationships such as interfaces, use of an EA tool is recommended."
+    type: definition
+    section: "TOGAF Phase Example"
+    position: 65
+    source_format: table
+
+  - id: seg-066
+    text: "Phase D Technology Architecture — Evaluate the as-is architecture to market options (e.g. on-premise versus cloud). Example: Document the functional and non-functional business requirements and evaluate how each architecture option scores against them."
+    type: definition
+    section: "TOGAF Phase Example"
+    position: 66
+    source_format: table
+
+  - id: seg-067
+    text: "Phase E Opportunities and Solutions — Document the pros and cons (SWOT) for each option and conduct a high-level effort vs benefit assessment. Example: SWOT, effort and benefit per option, recommendation."
+    type: definition
+    section: "TOGAF Phase Example"
+    position: 67
+    source_format: table
+
+  # ============================================================
+  # ADVANTAGES
+  # ============================================================
+
+  - id: seg-068
+    text: "Advantages"
+    type: context
+    section: "Advantages"
+    position: 68
+    source_format: heading
+
+  - id: seg-069
+    text: "Scalability for growth"
+    type: context
+    section: "Advantages"
+    position: 69
+    source_format: heading
+
+  - id: seg-070
+    text: "EA frameworks offer scalable solutions that grow with the business, making them ideal for firms that anticipate expansion but want to ensure a smooth transition as the company grows."
+    type: claim
+    section: "Advantages"
+    position: 70
+    source_format: prose
+
+  - id: seg-071
+    text: "Improved business and IT alignment"
+    type: context
+    section: "Advantages"
+    position: 71
+    source_format: heading
+
+  - id: seg-072
+    text: "By focusing on key elements of an EA framework, mid-sized firms can ensure that their IT initiatives are closely aligned with strategic business goals, driving efficiency and value from IT investments."
+    type: claim
+    section: "Advantages"
+    position: 72
+    source_format: prose
+
+  - id: seg-073
+    text: "Enhanced decision-making"
+    type: context
+    section: "Advantages"
+    position: 73
+    source_format: heading
+
+  - id: seg-074
+    text: "With a structured approach, firms can make more informed decisions regarding technology investments, business process improvements and risk management, helping to avoid wasted resources."
+    type: claim
+    section: "Advantages"
+    position: 74
+    source_format: prose
+
+  - id: seg-075
+    text: "Better risk management and compliance"
+    type: context
+    section: "Advantages"
+    position: 75
+    source_format: heading
+
+  - id: seg-076
+    text: "EA frameworks can provide a structured approach to managing risk and ensuring regulatory compliance, which is particularly important for mid-sized firms working in regulated industries."
+    type: claim
+    section: "Advantages"
+    position: 76
+    source_format: prose
+
+  # ============================================================
+  # CHALLENGES
+  # ============================================================
+
+  - id: seg-077
+    text: "Challenges"
+    type: context
+    section: "Challenges"
+    position: 77
+    source_format: heading
+
+  - id: seg-078
+    text: "Risk of misalignment"
+    type: context
+    section: "Challenges"
+    position: 78
+    source_format: heading
+
+  - id: seg-079
+    text: "If the framework isn't properly adapted, there's a risk that it might be too rigid or complex for the firm's actual needs, leading to potential misalignment between IT and business objectives."
+    type: claim
+    section: "Challenges"
+    position: 79
+    source_format: prose
+
+  - id: seg-080
+    text: "Time-intensive implementation"
+    type: context
+    section: "Challenges"
+    position: 80
+    source_format: heading
+
+  - id: seg-081
+    text: "Setting up an EA framework can take time and requires ongoing commitment."
+    type: claim
+    section: "Challenges"
+    position: 81
+    source_format: prose
+
+  - id: seg-082
+    text: "For firms with limited IT staff, this can create bottlenecks in both business and IT operations."
+    type: claim
+    section: "Challenges"
+    position: 82
+    source_format: prose
+
+  - id: seg-083
+    text: "Complexity and overhead"
+    type: noise
+    section: "Challenges"
+    position: 83
+    source_format: heading
+
+  - id: seg-084
+    text: "EA frameworks, especially TOGAF, can introduce complexity and overhead that might overwhelm firms with limited resources."
+    type: claim
+    section: "Challenges"
+    position: 84
+    source_format: prose
+
+  - id: seg-085
+    text: "It's important to balance the benefits of a structured approach with the need for agility."
+    type: recommendation
+    section: "Challenges"
+    position: 85
+    source_format: prose
+
+  - id: seg-086
+    text: "Risk of misalignment"
+    type: noise
+    section: "Challenges"
+    position: 86
+    source_format: heading
+
+  - id: seg-087
+    text: "If the framework isn't properly adapted, there's a risk that it might be too rigid or complex for the firm's actual needs, leading to potential misalignment between IT and business objectives."
+    type: claim
+    section: "Challenges"
+    position: 87
+    source_format: prose
+
+  # ============================================================
+  # CONCLUSION
+  # ============================================================
+
+  - id: seg-088
+    text: "A pragmatic path forward: unlocking the power of enterprise architecture"
+    type: noise
+    section: "Conclusion"
+    position: 88
+    source_format: heading
+
+  - id: seg-089
+    text: "The rise of cloud services and ready-made AI tools are constantly reshaping the IT landscape of SMEs."
+    type: context
+    section: "Conclusion"
+    position: 89
+    source_format: prose
+
+  - id: seg-090
+    text: "In this dynamic environment, adopting a pragmatic approach to enterprise architecture frameworks like TOGAF provides powerful tools for mid-sized firms to align and realign their IT with business goals, manage risk and support growth."
+    type: claim
+    section: "Conclusion"
+    position: 90
+    source_format: prose
+
+  - id: seg-091
+    text: "By adopting these frameworks through a pragmatic approach, organisations can avoid overwhelming complexity, excessive costs and rigidity."
+    type: claim
+    section: "Conclusion"
+    position: 91
+    source_format: prose
+
+  - id: seg-092
+    text: "By taking a phased, flexible and resource-conscious approach, mid-sized firms can harness the benefits of EA frameworks without being burdened by their challenges."
+    type: claim
+    section: "Conclusion"
+    position: 92
+    source_format: prose
+
+  - id: seg-093
+    text: "Start small, focus on immediate business needs and make sure that architecture practices remain adaptable and scalable for future growth."
+    type: recommendation
+    section: "Conclusion"
+    position: 93
+    source_format: quote
+
+  - id: seg-094
+    text: "By doing so, mid-sized firms can unlock the full potential of enterprise architecture frameworks, turning IT into a true driver of business success."
+    type: claim
+    section: "Conclusion"
+    position: 94
+    source_format: quote
+
+  # ============================================================
+  # MANUFACTURING SME CASE STUDY (DETAILED)
+  # ============================================================
+
+  - id: seg-095
+    text: "A Swiss mid-sized manufacturer built its reputation on reliable on-premise systems."
+    type: example
+    section: "Manufacturing SME Case Study"
+    position: 95
+    source_format: prose
+
+  - id: seg-096
+    text: "The rise of ERP cloud solutions and competitor adoption created pressure to innovate and provide real-time analytics."
+    type: context
+    section: "Manufacturing SME Case Study"
+    position: 96
+    source_format: prose
+
+  - id: seg-097
+    text: "The firm used a pragmatic TOGAF approach to evaluate cloud ERP adoption against their existing on-premise systems."
+    type: example
+    section: "Manufacturing SME Case Study"
+    position: 97
+    source_format: prose
+
+  - id: seg-098
+    text: "The preliminary phase documented Level 1 processes, business objects, applications, IT systems, interfaces, key stakeholders, and their roles."
+    type: example
+    section: "Manufacturing SME Case Study"
+    position: 98
+    source_format: prose
+
+  - id: seg-099
+    text: "The architecture vision defined business priorities such as flexibility and costs, then evaluated the best IT architecture to support those priorities."
+    type: example
+    section: "Manufacturing SME Case Study"
+    position: 99
+    source_format: prose
+
+  - id: seg-100
+    text: "Initial data was gathered in simple Excel sheets documenting core processes before being transformed into a TOGAF-aligned EA repository."
+    type: evidence
+    section: "Manufacturing SME Case Study"
+    position: 100
+    source_format: prose
+
+  - id: seg-101
+    text: "For information systems architecture, identifying shadow IT supporting business processes was a key step."
+    type: evidence
+    section: "Manufacturing SME Case Study"
+    position: 101
+    source_format: prose
+
+  - id: seg-102
+    text: "The technology architecture phase evaluated as-is architecture against market options, scoring each against functional and non-functional requirements."
+    type: evidence
+    section: "Manufacturing SME Case Study"
+    position: 102
+    source_format: prose
+
+  - id: seg-103
+    text: "The opportunities and solutions phase produced SWOT analyses for each option with effort-versus-benefit assessments."
+    type: definition
+    section: "Manufacturing SME Case Study"
+    position: 103
+    source_format: prose
+
+  # ============================================================
+  # IMPLEMENTATION GUIDANCE
+  # ============================================================
+
+  - id: seg-104
+    text: "SMEs should start with modular implementations using low-tech solutions before adopting formal EA tooling."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 104
+    source_format: prose
+
+  - id: seg-105
+    text: "Embrace open-source tools such as ArchiMate and EA Navigator for cost-effective EA documentation."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 105
+    source_format: prose
+
+  - id: seg-106
+    text: "Build cross-functional teams combining business and IT leadership for EA governance."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 106
+    source_format: prose
+
+  - id: seg-107
+    text: "Implement lightweight governance that avoids bureaucratic complexity while maintaining strategic alignment."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 107
+    source_format: prose
+
+  - id: seg-108
+    text: "Develop EA capabilities gradually through targeted training and TOGAF Foundation certification."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 108
+    source_format: prose
+
+  - id: seg-109
+    text: "The 'just enough architecture' methodology advocates defining only necessary components and building flexibility for growth."
+    type: definition
+    section: "Implementation Guidance"
+    position: 109
+    source_format: prose
+
+  - id: seg-110
+    text: "Resource constraints are the primary challenge for SMEs adopting EA frameworks."
+    type: claim
+    section: "Implementation Guidance"
+    position: 110
+    source_format: prose
+
+  - id: seg-111
+    text: "TOGAF's comprehensiveness can potentially overwhelm smaller teams if not adapted pragmatically."
+    type: claim
+    section: "Implementation Guidance"
+    position: 111
+    source_format: prose
+
+  - id: seg-112
+    text: "Rigid implementations risk disconnecting the framework from actual business needs."
+    type: claim
+    section: "Implementation Guidance"
+    position: 112
+    source_format: prose
+
+  - id: seg-113
+    text: "Administrative overhead from EA governance can hinder agility if not carefully managed."
+    type: claim
+    section: "Implementation Guidance"
+    position: 113
+    source_format: prose
+
+  - id: seg-114
+    text: "A phased approach to EA adoption allows firms to manage costs by using in-house resources and outsourcing selectively."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 114
+    source_format: prose
+
+  - id: seg-115
+    text: "Use visual tools such as process flow diagrams, roadmaps and dashboards to communicate IT-business alignment to stakeholders."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 115
+    source_format: prose
+
+  - id: seg-116
+    text: "Assign part-time EA roles to existing employees involved in strategic IT decisions to build capabilities without hiring dedicated staff."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 116
+    source_format: prose
+
+  - id: seg-117
+    text: "Establish clear but flexible criteria for IT investment decisions, such as alignment with business goals and return on investment."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 117
+    source_format: prose
+
+  - id: seg-118
+    text: "Design EA processes that allow frequent reassessment and adjustment to pivot as business conditions change."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 118
+    source_format: prose
+
+  - id: seg-119
+    text: "EA framework data can initially be gathered in Excel before being transformed into a TOGAF-aligned repository as maturity increases."
+    type: recommendation
+    section: "Implementation Guidance"
+    position: 119
+    source_format: prose

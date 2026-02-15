@@ -1,0 +1,552 @@
+source_id: source-039
+title: 'State of the Art of Agentic AI Transformation'
+url: 'https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/'
+author: 'David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)'
+date: 2025-09-23
+total_segments: 75
+composition:
+  claim: { count: 34, pct: 45.3 }
+  recommendation: { count: 16, pct: 21.3 }
+  context: { count: 10, pct: 13.3 }
+  noise: { count: 5, pct: 6.7 }
+  definition: { count: 4, pct: 5.3 }
+  evidence: { count: 3, pct: 4.0 }
+  statistic: { count: 2, pct: 2.7 }
+  attribution: { count: 1, pct: 1.3 }
+  example: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+signal_ratio: 93.3
+segments:
+- id: seg-001
+  text: 'State of the Art of Agentic AI Transformation'
+  type: noise
+  section: Header
+  position: 1
+  source_format: heading
+  metadata: {}
+- id: seg-002
+  text: 'AI leaders have moved from pilots to profits, delivering 10% to 25% EBITDA gains by scaling AI across core workflows.'
+  type: statistic
+  section: At a Glance
+  position: 2
+  source_format: bullet
+  metadata:
+    metric: 'EBITDA gains from scaling AI'
+    value: '10-25'
+    unit: '%'
+    population: 'AI-leading enterprises'
+- id: seg-003
+  text: 'Falling behind is increasingly risky: Companies still experimenting should follow the proven playbook for AI transformation.'
+  type: recommendation
+  section: At a Glance
+  position: 3
+  source_format: bullet
+  metadata: {}
+- id: seg-004
+  text: 'Agentic AI offers another round of gains but requires more technology for agents to interact and operate across silos.'
+  type: claim
+  section: At a Glance
+  position: 4
+  source_format: bullet
+  metadata: {}
+- id: seg-005
+  text: 'The pace of innovation demands pragmatism, not purity; winners will build momentum with fit-for-purpose solutions.'
+  type: claim
+  section: At a Glance
+  position: 5
+  source_format: bullet
+  metadata: {}
+- id: seg-006
+  text: 'Artificial intelligence continues to surge ahead at an unprecedented pace—catapulting some companies forward and leaving others far behind.'
+  type: context
+  section: Main Article
+  position: 6
+  source_format: prose
+  metadata: {}
+- id: seg-007
+  text: 'In 2023 and 2024, tech-forward enterprises broke through the pilot phase, achieving 10% to 25% EBITDA gains by scaling information retrieval and single-task AI.'
+  type: statistic
+  section: Main Article
+  position: 7
+  source_format: prose
+  metadata:
+    metric: 'EBITDA gains from AI scaling'
+    value: '10-25'
+    unit: '%'
+    population: 'Tech-forward enterprises, 2023-2024'
+- id: seg-008
+  text: 'In doing so, they established a repeatable playbook that others can now follow—grounded in robust methodology, analytic tools, and clear benchmarks.'
+  type: claim
+  section: Main Article
+  position: 8
+  source_format: prose
+  metadata: {}
+- id: seg-009
+  text: 'Yet a year on, most organizations remain stuck in experimentation mode, satisfied with minor productivity gains that haven''t delivered significant value.'
+  type: claim
+  section: Main Article
+  position: 9
+  source_format: prose
+  metadata: {}
+- id: seg-010
+  text: 'But as the leaders move forward, falling behind risks ceding competitive ground that may be difficult to recover.'
+  type: claim
+  section: Main Article
+  position: 10
+  source_format: prose
+  metadata: {}
+- id: seg-011
+  text: 'And things are about to get even more interesting: In the first half of 2025, major players—including Anthropic, Alphabet, Microsoft, OpenAI, Salesforce, and others—debuted their visions of agentic AI.'
+  type: context
+  section: Main Article
+  position: 11
+  source_format: prose
+  metadata: {}
+- id: seg-012
+  text: 'Tech-forward enterprises are already turning their focus from automating tasks to redesigning entire workflows.'
+  type: claim
+  section: Main Article
+  position: 12
+  source_format: prose
+  metadata: {}
+- id: seg-013
+  text: 'Early adopters are figuring out how agents will coexist safely, discover each other, gather the context and data they need, and collaborate productively.'
+  type: context
+  section: Main Article
+  position: 13
+  source_format: prose
+  metadata: {}
+- id: seg-014
+  text: "As the vision meets reality, they'll also wrestle with data silos, informal context, intellectual property, privacy, security, and vendor profit motives."
+  type: claim
+  section: Main Article
+  position: 14
+  source_format: prose
+  metadata: {}
+- id: seg-015
+  text: "A purist view of architecture won't meet the moment."
+  type: claim
+  section: Main Article
+  position: 15
+  source_format: prose
+  metadata: {}
+- id: seg-016
+  text: "Given the current pace of AI innovation, the most likely scenario is that we'll see rapid, fitful, and hard-to-predict progress."
+  type: claim
+  section: Main Article
+  position: 16
+  source_format: prose
+  metadata: {}
+- id: seg-017
+  text: 'Companies should maintain an architectural North Star but sustain progress with fit-for-purpose, domain-specific, and human-in-the-loop builds for the foreseeable future.'
+  type: recommendation
+  section: Main Article
+  position: 17
+  source_format: prose
+  metadata: {}
+- id: seg-018
+  text: 'Maximizing value demands focused attention on a few key priorities:'
+  type: context
+  section: Main Article
+  position: 18
+  source_format: prose
+  metadata: {}
+- id: seg-019
+  text: 'Keep up the pace. The most important tasks remain redesigning processes and workflows while cleaning up data. Falling further behind is dangerous.'
+  type: recommendation
+  section: Main Article
+  position: 19
+  source_format: bullet
+  metadata: {}
+- id: seg-020
+  text: 'Follow the taillights of the enterprise leaders. The playbook is established, with methodology, analytic tools, and benchmarks available.'
+  type: recommendation
+  section: Main Article
+  position: 20
+  source_format: bullet
+  metadata: {}
+- id: seg-021
+  text: 'Take a principled but flexible view of architecture. Balance long-term vision with flexible, domain-specific solutions to keep pace with AI''s progress.'
+  type: recommendation
+  section: Main Article
+  position: 21
+  source_format: bullet
+  metadata: {}
+- id: seg-022
+  text: 'Leaders Cracked the Code'
+  type: noise
+  section: Leaders Cracked the Code
+  position: 22
+  source_format: heading
+  metadata: {}
+- id: seg-023
+  text: 'In the 2023 Tech Report, Bain discussed how some leaders were beginning to unlock the secrets of AI productivity.'
+  type: attribution
+  section: Leaders Cracked the Code
+  position: 23
+  source_format: prose
+  metadata: {}
+- id: seg-024
+  text: 'In 2024, clear patterns emerged about where AI ROI could reliably be captured.'
+  type: claim
+  section: Leaders Cracked the Code
+  position: 24
+  source_format: prose
+  metadata: {}
+- id: seg-025
+  text: 'While transformation styles varied, these early adopters have delivered a roadmap with proven methodology, analytic tools, and benchmarks.'
+  type: claim
+  section: Leaders Cracked the Code
+  position: 25
+  source_format: prose
+  metadata: {}
+- id: seg-026
+  text: 'The roadmap includes five critical actions:'
+  type: context
+  section: Leaders Cracked the Code
+  position: 26
+  source_format: prose
+  metadata: {}
+- id: seg-027
+  text: 'Set ambitious goals based on top-down diagnostics, not trials and pilots.'
+  type: recommendation
+  section: Leaders Cracked the Code
+  position: 27
+  source_format: bullet
+  metadata: {}
+- id: seg-028
+  text: 'Charge general managers with meeting these targets, not the CIO or CTO.'
+  type: recommendation
+  section: Leaders Cracked the Code
+  position: 28
+  source_format: bullet
+  metadata: {}
+- id: seg-029
+  text: 'Redesign entire workflows, not siloed activities or use cases.'
+  type: recommendation
+  section: Leaders Cracked the Code
+  position: 29
+  source_format: bullet
+  metadata: {}
+- id: seg-030
+  text: 'Curate and clean the data and application environment as needed, not holistically.'
+  type: recommendation
+  section: Leaders Cracked the Code
+  position: 30
+  source_format: bullet
+  metadata: {}
+- id: seg-031
+  text: 'Make, buy, or partner to build capabilities for each major workflow, rather than waiting for enterprise-wide solutions.'
+  type: recommendation
+  section: Leaders Cracked the Code
+  position: 31
+  source_format: bullet
+  metadata: {}
+- id: seg-032
+  text: 'The biggest insight from these transformations is that the most important aspects of the transformation are process redesign and cleaning up the data and application environment.'
+  type: claim
+  section: Leaders Cracked the Code
+  position: 32
+  source_format: prose
+  metadata: {}
+- id: seg-033
+  text: "Because of this, it doesn't make sense to wait for the dust to settle on technology."
+  type: claim
+  section: Leaders Cracked the Code
+  position: 33
+  source_format: prose
+  metadata: {}
+- id: seg-034
+  text: "There's no way to cut corners on process, data, and application cleanup."
+  type: claim
+  section: Leaders Cracked the Code
+  position: 34
+  source_format: prose
+  metadata: {}
+- id: seg-035
+  text: "Every day a company waits is another day it's left behind."
+  type: claim
+  section: Leaders Cracked the Code
+  position: 35
+  source_format: prose
+  metadata: {}
+- id: seg-036
+  text: 'AI Leaders Pursue Agentic AI'
+  type: noise
+  section: AI Leaders Pursue Agentic AI
+  position: 36
+  source_format: heading
+  metadata: {}
+- id: seg-037
+  text: 'AI innovation increasingly focuses on enabling models to work with much more complex reasoning, context, and unstructured data while communicating with SaaS applications and other agents.'
+  type: claim
+  section: AI Leaders Pursue Agentic AI
+  position: 37
+  source_format: prose
+  metadata: {}
+- id: seg-038
+  text: 'Many tech giants debuted their visions of agentic AI in the first half of 2025.'
+  type: context
+  section: AI Leaders Pursue Agentic AI
+  position: 38
+  source_format: prose
+  metadata: {}
+- id: seg-039
+  text: 'While flavors vary, the underlying progression of capabilities crystallizes into four levels:'
+  type: context
+  section: AI Leaders Pursue Agentic AI
+  position: 39
+  source_format: prose
+  metadata: {}
+- id: seg-040
+  text: 'Level 1: LLM-powered information retrieval agents (e.g., knowledge assistants, copilots)'
+  type: definition
+  section: AI Leaders Pursue Agentic AI
+  position: 40
+  source_format: bullet
+  metadata: {}
+- id: seg-041
+  text: 'Level 2: Single-task agentic workflows (e.g., task-doers with self-contained action loops)'
+  type: definition
+  section: AI Leaders Pursue Agentic AI
+  position: 41
+  source_format: bullet
+  metadata: {}
+- id: seg-042
+  text: 'Level 3: Cross-system agentic workflow orchestration (e.g., complex workflow execution, supervised agents)'
+  type: definition
+  section: AI Leaders Pursue Agentic AI
+  position: 42
+  source_format: bullet
+  metadata: {}
+- id: seg-043
+  text: 'Level 4: Multi-agent constellations (e.g., any-to-any agent, loosely coupled collaborative agents)'
+  type: definition
+  section: AI Leaders Pursue Agentic AI
+  position: 43
+  source_format: bullet
+  metadata: {}
+- id: seg-044
+  text: 'Tech-forward companies scaled Level 1 tools in 2023 and 2024, with varying degrees of success.'
+  type: evidence
+  section: AI Leaders Pursue Agentic AI
+  position: 44
+  source_format: prose
+  metadata: {}
+- id: seg-045
+  text: 'When deployed in a diffuse way, they delivered microproductivity—what might be called "grab-a-coffee" time-savers.'
+  type: evidence
+  section: AI Leaders Pursue Agentic AI
+  position: 45
+  source_format: prose
+  metadata: {}
+- id: seg-046
+  text: 'But when deeply embedded in functional workflows in areas such as sales, development, and product management, the gains compounded—especially after heavy data cleaning and curation as well as continuous high-quality governance.'
+  type: evidence
+  section: AI Leaders Pursue Agentic AI
+  position: 46
+  source_format: prose
+  metadata: {}
+- id: seg-047
+  text: 'Levels 2 and 3 are now where capital, innovation, and deployment velocity are converging.'
+  type: claim
+  section: AI Leaders Pursue Agentic AI
+  position: 47
+  source_format: prose
+  metadata: {}
+- id: seg-048
+  text: 'Level 4 is on the whiteboard, held back by several practical realities outlined in the next section.'
+  type: claim
+  section: AI Leaders Pursue Agentic AI
+  position: 48
+  source_format: prose
+  metadata: {}
+- id: seg-049
+  text: 'Practical, Not Purist Architecture'
+  type: noise
+  section: Practical Not Purist Architecture
+  position: 49
+  source_format: heading
+  metadata: {}
+- id: seg-050
+  text: 'In 2025, leading tech companies turned their attention to making single- and multi-system workflows smarter, powered by agents.'
+  type: context
+  section: Practical Not Purist Architecture
+  position: 50
+  source_format: prose
+  metadata: {}
+- id: seg-051
+  text: 'As vendors race to bring their agentic visions to life, enterprise teams face new challenges: How will these agents operate safely, find and connect with each other, gather the context and data they need, and collaborate productively as the vision meets the reality of vendor profit motives, data silos, informal context, enterprise data, IP, and security?'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 51
+  source_format: prose
+  metadata: {}
+- id: seg-052
+  text: 'As higher levels of agentic autonomy are pursued, enterprises are encountering a number of thorny issues:'
+  type: context
+  section: Practical Not Purist Architecture
+  position: 52
+  source_format: prose
+  metadata: {}
+- id: seg-053
+  text: 'Human work: Most work happens across multiple systems and organizations, with context and informal processes.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 53
+  source_format: bullet
+  metadata: {}
+- id: seg-054
+  text: 'Technology gaps: These include a lack of communication standards (Model Context Protocol, or MCP, isn''t USB) and compounding errors in multistep tasks.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 54
+  source_format: bullet
+  metadata: {}
+- id: seg-055
+  text: 'Enterprise reality: Data isn''t clean, and privacy, security, and intellectual property are real concerns.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 55
+  source_format: bullet
+  metadata: {}
+- id: seg-056
+  text: 'Vendor motives: These run counter to open standards, shared IP, workflows, and data, leading to battles and walled gardens.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 56
+  source_format: bullet
+  metadata: {}
+- id: seg-057
+  text: 'Several architectural visions exist for how higher levels of agentic autonomy can be enabled.'
+  type: context
+  section: Practical Not Purist Architecture
+  position: 57
+  source_format: prose
+  metadata: {}
+- id: seg-058
+  text: 'Most call for an interconnected fabric or mesh that will register, distribute, and allow communication between agents to enable secure collaboration.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 58
+  source_format: prose
+  metadata: {}
+- id: seg-059
+  text: 'Some visions are more libertarian than others, but most resemble Web 3.0: a logical vision for how things should work if no one were greedy and governance and accountability were not thorny issues.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 59
+  source_format: prose
+  metadata: {}
+- id: seg-060
+  text: "Much like Web 3.0, the expectation is these visions to serve as a useful aspiration, but they won't survive contact with enterprise reality unchanged."
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 60
+  source_format: prose
+  metadata: {}
+- id: seg-061
+  text: "For this reason, a rigid approach to architecture falls short of what's needed."
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 61
+  source_format: prose
+  metadata: {}
+- id: seg-062
+  text: 'With AI moving at breakneck speed, progress is likely to be rapid, uneven, and tough to forecast.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 62
+  source_format: prose
+  metadata: {}
+- id: seg-063
+  text: 'Walled gardens will take the lead.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 63
+  source_format: prose
+  metadata: {}
+- id: seg-064
+  text: 'Fit-for-purpose custom builds will dominate enterprise-wide architectures for some time.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 64
+  source_format: prose
+  metadata: {}
+- id: seg-065
+  text: 'Human-in-the-loop applications are likely the pragmatic reality for years.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 65
+  source_format: prose
+  metadata: {}
+- id: seg-066
+  text: 'Context and graph analytics will remain closely guarded assets.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 66
+  source_format: prose
+  metadata: {}
+- id: seg-067
+  text: 'Standards battles will play out at lightning pace (witness the MCP and Agent-to-Agent adoption tipping points); incumbents may try to selectively open source their IP; and domain-specific leaders will emerge.'
+  type: claim
+  section: Practical Not Purist Architecture
+  position: 67
+  source_format: prose
+  metadata: {}
+- id: seg-068
+  text: 'Now Is the Moment to Act'
+  type: noise
+  section: Now Is the Moment to Act
+  position: 68
+  source_format: heading
+  metadata: {}
+- id: seg-069
+  text: 'Maximizing value in this next phase demands disciplined focus on a small set of high-impact priorities.'
+  type: recommendation
+  section: Now Is the Moment to Act
+  position: 69
+  source_format: prose
+  metadata: {}
+- id: seg-070
+  text: 'The organizations that move decisively will extend their lead; those that hesitate risk being left behind.'
+  type: claim
+  section: Now Is the Moment to Act
+  position: 70
+  source_format: prose
+  metadata: {}
+- id: seg-071
+  text: 'Keep up the pace. The critical work remains redesigning processes and workflows while cleaning and standardizing data. Any further delay compounds technical debt and makes catching up much harder.'
+  type: recommendation
+  section: Now Is the Moment to Act
+  position: 71
+  source_format: bullet
+  metadata: {}
+- id: seg-072
+  text: 'Follow the taillights of enterprise leaders. The path forward is well-mapped. Proven playbooks, tested methodologies, advanced analytic tools, and benchmark data are already available. Focus on them to accelerate progress rather than reinventing the wheel.'
+  type: recommendation
+  section: Now Is the Moment to Act
+  position: 72
+  source_format: bullet
+  metadata: {}
+- id: seg-073
+  text: 'Take a principled but flexible view of architecture. Expect domain-specific platforms, not one-size-fits-all enterprise systems—for example, tailored solutions for supply chain, sales, and other key domains.'
+  type: recommendation
+  section: Now Is the Moment to Act
+  position: 73
+  source_format: bullet
+  metadata: {}
+- id: seg-074
+  text: 'Plan for human-in-the-loop oversight for now—think Iron Man suits, not fully autonomous Iron Man robots.'
+  type: recommendation
+  section: Now Is the Moment to Act
+  position: 74
+  source_format: bullet
+  metadata: {}
+- id: seg-075
+  text: 'Select vendors strategically to limit (or at least balance) agent lock-in and preserve optionality for future evolution.'
+  type: recommendation
+  section: Now Is the Moment to Act
+  position: 75
+  source_format: bullet
+  metadata: {}

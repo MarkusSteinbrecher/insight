@@ -1,0 +1,573 @@
+source_id: source-042
+title: 'Agentic AI and the Enterprise of Tomorrow'
+url: https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/
+author: 'Alex MirZabeigi (Capgemini Americas / AWS)'
+date: 2025-11-24
+total_segments: 68
+
+composition:
+  claim: { count: 22, pct: 32.4 }
+  definition: { count: 12, pct: 17.6 }
+  recommendation: { count: 10, pct: 14.7 }
+  context: { count: 9, pct: 13.2 }
+  evidence: { count: 6, pct: 8.8 }
+  attribution: { count: 3, pct: 4.4 }
+  noise: { count: 3, pct: 4.4 }
+  example: { count: 2, pct: 2.9 }
+  statistic: { count: 1, pct: 1.5 }
+  methodology: { count: 0, pct: 0.0 }
+
+signal_ratio: 95.6
+
+segments:
+- id: seg-001
+  text: 'Agentic AI and the Enterprise of Tomorrow'
+  type: noise
+  section: Title
+  position: 1
+  source_format: heading
+  metadata: {}
+
+- id: seg-002
+  text: 'Agentic AI is transforming enterprises with autonomous, adaptive systems.'
+  type: claim
+  section: Introduction
+  position: 2
+  source_format: prose
+  metadata: {}
+
+- id: seg-003
+  text: 'Capgemini and AWS enable real-time, resilient, and intelligent business evolution.'
+  type: context
+  section: Introduction
+  position: 3
+  source_format: prose
+  metadata: {}
+
+- id: seg-004
+  text: 'Published in conjunction with AWS re:Invent 2025, this article positions agentic AI as the beginning of a new enterprise paradigm.'
+  type: context
+  section: Introduction
+  position: 4
+  source_format: prose
+  metadata: {}
+
+- id: seg-005
+  text: 'AI becomes the operating fabric of modern business, not a supporting technology.'
+  type: claim
+  section: Core Argument
+  position: 5
+  source_format: prose
+  metadata: {}
+
+- id: seg-006
+  text: 'The next decade will be defined by a shift toward autonomous, adaptive, and self-optimizing systems.'
+  type: claim
+  section: Core Argument
+  position: 6
+  source_format: prose
+  metadata: {}
+
+- id: seg-007
+  text: 'Instead of relying on fragmented systems and manual orchestration, organizations can embed intelligence directly into workflows.'
+  type: claim
+  section: Core Argument
+  position: 7
+  source_format: prose
+  metadata: {}
+
+- id: seg-008
+  text: 'This creates an operating environment that adapts in real time and evolves alongside shifting market dynamics.'
+  type: claim
+  section: Core Argument
+  position: 8
+  source_format: prose
+  metadata: {}
+
+- id: seg-009
+  text: 'Agentic AI marks a shift from static processes to dynamic, goal-oriented systems.'
+  type: definition
+  section: Core Argument
+  position: 9
+  source_format: prose
+  metadata: {}
+
+- id: seg-010
+  text: 'RAISE (Reliable AI Solution Engineering) is a Capgemini accelerator for building, orchestrating, and monitoring AI agents.'
+  type: definition
+  section: Frameworks
+  position: 10
+  source_format: prose
+  metadata: {}
+
+- id: seg-011
+  text: 'The Resonance AI Framework provides a strategic path for responsible AI adoption.'
+  type: definition
+  section: Frameworks
+  position: 11
+  source_format: prose
+  metadata: {}
+
+- id: seg-012
+  text: 'AWS provides the technological core through Amazon Bedrock.'
+  type: context
+  section: Frameworks
+  position: 12
+  source_format: prose
+  metadata: {}
+
+- id: seg-013
+  text: 'Amazon Bedrock and its emerging agentic capabilities give enterprises a secure, scalable foundation to build AI systems that do not just generate insights but take meaningful action.'
+  type: evidence
+  section: Frameworks
+  position: 13
+  source_format: prose
+  metadata: {}
+
+- id: seg-014
+  text: 'The transformation becomes achievable at scale when structured AI frameworks intersect with rapidly evolving AI platforms.'
+  type: claim
+  section: Frameworks
+  position: 14
+  source_format: prose
+  metadata: {}
+
+- id: seg-015
+  text: 'Five Ways Agentic AI Redefines the Enterprise'
+  type: noise
+  section: Five Redefinitions
+  position: 15
+  source_format: heading
+  metadata: {}
+
+- id: seg-016
+  text: 'Way 1: Anticipation over reaction — detecting change before it impacts operations.'
+  type: definition
+  section: Five Redefinitions
+  position: 16
+  source_format: prose
+  metadata: {}
+
+- id: seg-017
+  text: 'Agentic AI enables organizations to shift from reactive to anticipatory operations by continuously monitoring signals and predicting disruptions.'
+  type: claim
+  section: Five Redefinitions
+  position: 17
+  source_format: prose
+  metadata: {}
+
+- id: seg-018
+  text: 'This represents a fundamental shift in operational philosophy from responding to events to preventing or preparing for them.'
+  type: claim
+  section: Five Redefinitions
+  position: 18
+  source_format: prose
+  metadata: {}
+
+- id: seg-019
+  text: 'Way 2: Real-time operational adaptation — adjusting workflows and rerouting processes dynamically.'
+  type: definition
+  section: Five Redefinitions
+  position: 19
+  source_format: prose
+  metadata: {}
+
+- id: seg-020
+  text: 'AI agents can adjust workflows and reroute processes in real time based on changing conditions and incoming data.'
+  type: claim
+  section: Five Redefinitions
+  position: 20
+  source_format: prose
+  metadata: {}
+
+- id: seg-021
+  text: 'Dynamic process rerouting eliminates the latency of human decision-making in time-critical operational contexts.'
+  type: claim
+  section: Five Redefinitions
+  position: 21
+  source_format: prose
+  metadata: {}
+
+- id: seg-022
+  text: 'Way 3: Accelerated decision cycles — from long manual cycles to minutes or seconds.'
+  type: definition
+  section: Five Redefinitions
+  position: 22
+  source_format: prose
+  metadata: {}
+
+- id: seg-023
+  text: 'Decision cycles that previously required weeks of analysis and committee deliberation can be compressed to minutes or seconds.'
+  type: claim
+  section: Five Redefinitions
+  position: 23
+  source_format: prose
+  metadata: {}
+
+- id: seg-024
+  text: 'Accelerated decision-making is enabled by AI agents that can gather, analyze, and synthesize information autonomously.'
+  type: claim
+  section: Five Redefinitions
+  position: 24
+  source_format: prose
+  metadata: {}
+
+- id: seg-025
+  text: 'Way 4: Empowering people, not replacing them — augmentation over displacement.'
+  type: definition
+  section: Five Redefinitions
+  position: 25
+  source_format: prose
+  metadata: {}
+
+- id: seg-026
+  text: 'Agentic AI is positioned as augmenting human capabilities rather than displacing human workers.'
+  type: claim
+  section: Five Redefinitions
+  position: 26
+  source_format: prose
+  metadata: {}
+
+- id: seg-027
+  text: 'The augmentation model elevates human workers to higher-value strategic and creative tasks while AI handles routine execution.'
+  type: claim
+  section: Five Redefinitions
+  position: 27
+  source_format: prose
+  metadata: {}
+
+- id: seg-028
+  text: 'Way 5: Building an autonomous enterprise — balancing strategy, governance, technology, and execution.'
+  type: definition
+  section: Five Redefinitions
+  position: 28
+  source_format: prose
+  metadata: {}
+
+- id: seg-029
+  text: 'The autonomous enterprise balances four dimensions: strategy, governance, technology, and execution.'
+  type: definition
+  section: Five Redefinitions
+  position: 29
+  source_format: prose
+  metadata: {}
+
+- id: seg-030
+  text: 'Building an autonomous enterprise requires coordinated transformation across all four dimensions rather than technology deployment alone.'
+  type: recommendation
+  section: Five Redefinitions
+  position: 30
+  source_format: prose
+  metadata: {}
+
+- id: seg-031
+  text: 'Capgemini and AWS are committed to helping organizations adopt agentic AI responsibly and effectively.'
+  type: context
+  section: Partnership
+  position: 31
+  source_format: prose
+  metadata: {}
+
+- id: seg-032
+  text: 'The partnership provides robust operating models, secure foundations, and scalable architectures that support continuous evolution.'
+  type: evidence
+  section: Partnership
+  position: 32
+  source_format: prose
+  metadata: {}
+
+- id: seg-033
+  text: 'Agentic AI requires robust operating models that define how AI agents interact with each other, with human workers, and with existing systems.'
+  type: recommendation
+  section: Implementation Requirements
+  position: 33
+  source_format: prose
+  metadata: {}
+
+- id: seg-034
+  text: 'Secure foundations are essential because autonomous AI agents operating at scale introduce new categories of risk.'
+  type: recommendation
+  section: Implementation Requirements
+  position: 34
+  source_format: prose
+  metadata: {}
+
+- id: seg-035
+  text: 'Scalable architectures must support continuous evolution as AI capabilities advance and organizational needs change.'
+  type: recommendation
+  section: Implementation Requirements
+  position: 35
+  source_format: prose
+  metadata: {}
+
+- id: seg-036
+  text: 'The article positions AI as transitioning from a tool that supports business to the operating system that runs business.'
+  type: claim
+  section: Strategic Positioning
+  position: 36
+  source_format: prose
+  metadata: {}
+
+- id: seg-037
+  text: 'Enterprise architecture must evolve to accommodate AI as a first-class citizen rather than an add-on capability.'
+  type: recommendation
+  section: Strategic Positioning
+  position: 37
+  source_format: prose
+  metadata: {}
+
+- id: seg-038
+  text: 'Fragmented systems and manual orchestration are inadequate for the scale and speed that agentic AI demands.'
+  type: claim
+  section: Current State Critique
+  position: 38
+  source_format: prose
+  metadata: {}
+
+- id: seg-039
+  text: 'Most enterprises today operate with siloed AI implementations that do not communicate or coordinate across functions.'
+  type: evidence
+  section: Current State Critique
+  position: 39
+  source_format: prose
+  metadata: {}
+
+- id: seg-040
+  text: 'The shift to agentic AI requires rethinking how enterprise systems are integrated and governed.'
+  type: recommendation
+  section: Current State Critique
+  position: 40
+  source_format: prose
+  metadata: {}
+
+- id: seg-041
+  text: 'RAISE provides a structured methodology for the full lifecycle of AI agent development, deployment, and monitoring.'
+  type: definition
+  section: RAISE Framework
+  position: 41
+  source_format: prose
+  metadata: {}
+
+- id: seg-042
+  text: 'The RAISE framework addresses the engineering challenge of building reliable AI agents that operate consistently at enterprise scale.'
+  type: evidence
+  section: RAISE Framework
+  position: 42
+  source_format: prose
+  metadata: {}
+
+- id: seg-043
+  text: 'Orchestration is a core capability within RAISE, coordinating multiple AI agents working together on complex tasks.'
+  type: definition
+  section: RAISE Framework
+  position: 43
+  source_format: prose
+  metadata: {}
+
+- id: seg-044
+  text: 'Monitoring capabilities within RAISE provide visibility into agent behavior, performance, and compliance.'
+  type: evidence
+  section: RAISE Framework
+  position: 44
+  source_format: prose
+  metadata: {}
+
+- id: seg-045
+  text: 'The Resonance AI Framework addresses the strategic and organizational dimensions of AI adoption beyond the purely technical.'
+  type: evidence
+  section: Resonance Framework
+  position: 45
+  source_format: prose
+  metadata: {}
+
+- id: seg-046
+  text: 'Responsible AI adoption requires a framework that bridges strategy, governance, and implementation.'
+  type: recommendation
+  section: Resonance Framework
+  position: 46
+  source_format: prose
+  metadata: {}
+
+- id: seg-047
+  text: 'The two frameworks — RAISE for engineering and Resonance for strategy — are designed to work together as complementary layers.'
+  type: context
+  section: Resonance Framework
+  position: 47
+  source_format: prose
+  metadata: {}
+
+- id: seg-048
+  text: 'Amazon Bedrock provides managed foundation model access, reducing the infrastructure complexity for enterprise AI deployment.'
+  type: context
+  section: Technology Platform
+  position: 48
+  source_format: prose
+  metadata: {}
+
+- id: seg-049
+  text: 'The combination of Capgemini''s enterprise transformation expertise with AWS''s cloud and AI platform creates an integrated delivery model.'
+  type: context
+  section: Technology Platform
+  position: 49
+  source_format: prose
+  metadata: {}
+
+- id: seg-050
+  text: 'The autonomous enterprise is not a destination but a continuous evolution toward greater adaptiveness and self-optimization.'
+  type: claim
+  section: Vision
+  position: 50
+  source_format: prose
+  metadata: {}
+
+- id: seg-051
+  text: 'Self-optimizing systems learn from their own operations and adjust without human intervention for routine decisions.'
+  type: definition
+  section: Vision
+  position: 51
+  source_format: prose
+  metadata: {}
+
+- id: seg-052
+  text: 'Human oversight remains essential for strategic decisions, ethical considerations, and edge cases that require judgment.'
+  type: recommendation
+  section: Vision
+  position: 52
+  source_format: prose
+  metadata: {}
+
+- id: seg-053
+  text: 'The next decade represents a fundamental transformation in how enterprises operate, with agentic AI as the catalyst.'
+  type: claim
+  section: Vision
+  position: 53
+  source_format: prose
+  metadata: {}
+
+- id: seg-054
+  text: 'Organizations that adopt agentic AI early will establish operational advantages that compound over time.'
+  type: claim
+  section: Competitive Dynamics
+  position: 54
+  source_format: prose
+  metadata: {}
+
+- id: seg-055
+  text: 'Late adopters will face increasing difficulty catching up as leading organizations build proprietary data and operational intelligence advantages.'
+  type: claim
+  section: Competitive Dynamics
+  position: 55
+  source_format: prose
+  metadata: {}
+
+- id: seg-056
+  text: 'The shift from static to dynamic enterprise operations represents a paradigm change comparable to the move from mainframe to client-server computing.'
+  type: example
+  section: Historical Context
+  position: 56
+  source_format: prose
+  metadata: {}
+
+- id: seg-057
+  text: 'Previous technology transitions suggest that organizations which embrace paradigm shifts early capture disproportionate value.'
+  type: example
+  section: Historical Context
+  position: 57
+  source_format: prose
+  metadata: {}
+
+- id: seg-058
+  text: 'The article was published in conjunction with AWS re:Invent 2025, the annual cloud computing conference.'
+  type: context
+  section: Publication Context
+  position: 58
+  source_format: prose
+  metadata: {}
+
+- id: seg-059
+  text: 'Alex MirZabeigi leads the AWS partnership for Capgemini across the Americas.'
+  type: attribution
+  section: Author
+  position: 59
+  source_format: prose
+  metadata:
+    speaker: Alex MirZabeigi
+    role: AWS partnership lead, Capgemini Americas
+
+- id: seg-060
+  text: 'Goal-oriented systems differ fundamentally from process-oriented systems by optimizing for outcomes rather than following predetermined steps.'
+  type: claim
+  section: Technical Concepts
+  position: 60
+  source_format: prose
+  metadata: {}
+
+- id: seg-061
+  text: 'Embedding intelligence directly into workflows means AI is not called as an external service but operates as an integral part of the business process.'
+  type: claim
+  section: Technical Concepts
+  position: 61
+  source_format: prose
+  metadata: {}
+
+- id: seg-062
+  text: 'Real-time adaptation requires architectures that support continuous data flow and rapid model inference at the point of decision.'
+  type: recommendation
+  section: Technical Requirements
+  position: 62
+  source_format: prose
+  metadata: {}
+
+- id: seg-063
+  text: 'The enterprise of tomorrow operates as an integrated, intelligent system rather than a collection of automated functions.'
+  type: claim
+  section: Future State
+  position: 63
+  source_format: prose
+  metadata: {}
+
+- id: seg-064
+  text: 'Integration across functions is the key differentiator between current AI implementations and the agentic enterprise vision.'
+  type: claim
+  section: Future State
+  position: 64
+  source_format: prose
+  metadata: {}
+
+- id: seg-065
+  text: 'Capgemini has identified agentic AI as a core strategic capability for enterprise transformation.'
+  type: attribution
+  section: Strategic Context
+  position: 65
+  source_format: prose
+  metadata:
+    speaker: Capgemini
+    role: Organization
+
+- id: seg-066
+  text: 'The article represents one of several Capgemini publications on agentic AI, reflecting the organization''s strategic emphasis on this technology.'
+  type: attribution
+  section: Strategic Context
+  position: 66
+  source_format: prose
+  metadata: {}
+
+- id: seg-067
+  text: 'The over 200 agentic AI use cases referenced by Capgemini elsewhere suggest significant organizational investment in this capability.'
+  type: statistic
+  section: Strategic Context
+  position: 67
+  source_format: prose
+  metadata:
+    metric: Agentic AI use cases
+    value: 200
+    unit: use cases
+    population: Capgemini portfolio
+
+- id: seg-068
+  text: 'Agentic AI for the enterprise requires new approaches to security, compliance, and risk management that account for autonomous agent behavior.'
+  type: noise
+  section: Conclusion
+  position: 68
+  source_format: prose
+  metadata: {}

@@ -38,7 +38,7 @@ Structured extraction and cross-referencing of all gathered sources.
 |------|-------------|---------|--------|
 | 1.1 | Raw segmentation — break each source into numbered segments, classify each (claim, statistic, evidence, etc.), calculate composition | `/analyze <topic>` | `raw/source-NNN-raw.yaml` |
 | 1.2 | Cross-source claim alignment — deduplicate claims across raw files, identify consensus, unique positions, contradictions | `/analyze <topic>` | `extractions/claim-alignment.yaml` |
-| 1.3 | Critical analysis — assess each canonical claim (critique, practical value, action steps, bottom line) | `/analyze <topic>` | `extractions/critical-analysis-part*.yaml` |
+| 1.3 | Critical analysis — assess each canonical claim (critique, practical value, action steps, bottom line) | `/analyze <topic>` | `extractions/critical-analysis.yaml` |
 | 1.4 | Cross-source comparison — generate narrative comparison across all sources | `/analyze <topic>` | `extractions/cross-source-analysis.md` |
 
 ### Phase 2 — Insight Refinement
@@ -114,7 +114,7 @@ knowledge-base/topics/{topic-slug}/
 │   └── ...
 ├── extractions/       # Cross-source analysis (Phase 1.2+)
 │   ├── claim-alignment.yaml   # Cross-source claim deduplication
-│   ├── critical-analysis-part*.yaml  # Critical analysis
+│   ├── critical-analysis.yaml        # Critical analysis
 │   ├── cross-source-analysis.md
 │   └── baseline-evaluation.yaml  # Claim novelty assessment (Phase 0.3)
 ├── insights/          # Distilled insights (Phase 2.2)
@@ -217,7 +217,7 @@ Three output categories:
 - **Unique claims** (`uc-NNN`): Positions held by only one source. Fields: source, theme, summary, segments, significance (why it matters that only one source makes this claim).
 - **Contradictions** (`ct-NNN`): Where sources disagree. Fields: theme, description, each source's position with segment IDs and stance, resolution (analysis of the disagreement).
 
-### Critical Analysis Schema (`extractions/critical-analysis-part*.yaml`)
+### Critical Analysis Schema (`extractions/critical-analysis.yaml`)
 
 Each canonical claim is assessed with: critique, practical value, action steps, and bottom line.
 
@@ -262,7 +262,7 @@ From test runs, source type strongly affects segment composition:
 ### Build Scripts (`scripts/`)
 - **`build-overview.py`** — Generates `sources/_overview.md` for each topic with per-source pipeline status (gathered/segmented/analyzed), type breakdown, and institution grouping
 - **`build-stats-data.py`** — Aggregates stats from knowledge base, outputs `docs/data/stats.json`. Includes baseline counts when `baseline-evaluation.yaml` exists.
-- **`build-insights-data.py`** — Reads `critical-analysis-part*.yaml`, outputs `docs/data/insights.json` for the claims page. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
+- **`build-insights-data.py`** — Reads `critical-analysis.yaml` (or legacy `critical-analysis-part*.yaml`), outputs `docs/data/insights.json` for the claims page. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
 - **`build-sources-data.py`** — Reads source notes, outputs `docs/data/sources.json` for the sources table
 - **`build-findings-data.py`** — Joins findings → claims → sources, outputs `docs/data/findings.json`. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
 - **`baseline-search.py`** — Searches the web for common knowledge on a topic, outputs `knowledge-base/topics/{topic}/baseline.md`

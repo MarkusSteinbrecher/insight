@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Build insights.json from critical analysis YAML files.
 
-Reads all knowledge-base/topics/*/extractions/critical-analysis-part*.yaml files
-and produces a unified JSON structure for the insights page.
+Reads knowledge-base/topics/*/extractions/critical-analysis.yaml (preferred)
+or critical-analysis-part*.yaml (legacy) and produces a unified JSON structure
+for the insights page.
 
 Output: docs/data/insights.json
 """
@@ -16,7 +17,10 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPICS_DIR = os.path.join(ROOT, "knowledge-base", "topics")
-ANALYSIS_GLOB = os.path.join(
+ANALYSIS_SINGLE = os.path.join(
+    TOPICS_DIR, "*", "extractions", "critical-analysis.yaml"
+)
+ANALYSIS_PARTS = os.path.join(
     TOPICS_DIR, "*", "extractions", "critical-analysis-part*.yaml"
 )
 OUTPUT_DIR = os.path.join(ROOT, "docs", "data")
@@ -147,7 +151,7 @@ def load_baseline_evaluations():
 
 
 def build_insights_data():
-    yaml_files = sorted(glob.glob(ANALYSIS_GLOB))
+    yaml_files = sorted(glob.glob(ANALYSIS_SINGLE)) or sorted(glob.glob(ANALYSIS_PARTS))
     if not yaml_files:
         print("No critical analysis YAML files found.", file=sys.stderr)
         sys.exit(1)

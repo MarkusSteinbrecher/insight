@@ -1,0 +1,851 @@
+source_id: source-034
+title: "How Agentic AI is Transforming Enterprise Platforms"
+url: "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms"
+author: "BCG"
+date: 2025-10-13
+type: article
+total_segments: 103
+note: "BCG.com rendered via JavaScript; content reconstructed from web search snippets and source note"
+
+composition:
+  claim: { count: 30, pct: 29.1 }
+  statistic: { count: 11, pct: 10.7 }
+  evidence: { count: 6, pct: 5.8 }
+  definition: { count: 15, pct: 14.6 }
+  recommendation: { count: 19, pct: 18.4 }
+  context: { count: 5, pct: 4.9 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 8, pct: 7.8 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 9, pct: 8.7 }
+
+signal_ratio: 91.3
+
+segments:
+
+  # ============================================================
+  # TITLE AND INTRODUCTION
+  # ============================================================
+
+  - id: seg-001
+    text: "How Agentic AI is Transforming Enterprise Platforms"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Agentic AI is redefining how businesses operate, installing intelligent virtual assistants that can analyze data and make decisions without human intervention."
+    type: claim
+    section: "Introduction"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "Unlike earlier AI waves, agentic AI systems can observe, understand, plan, and execute tasks with minimal human intervention."
+    type: definition
+    section: "Introduction"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "These powerful new tools are distinguished by their ability to act — to observe, understand, plan, and do."
+    type: definition
+    section: "Introduction"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "AI agents move beyond prediction and conversation to actually reshape business processes and get work done."
+    type: claim
+    section: "Introduction"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "They are distinguished from other forms of AI by their ability to act under appropriate direction and supervision, executing tasks, achieving goals, and interacting with the real world."
+    type: definition
+    section: "Introduction"
+    position: 6
+    source_format: prose
+
+  # ============================================================
+  # AGENTIC AI VALUE AND ADOPTION
+  # ============================================================
+
+  - id: seg-007
+    text: "Agentic AI Value and Adoption"
+    type: noise
+    section: "Value and Adoption"
+    position: 7
+    source_format: heading
+
+  - id: seg-008
+    text: "Agentic AI drives 17% of total AI value today."
+    type: statistic
+    section: "Value and Adoption"
+    position: 8
+    source_format: prose
+    metadata:
+      metric: "Agentic AI share of total AI value"
+      value: 17
+      unit: "%"
+      population: "Total AI value"
+
+  - id: seg-009
+    text: "Agentic AI's share of total AI value is expected to nearly double by 2028."
+    type: statistic
+    section: "Value and Adoption"
+    position: 9
+    source_format: prose
+    metadata:
+      metric: "Projected agentic AI value growth"
+      value: "~34"
+      unit: "%"
+      population: "Total AI value"
+      year: 2028
+
+  - id: seg-010
+    text: "70% of AI's potential value is concentrated in core business functions."
+    type: statistic
+    section: "Value and Adoption"
+    position: 10
+    source_format: prose
+    metadata:
+      metric: "AI value concentration in core business functions"
+      value: 70
+      unit: "%"
+
+  - id: seg-011
+    text: "35% of companies have begun using agentic AI."
+    type: statistic
+    section: "Value and Adoption"
+    position: 11
+    source_format: prose
+    metadata:
+      metric: "Companies currently using agentic AI"
+      value: 35
+      unit: "%"
+
+  - id: seg-012
+    text: "Another 44% of companies plan to deploy agentic AI soon."
+    type: statistic
+    section: "Value and Adoption"
+    position: 12
+    source_format: prose
+    metadata:
+      metric: "Companies planning agentic AI deployment"
+      value: 44
+      unit: "%"
+
+  - id: seg-013
+    text: "76% of executives view agentic AI more as a coworker than a tool."
+    type: statistic
+    section: "Value and Adoption"
+    position: 13
+    source_format: prose
+    metadata:
+      metric: "Executives viewing agentic AI as coworker"
+      value: 76
+      unit: "%"
+
+  # ============================================================
+  # SHARED AI PLATFORM — FREEDOM WITHIN A FRAME
+  # ============================================================
+
+  - id: seg-014
+    text: 'Shared AI Platform: Freedom Within a Frame'
+    type: noise
+    section: "Platform Design"
+    position: 14
+    source_format: heading
+
+  - id: seg-015
+    text: 'The article proposes a "freedom within a frame" shared AI platform design.'
+    type: claim
+    section: "Platform Design"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "Companies need a shared AI platform that gives P&L owners freedom within a frame — centralized infrastructure with decentralized innovation."
+    type: recommendation
+    section: "Platform Design"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "The platform should include data connectors as a core component."
+    type: recommendation
+    section: "Platform Design"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "The platform should include orchestration frameworks."
+    type: recommendation
+    section: "Platform Design"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "The platform should include model management capabilities."
+    type: recommendation
+    section: "Platform Design"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "The platform should include monitoring capabilities."
+    type: recommendation
+    section: "Platform Design"
+    position: 20
+    source_format: bullet
+
+  - id: seg-021
+    text: "The platform should include tiered autonomy controls."
+    type: recommendation
+    section: "Platform Design"
+    position: 21
+    source_format: bullet
+
+  - id: seg-022
+    text: "The platform should include responsible AI controls."
+    type: recommendation
+    section: "Platform Design"
+    position: 22
+    source_format: bullet
+
+  - id: seg-023
+    text: "In work with clients, shared tools and data can cut costs by up to 30% and lift productivity by 25%."
+    type: statistic
+    section: "Platform Design"
+    position: 23
+    source_format: prose
+    metadata:
+      metric: "Cost reduction from shared tools and data"
+      value: 30
+      unit: "%"
+
+  - id: seg-024
+    text: "As reuse increases, time to market can improve by 50%."
+    type: statistic
+    section: "Platform Design"
+    position: 24
+    source_format: prose
+    metadata:
+      metric: "Time-to-market improvement from reuse"
+      value: 50
+      unit: "%"
+
+  - id: seg-025
+    text: "The organization should combine predictive, generative, and agentic AI for impact."
+    type: recommendation
+    section: "Platform Design"
+    position: 25
+    source_format: prose
+
+  # ============================================================
+  # THREE-TIER AUTONOMY FRAMEWORK
+  # ============================================================
+
+  - id: seg-026
+    text: "Three-Tier Autonomy Framework"
+    type: noise
+    section: "Autonomy Framework"
+    position: 26
+    source_format: heading
+
+  - id: seg-027
+    text: "A three-tier autonomy framework progresses from Foundation to Workflow to Autonomous."
+    type: definition
+    section: "Autonomy Framework"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Trust, governance, and transparency precede autonomy in this framework."
+    type: claim
+    section: "Autonomy Framework"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Foundation Tier"
+    type: noise
+    section: "Autonomy Framework"
+    position: 29
+    source_format: heading
+
+  - id: seg-030
+    text: "The Foundation Tier establishes tool orchestration, transparency in reasoning, and data lifecycle patterns to build organizational trust."
+    type: definition
+    section: "Autonomy Framework"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Workflow Tier"
+    type: noise
+    section: "Autonomy Framework"
+    position: 31
+    source_format: heading
+
+  - id: seg-032
+    text: "The Workflow Tier delivers automation through five core patterns."
+    type: definition
+    section: "Autonomy Framework"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Prompt Chaining is the first workflow pattern, sequencing multiple prompts for complex tasks."
+    type: definition
+    section: "Autonomy Framework"
+    position: 33
+    source_format: bullet
+
+  - id: seg-034
+    text: "Routing is the second workflow pattern, directing tasks to specialized agents or models."
+    type: definition
+    section: "Autonomy Framework"
+    position: 34
+    source_format: bullet
+
+  - id: seg-035
+    text: "Parallelization is the third workflow pattern, running multiple agent tasks concurrently."
+    type: definition
+    section: "Autonomy Framework"
+    position: 35
+    source_format: bullet
+
+  - id: seg-036
+    text: "Evaluator-Optimizer is the fourth workflow pattern, assessing and refining agent outputs."
+    type: definition
+    section: "Autonomy Framework"
+    position: 36
+    source_format: bullet
+
+  - id: seg-037
+    text: "Orchestrator-Workers is the fifth workflow pattern, coordinating a lead agent that delegates to worker agents."
+    type: definition
+    section: "Autonomy Framework"
+    position: 37
+    source_format: bullet
+
+  - id: seg-038
+    text: "Autonomous Tier"
+    type: noise
+    section: "Autonomy Framework"
+    position: 38
+    source_format: heading
+
+  - id: seg-039
+    text: "At the Autonomous Tier, agents determine their own approaches dynamically."
+    type: definition
+    section: "Autonomy Framework"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Guided Autonomy (Human on the Loop) means the agent acts and the human monitors."
+    type: definition
+    section: "Autonomy Framework"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "The agent executes autonomously within strict guardrails, and humans shift from approvers to exception handlers, intervening only when the system flags an anomaly or during random spot-checks."
+    type: claim
+    section: "Autonomy Framework"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "This approach unlocks speed for routine tasks such as supply chain restocking while maintaining a safety net for edge cases."
+    type: claim
+    section: "Autonomy Framework"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Full Autonomy (Human out of the Loop) means the agent operates independently without explicit human oversight for defined workflows."
+    type: definition
+    section: "Autonomy Framework"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "Full autonomy is reserved for highly mature, low-risk environments where the cost of error is negligible compared to the gain in efficiency."
+    type: claim
+    section: "Autonomy Framework"
+    position: 44
+    source_format: prose
+
+  # ============================================================
+  # CASE STUDIES
+  # ============================================================
+
+  - id: seg-045
+    text: "Case Studies"
+    type: noise
+    section: "Case Studies"
+    position: 45
+    source_format: heading
+
+  - id: seg-046
+    text: "A shipbuilding company used an autonomous, multiagent architecture with reasoning and planning capabilities to automate design tasks."
+    type: example
+    section: "Case Studies"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "The shipbuilding company reduced engineering resources required by 45% and lead time per ship deck by 80%."
+    type: statistic
+    section: "Case Studies"
+    position: 47
+    source_format: prose
+    metadata:
+      metric: "Engineering resource reduction"
+      value: 45
+      unit: "%"
+      population: "Shipbuilding company"
+
+  - id: seg-048
+    text: "A global industrial goods company achieved a 2 percentage-point EBITDA uplift through agentic AI."
+    type: statistic
+    section: "Case Studies"
+    position: 48
+    source_format: prose
+    metadata:
+      metric: "EBITDA uplift"
+      value: 2
+      unit: "percentage points"
+      population: "Global industrial goods company"
+
+  - id: seg-049
+    text: "A global logistics company used agents to automate its request-for-proposal response process, achieving 30% to 50% efficiency gains."
+    type: example
+    section: "Case Studies"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "A large bank in Southeast Asia increased assets under management by 5% to 10% using agents to provide relationship managers with real-time input for developing personalized offerings."
+    type: example
+    section: "Case Studies"
+    position: 50
+    source_format: prose
+
+  - id: seg-051
+    text: "The bank increased customer conversions four- to sixfold using agent-powered personalization."
+    type: statistic
+    section: "Case Studies"
+    position: 51
+    source_format: prose
+    metadata:
+      metric: "Customer conversion increase"
+      value: "4-6x"
+      unit: "fold increase"
+      population: "Southeast Asia bank"
+
+  - id: seg-052
+    text: "A consumer goods company cut cycle time by 60% through agent-based workflow redesign."
+    type: example
+    section: "Case Studies"
+    position: 52
+    source_format: prose
+
+  # ============================================================
+  # THE 10/20/70 RULE
+  # ============================================================
+
+  - id: seg-053
+    text: 'The 10/20/70 Rule'
+    type: noise
+    section: "10/20/70 Rule"
+    position: 53
+    source_format: heading
+
+  - id: seg-054
+    text: "The 10/20/70 rule states that algorithms account for 10% of AI transformation work."
+    type: claim
+    section: "10/20/70 Rule"
+    position: 54
+    source_format: prose
+
+  - id: seg-055
+    text: "Technology backbone accounts for 20% of AI transformation work."
+    type: claim
+    section: "10/20/70 Rule"
+    position: 55
+    source_format: prose
+
+  - id: seg-056
+    text: "People and processes account for 70% of AI transformation work."
+    type: claim
+    section: "10/20/70 Rule"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "Organizations should follow the 10/20/70 rule to emphasize people and processes when combining predictive, generative, and agentic AI for impact."
+    type: recommendation
+    section: "10/20/70 Rule"
+    position: 57
+    source_format: prose
+
+  # ============================================================
+  # RESOURCE ALLOCATION AND WORKFLOW REDESIGN
+  # ============================================================
+
+  - id: seg-058
+    text: "Concentrate approximately 80% of efforts on end-to-end workflow redesign and new offerings, with only 20% on broad AI deployment."
+    type: recommendation
+    section: "Resource Allocation"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "To create real value and distinctive advantage, concentrate resources on reshaping end-to-end workflows and inventing new, revenue-generating business models."
+    type: recommendation
+    section: "Resource Allocation"
+    position: 59
+    source_format: prose
+
+  # ============================================================
+  # MCP — MODEL CONTEXT PROTOCOL
+  # ============================================================
+
+  - id: seg-060
+    text: "Model Context Protocol (MCP)"
+    type: context
+    section: "MCP"
+    position: 60
+    source_format: heading
+
+  - id: seg-061
+    text: 'MCP is described as a "USB-C port for AI agents" — a standardized connection reducing integration complexity.'
+    type: claim
+    section: "MCP"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "MCP is an open-source protocol that standardizes how agents access tools and data, acting like a universal adapter between AI agents and the tools, data, and prompts they use."
+    type: definition
+    section: "MCP"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "Built and open-sourced by Anthropic, MCP is emerging as the de facto standard for connecting AI agents to other systems."
+    type: claim
+    section: "MCP"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "Using MCP can efficiently deliver agents that work, evolve, scale, and deliver better enterprise value."
+    type: claim
+    section: "MCP"
+    position: 64
+    source_format: prose
+
+  # ============================================================
+  # GUIDING PRINCIPLES
+  # ============================================================
+
+  - id: seg-065
+    text: "Guiding Principles"
+    type: context
+    section: "Guiding Principles"
+    position: 65
+    source_format: heading
+
+  - id: seg-066
+    text: 'Focus on a few "reshape and invent" big bets.'
+    type: recommendation
+    section: "Guiding Principles"
+    position: 66
+    source_format: bullet
+
+  - id: seg-067
+    text: "Combine predictive, generative, and agentic AI for impact."
+    type: recommendation
+    section: "Guiding Principles"
+    position: 67
+    source_format: bullet
+
+  - id: seg-068
+    text: "Follow the 10/20/70 rule to emphasize people and processes."
+    type: recommendation
+    section: "Guiding Principles"
+    position: 68
+    source_format: bullet
+
+  - id: seg-069
+    text: "Make the transformation business-led."
+    type: recommendation
+    section: "Guiding Principles"
+    position: 69
+    source_format: bullet
+
+  - id: seg-070
+    text: "Invest in a robust, continually improving data foundation."
+    type: recommendation
+    section: "Guiding Principles"
+    position: 70
+    source_format: bullet
+
+  # ============================================================
+  # RESPONSIBLE AI AND GOVERNANCE
+  # ============================================================
+
+  - id: seg-071
+    text: "Responsible AI and Governance"
+    type: context
+    section: "Responsible AI"
+    position: 71
+    source_format: heading
+
+  - id: seg-072
+    text: "The importance of adhering to responsible AI practices increases as agents delve into the weeds of risk management and process integrity."
+    type: claim
+    section: "Responsible AI"
+    position: 72
+    source_format: prose
+
+  - id: seg-073
+    text: "BCG offers the FAST framework to help companies identify and manage the capabilities needed for safe, reliable agent deployment."
+    type: evidence
+    section: "Responsible AI"
+    position: 73
+    source_format: prose
+
+  - id: seg-074
+    text: "Strategic enterprise-grade deployments are characterized by active governance, automated monitoring, and comprehensive risk management."
+    type: claim
+    section: "Responsible AI"
+    position: 74
+    source_format: prose
+
+  # ============================================================
+  # BUSINESS CONTEXT FABRIC
+  # ============================================================
+
+  - id: seg-075
+    text: "Business Context Fabric"
+    type: context
+    section: "Business Context"
+    position: 75
+    source_format: heading
+
+  - id: seg-076
+    text: "Organizations need to identify their business context fabric by surfacing the unwritten principles their teams follow."
+    type: claim
+    section: "Business Context"
+    position: 76
+    source_format: prose
+
+  - id: seg-077
+    text: "Expert workshops help surface the unwritten principles teams follow, which can then be translated into the prompts and decision trees agents use."
+    type: evidence
+    section: "Business Context"
+    position: 77
+    source_format: prose
+
+  - id: seg-078
+    text: "BCG's AgentKit is an open-source agent-building toolkit used on more than 30 projects."
+    type: evidence
+    section: "Business Context"
+    position: 78
+    source_format: prose
+
+  # ============================================================
+  # AGENT ARCHITECTURE
+  # ============================================================
+
+  - id: seg-079
+    text: "Agent Architecture Design"
+    type: context
+    section: "Agent Architecture"
+    position: 79
+    source_format: heading
+
+  - id: seg-080
+    text: "BCG's AgentKit framework design involves tapping into human expert knowledge to define productive routes for agents to follow."
+    type: claim
+    section: "Agent Architecture"
+    position: 80
+    source_format: prose
+
+  - id: seg-081
+    text: "Agents are given freedom and latitude to make decisions while staying within the scope of their intended purpose."
+    type: claim
+    section: "Agent Architecture"
+    position: 81
+    source_format: prose
+
+  - id: seg-082
+    text: "BCG has been working with clients since 2023 to build and implement AI agents."
+    type: evidence
+    section: "Agent Architecture"
+    position: 82
+    source_format: prose
+
+  # ============================================================
+  # SOURCE NOTE — KEY TAKEAWAYS
+  # ============================================================
+
+  - id: seg-083
+    text: "Agentic AI drives 17% of total AI value today, expected to nearly double by 2028."
+    type: claim
+    section: "Source Note Takeaways"
+    position: 83
+    source_format: bullet
+
+  - id: seg-084
+    text: '35% of companies already using agentic AI; 76% of executives view it as a coworker.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 84
+    source_format: bullet
+
+  - id: seg-085
+    text: 'Shared AI platform design: "freedom within a frame" — centralized infrastructure, decentralized innovation.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 85
+    source_format: bullet
+
+  - id: seg-086
+    text: 'Three-tier autonomy framework: Foundation, Workflow, Autonomous.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 86
+    source_format: bullet
+
+  - id: seg-087
+    text: 'The 10/20/70 rule: 10% algorithms, 20% tech backbone, 70% people and processes.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 87
+    source_format: bullet
+
+  - id: seg-088
+    text: 'MCP described as "USB-C port for AI agents" — standardized connection reducing integration complexity.'
+    type: claim
+    section: "Source Note Takeaways"
+    position: 88
+    source_format: bullet
+
+  # ============================================================
+  # ADDITIONAL DETAILS FROM SEARCH FRAGMENTS
+  # ============================================================
+
+  - id: seg-089
+    text: "One global consumer goods company rebuilt their workflow around meta-agents that orchestrated the work and worker agents that generated insights, tested ideas, and created concepts."
+    type: example
+    section: "Case Studies"
+    position: 89
+    source_format: prose
+
+  - id: seg-090
+    text: "The result was brand-consistent recommendations with far less rework."
+    type: evidence
+    section: "Case Studies"
+    position: 90
+    source_format: prose
+
+  - id: seg-091
+    text: "For CEOs, the central question is no longer 'Where can I automate a step?' but rather 'How will process design itself fundamentally change?'"
+    type: claim
+    section: "Strategic Perspective"
+    position: 91
+    source_format: prose
+
+  - id: seg-092
+    text: "Agentic systems invite leaders to rethink the design of whole workflows, blending human judgment and machine autonomy in ways that legacy processes were never built to accommodate."
+    type: claim
+    section: "Strategic Perspective"
+    position: 92
+    source_format: prose
+
+  - id: seg-093
+    text: "CEOs should redesign work around zero-based, outcome-driven processes."
+    type: recommendation
+    section: "Strategic Perspective"
+    position: 93
+    source_format: prose
+
+  - id: seg-094
+    text: "CEOs should embed the company's business context and proprietary intelligence into agent systems."
+    type: recommendation
+    section: "Strategic Perspective"
+    position: 94
+    source_format: prose
+
+  - id: seg-095
+    text: "CEOs should assemble a shared AI platform that gives teams freedom within a frame."
+    type: recommendation
+    section: "Strategic Perspective"
+    position: 95
+    source_format: prose
+
+  - id: seg-096
+    text: "A shipbuilding company used an autonomous, multiagent architecture with reasoning and planning capabilities to automate design tasks, reducing engineering resources by 45% and lead time per ship deck by 80%."
+    type: example
+    section: "Case Studies"
+    position: 96
+    source_format: prose
+
+  - id: seg-097
+    text: "A global logistics company used agents to automate its request-for-proposal response process, achieving 30% to 50% efficiency gains."
+    type: example
+    section: "Case Studies"
+    position: 97
+    source_format: prose
+
+  - id: seg-098
+    text: "A large bank in Southeast Asia used agents to provide relationship managers with real-time input for developing personalized offerings, increasing assets under management by 5% to 10%."
+    type: example
+    section: "Case Studies"
+    position: 98
+    source_format: prose
+
+  - id: seg-099
+    text: "The bank increased customer conversions four- to sixfold."
+    type: evidence
+    section: "Case Studies"
+    position: 99
+    source_format: prose
+
+  - id: seg-100
+    text: "MCP is like a USB-C port for AI agents — a standardized link that greatly reduces the headaches of connecting large language models to tools and data."
+    type: claim
+    section: "MCP"
+    position: 100
+    source_format: prose
+
+  - id: seg-101
+    text: "As organizations start to scale their agent deployments, MCP offers the infrastructure to do it right."
+    type: claim
+    section: "MCP"
+    position: 101
+    source_format: prose
+
+  - id: seg-102
+    text: "MCP is emerging as the de facto standard for connecting AI agents to other systems, including those built by OpenAI, Google, and Amazon."
+    type: claim
+    section: "MCP"
+    position: 102
+    source_format: prose
+
+  - id: seg-103
+    text: "BCG helps redesign organizations with intelligence at the core, and open and interoperable capabilities like MCP and A2A can accelerate this, enabling sustained, autonomous competitive advantage."
+    type: claim
+    section: "MCP"
+    position: 103
+    source_format: prose

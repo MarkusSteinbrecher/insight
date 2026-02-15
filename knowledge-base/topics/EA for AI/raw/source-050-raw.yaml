@@ -1,0 +1,468 @@
+source_id: source-050
+title: "PwC's 2025 EMEA Cloud Business Survey"
+url: "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html"
+author: "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)"
+date: 2025-11-07
+total_segments: 52
+
+composition:
+  claim: { count: 19, pct: 36.5 }
+  statistic: { count: 9, pct: 17.3 }
+  recommendation: { count: 8, pct: 15.4 }
+  context: { count: 7, pct: 13.5 }
+  evidence: { count: 2, pct: 3.8 }
+  definition: { count: 1, pct: 1.9 }
+  methodology: { count: 1, pct: 1.9 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 5, pct: 9.6 }
+
+signal_ratio: 90.4
+
+segments:
+
+  # ============================================================
+  # OVERVIEW
+  # ============================================================
+
+  - id: seg-001
+    text: "PwC's 2025 EMEA Cloud Business Survey"
+    type: noise
+    section: "Overview"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "PwC surveyed over 1,400 business and technology leaders across 26 EMEA territories between July and September 2025."
+    type: methodology
+    section: "Overview"
+    position: 2
+    source_format: prose
+    metadata:
+      metric: "survey respondents"
+      value: 1400
+      unit: "leaders"
+      population: "business and technology leaders across 26 EMEA territories"
+
+  - id: seg-003
+    text: "The research examines how organizations are adapting cloud strategies in response to geopolitical pressures, regulatory requirements, and the emergence of agentic AI."
+    type: context
+    section: "Overview"
+    position: 3
+    source_format: prose
+
+  # ============================================================
+  # CORE STATISTICS
+  # ============================================================
+
+  - id: seg-004
+    text: "Core Statistics"
+    type: noise
+    section: "Core Statistics"
+    position: 4
+    source_format: heading
+
+  - id: seg-005
+    text: "82% of organizations are refining cloud approaches due to geopolitical and regulatory changes."
+    type: statistic
+    section: "Core Statistics"
+    position: 5
+    source_format: bullet
+    metadata:
+      metric: "organizations refining cloud approaches"
+      value: 82
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  - id: seg-006
+    text: "94% plan to adjust and expand cloud architecture for scale, flexibility, and sovereignty."
+    type: statistic
+    section: "Core Statistics"
+    position: 6
+    source_format: bullet
+    metadata:
+      metric: "organizations planning to adjust cloud architecture"
+      value: 94
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  - id: seg-007
+    text: "86% identify agentic AI capabilities as decisive for provider selection, though only 29% are scaling it."
+    type: statistic
+    section: "Core Statistics"
+    position: 7
+    source_format: bullet
+    metadata:
+      metric: "organizations identifying agentic AI as decisive for provider selection"
+      value: 86
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  - id: seg-008
+    text: "Only 29% are scaling agentic AI."
+    type: statistic
+    section: "Core Statistics"
+    position: 8
+    source_format: bullet
+    metadata:
+      metric: "organizations scaling agentic AI"
+      value: 29
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  - id: seg-009
+    text: "1 in 10 organizations have fully integrated advanced FinOps practices."
+    type: statistic
+    section: "Core Statistics"
+    position: 9
+    source_format: bullet
+    metadata:
+      metric: "organizations with fully integrated advanced FinOps"
+      value: 10
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  # ============================================================
+  # SOVEREIGNTY AND RESILIENCE
+  # ============================================================
+
+  - id: seg-010
+    text: "Sovereignty and Resilience"
+    type: noise
+    section: "Sovereignty and Resilience"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "Cloud has evolved beyond infrastructure into a strategic platform."
+    type: claim
+    section: "Sovereignty and Resilience"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "Multi-cloud strategies combining public, private, and sovereign solutions are becoming standard."
+    type: claim
+    section: "Sovereignty and Resilience"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Sovereign and national clouds are growing rapidly across Europe and the Middle East."
+    type: claim
+    section: "Sovereignty and Resilience"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "Data localization has become the primary trust concern for organizations operating across EMEA."
+    type: claim
+    section: "Sovereignty and Resilience"
+    position: 14
+    source_format: prose
+
+  # ============================================================
+  # AGENTIC AI INTEGRATION
+  # ============================================================
+
+  - id: seg-015
+    text: "Agentic AI Integration"
+    type: noise
+    section: "Agentic AI Integration"
+    position: 15
+    source_format: heading
+
+  - id: seg-016
+    text: "Agentic AI enables autonomous systems within cloud platforms, transforming them into intelligence engines."
+    type: claim
+    section: "Agentic AI Integration"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "This capability is reshaping provider selection decisions, though implementation remains limited."
+    type: claim
+    section: "Agentic AI Integration"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "Agentic AI capabilities are decisive for cloud provider selection."
+    type: claim
+    section: "Agentic AI Integration"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "Cloud is being transformed from infrastructure to an autonomous intelligence platform."
+    type: claim
+    section: "Agentic AI Integration"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "Despite high interest, only 29% of organizations are actually scaling agentic AI."
+    type: evidence
+    section: "Agentic AI Integration"
+    position: 20
+    source_format: prose
+
+  # ============================================================
+  # COST GOVERNANCE
+  # ============================================================
+
+  - id: seg-021
+    text: "Cost Governance"
+    type: noise
+    section: "Cost Governance"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "FinOps frameworks help align financial accountability with performance, turning cloud spending into predictable, value-driven investments."
+    type: definition
+    section: "Cost Governance"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Maturity in FinOps practices remains relatively low across organizations."
+    type: claim
+    section: "Cost Governance"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "FinOps is emerging as the standard framework for cloud cost governance."
+    type: claim
+    section: "Cost Governance"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Only 10% of organizations have fully integrated advanced FinOps practices."
+    type: statistic
+    section: "Cost Governance"
+    position: 25
+    source_format: prose
+    metadata:
+      metric: "organizations with mature FinOps"
+      value: 10
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  # ============================================================
+  # GEOPOLITICAL CONTEXT
+  # ============================================================
+
+  - id: seg-026
+    text: "Geopolitical Context"
+    type: context
+    section: "Geopolitical Context"
+    position: 26
+    source_format: heading
+
+  - id: seg-027
+    text: "New regulations including the EU AI Act, DORA, and NIS2 are reshaping compliance expectations and driving cloud strategy evolution."
+    type: context
+    section: "Geopolitical Context"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "82% of organizations are refining their cloud approach due to geopolitical and regulatory change."
+    type: statistic
+    section: "Geopolitical Context"
+    position: 28
+    source_format: prose
+    metadata:
+      metric: "organizations refining cloud approach due to geopolitical/regulatory change"
+      value: 82
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  - id: seg-029
+    text: "Organizations must now rethink strategy around resilience, sovereignty, and trust rather than merely scale and efficiency."
+    type: claim
+    section: "Geopolitical Context"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Cloud has matured from flexible IT infrastructure into the foundation for digital transformation and AI innovation."
+    type: claim
+    section: "Geopolitical Context"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "94% of organizations plan to adjust and expand cloud architecture."
+    type: statistic
+    section: "Geopolitical Context"
+    position: 31
+    source_format: prose
+    metadata:
+      metric: "organizations planning to expand cloud architecture"
+      value: 94
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  # ============================================================
+  # RECOMMENDED ACTIONS
+  # ============================================================
+
+  - id: seg-032
+    text: "Recommended Actions"
+    type: context
+    section: "Recommended Actions"
+    position: 32
+    source_format: heading
+
+  - id: seg-033
+    text: "Organizations should treat cloud as strategic infrastructure, not commodity."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 33
+    source_format: bullet
+
+  - id: seg-034
+    text: "Embed governance and FinOps frameworks."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 34
+    source_format: bullet
+
+  - id: seg-035
+    text: "Integrate AI responsibly."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 35
+    source_format: bullet
+
+  - id: seg-036
+    text: "Strengthen sovereignty and trust mechanisms."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 36
+    source_format: bullet
+
+  - id: seg-037
+    text: "Position cloud as a strategic platform for digital transformation and AI innovation."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Embed FinOps and governance frameworks to manage cloud costs and ensure accountability."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "Integrate AI responsibly with appropriate safeguards and compliance measures."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Strengthen sovereignty and trust mechanisms to meet data localization and regulatory requirements."
+    type: recommendation
+    section: "Recommended Actions"
+    position: 40
+    source_format: prose
+
+  # ============================================================
+  # ADDITIONAL FINDINGS
+  # ============================================================
+
+  - id: seg-041
+    text: "Cloud strategy is evolving under the pressures of geopolitics, regulation, rising costs, and agentic AI."
+    type: context
+    section: "Additional Findings"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "Sovereign and national clouds are becoming standard components of multi-cloud strategies."
+    type: claim
+    section: "Additional Findings"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Data localization is the primary trust question for organizations in EMEA."
+    type: claim
+    section: "Additional Findings"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "The gap between agentic AI interest (86%) and actual scaling (29%) indicates significant implementation barriers."
+    type: evidence
+    section: "Additional Findings"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "86% view agentic AI capabilities as decisive for cloud provider selection."
+    type: statistic
+    section: "Additional Findings"
+    position: 45
+    source_format: prose
+    metadata:
+      metric: "organizations viewing agentic AI as decisive for provider selection"
+      value: 86
+      unit: "%"
+      population: "EMEA organizations surveyed"
+
+  - id: seg-046
+    text: "Multi-cloud strategies combining public, private, and sovereign solutions are becoming the standard approach."
+    type: claim
+    section: "Additional Findings"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "Cloud is no longer just flexible IT infrastructure but the foundation for digital transformation."
+    type: claim
+    section: "Additional Findings"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "Organizations must balance scale and efficiency with resilience, sovereignty, and trust."
+    type: claim
+    section: "Additional Findings"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "Agentic AI is already influencing provider selection despite low scaling adoption."
+    type: claim
+    section: "Additional Findings"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "FinOps framework is emerging as the standard for cloud cost governance but maturity remains low."
+    type: claim
+    section: "Additional Findings"
+    position: 50
+    source_format: prose
+
+  - id: seg-051
+    text: "The survey covers 1,415 business and technology leaders across 26 EMEA territories."
+    type: context
+    section: "Additional Findings"
+    position: 51
+    source_format: prose
+
+  - id: seg-052
+    text: "The survey period was July to September 2025."
+    type: context
+    section: "Additional Findings"
+    position: 52
+    source_format: prose

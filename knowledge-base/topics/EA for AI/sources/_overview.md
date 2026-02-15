@@ -1,13 +1,13 @@
 ---
 topic: ea-for-ai
-total_sources: 31
-by_type: { article: 16, blog: 2, paper: 7, report: 6 }
+total_sources: 54
+by_type: { article: 31, blog: 2, paper: 7, report: 14 }
 updated: 2026-02-15
 ---
 
 # Sources Overview: Enterprise Architecture for AI
 
-31 sources: 16 articles, 7 papers, 6 reports, 2 blogs.
+54 sources: 31 articles, 14 reports, 7 papers, 2 blogs.
 
 ## Source Table
 
@@ -44,6 +44,29 @@ updated: 2026-02-15
 | 029 | Why You — Yes, You — Need Enterprise Architecture | Jeanne Ross and Cynthia Beath | article | analyzed | 2026-02-14 |
 | 030 | 3 Trends Driving Enterprise Architecture Strategy in 2025 | Gartner | article | analyzed | 2026-02-14 |
 | 031 | Agentic AI — the new frontier in GenAI: An executive play... | PwC | report | analyzed | 2026-02-15 |
+| 032 | Navigating AI Implementation: The Case for an Enterprise ... | William El Kaim, Przemyslaw Krajewski (BCG Platinion) | article | analyzed | 2026-02-15 |
+| 033 | Enterprise as Code: An Operating Model for the AI Era | BCG | article | analyzed | 2026-02-15 |
+| 034 | How Agentic AI is Transforming Enterprise Platforms | BCG | article | analyzed | 2026-02-15 |
+| 035 | Leading in the Age of AI Agents: Managing the Machines Th... | Francois Candelon et al. | article | analyzed | 2026-02-15 |
+| 036 | Technology Architecture of Tomorrow | Saurabh Chauhan et al. | article | analyzed | 2026-02-15 |
+| 037 | Building the Foundation for Agentic AI | Pascal Gautheron et al. | report | analyzed | 2026-02-15 |
+| 038 | Updating Enterprise Technology to Scale to 'AI Everywhere | Bharat Bansal et al. | report | analyzed | 2026-02-15 |
+| 039 | State of the Art of Agentic AI Transformation | David Crawford et al. | report | analyzed | 2026-02-15 |
+| 040 | TechnoVision 2026: Top 5 Tech Trends to Watch | Pascal Brier, Mark Roberts (Capgemini) | report | analyzed | 2026-02-15 |
+| 041 | The Multi-Year AI Advantage: Building the Enterprise of T... | Anne-Laure Thibaud et al. | report | analyzed | 2026-02-15 |
+| 042 | Agentic AI and the Enterprise of Tomorrow | Alex MirZabeigi (Capgemini Americas | article | analyzed | 2026-02-15 |
+| 043 | EY.ai Value Blueprints: Accelerating the Path Toward AI-N... | Dan Diasio, Joe Depa (EY) | article | analyzed | 2026-02-15 |
+| 044 | Inside the Process: How EY Navigated Its Own AI-Driven Tr... | Raj Sharma et al. | article | analyzed | 2026-02-15 |
+| 045 | Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 O... | James Brundage (EY) | article | analyzed | 2026-02-15 |
+| 046 | Leading in the Intelligence Age: Excelling Today, Shaping... | KPMG International | report | analyzed | 2026-02-15 |
+| 047 | AI and Transformations: The Enterprise Power Couple | KPMG US | article | analyzed | 2026-02-15 |
+| 048 | Is Your Infrastructure Ready for Your AI Aspirations? | Joe Jacob et al. | article | analyzed | 2026-02-15 |
+| 049 | 2024 Cloud and AI Business Survey: Building the AI-Powere... | PwC Research | report | analyzed | 2026-02-15 |
+| 050 | PwC's 2025 EMEA Cloud Business Survey | Sebastian Paas et al. | report | analyzed | 2026-02-15 |
+| 051 | In the Age of AI: Speed Matters More, Scale Matters Less,... | Dan Priest (PwC US) | article | analyzed | 2026-02-15 |
+| 052 | A Roadmap for Scaling AI Agents in the Modern Enterprise | Sebastian Ahrens et al. | article | analyzed | 2026-02-15 |
+| 053 | Enterprise Architecture in Swiss SMEs | Rejhan Fazlic, Markus Hegi (PwC Switzerland) | article | analyzed | 2026-02-15 |
+| 054 | AI Giants Are Rewriting the Enterprise Playbook | Sebastian Ahrens (PwC Switzerland) | article | analyzed | 2026-02-15 |
 
 ## Status Key
 
@@ -54,16 +77,22 @@ updated: 2026-02-15
 
 ## By Type
 
-- **Article** (16): Practitioner and analyst articles — 006, 007, 009, 013, 015, 016, 017, 018, 022, 024, 025, 026, 027, 028, 029, 030
+- **Article** (31): Practitioner and analyst articles — 006, 007, 009, 013, 015, 016, 017, 018, 022, 024, 025, 026, 027, 028, 029, 030, 032, 033, 034, 035, 036, 042, 043, 044, 045, 047, 048, 051, 052, 053, 054
+- **Report** (14): Industry reports and surveys — 003, 005, 014, 019, 020, 031, 037, 038, 039, 040, 041, 046, 049, 050
 - **Paper** (7): Academic and research papers — 001, 002, 010, 011, 012, 021, 023
-- **Report** (6): Industry reports and surveys — 003, 005, 014, 019, 020, 031
 - **Blog** (2): Practitioner blog posts — 004, 008
 
 ## By Institution
 
 | Institution | Count | Source IDs |
 |-------------|-------|-----------|
+| PwC | 7 | 031, 049, 050, 051, 052, 053, 054 |
+| BCG / BCG Platinion | 5 | 032, 033, 034, 035, 036 |
 | Deloitte | 4 | 013, 014, 020, 027 |
+| KPMG | 3 | 046, 047, 048 |
+| Bain & Company | 3 | 037, 038, 039 |
+| Capgemini | 3 | 040, 041, 042 |
+| EY | 3 | 043, 044, 045 |
 | IEEE | 3 | 010, 011, 012 |
 | Forrester | 2 | 015, 017 |
 | The Open Group | 2 | 018, 025 |
@@ -71,7 +100,7 @@ updated: 2026-02-15
 | arXiv | 2 | 021, 023 |
 | McKinsey | 1 | 028 |
 | Gartner | 1 | 030 |
-| Independent | 14 | — |
+| Independent | 13 | 001, 002, 003, 004, 005, 006, 007, 008, 009, 016, 022, 024, 026 |
 
 ## Adding Sources
 

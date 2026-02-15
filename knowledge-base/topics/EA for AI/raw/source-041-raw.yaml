@@ -1,0 +1,685 @@
+source_id: source-041
+title: 'The Multi-Year AI Advantage: Building the Enterprise of Tomorrow'
+url: https://www.capgemini.com/insights/research-library/ai-perspectives-2026/
+author: 'Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)'
+date: 2026-01-15
+total_segments: 75
+
+composition:
+  claim: { count: 18, pct: 24.0 }
+  statistic: { count: 16, pct: 21.3 }
+  recommendation: { count: 12, pct: 16.0 }
+  context: { count: 10, pct: 13.3 }
+  evidence: { count: 8, pct: 10.7 }
+  definition: { count: 4, pct: 5.3 }
+  attribution: { count: 3, pct: 4.0 }
+  noise: { count: 3, pct: 4.0 }
+  methodology: { count: 1, pct: 1.3 }
+  example: { count: 0, pct: 0.0 }
+
+signal_ratio: 96.0
+
+segments:
+- id: seg-001
+  text: 'The Multi-Year AI Advantage: Building the Enterprise of Tomorrow'
+  type: noise
+  section: Title
+  position: 1
+  source_format: heading
+  metadata: {}
+
+- id: seg-002
+  text: 'Capgemini Research Institute — AI Perspectives 2026'
+  type: noise
+  section: Header
+  position: 2
+  source_format: prose
+  metadata: {}
+
+- id: seg-003
+  text: 'Based on a global survey of 1,500+ leaders across 15 countries, launched ahead of Davos 2026.'
+  type: methodology
+  section: Introduction
+  position: 3
+  source_format: prose
+  metadata:
+    sample_size: 1500
+    countries: 15
+
+- id: seg-004
+  text: 'Organizations across industries view AI as a core lever for long-term growth, efficiency, and competitive advantage.'
+  type: claim
+  section: Introduction
+  position: 4
+  source_format: prose
+  metadata: {}
+
+- id: seg-005
+  text: 'More than half of organizations commit to sustained AI investment over a five-year horizon.'
+  type: statistic
+  section: Introduction
+  position: 5
+  source_format: prose
+  metadata:
+    metric: Organizations committing to sustained AI investment
+    value: 50
+    unit: '%+'
+    population: Organizations surveyed
+
+- id: seg-006
+  text: 'AI budgets are rising from 3% to 5% of annual business budgets between 2025 and 2026.'
+  type: statistic
+  section: AI Investment
+  position: 6
+  source_format: prose
+  metadata:
+    metric: AI budget as percentage of annual business budget
+    value: 5
+    unit: '%'
+    population: Surveyed organizations (2026 target)
+
+- id: seg-007
+  text: 'Organizations expect to allocate 5% of annual business budgets to AI by 2026, up from 3% in 2025.'
+  type: statistic
+  section: AI Investment
+  position: 7
+  source_format: prose
+  metadata:
+    metric: AI budget growth
+    value: '3% to 5%'
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-008
+  text: 'More than half of organizations prioritize AI investments in sales, marketing, and IT operations.'
+  type: statistic
+  section: AI Investment
+  position: 8
+  source_format: prose
+  metadata:
+    metric: Organizations prioritizing AI in sales/marketing/IT ops
+    value: 50
+    unit: '%+'
+    population: Surveyed organizations
+
+- id: seg-009
+  text: '38% of organizations are already operationalizing Gen AI use cases.'
+  type: statistic
+  section: AI Adoption
+  position: 9
+  source_format: prose
+  metadata:
+    metric: Organizations operationalizing GenAI use cases
+    value: 38
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-010
+  text: 'Agentic AI and edge AI are gaining traction as next-wave AI capabilities.'
+  type: claim
+  section: AI Adoption
+  position: 10
+  source_format: prose
+  metadata: {}
+
+- id: seg-011
+  text: 'Organizations are planning to accelerate AI investments, prioritizing functions with well-defined processes and measurable outcomes.'
+  type: claim
+  section: AI Strategy
+  position: 11
+  source_format: prose
+  metadata: {}
+
+- id: seg-012
+  text: 'Nearly two thirds say they have started pausing lower-value AI projects to redirect their efforts toward high-impact areas.'
+  type: statistic
+  section: AI Strategy
+  position: 12
+  source_format: prose
+  metadata:
+    metric: Organizations pausing low-value AI projects
+    value: 66
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-013
+  text: 'Organizations aim to focus on infrastructure, data, governance, and workforce upskilling, laying a strong foundation for AI adoption and impact.'
+  type: recommendation
+  section: AI Strategy
+  position: 13
+  source_format: prose
+  metadata: {}
+
+- id: seg-014
+  text: 'Strong executive sponsorship is the top enabler for enterprise-wide AI deployment, cited by 67% of organizations.'
+  type: statistic
+  section: Critical Enablers
+  position: 14
+  source_format: prose
+  metadata:
+    metric: Organizations citing executive sponsorship as top enabler
+    value: 67
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-015
+  text: 'External partnerships are cited by 59% as a critical enabler for AI deployment.'
+  type: statistic
+  section: Critical Enablers
+  position: 15
+  source_format: prose
+  metadata:
+    metric: Organizations citing external partnerships as enabler
+    value: 59
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-016
+  text: 'Governance and ethical frameworks are cited by 53% as essential for enterprise-wide AI deployment.'
+  type: statistic
+  section: Critical Enablers
+  position: 16
+  source_format: prose
+  metadata:
+    metric: Organizations citing governance/ethics as enabler
+    value: 53
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-017
+  text: 'Scalable data infrastructure is cited by 51% as a critical enabler.'
+  type: statistic
+  section: Critical Enablers
+  position: 17
+  source_format: prose
+  metadata:
+    metric: Organizations citing scalable data infrastructure as enabler
+    value: 51
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-018
+  text: '66% of organizations report measurable productivity and decision-quality improvements through human-AI collaboration.'
+  type: statistic
+  section: Human-AI Collaboration
+  position: 18
+  source_format: prose
+  metadata:
+    metric: Organizations reporting improvements from human-AI collaboration
+    value: 66
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-019
+  text: 'Human-AI collaboration is delivering tangible results in productivity and decision quality.'
+  type: claim
+  section: Human-AI Collaboration
+  position: 19
+  source_format: prose
+  metadata: {}
+
+- id: seg-020
+  text: 'Six in ten organizations are redefining skillsets and investing in workforce upskilling.'
+  type: statistic
+  section: Workforce
+  position: 20
+  source_format: prose
+  metadata:
+    metric: Organizations redefining skillsets and investing in upskilling
+    value: 60
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-021
+  text: 'Data and AI sovereignty are top concerns, with 54% prioritizing data control.'
+  type: statistic
+  section: Sovereignty
+  position: 21
+  source_format: prose
+  metadata:
+    metric: Organizations prioritizing data and AI sovereignty
+    value: 54
+    unit: '%'
+    population: Surveyed organizations
+
+- id: seg-022
+  text: 'The shift from AI hype to AI realism marks a new era of pragmatic, enterprise-wide implementation.'
+  type: claim
+  section: Strategic Narrative
+  position: 22
+  source_format: prose
+  metadata: {}
+
+- id: seg-023
+  text: '"We have now entered a new, more pragmatic and realistic era of AI-driven transformation, focused on longer-term, enterprise-wide implementations."'
+  type: attribution
+  section: Strategic Narrative
+  position: 23
+  source_format: quote
+  metadata:
+    speaker: Pascal Brier
+    role: Chief Innovation Officer, Capgemini
+
+- id: seg-024
+  text: '"The goal is to improve not just productivity, but revenue, customer experience, risk management, innovation, or decision-making."'
+  type: attribution
+  section: Strategic Narrative
+  position: 24
+  source_format: quote
+  metadata:
+    speaker: Pascal Brier
+    role: Chief Innovation Officer, Capgemini
+
+- id: seg-025
+  text: 'Organizations will need to be more deliberate about governance, skills, accountability and human-AI chemistry to realize the full transformative value of AI.'
+  type: recommendation
+  section: Strategic Narrative
+  position: 25
+  source_format: prose
+  metadata: {}
+
+- id: seg-026
+  text: 'Strengthen AI essentials to unlock enterprise-wide intelligence.'
+  type: recommendation
+  section: Recommendations
+  position: 26
+  source_format: bullet
+  metadata: {}
+
+- id: seg-027
+  text: 'Advance AI readiness through governance and strategic guardrails.'
+  type: recommendation
+  section: Recommendations
+  position: 27
+  source_format: bullet
+  metadata: {}
+
+- id: seg-028
+  text: 'Build human-AI chemistry as a core organizational capability.'
+  type: recommendation
+  section: Recommendations
+  position: 28
+  source_format: bullet
+  metadata: {}
+
+- id: seg-029
+  text: 'Balance transform now and build tomorrow — efficiency today and reinvention for the future.'
+  type: recommendation
+  section: Recommendations
+  position: 29
+  source_format: bullet
+  metadata: {}
+
+- id: seg-030
+  text: 'The four recommendations form an integrated action framework for enterprise AI transformation.'
+  type: context
+  section: Recommendations
+  position: 30
+  source_format: prose
+  metadata: {}
+
+- id: seg-031
+  text: 'AI essentials include robust data infrastructure, scalable compute, and integrated AI platforms.'
+  type: definition
+  section: Recommendation Detail
+  position: 31
+  source_format: prose
+  metadata: {}
+
+- id: seg-032
+  text: 'Governance and strategic guardrails provide the operating boundaries for responsible AI deployment.'
+  type: definition
+  section: Recommendation Detail
+  position: 32
+  source_format: prose
+  metadata: {}
+
+- id: seg-033
+  text: 'Human-AI chemistry goes beyond upskilling to encompass organizational design, workflow integration, and cultural acceptance.'
+  type: definition
+  section: Recommendation Detail
+  position: 33
+  source_format: prose
+  metadata: {}
+
+- id: seg-034
+  text: 'The transform now versus build tomorrow balance requires dual-track investment strategies.'
+  type: claim
+  section: Recommendation Detail
+  position: 34
+  source_format: prose
+  metadata: {}
+
+- id: seg-035
+  text: 'Executive sponsorship is the single strongest predictor of successful enterprise-wide AI deployment.'
+  type: claim
+  section: Enabler Analysis
+  position: 35
+  source_format: prose
+  metadata: {}
+
+- id: seg-036
+  text: 'External partnerships accelerate AI deployment by providing capabilities, expertise, and scale that organizations cannot build internally fast enough.'
+  type: claim
+  section: Enabler Analysis
+  position: 36
+  source_format: prose
+  metadata: {}
+
+- id: seg-037
+  text: 'The four critical enablers — executive sponsorship, external partnerships, governance frameworks, and scalable data infrastructure — are all necessary, not individually sufficient.'
+  type: claim
+  section: Enabler Analysis
+  position: 37
+  source_format: prose
+  metadata: {}
+
+- id: seg-038
+  text: 'The survey reveals a gap between AI investment intentions and organizational readiness to absorb those investments productively.'
+  type: claim
+  section: Insights
+  position: 38
+  source_format: prose
+  metadata: {}
+
+- id: seg-039
+  text: 'The prioritization of sales, marketing, and IT operations for AI investment reflects a focus on well-defined processes with clear ROI metrics.'
+  type: evidence
+  section: Insights
+  position: 39
+  source_format: prose
+  metadata: {}
+
+- id: seg-040
+  text: 'The 38% operationalization rate suggests that the majority of GenAI use cases remain in pilot or proof-of-concept stages.'
+  type: evidence
+  section: Insights
+  position: 40
+  source_format: prose
+  metadata: {}
+
+- id: seg-041
+  text: 'Agentic AI gaining traction represents the next evolution beyond traditional GenAI toward autonomous, goal-directed AI systems.'
+  type: claim
+  section: Insights
+  position: 41
+  source_format: prose
+  metadata: {}
+
+- id: seg-042
+  text: 'Edge AI gaining traction reflects the need for AI inference at the point of operational action rather than centralized in the cloud.'
+  type: claim
+  section: Insights
+  position: 42
+  source_format: prose
+  metadata: {}
+
+- id: seg-043
+  text: 'The pause in lower-value AI projects indicates organizational maturation — moving from breadth to depth in AI portfolio management.'
+  type: evidence
+  section: Insights
+  position: 43
+  source_format: prose
+  metadata: {}
+
+- id: seg-044
+  text: 'Data and AI sovereignty concerns reflect growing awareness of the strategic importance of controlling the data that powers AI systems.'
+  type: claim
+  section: Sovereignty
+  position: 44
+  source_format: prose
+  metadata: {}
+
+- id: seg-045
+  text: '54% prioritizing data control suggests that more than half of organizations now view data sovereignty as a strategic rather than purely regulatory concern.'
+  type: evidence
+  section: Sovereignty
+  position: 45
+  source_format: prose
+  metadata: {}
+
+- id: seg-046
+  text: 'The research covered organizations across multiple industries, providing a cross-sector perspective on AI adoption patterns.'
+  type: context
+  section: Methodology
+  position: 46
+  source_format: prose
+  metadata: {}
+
+- id: seg-047
+  text: 'The 15-country scope captures both developed and developing market perspectives on AI investment priorities.'
+  type: context
+  section: Methodology
+  position: 47
+  source_format: prose
+  metadata: {}
+
+- id: seg-048
+  text: 'The report was launched ahead of the World Economic Forum at Davos 2026, targeting executive decision-makers.'
+  type: context
+  section: Publication Context
+  position: 48
+  source_format: prose
+  metadata: {}
+
+- id: seg-049
+  text: 'Organizations that invest in AI essentials now will be positioned to capture disproportionate value as AI capabilities mature.'
+  type: claim
+  section: Forward-Looking
+  position: 49
+  source_format: prose
+  metadata: {}
+
+- id: seg-050
+  text: 'The five-year investment horizon signals that organizations view AI as a sustained strategic capability rather than a one-time technology deployment.'
+  type: claim
+  section: Forward-Looking
+  position: 50
+  source_format: prose
+  metadata: {}
+
+- id: seg-051
+  text: 'The multi-year AI advantage thesis is that early, sustained investment in AI fundamentals creates compounding returns over time.'
+  type: definition
+  section: Core Thesis
+  position: 51
+  source_format: prose
+  metadata: {}
+
+- id: seg-052
+  text: 'Infrastructure readiness, data governance, and workforce capability are the three pillars of the AI essentials foundation.'
+  type: recommendation
+  section: Foundation
+  position: 52
+  source_format: prose
+  metadata: {}
+
+- id: seg-053
+  text: 'Strategic guardrails include ethical AI principles, risk management frameworks, and compliance protocols.'
+  type: recommendation
+  section: Governance
+  position: 53
+  source_format: prose
+  metadata: {}
+
+- id: seg-054
+  text: 'The balance between current efficiency and future reinvention is the central strategic tension in enterprise AI programs.'
+  type: claim
+  section: Strategic Tension
+  position: 54
+  source_format: prose
+  metadata: {}
+
+- id: seg-055
+  text: 'Organizations that over-index on immediate efficiency gains risk under-investing in the foundational capabilities needed for AI-driven reinvention.'
+  type: claim
+  section: Strategic Tension
+  position: 55
+  source_format: prose
+  metadata: {}
+
+- id: seg-056
+  text: 'Conversely, organizations that over-invest in future capabilities without delivering near-term value risk losing organizational support for AI programs.'
+  type: claim
+  section: Strategic Tension
+  position: 56
+  source_format: prose
+  metadata: {}
+
+- id: seg-057
+  text: 'The 66% improvement rate in human-AI collaboration validates the investment in workforce development alongside technology deployment.'
+  type: evidence
+  section: Validation
+  position: 57
+  source_format: prose
+  metadata: {}
+
+- id: seg-058
+  text: 'Human-AI chemistry requires deliberate organizational design, not just tool deployment.'
+  type: recommendation
+  section: Workforce
+  position: 58
+  source_format: prose
+  metadata: {}
+
+- id: seg-059
+  text: 'Workforce upskilling and redefining skillsets are complementary activities — upskilling addresses current capability gaps while redefining skillsets prepares for future requirements.'
+  type: claim
+  section: Workforce
+  position: 59
+  source_format: prose
+  metadata: {}
+
+- id: seg-060
+  text: 'AI investments in sales and marketing yield faster measurable returns due to clear attribution models and existing performance metrics.'
+  type: evidence
+  section: Investment Priorities
+  position: 60
+  source_format: prose
+  metadata: {}
+
+- id: seg-061
+  text: 'IT operations benefit from AI through automation of routine tasks, predictive maintenance, and intelligent resource allocation.'
+  type: evidence
+  section: Investment Priorities
+  position: 61
+  source_format: prose
+  metadata: {}
+
+- id: seg-062
+  text: 'The focus on well-defined processes for initial AI deployment aligns with enterprise architecture principles of starting with structured domains before expanding to unstructured ones.'
+  type: context
+  section: Investment Priorities
+  position: 62
+  source_format: prose
+  metadata: {}
+
+- id: seg-063
+  text: 'The survey findings suggest a shift from technology-driven AI adoption to business-outcome-driven AI adoption.'
+  type: claim
+  section: Maturation Signals
+  position: 63
+  source_format: prose
+  metadata: {}
+
+- id: seg-064
+  text: 'The increase from 3% to 5% of budgets represents a significant acceleration in AI investment velocity across organizations.'
+  type: statistic
+  section: Investment Trends
+  position: 64
+  source_format: prose
+  metadata:
+    metric: AI budget growth rate
+    value: 67
+    unit: '% increase (from 3% to 5%)'
+    population: Surveyed organizations
+
+- id: seg-065
+  text: 'This budget increase is occurring despite broader economic uncertainty, indicating strong executive conviction in AI''s strategic value.'
+  type: evidence
+  section: Investment Trends
+  position: 65
+  source_format: prose
+  metadata: {}
+
+- id: seg-066
+  text: '"Organizations are entering a more realistic era of AI transformation."'
+  type: attribution
+  section: Conclusion
+  position: 66
+  source_format: quote
+  metadata:
+    speaker: Capgemini Research Institute
+    role: Report authors
+
+- id: seg-067
+  text: 'The combination of rising budgets, executive sponsorship, and governance focus indicates organizational maturation beyond the initial AI hype cycle.'
+  type: context
+  section: Conclusion
+  position: 67
+  source_format: prose
+  metadata: {}
+
+- id: seg-068
+  text: 'Enterprise-wide AI deployment requires simultaneous progress on technology, people, governance, and data fronts.'
+  type: recommendation
+  section: Conclusion
+  position: 68
+  source_format: prose
+  metadata: {}
+
+- id: seg-069
+  text: 'The multi-year perspective distinguishes mature AI strategies from short-term productivity plays.'
+  type: context
+  section: Conclusion
+  position: 69
+  source_format: prose
+  metadata: {}
+
+- id: seg-070
+  text: 'External partnerships become more critical as AI complexity exceeds the internal capabilities of most organizations.'
+  type: claim
+  section: Partnership
+  position: 70
+  source_format: prose
+  metadata: {}
+
+- id: seg-071
+  text: 'The 59% citing external partnerships as critical suggests that AI transformation is inherently collaborative rather than purely internal.'
+  type: context
+  section: Partnership
+  position: 71
+  source_format: prose
+  metadata: {}
+
+- id: seg-072
+  text: 'Scalable data infrastructure is the technical foundation upon which all other AI capabilities depend.'
+  type: recommendation
+  section: Infrastructure
+  position: 72
+  source_format: prose
+  metadata: {}
+
+- id: seg-073
+  text: 'The 51% citing scalable data infrastructure indicates that data readiness remains a bottleneck for many organizations.'
+  type: context
+  section: Infrastructure
+  position: 73
+  source_format: prose
+  metadata: {}
+
+- id: seg-074
+  text: 'Governance frameworks must evolve continuously to keep pace with the rapidly changing AI capability landscape.'
+  type: recommendation
+  section: Governance
+  position: 74
+  source_format: prose
+  metadata: {}
+
+- id: seg-075
+  text: 'The research provides a comprehensive baseline for tracking AI investment and adoption trends across industries and geographies.'
+  type: noise
+  section: Closing
+  position: 75
+  source_format: prose
+  metadata: {}

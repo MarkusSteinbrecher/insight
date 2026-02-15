@@ -1,0 +1,1193 @@
+source_id: source-044
+title: 'Inside the Process: How EY Navigated Its Own AI-Driven Transformation'
+url: https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai
+author: 'Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)'
+date: 2024-12-06
+total_segments: 134
+
+composition:
+  claim: { count: 28, pct: 20.9 }
+  evidence: { count: 24, pct: 17.9 }
+  context: { count: 22, pct: 16.4 }
+  statistic: { count: 17, pct: 12.7 }
+  recommendation: { count: 14, pct: 10.4 }
+  attribution: { count: 11, pct: 8.2 }
+  definition: { count: 7, pct: 5.2 }
+  example: { count: 4, pct: 3.0 }
+  methodology: { count: 2, pct: 1.5 }
+  noise: { count: 5, pct: 3.7 }
+
+signal_ratio: 96.3
+
+segments:
+- id: seg-001
+  text: 'Case Study: How EY Transformed Itself with AI'
+  type: noise
+  section: Title
+  position: 1
+  source_format: heading
+  metadata: {}
+
+- id: seg-002
+  text: 'The Better the Question'
+  type: noise
+  section: Section 1 Header
+  position: 2
+  source_format: heading
+  metadata: {}
+
+- id: seg-003
+  text: 'How can you shape your AI transformation with confidence to create value?'
+  type: context
+  section: The Better the Question
+  position: 3
+  source_format: heading
+  metadata: {}
+
+- id: seg-004
+  text: 'EY teams seized strategic opportunities for AI transformation, investing in progress and people to create a better working world.'
+  type: context
+  section: The Better the Question
+  position: 4
+  source_format: prose
+  metadata: {}
+
+- id: seg-005
+  text: 'Enterprises must initiate change from within to navigate an AI-driven future and successfully transform their own organizations, industries and society as a whole.'
+  type: claim
+  section: The Better the Question
+  position: 5
+  source_format: prose
+  metadata: {}
+
+- id: seg-006
+  text: 'According to a recent EY CEO Outlook Pulse survey, an overwhelming majority of CEOs, approximately 99%, are planning to invest in generative AI.'
+  type: statistic
+  section: The Better the Question
+  position: 6
+  source_format: prose
+  metadata:
+    metric: CEOs planning to invest in GenAI
+    value: 99
+    unit: '%'
+    population: CEOs surveyed in EY CEO Outlook Pulse
+
+- id: seg-007
+  text: 'These business leaders are not only acknowledging the transformative potential of AI but are also beginning to take proactive steps in response to the anticipated disruptions to their business models.'
+  type: context
+  section: The Better the Question
+  position: 7
+  source_format: prose
+  metadata: {}
+
+- id: seg-008
+  text: 'EY responded to the AI disruption swiftly and accordingly, allocating an initial US$1.4 billion investment in an extensive transformation program with humans at the center.'
+  type: statistic
+  section: The Better the Question
+  position: 8
+  source_format: prose
+  metadata:
+    metric: AI transformation investment
+    value: 1.4
+    unit: billion USD
+    population: EY organization
+
+- id: seg-009
+  text: 'EY set an ambitious vision to become the leading AI-powered professional services organization in the world.'
+  type: context
+  section: The Better the Question
+  position: 9
+  source_format: prose
+  metadata: {}
+
+- id: seg-010
+  text: 'As a complex and globally decentralized organization, the extensive scope of self-disruption — spanning from macro-level strategies to micro-level operations — inherently presented substantial challenges, hurdles and risks.'
+  type: context
+  section: The Better the Question
+  position: 10
+  source_format: prose
+  metadata: {}
+
+- id: seg-011
+  text: 'In addressing those obstacles, the organization developed transformative solutions and learned valuable lessons.'
+  type: context
+  section: The Better the Question
+  position: 11
+  source_format: prose
+  metadata: {}
+
+- id: seg-012
+  text: 'These learnings now form the basis of a series of knowledge-based insights, translating EY''s transformation experience into tangible action plans for other enterprises exploring AI transformation.'
+  type: claim
+  section: The Better the Question
+  position: 12
+  source_format: prose
+  metadata: {}
+
+- id: seg-013
+  text: 'EY''s transformation into an AI-centric organization began well before the ChatGPT era with strategic acquisitions, attracting new talent, and a shift to cloud and consolidated data systems.'
+  type: evidence
+  section: The Better the Question
+  position: 13
+  source_format: prose
+  metadata: {}
+
+- id: seg-014
+  text: 'This positioned EY teams to readily adapt to rapidly evolving technologies, market dynamics, complex global regulatory environments and GenAI disruption.'
+  type: claim
+  section: The Better the Question
+  position: 14
+  source_format: prose
+  metadata: {}
+
+- id: seg-015
+  text: '"For enterprises to effectively leverage AI today, they first need to determine specific applications where the technology will best help them, how AI can be integrated into existing infrastructures, and how AI will impact their organization''s information security and data privacy policies."'
+  type: attribution
+  section: The Better the Question
+  position: 15
+  source_format: quote
+  metadata:
+    speaker: Raj Sharma
+    role: EY Global Managing Partner - Growth and Innovation
+
+- id: seg-016
+  text: '"By acting as our own ''Client Zero'' and testing AI deployments internally, EY is determining answers to these questions now — so that we can guide our clients based on real experience and practical use cases of this technology."'
+  type: attribution
+  section: The Better the Question
+  position: 16
+  source_format: quote
+  metadata:
+    speaker: Raj Sharma
+    role: EY Global Managing Partner - Growth and Innovation
+
+- id: seg-017
+  text: 'Facing the rapid market evolution and the arrival of groundbreaking technologies like ChatGPT, EY grappled with the dual pressures of market expectations and leadership directives.'
+  type: context
+  section: The Better the Question
+  position: 17
+  source_format: prose
+  metadata: {}
+
+- id: seg-018
+  text: 'The challenge was not to succumb to a reactionary stance but to assess and refine the AI strategy thoughtfully, ensuring that every step taken was in service of building lasting confidence in AI and empowering responsible transformation.'
+  type: claim
+  section: The Better the Question
+  position: 18
+  source_format: prose
+  metadata: {}
+
+- id: seg-019
+  text: 'Amidst the drive to create exponential value, EY teams encountered proof of concept (POC) fatigue, as scattered AI initiatives throughout the global organization threatened to dilute focus and squander resources.'
+  type: evidence
+  section: The Better the Question
+  position: 19
+  source_format: prose
+  metadata: {}
+
+- id: seg-020
+  text: 'The challenge lay in harmonizing these efforts, aligning them with business goals to optimize performance, enrich experiences, and unlock sustainable growth, while positioning humans firmly at the center of the work.'
+  type: claim
+  section: The Better the Question
+  position: 20
+  source_format: prose
+  metadata: {}
+
+- id: seg-021
+  text: 'The ambition to augment people potential brought EY face-to-face with the imperative for comprehensive upskilling and change management.'
+  type: claim
+  section: The Better the Question
+  position: 21
+  source_format: prose
+  metadata: {}
+
+- id: seg-022
+  text: 'The transformation team recognized the need to bridge skill and knowledge gaps, particularly in integrating large language models into daily workflows, to shape a future where the EY workforce could collaborate seamlessly with AI.'
+  type: claim
+  section: The Better the Question
+  position: 22
+  source_format: prose
+  metadata: {}
+
+- id: seg-023
+  text: 'Compounding these challenges, the regulatory landscape underwent significant global shifts, demanding agile adaptation of risk management processes to the fast pace of AI innovation.'
+  type: context
+  section: The Better the Question
+  position: 23
+  source_format: prose
+  metadata: {}
+
+- id: seg-024
+  text: 'A reluctance to evolve these processes could stifle innovation or, conversely, lead to inadequate risk controls, potentially undermining the firm''s competitive edge and long-term strategic objectives.'
+  type: claim
+  section: The Better the Question
+  position: 24
+  source_format: prose
+  metadata: {}
+
+- id: seg-025
+  text: 'The Better the Answer'
+  type: noise
+  section: Section 2 Header
+  position: 25
+  source_format: heading
+  metadata: {}
+
+- id: seg-026
+  text: 'Implement six strategic pathways to transform EY, clients and the world'
+  type: context
+  section: The Better the Answer
+  position: 26
+  source_format: heading
+  metadata: {}
+
+- id: seg-027
+  text: 'EY teams integrated AI into the core business strategy with ethical governance to promote a humans-at-the-center transformation approach.'
+  type: claim
+  section: The Better the Answer
+  position: 27
+  source_format: prose
+  metadata: {}
+
+- id: seg-028
+  text: 'EY set ambitious goals to drive AI transformation across three key areas.'
+  type: context
+  section: The Better the Answer
+  position: 28
+  source_format: prose
+  metadata: {}
+
+- id: seg-029
+  text: 'Enhancing service offerings with AI-enabled solutions for growth and efficiency'
+  type: recommendation
+  section: The Better the Answer
+  position: 29
+  source_format: bullet
+  metadata: {}
+
+- id: seg-030
+  text: 'Redefining internal work, functions and technology for optimal operations in the AI era'
+  type: recommendation
+  section: The Better the Answer
+  position: 30
+  source_format: bullet
+  metadata: {}
+
+- id: seg-031
+  text: 'Shaping public policy, ethics and social agendas to promote the responsible use of AI globally'
+  type: recommendation
+  section: The Better the Answer
+  position: 31
+  source_format: bullet
+  metadata: {}
+
+- id: seg-032
+  text: 'These objectives were designed to deliver long-term value and growth while addressing the comprehensive needs of clients, internal capabilities and societal impact.'
+  type: context
+  section: The Better the Answer
+  position: 32
+  source_format: prose
+  metadata: {}
+
+- id: seg-033
+  text: 'To meet these goals the team focused on six facets through which they could navigate the complexities of AI transformation with confidence and precision.'
+  type: methodology
+  section: The Better the Answer
+  position: 33
+  source_format: prose
+  metadata: {}
+
+- id: seg-034
+  text: '"From our own process, EY has uncovered challenges and learned lessons across six key areas for AI: strategy, people, technology, governance, clients and society."'
+  type: attribution
+  section: The Better the Answer
+  position: 34
+  source_format: quote
+  metadata:
+    speaker: Beatriz Sanz Saiz
+    role: EY Global AI Sector Leader
+
+- id: seg-035
+  text: '"The functional transformation strategically mapped AI use cases against business goals and our entire value chain, reimagining workflows and operations around AI."'
+  type: attribution
+  section: The Better the Answer
+  position: 35
+  source_format: quote
+  metadata:
+    speaker: Beatriz Sanz Saiz
+    role: EY Global AI Sector Leader
+
+- id: seg-036
+  text: '"This approach mitigated the risk of launching piecemeal AI initiatives that might fail to deliver anticipated value, or potentially waste resources on low-impact projects that could result in stalled or abandoned efforts."'
+  type: attribution
+  section: The Better the Answer
+  position: 36
+  source_format: quote
+  metadata:
+    speaker: Beatriz Sanz Saiz
+    role: EY Global AI Sector Leader
+
+- id: seg-037
+  text: 'In the realm of technology and data, EY centralized AI to streamline firm-wide technology consumption, foster the integration of innovative solutions, and encourage responsible exploration.'
+  type: evidence
+  section: Technology and Data
+  position: 37
+  source_format: prose
+  metadata: {}
+
+- id: seg-038
+  text: 'Developers were empowered with advanced tools and platforms to accelerate the AI development lifecycle.'
+  type: evidence
+  section: Technology and Data
+  position: 38
+  source_format: prose
+  metadata: {}
+
+- id: seg-039
+  text: 'Data and systems integration facilitated architectural harmony and robust data governance in alignment with the EY responsible AI framework.'
+  type: evidence
+  section: Technology and Data
+  position: 39
+  source_format: prose
+  metadata: {}
+
+- id: seg-040
+  text: 'The teams furthered this agenda by collaborating with strategic technology alliances to help position the global organization at the forefront of the AI revolution.'
+  type: evidence
+  section: Technology and Data
+  position: 40
+  source_format: prose
+  metadata: {}
+
+- id: seg-041
+  text: 'With a focus on augmenting people, EY adopted a human-centered, transparent approach to transformation that fosters AI literacy, drives consistent integration into daily workflows, and addresses employee reservations toward new technologies and tools.'
+  type: evidence
+  section: People
+  position: 41
+  source_format: prose
+  metadata: {}
+
+- id: seg-042
+  text: 'Internally, EY embraced this philosophy to prepare its workforce for an AI-driven future, closing skills gaps through targeted upskilling and efficient change management.'
+  type: evidence
+  section: People
+  position: 42
+  source_format: prose
+  metadata: {}
+
+- id: seg-043
+  text: '"We have an opportunity to reshape the industry from a technology perspective and with the domain knowledge we have within EY."'
+  type: attribution
+  section: People
+  position: 43
+  source_format: quote
+  metadata:
+    speaker: Pablo Cebro
+    role: EY Global Technology Platforms Lead
+
+- id: seg-044
+  text: 'The commitment to responsible AI reflects a dedication to building confidence in AI, aligning technology solutions, enterprise processes, and AI infrastructure with core values of ethical governance and risk mitigation.'
+  type: claim
+  section: Responsible AI
+  position: 44
+  source_format: prose
+  metadata: {}
+
+- id: seg-045
+  text: 'As responsible AI is critical to transformation, EY established firm-wide AI definitions to ensure consistency and clarity throughout all business functions.'
+  type: evidence
+  section: Responsible AI
+  position: 45
+  source_format: prose
+  metadata: {}
+
+- id: seg-046
+  text: 'Risk management processes were designed to evolve alongside the pace of AI innovation, striking a balance between speed and emerging risks.'
+  type: recommendation
+  section: Responsible AI
+  position: 46
+  source_format: prose
+  metadata: {}
+
+- id: seg-047
+  text: 'Additionally, budget prioritization was organized to coincide with AI governance to promote effective, responsible AI deployment.'
+  type: recommendation
+  section: Responsible AI
+  position: 47
+  source_format: prose
+  metadata: {}
+
+- id: seg-048
+  text: '"A Responsible AI framework is critical to our AI journey and is designed to guide the ethical development, deployment and governance of AI technologies within the firm."'
+  type: attribution
+  section: Responsible AI
+  position: 48
+  source_format: quote
+  metadata:
+    speaker: Alexei Ivanov
+    role: EY Global Risk Management - Transformation and Innovation Leader
+
+- id: seg-049
+  text: '"Reflecting on our commitment to ethical leadership and readiness, our primary AI ethos is making sure AI is ethical and doing the right thing for the right purpose."'
+  type: attribution
+  section: Responsible AI
+  position: 49
+  source_format: quote
+  metadata:
+    speaker: Alexei Ivanov
+    role: EY Global Risk Management - Transformation and Innovation Leader
+
+- id: seg-050
+  text: 'Focusing on service disruption, EY is actively redefining its services and solutions offered to clients.'
+  type: evidence
+  section: Service Disruption
+  position: 50
+  source_format: prose
+  metadata: {}
+
+- id: seg-051
+  text: 'Centered on elevating the client experience, EY is embracing alternative commercial models to reflect the true value delivered.'
+  type: evidence
+  section: Service Disruption
+  position: 51
+  source_format: prose
+  metadata: {}
+
+- id: seg-052
+  text: 'Client labs have been established to co-invest with clients to build capabilities and establish market leadership, consistently aligning services and solutions with the forefront of industry needs.'
+  type: evidence
+  section: Service Disruption
+  position: 52
+  source_format: prose
+  metadata: {}
+
+- id: seg-053
+  text: '"Our approach to transformation isn''t just a roadmap for our organization''s evolution, but an activator for industry-wide change, empowering clients worldwide with the lessons from our 400,000 strong workforce''s AI journey."'
+  type: attribution
+  section: Service Disruption
+  position: 53
+  source_format: quote
+  metadata:
+    speaker: Hanne Jesca Bax
+    role: EY Global Vice Chair - Markets
+
+- id: seg-054
+  text: 'The commitment to AI for good is central to the transformation strategy, emphasizing a focus on ethical and responsible use of AI.'
+  type: claim
+  section: AI for Good
+  position: 54
+  source_format: prose
+  metadata: {}
+
+- id: seg-055
+  text: 'The profound impact of AI necessitates a persistent dedication to preserving public confidence through well-defined safeguards, policies and responsible development.'
+  type: claim
+  section: AI for Good
+  position: 55
+  source_format: prose
+  metadata: {}
+
+- id: seg-056
+  text: 'EY transformation efforts demonstrate that responsible, practical and strategic AI applications can lead to a more equitable and sustainable future.'
+  type: claim
+  section: AI for Good
+  position: 56
+  source_format: prose
+  metadata: {}
+
+- id: seg-057
+  text: 'The Better the World Works'
+  type: noise
+  section: Section 3 Header
+  position: 57
+  source_format: heading
+  metadata: {}
+
+- id: seg-058
+  text: 'Advocating a vision for ethical AI that builds a more equitable world'
+  type: context
+  section: The Better the World Works
+  position: 58
+  source_format: heading
+  metadata: {}
+
+- id: seg-059
+  text: 'EY teams continuously engage in global AI discourse to advance responsible practices and empower people and clients to shape the future with confidence.'
+  type: context
+  section: The Better the World Works
+  position: 59
+  source_format: prose
+  metadata: {}
+
+- id: seg-060
+  text: 'Informed by the Client Zero experience, the EY organization launched EY.ai, a unifying platform that combines EY''s vast experience with EY technology platforms and leading-edge capabilities.'
+  type: evidence
+  section: The Better the World Works
+  position: 60
+  source_format: prose
+  metadata: {}
+
+- id: seg-061
+  text: 'In this holistic ecosystem, seamlessly connected AI capabilities are leveraged to help organizations realize their own AI-enabled transformation.'
+  type: claim
+  section: The Better the World Works
+  position: 61
+  source_format: prose
+  metadata: {}
+
+- id: seg-062
+  text: 'EY formalized the methodology used in the organization-wide transformation process, creating solutions that can help clients take the next right step.'
+  type: evidence
+  section: The Better the World Works
+  position: 62
+  source_format: prose
+  metadata: {}
+
+- id: seg-063
+  text: 'These include the EY.ai Maturity Model, EY.ai Value Accelerator, the Responsible AI framework, EY.ai Confidence Index, and the EY.ai Academy for Industries.'
+  type: definition
+  section: The Better the World Works
+  position: 63
+  source_format: prose
+  metadata: {}
+
+- id: seg-064
+  text: 'Stress-tested within the EY organization''s own working world, these solutions were designed to achieve four objectives.'
+  type: methodology
+  section: The Better the World Works
+  position: 64
+  source_format: prose
+  metadata: {}
+
+- id: seg-065
+  text: 'Close the AI maturity gap between current state and ambition'
+  type: recommendation
+  section: The Better the World Works
+  position: 65
+  source_format: bullet
+  metadata: {}
+
+- id: seg-066
+  text: 'Identify quantified value creation potential from the deployment of AI capabilities across the value chain'
+  type: recommendation
+  section: The Better the World Works
+  position: 66
+  source_format: bullet
+  metadata: {}
+
+- id: seg-067
+  text: 'Verify and continuously monitor the full AI model lifecycle across the EY principles of Responsible AI'
+  type: recommendation
+  section: The Better the World Works
+  position: 67
+  source_format: bullet
+  metadata: {}
+
+- id: seg-068
+  text: 'Deliver industry-tailored AI training to upskill the workforce, drive adoption and build confidence in AI'
+  type: recommendation
+  section: The Better the World Works
+  position: 68
+  source_format: bullet
+  metadata: {}
+
+- id: seg-069
+  text: '"Thanks to our internal testing and case studies, we are able to provide our clients with key solutions across each of our six key areas of transformation, helping them take a more strategic, collaborative and ethical approach to AI integration."'
+  type: attribution
+  section: The Better the World Works
+  position: 69
+  source_format: quote
+  metadata:
+    speaker: Beatriz Sanz Saiz
+    role: EY Global AI Sector Leader
+
+- id: seg-070
+  text: '"This deliberate approach to AI-powered transformation is helping our clients establish future innovation."'
+  type: attribution
+  section: The Better the World Works
+  position: 70
+  source_format: quote
+  metadata:
+    speaker: Beatriz Sanz Saiz
+    role: EY Global AI Sector Leader
+
+- id: seg-071
+  text: 'Honing the focus on strategic AI investments, prioritizing long-term value and measurable growth, EY teams narrowed over 800 AI use cases down to 20 key opportunities.'
+  type: statistic
+  section: The Better the World Works
+  position: 71
+  source_format: prose
+  metadata:
+    metric: AI use case prioritization
+    value: 800
+    unit: use cases narrowed to 20
+    population: EY organization
+
+- id: seg-072
+  text: 'Decision-making was accelerated to just 8-10 weeks.'
+  type: statistic
+  section: The Better the World Works
+  position: 72
+  source_format: prose
+  metadata:
+    metric: Decision-making cycle time
+    value: 8-10
+    unit: weeks
+    population: EY AI investment decisions
+
+- id: seg-073
+  text: 'EY teams launched its own ecosystem of GenAI capabilities, EY.ai EYQ, in just four weeks from conception to delivery.'
+  type: statistic
+  section: The Better the World Works
+  position: 73
+  source_format: prose
+  metadata:
+    metric: GenAI platform launch time
+    value: 4
+    unit: weeks
+    population: EY.ai EYQ
+
+- id: seg-074
+  text: 'Some of the key capabilities of EYQ include versatile agents and conversational assistants built on EY knowledge, collaborative workspaces, integrated prompt management, and the incubation of experimental AI projects.'
+  type: definition
+  section: The Better the World Works
+  position: 74
+  source_format: prose
+  metadata: {}
+
+- id: seg-075
+  text: 'The GenAI ecosystem is powered by EY Fabric, a global, foundational technology platform that centralizes reusable technology, data, and AI assets to empower the EY workforce with advanced AI tools.'
+  type: definition
+  section: The Better the World Works
+  position: 75
+  source_format: prose
+  metadata: {}
+
+- id: seg-076
+  text: 'More than 1,000 GenAI POCs, several of which are agentic AI, are currently in development using EYQ.'
+  type: statistic
+  section: The Better the World Works
+  position: 76
+  source_format: prose
+  metadata:
+    metric: GenAI POCs in development
+    value: 1000
+    unit: POCs
+    population: EY organization using EYQ
+
+- id: seg-077
+  text: 'Over 850 Azure OpenAI instances have been supported.'
+  type: statistic
+  section: The Better the World Works
+  position: 77
+  source_format: prose
+  metadata:
+    metric: Azure OpenAI instances supported
+    value: 850
+    unit: instances
+    population: EY organization
+
+- id: seg-078
+  text: '83% of the EY workforce completed foundational AI learning.'
+  type: statistic
+  section: The Better the World Works
+  position: 78
+  source_format: prose
+  metadata:
+    metric: Workforce AI learning completion
+    value: 83
+    unit: '%'
+    population: EY workforce
+
+- id: seg-079
+  text: 'More than 115,000 EY Badges in AI have been either completed or initiated.'
+  type: statistic
+  section: The Better the World Works
+  position: 79
+  source_format: prose
+  metadata:
+    metric: AI badges completed or initiated
+    value: 115000
+    unit: badges
+    population: EY workforce
+
+- id: seg-080
+  text: 'More than 300 EY degrees were awarded in partnership with Hult International Business School, including the EY Tech MBA, EY Masters in Sustainability and EY Masters in Business Analytics.'
+  type: statistic
+  section: The Better the World Works
+  position: 80
+  source_format: prose
+  metadata:
+    metric: EY degrees awarded
+    value: 300
+    unit: degrees
+    population: EY workforce via Hult partnership
+
+- id: seg-081
+  text: 'This focus on education has translated into 2 million learning hours, significantly accelerating AI integration into daily operations.'
+  type: statistic
+  section: The Better the World Works
+  position: 81
+  source_format: prose
+  metadata:
+    metric: AI learning hours
+    value: 2000000
+    unit: hours
+    population: EY workforce
+
+- id: seg-082
+  text: 'The success of this approach is further evidenced by the high user adoption rate of EY.ai EYQ, which stands at over 81%.'
+  type: statistic
+  section: The Better the World Works
+  position: 82
+  source_format: prose
+  metadata:
+    metric: EYQ adoption rate
+    value: 81
+    unit: '%'
+    population: EY workforce
+
+- id: seg-083
+  text: 'More than 85 million prompts were processed in just nine months.'
+  type: statistic
+  section: The Better the World Works
+  position: 83
+  source_format: prose
+  metadata:
+    metric: Prompts processed
+    value: 85000000
+    unit: prompts
+    population: EY.ai EYQ in 9 months
+
+- id: seg-084
+  text: 'The EY global developer community, now equipped with AI tools, has contributed over 4.1 million lines of code in a little over a year.'
+  type: statistic
+  section: The Better the World Works
+  position: 84
+  source_format: prose
+  metadata:
+    metric: Developer code lines with AI tools
+    value: 4100000
+    unit: lines of code
+    population: EY global developer community
+
+- id: seg-085
+  text: 'This showcases a shift toward more agile and innovative development practices.'
+  type: claim
+  section: The Better the World Works
+  position: 85
+  source_format: prose
+  metadata: {}
+
+- id: seg-086
+  text: 'AI Adoption Within the EY Organization'
+  type: noise
+  section: Adoption Stats
+  position: 86
+  source_format: heading
+  metadata: {}
+
+- id: seg-087
+  text: '1,000+ GenAI POCs built'
+  type: statistic
+  section: Adoption Stats
+  position: 87
+  source_format: bullet
+  metadata:
+    metric: GenAI POCs built
+    value: 1000
+    unit: POCs
+    population: EY organization
+
+- id: seg-088
+  text: '81% adoption rate of EY.ai EYQ'
+  type: statistic
+  section: Adoption Stats
+  position: 88
+  source_format: bullet
+  metadata:
+    metric: EYQ adoption rate
+    value: 81
+    unit: '%'
+    population: EY workforce
+
+- id: seg-089
+  text: '83% of the EY workforce completed foundational AI learning'
+  type: statistic
+  section: Adoption Stats
+  position: 89
+  source_format: bullet
+  metadata:
+    metric: Workforce AI learning completion
+    value: 83
+    unit: '%'
+    population: EY workforce
+
+- id: seg-090
+  text: 'Committing to responsible AI significantly advanced the EY transformation strategy, engaging key stakeholders across geographies and regions in risk management, client services and technology.'
+  type: claim
+  section: Responsible AI Governance
+  position: 90
+  source_format: prose
+  metadata: {}
+
+- id: seg-091
+  text: 'The team created seven high-level and 44 detailed process flows, alongside 152 artifacts, solidifying a framework for ethical governance and risk mitigation.'
+  type: evidence
+  section: Responsible AI Governance
+  position: 91
+  source_format: prose
+  metadata: {}
+
+- id: seg-092
+  text: 'Additionally, the team analyzed over 17,000 entries to align historical AI systems with EY firm-wide AI definitions.'
+  type: evidence
+  section: Responsible AI Governance
+  position: 92
+  source_format: prose
+  metadata: {}
+
+- id: seg-093
+  text: 'This demonstrates a proactive approach to responsible AI deployment.'
+  type: claim
+  section: Responsible AI Governance
+  position: 93
+  source_format: prose
+  metadata: {}
+
+- id: seg-094
+  text: 'These efforts highlight a dedication to aligning AI initiatives with core values and maintaining integrity across all business functions.'
+  type: claim
+  section: Responsible AI Governance
+  position: 94
+  source_format: prose
+  metadata: {}
+
+- id: seg-095
+  text: 'In the pursuit to use AI for good, EY teams engaged in global AI consultations with over 100 diverse entities.'
+  type: evidence
+  section: AI for Good
+  position: 95
+  source_format: prose
+  metadata: {}
+
+- id: seg-096
+  text: 'This included contributing to the G7 Principles and Code of Conduct and the EU AI Act.'
+  type: evidence
+  section: AI for Good
+  position: 96
+  source_format: prose
+  metadata: {}
+
+- id: seg-097
+  text: 'The EY AI for Social Impact program has made a significant mark by positively impacting approximately 2.5 million people.'
+  type: statistic
+  section: AI for Good
+  position: 97
+  source_format: prose
+  metadata:
+    metric: People impacted by AI for Social Impact program
+    value: 2500000
+    unit: people
+    population: Global beneficiaries
+
+- id: seg-098
+  text: 'The program involved 6,700 EY employees.'
+  type: evidence
+  section: AI for Good
+  position: 98
+  source_format: prose
+  metadata: {}
+
+- id: seg-099
+  text: 'The establishment of the EY.ai Global AI Advisory Council, comprising 25 globally diverse industry and civil society leaders, serves as a strategic sounding board for the organization.'
+  type: evidence
+  section: AI for Good
+  position: 99
+  source_format: prose
+  metadata: {}
+
+- id: seg-100
+  text: 'This council plays a crucial role as EY navigates the challenges of extensive AI deployments and the rapid pace of technological advancement.'
+  type: claim
+  section: AI for Good
+  position: 100
+  source_format: prose
+  metadata: {}
+
+- id: seg-101
+  text: 'The council ensures that EY AI initiatives contribute to a more equitable and sustainable future.'
+  type: claim
+  section: AI for Good
+  position: 101
+  source_format: prose
+  metadata: {}
+
+- id: seg-102
+  text: '"The true potential of AI can only be realized if it remains human-centric."'
+  type: attribution
+  section: AI for Good
+  position: 102
+  source_format: quote
+  metadata:
+    speaker: Raj Sharma
+    role: EY Global Managing Partner - Growth and Innovation
+
+- id: seg-103
+  text: '"We must prioritize ethical practices, transparency and oversight, to ensure that AI advancements are both responsible and impactful."'
+  type: attribution
+  section: AI for Good
+  position: 103
+  source_format: quote
+  metadata:
+    speaker: Raj Sharma
+    role: EY Global Managing Partner - Growth and Innovation
+
+- id: seg-104
+  text: '"This balanced approach will allow us to harness AI''s transformative power while maintaining the confidence and values needed for sustainable progress."'
+  type: attribution
+  section: AI for Good
+  position: 104
+  source_format: quote
+  metadata:
+    speaker: Raj Sharma
+    role: EY Global Managing Partner - Growth and Innovation
+
+- id: seg-105
+  text: 'EY professionals believe that AI transformation is a collective endeavor, and all organizations share a role in helping drive meaningful change at a societal level.'
+  type: claim
+  section: AI for Good
+  position: 105
+  source_format: prose
+  metadata: {}
+
+- id: seg-106
+  text: 'EY as a global organization remains committed to leading global efforts in advancing a new era of responsible AI and policies that uplift humanity and shape the future with confidence.'
+  type: claim
+  section: AI for Good
+  position: 106
+  source_format: prose
+  metadata: {}
+
+- id: seg-107
+  text: 'The six strategic transformation pillars are strategy, technology, people, responsible AI governance, client-facing innovation, and AI for social good.'
+  type: definition
+  section: Framework Summary
+  position: 107
+  source_format: prose
+  metadata: {}
+
+- id: seg-108
+  text: 'Strategy pillar: mapped 800+ AI use cases down to 20 key opportunities, accelerated decision-making to 8-10 weeks.'
+  type: evidence
+  section: Framework Summary
+  position: 108
+  source_format: prose
+  metadata: {}
+
+- id: seg-109
+  text: 'Technology pillar: centralized AI consumption via EY Fabric platform, launched EY.ai EYQ GenAI ecosystem in 4 weeks with agents, assistants, and prompt management, supporting 850+ Azure OpenAI instances.'
+  type: evidence
+  section: Framework Summary
+  position: 109
+  source_format: prose
+  metadata: {}
+
+- id: seg-110
+  text: 'People pillar: 83% workforce AI learning completion, 115,000+ AI badges, 2 million learning hours.'
+  type: evidence
+  section: Framework Summary
+  position: 110
+  source_format: prose
+  metadata: {}
+
+- id: seg-111
+  text: 'Responsible AI governance pillar: 7 high-level and 44 detailed process flows, 152 governance artifacts, analysis of 17,000+ historical AI entries.'
+  type: evidence
+  section: Framework Summary
+  position: 111
+  source_format: prose
+  metadata: {}
+
+- id: seg-112
+  text: 'Client-facing innovation pillar: client labs for co-investment, alternative commercial models.'
+  type: evidence
+  section: Framework Summary
+  position: 112
+  source_format: prose
+  metadata: {}
+
+- id: seg-113
+  text: 'AI for social good pillar: contributions to G7 principles and EU AI Act.'
+  type: evidence
+  section: Framework Summary
+  position: 113
+  source_format: prose
+  metadata: {}
+
+- id: seg-114
+  text: 'The Client Zero approach — testing AI deployment internally before advising clients — is central to EY''s credibility strategy.'
+  type: claim
+  section: Key Themes
+  position: 114
+  source_format: prose
+  metadata: {}
+
+- id: seg-115
+  text: 'POC fatigue was identified as a major obstacle, where scattered AI initiatives threatened to dilute focus and resources.'
+  type: claim
+  section: Key Themes
+  position: 115
+  source_format: prose
+  metadata: {}
+
+- id: seg-116
+  text: 'The solution was to narrow from breadth to depth — from 800+ use cases to 20 key opportunities.'
+  type: recommendation
+  section: Key Themes
+  position: 116
+  source_format: prose
+  metadata: {}
+
+- id: seg-117
+  text: 'Comprehensive upskilling was treated as a prerequisite for transformation rather than an afterthought.'
+  type: claim
+  section: Key Themes
+  position: 117
+  source_format: prose
+  metadata: {}
+
+- id: seg-118
+  text: 'Centralizing AI consumption through a single platform (EY Fabric) was key to harmonizing a globally decentralized organization.'
+  type: claim
+  section: Key Themes
+  position: 118
+  source_format: prose
+  metadata: {}
+
+- id: seg-119
+  text: 'Risk management processes must evolve alongside AI innovation, balancing speed with emerging risks.'
+  type: recommendation
+  section: Key Themes
+  position: 119
+  source_format: prose
+  metadata: {}
+
+- id: seg-120
+  text: 'Budget prioritization was organized to coincide with AI governance rather than treating governance as a separate concern.'
+  type: recommendation
+  section: Key Themes
+  position: 120
+  source_format: prose
+  metadata: {}
+
+- id: seg-121
+  text: 'Alternative commercial models reflect a shift from traditional service pricing to value-based approaches.'
+  type: claim
+  section: Key Themes
+  position: 121
+  source_format: prose
+  metadata: {}
+
+- id: seg-122
+  text: 'EY''s transformation began before the ChatGPT era with strategic acquisitions and cloud migration, positioning the organization for rapid GenAI adoption.'
+  type: evidence
+  section: Key Themes
+  position: 122
+  source_format: prose
+  metadata: {}
+
+- id: seg-123
+  text: 'The organization addressed six critical obstacles: POC fatigue, upskilling gaps, regulatory complexity, operational harmonization across decentralized global teams, market pressure, and technology integration.'
+  type: definition
+  section: Obstacles
+  position: 123
+  source_format: prose
+  metadata: {}
+
+- id: seg-124
+  text: 'POC fatigue: scattered initiatives throughout the global organization threatened to dilute focus and squander resources.'
+  type: definition
+  section: Obstacles
+  position: 124
+  source_format: prose
+  metadata: {}
+
+- id: seg-125
+  text: 'Upskilling gaps: the need to bridge skill and knowledge gaps in integrating large language models into daily workflows.'
+  type: definition
+  section: Obstacles
+  position: 125
+  source_format: prose
+  metadata: {}
+
+- id: seg-126
+  text: 'Regulatory complexity: the regulatory landscape underwent significant global shifts requiring agile adaptation.'
+  type: context
+  section: Obstacles
+  position: 126
+  source_format: prose
+  metadata: {}
+
+- id: seg-127
+  text: 'Operational harmonization: the challenge of aligning AI efforts across a globally decentralized organization.'
+  type: context
+  section: Obstacles
+  position: 127
+  source_format: prose
+  metadata: {}
+
+- id: seg-128
+  text: 'Market pressure: dual pressures of market expectations and leadership directives requiring thoughtful response rather than reactionary stance.'
+  type: context
+  section: Obstacles
+  position: 128
+  source_format: prose
+  metadata: {}
+
+- id: seg-129
+  text: 'Technology integration: the need to centralize AI consumption and integrate innovative solutions across the firm.'
+  type: context
+  section: Obstacles
+  position: 129
+  source_format: prose
+  metadata: {}
+
+- id: seg-130
+  text: 'The EY workforce totals 400,000 employees globally.'
+  type: context
+  section: Scale
+  position: 130
+  source_format: prose
+  metadata: {}
+
+- id: seg-131
+  text: 'The EY.ai Maturity Model helps organizations close the gap between current state and AI ambition.'
+  type: definition
+  section: Solutions
+  position: 131
+  source_format: prose
+  metadata: {}
+
+- id: seg-132
+  text: 'The EY.ai Confidence Index measures organizational readiness and confidence in AI deployment.'
+  type: definition
+  section: Solutions
+  position: 132
+  source_format: prose
+  metadata: {}
+
+- id: seg-133
+  text: 'The EY.ai Academy for Industries delivers industry-tailored AI training to upskill the workforce.'
+  type: recommendation
+  section: Solutions
+  position: 133
+  source_format: prose
+  metadata: {}
+
+- id: seg-134
+  text: 'The EY.ai Value Accelerator identifies quantified value creation potential from AI deployment across the value chain.'
+  type: recommendation
+  section: Solutions
+  position: 134
+  source_format: prose
+  metadata: {}

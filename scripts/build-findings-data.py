@@ -3,7 +3,7 @@
 
 Reads:
   - findings.yaml (finding → claim IDs)
-  - critical-analysis-part*.yaml (claim statement, critique, bottom_line)
+  - critical-analysis.yaml or critical-analysis-part*.yaml (claim statement, critique, bottom_line)
   - claim-alignment.yaml (claim → supporting sources with segment IDs)
   - sources/source-NNN.md (source title, author, url)
 
@@ -103,8 +103,10 @@ def load_claim_alignment(topic_dir):
 
 
 def load_critical_analyses(topic_dir):
-    """Load analyses from critical-analysis-part*.yaml, keyed by claim ID."""
+    """Load analyses from critical-analysis.yaml (or legacy part files), keyed by claim ID."""
     files = sorted(glob.glob(
+        os.path.join(topic_dir, "extractions", "critical-analysis.yaml")
+    )) or sorted(glob.glob(
         os.path.join(topic_dir, "extractions", "critical-analysis-part*.yaml")
     ))
     analyses = {}

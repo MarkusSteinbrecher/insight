@@ -6,14 +6,151 @@
 #   /ingest EA for AI     — to process documents from documents/
 
 sources:
-  # Web source example:
-  # - url: "https://example.com/article"
-  #   note: "Covers agent governance patterns"
-  #   added: 2026-02-15
+  # --- BCG ---
+  - url: "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era"
+    source: source-033
+    note: "BCG — novel 'enterprise as code' framing for AI-era operating models"
+    added: 2026-02-15
+    status: segmented
 
-  # Document example:
-  # - document: "reports/deloitte-ai-2026.pdf"
-  #   note: "Deloitte AI trends report, drop file in documents/ first"
-  #   added: 2026-02-15
+  - url: "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms"
+    source: source-034
+    note: "BCG — how agentic AI redefines enterprise platform architecture"
+    added: 2026-02-15
+    status: segmented
 
-  []
+  - url: "https://www.bcg.com/publications/2025/machines-that-manage-themselves"
+    source: source-035
+    note: "BCG — governance challenges of managing autonomous AI agents"
+    added: 2026-02-15
+    status: segmented
+    pdf: "https://www.bcg.com/publications/2025/machines-that-manage-themselves"
+    pdf_note: "BCG/MIT SMR joint publication — may have fuller PDF report behind registration"
+
+  - url: "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow"
+    source: source-036
+    note: "BCG Platinion — 25-year EA evolution + emerging architectural patterns"
+    added: 2026-02-15
+    status: segmented
+
+  # --- Bain ---
+  - url: "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/"
+    source: source-037
+    note: "Bain — 7 architectural principles for deploying AI agents at scale"
+    added: 2026-02-15
+    status: segmented
+    pdf_note: "Bain Technology Report 2025 — full report likely gated behind download form"
+
+  - url: "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/"
+    source: source-038
+    note: "Bain — reshaping the tech stack across 5 dimensions for GenAI"
+    added: 2026-02-15
+    status: segmented
+    pdf_note: "Bain Technology Report 2024 — full report likely gated behind download form"
+
+  - url: "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/"
+    source: source-039
+    note: "Bain — pragmatism over architectural purism, counterpoint view"
+    added: 2026-02-15
+    status: segmented
+    pdf_note: "Bain Technology Report 2025 — full report likely gated behind download form"
+
+  # --- Capgemini ---
+  - url: "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/"
+    source: source-040
+    note: "Capgemini TechnoVision 2026 — AI as backbone of enterprise architecture"
+    added: 2026-02-15
+    status: segmented
+    pdf_note: "TechnoVision 2026 full report — PDF download available on page"
+
+  - url: "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/"
+    source: source-041
+    note: "Capgemini — multi-year strategic investment arc for enterprise AI scaling"
+    added: 2026-02-15
+    status: segmented
+    pdf_note: "Capgemini Research Institute report — PDF download available on page"
+
+  - url: "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/"
+    source: source-042
+    note: "Capgemini + AWS — agentic AI architectural patterns for enterprises"
+    added: 2026-02-15
+    status: segmented
+
+  # --- EY ---
+  - url: "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises"
+    source: source-043
+    note: "EY — seven-tier enterprise architecture model for AI-native orgs"
+    added: 2026-02-15
+    status: segmented
+
+  - url: "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai"
+    source: source-044
+    note: "EY — internal AI transformation case study, EY Fabric platform"
+    added: 2026-02-15
+    status: segmented
+
+  - url: "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026"
+    source: source-045
+    note: "EY — top 10 enterprise tech opportunities for 2026"
+    added: 2026-02-15
+    status: segmented
+
+  # --- KPMG ---
+  - url: "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html"
+    source: source-046
+    note: "KPMG Global Tech Report 2026 — 2,500 exec survey, scaling challenges"
+    added: 2026-02-15
+    status: segmented
+    pdf_note: "Full report PDF — download link on page (gated, requires form submission)"
+
+  - url: "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html"
+    source: source-047
+    note: "KPMG — three-layer composable architecture model for AI transformation"
+    added: 2026-02-15
+    status: segmented
+
+  - url: "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html"
+    source: source-048
+    note: "KPMG — only 14% of companies infrastructure-ready for AI"
+    added: 2026-02-15
+    status: segmented
+
+  # --- PwC Global ---
+  - url: "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html"
+    source: source-049
+    note: "PwC — 1,030 execs surveyed on AI-centric architecture adoption"
+    added: 2026-02-15
+    status: segmented
+    pdf_note: "Full survey report PDF — download link on page"
+
+  - url: "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html"
+    source: source-050
+    note: "PwC — 1,415 EMEA leaders on sovereignty, multi-cloud for AI"
+    added: 2026-02-15
+    status: segmented
+    pdf_note: "Full EMEA survey report PDF — download link on page"
+
+  - url: "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html"
+    source: source-051
+    note: "PwC — AI collapses scale advantages, strategic framing"
+    added: 2026-02-15
+    status: segmented
+
+  # --- PwC Switzerland ---
+  - url: "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html"
+    source: source-052
+    note: "PwC CH — technical architecture for scaling AI agents (Kafka + BPMN)"
+    added: 2026-02-15
+    status: segmented
+
+  - url: "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html"
+    source: source-053
+    note: "PwC CH — traditional EA baseline (TOGAF) for Swiss SMEs"
+    added: 2026-02-15
+    status: segmented
+
+  - url: "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html"
+    source: source-054
+    note: "PwC CH — AI governance and enterprise adoption strategy"
+    added: 2026-02-15
+    status: segmented

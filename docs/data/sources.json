@@ -1,7 +1,7 @@
 {
   "topic": "Enterprise Architecture for AI",
   "status": "synthesized",
-  "updated": "2026-02-14",
+  "updated": "2026-02-15",
   "sources": [
     {
       "id": "source-001",
@@ -542,6 +542,394 @@
         "multi-agent-systems",
         "AI-adoption",
         "ROI"
+      ]
+    },
+    {
+      "id": "source-032",
+      "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
+      "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
+      "author": "William El Kaim, Przemyslaw Krajewski (BCG Platinion)",
+      "date": "2024-02-20",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "enterprise-architecture",
+        "AI-architect-role",
+        "organizational-design",
+        "AI-governance",
+        "AI-implementation",
+        "BCG"
+      ]
+    },
+    {
+      "id": "source-033",
+      "title": "Enterprise as Code: An Operating Model for the AI Era",
+      "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+      "author": "BCG",
+      "date": "2025-12-02",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "enterprise-architecture",
+        "operating-model",
+        "enterprise-as-code",
+        "AI-agents",
+        "process-automation",
+        "BCG"
+      ]
+    },
+    {
+      "id": "source-034",
+      "title": "How Agentic AI is Transforming Enterprise Platforms",
+      "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+      "author": "BCG",
+      "date": "2025-10-13",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "enterprise-platforms",
+        "agent-orchestration",
+        "responsible-AI",
+        "BCG"
+      ]
+    },
+    {
+      "id": "source-035",
+      "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+      "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+      "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+      "date": "2025-11-14",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "AI-governance",
+        "organizational-design",
+        "leadership",
+        "MIT-SMR",
+        "BCG"
+      ]
+    },
+    {
+      "id": "source-036",
+      "title": "Technology Architecture of Tomorrow",
+      "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+      "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+      "date": "2025-10-06",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "enterprise-architecture",
+        "EA-role-evolution",
+        "self-healing-systems",
+        "AI-ops",
+        "quantum-computing",
+        "BCG"
+      ]
+    },
+    {
+      "id": "source-037",
+      "title": "Building the Foundation for Agentic AI",
+      "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+      "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+      "date": "2025-09-23",
+      "type": "report",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "enterprise-architecture",
+        "platform-modernization",
+        "AI-governance",
+        "MCP",
+        "Bain"
+      ]
+    },
+    {
+      "id": "source-038",
+      "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+      "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+      "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+      "date": "2024-09-25",
+      "type": "report",
+      "relevance": 4,
+      "tags": [
+        "enterprise-architecture",
+        "tech-stack",
+        "GenAI-scaling",
+        "MLOps",
+        "AI-governance",
+        "Bain"
+      ]
+    },
+    {
+      "id": "source-039",
+      "title": "State of the Art of Agentic AI Transformation",
+      "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+      "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+      "date": "2025-09-23",
+      "type": "report",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "AI-maturity",
+        "process-redesign",
+        "pragmatism",
+        "EBITDA",
+        "Bain"
+      ]
+    },
+    {
+      "id": "source-040",
+      "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+      "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+      "author": "Pascal Brier, Mark Roberts (Capgemini)",
+      "date": "2026-01-12",
+      "type": "report",
+      "relevance": 5,
+      "tags": [
+        "technology-trends",
+        "AI-backbone",
+        "cloud-3.0",
+        "intelligent-ops",
+        "tech-sovereignty",
+        "Capgemini"
+      ]
+    },
+    {
+      "id": "source-041",
+      "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+      "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+      "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+      "date": "2026-01-15",
+      "type": "report",
+      "relevance": 4,
+      "tags": [
+        "AI-investment",
+        "AI-adoption",
+        "human-AI-collaboration",
+        "data-sovereignty",
+        "Capgemini"
+      ]
+    },
+    {
+      "id": "source-042",
+      "title": "Agentic AI and the Enterprise of Tomorrow",
+      "url": "https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/",
+      "author": "Alex MirZabeigi (Capgemini Americas / AWS)",
+      "date": "2025-11-24",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "agentic-ai",
+        "autonomous-enterprise",
+        "AWS",
+        "AI-platforms",
+        "Capgemini"
+      ]
+    },
+    {
+      "id": "source-043",
+      "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+      "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+      "author": "Dan Diasio, Joe Depa (EY)",
+      "date": "2025-12-08",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "AI-native",
+        "enterprise-architecture",
+        "seven-tier-model",
+        "agentic-ai",
+        "EY"
+      ]
+    },
+    {
+      "id": "source-044",
+      "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+      "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+      "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+      "date": "2024-12-06",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "AI-transformation",
+        "case-study",
+        "EY-Fabric",
+        "responsible-AI",
+        "organizational-change",
+        "EY"
+      ]
+    },
+    {
+      "id": "source-045",
+      "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+      "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+      "author": "James Brundage (EY)",
+      "date": "2025-12-16",
+      "type": "article",
+      "relevance": 3,
+      "tags": [
+        "technology-trends",
+        "agentic-ai",
+        "AI-governance",
+        "sovereignty",
+        "FinOps",
+        "EY"
+      ]
+    },
+    {
+      "id": "source-046",
+      "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
+      "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
+      "author": "KPMG International",
+      "date": "2026-01-21",
+      "type": "report",
+      "relevance": 4,
+      "tags": [
+        "AI-maturity",
+        "agentic-ai",
+        "tech-debt",
+        "talent",
+        "ROI",
+        "KPMG"
+      ]
+    },
+    {
+      "id": "source-047",
+      "title": "AI and Transformations: The Enterprise Power Couple",
+      "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
+      "author": "KPMG US",
+      "date": "2025-12-10",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "AI-transformation",
+        "composable-architecture",
+        "cloud",
+        "change-management",
+        "KPMG"
+      ]
+    },
+    {
+      "id": "source-048",
+      "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+      "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+      "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+      "date": "2025-08-22",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "infrastructure",
+        "AI-readiness",
+        "scalability",
+        "network",
+        "edge-computing",
+        "KPMG"
+      ]
+    },
+    {
+      "id": "source-049",
+      "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+      "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+      "author": "PwC Research",
+      "date": "2024-09-17",
+      "type": "report",
+      "relevance": 4,
+      "tags": [
+        "cloud",
+        "AI-adoption",
+        "data-modernization",
+        "GenAI",
+        "top-performers",
+        "PwC"
+      ]
+    },
+    {
+      "id": "source-050",
+      "title": "PwC's 2025 EMEA Cloud Business Survey",
+      "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+      "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+      "date": "2025-11-07",
+      "type": "report",
+      "relevance": 3,
+      "tags": [
+        "cloud",
+        "sovereignty",
+        "multi-cloud",
+        "agentic-ai",
+        "FinOps",
+        "EMEA",
+        "PwC"
+      ]
+    },
+    {
+      "id": "source-051",
+      "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
+      "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
+      "author": "Dan Priest (PwC US)",
+      "date": "2025-01-27",
+      "type": "article",
+      "relevance": 4,
+      "tags": [
+        "competitive-strategy",
+        "agentic-ai",
+        "operating-model",
+        "innovation",
+        "responsible-AI",
+        "PwC"
+      ]
+    },
+    {
+      "id": "source-052",
+      "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
+      "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
+      "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
+      "date": "2025-06-02",
+      "type": "article",
+      "relevance": 5,
+      "tags": [
+        "agentic-ai",
+        "event-driven-architecture",
+        "Kafka",
+        "BPMN",
+        "scalability",
+        "regulatory-compliance",
+        "PwC"
+      ]
+    },
+    {
+      "id": "source-053",
+      "title": "Enterprise Architecture in Swiss SMEs",
+      "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+      "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+      "date": "2024-11-06",
+      "type": "article",
+      "relevance": 3,
+      "tags": [
+        "TOGAF",
+        "enterprise-architecture",
+        "SME",
+        "governance",
+        "pragmatic-EA",
+        "PwC"
+      ]
+    },
+    {
+      "id": "source-054",
+      "title": "AI Giants Are Rewriting the Enterprise Playbook",
+      "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
+      "author": "Sebastian Ahrens (PwC Switzerland)",
+      "date": "2024-10-21",
+      "type": "article",
+      "relevance": 3,
+      "tags": [
+        "AI-adoption",
+        "enterprise-governance",
+        "innovation-flywheel",
+        "shadow-AI",
+        "SaaS",
+        "PwC"
       ]
     }
   ]

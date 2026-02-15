@@ -1,0 +1,495 @@
+source_id: source-036
+title: 'Technology Architecture of Tomorrow'
+url: 'https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow'
+author: 'Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)'
+date: 2025-10-06
+total_segments: 67
+composition:
+  claim: { count: 31, pct: 46.3 }
+  recommendation: { count: 12, pct: 17.9 }
+  noise: { count: 10, pct: 14.9 }
+  context: { count: 7, pct: 10.4 }
+  definition: { count: 3, pct: 4.5 }
+  statistic: { count: 2, pct: 3.0 }
+  example: { count: 1, pct: 1.5 }
+  evidence: { count: 1, pct: 1.5 }
+  attribution: { count: 0, pct: 0.0 }
+  methodology: { count: 0, pct: 0.0 }
+signal_ratio: 85.1
+segments:
+- id: seg-001
+  text: 'Technology Architecture of Tomorrow'
+  type: noise
+  section: Header
+  position: 1
+  source_format: heading
+  metadata: {}
+- id: seg-002
+  text: 'Part 2 of From the Backroom to the Boardroom: The Blueprints, exploring the technologies, capabilities, and leadership shifts redefining enterprise architecture for the future.'
+  type: context
+  section: Header
+  position: 2
+  source_format: prose
+  metadata: {}
+- id: seg-003
+  text: 'Introduction'
+  type: noise
+  section: Introduction
+  position: 3
+  source_format: heading
+  metadata: {}
+- id: seg-004
+  text: 'From rigid roadmaps to real-time systems, 25 years of enterprise IT evolution have brought us to a defining moment — but the architecture of tomorrow is still taking shape.'
+  type: claim
+  section: Introduction
+  position: 4
+  source_format: prose
+  metadata: {}
+- id: seg-005
+  text: 'The last quarter century proved that good architecture morphs as customer expectations evolve, but now it needs to be more adaptive, agile, and future-focused than ever before.'
+  type: claim
+  section: Introduction
+  position: 5
+  source_format: prose
+  metadata: {}
+- id: seg-006
+  text: "As part of this shift, architecture has become a strategic boardroom topic, no longer relegated to an 'IT for IT' backroom discussion, and concepts like AI-powered self-optimization are actively debated and embraced."
+  type: claim
+  section: Introduction
+  position: 6
+  source_format: prose
+  metadata: {}
+- id: seg-007
+  text: 'Organizations that have excelled are those that refuse to be victims of their architecture, instead taking control of their future evolution by shaping the architecture that drives their business.'
+  type: claim
+  section: Introduction
+  position: 7
+  source_format: prose
+  metadata: {}
+- id: seg-008
+  text: 'We are seeing several promising architectural patterns that have emerged and embraced at scale.'
+  type: context
+  section: Introduction
+  position: 8
+  source_format: prose
+  metadata: {}
+- id: seg-009
+  text: 'Self-healing and event-driven architectures are increasing in popularity, and AI-enabled predictive maintenance is widespread.'
+  type: claim
+  section: Introduction
+  position: 9
+  source_format: prose
+  metadata: {}
+- id: seg-010
+  text: 'Microservices are no longer treated as the answer to every problem, and modular monoliths are coming back into fashion as a viable alternative.'
+  type: claim
+  section: Introduction
+  position: 10
+  source_format: prose
+  metadata: {}
+- id: seg-011
+  text: 'IT landscapes will increasingly be governed by AI, enabling architectural inefficiencies to be spotted and complex application portfolios to be optimized.'
+  type: claim
+  section: Introduction
+  position: 11
+  source_format: prose
+  metadata: {}
+- id: seg-012
+  text: 'AI-enabled security will also characterize the coming years of architecture innovation, with use cases including real-time threat detection and mitigation.'
+  type: claim
+  section: Introduction
+  position: 12
+  source_format: prose
+  metadata: {}
+- id: seg-013
+  text: 'At BCG Platinion, our tech experts are engaged in helping some of the world''s leading organizations navigate this new and often technically overwhelming era, and they are gathering valuable insights along the way.'
+  type: noise
+  section: Introduction
+  position: 13
+  source_format: prose
+  metadata: {}
+- id: seg-014
+  text: "Building on Part 1's journey from the 2000s to today's AI-driven, cloud-native era, and marking our 25th anniversary, in Part 2 our experts spotlight the next chapter of enterprise architecture—new tools of the trade, self-healing systems, and architects' evolving role."
+  type: context
+  section: Introduction
+  position: 14
+  source_format: prose
+  metadata: {}
+- id: seg-015
+  text: 'New Tools of the Trade'
+  type: noise
+  section: New Tools of the Trade
+  position: 15
+  source_format: heading
+  metadata: {}
+- id: seg-016
+  text: 'From AI to blockchain, transformative technologies are bursting onto the scene that must be integrated without compromising stability.'
+  type: context
+  section: New Tools of the Trade
+  position: 16
+  source_format: prose
+  metadata: {}
+- id: seg-017
+  text: 'This means balancing innovation with architectural discipline while keeping an eye on technical debt and IT sprawl.'
+  type: recommendation
+  section: New Tools of the Trade
+  position: 17
+  source_format: prose
+  metadata: {}
+- id: seg-018
+  text: 'Without proper integration, AI adds complexity, increases risk, and obscures decision logic.'
+  type: claim
+  section: New Tools of the Trade
+  position: 18
+  source_format: prose
+  metadata: {}
+- id: seg-019
+  text: 'The solution is to ensure transparency with the right techniques, keep humans in-the-loop, and manage AI workloads with Machine Learning Operations (MLOps) and robust observability tools.'
+  type: recommendation
+  section: New Tools of the Trade
+  position: 19
+  source_format: prose
+  metadata: {}
+- id: seg-020
+  text: 'By using hybrid blockchain architectures, organizations can increase transparency and decentralization without putting data at risk.'
+  type: claim
+  section: New Tools of the Trade
+  position: 20
+  source_format: prose
+  metadata: {}
+- id: seg-021
+  text: 'This is achieved by combining permissioned private layers and permissionless public layers, with smart contracts in place to enforce rules across both.'
+  type: definition
+  section: New Tools of the Trade
+  position: 21
+  source_format: prose
+  metadata: {}
+- id: seg-022
+  text: 'While blockchain is expected to be used in more niche use cases, quantum computing is on track to have broader, more transformative implications.'
+  type: claim
+  section: New Tools of the Trade
+  position: 22
+  source_format: prose
+  metadata: {}
+- id: seg-023
+  text: 'For example, it has the potential to let users assess the efficiency of multiple solutions within their systems simultaneously, while also taking AI capabilities to the next level.'
+  type: example
+  section: New Tools of the Trade
+  position: 23
+  source_format: prose
+  metadata: {}
+- id: seg-024
+  text: 'Enterprise Architecture Management (EAM) frameworks are a major advantage when it comes to adopting new technologies in a structured, thoughtful way.'
+  type: claim
+  section: New Tools of the Trade
+  position: 24
+  source_format: prose
+  metadata: {}
+- id: seg-025
+  text: 'Using them can be especially effective when combined with industry-specific frameworks, such as the Banking Industry Architecture Network (BIAN).'
+  type: recommendation
+  section: New Tools of the Trade
+  position: 25
+  source_format: prose
+  metadata: {}
+- id: seg-026
+  text: 'As organizations become increasingly comfortable with using technologies like AI to enhance their approach to IT architecture, groundbreaking new capabilities will be realized—the ability for systems to self-heal is a prime example.'
+  type: context
+  section: New Tools of the Trade
+  position: 26
+  source_format: prose
+  metadata: {}
+- id: seg-027
+  text: 'Self-Healing Systems'
+  type: noise
+  section: Self-Healing Systems
+  position: 27
+  source_format: heading
+  metadata: {}
+- id: seg-028
+  text: 'As modern IT environments become ever more complex, those using automation to manage them will gain a significant competitive advantage.'
+  type: claim
+  section: Self-Healing Systems
+  position: 28
+  source_format: prose
+  metadata: {}
+- id: seg-029
+  text: 'Mechanisms for self-healing will be essential if organizations are to maintain high availability and security while cutting costs.'
+  type: claim
+  section: Self-Healing Systems
+  position: 29
+  source_format: prose
+  metadata: {}
+- id: seg-030
+  text: 'When a system can detect, diagnose, and repair issues in a predictive way, costly downtime is reduced immediately.'
+  type: definition
+  section: Self-Healing Systems
+  position: 30
+  source_format: prose
+  metadata: {}
+- id: seg-031
+  text: 'Just as importantly, the precious capacity of technical talent can be redeployed to more value-adding tasks.'
+  type: claim
+  section: Self-Healing Systems
+  position: 31
+  source_format: prose
+  metadata: {}
+- id: seg-032
+  text: 'Resilience mechanisms can also be implemented to defend against single points of failure and prevent costly system-wide outages.'
+  type: recommendation
+  section: Self-Healing Systems
+  position: 32
+  source_format: prose
+  metadata: {}
+- id: seg-033
+  text: 'From a security standpoint, self-healing capabilities have become crucial now that sophisticated cyberattacks are often autonomous.'
+  type: claim
+  section: Self-Healing Systems
+  position: 33
+  source_format: prose
+  metadata: {}
+- id: seg-034
+  text: 'The right AI-enabled security capabilities will simultaneously detect, isolate, patch, and remediate a threat in real time—whereas a human operator may not react quickly enough to mitigate damage and downtime.'
+  type: evidence
+  section: Self-Healing Systems
+  position: 34
+  source_format: prose
+  metadata: {}
+- id: seg-035
+  text: 'As hybrid, cloud-native architectures become increasingly distributed, failures can simply no longer be traced as easily as they could when systems were monolithic.'
+  type: claim
+  section: Self-Healing Systems
+  position: 35
+  source_format: prose
+  metadata: {}
+- id: seg-036
+  text: 'Because of this, self-healing systems will become the new standard for efficiency, security, and overall resilience.'
+  type: claim
+  section: Self-Healing Systems
+  position: 36
+  source_format: prose
+  metadata: {}
+- id: seg-037
+  text: 'The development process is also ripe for AI transformation, from generating code for developers and building test cases for production and monitoring, to supporting the work of business analysts.'
+  type: claim
+  section: Self-Healing Systems
+  position: 37
+  source_format: prose
+  metadata: {}
+- id: seg-038
+  text: 'BCG benchmarks show that AI can increase the efficiency of development by up to 50%, and potentially even more in the future depending on the use case.'
+  type: statistic
+  section: Self-Healing Systems
+  position: 38
+  source_format: prose
+  metadata:
+    metric: 'AI development efficiency increase'
+    value: 50
+    unit: '%'
+    population: 'BCG benchmarks'
+- id: seg-039
+  text: 'With AI-enabled efficiency increases in mind, what will the future role of the architect look like?'
+  type: noise
+  section: Self-Healing Systems
+  position: 39
+  source_format: prose
+  metadata: {}
+- id: seg-040
+  text: 'From Designers to Orchestrators'
+  type: noise
+  section: From Designers to Orchestrators
+  position: 40
+  source_format: heading
+  metadata: {}
+- id: seg-041
+  text: 'Once gatekeepers of rigid standards and long-term roadmaps, enterprise architects are becoming collaborative technology advisors that design and oversee modular systems in real-time.'
+  type: claim
+  section: From Designers to Orchestrators
+  position: 41
+  source_format: prose
+  metadata: {}
+- id: seg-042
+  text: 'Gen AI tooling blurs lines between Enterprise and Solution architecture.'
+  type: claim
+  section: From Designers to Orchestrators
+  position: 42
+  source_format: prose
+  metadata: {}
+- id: seg-043
+  text: 'As software development becomes increasingly like building with blocks (think cloud services and ready-made APIs), architects will embed themselves in agile teams and help to manage living systems.'
+  type: claim
+  section: From Designers to Orchestrators
+  position: 43
+  source_format: prose
+  metadata: {}
+- id: seg-044
+  text: 'The once marginalized skill of software testing is making a comeback; as software development becomes more automated, focusing on observability and testing is a no-regret move that gives organizations the ability to safely deploy software at greater speeds.'
+  type: recommendation
+  section: From Designers to Orchestrators
+  position: 44
+  source_format: prose
+  metadata: {}
+- id: seg-045
+  text: 'GenAI has the potential to significantly enhance reliability through predictive maintenance, which could reduce system downtime by 50 to 60%.'
+  type: statistic
+  section: From Designers to Orchestrators
+  position: 45
+  source_format: prose
+  metadata:
+    metric: 'System downtime reduction via GenAI predictive maintenance'
+    value: '50-60'
+    unit: '%'
+- id: seg-046
+  text: 'The technology will also handle things like continuous value tracking, serving as a strong link between IT and the business by producing holistic insights across functions.'
+  type: claim
+  section: From Designers to Orchestrators
+  position: 46
+  source_format: prose
+  metadata: {}
+- id: seg-047
+  text: 'With greater capacity at their disposal, architects will focus more heavily on:'
+  type: context
+  section: From Designers to Orchestrators
+  position: 47
+  source_format: prose
+  metadata: {}
+- id: seg-048
+  text: 'Leading AI system design including managing data pipelines and model operations'
+  type: recommendation
+  section: From Designers to Orchestrators
+  position: 48
+  source_format: bullet
+  metadata: {}
+- id: seg-049
+  text: 'Translating business vision into scalable, composable architectures'
+  type: recommendation
+  section: From Designers to Orchestrators
+  position: 49
+  source_format: bullet
+  metadata: {}
+- id: seg-050
+  text: 'Piloting new technologies and architectural experiments'
+  type: recommendation
+  section: From Designers to Orchestrators
+  position: 50
+  source_format: bullet
+  metadata: {}
+- id: seg-051
+  text: 'Coaching teams on applying patterns, trade-offs and managing complexity'
+  type: recommendation
+  section: From Designers to Orchestrators
+  position: 51
+  source_format: bullet
+  metadata: {}
+- id: seg-052
+  text: 'Embedding architectural literacy across the organization to raise decision quality'
+  type: recommendation
+  section: From Designers to Orchestrators
+  position: 52
+  source_format: bullet
+  metadata: {}
+- id: seg-053
+  text: 'Making critical decisions regarding the trade-off between incremental modernization and the rapid adoption of new technologies will remain a core focus for architects, with hype-driven decisions presenting a significant risk.'
+  type: claim
+  section: From Designers to Orchestrators
+  position: 53
+  source_format: prose
+  metadata: {}
+- id: seg-054
+  text: 'Proven technical experts will be needed to navigate options thoughtfully and define the right course of action for the business.'
+  type: recommendation
+  section: From Designers to Orchestrators
+  position: 54
+  source_format: prose
+  metadata: {}
+- id: seg-055
+  text: 'We can expect this new breed of architect to be more aligned with the business in terms of strategy and value delivery, while also taking on a more cross-functional, embedded role.'
+  type: claim
+  section: From Designers to Orchestrators
+  position: 55
+  source_format: prose
+  metadata: {}
+- id: seg-056
+  text: "Architects won't just design systems—they will architect platforms for autonomy, adaptability, and sustained strategic advantage."
+  type: claim
+  section: From Designers to Orchestrators
+  position: 56
+  source_format: prose
+  metadata: {}
+- id: seg-057
+  text: 'Conclusion'
+  type: noise
+  section: Conclusion
+  position: 57
+  source_format: heading
+  metadata: {}
+- id: seg-058
+  text: 'Architecture is a strategic enabler of resilience, speed, and long-term value.'
+  type: claim
+  section: Conclusion
+  position: 58
+  source_format: prose
+  metadata: {}
+- id: seg-059
+  text: 'It needs to be data-centric, cloud-native, increasingly autonomous, and above all, modular.'
+  type: recommendation
+  section: Conclusion
+  position: 59
+  source_format: prose
+  metadata: {}
+- id: seg-060
+  text: 'Distributed architectures built on APIs are bringing the era of static, monolithic systems to an end.'
+  type: claim
+  section: Conclusion
+  position: 60
+  source_format: prose
+  metadata: {}
+- id: seg-061
+  text: 'Microservices, event-driven patterns, and low-code platforms will increasingly become central architectural features, promoting changeability and scalability.'
+  type: claim
+  section: Conclusion
+  position: 61
+  source_format: prose
+  metadata: {}
+- id: seg-062
+  text: 'AI is set to take over the operating layer, with Artificial Intelligence for IT Operations (AIOps) platforms supporting self-healing systems, managing infrastructure requirements, and detecting anomalies.'
+  type: definition
+  section: Conclusion
+  position: 62
+  source_format: prose
+  metadata: {}
+- id: seg-063
+  text: 'Prescriptive and predictive analytics, powered by machine learning and Large Language Models (LLMs), have a central role to play in the continuous optimization we foresee.'
+  type: claim
+  section: Conclusion
+  position: 63
+  source_format: prose
+  metadata: {}
+- id: seg-064
+  text: "Architects' priorities will continue to include translating business strategy into tech capabilities and driving change when it comes to real-world concerns like the environmental impact of IT operations."
+  type: context
+  section: Conclusion
+  position: 64
+  source_format: prose
+  metadata: {}
+- id: seg-065
+  text: 'We believe Green IT is a significant opportunity to create smarter, more efficient systems.'
+  type: claim
+  section: Conclusion
+  position: 65
+  source_format: prose
+  metadata: {}
+- id: seg-066
+  text: 'At BCG Platinion, we are passionate about tailoring architecture transformations end-to-end and moving this crucial conversation out of the backroom.'
+  type: noise
+  section: Conclusion
+  position: 66
+  source_format: prose
+  metadata: {}
+- id: seg-067
+  text: 'For help blueprinting the future of your business, get in touch with our expert team.'
+  type: noise
+  section: Conclusion
+  position: 67
+  source_format: prose
+  metadata: {}
