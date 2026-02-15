@@ -10553,7 +10553,8 @@
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-138",
@@ -10595,7 +10596,8 @@
           "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-139",
@@ -10637,7 +10639,8 @@
           "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "common"
     },
     {
       "id": "cc-140",
@@ -10679,7 +10682,8 @@
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "common"
     },
     {
       "id": "cc-141",
@@ -10723,7 +10727,8 @@
             "AI is increasingly generating and maintaining software parts, shifting the development lifecycle across industries."
           ]
         }
-      ]
+      ],
+      "baseline_category": "common"
     },
     {
       "id": "cc-142",
@@ -10767,7 +10772,8 @@
             "The paradigm moves from writing code to expressing intent."
           ]
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-143",
@@ -10809,7 +10815,8 @@
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "new"
     },
     {
       "id": "cc-144",
@@ -10862,7 +10869,8 @@
             "One global consumer goods company rebuilt their workflow around meta-agents that orchestrated the work and worker agents that generated insights, tested ideas, and created concepts."
           ]
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-145",
@@ -10933,7 +10941,8 @@
             "Human work: Most work happens across multiple systems and organizations, with context and informal processes."
           ]
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-146",
@@ -10984,7 +10993,8 @@
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-147",
@@ -11030,7 +11040,8 @@
             "When a system can detect, diagnose, and repair issues in a predictive way, costly downtime is reduced immediately."
           ]
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-148",
@@ -11100,7 +11111,8 @@
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-149",
@@ -11161,7 +11173,8 @@
           "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "common"
     },
     {
       "id": "cc-150",
@@ -11212,7 +11225,8 @@
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-151",
@@ -11265,7 +11279,8 @@
             "Alternative commercial models reflect a shift from traditional service pricing to value-based approaches."
           ]
         }
-      ]
+      ],
+      "baseline_category": "new"
     },
     {
       "id": "cc-152",
@@ -11310,7 +11325,8 @@
             "Full autonomy is reserved for highly mature, low-risk environments where the cost of error is negligible compared to the gain in efficiency."
           ]
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-153",
@@ -11358,7 +11374,8 @@
             "Organizations need to identify their business context fabric by surfacing the unwritten principles their teams follow."
           ]
         }
-      ]
+      ],
+      "baseline_category": "new"
     },
     {
       "id": "cc-154",
@@ -11405,7 +11422,8 @@
             "Organizations should follow the 10/20/70 rule to emphasize people and processes as part of guiding principles for scaling agentic AI."
           ]
         }
-      ]
+      ],
+      "baseline_category": "new"
     },
     {
       "id": "cc-155",
@@ -11451,7 +11469,8 @@
             "CEOs should assemble a shared AI platform that gives teams freedom within a frame."
           ]
         }
-      ]
+      ],
+      "baseline_category": "new"
     },
     {
       "id": "cc-156",
@@ -11497,7 +11516,8 @@
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-157",
@@ -11541,7 +11561,8 @@
             "Charge general managers with meeting these targets, not the CIO or CTO."
           ]
         }
-      ]
+      ],
+      "baseline_category": "new"
     },
     {
       "id": "cc-158",
@@ -11593,7 +11614,8 @@
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
           "quotes": []
         }
-      ]
+      ],
+      "baseline_category": "new"
     },
     {
       "id": "cc-159",
@@ -11639,7 +11661,8 @@
             "Nearly two thirds say they have started pausing lower-value AI projects to redirect their efforts toward high-impact areas."
           ]
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-160",
@@ -11685,7 +11708,8 @@
             "Human-AI chemistry requires deliberate organizational design, not just tool deployment."
           ]
         }
-      ]
+      ],
+      "baseline_category": "additional"
     },
     {
       "id": "cc-161",
@@ -11731,7 +11755,8 @@
             "Ecosystem strategies enable companies to scale AI capabilities faster than internal development alone."
           ]
         }
-      ]
+      ],
+      "baseline_category": "common"
     },
     {
       "id": "cc-162",
@@ -11776,7 +11801,8 @@
             "Over the next three to five years, 5% to 10% of technology spending could be directed toward building foundational capabilities, including agent platforms, communication protocols, real-time data access and discoverability for agents, and modern security and observability frameworks."
           ]
         }
-      ]
+      ],
+      "baseline_category": "additional"
     }
   ],
   "contradiction_analyses": []

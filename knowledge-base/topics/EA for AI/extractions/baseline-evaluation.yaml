@@ -2,10 +2,10 @@ meta:
   baseline_question: "How does Enterprise Architecture change because of AI?"
   baseline_created: 2026-02-15
   evaluated: 2026-02-15
-  total_claims: 136
-  common: 68
-  additional: 62
-  new: 6
+  total_claims: 162
+  common: 73
+  additional: 76
+  new: 13
 
 evaluations:
   # === MODEL ARCHITECTURE (cc-001 to cc-023) ===
@@ -595,3 +595,109 @@ evaluations:
   - id: cc-136
     category: new
     rationale: "No baseline source discusses enterprise knowledge graphs and organizational ontologies as critical infrastructure for grounding AI agent outputs in validated organizational concepts."
+
+  # === NEW CLAIMS FROM SOURCE EXPANSION (cc-137 to cc-162) ===
+
+  - id: cc-137
+    category: additional
+    rationale: "Baseline source 4 discusses infrastructure not built for AI at scale, but the specific brain-vs-nervous-system framing and the investment imbalance diagnosis are not in the baseline."
+
+  - id: cc-138
+    category: additional
+    rationale: "Baseline discusses integration generally but the specific diagnosis of synchronous REST patterns as bottlenecks for autonomous agents is not present."
+
+  - id: cc-139
+    category: common
+    rationale: "Data-driven continuous improvement flywheel effects are well-established in strategy literature and broadly applicable, not specific to AI architecture."
+
+  - id: cc-140
+    category: common
+    rationale: "Data governance as a barrier to AI adoption is well-represented in baseline sources 4, 6, and 14; multiple sources discuss data readiness as a prerequisite."
+
+  - id: cc-141
+    category: common
+    rationale: "AI-generated code replacing manual coding is widely discussed in technology media and practitioner discourse; any web search would surface this."
+
+  - id: cc-142
+    category: additional
+    rationale: "The specific upstream shift of engineering roles — from code production to design, integration, and team leadership — adds nuance beyond the baseline's general role evolution theme."
+
+  - id: cc-143
+    category: new
+    rationale: "No baseline source discusses the anti-pattern of agentic 'workslop' — agents actually adding work to processes rather than reducing it."
+
+  - id: cc-144
+    category: additional
+    rationale: "Agent collectives composing into organisational capabilities and specific orchestration patterns (orchestrator-worker) go beyond the baseline's general agentic AI discussion."
+
+  - id: cc-145
+    category: additional
+    rationale: "The zero-based process redesign approach and the 80/20 effort allocation for agent workflows add specificity beyond the baseline's general process rethinking theme."
+
+  - id: cc-146
+    category: additional
+    rationale: "The specific infrastructure cost shock and Bain's 5-10% spending projection add quantitative detail not present in the baseline's general infrastructure discussion."
+
+  - id: cc-147
+    category: additional
+    rationale: "AI-driven self-healing infrastructure with predictive remediation goes beyond the baseline's general discussion of system resilience and availability."
+
+  - id: cc-148
+    category: additional
+    rationale: "Baseline source 9 mentions sovereign AI briefly, but the elevation to board-level priority with specific survey data (82% EMEA, 54% Capgemini) is not in the baseline."
+
+  - id: cc-149
+    category: common
+    rationale: "Organisational adaptability and agility as strategic requirements are well-established management principles applicable across technology waves."
+
+  - id: cc-150
+    category: additional
+    rationale: "Baseline source 4 notes 70% of projects stall, but the specific architecture-readiness percentages (22% ready, 23% data-connected) from large-sample surveys are not in the baseline."
+
+  - id: cc-151
+    category: new
+    rationale: "No baseline source discusses the service-as-a-software pricing model or the shift from per-seat licensing to outcome-based pricing for AI agents."
+
+  - id: cc-152
+    category: additional
+    rationale: "The copilot-to-autopilot maturity progression with a three-tier autonomy framework adds specificity beyond the baseline's general agentic AI adoption theme."
+
+  - id: cc-153
+    category: new
+    rationale: "No baseline source discusses Enterprise as Code — codifying implicit operating models as executable code as a prerequisite for AI agent deployment."
+
+  - id: cc-154
+    category: new
+    rationale: "No baseline source provides the 10/20/70 distribution quantifying the relative effort of algorithms, technology, and people/process in AI transformation."
+
+  - id: cc-155
+    category: new
+    rationale: "No baseline source discusses the 'freedom within a frame' AI platform design pattern with specific cost and time-to-market benefits."
+
+  - id: cc-156
+    category: additional
+    rationale: "Baseline source 18 discusses blended frameworks, but the explicit pragmatism-over-purism stance and 'just enough architecture' for SMEs are not present."
+
+  - id: cc-157
+    category: new
+    rationale: "No baseline source discusses distributed accountability for AI agents — business domains owning agent lifecycle while central teams own infrastructure."
+
+  - id: cc-158
+    category: new
+    rationale: "No baseline source discusses AI FinOps as a distinct discipline or the 10% maturity figure for financial governance of AI spending."
+
+  - id: cc-159
+    category: additional
+    rationale: "POC fatigue is a recognisable concept, but the specific EY case study (800 to 20 use cases) and the ruthless prioritisation prescription are not in the baseline."
+
+  - id: cc-160
+    category: additional
+    rationale: "The baseline discusses human-AI collaboration generally, but 'human-AI chemistry' as a distinct organisational capability encompassing design and culture is not present."
+
+  - id: cc-161
+    category: common
+    rationale: "External partnerships for technology deployment are standard industry practice and widely discussed in enterprise technology discourse."
+
+  - id: cc-162
+    category: additional
+    rationale: "The specific budget acceleration figures (3% to 5%, potentially 50% long-term) provide quantification not present in the baseline's general AI adoption discussion."

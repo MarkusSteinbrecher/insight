@@ -8,9 +8,9 @@
   "unique_claims": 106,
   "contradictions": 24,
   "key_findings": 10,
-  "baseline_common": 68,
-  "baseline_additional": 62,
-  "baseline_new": 6,
+  "baseline_common": 73,
+  "baseline_additional": 76,
+  "baseline_new": 13,
   "baseline_summary": [
     "**AI automates core EA tasks** \u2014 system analysis, documentation, impact assessments, and portfolio management are being accelerated from weeks to hours",
     "**EA is shifting from documentation to real-time governance** \u2014 continuous, data-driven architecture management replaces periodic review cycles",
