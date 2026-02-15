@@ -1,0 +1,135 @@
+# Interactive Session Notes
+topic: "EA for AI"
+date: "2026-02-15"
+mode: "Source expansion and re-analysis"
+session_type: research_expansion
+status: complete
+
+# Session objective: Expand the source base from 30 to 54 sources by adding
+# major consultancy publications, then re-run segmentation and claim alignment.
+
+source_expansion:
+  sources_before: 31
+  sources_after: 54
+  new_sources_added: 23
+  sources_by_institution:
+    BCG: [source-033, source-034, source-035]
+    BCG_Platinion: [source-032, source-036]
+    Bain: [source-037, source-038, source-039]
+    Capgemini: [source-040, source-041, source-042]
+    EY: [source-043, source-044, source-045]
+    KPMG: [source-046, source-047, source-048]
+    PwC_Global: [source-049, source-050, source-051]
+    PwC_Switzerland: [source-052, source-053, source-054]
+  notable_additions:
+    - "KPMG Global Tech Report 2026 — 2,500 exec survey across 27 countries"
+    - "PwC 2024 Cloud and AI Business Survey — 1,030 US executives"
+    - "PwC 2025 EMEA Cloud Business Survey — 1,415 leaders across 26 territories"
+    - "Capgemini AI Perspectives 2026 — 1,500+ leaders across 15 countries"
+    - "EY AI Transformation Case Study — $1.4B investment, 800+ use cases"
+    - "BCG/MIT SMR — managing autonomous AI agents, 4 organizational tensions"
+    - "PwC CH Scaling AI Agents — concrete Kafka+BPMN architecture pattern"
+
+segmentation_results:
+  new_segments: ~1984
+  total_segments: ~4910
+  segment_quality: "Signal ratios 85-96% across all new sources"
+  notes:
+    - "BCG.com sources (033-035) required web search reconstruction — JS-rendered pages inaccessible via WebFetch"
+    - "Report-type sources (046, 049, 050) segmented from landing pages — full PDFs may contain richer content"
+    - "PDF download links documented in source-input.yaml for manual retrieval"
+
+claim_alignment_results:
+  canonical_claims_before: 136
+  canonical_claims_after: 162
+  unique_claims_before: 85
+  unique_claims_after: 106
+  contradictions_before: 18
+  contradictions_after: 24
+  themes_before: 23
+  themes_after: 33
+  changes:
+    upgraded_to_canonical: 16  # uc → cc-137 through cc-152
+    new_canonical: 10          # cc-153 through cc-162
+    new_unique: 37             # uc-086 through uc-122
+    new_contradictions: 6      # ct-019 through ct-024
+    existing_claims_reinforced: 90  # ~384 new supporting segments
+
+key_new_claims:
+  - id: cc-153
+    theme: enterprise_as_code
+    statement: "Codifying operating models as executable code is a prerequisite for AI agent deployment"
+    sources: [source-033, source-034]
+    user_note: "Genuinely novel concept from BCG — worth exploring as potential finding"
+
+  - id: cc-154
+    theme: people_process_primacy
+    statement: "AI transformation is 10% algorithms, 20% technology, 70% people and processes"
+    sources: [source-034, source-035]
+    user_note: "Quantifies the people/process emphasis — useful framing"
+
+  - id: cc-155
+    theme: platform_design
+    statement: "Centralized AI platform with decentralized innovation — freedom within a frame"
+    sources: [source-034, source-035]
+    user_note: "Practical design pattern for scaling AI across business units"
+
+  - id: cc-156
+    theme: pragmatic_architecture
+    statement: "Fit-for-purpose EA beats idealized architectural purism"
+    sources: [source-039, source-053]
+    user_note: "Bain's counterpoint to over-engineering — complements TOGAF critique"
+
+  - id: cc-158
+    theme: AI_FinOps
+    statement: "AI financial operations is emerging as a distinct discipline"
+    sources: [source-045, source-037, source-050]
+    user_note: "Only 10% have mature FinOps despite rapid adoption — significant gap"
+
+  - id: cc-148
+    theme: AI_sovereignty
+    statement: "AI sovereignty is moving from IT concern to board-level strategic priority"
+    sources: [source-041, source-045, source-040, source-050]
+    user_note: "82% of EMEA leaders refining cloud approach for geopolitical reasons"
+
+  - id: cc-150
+    theme: infrastructure_readiness
+    statement: "Only 14-22% of organizations have AI-ready infrastructure"
+    sources: [source-043, source-048]
+    user_note: "Major readiness gap — potential new finding"
+
+key_statistics_added:
+  - "88% of organizations embedding AI agents into workflows (KPMG, n=2,500)"
+  - "Only 14% of companies infrastructure-ready for AI (KPMG)"
+  - "Only 29% scaling agentic AI; 86% view it as decisive for provider selection (PwC EMEA)"
+  - "Only 10% have mature FinOps practices (PwC EMEA)"
+  - "Top performers 2x more likely to achieve measurable AI value (PwC, n=1,030)"
+  - "45% of adopters expect reduced management layers (BCG/MIT SMR)"
+  - "25-35x revenue per employee gap for AI-native firms (BCG)"
+  - "5-10% of tech spending on AI foundations near-term, potentially 50% long-term (Bain)"
+  - "$1.4B invested by EY, 800+ use cases narrowed to 20 (EY case study)"
+  - "AI market projected to grow from $189B to $4.8T by 2033 (KPMG)"
+
+housekeeping:
+  - "Consolidated critical-analysis-part1-4.yaml into single critical-analysis.yaml"
+  - "Deleted intermediate alignment_chunk_*.yaml files"
+  - "Updated build scripts (build-insights-data.py, build-findings-data.py) for new file structure"
+  - "Updated CLAUDE.md references"
+  - "Updated source-input.yaml with source IDs, status tracking, and PDF download notes"
+  - "Regenerated all site data (stats, insights, sources, findings JSON)"
+
+summary:
+  session_duration: "~2 hours"
+  key_outcomes:
+    - "Source base nearly doubled (31 → 54) with major consultancy publications"
+    - "4,910 total segments across all sources — substantial quantitative base"
+    - "Claim alignment expanded: 162 canonical, 106 unique, 24 contradictions"
+    - "Large-sample survey data added (4,500+ executives across 3 surveys)"
+    - "First real implementation case study added (EY $1.4B transformation)"
+    - "New themes emerged: Enterprise as Code, AI FinOps, AI sovereignty, infrastructure readiness"
+    - "Synthesis being updated to incorporate new findings"
+  next_steps:
+    - "Review updated synthesis for new findings (infrastructure readiness, Enterprise as Code, sovereignty)"
+    - "Run critical analysis on new canonical claims cc-137 to cc-162"
+    - "Consider downloading PDF reports for richer segmentation (see source-input.yaml pdf_note fields)"
+    - "Continue with Phase 3.2 (recommendations) once synthesis is stable"

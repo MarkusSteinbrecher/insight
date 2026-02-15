@@ -84,13 +84,14 @@ def read_claim_alignment(topic_dir):
 
 
 def count_findings(topic_dir):
-    """Count finding cards — editorial, read from synthesis or hardcode."""
-    index_path = os.path.join(ROOT, "docs", "index.html")
-    if os.path.exists(index_path):
-        with open(index_path, "r") as f:
-            html = f.read()
-        return html.count("finding-card")
-    return 7
+    """Count findings from findings.yaml (source of truth)."""
+    findings_path = os.path.join(topic_dir, "findings.yaml")
+    if os.path.exists(findings_path):
+        with open(findings_path, "r") as f:
+            data = yaml.safe_load(f)
+        if data and "findings" in data:
+            return len(data["findings"])
+    return 0
 
 
 def read_baseline_evaluation(topic_dir):

@@ -1,6 +1,6 @@
 # Findings → Claim Mapping
 # Maps each editorial finding (from synthesis.md Section 3) to its supporting canonical claims.
-# Claim IDs reference entries in extractions/claim-alignment.yaml and critical-analysis-part*.yaml.
+# Claim IDs reference entries in extractions/claim-alignment.yaml and critical-analysis.yaml.
 # Generated: 2026-02-15
 
 findings:
@@ -13,7 +13,7 @@ findings:
     claims: [cc-016, cc-004, cc-089, cc-024, cc-085]
 
   - id: finding-03
-    title: "Multi-Agent Architecture Is the Microservices Moment"
+    title: "Multi-Agent Architecture Is the Microservices Moment — and the Risk Is Qualitatively New"
     claims: [cc-012, cc-026, cc-078, cc-136, cc-063]
 
   - id: finding-04
@@ -21,13 +21,25 @@ findings:
     claims: [cc-068, cc-091, cc-090, cc-098, cc-097]
 
   - id: finding-05
-    title: "Process Redesign First, Then Automation"
-    claims: [cc-031, cc-100, cc-101]
+    title: "Process Redesign First, Then Automation — and the Evidence Just Got Stronger"
+    claims: [cc-031, cc-100, cc-101, cc-145, cc-143, cc-154, cc-159]
 
   - id: finding-06
     title: "The C-Suite Expectation Gap Is an Architecture Problem"
-    claims: [cc-088, cc-085]
+    claims: [cc-088, cc-085, cc-158, cc-162]
 
   - id: finding-07
-    title: "Agent Management Is an Emerging Discipline"
+    title: "Agent Management Is an Emerging Discipline — and Nobody Has the Playbook"
     claims: [cc-132, cc-065]
+
+  - id: finding-08
+    title: "The Infrastructure Readiness Crisis Is Worse Than Anyone Admits"
+    claims: [cc-137, cc-146, cc-150, cc-162]
+
+  - id: finding-09
+    title: "Enterprise as Code — The Next Operating Model Paradigm"
+    claims: [cc-153, cc-154, cc-155, cc-149, cc-156]
+
+  - id: finding-10
+    title: "AI Sovereignty Has Moved From IT Concern to Strategic Imperative"
+    claims: [cc-148]

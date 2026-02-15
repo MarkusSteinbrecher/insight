@@ -11,7 +11,7 @@ completed_steps:
   - "1.3"  # Critical analysis (136 claims assessed — needs update for new claims)
   - "1.4"  # Cross-source comparison (14,424-word narrative analysis)
   - "2.1"  # Interactive discussion (8 findings discussed, 7 kept, 1 merged)
-  - "2.2"  # Synthesis (7 findings, 5 tensions, 5 thought leadership positions, 7 content pieces)
+  - "2.2"  # Synthesis (10 findings, 7 tensions, 8 thought leadership positions, 10 content pieces)
   - "3.1"  # Reader perspective — actionability analysis
 current_step: "3.2"  # Recommendations
 created: 2026-02-14

@@ -1,6 +1,6 @@
 {
   "generated": "2026-02-15",
-  "total_findings": 7,
+  "total_findings": 10,
   "total_claims_linked": 30,
   "findings": [
     {
@@ -671,7 +671,7 @@
     },
     {
       "id": "finding-03",
-      "title": "Multi-Agent Architecture Is the Microservices Moment",
+      "title": "Multi-Agent Architecture Is the Microservices Moment \u2014 and the Risk Is Qualitatively New",
       "claim_count": 5,
       "claims": [
         {
@@ -1214,7 +1214,7 @@
     },
     {
       "id": "finding-05",
-      "title": "Process Redesign First, Then Automation",
+      "title": "Process Redesign First, Then Automation \u2014 and the Evidence Just Got Stronger",
       "claim_count": 3,
       "claims": [
         {
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "finding-07",
-      "title": "Agent Management Is an Emerging Discipline",
+      "title": "Agent Management Is an Emerging Discipline \u2014 and Nobody Has the Playbook",
       "claim_count": 2,
       "claims": [
         {
@@ -1564,6 +1564,24 @@
           "baseline_category": "additional"
         }
       ]
+    },
+    {
+      "id": "finding-08",
+      "title": "The Infrastructure Readiness Crisis Is Worse Than Anyone Admits",
+      "claim_count": 0,
+      "claims": []
+    },
+    {
+      "id": "finding-09",
+      "title": "Enterprise as Code \u2014 The Next Operating Model Paradigm",
+      "claim_count": 0,
+      "claims": []
+    },
+    {
+      "id": "finding-10",
+      "title": "AI Sovereignty Has Moved From IT Concern to Strategic Imperative",
+      "claim_count": 0,
+      "claims": []
     }
   ]
 }
