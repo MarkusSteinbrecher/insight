@@ -1,6 +1,6 @@
 {
   "generated": "2026-02-15",
-  "total_findings": 136,
+  "total_findings": 162,
   "total_contradictions": 0,
   "analyses": [
     {
@@ -10503,6 +10503,1280 @@
         }
       ],
       "baseline_category": "new"
+    },
+    {
+      "id": "cc-137",
+      "theme": "model_architecture",
+      "statement": "If 2025 was about the brain (the LLM), 2026 must be about the nervous system -- the infrastructure connecting AI to enterprise systems.",
+      "source_count": 3,
+      "ocaf": {
+        "source_convergence": 3,
+        "specificity": 3,
+        "evidence_type": 2,
+        "actionability": 3,
+        "temporal_durability": 3,
+        "claim_type": "P",
+        "value_score": 2.8,
+        "value_category": "CONTEXTUAL_VALUE"
+      },
+      "critique": "The brain/nervous system metaphor is effective as a communication device and captures a real investment imbalance. Three independent sources converge on this framing, lending credibility. However, the claim is more diagnostic than prescriptive -- it identifies the gap without specifying what the \"nervous system\" concretely comprises or how to prioritise infrastructure investment. The metaphor also risks oversimplifying: the relationship between models and infrastructure is bidirectional, not merely brain-commands-body.",
+      "practical_value": "Useful as a reframing tool for conversations with leadership about infrastructure investment. The metaphor makes the abstract tangible, but practitioners need to translate it into specific infrastructure requirements for their AI workloads.",
+      "action_steps": [
+        "Map your current AI workloads to the five infrastructure dimensions identified by KPMG (network bandwidth, compute/memory, security/compliance, cloud strategy, edge computing) and score each.",
+        "Calculate the ratio of your AI model/agent spending to your AI infrastructure spending -- if the former significantly exceeds the latter, the metaphor applies directly.",
+        "Create an infrastructure readiness scorecard tied to specific AI use cases rather than generic readiness metrics."
+      ],
+      "bottom_line": "The brain-versus-nervous-system framing captures a real investment imbalance -- most organisations are overinvesting in AI capabilities relative to the infrastructure needed to run them at production scale.",
+      "sources": [
+        {
+          "id": "source-022",
+          "title": "The Enterprise IT Overhaul: Architecting Your Stack for the Agentic AI Era",
+          "author": "CIO.com",
+          "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
+          "quotes": [
+            "If 2025 was about the brain (the LLM), 2026 must be about the nervous system."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "The convergence of AI backbone, Cloud 3.0, and Intelligent Ops creates an integrated enterprise platform requirement."
+          ]
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-138",
+      "theme": "integration_interop",
+      "statement": "Traditional synchronous, tightly coupled integration patterns (REST APIs to monolithic ERP/CRM) create bottlenecks when agents need to operate autonomously.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 4,
+        "evidence_type": 3,
+        "actionability": 4,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 3.5,
+        "value_category": "SIGNIFICANT_VALUE"
+      },
+      "critique": "This claim identifies a specific, actionable architectural constraint. Synchronous REST APIs are indeed ill-suited for autonomous agents that need to operate asynchronously, handle long-running tasks, and manage state across interactions. The claim is well-grounded in established integration architecture principles. However, it understates the difficulty of migrating from synchronous to event-driven patterns in brownfield environments -- the bottleneck is not just technical but organisational, as teams and processes are built around synchronous request-response paradigms.",
+      "practical_value": "Directly actionable for integration architects. Identifies a specific anti-pattern (synchronous coupling) and implies a solution direction (event-driven, asynchronous patterns).",
+      "action_steps": [
+        "Audit your current integration layer for synchronous dependencies that AI agents will need to traverse -- prioritise the ones on the critical path for your highest-value agent use cases.",
+        "Evaluate event-driven alternatives (Kafka, AMQP, or cloud-native event buses) for the integration patterns that agents will use most frequently.",
+        "Design an integration abstraction layer that allows agents to interact with both legacy synchronous and new asynchronous endpoints without being coupled to either pattern."
+      ],
+      "bottom_line": "Synchronous integration patterns are a concrete bottleneck for autonomous agents -- moving to event-driven architectures is a prerequisite for agent-scale operations, not an optional modernisation.",
+      "sources": [
+        {
+          "id": "source-022",
+          "title": "The Enterprise IT Overhaul: Architecting Your Stack for the Agentic AI Era",
+          "author": "CIO.com",
+          "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
+          "quotes": [
+            "Traditional synchronous, tightly coupled integration patterns (typical REST API calls to monolithic ERP and CRM systems) create bottlenecks when agents need to operate autonomously."
+          ]
+        },
+        {
+          "id": "source-052",
+          "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
+          "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
+          "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-139",
+      "theme": "governance_org_change",
+      "statement": "Companies report a flywheel effect -- continual insights harnessed from data using AI allow them to constantly improve products and services.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 2,
+        "evidence_type": 2,
+        "actionability": 2,
+        "temporal_durability": 3,
+        "claim_type": "E",
+        "value_score": 2.2,
+        "value_category": "CONTEXTUAL_VALUE"
+      },
+      "critique": "The flywheel concept is well-established in strategy literature (Bezos, Collins) and its application to AI-driven data insights is intuitive but not novel. The claim lacks specificity about what the flywheel mechanism looks like in practice: which data feeds back, how insights are operationalised, and what prevents the flywheel from becoming a feedback loop that amplifies bias or error. Two sources support it, but neither provides empirical measurement of the flywheel effect or conditions under which it fails.",
+      "practical_value": "Conceptually useful as a strategic framing for AI investment -- the returns compound over time. However, practitioners need more concrete guidance on designing the feedback mechanisms.",
+      "action_steps": [
+        "Identify one product or service where AI-generated insights could feed directly back into improvement cycles and design the data pipeline to close that loop explicitly.",
+        "Establish metrics to track whether the flywheel is actually spinning -- are AI-driven improvements leading to measurably better data, which in turn improves AI outputs?",
+        "Build guardrails against negative flywheel effects where AI feedback loops amplify errors or biases."
+      ],
+      "bottom_line": "The AI data flywheel is a compelling strategic concept, but realising it requires deliberate design of feedback mechanisms, not just AI deployment.",
+      "sources": [
+        {
+          "id": "source-003",
+          "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+          "author": "Economist Impact (commissioned by Databricks)",
+          "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+          "quotes": [
+            "Companies report a flywheel effect: continual insights harnessed from data, using AI, in turn allows them to constantly improve products and services."
+          ]
+        },
+        {
+          "id": "source-054",
+          "title": "AI Giants Are Rewriting the Enterprise Playbook",
+          "author": "Sebastian Ahrens (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-140",
+      "theme": "AI_governance_ethics",
+      "statement": "Low data governance maturity is a key barrier to GenAI adoption in large organizations.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 3,
+        "evidence_type": 3,
+        "actionability": 3,
+        "temporal_durability": 4,
+        "claim_type": "E",
+        "value_score": 3.0,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "This claim is well-supported and aligns with broader findings about data readiness as a prerequisite (Finding 4). It identifies a genuine bottleneck -- organisations that lack data governance maturity will struggle with AI regardless of model capability. However, the claim does not specify which dimensions of data governance matter most for GenAI (data quality, metadata management, lineage, access control) or what maturity level is sufficient. Without this mapping, the claim remains a diagnosis without a treatment plan.",
+      "practical_value": "Validates what many practitioners suspect -- data governance is the bottleneck, not AI capability. Useful for securing investment in data foundations before or alongside AI initiatives.",
+      "action_steps": [
+        "Assess your data governance maturity against a recognised framework (DAMA-DMBOK, Stanford) and identify the specific dimensions most critical for your AI use cases.",
+        "Map minimum data governance requirements to each planned AI workload -- RAG needs metadata and lineage; fine-tuning needs provenance and quality assurance; agents need access control and audit trails.",
+        "Establish a data governance improvement roadmap that prioritises the dimensions blocking your highest-value AI use cases rather than pursuing comprehensive governance across all data domains."
+      ],
+      "bottom_line": "Data governance maturity is a genuine gating factor for GenAI adoption -- the question is which governance dimensions matter most for which AI workload types.",
+      "sources": [
+        {
+          "id": "source-023",
+          "title": "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI Adoption: Bridging Innovation and Governance in Large Organisations",
+          "author": "Alexander Ettinger",
+          "url": "https://arxiv.org/abs/2505.06326",
+          "quotes": [
+            "Low data governance maturity is a key barrier to GenAI adoption in large organizations."
+          ]
+        },
+        {
+          "id": "source-049",
+          "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
+          "author": "PwC Research",
+          "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-141",
+      "theme": "EA_transformation",
+      "statement": "The days of coding by hand are coming to an end.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 2,
+        "evidence_type": 2,
+        "actionability": 2,
+        "temporal_durability": 2,
+        "claim_type": "P",
+        "value_score": 2.0,
+        "value_category": "CONTEXTUAL_VALUE"
+      },
+      "critique": "This is a bold prediction that has been made about various technologies over the past decades (4GLs, CASE tools, low-code platforms) with mixed results. AI-assisted coding is demonstrably accelerating development, but the claim overstates the near-term trajectory. Complex system design, edge-case handling, and integration logic continue to require human engineering judgment. The claim also conflates two distinct phenomena: AI generating boilerplate code (already widespread) and AI replacing software engineering as a discipline (speculative). Two sources support it, but neither provides evidence of organisations that have eliminated manual coding entirely.",
+      "practical_value": "Limited as a standalone claim. More useful as context for workforce planning discussions than as architectural guidance.",
+      "action_steps": [
+        "Measure the current percentage of code in your organisation that is AI-generated versus human-written to establish a baseline and track the trajectory.",
+        "Identify which coding tasks are most amenable to AI generation (boilerplate, test creation, documentation) versus those that remain human-intensive (architecture decisions, complex business logic, security review).",
+        "Invest in code review and validation capabilities rather than raw coding capacity -- the bottleneck is shifting from code generation to code quality assurance."
+      ],
+      "bottom_line": "AI is accelerating code generation, but the claim that manual coding is ending overstates the near-term reality -- the shift is from writing code to reviewing, integrating, and validating AI-generated code.",
+      "sources": [
+        {
+          "id": "source-014",
+          "title": "The Great Rebuild: How AI Is Re-Architecting the Tech Organization",
+          "author": "Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+          "quotes": [
+            "I believe the days of coding by hand are coming to an end. No one can convince me otherwise."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "AI is increasingly generating and maintaining software parts, shifting the development lifecycle across industries."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-142",
+      "theme": "EA_transformation",
+      "statement": "Engineering roles are being pushed upstream \u2014 'A lot of engineering activity involves design, merging workstreams, and leading teams... because AI is writing code.'",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 4,
+        "evidence_type": 3,
+        "actionability": 4,
+        "temporal_durability": 3,
+        "claim_type": "E",
+        "value_score": 3.3,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "This claim is more nuanced and actionable than cc-141. It identifies a specific shift -- from code production to design, integration, and team leadership -- that is already observable in organisations with significant AI-assisted development adoption. The claim is supported by Capgemini's framing (\"from writing code to expressing intent\") which adds specificity. However, it does not address the transition challenges: many engineers were hired for coding ability, not design or leadership skills, and the role shift requires significant reskilling that organisations may not be prepared for.",
+      "practical_value": "Directly relevant for engineering managers and HR leaders planning workforce development. The claim provides a clear signal about which skills to invest in.",
+      "action_steps": [
+        "Audit your engineering team's current skill distribution across coding, design, integration, and leadership -- identify the gap between current capabilities and the upstream-shifted role requirements.",
+        "Restructure engineering career ladders to weight design, architecture, and integration skills more heavily relative to raw coding productivity.",
+        "Create training programmes focused on system design thinking, AI-output validation, and cross-functional collaboration rather than language-specific coding skills."
+      ],
+      "bottom_line": "Engineering is shifting from code production to design and integration -- organisations that restructure roles and skills accordingly will adapt faster than those clinging to coding-centric job descriptions.",
+      "sources": [
+        {
+          "id": "source-014",
+          "title": "The Great Rebuild: How AI Is Re-Architecting the Tech Organization",
+          "author": "Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+          "quotes": [
+            "A lot of engineering activity involves design, merging workstreams, and leading teams. Everyone's getting pushed up in that direction because AI is writing code."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "The paradigm moves from writing code to expressing intent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-143",
+      "theme": "agentic_AI_architecture",
+      "statement": "Poorly designed agentic applications can actually add work to a process, with some enterprises finding agentic 'workslop' makes processes even less efficient.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 4,
+        "evidence_type": 3,
+        "actionability": 4,
+        "temporal_durability": 3,
+        "claim_type": "E",
+        "value_score": 3.3,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "This is a valuable counter-narrative to the prevailing enthusiasm around agentic AI. The \"workslop\" concept -- agents generating more work, not less -- captures a real failure mode that is underreported because organisations have incentives to present AI deployments positively. The claim is specific enough to be actionable: it warns against deploying agents into processes not designed for them. However, it lacks quantification of how prevalent this anti-pattern is and what conditions trigger it. Case studies of \"workslop\" in practice would strengthen the claim significantly.",
+      "practical_value": "Highly useful as a risk factor for agent deployment planning. Provides a named anti-pattern that teams can test for before and after deployment.",
+      "action_steps": [
+        "Before deploying an agent, measure the baseline process efficiency (time, steps, human effort) and set a threshold below which the agent deployment should be rolled back.",
+        "After deployment, monitor for workslop indicators -- increased human review time, more exception handling, higher error rates, or additional coordination overhead introduced by the agent.",
+        "Require a \"workslop assessment\" as part of the agent deployment approval process, specifically evaluating whether the target process was designed for agent interaction or is being force-fitted."
+      ],
+      "bottom_line": "Agentic AI can make processes less efficient when agents are deployed into human-designed workflows -- the \"workslop\" anti-pattern is a real risk that requires explicit monitoring and process redesign.",
+      "sources": [
+        {
+          "id": "source-020",
+          "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+          "author": "Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+          "quotes": [
+            "Furthermore, poorly designed agentic applications can actually add work to a process, with some enterprises finding agentic 'workslop' can make processes even less efficient."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-144",
+      "theme": "process_redesign",
+      "statement": "Agents' real value emerges when they start operating as a collective -- like digital skills that compose into organizational capabilities.",
+      "source_count": 3,
+      "ocaf": {
+        "source_convergence": 3,
+        "specificity": 3,
+        "evidence_type": 3,
+        "actionability": 3,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 3.2,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "Three sources converge on the idea that individual agents are less valuable than agent collectives -- multi-agent systems where agents with different skills collaborate on complex tasks. The BCG orchestrator-worker pattern and the consumer goods case study provide some concrete grounding. However, the claim understates the orchestration complexity involved in making agent collectives function reliably. Inter-agent communication, shared state management, error propagation, and accountability attribution across agent teams are unsolved problems at scale. The analogy to \"digital skills composing into capabilities\" is appealing but may oversimplify the coordination challenges.",
+      "practical_value": "Useful as a design principle -- plan for multi-agent systems from the start rather than treating each agent as an isolated deployment. The orchestration patterns (BCG taxonomy) provide starting points.",
+      "action_steps": [
+        "Design your agent architecture with composition in mind -- define standard interfaces, shared context protocols, and handoff patterns that allow agents to collaborate from the outset.",
+        "Start with simple agent compositions (two agents in sequence) and build confidence before attempting complex multi-agent orchestration.",
+        "Implement observability across agent collectives -- trace requests through multi-agent workflows to identify bottlenecks, errors, and unexpected emergent behaviours."
+      ],
+      "bottom_line": "Agent value compounds through composition into collectives, but the orchestration complexity requires deliberate architecture -- treat multi-agent design as a first-class concern, not an afterthought.",
+      "sources": [
+        {
+          "id": "source-020",
+          "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+          "author": "Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+          "quotes": [
+            "If we think of agents as digital skills, their real value emerges when they start operating as a collective."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Orchestrator-Workers is the fifth workflow pattern, coordinating a lead agent that delegates to worker agents."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "One global consumer goods company rebuilt their workflow around meta-agents that orchestrated the work and worker agents that generated insights, tested ideas, and created concepts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-145",
+      "theme": "process_redesign",
+      "statement": "Existing business processes were designed around human staff and must be fundamentally redesigned for agentic environments, with end-to-end process redesign including cross-enterprise composite processes as the key to unlocking agent value.",
+      "source_count": 5,
+      "ocaf": {
+        "source_convergence": 4,
+        "specificity": 4,
+        "evidence_type": 3,
+        "actionability": 4,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 3.8,
+        "value_category": "SIGNIFICANT_VALUE"
+      },
+      "critique": "This is one of the strongest claims in the expanded corpus. Five sources -- BCG, Bain, Capgemini, and Deloitte -- converge on the same core argument, making it one of the most broadly endorsed positions. The specificity is notable: BCG's \"zero-based approach\" and the 80/20 rule (80% effort on workflow redesign, 20% on deployment) provide actionable framing. The cross-enterprise dimension (composite processes spanning organisational boundaries) adds a layer of complexity that most sources acknowledge but none fully addresses. The main gap is methodological: no source provides a step-by-step process redesign methodology adapted for agentic environments.",
+      "practical_value": "High. The claim provides both the diagnostic (\"your processes are human-shaped\") and the directional prescription (\"redesign before you deploy\"). The 80/20 and zero-based framings are directly usable in planning discussions.",
+      "action_steps": [
+        "Select one end-to-end process for zero-based redesign -- start with the outcome, design the agent-native workflow, then identify where human judgment genuinely adds value.",
+        "Apply the 80/20 allocation -- invest 80% of transformation effort in workflow redesign and only 20% in broad agent deployment.",
+        "Map cross-enterprise process dependencies to identify where agent-driven processes will need to interact with external partners' systems and processes."
+      ],
+      "bottom_line": "Five major consultancies agree -- deploying agents into human-designed processes is the primary failure mode; zero-based process redesign is the prerequisite for agent value.",
+      "sources": [
+        {
+          "id": "source-020",
+          "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+          "author": "Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+          "quotes": [
+            "Most businesses' existing processes were designed around human staff."
+          ]
+        },
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "A common mistake is automating what already exists, but real value comes from a zero-based approach \u2014 starting with the outcome you want and reinventing how to deliver it."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Concentrate approximately 80% of efforts on end-to-end workflow redesign and new offerings, with only 20% on broad AI deployment."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "A zero-based approach starts with the outcome you want and reinvents how to deliver it, rather than automating what already exists."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Human work: Most work happens across multiple systems and organizations, with context and informal processes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-146",
+      "theme": "infrastructure_cloud",
+      "statement": "AI infrastructure costs in 2025 shocked organizations unprepared for the economics of production AI.",
+      "source_count": 3,
+      "ocaf": {
+        "source_convergence": 3,
+        "specificity": 3,
+        "evidence_type": 3,
+        "actionability": 3,
+        "temporal_durability": 3,
+        "claim_type": "E",
+        "value_score": 3.0,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "Three sources corroborate the cost shock, and Bain's projection (5-10% of tech spending near-term, potentially 50% long-term) provides useful quantification. The claim captures a real phenomenon -- the gap between pilot-scale costs (manageable) and production-scale costs (often order-of-magnitude higher) -- that continues to surprise organisations. However, the claim does not disaggregate costs by workload type (inference vs training vs fine-tuning), which matters because the cost profiles differ dramatically. Additionally, the cost trajectory is changing rapidly as model efficiency improves and inference costs decline.",
+      "practical_value": "Useful as a planning input -- organisations should budget for production AI costs that are substantially higher than pilot costs. The Bain spending projections provide calibration points.",
+      "action_steps": [
+        "Build a production AI cost model that distinguishes inference, training, fine-tuning, storage, and orchestration costs -- do not extrapolate from pilot economics.",
+        "Implement cost monitoring and alerting for AI workloads from the first production deployment -- cost surprises compound when they are discovered late.",
+        "Evaluate model efficiency optimisations (smaller models, distillation, quantisation) as cost management tools, not just performance optimisations."
+      ],
+      "bottom_line": "Production AI costs are substantially higher than pilot costs -- organisations need dedicated cost modelling and monitoring to avoid the infrastructure cost shock that hit many in 2025.",
+      "sources": [
+        {
+          "id": "source-004",
+          "title": "From AI Pilots to Production Reality: Architecture Lessons from 2025 and What 2026 Demands",
+          "author": "Nithin Mohan TK",
+          "url": "https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/",
+          "quotes": [
+            "AI infrastructure costs in 2025 shocked organizations unprepared for the economics of production AI."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Over the next three to five years, 5% to 10% of technology spending could be directed toward building foundational capabilities, including agent platforms, communication protocols, real-time data access and discoverability for agents, and modern security and observability frameworks."
+          ]
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-147",
+      "theme": "infrastructure_cloud",
+      "statement": "Self-healing capability in enterprise infrastructure \u2014 where AI agents detect and remediate issues autonomously \u2014 reduces downtime and enhances continuity.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 3,
+        "evidence_type": 2,
+        "actionability": 3,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 3.0,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "Self-healing infrastructure is an established concept in site reliability engineering (SRE) and has been partially implemented through auto-scaling, circuit breakers, and automated failover for years. The AI dimension adds predictive capability and broader remediation scope, which is genuinely new. However, the claim presents self-healing as more mature than it currently is -- most implementations are rule-based (if X then Y) rather than truly autonomous. The claim also does not address the trust and accountability challenges: when an AI agent autonomously remediates a production issue, who is accountable if the remediation causes additional harm? Two sources support the claim but provide limited evidence of large-scale implementation.",
+      "practical_value": "Directionally useful for infrastructure architects planning AIOps capabilities. The concept is sound but implementation maturity is lower than the claim suggests.",
+      "action_steps": [
+        "Start with AI-assisted detection (anomaly detection, predictive alerting) before attempting autonomous remediation -- build trust incrementally.",
+        "Define clear boundaries for autonomous remediation -- which actions can the AI take without human approval, and which require escalation?",
+        "Implement comprehensive logging and audit trails for all AI-driven remediation actions to support post-incident analysis and accountability."
+      ],
+      "bottom_line": "AI-driven self-healing infrastructure is directionally sound but less mature than presented -- start with detection and build toward remediation incrementally, with clear accountability boundaries.",
+      "sources": [
+        {
+          "id": "source-001",
+          "title": "Agentic AI-driven enterprise architecture: a foundational framework for scalable, secure, and resilient systems",
+          "author": "Prince Kumar",
+          "url": "https://www.google.com/search?q=Agentic+AI-driven+enterprise+architecture%3A+a+foundational+framework+for+scalable%2C+secure%2C+and+resilient+systems",
+          "quotes": [
+            "This introduces self-healing capability into enterprise infrastructure, reducing downtime and enhancing continuity."
+          ]
+        },
+        {
+          "id": "source-036",
+          "title": "Technology Architecture of Tomorrow",
+          "author": "Saurabh Chauhan, Shekhar Marathe, Darshana Thakker, Jens Muller et al. (BCG Platinion)",
+          "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
+          "quotes": [
+            "Mechanisms for self-healing will be essential if organizations are to maintain high availability and security while cutting costs.",
+            "Because of this, self-healing systems will become the new standard for efficiency, security, and overall resilience.",
+            "When a system can detect, diagnose, and repair issues in a predictive way, costly downtime is reduced immediately."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-148",
+      "theme": "AI_strategy_leadership",
+      "statement": "AI sovereignty \u2014 retaining control over data, models, and decision rights \u2014 is moving from an IT concern to a board-level priority.",
+      "source_count": 5,
+      "ocaf": {
+        "source_convergence": 4,
+        "specificity": 4,
+        "evidence_type": 4,
+        "actionability": 4,
+        "temporal_durability": 4,
+        "claim_type": "E",
+        "value_score": 4.0,
+        "value_category": "HIGH_VALUE"
+      },
+      "critique": "This is one of the strongest claims in the expanded corpus. Five independent sources -- spanning European, US, and global consultancies -- converge on AI sovereignty as a strategic priority. The claim is supported by specific survey data (82% of EMEA organisations refining cloud approaches, 54% prioritising sovereignty). The shift from IT concern to board-level priority is well-evidenced and aligns with regulatory trends (EU AI Act, data localisation requirements). The claim is specific about what sovereignty encompasses (data, models, decision rights) and multiple sources provide concrete recommendations (sovereignty-by-default frameworks). The main limitation is geographic bias -- the urgency is primarily European and varies by sector.",
+      "practical_value": "High. The claim provides both strategic justification for sovereignty investment and specific architectural implications (data residency, model provenance, cloud strategy constraints).",
+      "action_steps": [
+        "Conduct a sovereignty audit of current AI workloads -- map data residency, model training data provenance, and decision rights across all production AI systems.",
+        "Evaluate your cloud architecture against sovereignty requirements for each jurisdiction you operate in -- identify workloads that may need migration to sovereign or private cloud.",
+        "Adopt a sovereignty-by-default approach for all new AI systems -- build sovereignty constraints into architecture requirements from the outset rather than retrofitting.",
+        "Brief the board on sovereignty as an architecture constraint, not just a compliance requirement -- the infrastructure implications affect investment planning and vendor strategy."
+      ],
+      "bottom_line": "AI sovereignty is a board-level architecture decision supported by strong survey data -- organisations operating across jurisdictions need sovereignty-by-default design principles built into their AI infrastructure.",
+      "sources": [
+        {
+          "id": "source-026",
+          "title": "How Enterprise Architecture Enables AI Sovereignty -- With Governance at the Core",
+          "author": "MRCS Cloud",
+          "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
+          "quotes": [
+            "As AI becomes woven into day-to-day business, AI sovereignty -- retaining control over your data, models, and decision rights -- moves from an IT concern to a board-level priority."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Data and AI sovereignty concerns reflect growing awareness of the strategic importance of controlling the data that powers AI systems."
+          ]
+        },
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "Sovereignty-by-default approaches to data governance are emerging as a strategic priority."
+          ]
+        },
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Data sensitivity requirements drive the need for sovereign cloud architectures that keep proprietary data under organizational control."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-149",
+      "theme": "AI_strategy_leadership",
+      "statement": "Embedding adaptability and an always-beta mindset into structure, culture, and strategy creates organizations that learn as fast as the technology they harness.",
+      "source_count": 4,
+      "ocaf": {
+        "source_convergence": 3,
+        "specificity": 2,
+        "evidence_type": 2,
+        "actionability": 2,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 2.6,
+        "value_category": "CONTEXTUAL_VALUE"
+      },
+      "critique": "Four sources converge on adaptability as a strategic requirement, and BCG/MIT SMR's \"radical adaptability\" framing adds specificity. However, \"always-beta\" and \"learn as fast as the technology\" are aspirational rather than operational concepts. The claim does not specify what organisational structures, decision processes, or cultural practices actually produce adaptability. Saying organisations need to be adaptable is a truism -- the value lies in specifying how, which this claim does not adequately address. The BCG concept of designing the operating model itself to evolve is more concrete but remains at the principle level rather than the practice level.",
+      "practical_value": "Useful as a strategic framing and conversation starter with leadership, but practitioners need more specific guidance on what \"embedding adaptability\" means in organisational design terms.",
+      "action_steps": [
+        "Identify the three decisions in your AI programme that take longest to make -- these are your adaptability bottlenecks. Design faster decision mechanisms for each.",
+        "Implement time-boxed architecture decisions with explicit review dates rather than seeking permanent architectural commitments in a rapidly evolving landscape.",
+        "Create an architecture radar that tracks emerging technologies and patterns, with trigger points for reassessing current architectural decisions."
+      ],
+      "bottom_line": "Adaptability as a strategic principle is widely endorsed but underspecified -- the practical challenge is designing decision mechanisms and organisational structures that enable rapid adaptation.",
+      "sources": [
+        {
+          "id": "source-014",
+          "title": "The Great Rebuild: How AI Is Re-Architecting the Tech Organization",
+          "author": "Deloitte Insights",
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+          "quotes": [
+            "Embedding adaptability and an always-beta mindset into their structure, culture, and strategy creates organizations that learn as fast as the technology they harness."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "Radical adaptability means the operating model itself must be designed to evolve.",
+            "Leaders must build radical adaptability into the operating model."
+          ]
+        },
+        {
+          "id": "source-038",
+          "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+          "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+          "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+          "quotes": [
+            "Many of these choices will need to be made in a landscape of rapidly evolving generative AI technologies, necessitating some no-regret moves now while maintaining flexibility to adapt."
+          ]
+        },
+        {
+          "id": "source-046",
+          "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
+          "author": "KPMG International",
+          "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-150",
+      "theme": "EA_AI_convergence",
+      "statement": "Only 22% of organisations have architectures that fully support AI workloads without modifications, and only 23% can connect AI applications to relevant business data without changes.",
+      "source_count": 3,
+      "ocaf": {
+        "source_convergence": 3,
+        "specificity": 5,
+        "evidence_type": 5,
+        "actionability": 4,
+        "temporal_durability": 3,
+        "claim_type": "E",
+        "value_score": 4.1,
+        "value_category": "HIGH_VALUE"
+      },
+      "critique": "This is the most empirically grounded claim in the infrastructure readiness cluster. Multiple survey-backed data points converge: 22% architecture-ready, 23% data-connected, 87% reporting substantial barriers (EY). The specificity of the percentages and the large sample sizes (KPMG n=2,500; Economist n=1,100) make this one of the most defensible claims in the corpus. The limitation is that these are self-reported assessments -- organisations may over- or under-estimate their readiness depending on how \"fully support\" and \"without modifications\" are defined. Different surveys may also use different thresholds, making direct comparison imprecise.",
+      "practical_value": "High. The specific percentages are directly usable in business cases, board presentations, and strategic planning documents. They quantify the gap between AI ambition and infrastructure reality.",
+      "action_steps": [
+        "Assess your own organisation against these benchmarks -- can your architecture fully support AI workloads without modification? Can you connect AI applications to business data without changes?",
+        "Use the 22%/23% figures to calibrate expectations with leadership -- if you are in the majority that requires modifications, plan and budget for infrastructure adaptation before scaling AI.",
+        "Prioritise the specific modifications needed -- is the gap in compute, networking, data integration, security, or all of the above?"
+      ],
+      "bottom_line": "Survey data from 3,600+ executives confirms that roughly 78% of organisations lack AI-ready architectures -- this is the quantitative foundation for infrastructure investment business cases.",
+      "sources": [
+        {
+          "id": "source-003",
+          "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+          "author": "Economist Impact (commissioned by Databricks)",
+          "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+          "quotes": [
+            "Only 22% of organisations have architectures that fully support AI workloads without modifications, and only 23% can connect AI applications to relevant business data without changes \u2014 architects are tasked with bridging this gap."
+          ]
+        },
+        {
+          "id": "source-043",
+          "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+          "author": "Dan Diasio, Joe Depa (EY)",
+          "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+          "quotes": [
+            "The initiative addresses a significant market challenge: 87% of senior leaders report substantial barriers to adopting agentic AI."
+          ]
+        },
+        {
+          "id": "source-048",
+          "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+          "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+          "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-151",
+      "theme": "ROI_value_business",
+      "statement": "The 'service-as-a-software' model transforms the enterprise economics of AI adoption \u2014 instead of purchasing software licences or SaaS subscriptions, businesses pay for specific outcomes delivered by AI agents, shifting from per-seat pricing to outcome-based pricing.",
+      "source_count": 3,
+      "ocaf": {
+        "source_convergence": 3,
+        "specificity": 4,
+        "evidence_type": 3,
+        "actionability": 3,
+        "temporal_durability": 3,
+        "claim_type": "P",
+        "value_score": 3.2,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "Three sources identify the shift from software-as-a-service to service-as-a-software (or outcome-based pricing), and the concept is genuinely novel in the enterprise context. The economic logic is compelling: if AI agents deliver outcomes rather than provide tools, pricing should reflect outcomes rather than seats. However, the claim understates the implementation complexity. Outcome-based pricing requires measurable, attributable outcomes -- which is straightforward for some tasks (document processing, data extraction) but difficult for others (strategic analysis, creative work). The model also shifts risk to the vendor, which will be reflected in pricing premiums. No source provides examples of this model operating at scale.",
+      "practical_value": "Strategically useful for procurement and vendor management teams evaluating AI service contracts. The concept provides a negotiation framework for moving beyond per-seat pricing.",
+      "action_steps": [
+        "Identify AI use cases in your portfolio where outcomes are clearly measurable and attributable -- these are candidates for outcome-based procurement.",
+        "In vendor negotiations, explore outcome-based pricing models as an alternative to per-seat licensing, particularly for agent-delivered services.",
+        "Build internal capability to measure and attribute outcomes to specific AI services -- without this, outcome-based pricing is unverifiable."
+      ],
+      "bottom_line": "The service-as-a-software model is a compelling pricing evolution for AI, but it requires measurable, attributable outcomes -- organisations should pilot it on clearly measurable use cases first.",
+      "sources": [
+        {
+          "id": "source-031",
+          "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
+          "author": "PwC",
+          "url": "https://www.google.com/search?q=Agentic+AI+%E2%80%94+the+new+frontier+in+GenAI%3A+An+executive+playbook",
+          "quotes": [
+            "Organisations managing day-to-day operations stand to gain significantly from agentic AI systems, embracing the emerging \"service-as-a-software\" model. This innovative approach transforms manual labour into automated, AI-driven services."
+          ]
+        },
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "Outcome-based business models"
+          ]
+        },
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "Alternative commercial models reflect a shift from traditional service pricing to value-based approaches."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-152",
+      "theme": "agentic_AI_architecture",
+      "statement": "The transition from copilot to autopilot modes represents a maturity progression where organizations initially deploy AI in a human-in-the-loop 'copilot' role, build trust through demonstrated reliability, and then transition to autonomous 'autopilot' operation.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 4,
+        "evidence_type": 3,
+        "actionability": 4,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 3.5,
+        "value_category": "SIGNIFICANT_VALUE"
+      },
+      "critique": "The copilot-to-autopilot progression is an intuitive and useful maturity model. BCG's three-tier framework (Foundation, Workflow, Autonomous) adds granularity. The trust-building mechanism -- demonstrated reliability earning autonomy -- is well-grounded in both organisational change theory and safety engineering. The claim appropriately notes that full autonomy should be reserved for \"highly mature, low-risk environments where the cost of error is negligible.\" However, the claim does not address the measurement challenge: how does an organisation objectively assess when an agent has demonstrated sufficient reliability to warrant increased autonomy? Without defined reliability thresholds and evaluation protocols, the transition from copilot to autopilot becomes a subjective judgment call.",
+      "practical_value": "Directly usable as a deployment planning framework. The copilot-autopilot-transition model gives organisations a structured path for scaling agent autonomy.",
+      "action_steps": [
+        "Define explicit reliability thresholds for each agent -- measurable criteria (accuracy rate, error frequency, escalation rate) that must be met before increasing autonomy.",
+        "Implement a graduated autonomy framework with clear gates between copilot and autopilot modes, including rollback procedures if performance degrades.",
+        "Start every agent deployment in copilot mode regardless of the technology's capability -- the trust-building phase is as much about organisational readiness as about agent reliability."
+      ],
+      "bottom_line": "The copilot-to-autopilot progression provides a practical deployment framework -- the key gap is defining measurable reliability thresholds that justify each increase in agent autonomy.",
+      "sources": [
+        {
+          "id": "source-031",
+          "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
+          "author": "PwC",
+          "url": "https://www.google.com/search?q=Agentic+AI+%E2%80%94+the+new+frontier+in+GenAI%3A+An+executive+playbook",
+          "quotes": [
+            "This human-in-the-loop approach helps organisations build trust in AI capabilities over time. As AI systems demonstrate their reliability, businesses can confidently transition to an \"autopilot\" mode, where AI operates autonomously, enhancing efficiency and reducing the need for human oversight."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "A three-tier autonomy framework progresses from Foundation to Workflow to Autonomous.",
+            "Full autonomy is reserved for highly mature, low-risk environments where the cost of error is negligible compared to the gain in efficiency."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-153",
+      "theme": "enterprise_as_code",
+      "statement": "Codifying an organization's implicit operating model -- capturing workflows, decision rules, and business logic as executable code -- is a prerequisite for effective AI agent deployment and creates a new source of competitive advantage.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 4,
+        "evidence_type": 2,
+        "actionability": 3,
+        "temporal_durability": 5,
+        "claim_type": "N",
+        "value_score": 3.4,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "This is the most conceptually novel claim in the expanded corpus. BCG's Enterprise as Code concept connects process documentation, business logic codification, and AI-readiness into a unified paradigm. The logical chain is compelling: agents operate on explicit knowledge; most organisations have implicit operating models; therefore, codifying the operating model is a prerequisite for agent value. However, the claim understates the difficulty. Codifying implicit knowledge is a well-known challenge in knowledge management that has resisted decades of effort. Much organisational knowledge is tacit, contextual, and embodied in relationships and informal practices that resist formalisation. No source provides evidence of an organisation that has successfully codified its complete operating model.",
+      "practical_value": "Strategically important as a directional concept. The aspiration is sound even if the full vision is distant. Starting with high-value process codification is a practical first step.",
+      "action_steps": [
+        "Select one high-volume, well-understood business process and codify its decision rules, exception paths, and governance controls in a machine-readable format as a pilot.",
+        "Evaluate tooling options for business logic codification -- BPMN engines, rules engines, domain-specific languages -- and select based on your organisation's technical maturity.",
+        "Treat Enterprise as Code as a multi-year programme with incremental value delivery, not a transformation big-bang -- codify processes progressively, starting with those most likely to benefit from agent deployment."
+      ],
+      "bottom_line": "Enterprise as Code is the most novel concept in the expanded corpus -- codifying implicit operating models is directionally essential for AI agent value, but the journey is long and should start small.",
+      "sources": [
+        {
+          "id": "source-033",
+          "title": "Enterprise as Code: An Operating Model for the AI Era",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+          "quotes": [
+            "At its core, enterprise as code is about explicitly defining how a business operates by capturing the implicit operating model and expressing it as code.",
+            "This allows both people and systems to understand, test, and improve how organizations run, whether the systems involved are automation frameworks, analytical tools, or AI agents.",
+            "Embracing this shift requires organizations to move from intuition to specification.",
+            "Clarity acts as an accelerant \u2014 the more precisely work is defined, the faster it can evolve.",
+            "Enterprise as code will democratize capability itself by giving businesses the power to design, execute, and evolve operations."
+          ]
+        },
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Organizations need to identify their business context fabric by surfacing the unwritten principles their teams follow."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-154",
+      "theme": "AI_transformation_effort",
+      "statement": "AI transformation work follows a 10/20/70 distribution: 10% algorithms, 20% technology backbone, and 70% people and processes -- making organizational and process change the dominant factor, not the technology itself.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 5,
+        "evidence_type": 3,
+        "actionability": 4,
+        "temporal_durability": 4,
+        "claim_type": "E",
+        "value_score": 3.8,
+        "value_category": "SIGNIFICANT_VALUE"
+      },
+      "critique": "The 10/20/70 rule provides a specific, memorable quantification that is immediately useful for planning and resource allocation. Two BCG sources provide consistent reinforcement. The claim is consistent with decades of change management research showing that technology is the smaller part of transformation. However, the specific percentages appear to be BCG's heuristic rather than empirically derived ratios -- no methodology for calculating them is provided. The claim also risks being interpreted too literally: the ratio will vary by organisation maturity, industry, and transformation scope. For a highly mature organisation with strong processes, the technology component may be proportionally larger.",
+      "practical_value": "High. The 10/20/70 ratio is a powerful planning tool and conversation reframer. It shifts budget and attention toward the people and process dimensions that most organisations underinvest in.",
+      "action_steps": [
+        "Audit your current AI transformation budget allocation against the 10/20/70 benchmark -- most organisations will find they are overinvesting in algorithms and technology relative to people and process change.",
+        "Reallocate transformation resources to weight change management, process redesign, and skill development more heavily -- aim for at least 50% of effort on people and process dimensions.",
+        "Use the 10/20/70 rule in stakeholder communications to set expectations that AI transformation is primarily an organisational change initiative, not a technology deployment."
+      ],
+      "bottom_line": "The 10/20/70 rule is a useful heuristic for transformation planning -- most organisations overinvest in technology (30%) and underinvest in people and process change (70%).",
+      "sources": [
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "The 10/20/70 rule states that algorithms account for 10% of AI transformation work.",
+            "Technology backbone accounts for 20% of AI transformation work.",
+            "People and processes account for 70% of AI transformation work."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "The 10/20/70 rule applies: 10% algorithms, 20% tech, 70% people and processes.",
+            "Organizations should follow the 10/20/70 rule to emphasize people and processes as part of guiding principles for scaling agentic AI."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-155",
+      "theme": "centralized_decentralized_AI_platform",
+      "statement": "Shared AI platforms should follow a 'freedom within a frame' design -- providing centralized infrastructure, governance, and shared tools while allowing decentralized innovation by business units, cutting costs by up to 30% and improving time to market by 50%.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 5,
+        "evidence_type": 3,
+        "actionability": 5,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 4.0,
+        "value_category": "HIGH_VALUE"
+      },
+      "critique": "The \"freedom within a frame\" concept provides a specific, actionable design pattern for AI platform governance that resolves a genuine organisational tension (central control vs business unit innovation). The quantified benefits (30% cost reduction, 25% productivity lift, 50% time-to-market improvement) add credibility, though these are BCG's client-work estimates rather than independently validated benchmarks. The claim is highly actionable -- it provides both the architectural principle and the governance model. The main limitation is that the balance point between \"freedom\" and \"frame\" is context-dependent and the claim does not specify how to calibrate it. Organisations with stronger governance cultures will draw the frame tighter; those prioritising innovation will draw it wider.",
+      "practical_value": "High. The design pattern is immediately applicable to AI platform strategy. The concept gives architects a named pattern to propose and discuss with stakeholders.",
+      "action_steps": [
+        "Define your \"frame\" -- the non-negotiable centralised components (security, model governance, cost controls, data access policies, observability) that all business units must use.",
+        "Define the \"freedom\" -- which decisions business units can make independently (model selection for specific use cases, prompt engineering, workflow design, agent configuration).",
+        "Implement the platform with shared services for the frame components and self-service capabilities for the freedom components, with clear documentation of what falls in each category."
+      ],
+      "bottom_line": "\"Freedom within a frame\" is one of the most actionable design patterns in the corpus -- centralise governance and infrastructure, decentralise innovation and application, and define the boundary explicitly.",
+      "sources": [
+        {
+          "id": "source-034",
+          "title": "How Agentic AI is Transforming Enterprise Platforms",
+          "author": "BCG",
+          "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+          "quotes": [
+            "Companies need a shared AI platform that gives P&L owners freedom within a frame \u2014 centralized infrastructure with decentralized innovation.",
+            "In work with clients, shared tools and data can cut costs by up to 30% and lift productivity by 25%.",
+            "As reuse increases, time to market can improve by 50%."
+          ]
+        },
+        {
+          "id": "source-035",
+          "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+          "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+          "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+          "quotes": [
+            "CEOs should assemble a shared AI platform that gives teams freedom within a frame."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-156",
+      "theme": "pragmatic_over_purist_architecture",
+      "statement": "Pragmatic, fit-for-purpose architectural approaches will outperform idealized, purist architecture visions in the near term, because enterprise realities (vendor lock-in, data silos, security requirements) prevent clean theoretical architectures from surviving contact with production. For SMEs, 'just enough architecture' may be the appropriate stance.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 4,
+        "evidence_type": 3,
+        "actionability": 4,
+        "temporal_durability": 3,
+        "claim_type": "N",
+        "value_score": 3.3,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "Bain and PwC Switzerland converge on pragmatism over purism, which is a useful counterweight to the aspirational architecture visions presented by other consultancies. The \"just enough architecture\" concept from PwC Switzerland is particularly relevant for SMEs and mid-market organisations that lack the resources for comprehensive EA programmes. The claim correctly identifies that enterprise realities (vendor lock-in, data silos, security) constrain architectural choices in ways that pure theory does not account for. However, the claim risks being used to justify architectural shortcuts that create long-term technical debt. The distinction between pragmatic simplification and harmful corner-cutting is not addressed.",
+      "practical_value": "Useful as a calibration tool -- particularly for smaller organisations or those early in their AI journey who may be overwhelmed by the scope of enterprise architecture recommendations.",
+      "action_steps": [
+        "Assess which architectural decisions need to be made now (integration patterns, data access, security model) versus which can be deferred without creating irreversible constraints.",
+        "For each architectural decision, apply the \"just enough\" test -- what is the minimum architectural investment that avoids creating technical debt while not over-engineering for hypothetical future requirements?",
+        "Document architectural decisions and their rationale, including which corners were consciously cut and what triggers should prompt revisiting those decisions."
+      ],
+      "bottom_line": "Pragmatic, fit-for-purpose architecture is the right stance for most organisations in the near term -- but \"pragmatic\" requires documenting trade-offs, not ignoring them.",
+      "sources": [
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "The pace of innovation demands pragmatism, not purity; winners will build momentum with fit-for-purpose solutions.",
+            "A purist view of architecture won't meet the moment.",
+            "Much like Web 3.0, the expectation is these visions to serve as a useful aspiration, but they won't survive contact with enterprise reality unchanged.",
+            "For this reason, a rigid approach to architecture falls short of what's needed.",
+            "Fit-for-purpose custom builds will dominate enterprise-wide architectures for some time."
+          ]
+        },
+        {
+          "id": "source-053",
+          "title": "Enterprise Architecture in Swiss SMEs",
+          "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+          "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-157",
+      "theme": "distributed_accountability",
+      "statement": "Accountability for AI agents should be distributed to business domains rather than centralized in IT, with central platform teams controlling core infrastructure while business units are responsible for assembling, training, testing, deploying, and monitoring agents.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 4,
+        "evidence_type": 2,
+        "actionability": 4,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 3.4,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "Bain and PwC converge on a distributed accountability model that mirrors the \"freedom within a frame\" pattern (cc-155) applied to organisational responsibility. The claim is specific about the division: central teams own infrastructure, business units own agents. This is architecturally sound and aligns with platform engineering principles. However, the claim does not address the accountability gap that emerges when an agent built by a business unit causes harm using infrastructure provided by the central team. Distributed accountability requires clear contracts between central and domain teams about responsibilities, escalation paths, and shared governance mechanisms.",
+      "practical_value": "Directly usable for organisational design discussions around AI governance. The central-domain split provides a clear starting model.",
+      "action_steps": [
+        "Define the explicit boundary between central platform team responsibilities (infrastructure, security, model hosting, cost management) and business unit responsibilities (agent design, training, deployment, monitoring).",
+        "Create service-level agreements between central and domain teams that specify response times, support boundaries, and escalation procedures.",
+        "Establish shared governance mechanisms (regular review boards, incident response protocols) for situations that span the central-domain boundary."
+      ],
+      "bottom_line": "Distributing agent accountability to business domains while centralising infrastructure is organisationally sound -- but requires explicit contracts and shared governance at the boundary.",
+      "sources": [
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "While central platform teams will control the core agentic platforms, accountability for assembling, training, testing, deploying, and monitoring agents needs to be distributed to business domains."
+          ]
+        },
+        {
+          "id": "source-039",
+          "title": "State of the Art of Agentic AI Transformation",
+          "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+          "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+          "quotes": [
+            "Charge general managers with meeting these targets, not the CIO or CTO."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-158",
+      "theme": "ai_finops",
+      "statement": "AI Financial Operations (AI FinOps) is emerging as a distinct organizational discipline for managing and optimizing AI spend, analogous to how cloud FinOps emerged for cloud spending, moving from ad hoc AI spending to institutionalized financial management. Only 10% of organizations have mature FinOps governance.",
+      "source_count": 3,
+      "ocaf": {
+        "source_convergence": 3,
+        "specificity": 4,
+        "evidence_type": 4,
+        "actionability": 4,
+        "temporal_durability": 4,
+        "claim_type": "E",
+        "value_score": 3.9,
+        "value_category": "SIGNIFICANT_VALUE"
+      },
+      "critique": "Three sources converge on AI FinOps as an emerging discipline, and the 10% maturity figure from PwC EMEA provides a compelling urgency data point. The cloud FinOps analogy is apt -- organisations faced similar cost management challenges during cloud migration, and the discipline that emerged provides a useful template. The claim is well-supported by the survey data and directly actionable. The main gap is that no source provides a comprehensive AI FinOps framework -- the discipline is named and its necessity established, but the specific practices, metrics, organisational structures, and tooling that constitute mature AI FinOps are not detailed.",
+      "practical_value": "High. The 10% maturity figure is a wake-up call for organisations scaling AI investment without financial governance. The cloud FinOps analogy provides a familiar starting point.",
+      "action_steps": [
+        "Establish basic AI cost visibility -- tag and track AI-related spending (inference, training, storage, licensing, personnel) separately from general IT costs.",
+        "Implement cost-per-outcome metrics for AI workloads -- not just total cost, but cost per inference, cost per agent task completed, cost per business outcome delivered.",
+        "Create an AI FinOps function or embed AI cost management into your existing FinOps team with specific responsibility for AI cost optimisation, forecasting, and reporting."
+      ],
+      "bottom_line": "AI FinOps is a necessary discipline that 90% of organisations lack -- establishing basic cost visibility and per-outcome metrics is the minimum viable starting point.",
+      "sources": [
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "AI FinOps is positioned as the key ROI measurement mechanism for managing and optimizing AI spend across the enterprise.",
+            "Institutionalizing AI FinOps enables organizations to move from ad hoc AI spending to disciplined financial management of AI investments."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "At the same time, organizations must manage the volatility of compute costs through dynamic resource allocation, edge deployment strategies, and AI-native financial operations practices."
+          ]
+        },
+        {
+          "id": "source-050",
+          "title": "PwC's 2025 EMEA Cloud Business Survey",
+          "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+          "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "id": "cc-159",
+      "theme": "poc_fatigue",
+      "statement": "Proof-of-concept (POC) fatigue -- where scattered AI initiatives dilute focus and squander resources -- is a recognized obstacle, and the solution is ruthless prioritization, narrowing from breadth to depth on a small number of high-impact use cases.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 4,
+        "evidence_type": 4,
+        "actionability": 5,
+        "temporal_durability": 3,
+        "claim_type": "E",
+        "value_score": 3.7,
+        "value_category": "SIGNIFICANT_VALUE"
+      },
+      "critique": "EY's internal case study provides concrete evidence: 800+ AI use cases identified, then narrowed to 20 key opportunities. This 40:1 reduction ratio is a powerful data point for organisations struggling with initiative sprawl. Capgemini corroborates from a different angle. The claim is highly actionable -- the prescription (ruthless prioritisation, narrow to depth) is clear and immediately applicable. The limitation is that the claim does not provide criteria for prioritisation: how should organisations select which use cases to pursue and which to kill? EY narrowed to 20, but the selection methodology is not detailed.",
+      "practical_value": "Very high. The combination of a named problem (POC fatigue), a quantified example (800 to 20), and a clear prescription (narrow, do not broaden) makes this one of the most immediately useful claims.",
+      "action_steps": [
+        "Count your active AI initiatives -- if you have more than 20, you likely have POC fatigue and need to consolidate.",
+        "Apply a ruthless prioritisation framework: score each initiative on business impact, feasibility, strategic alignment, and data readiness. Kill or pause the bottom 80%.",
+        "For the surviving initiatives, invest deeply -- dedicate cross-functional teams, allocate production-grade infrastructure, and set clear success metrics with deadlines."
+      ],
+      "bottom_line": "EY narrowed 800+ AI use cases to 20 -- if your organisation has not performed similar ruthless prioritisation, POC fatigue is likely diluting your AI investment returns.",
+      "sources": [
+        {
+          "id": "source-044",
+          "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+          "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+          "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+          "quotes": [
+            "Amidst the drive to create exponential value, EY teams encountered proof of concept (POC) fatigue, as scattered AI initiatives throughout the global organization threatened to dilute focus and squander resources.",
+            "Honing the focus on strategic AI investments, prioritizing long-term value and measurable growth, EY teams narrowed over 800 AI use cases down to 20 key opportunities.",
+            "POC fatigue was identified as a major obstacle, where scattered AI initiatives threatened to dilute focus and resources."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Nearly two thirds say they have started pausing lower-value AI projects to redirect their efforts toward high-impact areas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-160",
+      "theme": "human_ai_chemistry",
+      "statement": "Human-AI chemistry -- the ability of humans and AI to collaborate effectively -- is being positioned as a core organizational capability that goes beyond upskilling to encompass organizational design, workflow integration, and cultural acceptance.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 3,
+        "evidence_type": 2,
+        "actionability": 3,
+        "temporal_durability": 4,
+        "claim_type": "N",
+        "value_score": 3.0,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "Capgemini introduces \"human-AI chemistry\" as a concept that extends beyond individual upskilling to organisational design and culture. The framing is useful -- it recognises that effective human-AI collaboration requires systemic change, not just training. However, the concept remains at a high level of abstraction. What specific organisational design changes enable human-AI chemistry? What cultural attributes matter? How is it measured? Without these specifics, the concept risks being another piece of consultant vocabulary without operational substance. The two supporting sources provide the concept but not the implementation detail.",
+      "practical_value": "Useful as a framing that broadens the human-AI conversation beyond training to organisational design and culture. Practitioners need to add their own specifics.",
+      "action_steps": [
+        "Assess human-AI collaboration effectiveness in your current AI deployments -- are humans and AI agents working together productively, or is the interaction creating friction?",
+        "Identify organisational design barriers to effective human-AI collaboration -- reporting structures, incentive systems, decision rights, and workflow designs that impede productive interaction.",
+        "Design human-AI workflow pilots that explicitly test different collaboration models (AI suggests/human decides, AI drafts/human reviews, AI acts/human monitors) and measure effectiveness."
+      ],
+      "bottom_line": "Human-AI chemistry broadens the collaboration conversation from individual skills to organisational design -- the concept is useful but needs operational specifics to be actionable.",
+      "sources": [
+        {
+          "id": "source-040",
+          "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+          "author": "Pascal Brier, Mark Roberts (Capgemini)",
+          "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+          "quotes": [
+            "Human-AI chemistry \u2014 the ability of humans and AI to collaborate effectively \u2014 is positioned as a core organizational capability."
+          ]
+        },
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "Build human-AI chemistry as a core organizational capability.",
+            "Human-AI chemistry goes beyond upskilling to encompass organizational design, workflow integration, and cultural acceptance.",
+            "Human-AI chemistry requires deliberate organizational design, not just tool deployment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-161",
+      "theme": "external_partnerships",
+      "statement": "External partnerships are becoming critical enablers for enterprise AI deployment, with 59% citing them as essential, because AI complexity increasingly exceeds the internal capabilities of most organizations.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 3,
+        "evidence_type": 4,
+        "actionability": 3,
+        "temporal_durability": 3,
+        "claim_type": "E",
+        "value_score": 3.2,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "The 59% figure provides empirical grounding, and the claim captures a real dynamic -- AI deployment requires specialised skills, infrastructure, and experience that most organisations do not have internally. However, the claim is partly self-serving when made by consultancies (Capgemini, EY) whose business model depends on external partnerships. This does not invalidate the claim, but the source bias should be noted. The claim also does not distinguish between different types of partnerships (consulting, technology vendor, system integrator, academic) or specify which capabilities are most effectively sourced externally versus built internally.",
+      "practical_value": "Useful for organisations debating build-versus-buy-versus-partner strategies for AI capabilities. The 59% figure validates the decision to seek external help.",
+      "action_steps": [
+        "Map your AI capability gaps -- which skills, technologies, and experiences are you missing internally? Prioritise the gaps that are blocking your highest-value use cases.",
+        "Evaluate partnership models (consulting engagement, managed service, co-development, strategic alliance) for each capability gap and select the model that best balances speed, cost, and knowledge transfer.",
+        "Build knowledge transfer requirements into every external partnership -- the goal is to build internal capability over time, not to create permanent dependency."
+      ],
+      "bottom_line": "External partnerships are necessary for most organisations' AI deployments, but the source bias of consultancy-authored claims should be noted -- build knowledge transfer into every engagement.",
+      "sources": [
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "External partnerships are cited by 59% as a critical enabler for AI deployment.",
+            "External partnerships accelerate AI deployment by providing capabilities, expertise, and scale that organizations cannot build internally fast enough.",
+            "External partnerships become more critical as AI complexity exceeds the internal capabilities of most organizations."
+          ]
+        },
+        {
+          "id": "source-045",
+          "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+          "author": "James Brundage (EY)",
+          "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+          "quotes": [
+            "Ecosystem strategies enable companies to scale AI capabilities faster than internal development alone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc-162",
+      "theme": "ai_budget_acceleration",
+      "statement": "AI budgets are accelerating rapidly, rising from 3% to 5% of annual business budgets between 2025 and 2026, with up to half of technology spending potentially directed toward agents in the long term.",
+      "source_count": 2,
+      "ocaf": {
+        "source_convergence": 2,
+        "specificity": 5,
+        "evidence_type": 4,
+        "actionability": 3,
+        "temporal_durability": 2,
+        "claim_type": "E",
+        "value_score": 3.3,
+        "value_category": "MODERATE_VALUE"
+      },
+      "critique": "The specific budget percentages (3% to 5% near-term, potentially 50% long-term) provide useful calibration for financial planning. Capgemini and Bain provide independent corroboration. The near-term figures (3-5%) are credible and consistent with other industry surveys. The long-term projection (50% of tech spending on agents) is speculative and should be treated as a directional scenario rather than a forecast. The claim does not address the return on this spending -- increasing budgets without corresponding value delivery is not a positive signal. The connection to cc-158 (AI FinOps immaturity) makes this concerning: budgets are accelerating while financial governance lags far behind.",
+      "practical_value": "Useful for budget planning and benchmarking. The near-term figures (3-5%) provide a credible range for organisations setting AI budgets. The long-term figure is useful for scenario planning.",
+      "action_steps": [
+        "Benchmark your current AI spending against the 3-5% range -- are you investing at, above, or below the industry average, and is that position deliberate?",
+        "Establish AI budget governance that tracks spending against value delivered -- increasing budgets without FinOps discipline creates financial risk (per cc-158).",
+        "Use the long-term 50% projection for scenario planning -- what would your technology organisation look like if half of spending were directed toward AI and agents?"
+      ],
+      "bottom_line": "AI budgets are accelerating from 3% to 5% of business budgets -- but without FinOps discipline (which 90% of organisations lack), faster spending does not equal faster value creation.",
+      "sources": [
+        {
+          "id": "source-041",
+          "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+          "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+          "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+          "quotes": [
+            "AI budgets are rising from 3% to 5% of annual business budgets between 2025 and 2026."
+          ]
+        },
+        {
+          "id": "source-037",
+          "title": "Building the Foundation for Agentic AI",
+          "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+          "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+          "quotes": [
+            "Up to half of technology spending could be on agents running across the enterprise to support business domains.",
+            "Over the next three to five years, 5% to 10% of technology spending could be directed toward building foundational capabilities, including agent platforms, communication protocols, real-time data access and discoverability for agents, and modern security and observability frameworks."
+          ]
+        }
+      ]
     }
   ],
   "contradiction_analyses": []

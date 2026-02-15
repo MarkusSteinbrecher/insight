@@ -8,7 +8,7 @@ completed_steps:
   - "0.2"  # Document ingestion
   - "1.1"  # Per-source extraction (54 sources, ~4,712 segments)
   - "1.2"  # Cross-source claim alignment (162 canonical, 106 unique, 24 contradictions)
-  - "1.3"  # Critical analysis (136 claims assessed — needs update for new claims)
+  - "1.3"  # Critical analysis (162 claims assessed)
   - "1.4"  # Cross-source comparison (14,424-word narrative analysis)
   - "2.1"  # Interactive discussion (8 findings discussed, 7 kept, 1 merged)
   - "2.2"  # Synthesis (10 findings, 7 tensions, 8 thought leadership positions, 10 content pieces)
@@ -31,7 +31,7 @@ extraction_count: 54
 canonical_claims: 162
 unique_claims: 106
 contradictions: 24
-critical_analysis_claims: 136
+critical_analysis_claims: 162
 
 # Targeted research inputs
 research_keywords:

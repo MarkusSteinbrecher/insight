@@ -1,7 +1,7 @@
 {
   "generated": "2026-02-15",
   "total_findings": 10,
-  "total_claims_linked": 30,
+  "total_claims_linked": 46,
   "findings": [
     {
       "id": "finding-01",
@@ -1215,7 +1215,7 @@
     {
       "id": "finding-05",
       "title": "Process Redesign First, Then Automation \u2014 and the Evidence Just Got Stronger",
-      "claim_count": 3,
+      "claim_count": 7,
       "claims": [
         {
           "id": "cc-031",
@@ -1351,13 +1351,147 @@
             }
           ],
           "baseline_category": "additional"
+        },
+        {
+          "id": "cc-145",
+          "statement": "Existing business processes were designed around human staff and must be fundamentally redesigned for agentic environments, with end-to-end process redesign including cross-enterprise composite processes as the key to unlocking agent value.",
+          "source_count": 5,
+          "bottom_line": "Five major consultancies agree -- deploying agents into human-designed processes is the primary failure mode; zero-based process redesign is the prerequisite for agent value.",
+          "sources": [
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "Most businesses' existing processes were designed around human staff."
+              ]
+            },
+            {
+              "id": "source-033",
+              "title": "Enterprise as Code: An Operating Model for the AI Era",
+              "author": "BCG",
+              "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+              "quotes": [
+                "A common mistake is automating what already exists, but real value comes from a zero-based approach \u2014 starting with the outcome you want and reinventing how to deliver it."
+              ]
+            },
+            {
+              "id": "source-034",
+              "title": "How Agentic AI is Transforming Enterprise Platforms",
+              "author": "BCG",
+              "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+              "quotes": [
+                "Concentrate approximately 80% of efforts on end-to-end workflow redesign and new offerings, with only 20% on broad AI deployment."
+              ]
+            },
+            {
+              "id": "source-035",
+              "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+              "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+              "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+              "quotes": [
+                "A zero-based approach starts with the outcome you want and reinvents how to deliver it, rather than automating what already exists."
+              ]
+            },
+            {
+              "id": "source-039",
+              "title": "State of the Art of Agentic AI Transformation",
+              "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+              "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+              "quotes": [
+                "Human work: Most work happens across multiple systems and organizations, with context and informal processes."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cc-143",
+          "statement": "Poorly designed agentic applications can actually add work to a process, with some enterprises finding agentic 'workslop' makes processes even less efficient.",
+          "source_count": 2,
+          "bottom_line": "Agentic AI can make processes less efficient when agents are deployed into human-designed workflows -- the \"workslop\" anti-pattern is a real risk that requires explicit monitoring and process redesign.",
+          "sources": [
+            {
+              "id": "source-020",
+              "title": "The Agentic Reality Check: Preparing for a Silicon-Based Workforce (Deloitte Tech Trends 2026)",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+              "quotes": [
+                "Furthermore, poorly designed agentic applications can actually add work to a process, with some enterprises finding agentic 'workslop' can make processes even less efficient."
+              ]
+            },
+            {
+              "id": "source-050",
+              "title": "PwC's 2025 EMEA Cloud Business Survey",
+              "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+              "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+              "quotes": []
+            }
+          ]
+        },
+        {
+          "id": "cc-154",
+          "statement": "AI transformation work follows a 10/20/70 distribution: 10% algorithms, 20% technology backbone, and 70% people and processes -- making organizational and process change the dominant factor, not the technology itself.",
+          "source_count": 2,
+          "bottom_line": "The 10/20/70 rule is a useful heuristic for transformation planning -- most organisations overinvest in technology (30%) and underinvest in people and process change (70%).",
+          "sources": [
+            {
+              "id": "source-034",
+              "title": "How Agentic AI is Transforming Enterprise Platforms",
+              "author": "BCG",
+              "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+              "quotes": [
+                "The 10/20/70 rule states that algorithms account for 10% of AI transformation work.",
+                "Technology backbone accounts for 20% of AI transformation work.",
+                "People and processes account for 70% of AI transformation work."
+              ]
+            },
+            {
+              "id": "source-035",
+              "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+              "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+              "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+              "quotes": [
+                "The 10/20/70 rule applies: 10% algorithms, 20% tech, 70% people and processes.",
+                "Organizations should follow the 10/20/70 rule to emphasize people and processes as part of guiding principles for scaling agentic AI."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cc-159",
+          "statement": "Proof-of-concept (POC) fatigue -- where scattered AI initiatives dilute focus and squander resources -- is a recognized obstacle, and the solution is ruthless prioritization, narrowing from breadth to depth on a small number of high-impact use cases.",
+          "source_count": 2,
+          "bottom_line": "EY narrowed 800+ AI use cases to 20 -- if your organisation has not performed similar ruthless prioritisation, POC fatigue is likely diluting your AI investment returns.",
+          "sources": [
+            {
+              "id": "source-044",
+              "title": "Inside the Process: How EY Navigated Its Own AI-Driven Transformation",
+              "author": "Raj Sharma, Beatriz Sanz Saiz, Pablo Cebro, Alexei Ivanov, Hanne Jesca Bax (EY)",
+              "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
+              "quotes": [
+                "Amidst the drive to create exponential value, EY teams encountered proof of concept (POC) fatigue, as scattered AI initiatives throughout the global organization threatened to dilute focus and squander resources.",
+                "Honing the focus on strategic AI investments, prioritizing long-term value and measurable growth, EY teams narrowed over 800 AI use cases down to 20 key opportunities.",
+                "POC fatigue was identified as a major obstacle, where scattered AI initiatives threatened to dilute focus and resources."
+              ]
+            },
+            {
+              "id": "source-041",
+              "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+              "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+              "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+              "quotes": [
+                "Nearly two thirds say they have started pausing lower-value AI projects to redirect their efforts toward high-impact areas."
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "id": "finding-06",
       "title": "The C-Suite Expectation Gap Is an Architecture Problem",
-      "claim_count": 2,
+      "claim_count": 4,
       "claims": [
         {
           "id": "cc-088",
@@ -1459,6 +1593,67 @@
             }
           ],
           "baseline_category": "additional"
+        },
+        {
+          "id": "cc-158",
+          "statement": "AI Financial Operations (AI FinOps) is emerging as a distinct organizational discipline for managing and optimizing AI spend, analogous to how cloud FinOps emerged for cloud spending, moving from ad hoc AI spending to institutionalized financial management. Only 10% of organizations have mature FinOps governance.",
+          "source_count": 3,
+          "bottom_line": "AI FinOps is a necessary discipline that 90% of organisations lack -- establishing basic cost visibility and per-outcome metrics is the minimum viable starting point.",
+          "sources": [
+            {
+              "id": "source-045",
+              "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+              "author": "James Brundage (EY)",
+              "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+              "quotes": [
+                "AI FinOps is positioned as the key ROI measurement mechanism for managing and optimizing AI spend across the enterprise.",
+                "Institutionalizing AI FinOps enables organizations to move from ad hoc AI spending to disciplined financial management of AI investments."
+              ]
+            },
+            {
+              "id": "source-037",
+              "title": "Building the Foundation for Agentic AI",
+              "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+              "quotes": [
+                "At the same time, organizations must manage the volatility of compute costs through dynamic resource allocation, edge deployment strategies, and AI-native financial operations practices."
+              ]
+            },
+            {
+              "id": "source-050",
+              "title": "PwC's 2025 EMEA Cloud Business Survey",
+              "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+              "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+              "quotes": []
+            }
+          ]
+        },
+        {
+          "id": "cc-162",
+          "statement": "AI budgets are accelerating rapidly, rising from 3% to 5% of annual business budgets between 2025 and 2026, with up to half of technology spending potentially directed toward agents in the long term.",
+          "source_count": 2,
+          "bottom_line": "AI budgets are accelerating from 3% to 5% of business budgets -- but without FinOps discipline (which 90% of organisations lack), faster spending does not equal faster value creation.",
+          "sources": [
+            {
+              "id": "source-041",
+              "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+              "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+              "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+              "quotes": [
+                "AI budgets are rising from 3% to 5% of annual business budgets between 2025 and 2026."
+              ]
+            },
+            {
+              "id": "source-037",
+              "title": "Building the Foundation for Agentic AI",
+              "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+              "quotes": [
+                "Up to half of technology spending could be on agents running across the enterprise to support business domains.",
+                "Over the next three to five years, 5% to 10% of technology spending could be directed toward building foundational capabilities, including agent platforms, communication protocols, real-time data access and discoverability for agents, and modern security and observability frameworks."
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1568,20 +1763,358 @@
     {
       "id": "finding-08",
       "title": "The Infrastructure Readiness Crisis Is Worse Than Anyone Admits",
-      "claim_count": 0,
-      "claims": []
+      "claim_count": 4,
+      "claims": [
+        {
+          "id": "cc-137",
+          "statement": "If 2025 was about the brain (the LLM), 2026 must be about the nervous system -- the infrastructure connecting AI to enterprise systems.",
+          "source_count": 3,
+          "bottom_line": "The brain-versus-nervous-system framing captures a real investment imbalance -- most organisations are overinvesting in AI capabilities relative to the infrastructure needed to run them at production scale.",
+          "sources": [
+            {
+              "id": "source-022",
+              "title": "The Enterprise IT Overhaul: Architecting Your Stack for the Agentic AI Era",
+              "author": "CIO.com",
+              "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
+              "quotes": [
+                "If 2025 was about the brain (the LLM), 2026 must be about the nervous system."
+              ]
+            },
+            {
+              "id": "source-040",
+              "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+              "author": "Pascal Brier, Mark Roberts (Capgemini)",
+              "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+              "quotes": [
+                "The convergence of AI backbone, Cloud 3.0, and Intelligent Ops creates an integrated enterprise platform requirement."
+              ]
+            },
+            {
+              "id": "source-048",
+              "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+              "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+              "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+              "quotes": []
+            }
+          ]
+        },
+        {
+          "id": "cc-146",
+          "statement": "AI infrastructure costs in 2025 shocked organizations unprepared for the economics of production AI.",
+          "source_count": 3,
+          "bottom_line": "Production AI costs are substantially higher than pilot costs -- organisations need dedicated cost modelling and monitoring to avoid the infrastructure cost shock that hit many in 2025.",
+          "sources": [
+            {
+              "id": "source-004",
+              "title": "From AI Pilots to Production Reality: Architecture Lessons from 2025 and What 2026 Demands",
+              "author": "Nithin Mohan TK",
+              "url": "https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/",
+              "quotes": [
+                "AI infrastructure costs in 2025 shocked organizations unprepared for the economics of production AI."
+              ]
+            },
+            {
+              "id": "source-037",
+              "title": "Building the Foundation for Agentic AI",
+              "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+              "quotes": [
+                "Over the next three to five years, 5% to 10% of technology spending could be directed toward building foundational capabilities, including agent platforms, communication protocols, real-time data access and discoverability for agents, and modern security and observability frameworks."
+              ]
+            },
+            {
+              "id": "source-048",
+              "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+              "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+              "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+              "quotes": []
+            }
+          ]
+        },
+        {
+          "id": "cc-150",
+          "statement": "Only 22% of organisations have architectures that fully support AI workloads without modifications, and only 23% can connect AI applications to relevant business data without changes.",
+          "source_count": 3,
+          "bottom_line": "Survey data from 3,600+ executives confirms that roughly 78% of organisations lack AI-ready architectures -- this is the quantitative foundation for infrastructure investment business cases.",
+          "sources": [
+            {
+              "id": "source-003",
+              "title": "Unlocking Enterprise AI: Opportunities and Strategies",
+              "author": "Economist Impact (commissioned by Databricks)",
+              "url": "https://www.google.com/search?q=Unlocking+Enterprise+AI%3A+Opportunities+and+Strategies",
+              "quotes": [
+                "Only 22% of organisations have architectures that fully support AI workloads without modifications, and only 23% can connect AI applications to relevant business data without changes \u2014 architects are tasked with bridging this gap."
+              ]
+            },
+            {
+              "id": "source-043",
+              "title": "EY.ai Value Blueprints: Accelerating the Path Toward AI-Native Enterprises",
+              "author": "Dan Diasio, Joe Depa (EY)",
+              "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
+              "quotes": [
+                "The initiative addresses a significant market challenge: 87% of senior leaders report substantial barriers to adopting agentic AI."
+              ]
+            },
+            {
+              "id": "source-048",
+              "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
+              "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
+              "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
+              "quotes": []
+            }
+          ]
+        },
+        {
+          "id": "cc-162",
+          "statement": "AI budgets are accelerating rapidly, rising from 3% to 5% of annual business budgets between 2025 and 2026, with up to half of technology spending potentially directed toward agents in the long term.",
+          "source_count": 2,
+          "bottom_line": "AI budgets are accelerating from 3% to 5% of business budgets -- but without FinOps discipline (which 90% of organisations lack), faster spending does not equal faster value creation.",
+          "sources": [
+            {
+              "id": "source-041",
+              "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+              "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+              "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+              "quotes": [
+                "AI budgets are rising from 3% to 5% of annual business budgets between 2025 and 2026."
+              ]
+            },
+            {
+              "id": "source-037",
+              "title": "Building the Foundation for Agentic AI",
+              "author": "Pascal Gautheron, Chris Bell, Stephen Hardy (Bain & Company)",
+              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
+              "quotes": [
+                "Up to half of technology spending could be on agents running across the enterprise to support business domains.",
+                "Over the next three to five years, 5% to 10% of technology spending could be directed toward building foundational capabilities, including agent platforms, communication protocols, real-time data access and discoverability for agents, and modern security and observability frameworks."
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "finding-09",
       "title": "Enterprise as Code \u2014 The Next Operating Model Paradigm",
-      "claim_count": 0,
-      "claims": []
+      "claim_count": 5,
+      "claims": [
+        {
+          "id": "cc-153",
+          "statement": "Codifying an organization's implicit operating model -- capturing workflows, decision rules, and business logic as executable code -- is a prerequisite for effective AI agent deployment and creates a new source of competitive advantage.",
+          "source_count": 2,
+          "bottom_line": "Enterprise as Code is the most novel concept in the expanded corpus -- codifying implicit operating models is directionally essential for AI agent value, but the journey is long and should start small.",
+          "sources": [
+            {
+              "id": "source-033",
+              "title": "Enterprise as Code: An Operating Model for the AI Era",
+              "author": "BCG",
+              "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
+              "quotes": [
+                "At its core, enterprise as code is about explicitly defining how a business operates by capturing the implicit operating model and expressing it as code.",
+                "This allows both people and systems to understand, test, and improve how organizations run, whether the systems involved are automation frameworks, analytical tools, or AI agents.",
+                "Embracing this shift requires organizations to move from intuition to specification.",
+                "Clarity acts as an accelerant \u2014 the more precisely work is defined, the faster it can evolve.",
+                "Enterprise as code will democratize capability itself by giving businesses the power to design, execute, and evolve operations."
+              ]
+            },
+            {
+              "id": "source-034",
+              "title": "How Agentic AI is Transforming Enterprise Platforms",
+              "author": "BCG",
+              "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+              "quotes": [
+                "Organizations need to identify their business context fabric by surfacing the unwritten principles their teams follow."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cc-154",
+          "statement": "AI transformation work follows a 10/20/70 distribution: 10% algorithms, 20% technology backbone, and 70% people and processes -- making organizational and process change the dominant factor, not the technology itself.",
+          "source_count": 2,
+          "bottom_line": "The 10/20/70 rule is a useful heuristic for transformation planning -- most organisations overinvest in technology (30%) and underinvest in people and process change (70%).",
+          "sources": [
+            {
+              "id": "source-034",
+              "title": "How Agentic AI is Transforming Enterprise Platforms",
+              "author": "BCG",
+              "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+              "quotes": [
+                "The 10/20/70 rule states that algorithms account for 10% of AI transformation work.",
+                "Technology backbone accounts for 20% of AI transformation work.",
+                "People and processes account for 70% of AI transformation work."
+              ]
+            },
+            {
+              "id": "source-035",
+              "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+              "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+              "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+              "quotes": [
+                "The 10/20/70 rule applies: 10% algorithms, 20% tech, 70% people and processes.",
+                "Organizations should follow the 10/20/70 rule to emphasize people and processes as part of guiding principles for scaling agentic AI."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cc-155",
+          "statement": "Shared AI platforms should follow a 'freedom within a frame' design -- providing centralized infrastructure, governance, and shared tools while allowing decentralized innovation by business units, cutting costs by up to 30% and improving time to market by 50%.",
+          "source_count": 2,
+          "bottom_line": "\"Freedom within a frame\" is one of the most actionable design patterns in the corpus -- centralise governance and infrastructure, decentralise innovation and application, and define the boundary explicitly.",
+          "sources": [
+            {
+              "id": "source-034",
+              "title": "How Agentic AI is Transforming Enterprise Platforms",
+              "author": "BCG",
+              "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
+              "quotes": [
+                "Companies need a shared AI platform that gives P&L owners freedom within a frame \u2014 centralized infrastructure with decentralized innovation.",
+                "In work with clients, shared tools and data can cut costs by up to 30% and lift productivity by 25%.",
+                "As reuse increases, time to market can improve by 50%."
+              ]
+            },
+            {
+              "id": "source-035",
+              "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+              "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+              "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+              "quotes": [
+                "CEOs should assemble a shared AI platform that gives teams freedom within a frame."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cc-149",
+          "statement": "Embedding adaptability and an always-beta mindset into structure, culture, and strategy creates organizations that learn as fast as the technology they harness.",
+          "source_count": 4,
+          "bottom_line": "Adaptability as a strategic principle is widely endorsed but underspecified -- the practical challenge is designing decision mechanisms and organisational structures that enable rapid adaptation.",
+          "sources": [
+            {
+              "id": "source-014",
+              "title": "The Great Rebuild: How AI Is Re-Architecting the Tech Organization",
+              "author": "Deloitte Insights",
+              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+              "quotes": [
+                "Embedding adaptability and an always-beta mindset into their structure, culture, and strategy creates organizations that learn as fast as the technology they harness."
+              ]
+            },
+            {
+              "id": "source-035",
+              "title": "Leading in the Age of AI Agents: Managing the Machines That Manage Themselves",
+              "author": "Francois Candelon, Amartya Das, Sesh Iyer, Shervin Khodabandeh, Sam Ransbotham (BCG / MIT SMR)",
+              "url": "https://www.bcg.com/publications/2025/machines-that-manage-themselves",
+              "quotes": [
+                "Radical adaptability means the operating model itself must be designed to evolve.",
+                "Leaders must build radical adaptability into the operating model."
+              ]
+            },
+            {
+              "id": "source-038",
+              "title": "Updating Enterprise Technology to Scale to 'AI Everywhere",
+              "author": "Bharat Bansal, Stuart Sim, Bala Parameshwaran (Bain & Company)",
+              "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
+              "quotes": [
+                "Many of these choices will need to be made in a landscape of rapidly evolving generative AI technologies, necessitating some no-regret moves now while maintaining flexibility to adapt."
+              ]
+            },
+            {
+              "id": "source-046",
+              "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
+              "author": "KPMG International",
+              "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
+              "quotes": []
+            }
+          ]
+        },
+        {
+          "id": "cc-156",
+          "statement": "Pragmatic, fit-for-purpose architectural approaches will outperform idealized, purist architecture visions in the near term, because enterprise realities (vendor lock-in, data silos, security requirements) prevent clean theoretical architectures from surviving contact with production. For SMEs, 'just enough architecture' may be the appropriate stance.",
+          "source_count": 2,
+          "bottom_line": "Pragmatic, fit-for-purpose architecture is the right stance for most organisations in the near term -- but \"pragmatic\" requires documenting trade-offs, not ignoring them.",
+          "sources": [
+            {
+              "id": "source-039",
+              "title": "State of the Art of Agentic AI Transformation",
+              "author": "David Crawford, Anne Hoecker, Chuck Whitten, Jue Wang, Aaron Lewis, Ryan Petranovich (Bain & Company)",
+              "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
+              "quotes": [
+                "The pace of innovation demands pragmatism, not purity; winners will build momentum with fit-for-purpose solutions.",
+                "A purist view of architecture won't meet the moment.",
+                "Much like Web 3.0, the expectation is these visions to serve as a useful aspiration, but they won't survive contact with enterprise reality unchanged.",
+                "For this reason, a rigid approach to architecture falls short of what's needed.",
+                "Fit-for-purpose custom builds will dominate enterprise-wide architectures for some time."
+              ]
+            },
+            {
+              "id": "source-053",
+              "title": "Enterprise Architecture in Swiss SMEs",
+              "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
+              "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
+              "quotes": []
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "finding-10",
       "title": "AI Sovereignty Has Moved From IT Concern to Strategic Imperative",
-      "claim_count": 0,
-      "claims": []
+      "claim_count": 1,
+      "claims": [
+        {
+          "id": "cc-148",
+          "statement": "AI sovereignty \u2014 retaining control over data, models, and decision rights \u2014 is moving from an IT concern to a board-level priority.",
+          "source_count": 5,
+          "bottom_line": "AI sovereignty is a board-level architecture decision supported by strong survey data -- organisations operating across jurisdictions need sovereignty-by-default design principles built into their AI infrastructure.",
+          "sources": [
+            {
+              "id": "source-026",
+              "title": "How Enterprise Architecture Enables AI Sovereignty -- With Governance at the Core",
+              "author": "MRCS Cloud",
+              "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
+              "quotes": [
+                "As AI becomes woven into day-to-day business, AI sovereignty -- retaining control over your data, models, and decision rights -- moves from an IT concern to a board-level priority."
+              ]
+            },
+            {
+              "id": "source-041",
+              "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
+              "author": "Anne-Laure Thibaud, Pascal Brier, Mark Roberts et al. (Capgemini Research Institute)",
+              "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
+              "quotes": [
+                "Data and AI sovereignty concerns reflect growing awareness of the strategic importance of controlling the data that powers AI systems."
+              ]
+            },
+            {
+              "id": "source-045",
+              "title": "Tech Industry Enters a Hyper-Velocity AI Moment: Top 10 Opportunities for 2026",
+              "author": "James Brundage (EY)",
+              "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
+              "quotes": [
+                "Sovereignty-by-default approaches to data governance are emerging as a strategic priority."
+              ]
+            },
+            {
+              "id": "source-040",
+              "title": "TechnoVision 2026: Top 5 Tech Trends to Watch",
+              "author": "Pascal Brier, Mark Roberts (Capgemini)",
+              "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
+              "quotes": [
+                "Data sensitivity requirements drive the need for sovereign cloud architectures that keep proprietary data under organizational control."
+              ]
+            },
+            {
+              "id": "source-050",
+              "title": "PwC's 2025 EMEA Cloud Business Survey",
+              "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
+              "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
+              "quotes": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
