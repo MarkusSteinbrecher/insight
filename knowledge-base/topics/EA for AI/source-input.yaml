@@ -160,4 +160,12 @@ sources:
     source: source-055
     note: "Akka — agentic AI architecture patterns"
     added: 2026-02-15
-    status: gathered
+    status: segmented
+
+  # --- Ardoq ---
+  - url: "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects"
+    source: source-056
+    note: "Ardoq — prompt engineering playbook for EAs, MCP integration, 18 prompt templates"
+    added: 2026-02-16
+    status: segmented
+    pdf_note: "Full 32-page whitepaper ingested from documents/ folder"

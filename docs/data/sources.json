@@ -1,7 +1,7 @@
 {
   "topic": "Enterprise Architecture for AI",
   "status": "synthesized",
-  "updated": "2026-02-15",
+  "updated": "2026-02-16",
   "sources": [
     {
       "id": "source-001",
@@ -996,6 +996,28 @@
       "relevance": 3,
       "tags": "[]",
       "body_html": "<h2>Summary</h2>\n<p>Discover how AI agents autonomously solve complex business problems in this complete architecture guide, from planning to production deployment.</p>"
+    },
+    {
+      "id": "source-056",
+      "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+      "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+      "author": "Erik Bakstad (Ardoq)",
+      "date": "2025-09",
+      "type": "whitepaper",
+      "relevance": 4,
+      "tags": [
+        "prompt-engineering",
+        "enterprise-architecture",
+        "AI-augmented-EA",
+        "conversational-AI",
+        "MCP",
+        "EA-tooling",
+        "application-rationalization",
+        "capability-mapping",
+        "cloud-transformation",
+        "Ardoq"
+      ],
+      "body_html": "<h2>Summary</h2>\n<p>Ardoq's white paper positions prompt engineering as a core competency for enterprise architects in the AI era. The 32-page playbook argues that EAs work differently from developers or marketers \u2014 they navigate ambiguity, trade-offs, and questions without single right answers \u2014 and therefore need architecture-specific prompting techniques rather than generic AI guidance.</p>\n<p>The paper introduces five prompting principles for EAs: ground prompts in context (business domain, scope, constraints), be explicit about desired output format, prompt for reasoning and trade-offs rather than single answers, treat prompting as iterative dialogue rather than one-off transactions, and retain final human judgment. It then provides 18 ready-to-use prompt templates across six EA use cases: application rationalization, business capability mapping, IT cost and value analysis, technology risk and compliance assessment, M&amp;A integration and due diligence, and cloud transformation planning.</p>\n<p>A recurring theme is the importance of grounding AI prompts in real, live architecture data rather than relying on the AI's general knowledge. Ardoq promotes its Model Context Protocol (MCP) integration as a mechanism for providing AI assistants with direct, secure, read-only access to live architecture models \u2014 enabling queries like \"What's the downstream impact of removing Salesforce?\" grounded in actual dependency data. The paper frames this as the emergence of a \"zero-click world\" where stakeholders (not just architects) will expect instant, AI-powered answers to architectural questions.</p>\n<p>The final sections cover advanced techniques (step decomposition, context augmentation, self-verification, tone adjustment), organizational guidance for building an AI-enabled EA practice (upskilling, workflow integration, governance, success metrics, sharing culture), and a forward-looking perspective on the evolving role of enterprise architects \u2014 from documentation custodians to AI coaches who curate prompt libraries, fine-tune models with company data, and validate AI-generated architectural recommendations.</p>\n<h2>Key Takeaways</h2>\n<ul>\n<li>Prompt engineering is becoming a core skill for enterprise architects, distinct from developer or marketing prompting</li>\n<li>EAs should ground prompts in real organizational data (portfolios, capability models, cost data) rather than relying on AI general knowledge</li>\n<li>Five prompting principles: context grounding, explicit output formats, reasoning over answers, iterative dialogue, human judgment retained</li>\n<li>18 prompt templates across 6 EA use cases: rationalization, capability mapping, cost analysis, risk/compliance, M&amp;A, cloud transformation</li>\n<li>MCP (Model Context Protocol) enables AI assistants to query live architecture data directly, producing grounded rather than hallucinated recommendations</li>\n<li>The \"zero-click world\" means stakeholders will expect instant AI-powered architectural insights \u2014 EAs who master prompting make their expertise accessible enterprise-wide</li>\n<li>AI should be treated as a \"thinking partner\" and iterative dialogue, not a one-off transaction or oracle</li>\n<li>Advanced prompting techniques: break into steps, add extra context (documents, data), ask AI to self-check assumptions, adjust tone for audience</li>\n<li>Building an AI-enabled EA practice requires: team upskilling, workflow integration, governance/privacy guardrails, success tracking, sharing culture</li>\n<li>Future EA roles include: prompt library curation, model fine-tuning with company data, AI coaching, validating AI-generated architecture recommendations</li>\n<li>Prompting will evolve from text queries to designing AI workflows and prompt chains</li>\n<li>Standards like MCP will spread, making it easier for EA tools to connect with AI without manual data preparation</li>\n</ul>\n<h2>Notable Quotes</h2>\n<ul>\n<li>\"Where developers want code, architects want clarity. Many use AI to generate content, but architects use it to reason through complexity.\"</li>\n<li>\"We are entering a 'zero-click' world where leaders expect instant answers, not endless slide decks.\"</li>\n<li>\"Prompting is now a core skill. EAs who master conversational AI can make their expertise accessible across the enterprise.\"</li>\n<li>\"The right prompt turns AI from a novelty into an earnest intern.\"</li>\n<li>\"Think of the AI as a junior analyst \u2014 you will still need to double-check its work.\"</li>\n<li>\"AI isn't perfect, but you can prompt it to find gaps or errors in its own answers.\"</li>\n<li>\"In the near future, AI agents will work alongside us. Imagine a chatbot that says: 'I found two apps doing the same thing. Want me to draft a rationalization plan?'\"</li>\n<li>\"Invest in skills, bake it into your process, keep it safe, measure the impact, and share what works.\"</li>\n</ul>"
     }
   ]
 }

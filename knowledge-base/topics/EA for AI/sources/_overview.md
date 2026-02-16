@@ -1,13 +1,13 @@
 ---
 topic: ea-for-ai
-total_sources: 55
-by_type: { article: 32, blog: 2, paper: 7, report: 14 }
-updated: 2026-02-15
+total_sources: 56
+by_type: { article: 32, blog: 2, paper: 7, report: 14, whitepaper: 1 }
+updated: 2026-02-16
 ---
 
 # Sources Overview: Enterprise Architecture for AI
 
-55 sources: 32 articles, 14 reports, 7 papers, 2 blogs.
+56 sources: 32 articles, 14 reports, 7 papers, 2 blogs, 1 whitepaper.
 
 ## Source Table
 
@@ -67,7 +67,8 @@ updated: 2026-02-15
 | 052 | A Roadmap for Scaling AI Agents in the Modern Enterprise | Sebastian Ahrens et al. | article | analyzed | 2026-02-15 |
 | 053 | Enterprise Architecture in Swiss SMEs | Rejhan Fazlic, Markus Hegi (PwC Switzerland) | article | analyzed | 2026-02-15 |
 | 054 | AI Giants Are Rewriting the Enterprise Playbook | Sebastian Ahrens (PwC Switzerland) | article | analyzed | 2026-02-15 |
-| 055 | Agentic AI architecture 101: An enterprise guide | akka.io | article | segmented | 2026-02-15 |
+| 055 | Agentic AI architecture 101: An enterprise guide | akka.io | article | analyzed | 2026-02-15 |
+| 056 | Prompt Engineering for Enterprise Architects: The Convers... | Erik Bakstad (Ardoq) | whitepaper | analyzed | 2026-02-16 |
 
 ## Status Key
 
@@ -82,6 +83,7 @@ updated: 2026-02-15
 - **Report** (14): Industry reports and surveys — 003, 005, 014, 019, 020, 031, 037, 038, 039, 040, 041, 046, 049, 050
 - **Paper** (7): Academic and research papers — 001, 002, 010, 011, 012, 021, 023
 - **Blog** (2): Practitioner blog posts — 004, 008
+- **Whitepaper** (1): Whitepaper — 056
 
 ## By Institution
 
@@ -95,7 +97,7 @@ updated: 2026-02-15
 | arXiv | 2 | 021, 023 |
 | McKinsey | 1 | 028 |
 | Gartner | 1 | 030 |
-| Independent | 37 | — |
+| Independent | 38 | — |
 
 ## Adding Sources
 

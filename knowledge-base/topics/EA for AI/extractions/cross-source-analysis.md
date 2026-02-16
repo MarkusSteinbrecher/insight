@@ -1,8 +1,8 @@
 # Cross-Source Analysis: Enterprise Architecture for AI
 
 **Generated:** 2026-02-15
-**Sources analyzed:** 55 (updated from 30)
-**Canonical claims:** 164 | **Unique claims:** 108 | **Contradictions:** 24
+**Sources analyzed:** 56 (updated from 30)
+**Canonical claims:** 164 | **Unique claims:** 112 | **Contradictions:** 24
 
 ---
 
@@ -67,6 +67,8 @@ The corpus subdivides into four source types:
 | 028 | Four Gen AI Shifts | McKinsey Digital | Article | 2024-12 | 5 |
 | 029 | Why You Need Enterprise Architecture | Ross, Beath / MIT Sloan | Article | 2020-08 | 3 |
 | 030 | 3 Trends Driving EA Strategy in 2025 | Gartner | Article | 2025-01 | 4 |
+| 055 | Agentic AI Architecture 101 | Akka | Blog | 2025-08 | 4 |
+| 056 | Prompt Engineering for Enterprise Architects: The Conversational AI Playbook | Erik Bakstad / Ardoq | Whitepaper | 2025-09 | 4 |
 
 ### Relevance Distribution
 
@@ -181,6 +183,8 @@ Several patterns emerge:
 4. **The academic-practitioner divide manifests in insight quality.** Framework-extension papers generate consensus; concept-proposal papers and practitioner observations generate genuine insights. The corpus would benefit from more empirical academic research evaluating deployed EA-for-AI systems rather than additional framework proposals.
 
 5. **Ten sources (one-third of the corpus) contribute to zero genuine insights**, suggesting diminishing returns from adding similar source types. Future research would benefit from case studies of specific EA-for-AI implementations rather than additional prescriptive frameworks or trend surveys.
+
+6. **Source-056 (Ardoq, Prompt Engineering for Enterprise Architects)** is the first source in the corpus to treat prompt engineering as an architecture-specific discipline rather than a generic AI skill. It contributes to 13 existing canonical claims -- primarily in EA role evolution, AI-augmented EA, human oversight, and MCP/open standards themes -- without generating new canonical claims. Its strongest unique contributions are the "zero-click world" framing (uc-126), where stakeholders expect instant AI-powered architectural answers rather than weeks-long analysis cycles, and the position that community-shared prompt libraries represent a new form of organizational capability (uc-128). As a vendor whitepaper from an EA tooling provider, source-056 carries predictable commercial bias toward its own platform, but its practical orientation (18 ready-to-use prompt templates across 6 EA use cases) fills a gap the corpus lacked: concrete, operational guidance for how architects should actually interact with AI tools day-to-day.
 
 ---
 

@@ -1,15 +1,15 @@
 # Cross-Source Claim Alignment — Comprehensive
 # Topic: Enterprise Architecture for AI
-# Sources analyzed: 55
-# Total claims input: ~2,478
+# Sources analyzed: 56
+# Total claims input: ~2,921
 # Generated: 2026-02-15
-# Consolidation: Merged batches A (032-036), B (037-045), C (046-054), + source-055
+# Consolidation: Merged batches A (032-036), B (037-045), C (046-054), + source-055, + source-056
 
 meta:
-  sources_analyzed: 55
-  total_claims_input: 2478
+  sources_analyzed: 56
+  total_claims_input: 2921
   canonical_claims: 164
-  unique_claims: 108
+  unique_claims: 112
   contradictions: 24
   themes: 35
   theme_breakdown:
@@ -126,7 +126,10 @@ canonical_claims:
       - source_id: source-047
         seg_id: seg-015
         quote: "At KPMG, we think of this approach as an enhanced new transformation hierarchy: A framework for executing enterprise digital initiatives that leverages multiple cutting-edge capabilities, including Cloud, Data & AI (CDAI), to produce breakthrough efficiencies from the bottom up and the top down, powered by a fully connected Intelligent Cloud."
-    source_count: 18
+      - source_id: source-056
+        seg_id: seg-008
+        quote: "AI is rewriting the rules of how we gather insights, make decisions, and deliver value."
+    source_count: 19
 
   - id: cc-002
     theme: model_architecture
@@ -277,7 +280,10 @@ canonical_claims:
       - source_id: source-033
         seg_id: seg-006
         quote: "The next era will codify operations and decision making, and work will become visible and measurable, and will constantly improve."
-    source_count: 5
+      - source_id: source-056
+        seg_id: seg-039
+        quote: "We are also entering a 'zero-click' world where leaders expect instant answers, not endless slide decks."
+    source_count: 6
 
   - id: cc-009
     theme: model_architecture
@@ -562,7 +568,10 @@ canonical_claims:
       - source_id: source-036
         seg_id: seg-038
         quote: "BCG benchmarks show that AI can increase the efficiency of development by up to 50%, and potentially even more in the future."
-    source_count: 5
+      - source_id: source-056
+        seg_id: seg-027
+        quote: "The right prompt turns AI from a novelty into an earnest intern."
+    source_count: 6
 
   - id: cc-019
     theme: model_architecture
@@ -644,7 +653,10 @@ canonical_claims:
       - source_id: source-037
         seg_id: seg-071
         quote: "This includes laying the groundwork for agent development toolchains, enabling seamless system interoperability, and fast-tracking the modernization of vector databases, event architectures, and core infrastructure."
-    source_count: 5
+      - source_id: source-056
+        seg_id: seg-034
+        quote: "To get meaningful value from GenAI, EAs need to frame prompts with context such as business domains, constraints, and goals."
+    source_count: 6
 
   - id: cc-021
     theme: model_architecture
@@ -670,7 +682,10 @@ canonical_claims:
       - source_id: source-044
         seg_id: seg-102
         quote: "The true potential of AI can only be realized if it remains human-centric."
-    source_count: 7
+      - source_id: source-056
+        seg_id: seg-394
+        quote: "Quality Control: AI can be wrong."
+    source_count: 8
 
   - id: cc-022
     theme: model_architecture
@@ -821,7 +836,10 @@ canonical_claims:
       - source_id: source-045
         seg_id: seg-025
         quote: "Organizations should optimize flexibility in model selection rather than committing to single-vendor lock-in."
-    source_count: 6
+      - source_id: source-056
+        seg_id: seg-431
+        quote: "Protocols like MCP will likely become more common."
+    source_count: 7
 
   - id: cc-027
     theme: integration_interop
@@ -1034,7 +1052,10 @@ canonical_claims:
       - source_id: source-036
         seg_id: seg-046
         quote: "The technology will also handle things like continuous value tracking, serving as a strong link between IT and the business by producing holistic insights across functions."
-    source_count: 4
+      - source_id: source-056
+        seg_id: seg-102
+        quote: "But with the right AI prompt, you can feed in that data and quickly get a clear list of which apps to keep, retire, or combine."
+    source_count: 5
 
   # === DATA ARCHITECTURE ===
 
@@ -1515,7 +1536,10 @@ canonical_claims:
       - source_id: source-046
         seg_id: seg-076
         quote: "High performers expect approximately 50% of tech teams to remain permanent human staff by 2027."
-    source_count: 13
+      - source_id: source-056
+        seg_id: seg-396
+        quote: "Treat AI suggestions like a first draft."
+    source_count: 14
 
   - id: cc-051
     theme: AI_governance_ethics
@@ -2767,7 +2791,10 @@ canonical_claims:
       - source_id: source-036
         seg_id: seg-043
         quote: "As software development becomes increasingly like building with blocks, architects will embed themselves in agile teams and help to manage living systems."
-    source_count: 4
+      - source_id: source-056
+        seg_id: seg-389
+        quote: "Don't treat AI as a one-off experiment. Build it into your standard way of working."
+    source_count: 5
 
   - id: cc-098
     theme: EA_role_evolution
@@ -2783,7 +2810,10 @@ canonical_claims:
         seg_id: seg-055
       - source_id: source-017
         seg_id: seg-004
-    source_count: 2
+      - source_id: source-056
+        seg_id: seg-051
+        quote: "Those who quickly master prompt engineering will be able to reduce months of analysis to minutes and translate complexity into action."
+    source_count: 3
 
   - id: cc-099
     theme: EA_role_evolution
@@ -2795,7 +2825,10 @@ canonical_claims:
         seg_id: seg-156
       - source_id: source-015
         seg_id: seg-107
-    source_count: 2
+      - source_id: source-056
+        seg_id: seg-043
+        quote: "In this world, EAs who master conversational AI can make their expertise accessible across the enterprise, not just for other architects, but for all decision-makers."
+    source_count: 3
 
   # === PROCESS REDESIGN ===
 
@@ -2817,7 +2850,10 @@ canonical_claims:
       - source_id: source-033
         seg_id: seg-028
         quote: "When workflows and decision rules are written down and maintained, AI can amplify what already works instead of patching what does not."
-    source_count: 3
+      - source_id: source-056
+        seg_id: seg-034
+        quote: "To get meaningful value from GenAI, EAs need to frame prompts with context such as business domains, constraints, and goals."
+    source_count: 4
 
   - id: cc-101
     theme: process_redesign
@@ -3556,7 +3592,10 @@ canonical_claims:
       - source_id: source-053
         seg_id: seg-090
         quote: "In this dynamic environment, adopting a pragmatic approach to enterprise architecture frameworks like TOGAF provides powerful tools for mid-sized firms to align and realign their IT with business goals, manage risk and support growth."
-    source_count: 5
+      - source_id: source-056
+        seg_id: seg-436
+        quote: "EAs won't just manage architecture, they'll help guide how AI is used to shape it."
+    source_count: 6
 
   - id: cc-129
     theme: EA_AI_convergence
@@ -5301,4 +5340,50 @@ contradictions:
     statement: "Agentic AI tasks can be 100,000x more expensive than database costs, requiring teams to explicitly balance cost versus accuracy in their architectural decisions."
     seg_id: seg-069
     significance: "Provides a concrete cost ratio (100,000x) for agentic AI relative to traditional operations -- a specificity not found in other sources that discuss AI costs in general terms."
+
+# --- NEW UNIQUE CLAIMS from source-056 ---
+
+  - id: uc-125
+    source: source-056
+    theme: EA_AI_convergence
+    statement: "Prompt engineering is an architecture-specific discipline distinct from developer or marketer prompting, because enterprise architects work in ambiguity, navigate trade-offs, and ask questions that rarely have a single right answer."
+    segments:
+      - seg_id: seg-033
+        quote: "Enterprise Architects work in ambiguity, navigating trade-offs, aligning business and technology, and asking questions that rarely have a single right answer."
+      - seg_id: seg-031
+        quote: "Most prompt guides currently available are built for developers, sales, or marketers, where outputs are often concrete and transactional."
+    significance: "Distinguishes EA prompting from generic AI usage guidance -- no other source frames prompt engineering as requiring a fundamentally different approach for architects versus other professional roles."
+
+  - id: uc-126
+    source: source-056
+    theme: real_time_continuous
+    statement: "We are entering a 'zero-click world' where stakeholders expect instant, AI-powered architectural insights rather than slide decks and weeks-long analysis cycles."
+    segments:
+      - seg_id: seg-039
+        quote: "We are also entering a 'zero-click' world where leaders expect instant answers, not endless slide decks."
+      - seg_id: seg-040
+        quote: "Thanks to conversational AI, they want to be able to ask questions like 'Which systems pose the highest risk?' and get a clear, actionable response on the spot."
+    significance: "Introduces the specific concept of a 'zero-click world' for architectural decision-making -- a framing not found in other sources that discuss real-time EA but without this stakeholder-expectation lens."
+
+  - id: uc-127
+    source: source-056
+    theme: EA_AI_convergence
+    statement: "Effective prompting for architectural decisions should be treated as iterative dialogue rather than one-off transactions, because architectural questions require progressive refinement."
+    segments:
+      - seg_id: seg-080
+        quote: "Effective prompting should be treated as a dialogue, not a one-off transaction."
+      - seg_id: seg-036
+        quote: "A superficial question leads to shallow insights."
+    significance: "Explicitly models the AI interaction pattern for EA work as conversational iteration -- other sources discuss human-AI collaboration but do not prescribe the dialogue-based prompting model as an architectural method."
+
+  - id: uc-128
+    source: source-056
+    theme: EA_AI_convergence
+    statement: "Community-shared prompt libraries -- curated, reviewed, and continuously improved by EA teams -- represent a new form of organizational capability that accelerates AI adoption across the architecture function."
+    segments:
+      - seg_id: seg-409
+        quote: "Make prompting a team sport and create a shared library of useful prompts."
+      - seg_id: seg-411
+        quote: "Running challenges like 'Best Prompt of the Month' can help keep things fun and fresh."
+    significance: "Positions prompt libraries as a collective organizational asset rather than individual skill -- no other source proposes community-maintained prompt repositories as an EA capability building block."
 

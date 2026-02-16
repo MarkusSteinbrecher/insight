@@ -156,35 +156,54 @@
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "The goal is to provide a thorough understanding of the state of existing architecture, what needs to be implemented for an AI-ready infrastructure, and a detailed roadmap of future state."
+          ]
         },
         {
           "id": "source-049",
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "That requires a new architecture and operating model, which includes an AI-ready data platform and appropriate governance."
+          ]
         },
         {
           "id": "source-050",
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "Agentic AI enables autonomous systems within cloud platforms, transforming them into intelligence engines."
+          ]
         },
         {
           "id": "source-051",
           "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
           "author": "Dan Priest (PwC US)",
           "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
-          "quotes": []
+          "quotes": [
+            "Cloud migration is a prerequisite for deploying AI at scale across the enterprise."
+          ]
         },
         {
           "id": "source-047",
           "title": "AI and Transformations: The Enterprise Power Couple",
           "author": "KPMG US",
           "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
-          "quotes": []
+          "quotes": [
+            "At KPMG, we think of this approach as an enhanced new transformation hierarchy: A framework for executing enterprise digital initiatives that leverages multiple cutting-edge capabilities, including Cloud, Data & AI (CDAI), to produce breakthrough efficiencies from the bottom up and the top down, powered by a fully connected Intelligent Cloud."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "AI is rewriting the rules of how we gather insights, make decisions, and deliver value."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -617,7 +636,9 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "By moving their data to cloud and making it more easily ingestible by large language models (LLMs), Top Performers are more readily able to unlock new value from their data as they integrate new AI capabilities."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -691,6 +712,15 @@
           "url": "https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era",
           "quotes": [
             "The next era will codify operations and decision making, and work will become visible and measurable, and will constantly improve."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "We are also entering a 'zero-click' world where leaders expect instant answers, not endless slide decks."
           ]
         }
       ],
@@ -837,7 +867,9 @@
           "title": "AI and Transformations: The Enterprise Power Couple",
           "author": "KPMG US",
           "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
-          "quotes": []
+          "quotes": [
+            "For leading enterprises, the goal of any business-led tech transformation is to deliver differentiated business outcomes."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -928,6 +960,15 @@
           "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
           "quotes": [
             "Software engineering and DevOps processes, both tooling and workflows, need to evolve to manage the full life cycle of AI agents, including how they are tested, monitored, and safely deployed as they learn and adapt over time."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "Agent lifecycle: How is data added into the system? How are agents updated?"
           ]
         }
       ],
@@ -1101,7 +1142,9 @@
           "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
           "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
           "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
-          "quotes": []
+          "quotes": [
+            "The proposed framework combines Apache Kafka messaging with BPMN-based process orchestration to overcome enterprise AI agent scaling challenges."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -1216,7 +1259,18 @@
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "The gap between AI ambition and infrastructure readiness is a significant challenge for most organizations."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "Building a production-ready agentic AI is another story. While agentic AIs have many of the same challenges of traditional IT projects, there are also significant differences that must be accounted for."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -1379,7 +1433,9 @@
           "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
           "author": "Dan Priest (PwC US)",
           "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
-          "quotes": []
+          "quotes": [
+            "Tech debt is the primary obstacle to AI adoption and must be addressed as a strategic priority."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -1511,6 +1567,17 @@
             "Enterprise security must be redefined for AI and nation-state threats that target AI systems and data pipelines.",
             "Traditional security approaches are insufficient for protecting AI models, training data, and inference pipelines."
           ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "Prompt injection: hackers telling agents to 'ignore all previous instructions' to gain access to systems. What guardrails are in place to stop prompt injection attacks?",
+            "Tool misuse: If the AI agent can make database calls, can it make database writes? Proper permissioning for the agent can prevent agentic actions that become attacks.",
+            "Data exfiltration: Can queries or prompts be used to gain access to information that the user should not have?"
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -1583,6 +1650,15 @@
           "quotes": [
             "The development process is also ripe for AI transformation, from generating code for developers and building test cases for production and monitoring, to supporting the work of business analysts.",
             "BCG benchmarks show that AI can increase the efficiency of development by up to 50%, and potentially even more in the future depending on the use case."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "The right prompt turns AI from a novelty into an earnest intern."
           ]
         }
       ],
@@ -1696,28 +1772,36 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "Products and services innovation: Top Performers 67% | Other Companies 35%"
+          ]
         },
         {
           "id": "source-051",
           "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
           "author": "Dan Priest (PwC US)",
           "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
-          "quotes": []
+          "quotes": [
+            "The combination of speed, innovation focus, and responsible AI operationalization creates sustainable competitive advantage in the AI era."
+          ]
         },
         {
           "id": "source-048",
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "The gap between AI ambition and infrastructure readiness is a significant challenge for most organizations."
+          ]
         },
         {
           "id": "source-047",
           "title": "AI and Transformations: The Enterprise Power Couple",
           "author": "KPMG US",
           "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
-          "quotes": []
+          "quotes": [
+            "These revelations are compelling innovation and transformation leaders to reevaluate their playbooks."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -1792,6 +1876,15 @@
           "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
           "quotes": [
             "This includes laying the groundwork for agent development toolchains, enabling seamless system interoperability, and fast-tracking the modernization of vector databases, event architectures, and core infrastructure."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "To get meaningful value from GenAI, EAs need to frame prompts with context such as business domains, constraints, and goals."
           ]
         }
       ],
@@ -1883,6 +1976,15 @@
           "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
           "quotes": [
             "\"The true potential of AI can only be realized if it remains human-centric.\""
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "Quality Control: AI can be wrong."
           ]
         }
       ],
@@ -2069,7 +2171,9 @@
           "title": "Enterprise Architecture in Swiss SMEs",
           "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-          "quotes": []
+          "quotes": [
+            "Think modular \u2014 like building a house, you focus on the essential rooms first and then add extras as needed."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -2154,7 +2258,9 @@
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "The gap between AI ambition and infrastructure readiness is a significant challenge for most organizations."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -2240,6 +2346,15 @@
           "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
           "quotes": [
             "Organizations should optimize flexibility in model selection rather than committing to single-vendor lock-in."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "Protocols like MCP will likely become more common."
           ]
         }
       ],
@@ -2394,7 +2509,9 @@
           "title": "Enterprise Architecture in Swiss SMEs",
           "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-          "quotes": []
+          "quotes": [
+            "Strategic outsourcing: For specialised tasks, such as architecture reviews or system integration, consider outsourcing to consultants with proven experience in TOGAF."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -2750,7 +2867,9 @@
           "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
           "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
           "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
-          "quotes": []
+          "quotes": [
+            "The proposed framework combines Apache Kafka messaging with BPMN-based process orchestration to overcome enterprise AI agent scaling challenges."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -2899,6 +3018,15 @@
           "quotes": [
             "IT landscapes will increasingly be governed by AI, enabling architectural inefficiencies to be spotted and complex application portfolios to be optimized.",
             "The technology will also handle things like continuous value tracking, serving as a strong link between IT and the business by producing holistic insights across functions."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "But with the right AI prompt, you can feed in that data and quickly get a clear list of which apps to keep, retire, or combine."
           ]
         }
       ],
@@ -3273,28 +3401,36 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "AI is fast becoming integral to every aspect of business \u2014 your strategy, your customer offerings, your capability systems (people, process and technology), even how you manage risk and preserve value."
+          ]
         },
         {
           "id": "source-051",
           "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
           "author": "Dan Priest (PwC US)",
           "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
-          "quotes": []
+          "quotes": [
+            "AI investment should be treated with market-driven accountability, measuring real business outcomes rather than technology metrics."
+          ]
         },
         {
           "id": "source-050",
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "PwC surveyed over 1,400 business and technology leaders across 26 EMEA territories between July and September 2025."
+          ]
         },
         {
           "id": "source-046",
           "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
           "author": "KPMG International",
           "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-          "quotes": []
+          "quotes": [
+            "Tech executives need to look at the typical pattern of ROI for guidance and update their ROI KPIs to align with the kinds of business value that AI can generate."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -3484,7 +3620,9 @@
           "title": "AI Giants Are Rewriting the Enterprise Playbook",
           "author": "Sebastian Ahrens (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
-          "quotes": []
+          "quotes": [
+            "AI-powered general-purpose chatbots are fundamentally transforming enterprise software adoption patterns."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -3684,7 +3822,19 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "That requires a new architecture and operating model, which includes an AI-ready data platform and appropriate governance."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "What internal and regulatory policies (e.g., GDPR, DORA, SOC 2) must the agentic system comply with?",
+            "How are policies enforced within models, memory systems, orchestration tools, and logging systems?"
+          ]
         }
       ],
       "baseline_category": "common"
@@ -3873,28 +4023,47 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "This capability is reshaping provider selection decisions, though implementation remains limited."
+          ]
         },
         {
           "id": "source-049",
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "As leading companies are already proving, the decisions you make today will shape your organizations future, determining whether you emerge as an industry leader or get left behind."
+          ]
         },
         {
           "id": "source-046",
           "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
           "author": "KPMG International",
           "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-          "quotes": []
+          "quotes": [
+            "Accelerating learning, building a future-ready and agent-empowered workforce, and having one eye on emerging technology trends are just some of the essentials that should be on your 2026 agenda."
+          ]
         },
         {
           "id": "source-054",
           "title": "AI Giants Are Rewriting the Enterprise Playbook",
           "author": "Sebastian Ahrens (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
-          "quotes": []
+          "quotes": [
+            "Organizations must proactively deliver enterprise-grade AI tools to prevent shadow adoption."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "What metrics, traces, and logs will you capture at each stage (perception, reasoning, action)?",
+            "Can you attribute specific decisions or actions to particular agent versions, inputs, or contexts?",
+            "Are there approval workflows, audit trails, or explainability requirements for agent behavior?"
+          ]
         }
       ],
       "baseline_category": "common"
@@ -4195,7 +4364,9 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "Sovereign and national clouds are growing rapidly across Europe and the Middle East."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -4411,7 +4582,18 @@
           "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
           "author": "KPMG International",
           "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-          "quotes": []
+          "quotes": [
+            "High performers expect approximately 50% of tech teams to remain permanent human staff by 2027."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "Treat AI suggestions like a first draft."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -4500,7 +4682,9 @@
           "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
           "author": "Dan Priest (PwC US)",
           "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
-          "quotes": []
+          "quotes": [
+            "Competition in the AI era is framed through three pillars: speed matters more, scale matters less, and innovation matters most."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -4817,7 +5001,9 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "AI is fast becoming integral to every aspect of business \u2014 your strategy, your customer offerings, your capability systems (people, process and technology), even how you manage risk and preserve value."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -4915,7 +5101,9 @@
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "Dedicated resources are required to continuously refine infrastructure and AI models to achieve peak efficiency and responsiveness."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -5041,7 +5229,9 @@
           "title": "AI Giants Are Rewriting the Enterprise Playbook",
           "author": "Sebastian Ahrens (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
-          "quotes": []
+          "quotes": [
+            "The low barrier to entry with unlimited scaling potential enables rapid organizational penetration."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -5272,6 +5462,18 @@
           "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
           "quotes": [
             "Trustworthy, secure interworking between agents is critical."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "How is sensitive data protected at rest and in transit across perception, memory, and action layers?",
+            "Are tools sandboxed or rate-limited to prevent malicious or accidental misuse?",
+            "Can agents be prevented from taking unsafe actions\u2014by policy, permissions, or runtime constraints?",
+            "How do you handle authentication, authorization, and revocation for agent-driven API calls?"
           ]
         }
       ],
@@ -5511,7 +5713,9 @@
           "title": "In the Age of AI: Speed Matters More, Scale Matters Less, Innovation Matters Most",
           "author": "Dan Priest (PwC US)",
           "url": "https://www.pwc.com/us/en/tech-effect/ai-analytics/competing-in-age-of-ai.html",
-          "quotes": []
+          "quotes": [
+            "The agentic workforce requires new management approaches focused on human-AI teaming rather than traditional hierarchy."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -5855,7 +6059,20 @@
           "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
           "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
           "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
-          "quotes": []
+          "quotes": [
+            "The proposed framework combines Apache Kafka messaging with BPMN-based process orchestration to overcome enterprise AI agent scaling challenges."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "AI itself has evolved from narrow, specialized systems into more generalized models capable of learning, reasoning, and adapting. This has enabled a new class of agentic systems: AI agents that can achieve goals, plan, make decisions, and interact with complex environments.",
+            "Modern AI agents are no longer confined to narrow, pre-defined rules. They can make decisions, adapt to context, and coordinate across systems, significantly expanding their flexibility and utility.",
+            "These agentic AIs can be applied to the enterprise: automating complex workflows, initiating actions, and autonomously adapting to changing business landscapes."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -5922,6 +6139,17 @@
           "quotes": [
             "In this new paradigm, tech leaders will oversee potentially hundreds or thousands of distinct gen AI agents that communicate with each other and external systems to achieve common goals."
           ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "There are four core architectural components that make AIs Agentic: Perception, Reasoning, Memory, Action.",
+            "LLMs are stateless, and retain no memory of a conversation. Systems like ChatGPT implement a memory system that retains the ongoing conversation.",
+            "This memory gives the LLM context over the conversation, and permits the LLM to provide better answers based on the context."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -5977,7 +6205,21 @@
           "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
           "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
           "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
-          "quotes": []
+          "quotes": [
+            "The proposed framework combines Apache Kafka messaging with BPMN-based process orchestration to overcome enterprise AI agent scaling challenges.",
+            "Event-driven architecture powered by Kafka and BPMN-based orchestration provides a scalable, resilient framework for enterprise AI.",
+            "Apache Kafka serves as the central event bus for all inter-agent communication.",
+            "Event-driven architecture powered by Kafka and BPMN-based orchestration provides a scalable, resilient framework for enterprise AI."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "How will all of the pieces connect together? Will you use workflow engines like Temporal or Airflow?"
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -6179,7 +6421,20 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "Top Performers are twice as likely than other companies, on average, to have already implemented AI governance and ethics frameworks."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "What internal and regulatory policies (e.g., GDPR, DORA, SOC 2) must the agentic system comply with?",
+            "How are policies enforced within models, memory systems, orchestration tools, and logging systems?",
+            "Are there approval workflows, audit trails, or explainability requirements for agent behavior?"
+          ]
         }
       ],
       "baseline_category": "common"
@@ -6438,7 +6693,20 @@
           "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
           "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
           "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
-          "quotes": []
+          "quotes": [
+            "The proposed framework combines Apache Kafka messaging with BPMN-based process orchestration to overcome enterprise AI agent scaling challenges."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "Single-agent systems: Agents focused on solving a user defined goal, using reasoning and tools to reach a goal.",
+            "Multi-agent systems: A group of agents collaborate towards a goal. This might mean a planning agent, a reasoning agent, and an agent that executes the steps of the goal.",
+            "Vertical architectures: Agents supervise or delegate tasks to other agents."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -6569,7 +6837,9 @@
           "title": "AI and Transformations: The Enterprise Power Couple",
           "author": "KPMG US",
           "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
-          "quotes": []
+          "quotes": [
+            "However, AI is also revealing the weaknesses in many existing transformation projects by exposing cracks in their cloud and data foundations."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -6716,7 +6986,9 @@
           "title": "AI and Transformations: The Enterprise Power Couple",
           "author": "KPMG US",
           "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
-          "quotes": []
+          "quotes": [
+            "When embedded seamlessly and intentionally into transformation projects from the start, AI's game-changing technologies can help organizations streamline the notoriously complex details of enterprise-change operations, reduce costs, as well as accelerate value creation and speed to market."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -6792,6 +7064,16 @@
           "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
           "quotes": [
             "Data analytics and ML systems need to cover more unstructured data assets, as well as an AI as a service (AIaaS) platform and machine learning operations (MLOps) for reuse of common components and efficient deployment of new models."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "Perception is the process of processing information and developing an understanding of what is happening. Agentic AIs can use prompts and provided tools (APIs, databases, etc.) to understand the situation.",
+            "Agentic AIs go further by combining sensor data with structured and unstructured information such as maintenance logs, shift handover notes, supplier quality reports, and even operator chat logs to reason about why issues occur, not just when."
           ]
         }
       ],
@@ -6951,6 +7233,15 @@
             "More than half of organizations commit to sustained AI investment over a five-year horizon.",
             "The multi-year AI advantage thesis is that early, sustained investment in AI fundamentals creates compounding returns over time."
           ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "It is suggested to start off small: begin with simpler structured agentic AIs. As the team gains expertise, they can begin to tackle agents with more complex features."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -7041,7 +7332,9 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "To Top Performers, cloud and AI aren't merely operational tools \u2014 they're strategic assets that drive business success and produce value from data."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -7487,7 +7780,9 @@
           "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
           "author": "KPMG International",
           "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-          "quotes": []
+          "quotes": [
+            "Accelerating learning, building a future-ready and agent-empowered workforce, and having one eye on emerging technology trends are just some of the essentials that should be on your 2026 agenda."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -7587,6 +7882,17 @@
           "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
           "quotes": [
             "The central argument is that agentic AI -- autonomous systems capable of reasoning, planning, and executing multi-step tasks across the enterprise -- requires a fundamental rethinking of enterprise architecture, not incremental API additions."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "How will all of the pieces connect together? Will you use workflow engines like Temporal or Airflow?",
+            "Agent lifecycle: How is data added into the system? How are agents updated?",
+            "Orchestration: How does the agent orchestrate the process from perception, goal setting/reasoning, decision making and coming up with the result? How is the state of the agent managed?"
           ]
         }
       ],
@@ -7786,7 +8092,9 @@
           "title": "AI Giants Are Rewriting the Enterprise Playbook",
           "author": "Sebastian Ahrens (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
-          "quotes": []
+          "quotes": [
+            "Continuous innovation through interaction-driven model improvement creates accelerating capability gains."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -7852,6 +8160,15 @@
           "quotes": [
             "As software development becomes increasingly like building with blocks (think cloud services and ready-made APIs), architects will embed themselves in agile teams and help to manage living systems."
           ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "Don't treat AI as a one-off experiment. Build it into your standard way of working."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -7900,6 +8217,15 @@
           "quotes": [
             "Four emerging strategic roles for enterprise architects: (1) Customer/employee-centric value mapper, (2) Digital twin strategist, (3) Enterprise knowledge curator, (4) Agentic governance champion."
           ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "Those who quickly master prompt engineering will be able to reduce months of analysis to minutes and translate complexity into action."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -7945,6 +8271,15 @@
           "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
           "quotes": [
             "It also means nonprogrammers are entering the IT function. Roles like product managers and UX designers are helping with coding because we're using AI to produce these shared artifacts."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "In this world, EAs who master conversational AI can make their expertise accessible across the enterprise, not just for other architects, but for all decision-makers."
           ]
         }
       ],
@@ -8002,6 +8337,15 @@
           "quotes": [
             "Much of AI's value depends on how clearly an organization defines its desired outcomes.",
             "When workflows and decision rules are written down and maintained, AI can amplify what already works instead of patching what does not."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "To get meaningful value from GenAI, EAs need to frame prompts with context such as business domains, constraints, and goals."
           ]
         }
       ],
@@ -8154,7 +8498,9 @@
           "title": "Enterprise Architecture in Swiss SMEs",
           "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-          "quotes": []
+          "quotes": [
+            "By adopting a pragmatic approach, mid-sized firms can harness the power of TOGAF without being overwhelmed, ensuring architecture initiatives deliver business value."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -8388,7 +8734,9 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "AI is fast becoming integral to every aspect of business \u2014 your strategy, your customer offerings, your capability systems (people, process and technology), even how you manage risk and preserve value."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -8574,7 +8922,9 @@
           "title": "Enterprise Architecture in Swiss SMEs",
           "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-          "quotes": []
+          "quotes": [
+            "A pragmatic approach instead allows you to respond quickly to changing market conditions."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -8682,28 +9032,36 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "94% plan to adjust and expand cloud architecture for scale, flexibility, and sovereignty."
+          ]
         },
         {
           "id": "source-048",
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "Given the magnitude of the infrastructure changes required to handle computationally challenging workloads associated with AI, the need to prepare becomes significantly more urgent."
+          ]
         },
         {
           "id": "source-049",
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "While responsibility for technology architecture and cloud engineering typically falls to a CIO and other tech leaders, the choices made establish a foundation that make AI-centric transformation and new business models possible \u2014 and that is a CEO-level consideration."
+          ]
         },
         {
           "id": "source-046",
           "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
           "author": "KPMG International",
           "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-          "quotes": []
+          "quotes": [
+            "To thrive amid disruption, leaders should modernize their methods of measuring tech value, adopt strategies that favor flexibility and speed, and build cultures that welcome change."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -8801,7 +9159,9 @@
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "Traditional IT systems must quickly evolve to accommodate the immense processing power, storage, and data management requirements demanded by AI applications."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -8866,7 +9226,9 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "Multi-cloud strategies combining public, private, and sovereign solutions are becoming standard."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -9012,14 +9374,27 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "Embed FinOps and governance frameworks to manage cloud costs and ensure accountability."
+          ]
         },
         {
           "id": "source-049",
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "How you manage your CSP strategy, contracts and interactions is key."
+          ]
+        },
+        {
+          "id": "source-055",
+          "title": "Agentic AI architecture 101: An enterprise guide",
+          "author": "akka.io",
+          "url": "https://akka.io/blog/agentic-ai-architecture",
+          "quotes": [
+            "Agentic AI tasks can be 100,000x more expensive than database costs."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -9173,7 +9548,9 @@
           "title": "Enterprise Architecture in Swiss SMEs",
           "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-          "quotes": []
+          "quotes": [
+            "Swiss firms can manage costs by taking a phased approach, using existing in-house resources where possible and outsourcing specific tasks when necessary."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -9864,7 +10241,9 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "While responsibility for technology architecture and cloud engineering typically falls to a CIO and other tech leaders, the choices made establish a foundation that make AI-centric transformation and new business models possible \u2014 and that is a CEO-level consideration."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -9985,7 +10364,18 @@
           "title": "Enterprise Architecture in Swiss SMEs",
           "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-          "quotes": []
+          "quotes": [
+            "In this dynamic environment, adopting a pragmatic approach to enterprise architecture frameworks like TOGAF provides powerful tools for mid-sized firms to align and realign their IT with business goals, manage risk and support growth."
+          ]
+        },
+        {
+          "id": "source-056",
+          "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+          "author": "Erik Bakstad (Ardoq)",
+          "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+          "quotes": [
+            "EAs won't just manage architecture, they'll help guide how AI is used to shape it."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -10065,7 +10455,9 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "94% plan to adjust and expand cloud architecture for scale, flexibility, and sovereignty."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -10173,7 +10565,9 @@
           "title": "Enterprise Architecture in Swiss SMEs",
           "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-          "quotes": []
+          "quotes": [
+            "By adopting a pragmatic approach, mid-sized firms can harness the power of TOGAF without being overwhelmed, ensuring architecture initiatives deliver business value."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -10399,7 +10793,9 @@
           "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
           "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
           "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
-          "quotes": []
+          "quotes": [
+            "BPMN handles business processes while AI agents handle data analysis and decision-making."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -10551,7 +10947,9 @@
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "System reliability evaluations, performance metrics, and strategic guidance are key deliverables for AI infrastructure planning."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -10594,7 +10992,9 @@
           "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
           "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
           "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
-          "quotes": []
+          "quotes": [
+            "Traditional synchronous service-to-service integrations create performance bottlenecks that can lead to partial outages or slowdowns."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -10637,7 +11037,9 @@
           "title": "AI Giants Are Rewriting the Enterprise Playbook",
           "author": "Sebastian Ahrens (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
-          "quotes": []
+          "quotes": [
+            "The flywheel effect means each cycle of adoption produces data that improves the underlying models."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -10680,7 +11082,9 @@
           "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
           "author": "PwC Research",
           "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-          "quotes": []
+          "quotes": [
+            "98% of Top Performers agree that their company is well equipped in terms of its data architecture and governance needed to leverage GenAI."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -10813,7 +11217,9 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "Despite high interest, only 29% of organizations are actually scaling agentic AI."
+          ]
         }
       ],
       "baseline_category": "new"
@@ -10991,7 +11397,9 @@
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "KPMG can help diagnose potential bottlenecks in infrastructure and show how organizations can grow infrastructure to support more advanced capabilities."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -11109,7 +11517,9 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "Strengthen sovereignty and trust mechanisms to meet data localization and regulatory requirements."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -11171,7 +11581,9 @@
           "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
           "author": "KPMG International",
           "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-          "quotes": []
+          "quotes": [
+            "Organizations need to always keep one eye fixed on what is coming next."
+          ]
         }
       ],
       "baseline_category": "common"
@@ -11223,7 +11635,9 @@
           "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
           "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
           "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-          "quotes": []
+          "quotes": [
+            "The gap between AI ambition and infrastructure readiness is a significant challenge for most organizations."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -11514,7 +11928,9 @@
           "title": "Enterprise Architecture in Swiss SMEs",
           "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
           "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-          "quotes": []
+          "quotes": [
+            "Adopt a pragmatic 'just enough architecture' approach."
+          ]
         }
       ],
       "baseline_category": "additional"
@@ -11612,7 +12028,9 @@
           "title": "PwC's 2025 EMEA Cloud Business Survey",
           "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
           "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-          "quotes": []
+          "quotes": [
+            "FinOps is emerging as the standard framework for cloud cost governance."
+          ]
         }
       ],
       "baseline_category": "new"

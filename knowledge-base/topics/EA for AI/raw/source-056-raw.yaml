@@ -1,0 +1,3220 @@
+source_id: source-056
+title: "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook"
+url: "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects"
+author: "Erik Bakstad (Ardoq)"
+date: 2025-09
+type: whitepaper
+total_segments: 443
+
+composition:
+  claim: { count: 114, pct: 25.7 }
+  definition: { count: 14, pct: 3.2 }
+  context: { count: 96, pct: 21.7 }
+  recommendation: { count: 86, pct: 19.4 }
+  example: { count: 37, pct: 8.4 }
+  evidence: { count: 0, pct: 0.0 }
+  statistic: { count: 0, pct: 0.0 }
+  methodology: { count: 1, pct: 0.2 }
+  attribution: { count: 1, pct: 0.2 }
+  noise: { count: 94, pct: 21.2 }
+
+signal_ratio: 78.8
+
+segments:
+
+  # ============================================================
+  # PAGE 1 — COVER
+  # ============================================================
+
+  - id: seg-001
+    text: "White Paper"
+    type: noise
+    section: "Cover"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook"
+    type: noise
+    section: "Cover"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "September 2025 Edition"
+    type: noise
+    section: "Cover"
+    position: 3
+    source_format: caption
+
+  # ============================================================
+  # PAGE 2 — FOREWORD
+  # ============================================================
+
+  - id: seg-004
+    text: "Foreword"
+    type: noise
+    section: "Foreword"
+    position: 4
+    source_format: heading
+
+  - id: seg-005
+    text: "Enterprise Architecture has always been about zooming out to the bigger picture."
+    type: context
+    section: "Foreword"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "Connecting strategy to execution, technology to business outcomes."
+    type: context
+    section: "Foreword"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "But the pace of change today is unlike anything we've faced before."
+    type: claim
+    section: "Foreword"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "AI is rewriting the rules of how we gather insights, make decisions, and deliver value."
+    type: claim
+    section: "Foreword"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "We're at an inflection point."
+    type: claim
+    section: "Foreword"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "Those who learn to lean in and harness AI (not as a novelty, but as a practical sparring partner) will be able to translate months of analysis into minutes, and shape strategies with unprecedented clarity and data-backed decision intelligence."
+    type: claim
+    section: "Foreword"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "This white paper is a hands-on guide for doing just that."
+    type: noise
+    section: "Foreword"
+    position: 11
+    source_format: prose
+
+  - id: seg-012
+    text: "It's designed to help Enterprise Architects, CIOs, and strategy leaders use EA strategies and data-driven architecture with AI through skillful prompt engineering."
+    type: context
+    section: "Foreword"
+    position: 12
+    source_format: prose
+
+  - id: seg-013
+    text: "Inside, you'll find real-world use cases, ready-to-use prompts, and practical advice for embedding conversational AI into the way you work."
+    type: noise
+    section: "Foreword"
+    position: 13
+    source_format: prose
+
+  - id: seg-014
+    text: "The future of EA is intelligent, connected, and conversational."
+    type: claim
+    section: "Foreword"
+    position: 14
+    source_format: prose
+
+  - id: seg-015
+    text: "My hope is that this guide will help you take the first steps toward that future and inspire you to keep experimenting, refining, and sharing your own breakthroughs."
+    type: noise
+    section: "Foreword"
+    position: 15
+    source_format: prose
+
+  - id: seg-016
+    text: "Let's lead the change, together."
+    type: noise
+    section: "Foreword"
+    position: 16
+    source_format: prose
+
+  - id: seg-017
+    text: "Erik Bakstad, CEO at Ardoq"
+    type: attribution
+    section: "Foreword"
+    position: 17
+    source_format: prose
+
+  # ============================================================
+  # PAGE 3 — TABLE OF CONTENTS (all noise)
+  # ============================================================
+
+  - id: seg-018
+    text: "Contents"
+    type: noise
+    section: "Contents"
+    position: 18
+    source_format: heading
+
+  # ============================================================
+  # PAGE 4 — INTRODUCTION: THE AGE OF AI IN EA
+  # ============================================================
+
+  - id: seg-019
+    text: "Introduction: The Age of AI in Enterprise Architecture"
+    type: noise
+    section: "Introduction"
+    position: 19
+    source_format: heading
+
+  - id: seg-020
+    text: "As GenAI moves from novelty to necessity, EAs are uniquely positioned to drive its meaningful application across the enterprise."
+    type: claim
+    section: "Introduction"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "Whether you're streamlining stakeholder communication, accelerating roadmap planning, or extracting insight from technical documents, prompt engineering is a powerful new tool in the EA toolkit."
+    type: claim
+    section: "Introduction"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "This guide is designed to help you apply AI in a practical way."
+    type: noise
+    section: "Introduction"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "It uses prompts that mirror how you already work and delivers measurable speed and clarity in your day-to-day decisions."
+    type: claim
+    section: "Introduction"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "It is platform agnostic and ready to use."
+    type: context
+    section: "Introduction"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "While some advanced teams are exploring contextual engineering and system-level architectures, this guide focuses on more immediate, introductory opportunities."
+    type: context
+    section: "Introduction"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "It is designed to help EAs apply prompt engineering to quick-win use cases to unlock faster clarity, stronger alignment, and real impact in the work they are already doing."
+    type: context
+    section: "Introduction"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The right prompt turns AI from a novelty into an earnest intern."
+    type: claim
+    section: "Introduction"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "For time and resource-strapped EA teams, effective prompt engineering is becoming essential."
+    type: claim
+    section: "Introduction"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "It is not a side quest, but a core part of how architects turn complexity into clarity for themselves and their organizations."
+    type: claim
+    section: "Introduction"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Why Does Prompt Engineering Matter for EAs?"
+    type: noise
+    section: "Introduction"
+    position: 30
+    source_format: heading
+
+  - id: seg-031
+    text: "Most prompt guides currently available are built for developers, sales, or marketers, where outputs are often concrete and transactional."
+    type: claim
+    section: "Introduction"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Architecture is different."
+    type: claim
+    section: "Introduction"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Enterprise Architects work in ambiguity, navigating trade-offs, aligning business and technology, and asking questions that rarely have a single right answer."
+    type: claim
+    section: "Introduction"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "To get meaningful value from GenAI, EAs need to frame prompts with context such as business domains, constraints, and goals."
+    type: recommendation
+    section: "Introduction"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "They must also ask for structured, reasoned outputs that reflect the complexity of their decisions."
+    type: recommendation
+    section: "Introduction"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "A superficial question leads to shallow insights."
+    type: claim
+    section: "Introduction"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "A well-crafted one can surface deep patterns, challenge assumptions, and unlock faster clarity."
+    type: claim
+    section: "Introduction"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "As one architect put it: 'Where developers want code, architects want clarity. Many use AI to generate content, but architects use it to reason through complexity.'"
+    type: claim
+    section: "Introduction"
+    position: 38
+    source_format: quote
+
+  - id: seg-039
+    text: "We are also entering a 'zero-click' world where leaders expect instant answers, not endless slide decks."
+    type: claim
+    section: "Introduction"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Thanks to conversational AI, they want to be able to ask questions like 'Which systems pose the highest risk?' and get a clear, actionable response on the spot."
+    type: claim
+    section: "Introduction"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "Gartner calls this the rise of 'meta-tools' that make EA insights accessible to everyone, not just architects."
+    type: claim
+    section: "Introduction"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "For EAs, this means one thing: prompting is now a core skill."
+    type: claim
+    section: "Introduction"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "In this world, EAs who master conversational AI can make their expertise accessible across the enterprise, not just for other architects, but for all decision-makers."
+    type: claim
+    section: "Introduction"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "If you want your knowledge to drive decisions at the speed of thought, you need to speak AI's language."
+    type: claim
+    section: "Introduction"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "Having direct, secure access to live data is a baseline expectation for an EA platform serving the modern enterprise."
+    type: claim
+    section: "Introduction"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "Leading EAs are leveraging much more to enhance their value to the business and need platforms that offer the latest capabilities to support this experimentation and evolution of approach."
+    type: claim
+    section: "Introduction"
+    position: 46
+    source_format: prose
+
+  - id: seg-047
+    text: "For example, Ardoq has introduced an AI Gateway using the Model Context Protocol (MCP), a secure bridge that lets AI assistants directly query the architecture model in plain English."
+    type: noise
+    section: "Introduction"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "With such tools, an EA or even a CIO could ask, 'What's the downstream impact of removing Salesforce?' and get a structured answer drawn from real architecture data."
+    type: example
+    section: "Introduction"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "This playbook will show not only what prompts to use for common EA scenarios, but how to pair them with your data to drive tangible outcomes."
+    type: noise
+    section: "Introduction"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "We're at a turning point."
+    type: context
+    section: "Introduction"
+    position: 50
+    source_format: prose
+
+  - id: seg-051
+    text: "Those who quickly master prompt engineering will be able to reduce months of analysis to minutes and translate complexity into action."
+    type: claim
+    section: "Introduction"
+    position: 51
+    source_format: prose
+
+  - id: seg-052
+    text: "This playbook helps Enterprise Architects, CIOs, and strategy leaders apply GenAI with precision to move faster, think strategically, and deliver measurable impact."
+    type: noise
+    section: "Introduction"
+    position: 52
+    source_format: prose
+
+  - id: seg-053
+    text: "The skills you build today will define your effectiveness tomorrow."
+    type: claim
+    section: "Introduction"
+    position: 53
+    source_format: prose
+
+  - id: seg-054
+    text: "Let's dive in."
+    type: noise
+    section: "Introduction"
+    position: 54
+    source_format: prose
+
+  # ============================================================
+  # PAGE 5 — PROMPT ENGINEERING 101 FOR ENTERPRISE ARCHITECTS
+  # ============================================================
+
+  - id: seg-055
+    text: "Prompt Engineering 101 for Enterprise Architects"
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 55
+    source_format: heading
+
+  - id: seg-056
+    text: "Before diving into use cases and templates, let's cover the basics of effective prompting as they apply to enterprise architecture."
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 56
+    source_format: prose
+
+  - id: seg-057
+    text: "How LLMs 'Think': Large Language Models such as ChatGPT, Claude, or Gemini do not store or retrieve facts in the way a traditional database would."
+    type: definition
+    section: "Prompt Engineering 101"
+    position: 57
+    source_format: prose
+
+  - id: seg-058
+    text: "Instead, they predict the next most likely word based on the patterns they have learned from massive datasets."
+    type: definition
+    section: "Prompt Engineering 101"
+    position: 58
+    source_format: prose
+
+  - id: seg-059
+    text: "This makes them highly effective at synthesizing information and generating coherent text, but they rely entirely on the context you provide."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 59
+    source_format: prose
+
+  - id: seg-060
+    text: "For Enterprise Architects, this means prompts must be clear, grounded in real organizational data, and structured with intent."
+    type: recommendation
+    section: "Prompt Engineering 101"
+    position: 60
+    source_format: prose
+
+  - id: seg-061
+    text: "When questions are vague or too open-ended, responses can be inaccurate or entirely fabricated."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 61
+    source_format: prose
+
+  - id: seg-062
+    text: "This is known as hallucination."
+    type: definition
+    section: "Prompt Engineering 101"
+    position: 62
+    source_format: prose
+
+  - id: seg-063
+    text: "The quality of the output depends heavily on the clarity and completeness of the prompt."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 63
+    source_format: prose
+
+  - id: seg-064
+    text: "Prompting Best Practices: To apply AI effectively in an architectural context, keep these five principles in mind."
+    type: context
+    section: "Prompt Engineering 101"
+    position: 64
+    source_format: prose
+
+  - id: seg-065
+    text: "1. Ground Prompts in Context"
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 65
+    source_format: heading
+
+  - id: seg-066
+    text: "Include the relevant business domain, scope, goals, and known constraints."
+    type: recommendation
+    section: "Prompt Engineering 101"
+    position: 66
+    source_format: prose
+
+  - id: seg-067
+    text: "For example, recommendations will vary depending on whether you are referencing a bank's IT portfolio or a retail landscape."
+    type: example
+    section: "Prompt Engineering 101"
+    position: 67
+    source_format: prose
+
+  - id: seg-068
+    text: "Without this context, AI will generalize or default to irrelevant assumptions."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 68
+    source_format: prose
+
+  - id: seg-069
+    text: "2. Be Explicit About the Outcome You Want"
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 69
+    source_format: heading
+
+  - id: seg-070
+    text: "Clarify whether you need a list of options, a ranked recommendation with rationale, or a structured risk assessment."
+    type: recommendation
+    section: "Prompt Engineering 101"
+    position: 70
+    source_format: prose
+
+  - id: seg-071
+    text: "Define the output format when possible."
+    type: recommendation
+    section: "Prompt Engineering 101"
+    position: 71
+    source_format: prose
+
+  - id: seg-072
+    text: "For instance, consider requesting tables, bullet points, or narrative summaries to enhance precision and usability."
+    type: recommendation
+    section: "Prompt Engineering 101"
+    position: 72
+    source_format: prose
+
+  - id: seg-073
+    text: "3. Prompt for Reasoning and Trade-Offs"
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 73
+    source_format: heading
+
+  - id: seg-074
+    text: "Architectural decisions are rarely binary."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 74
+    source_format: prose
+
+  - id: seg-075
+    text: "Ask the AI to outline multiple options, explain its reasoning, and highlight pros and cons."
+    type: recommendation
+    section: "Prompt Engineering 101"
+    position: 75
+    source_format: prose
+
+  - id: seg-076
+    text: "This enables you to explore the design space and evaluate alternatives, rather than receive a single default response."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 76
+    source_format: prose
+
+  - id: seg-077
+    text: "4. Treat Prompting As Iterative"
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 77
+    source_format: heading
+
+  - id: seg-078
+    text: "LLMs rarely provide the perfect answer on the first attempt, especially for complex, domain-specific queries."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 78
+    source_format: prose
+
+  - id: seg-079
+    text: "Expect to refine your prompts, build on prior outputs, and drill down into details."
+    type: recommendation
+    section: "Prompt Engineering 101"
+    position: 79
+    source_format: prose
+
+  - id: seg-080
+    text: "Effective prompting should be treated as a dialogue, not a one-off transaction."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 80
+    source_format: prose
+
+  - id: seg-081
+    text: "5. Retain Final Judgment"
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 81
+    source_format: heading
+
+  - id: seg-082
+    text: "AI can accelerate your thinking, but it cannot replace your architectural standards, organizational priorities, or professional accountability."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 82
+    source_format: prose
+
+  - id: seg-083
+    text: "Use it as a strategic assistant that supports your analysis, not as the final authority."
+    type: recommendation
+    section: "Prompt Engineering 101"
+    position: 83
+    source_format: prose
+
+  - id: seg-084
+    text: "By applying these principles, AI becomes a practical tool for accelerating clarity and improving decision-making."
+    type: claim
+    section: "Prompt Engineering 101"
+    position: 84
+    source_format: prose
+
+  - id: seg-085
+    text: "The next section introduces real-world EA scenarios with ready-to-use prompt templates."
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 85
+    source_format: prose
+
+  - id: seg-086
+    text: "Each one outlines when and how to use it, what information to include, what kind of output to expect, and how to refine results for greater impact."
+    type: context
+    section: "Prompt Engineering 101"
+    position: 86
+    source_format: prose
+
+  - id: seg-087
+    text: "The prompts can be used with your AI of choice, whether OpenAI's ChatGPT, Anthropic's Claude, Google's models, etc."
+    type: context
+    section: "Prompt Engineering 101"
+    position: 87
+    source_format: prose
+
+  - id: seg-088
+    text: "We'll also highlight how using Ardoq can enhance many of these prompts by providing real-time architecture data."
+    type: noise
+    section: "Prompt Engineering 101"
+    position: 88
+    source_format: prose
+
+  # ============================================================
+  # PAGE 6 — CORE EA USE CASES / USE CASE #1: APPLICATION RATIONALIZATION
+  # ============================================================
+
+  - id: seg-089
+    text: "Core EA Use Cases and Prompt Templates"
+    type: noise
+    section: "Core EA Use Cases"
+    position: 89
+    source_format: heading
+
+  - id: seg-090
+    text: "This chapter focuses on six high-impact use cases that reflect common challenges faced by enterprise architects."
+    type: context
+    section: "Core EA Use Cases"
+    position: 90
+    source_format: prose
+
+  - id: seg-091
+    text: "These scenarios are drawn from patterns we see across our customer base, and are designed to be broadly relevant to EA teams working across industries and maturity levels."
+    type: context
+    section: "Core EA Use Cases"
+    position: 91
+    source_format: prose
+
+  - id: seg-092
+    text: "Use Case #1: Application Rationalization"
+    type: noise
+    section: "UC1: Application Rationalization"
+    position: 92
+    source_format: heading
+
+  - id: seg-093
+    text: "For an EA looking to move from reactive reporting to proactive portfolio management, this workflow is a game-changer in smarter IT cost management."
+    type: claim
+    section: "UC1: Application Rationalization"
+    position: 93
+    source_format: prose
+
+  - id: seg-094
+    text: "WHAT: Identify redundant, underused, or costly applications in the portfolio for consolidation or retirement."
+    type: definition
+    section: "UC1: Application Rationalization"
+    position: 94
+    source_format: bullet
+
+  - id: seg-095
+    text: "WHY: Reduce IT spend, eliminate duplicative functionality, and free up budget for innovation."
+    type: context
+    section: "UC1: Application Rationalization"
+    position: 95
+    source_format: bullet
+
+  - id: seg-096
+    text: "This is often a quick win for cost cutting and simplifying the IT landscape."
+    type: claim
+    section: "UC1: Application Rationalization"
+    position: 96
+    source_format: prose
+
+  - id: seg-097
+    text: "WHO: Enterprise Architects, IT Portfolio Managers, CIOs, and Transformation Leads who need to trim the application portfolio and communicate decisions to stakeholders."
+    type: context
+    section: "UC1: Application Rationalization"
+    position: 97
+    source_format: bullet
+
+  - id: seg-098
+    text: "Why Move to an AI-Assisted Way of Working?"
+    type: noise
+    section: "UC1: Application Rationalization"
+    position: 98
+    source_format: heading
+
+  - id: seg-099
+    text: "Rationalizing applications means looking through loads of data."
+    type: context
+    section: "UC1: Application Rationalization"
+    position: 99
+    source_format: prose
+
+  - id: seg-100
+    text: "What apps you have, how much they cost, how often they're used, and whether they're still valuable."
+    type: context
+    section: "UC1: Application Rationalization"
+    position: 100
+    source_format: prose
+
+  - id: seg-101
+    text: "Normally, this takes weeks of digging through spreadsheets."
+    type: claim
+    section: "UC1: Application Rationalization"
+    position: 101
+    source_format: prose
+
+  - id: seg-102
+    text: "But with the right AI prompt, you can feed in that data and quickly get a clear list of which apps to keep, retire, or combine."
+    type: claim
+    section: "UC1: Application Rationalization"
+    position: 102
+    source_format: prose
+
+  - id: seg-103
+    text: "It's like having an assistant scan your entire portfolio and say, 'Here's where you're wasting money, and here's what to do about it.'"
+    type: claim
+    section: "UC1: Application Rationalization"
+    position: 103
+    source_format: prose
+
+  - id: seg-104
+    text: "This saves time and helps you make smarter decisions, faster."
+    type: claim
+    section: "UC1: Application Rationalization"
+    position: 104
+    source_format: prose
+
+  # ============================================================
+  # PAGE 7 — PROMPT 1: ACCELERATE APPLICATION PORTFOLIO TRIAGE
+  # ============================================================
+
+  - id: seg-105
+    text: "Prompt 1: Accelerate Application Portfolio Triage"
+    type: noise
+    section: "Prompt 1"
+    position: 105
+    source_format: heading
+
+  - id: seg-106
+    text: "Goal: Quickly triage an application list to spot potential redundancies or retirement candidates."
+    type: context
+    section: "Prompt 1"
+    position: 106
+    source_format: prose
+
+  - id: seg-107
+    text: "Start small, validate the approach, then scale to the full portfolio."
+    type: recommendation
+    section: "Prompt 1"
+    position: 107
+    source_format: prose
+
+  - id: seg-108
+    text: "Context: Connect MCP Server or export a short list of applications you know well."
+    type: context
+    section: "Prompt 1"
+    position: 108
+    source_format: prose
+
+  - id: seg-109
+    text: "Export basic attributes such as owner, cost, usage, and criticality."
+    type: recommendation
+    section: "Prompt 1"
+    position: 109
+    source_format: prose
+
+  - id: seg-110
+    text: "Run the prompt, then review the AI's reasoning against your own knowledge."
+    type: recommendation
+    section: "Prompt 1"
+    position: 110
+    source_format: prose
+
+  - id: seg-111
+    text: "Once you're confident, expand to a larger set of apps."
+    type: recommendation
+    section: "Prompt 1"
+    position: 111
+    source_format: prose
+
+  - id: seg-112
+    text: "To improve the quality of recommendations, add more attributes over time (e.g., business capability mapping, integration data, technical lifecycle stage, or compliance requirements)."
+    type: recommendation
+    section: "Prompt 1"
+    position: 112
+    source_format: prose
+
+  - id: seg-113
+    text: "Ardoq makes this easier by keeping these attributes connected in one place."
+    type: noise
+    section: "Prompt 1"
+    position: 113
+    source_format: prose
+
+  - id: seg-114
+    text: "\"You are an enterprise architect reviewing our application portfolio. Here is a table of applications with their business capabilities, annual cost, usage frequency, and criticality. Analyze this data and recommend which applications should be considered for rationalization or decommissioning, and why. Provide the output as a table with columns for Application, Recommendation (retain, retire, migrate), Reason, and Risk Level.\""
+    type: example
+    section: "Prompt 1"
+    position: 114
+    source_format: quote
+
+  - id: seg-115
+    text: "Expected Output: The AI should produce a table of recommendations with clear reasoning."
+    type: context
+    section: "Prompt 1"
+    position: 115
+    source_format: prose
+
+  - id: seg-116
+    text: "This gives you a starting point for further analysis."
+    type: context
+    section: "Prompt 1"
+    position: 116
+    source_format: prose
+
+  - id: seg-117
+    text: "How to Refine: If the output feels too shallow, add more context into the prompt."
+    type: recommendation
+    section: "Prompt 1"
+    position: 117
+    source_format: prose
+
+  - id: seg-118
+    text: "'Include which business capabilities or processes each app supports.'"
+    type: example
+    section: "Prompt 1"
+    position: 118
+    source_format: bullet
+
+  - id: seg-119
+    text: "'Consider dependencies and downstream systems before making recommendations.'"
+    type: example
+    section: "Prompt 1"
+    position: 119
+    source_format: bullet
+
+  - id: seg-120
+    text: "Ardoq's help articles on Application Rationalization provide detailed criteria and rationale you can copy into prompts to improve reasoning quality."
+    type: noise
+    section: "Prompt 1"
+    position: 120
+    source_format: prose
+
+  # ============================================================
+  # PAGE 8 — PROMPT 2: STAKEHOLDER-READY EXECUTIVE SUMMARY
+  # ============================================================
+
+  - id: seg-121
+    text: "Prompt 2: Get a Stakeholder-Ready Executive Summary for Rationalization"
+    type: noise
+    section: "Prompt 2"
+    position: 121
+    source_format: heading
+
+  - id: seg-122
+    text: "Goal: Summarize the rationalization plan for executive stakeholders (CIO, CFO, etc.) in a concise, persuasive way."
+    type: context
+    section: "Prompt 2"
+    position: 122
+    source_format: prose
+
+  - id: seg-123
+    text: "Use this prompt after you have identified candidates to prepare high-level talking points or slide content."
+    type: recommendation
+    section: "Prompt 2"
+    position: 123
+    source_format: prose
+
+  - id: seg-124
+    text: "Context: Use the output of your rationalization analysis, either by using Prompt 1 and refining the output or the result of your own analysis."
+    type: context
+    section: "Prompt 2"
+    position: 124
+    source_format: prose
+
+  - id: seg-125
+    text: "This analysis should include a list of target apps to retire or consolidate, with key facts such as savings and impact."
+    type: recommendation
+    section: "Prompt 2"
+    position: 125
+    source_format: prose
+
+  - id: seg-126
+    text: "If using Ardoq, you might already have a report or tags on apps marked for retirement along with cost-saving estimates."
+    type: noise
+    section: "Prompt 2"
+    position: 126
+    source_format: prose
+
+  - id: seg-127
+    text: "\"You are preparing a brief for the CIO on our application rationalization. Based on the following list of applications and the rationalization recommendations (provide the list or summary from Prompt 1), draft an executive summary. For each targeted application, give 2-3 bullet points highlighting: what the recommendation is, the key business benefit (such as cost saving or risk reduction), and the next step (e.g., timeline or action owner). Use clear, professional language suitable for a board-level presentation.\""
+    type: example
+    section: "Prompt 2"
+    position: 127
+    source_format: quote
+
+  - id: seg-128
+    text: "Expected Output: The AI should produce a series of bullet points, grouped by application."
+    type: context
+    section: "Prompt 2"
+    position: 128
+    source_format: prose
+
+  - id: seg-129
+    text: "These bullets are executive-ready, focusing on savings, risk, and action, which is what leaders care about."
+    type: claim
+    section: "Prompt 2"
+    position: 129
+    source_format: prose
+
+  - id: seg-130
+    text: "How to Refine: If the tone or details aren't correct, you should adjust the prompt."
+    type: recommendation
+    section: "Prompt 2"
+    position: 130
+    source_format: prose
+
+  - id: seg-131
+    text: "For instance: 'Make the tone more formal and remove any technical jargon.'"
+    type: example
+    section: "Prompt 2"
+    position: 131
+    source_format: prose
+
+  - id: seg-132
+    text: "Or: 'Add one bullet explaining what happens if we don't take this action, to underscore urgency.'"
+    type: example
+    section: "Prompt 2"
+    position: 132
+    source_format: prose
+
+  - id: seg-133
+    text: "Lastly, once you have the draft, prompt the AI: 'What might a skeptical CFO push back on in this summary?'"
+    type: recommendation
+    section: "Prompt 2"
+    position: 133
+    source_format: prose
+
+  # ============================================================
+  # PAGE 9 — PROMPT 3: CHALLENGE THE PLAN (DEVIL'S ADVOCATE)
+  # ============================================================
+
+  - id: seg-134
+    text: "Prompt 3: Challenge the Plan (Devil's Advocate)"
+    type: noise
+    section: "Prompt 3"
+    position: 134
+    source_format: heading
+
+  - id: seg-135
+    text: "Goal: Avoid blind spots by stress-testing your rationalization plan."
+    type: context
+    section: "Prompt 3"
+    position: 135
+    source_format: prose
+
+  - id: seg-136
+    text: "Use this prompt to have the AI generate counterarguments or risks for retiring a given application - essentially playing devil's advocate."
+    type: methodology
+    section: "Prompt 3"
+    position: 136
+    source_format: prose
+
+  - id: seg-137
+    text: "This ensures you're prepared to address objections and mitigation strategies when finalizing recommendations."
+    type: claim
+    section: "Prompt 3"
+    position: 137
+    source_format: prose
+
+  - id: seg-138
+    text: "Context: Select an application you are planning to retire or consolidate."
+    type: context
+    section: "Prompt 3"
+    position: 138
+    source_format: prose
+
+  - id: seg-139
+    text: "Gather any available context on it, e.g., whether it's tied to a specific process, has a user base, etc."
+    type: recommendation
+    section: "Prompt 3"
+    position: 139
+    source_format: prose
+
+  - id: seg-140
+    text: "In Ardoq, you can pull up dependency maps or integration info for this app to feed the AI more insight into what depends on the given application."
+    type: noise
+    section: "Prompt 3"
+    position: 140
+    source_format: prose
+
+  - id: seg-141
+    text: "\"As an enterprise architecture assistant, list the top 3 reasons we might regret retiring [App X] (for example, hidden dependencies, stakeholder resistance, compliance issues). For each reason, suggest how we could mitigate that risk if we proceed with decommissioning.\""
+    type: example
+    section: "Prompt 3"
+    position: 141
+    source_format: quote
+
+  - id: seg-142
+    text: "Expected Output: A list of potential pitfalls and mitigations."
+    type: context
+    section: "Prompt 3"
+    position: 142
+    source_format: prose
+
+  - id: seg-143
+    text: "This output helps you preempt the 'Yes, but--' questions from stakeholders by having answers ready."
+    type: claim
+    section: "Prompt 3"
+    position: 143
+    source_format: prose
+
+  - id: seg-144
+    text: "It brings a balanced perspective to your plan and demonstrates that you are effectively preempting risks and broader operational concerns beyond just cost."
+    type: claim
+    section: "Prompt 3"
+    position: 144
+    source_format: prose
+
+  - id: seg-145
+    text: "How to Refine: If the AI misses a known concern, you can prompt further: 'What about data migration concerns? Include any data loss risks in the reasons.'"
+    type: recommendation
+    section: "Prompt 3"
+    position: 145
+    source_format: prose
+
+  - id: seg-146
+    text: "Or ask for more mitigation ideas if the suggestions are too high-level."
+    type: recommendation
+    section: "Prompt 3"
+    position: 146
+    source_format: prose
+
+  - id: seg-147
+    text: "The goal is to flesh out a robust risk plan around the rationalization decision."
+    type: context
+    section: "Prompt 3"
+    position: 147
+    source_format: prose
+
+  - id: seg-148
+    text: "Bonus: How Ardoq Powers Smarter App Rationalization — Rationalizing apps works best when your application portfolio's data is current and connected. With Ardoq, you can feed your live application inventory straight into AI prompts. Ardoq's MCP integration lets you include app costs, owners, and usage details so the AI can base its answers on real, up-to-date information. The result is faster, fact-based decisions you can stand behind."
+    type: noise
+    section: "Prompt 3"
+    position: 148
+    source_format: prose
+
+  # ============================================================
+  # PAGE 10 — USE CASE #2: BUSINESS CAPABILITY MAPPING
+  # ============================================================
+
+  - id: seg-149
+    text: "Use Case #2: Business Capability Mapping"
+    type: noise
+    section: "UC2: Business Capability Mapping"
+    position: 149
+    source_format: heading
+
+  - id: seg-150
+    text: "For EAs needing to clarify how strategy, processes, and applications intersect, this use case reveals interdependencies with speed and precision."
+    type: claim
+    section: "UC2: Business Capability Mapping"
+    position: 150
+    source_format: prose
+
+  - id: seg-151
+    text: "WHAT: Map business capabilities to systems, processes, or value streams."
+    type: definition
+    section: "UC2: Business Capability Mapping"
+    position: 151
+    source_format: bullet
+
+  - id: seg-152
+    text: "Understand how well your IT supports what the business needs to do, often via a capability model, to identify gaps or overlaps in capability support."
+    type: definition
+    section: "UC2: Business Capability Mapping"
+    position: 152
+    source_format: prose
+
+  - id: seg-153
+    text: "WHY: Ensure strategic alignment and spot areas where investment is needed (capability gaps) or where multiple systems support the same capability (potential rationalization)."
+    type: context
+    section: "UC2: Business Capability Mapping"
+    position: 153
+    source_format: bullet
+
+  - id: seg-154
+    text: "Capability mapping is key for communicating IT's role in business terms and planning transformation roadmaps."
+    type: claim
+    section: "UC2: Business Capability Mapping"
+    position: 154
+    source_format: prose
+
+  - id: seg-155
+    text: "WHO: Enterprise Architects and Strategy Leads, Business Architecture teams, CIOs driving business-IT alignment, and any EA tasked with creating capability models or heatmaps."
+    type: context
+    section: "UC2: Business Capability Mapping"
+    position: 155
+    source_format: bullet
+
+  - id: seg-156
+    text: "Why Move to an AI-Assisted Way of Working?"
+    type: noise
+    section: "UC2: Business Capability Mapping"
+    position: 156
+    source_format: heading
+
+  - id: seg-157
+    text: "Creating and analyzing a capability map is tricky."
+    type: context
+    section: "UC2: Business Capability Mapping"
+    position: 157
+    source_format: prose
+
+  - id: seg-158
+    text: "You're trying to connect strategy, business goals, applications, and sometimes even processes all at once."
+    type: context
+    section: "UC2: Business Capability Mapping"
+    position: 158
+    source_format: prose
+
+  - id: seg-159
+    text: "Thankfully, AI can help simplify things."
+    type: claim
+    section: "UC2: Business Capability Mapping"
+    position: 159
+    source_format: prose
+
+  - id: seg-160
+    text: "Give it a list of capabilities and the systems that support them, and it can quickly show you where you have gaps (capabilities with little or no support) or overlaps (too many systems doing the same job)."
+    type: claim
+    section: "UC2: Business Capability Mapping"
+    position: 160
+    source_format: prose
+
+  - id: seg-161
+    text: "It can also turn technical info into a clear story that's easy to share with stakeholders."
+    type: claim
+    section: "UC2: Business Capability Mapping"
+    position: 161
+    source_format: prose
+
+  - id: seg-162
+    text: "In short, AI helps you make sense of the mess and spot where to invest, consolidate, or improve."
+    type: claim
+    section: "UC2: Business Capability Mapping"
+    position: 162
+    source_format: prose
+
+  # ============================================================
+  # PAGE 11 — PROMPT 4: ANALYZE CAPABILITY COVERAGE
+  # ============================================================
+
+  - id: seg-163
+    text: "Prompt 4: Analyze Capability Coverage"
+    type: noise
+    section: "Prompt 4"
+    position: 163
+    source_format: heading
+
+  - id: seg-164
+    text: "Goal: Quickly assess how well business capabilities are supported by IT systems, and spot gaps or overlaps."
+    type: context
+    section: "Prompt 4"
+    position: 164
+    source_format: prose
+
+  - id: seg-165
+    text: "Start by letting AI help build the capability-to-application mapping, then refine the analysis."
+    type: recommendation
+    section: "Prompt 4"
+    position: 165
+    source_format: prose
+
+  - id: seg-166
+    text: "Context: Creating capability-to-application connections manually is often time-consuming."
+    type: context
+    section: "Prompt 4"
+    position: 166
+    source_format: prose
+
+  - id: seg-167
+    text: "AI can speed this up."
+    type: claim
+    section: "Prompt 4"
+    position: 167
+    source_format: prose
+
+  - id: seg-168
+    text: "Begin with a list of applications (with descriptions and owners) and a capability model."
+    type: recommendation
+    section: "Prompt 4"
+    position: 168
+    source_format: prose
+
+  - id: seg-169
+    text: "Ask AI to suggest which applications likely support which capabilities, then validate a small set you know well."
+    type: recommendation
+    section: "Prompt 4"
+    position: 169
+    source_format: prose
+
+  - id: seg-170
+    text: "Once the mappings look reasonable, expand to the broader portfolio."
+    type: recommendation
+    section: "Prompt 4"
+    position: 170
+    source_format: prose
+
+  - id: seg-171
+    text: "Ardoq can supply the structured capability model and application catalog, which makes this process faster and easier."
+    type: noise
+    section: "Prompt 4"
+    position: 171
+    source_format: prose
+
+  - id: seg-172
+    text: "\"You are an enterprise architect. Here is a list of business capabilities and a list of applications with their descriptions. Suggest an initial mapping of which applications support which capabilities. Highlight any capabilities with no mapped applications.\""
+    type: example
+    section: "Prompt 4"
+    position: 172
+    source_format: quote
+
+  - id: seg-173
+    text: "Refine with additional prompting: \"Using this capability-to-application mapping, analyze coverage. For each capability, state whether it is well-supported, under-supported, or over-supported, and why. Present the findings in a table with columns for Capability, Support Level, Reason, and any gaps or redundancies.\""
+    type: example
+    section: "Prompt 4"
+    position: 173
+    source_format: quote
+
+  - id: seg-174
+    text: "This highlights where capabilities are missing proper IT support and where too many systems are doing the same job."
+    type: context
+    section: "Prompt 4"
+    position: 174
+    source_format: prose
+
+  - id: seg-175
+    text: "How to Refine: If the output is too generic, add more attributes into the prompt."
+    type: recommendation
+    section: "Prompt 4"
+    position: 175
+    source_format: prose
+
+  - id: seg-176
+    text: "'Include business criticality and maturity ratings, and prioritize high-criticality capabilities.'"
+    type: example
+    section: "Prompt 4"
+    position: 176
+    source_format: bullet
+
+  - id: seg-177
+    text: "'List the specific overlapping systems for each redundant capability.'"
+    type: example
+    section: "Prompt 4"
+    position: 177
+    source_format: bullet
+
+  - id: seg-178
+    text: "'Recommend which system should be retained as primary when multiple exist.'"
+    type: example
+    section: "Prompt 4"
+    position: 178
+    source_format: bullet
+
+  - id: seg-179
+    text: "Pro Tip: Ardoq's help articles on Capability Modeling include detailed rationale that can be pasted into your prompts to improve the AI's reasoning."
+    type: noise
+    section: "Prompt 4"
+    position: 179
+    source_format: prose
+
+  # ============================================================
+  # PAGE 12 — PROMPT 5: CHECK STRATEGIC ALIGNMENT
+  # ============================================================
+
+  - id: seg-180
+    text: "Prompt 5: Check Strategic Alignment"
+    type: noise
+    section: "Prompt 5"
+    position: 180
+    source_format: heading
+
+  - id: seg-181
+    text: "Goal: Check if IT initiatives and systems are aligned to strategic business capabilities or if there are important capabilities with little investment."
+    type: context
+    section: "Prompt 5"
+    position: 181
+    source_format: prose
+
+  - id: seg-182
+    text: "This prompt helps bridge the gap between high-level strategy and the IT landscape."
+    type: claim
+    section: "Prompt 5"
+    position: 182
+    source_format: prose
+
+  - id: seg-183
+    text: "Context: You'll need two pieces of input: the organization's strategic priorities or key business capabilities (e.g., top 5 capabilities that are critical for the 3-5 year strategy), and the list of current projects or major systems mapped to those capabilities."
+    type: context
+    section: "Prompt 5"
+    position: 183
+    source_format: prose
+
+  - id: seg-184
+    text: "In Ardoq, you might use a Strategy-to-Capability map or Portfolio dashboard that links initiatives to capabilities."
+    type: noise
+    section: "Prompt 5"
+    position: 184
+    source_format: prose
+
+  - id: seg-185
+    text: "\"Act as an Enterprise Architecture advisor. Our company's strategy emphasizes the following capabilities: [provide list of strategic capabilities/objectives]. Here is a list of current IT projects and systems with the capabilities they support (provide mapping if available). Identify any strategic capabilities that appear to be under-invested (i.e., few or no projects/systems supporting them) and any areas where we might be over-investing in lower-priority capabilities. Provide recommendations for realigning investment, e.g., if Capability X is critical but under-supported, suggest increasing focus there.\""
+    type: example
+    section: "Prompt 5"
+    position: 185
+    source_format: quote
+
+  - id: seg-186
+    text: "This output highlights misalignment, such as a critical capability lacking attention or non-strategic work consuming too much budget."
+    type: context
+    section: "Prompt 5"
+    position: 186
+    source_format: prose
+
+  - id: seg-187
+    text: "It directly ties architecture to business strategy, which is gold for EAs to demonstrate their value to the organization."
+    type: claim
+    section: "Prompt 5"
+    position: 187
+    source_format: prose
+
+  - id: seg-188
+    text: "How to Refine: If needed, prompt it for more nuance: 'Also flag any strategic capability where many initiatives exist but they might be duplicative (multiple projects tackling the same capability in siloed ways).'"
+    type: recommendation
+    section: "Prompt 5"
+    position: 188
+    source_format: prose
+
+  - id: seg-189
+    text: "Or, if the output doesn't consider capability maturity: 'Assume Capability X is currently weak (low maturity), adjust recommendations to emphasize improving it.'"
+    type: recommendation
+    section: "Prompt 5"
+    position: 189
+    source_format: prose
+
+  - id: seg-190
+    text: "Essentially, tailor the analysis to the specific needs of your strategic context."
+    type: recommendation
+    section: "Prompt 5"
+    position: 190
+    source_format: prose
+
+  # ============================================================
+  # PAGE 13 — PROMPT 6: SHAPE A CAPABILITY HEATMAP NARRATIVE
+  # ============================================================
+
+  - id: seg-191
+    text: "Prompt 6: Shape a Capability Heatmap Narrative"
+    type: noise
+    section: "Prompt 6"
+    position: 191
+    source_format: heading
+
+  - id: seg-192
+    text: "Goal: Transform a capability maturity or health assessment into a meaningful story or report for leadership."
+    type: context
+    section: "Prompt 6"
+    position: 192
+    source_format: prose
+
+  - id: seg-193
+    text: "Often, EAs will produce a capability heatmap in the form of a colored chart showing which capabilities are strong or weak."
+    type: context
+    section: "Prompt 6"
+    position: 193
+    source_format: prose
+
+  - id: seg-194
+    text: "This prompt helps with quickly generating narrative insights from that data and the 'why it matters' behind the colors."
+    type: context
+    section: "Prompt 6"
+    position: 194
+    source_format: prose
+
+  - id: seg-195
+    text: "Context: A list of capabilities with their respective maturity levels, performance score, or a rating such as a Red/Yellow/Green status."
+    type: context
+    section: "Prompt 6"
+    position: 195
+    source_format: prose
+
+  - id: seg-196
+    text: "\"You are an Enterprise Architect reviewing our capability assessment. Here are the business capabilities with their current maturity ratings and notes (provide a list of capabilities with status and any notes). Write an analysis highlighting: which capabilities are strongest and why (what's contributing to their success), which are weakest, and the impact of those gaps on the business, and any patterns or root causes (e.g., all weak capabilities belong to a certain business unit or rely on a particular outdated system). Conclude with recommended focus areas for improvement.\""
+    type: example
+    section: "Prompt 6"
+    position: 196
+    source_format: quote
+
+  - id: seg-197
+    text: "Expected Output: A well-structured analysis in paragraph form, possibly with bullet points for recommendations."
+    type: context
+    section: "Prompt 6"
+    position: 197
+    source_format: prose
+
+  - id: seg-198
+    text: "Such a narrative turns the raw heatmap data into actionable intelligence for executives."
+    type: claim
+    section: "Prompt 6"
+    position: 198
+    source_format: prose
+
+  - id: seg-199
+    text: "It explains what is wrong, why it matters, and sets up where the business needs to focus next."
+    type: context
+    section: "Prompt 6"
+    position: 199
+    source_format: prose
+
+  - id: seg-200
+    text: "How to Refine: If the output lacks clear linkage to business impact, you could add: 'Emphasize the business outcome of each weak capability (e.g., how do Supply Chain gaps affect revenue or efficiency?).'"
+    type: recommendation
+    section: "Prompt 6"
+    position: 200
+    source_format: prose
+
+  - id: seg-201
+    text: "Bonus: Why Model Capabilities With Ardoq — Ardoq's platform excels at business capability modeling and even offers AI assistance to build these models faster. Ardoq's new AI features can draft value streams and auto-link capabilities from context, which you can then refine with prompting. The result: EAs can maintain alignment between strategy and IT dynamically, using AI to continuously gauge and communicate how well IT supports the business."
+    type: noise
+    section: "Prompt 6"
+    position: 201
+    source_format: prose
+
+  # ============================================================
+  # PAGE 14 — USE CASE #3: IT COST AND VALUE ANALYSIS
+  # ============================================================
+
+  - id: seg-202
+    text: "Use Case #3: IT Cost and Value Analysis"
+    type: noise
+    section: "UC3: IT Cost and Value Analysis"
+    position: 202
+    source_format: heading
+
+  - id: seg-203
+    text: "For an EA looking to speed up the transformation of raw cost data into data-driven narratives that will guide and focus decisions."
+    type: context
+    section: "UC3: IT Cost and Value Analysis"
+    position: 203
+    source_format: prose
+
+  - id: seg-204
+    text: "WHAT: Analyze IT costs in the context of business value, identifying high-cost areas that may not be delivering commensurate value, opportunities to optimize spend, and understanding cost distribution (by capability, department, etc.)."
+    type: definition
+    section: "UC3: IT Cost and Value Analysis"
+    position: 204
+    source_format: bullet
+
+  - id: seg-205
+    text: "WHY: Especially in tight economic times, CIOs and EAs need to ensure IT spend is optimized."
+    type: context
+    section: "UC3: IT Cost and Value Analysis"
+    position: 205
+    source_format: bullet
+
+  - id: seg-206
+    text: "Beyond cutting costs, it's about redirecting funds to high-value activities."
+    type: claim
+    section: "UC3: IT Cost and Value Analysis"
+    position: 206
+    source_format: prose
+
+  - id: seg-207
+    text: "Having clarity on cost vs. value helps justify budgets and identify quick wins in reducing waste, such as retiring expensive systems with low usage or overlapping licenses."
+    type: claim
+    section: "UC3: IT Cost and Value Analysis"
+    position: 207
+    source_format: prose
+
+  - id: seg-208
+    text: "WHO: CIOs, Enterprise Architects involved in portfolio management or financial governance, IT Finance teams, and strategy leaders during planning cycles."
+    type: context
+    section: "UC3: IT Cost and Value Analysis"
+    position: 208
+    source_format: bullet
+
+  - id: seg-209
+    text: "Why Move to an AI-Assisted Way of Working?"
+    type: noise
+    section: "UC3: IT Cost and Value Analysis"
+    position: 209
+    source_format: heading
+
+  - id: seg-210
+    text: "Digging through IT spend data is time-consuming, and turning those numbers into clear decisions isn't easy."
+    type: context
+    section: "UC3: IT Cost and Value Analysis"
+    position: 210
+    source_format: prose
+
+  - id: seg-211
+    text: "AI can't replace your CFO, but it can quickly scan cost and usage data to spot outliers, like systems that cost a lot but aren't used much."
+    type: claim
+    section: "UC3: IT Cost and Value Analysis"
+    position: 211
+    source_format: prose
+
+  - id: seg-212
+    text: "It can even suggest ways to cut costs, like swapping a custom tool for a SaaS alternative."
+    type: claim
+    section: "UC3: IT Cost and Value Analysis"
+    position: 212
+    source_format: prose
+
+  - id: seg-213
+    text: "Think of it as an on-call analyst that turns spreadsheets into insights."
+    type: claim
+    section: "UC3: IT Cost and Value Analysis"
+    position: 213
+    source_format: prose
+
+  - id: seg-214
+    text: "It can also help you explain the story behind the numbers, showing where your IT budget is going and where it might make sense to adjust."
+    type: claim
+    section: "UC3: IT Cost and Value Analysis"
+    position: 214
+    source_format: prose
+
+  - id: seg-215
+    text: "This sets you and your stakeholders up for having smarter, more focused cost discussions."
+    type: claim
+    section: "UC3: IT Cost and Value Analysis"
+    position: 215
+    source_format: prose
+
+  # ============================================================
+  # PAGE 15 — PROMPT 7: DETECT COST OUTLIERS
+  # ============================================================
+
+  - id: seg-216
+    text: "Prompt 7: Detect Cost Outliers"
+    type: noise
+    section: "Prompt 7"
+    position: 216
+    source_format: heading
+
+  - id: seg-217
+    text: "Goal: Find the applications or services that are disproportionately costly relative to their usage or business importance."
+    type: context
+    section: "Prompt 7"
+    position: 217
+    source_format: prose
+
+  - id: seg-218
+    text: "This prompt helps flag candidates for cost optimization (renegotiation, rearchitecting, or elimination)."
+    type: context
+    section: "Prompt 7"
+    position: 218
+    source_format: prose
+
+  - id: seg-219
+    text: "Context: You'll need a list of applications (or IT services) with their annual costs and at least one indicator of value or usage."
+    type: context
+    section: "Prompt 7"
+    position: 219
+    source_format: prose
+
+  - id: seg-220
+    text: "\"You are an IT portfolio analyst. Here is a table of applications with their annual operating cost, number of active users, and business criticality (High/Med/Low) (insert table). Identify any cost outliers such as applications that have very high cost but low usage or low business value. For each outlier, provide a brief insight into why it's notable and a suggestion (such as investigate, optimize, or replace). Also, flag any apps that are low cost but extremely high value (to ensure they continue to be supported).\""
+    type: example
+    section: "Prompt 7"
+    position: 220
+    source_format: quote
+
+  - id: seg-221
+    text: "This creates a focused list for cost optimization efforts."
+    type: context
+    section: "Prompt 7"
+    position: 221
+    source_format: prose
+
+  - id: seg-222
+    text: "The AI has essentially helped prepare a quick value-for-money analysis."
+    type: claim
+    section: "Prompt 7"
+    position: 222
+    source_format: prose
+
+  - id: seg-223
+    text: "How to Refine: If the results aren't granular enough, you could ask: 'Calculate cost per user for each application and highlight the top 10% highest cost-per-user apps.'"
+    type: recommendation
+    section: "Prompt 7"
+    position: 223
+    source_format: prose
+
+  - id: seg-224
+    text: "Tailor the prompt to the aspects of cost that matter (license costs, cloud infra, etc.)."
+    type: recommendation
+    section: "Prompt 7"
+    position: 224
+    source_format: prose
+
+  # ============================================================
+  # PAGE 16 — PROMPT 8: IT SPEND BY CAPABILITY OR BUSINESS UNIT
+  # ============================================================
+
+  - id: seg-225
+    text: "Prompt 8: Get Insight Into IT Spend by Capability or Business Unit"
+    type: noise
+    section: "Prompt 8"
+    position: 225
+    source_format: heading
+
+  - id: seg-226
+    text: "Goal: Provide a breakdown of IT spending in business terms, such as by capability, business function, or department, to see where IT resources are concentrated versus where the business priorities lie."
+    type: context
+    section: "Prompt 8"
+    position: 226
+    source_format: prose
+
+  - id: seg-227
+    text: "This is useful for leading conversations about alignment and efficiency."
+    type: context
+    section: "Prompt 8"
+    position: 227
+    source_format: prose
+
+  - id: seg-228
+    text: "Context: You need to have costs mapped to different business areas."
+    type: context
+    section: "Prompt 8"
+    position: 228
+    source_format: prose
+
+  - id: seg-229
+    text: "\"Take the following IT spend distribution by business capability (or department) and analyze it: [insert list: Capability X - $A million, Capability Y - $B million, ... etc.]. Which capabilities have the highest IT spend, and are we over- or under-investing based on their importance? Identify any capability that comprises a surprisingly large share of cost and explain possible reasons (e.g., complex legacy systems driving cost). Also, point out if any critical capability has relatively low spend (potential under-investment). Provide recommendations for rebalance if needed.\""
+    type: example
+    section: "Prompt 8"
+    position: 229
+    source_format: quote
+
+  - id: seg-230
+    text: "This kind of commentary helps justify budget shifts in business terms."
+    type: claim
+    section: "Prompt 8"
+    position: 230
+    source_format: prose
+
+  - id: seg-231
+    text: "It shows stakeholders where money is going and proposes shifts to better align with the business' strategy."
+    type: claim
+    section: "Prompt 8"
+    position: 231
+    source_format: prose
+
+  - id: seg-232
+    text: "How to Refine: If you have benchmarks or external data, you could add: 'Benchmark our spend distribution against industry averages (if known) and identify variances.'"
+    type: recommendation
+    section: "Prompt 8"
+    position: 232
+    source_format: prose
+
+  # ============================================================
+  # PAGE 17 — PROMPT 9: DRAFT A COST OPTIMIZATION PLAN
+  # ============================================================
+
+  - id: seg-233
+    text: "Prompt 9: Draft a Cost Optimization Plan"
+    type: noise
+    section: "Prompt 9"
+    position: 233
+    source_format: heading
+
+  - id: seg-234
+    text: "Goal: Generate a preliminary set of cost-saving ideas and their impact, which you can then refine."
+    type: context
+    section: "Prompt 9"
+    position: 234
+    source_format: prose
+
+  - id: seg-235
+    text: "Think of it as an AI-assisted brainstorming of how to reduce IT costs while minimizing business impact."
+    type: context
+    section: "Prompt 9"
+    position: 235
+    source_format: prose
+
+  - id: seg-236
+    text: "Context: Provide context like: total IT budget, any cost reduction target, and known constraints."
+    type: recommendation
+    section: "Prompt 9"
+    position: 236
+    source_format: prose
+
+  - id: seg-237
+    text: "\"You are a FinOps expert assisting an enterprise architect. Given our IT budget and cost breakdown (describe key points or high-cost areas) and a mandate to cut 10% of costs, propose a cost optimization plan. Include 3-5 specific initiatives, each with an estimated saving and a note on impact. Prioritize initiatives that reduce waste or tackle low-value spend (e.g., decommissioning unused applications, consolidating vendors, optimizing cloud resources) over those that cut critical capabilities. Present the plan as a list of initiatives with savings and impact.\""
+    type: example
+    section: "Prompt 9"
+    position: 237
+    source_format: quote
+
+  - id: seg-238
+    text: "How to Refine: You can ask the AI to adjust the focus: 'Give more creative ideas around operations or staffing costs.' Or 'Rank these initiatives by quickest return.'"
+    type: recommendation
+    section: "Prompt 9"
+    position: 238
+    source_format: prose
+
+  - id: seg-239
+    text: "The AI can even draft an executive summary of this plan if you ask: 'Now summarize the above into a one-paragraph statement for the CIO.'"
+    type: recommendation
+    section: "Prompt 9"
+    position: 239
+    source_format: prose
+
+  - id: seg-240
+    text: "Bonus: Using Ardoq for Cost Analysis — When your cost data lives in Ardoq and you connect it to MCP, AI becomes much more useful. You can ask questions like 'Which apps are high-cost and low-criticality?' and get answers instantly, pulled from your live data, without any need to build additional spreadsheets."
+    type: noise
+    section: "Prompt 9"
+    position: 240
+    source_format: prose
+
+  # ============================================================
+  # PAGE 18 — USE CASE #4: TECHNOLOGY RISK AND COMPLIANCE ASSESSMENT
+  # ============================================================
+
+  - id: seg-241
+    text: "Use Case #4: Technology Risk and Compliance Assessment"
+    type: noise
+    section: "UC4: Tech Risk and Compliance"
+    position: 241
+    source_format: heading
+
+  - id: seg-242
+    text: "For EAs tasked with exposing risk and compliance gaps, this use case delivers clear, defensible outputs to support control and remediation."
+    type: claim
+    section: "UC4: Tech Risk and Compliance"
+    position: 242
+    source_format: prose
+
+  - id: seg-243
+    text: "WHAT: Identify and assess technology-related risks in the architecture landscape."
+    type: definition
+    section: "UC4: Tech Risk and Compliance"
+    position: 243
+    source_format: bullet
+
+  - id: seg-244
+    text: "This includes things like aging technology (e.g., end-of-life software, unsupported systems), single points of failure, security vulnerabilities, and compliance gaps (e.g., missing controls or data privacy issues)."
+    type: definition
+    section: "UC4: Tech Risk and Compliance"
+    position: 244
+    source_format: prose
+
+  - id: seg-245
+    text: "It often overlaps with IT risk management and governance processes."
+    type: context
+    section: "UC4: Tech Risk and Compliance"
+    position: 245
+    source_format: prose
+
+  - id: seg-246
+    text: "WHY: Proactively managing tech risk prevents costly incidents and ensures compliance with regulations."
+    type: claim
+    section: "UC4: Tech Risk and Compliance"
+    position: 246
+    source_format: bullet
+
+  - id: seg-247
+    text: "EAs often coordinate with security and compliance teams to remediate risks in systems architecture."
+    type: context
+    section: "UC4: Tech Risk and Compliance"
+    position: 247
+    source_format: prose
+
+  - id: seg-248
+    text: "By surfacing risks early and tying them to business impact, enterprise architects can guide smarter investments in risk mitigation and avoid nasty surprises like a critical system failure or costly audit finding."
+    type: claim
+    section: "UC4: Tech Risk and Compliance"
+    position: 248
+    source_format: prose
+
+  - id: seg-249
+    text: "WHO: Enterprise Architects, Technology Risk Officers, CISOs and their teams, IT Compliance/Governance roles, and any EA involved in portfolio risk reviews or audit preparation."
+    type: context
+    section: "UC4: Tech Risk and Compliance"
+    position: 249
+    source_format: bullet
+
+  - id: seg-250
+    text: "Why Move to an AI-Assisted Way of Working?"
+    type: noise
+    section: "UC4: Tech Risk and Compliance"
+    position: 250
+    source_format: heading
+
+  - id: seg-251
+    text: "Risk analysis involves a lot of data in different places, like what tech you're using, which versions, known security gaps, and which systems fall under which regulations."
+    type: context
+    section: "UC4: Tech Risk and Compliance"
+    position: 251
+    source_format: prose
+
+  - id: seg-252
+    text: "Typically, it takes ages to pull all that together."
+    type: claim
+    section: "UC4: Tech Risk and Compliance"
+    position: 252
+    source_format: prose
+
+  - id: seg-253
+    text: "With AI, you can ask a simple question like 'Which apps are using outdated databases?' or 'Which systems hold personal data but aren't encrypted?' and get answers fast."
+    type: claim
+    section: "UC4: Tech Risk and Compliance"
+    position: 253
+    source_format: prose
+
+  - id: seg-254
+    text: "It also helps explain risks in clear language for reports."
+    type: claim
+    section: "UC4: Tech Risk and Compliance"
+    position: 254
+    source_format: prose
+
+  - id: seg-255
+    text: "Think of it as a nonstop risk analyst, scanning your IT setup and flagging issues before they become problems."
+    type: claim
+    section: "UC4: Tech Risk and Compliance"
+    position: 255
+    source_format: prose
+
+  # ============================================================
+  # PAGES 19-21 — PROMPTS 10, 11, 12
+  # ============================================================
+
+  - id: seg-256
+    text: "Prompt 10: Scan for Technology Obsolescence"
+    type: noise
+    section: "Prompt 10"
+    position: 256
+    source_format: heading
+
+  - id: seg-257
+    text: "Goal: Find technologies in your environment that are outdated or near end-of-life, which pose operational or security risks."
+    type: context
+    section: "Prompt 10"
+    position: 257
+    source_format: prose
+
+  - id: seg-258
+    text: "Context: An inventory of applications or infrastructure with their key tech stack info: e.g., operating system, database, major frameworks, version numbers, and, if possible, the end-of-life (EOL) dates or support status."
+    type: context
+    section: "Prompt 10"
+    position: 258
+    source_format: prose
+
+  - id: seg-259
+    text: "\"You are an IT risk analyst. Here is a list of systems with the technologies and versions they use (provide inventory data). Identify any components that are outdated or nearing end-of-life support, and explain the risk briefly (e.g., security vulnerabilities, lack of vendor support). Prioritize the list by severity (e.g., obsolete core system is the highest risk). If known, suggest the modern equivalent or upgrade path (e.g., upgrade Windows version or migrate off a legacy framework).\""
+    type: example
+    section: "Prompt 10"
+    position: 259
+    source_format: quote
+
+  - id: seg-260
+    text: "The output flags obsolete tech and gives reasoning."
+    type: context
+    section: "Prompt 10"
+    position: 260
+    source_format: prose
+
+  - id: seg-261
+    text: "It creates an actionable tech debt 'hit list' ranked by urgency."
+    type: claim
+    section: "Prompt 10"
+    position: 261
+    source_format: prose
+
+  - id: seg-262
+    text: "How to Refine: If the list is too generic, ensure you provided enough detail."
+    type: recommendation
+    section: "Prompt 10"
+    position: 262
+    source_format: prose
+
+  - id: seg-263
+    text: "'Focus on items that impact critical systems first.' This ensures the analysis is risk-aligned, not just listing every old component, but those that matter most."
+    type: recommendation
+    section: "Prompt 10"
+    position: 263
+    source_format: prose
+
+  - id: seg-264
+    text: "Prompt 11: Summarize Security Posture"
+    type: noise
+    section: "Prompt 11"
+    position: 264
+    source_format: heading
+
+  - id: seg-265
+    text: "Goal: Summarize the security posture of the application portfolio and highlight high-risk applications (e.g., those handling sensitive data without proper controls, or known to have vulnerabilities)."
+    type: context
+    section: "Prompt 11"
+    position: 265
+    source_format: prose
+
+  - id: seg-266
+    text: "This is useful when preparing reports for risk committees or planning security investments."
+    type: context
+    section: "Prompt 11"
+    position: 266
+    source_format: prose
+
+  - id: seg-267
+    text: "Context: Input needed might include which applications are customer-facing or handle sensitive data, any known security ratings or incidents, and vulnerability scan results if available."
+    type: context
+    section: "Prompt 11"
+    position: 267
+    source_format: prose
+
+  - id: seg-268
+    text: "\"You are a CISO's assistant reviewing our application portfolio security. Here is an overview of each application, including any known risk factors (e.g., data sensitivity, recent vulnerability scan results, criticality): (provide list). Identify which applications should be considered high risk from a security perspective and why. Highlight factors like handling of sensitive personal data, internet-facing without MFA, outdated libraries, or past breaches. Then suggest high-level mitigation priorities such as which ones to address first and how (patch, add controls, etc.).\""
+    type: example
+    section: "Prompt 11"
+    position: 268
+    source_format: quote
+
+  - id: seg-269
+    text: "This provides a clear risk heatmap of your apps and actionable next steps."
+    type: context
+    section: "Prompt 11"
+    position: 269
+    source_format: prose
+
+  - id: seg-270
+    text: "It's essentially an AI draft of a section in a risk assessment report, saving substantial manual collation."
+    type: claim
+    section: "Prompt 11"
+    position: 270
+    source_format: prose
+
+  - id: seg-271
+    text: "How to Refine: If certain details are missing such as the AI missing something you know, you can prompt: 'Also mention compliance impact (like GDPR or SOX) if relevant for each high-risk app.'"
+    type: recommendation
+    section: "Prompt 11"
+    position: 271
+    source_format: prose
+
+  - id: seg-272
+    text: "Prompt 12: Analyze Compliance Gaps"
+    type: noise
+    section: "Prompt 12"
+    position: 272
+    source_format: heading
+
+  - id: seg-273
+    text: "Goal: Check architecture for any areas not meeting specific regulatory or compliance requirements (e.g., missing disaster recovery plans, lack of data retention policy, etc.)."
+    type: context
+    section: "Prompt 12"
+    position: 273
+    source_format: prose
+
+  - id: seg-274
+    text: "This prompt is useful if your organization has specific standards, such as 'all critical systems must have a recovery time < X', and you want to identify gaps, their implications for risk, and propose a possible remediation plan."
+    type: context
+    section: "Prompt 12"
+    position: 274
+    source_format: prose
+
+  - id: seg-275
+    text: "Context: List out known compliance requirements or policies alongside the current status for each system if you have it."
+    type: recommendation
+    section: "Prompt 12"
+    position: 275
+    source_format: prose
+
+  - id: seg-276
+    text: "\"Act as an IT governance analyst. Our policies/standards include: (provide list of policies and standards). Here is the current state of select systems relative to these policies (provide information on system statuses, e.g., which systems are compliant or not). Identify any compliance gaps or risks, which systems are out of compliance or potentially non-compliant with these standards. Explain the implications (e.g., risk of fines, operational risk) and suggest what remediation is needed (for example, implement encryption, improve monitoring, formalize an architecture review process for changes, etc.).\""
+    type: example
+    section: "Prompt 12"
+    position: 276
+    source_format: quote
+
+  - id: seg-277
+    text: "The result should be a structured checklist of where you stand against key compliance items, which is extremely helpful for audit prep or risk meetings."
+    type: context
+    section: "Prompt 12"
+    position: 277
+    source_format: prose
+
+  - id: seg-278
+    text: "How to Refine: If you have many policies, you might limit the scope: 'Focus on the highest-risk compliance areas (data privacy, continuity, and financial reporting).'"
+    type: recommendation
+    section: "Prompt 12"
+    position: 278
+    source_format: prose
+
+  - id: seg-279
+    text: "Bonus: How Ardoq Helps With Risk and Compliance — Keeping risk and compliance data up to date is hard. Ardoq makes it easier by storing everything in one place, including tech stacks, data classifications, control status, and more. Thanks to Ardoq's MCP integration, those queries stay secure, respect user permissions, and never change your data."
+    type: noise
+    section: "Prompt 12"
+    position: 279
+    source_format: prose
+
+  # ============================================================
+  # PAGES 22-25 — USE CASE #5: M&A INTEGRATION AND DUE DILIGENCE
+  # ============================================================
+
+  - id: seg-280
+    text: "Use Case #5: M&A Integration and Due Diligence"
+    type: noise
+    section: "UC5: M&A Integration"
+    position: 280
+    source_format: heading
+
+  - id: seg-281
+    text: "For EAs leading due diligence and integration efforts, this use case helps assess acquisition targets and define post-merger roadmaps."
+    type: context
+    section: "UC5: M&A Integration"
+    position: 281
+    source_format: prose
+
+  - id: seg-282
+    text: "WHAT: Evaluate and plan the integration of two companies' technology landscapes during a merger or acquisition."
+    type: definition
+    section: "UC5: M&A Integration"
+    position: 282
+    source_format: bullet
+
+  - id: seg-283
+    text: "This involves comparing application portfolios, identifying overlapping capabilities and systems, and planning how to consolidate or integrate architecture post-merger."
+    type: definition
+    section: "UC5: M&A Integration"
+    position: 283
+    source_format: prose
+
+  - id: seg-284
+    text: "It also covers due diligence: assessing the technology risks and costs of a target company before an acquisition."
+    type: definition
+    section: "UC5: M&A Integration"
+    position: 284
+    source_format: prose
+
+  - id: seg-285
+    text: "WHY: In M&A, technology can be either an enabler or a roadblock for realizing synergies."
+    type: claim
+    section: "UC5: M&A Integration"
+    position: 285
+    source_format: bullet
+
+  - id: seg-286
+    text: "Quickly identifying redundancies (e.g., both companies have similar CRM systems) can highlight cost-saving opportunities."
+    type: claim
+    section: "UC5: M&A Integration"
+    position: 286
+    source_format: prose
+
+  - id: seg-287
+    text: "Conversely, understanding integration challenges (like misaligned data models or fragile legacy systems) helps avoid costly surprises post-merger."
+    type: claim
+    section: "UC5: M&A Integration"
+    position: 287
+    source_format: prose
+
+  - id: seg-288
+    text: "EAs play a crucial role in creating the IT integration plan that supports the business merger goals, as well as assessing the 'tech health' of acquisition targets."
+    type: claim
+    section: "UC5: M&A Integration"
+    position: 288
+    source_format: prose
+
+  - id: seg-289
+    text: "WHO: Enterprise Architects, IT leaders involved in M&A planning, CIOs, and corporate development teams (for due diligence)."
+    type: context
+    section: "UC5: M&A Integration"
+    position: 289
+    source_format: bullet
+
+  - id: seg-290
+    text: "Why Move to an AI-Assisted Way of Working?"
+    type: noise
+    section: "UC5: M&A Integration"
+    position: 290
+    source_format: heading
+
+  - id: seg-291
+    text: "M&A timelines are tight."
+    type: context
+    section: "UC5: M&A Integration"
+    position: 291
+    source_format: prose
+
+  - id: seg-292
+    text: "You need to understand the other company's IT setup fast."
+    type: context
+    section: "UC5: M&A Integration"
+    position: 292
+    source_format: prose
+
+  - id: seg-293
+    text: "AI can help by comparing two sets of data and quickly spotting overlaps, gaps, or potential issues."
+    type: claim
+    section: "UC5: M&A Integration"
+    position: 293
+    source_format: prose
+
+  - id: seg-294
+    text: "AI can also help draft reports, such as a tech risk summary or an integration plan for executives."
+    type: claim
+    section: "UC5: M&A Integration"
+    position: 294
+    source_format: prose
+
+  - id: seg-295
+    text: "It takes on the heavy lifting, so you can focus on what matters: making smart, timely decisions."
+    type: claim
+    section: "UC5: M&A Integration"
+    position: 295
+    source_format: prose
+
+  - id: seg-296
+    text: "Prompt 13: Identify Portfolio Overlaps"
+    type: noise
+    section: "Prompt 13"
+    position: 296
+    source_format: heading
+
+  - id: seg-297
+    text: "Goal: Identify overlapping systems or capabilities between the two companies' application portfolios."
+    type: context
+    section: "Prompt 13"
+    position: 297
+    source_format: prose
+
+  - id: seg-298
+    text: "This helps spot redundancy, opportunities for consolidation, or areas where each company has unique strengths."
+    type: context
+    section: "Prompt 13"
+    position: 298
+    source_format: prose
+
+  - id: seg-299
+    text: "Context: You need two sets of data: Company A's application inventory and Company B's inventory, including these details for each system: name, purpose or business capability served, and, if available, key tech platform."
+    type: context
+    section: "Prompt 13"
+    position: 299
+    source_format: prose
+
+  - id: seg-300
+    text: "\"You are assisting in an IT merger. Here are two lists of applications from Company A and Company B, with their primary business function (provide the lists). Analyze them to find overlaps such as areas where both companies have similar systems serving the same function. For each overlap, list the systems (A's vs B's) and note any quick comparison (e.g., one is more modern or widely used than the other). Also, highlight any critical capability that only one company has a system for (unique strengths). Output a summary of overlaps and unique systems.\""
+    type: example
+    section: "Prompt 13"
+    position: 300
+    source_format: quote
+
+  - id: seg-301
+    text: "This output gives a clear roadmap of where to focus integration decisions."
+    type: context
+    section: "Prompt 13"
+    position: 301
+    source_format: prose
+
+  - id: seg-302
+    text: "How to Refine: If the output is too superficial, you can prompt the AI to consider scale or quality: 'Also indicate for each overlap which system seems more up-to-date or better supported.'"
+    type: recommendation
+    section: "Prompt 13"
+    position: 302
+    source_format: prose
+
+  - id: seg-303
+    text: "Prompt 14: Assess M&A Integration Risks"
+    type: noise
+    section: "Prompt 14"
+    position: 303
+    source_format: heading
+
+  - id: seg-304
+    text: "Goal: Highlight potential risks or challenges in integrating the two IT landscapes."
+    type: context
+    section: "Prompt 14"
+    position: 304
+    source_format: prose
+
+  - id: seg-305
+    text: "\"As an Enterprise Architect evaluating a merger, consider the two company profiles (describe key aspects of each IT landscape). Identify the top 5 integration challenges or risks we are likely to face. For each, explain why it's an issue and what the impact could be (e.g., timeline delays, cost, lost data, security issues). Also, if possible, suggest a mitigation or approach to address each risk in the integration plan.\""
+    type: example
+    section: "Prompt 14"
+    position: 305
+    source_format: quote
+
+  - id: seg-306
+    text: "You will likely get a numbered list of risks which helps stakeholders understand that integration is not just plug-and-play, there are real challenges to plan for."
+    type: context
+    section: "Prompt 14"
+    position: 306
+    source_format: prose
+
+  - id: seg-307
+    text: "How to Refine: If there are particular areas of concern, you can include that context and ask the AI to consider it."
+    type: recommendation
+    section: "Prompt 14"
+    position: 307
+    source_format: prose
+
+  - id: seg-308
+    text: "Prompt 15: Develop a Narrative for Post-Merger IT Roadmap"
+    type: noise
+    section: "Prompt 15"
+    position: 308
+    source_format: heading
+
+  - id: seg-309
+    text: "Goal: Draft a high-level roadmap or vision for the combined IT landscape after the merger, to communicate to stakeholders."
+    type: context
+    section: "Prompt 15"
+    position: 309
+    source_format: prose
+
+  - id: seg-310
+    text: "\"You are an Enterprise Architect tasked with presenting the IT integration roadmap for the merged company. Our goals: (Provide list of goals). Assumptions/decisions: (Provide list of decisions, conditions, or direction). Draft a narrative that outlines the key phases of integration (e.g., Day 1, first 100 days, first year), the target state architecture vision (what our IT landscape will look like once integrated), and the strategic benefits that will result (e.g., cost savings, new capabilities, agility). This should be written in a confident, forward-looking tone for an executive audience.\""
+    type: example
+    section: "Prompt 15"
+    position: 310
+    source_format: quote
+
+  - id: seg-311
+    text: "This paints a clear picture of integration with a timeline and rationale, which is exactly what executives and integration leads will want to see."
+    type: context
+    section: "Prompt 15"
+    position: 311
+    source_format: prose
+
+  - id: seg-312
+    text: "How to Refine: Ensure the AI has the right tone."
+    type: recommendation
+    section: "Prompt 15"
+    position: 312
+    source_format: prose
+
+  - id: seg-313
+    text: "Essentially, treat it like a draft that you can tweak via additional instructions."
+    type: recommendation
+    section: "Prompt 15"
+    position: 313
+    source_format: prose
+
+  - id: seg-314
+    text: "Bonus: Why Ardoq Is Built for M&A — Successful M&A requires deep analysis of two sets of architecture data. Ardoq lets you create scenarios to represent future state or transition state architectures in isolation, without overwriting the current (as-is) data. Together, they make M&A planning faster, clearer, and more effective."
+    type: noise
+    section: "Prompt 15"
+    position: 314
+    source_format: prose
+
+  # ============================================================
+  # PAGES 26-29 — USE CASE #6: CLOUD TRANSFORMATION PLANNING
+  # ============================================================
+
+  - id: seg-315
+    text: "Use Case #6: Cloud Transformation Planning"
+    type: noise
+    section: "UC6: Cloud Transformation"
+    position: 315
+    source_format: heading
+
+  - id: seg-316
+    text: "For EAs planning cloud migration, this use case supports risk-aware, cost-effective strategies that align with business priorities."
+    type: context
+    section: "UC6: Cloud Transformation"
+    position: 316
+    source_format: prose
+
+  - id: seg-317
+    text: "WHAT: Plan and execute the migration of applications and infrastructure to the cloud, public or hybrid."
+    type: definition
+    section: "UC6: Cloud Transformation"
+    position: 317
+    source_format: bullet
+
+  - id: seg-318
+    text: "This includes assessing which applications are suitable for moving and the optimal order of migration, determining target cloud architectures (rehost, refactor, etc.), and managing the overall cloud transition roadmap."
+    type: definition
+    section: "UC6: Cloud Transformation"
+    position: 318
+    source_format: prose
+
+  - id: seg-319
+    text: "WHY: Cloud migration is a strategic priority for many enterprises to increase agility, scalability, and potentially reduce costs."
+    type: claim
+    section: "UC6: Cloud Transformation"
+    position: 319
+    source_format: bullet
+
+  - id: seg-320
+    text: "However, it's complex; not all systems are cloud-ready, and moving too fast can risk stability."
+    type: claim
+    section: "UC6: Cloud Transformation"
+    position: 320
+    source_format: prose
+
+  - id: seg-321
+    text: "EAs need to create a balanced plan that achieves cloud benefits while mitigating migration risks."
+    type: recommendation
+    section: "UC6: Cloud Transformation"
+    position: 321
+    source_format: prose
+
+  - id: seg-322
+    text: "WHO: Enterprise Architects and Cloud Architects, CIOs overseeing digital transformation, IT Infrastructure managers, and application owners involved in modernization."
+    type: context
+    section: "UC6: Cloud Transformation"
+    position: 322
+    source_format: bullet
+
+  - id: seg-323
+    text: "Why Move to an AI-Assisted Way of Working?"
+    type: noise
+    section: "UC6: Cloud Transformation"
+    position: 323
+    source_format: heading
+
+  - id: seg-324
+    text: "Planning a move to the cloud means looking at every app, how it's built, what it connects to, how critical it is, and what it costs."
+    type: context
+    section: "UC6: Cloud Transformation"
+    position: 324
+    source_format: prose
+
+  - id: seg-325
+    text: "AI can look at all of that in one go and suggest the best path for each one."
+    type: claim
+    section: "UC6: Cloud Transformation"
+    position: 325
+    source_format: prose
+
+  - id: seg-326
+    text: "It can flag quick wins you can lift-and-shift easily, as well as apps that need rework or should stay on-prem for now."
+    type: claim
+    section: "UC6: Cloud Transformation"
+    position: 326
+    source_format: prose
+
+  - id: seg-327
+    text: "Think of it as having an extra cloud consultant who helps you spot what to move, when, and how, without missing the tricky stuff."
+    type: claim
+    section: "UC6: Cloud Transformation"
+    position: 327
+    source_format: prose
+
+  - id: seg-328
+    text: "Prompt 16: Assess Cloud Readiness"
+    type: noise
+    section: "Prompt 16"
+    position: 328
+    source_format: heading
+
+  - id: seg-329
+    text: "Goal: Categorize applications by their cloud migration readiness and suggested approach (e.g., rehost/lift-and-shift, refactor, replace, or retain on-prem)."
+    type: context
+    section: "Prompt 16"
+    position: 329
+    source_format: prose
+
+  - id: seg-330
+    text: "\"You are a cloud migration advisor. Here is a list of our applications with their characteristics and constraints (provide condensed list). For each, assess its cloud migration readiness and recommend a migration strategy among: Rehost (lift-and-shift to cloud as is), Refactor (needs some re-architecting for cloud, e.g., break monolith or change database), Replace (swap out with SaaS or cloud-native solution), or Retain (keep on-prem for now). Present the output as a table or list with Application, Recommended Strategy, and a one-line rationale.\""
+    type: example
+    section: "Prompt 16"
+    position: 330
+    source_format: quote
+
+  - id: seg-331
+    text: "This lays out a high-level game plan for each app."
+    type: context
+    section: "Prompt 16"
+    position: 331
+    source_format: prose
+
+  - id: seg-332
+    text: "It helps stakeholders see that not everything is a simple lift-and-shift and that some will stay put for valid reasons."
+    type: claim
+    section: "Prompt 16"
+    position: 332
+    source_format: prose
+
+  - id: seg-333
+    text: "How to Refine: If the AI lacks detail, you might need to give more context or ask for a specific format: 'Provide the rationale in terms of risk/effort vs benefit.'"
+    type: recommendation
+    section: "Prompt 16"
+    position: 333
+    source_format: prose
+
+  - id: seg-334
+    text: "Prompt 17: Plan Migration Waves"
+    type: noise
+    section: "Prompt 17"
+    position: 334
+    source_format: heading
+
+  - id: seg-335
+    text: "Goal: Propose an order or grouping for migrating applications in waves, for example, Wave 1 (quick wins), Wave 2 (moderate), Wave 3 (complex/late)."
+    type: context
+    section: "Prompt 17"
+    position: 335
+    source_format: prose
+
+  - id: seg-336
+    text: "This helps structure the timeline of a cloud program."
+    type: context
+    section: "Prompt 17"
+    position: 336
+    source_format: prose
+
+  - id: seg-337
+    text: "\"We have classified our applications by migration strategy (rehost, refactor, etc.). Now help us plan migration waves. We want to start with quick wins and low-risk moves, and tackle complex ones later (or in parallel with proper prep). Propose 3-4 migration waves, including which types of apps go in each. Consider dependencies also. For example, if App A depends on App B, they should be in the same wave. Additionally, note any prerequisite tasks (setup cloud landing zone in Wave 0, train teams, etc.). The output should show a logical progression, balancing risk and reward.\""
+    type: example
+    section: "Prompt 17"
+    position: 337
+    source_format: quote
+
+  - id: seg-338
+    text: "How to Refine: If dependencies are critical, ensure the AI knows: 'App Z cannot move until App Y is moved,' etc., and ask it to reflect that."
+    type: recommendation
+    section: "Prompt 17"
+    position: 338
+    source_format: prose
+
+  - id: seg-339
+    text: "Prompt 18: Create Cloud Benefit Projections"
+    type: noise
+    section: "Prompt 18"
+    position: 339
+    source_format: heading
+
+  - id: seg-340
+    text: "Goal: Articulate the expected benefits, costs, and risks of the cloud migration in a way that stakeholders can grasp."
+    type: context
+    section: "Prompt 18"
+    position: 340
+    source_format: prose
+
+  - id: seg-341
+    text: "This prompt helps create a balanced view of why the company is undertaking the cloud journey which is useful for business cases or all-hands announcements."
+    type: context
+    section: "Prompt 18"
+    position: 341
+    source_format: prose
+
+  - id: seg-342
+    text: "\"Act as an enterprise architect preparing the business case for cloud transformation. Our initiative's expected benefits: (list of predicted cost savings, agility, new capabilities). Planned investments: (mention costs, e.g., training, cloud fees in transition). Draft a clear summary of the benefits of moving to the cloud, including both tangible (cost, performance) and intangible (innovation, flexibility). Note the main risks or investments required to show we've considered them. This should be written for senior leadership, focusing on strategic value.\""
+    type: example
+    section: "Prompt 18"
+    position: 342
+    source_format: quote
+
+  - id: seg-343
+    text: "How to Refine: If you want a bullet-point list of benefits instead of a narrative, you can request that or prompt it to emphasize specific areas."
+    type: recommendation
+    section: "Prompt 18"
+    position: 343
+    source_format: prose
+
+  - id: seg-344
+    text: "Bonus: Why Ardoq Makes Cloud Migration Planning Easier — With Ardoq, you always have a real-time view of which apps are cloud-ready, their dependencies, and their migration status. Ardoq also pulls in data from cloud discovery tools, so AI has the full picture when making recommendations. Together, Ardoq and AI give you a smart, flexible, and always up-to-date cloud migration plan."
+    type: noise
+    section: "Prompt 18"
+    position: 344
+    source_format: prose
+
+  # ============================================================
+  # PAGE 30 — ADVANCED PROMPT TECHNIQUES FOR EA
+  # ============================================================
+
+  - id: seg-345
+    text: "Advanced Prompt Techniques for EA"
+    type: noise
+    section: "Advanced Techniques"
+    position: 345
+    source_format: heading
+
+  - id: seg-346
+    text: "Once you're confident with foundational prompts, these advanced techniques can help unlock deeper insights and more precise outputs."
+    type: context
+    section: "Advanced Techniques"
+    position: 346
+    source_format: prose
+
+  - id: seg-347
+    text: "1. Break It Into Steps"
+    type: noise
+    section: "Advanced Techniques"
+    position: 347
+    source_format: heading
+
+  - id: seg-348
+    text: "Don't ask the AI to do everything at once."
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 348
+    source_format: prose
+
+  - id: seg-349
+    text: "Start with a simple question, then build on it."
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 349
+    source_format: prose
+
+  - id: seg-350
+    text: "'List all systems supporting Capability X'"
+    type: example
+    section: "Advanced Techniques"
+    position: 350
+    source_format: bullet
+
+  - id: seg-351
+    text: "Then: 'What are the integration points for each one?'"
+    type: example
+    section: "Advanced Techniques"
+    position: 351
+    source_format: bullet
+
+  - id: seg-352
+    text: "Then: 'What breaks if one of these goes down?'"
+    type: example
+    section: "Advanced Techniques"
+    position: 352
+    source_format: bullet
+
+  - id: seg-353
+    text: "This makes the AI's answers clearer and more useful."
+    type: claim
+    section: "Advanced Techniques"
+    position: 353
+    source_format: prose
+
+  - id: seg-354
+    text: "2. Add Extra Information"
+    type: noise
+    section: "Advanced Techniques"
+    position: 354
+    source_format: heading
+
+  - id: seg-355
+    text: "Sometimes the AI needs more context."
+    type: claim
+    section: "Advanced Techniques"
+    position: 355
+    source_format: prose
+
+  - id: seg-356
+    text: "You can feed it relevant portions of a policy document or architecture standard and say: 'Based on this, evaluate the new design.'"
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 356
+    source_format: prose
+
+  - id: seg-357
+    text: "You can also let AI work with additional files, such as spreadsheets or JSON exports, to run quick checks."
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 357
+    source_format: prose
+
+  - id: seg-358
+    text: "Ardoq's Model Context Protocol (MCP) integration does this automatically by giving the AI your architecture data so it can reason with facts, not guesses."
+    type: noise
+    section: "Advanced Techniques"
+    position: 358
+    source_format: prose
+
+  - id: seg-359
+    text: "3. Ask It to Check Its Work"
+    type: noise
+    section: "Advanced Techniques"
+    position: 359
+    source_format: heading
+
+  - id: seg-360
+    text: "AI isn't perfect, but you can prompt it to find gaps or errors in its own answers."
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 360
+    source_format: prose
+
+  - id: seg-361
+    text: "Example: 'What assumptions are you making in this plan?'"
+    type: example
+    section: "Advanced Techniques"
+    position: 361
+    source_format: prose
+
+  - id: seg-362
+    text: "You can also compare its answers to your internal standards: 'Does this risk assessment match our policies?'"
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 362
+    source_format: prose
+
+  - id: seg-363
+    text: "Think of the AI as a junior analyst — you will still need to double-check its work."
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 363
+    source_format: prose
+
+  - id: seg-364
+    text: "4. Adjust the Tone"
+    type: noise
+    section: "Advanced Techniques"
+    position: 364
+    source_format: heading
+
+  - id: seg-365
+    text: "Sometimes it's not what the AI says, but how it says it."
+    type: claim
+    section: "Advanced Techniques"
+    position: 365
+    source_format: prose
+
+  - id: seg-366
+    text: "You can ask it to write for a specific audience."
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 366
+    source_format: prose
+
+  - id: seg-367
+    text: "'Make this executive-friendly.'"
+    type: example
+    section: "Advanced Techniques"
+    position: 367
+    source_format: bullet
+
+  - id: seg-368
+    text: "'Use our EA report format.'"
+    type: example
+    section: "Advanced Techniques"
+    position: 368
+    source_format: bullet
+
+  - id: seg-369
+    text: "'Be confident in your recommendation.'"
+    type: example
+    section: "Advanced Techniques"
+    position: 369
+    source_format: bullet
+
+  - id: seg-370
+    text: "'Keep it soft and suggestive.'"
+    type: example
+    section: "Advanced Techniques"
+    position: 370
+    source_format: bullet
+
+  - id: seg-371
+    text: "Small tweaks like these will help your output land better."
+    type: claim
+    section: "Advanced Techniques"
+    position: 371
+    source_format: prose
+
+  - id: seg-372
+    text: "Using these techniques, AI becomes more than a Q&A tool, it becomes a thinking partner."
+    type: claim
+    section: "Advanced Techniques"
+    position: 372
+    source_format: prose
+
+  - id: seg-373
+    text: "Just make sure you are guiding it and validating what it gives you."
+    type: recommendation
+    section: "Advanced Techniques"
+    position: 373
+    source_format: prose
+
+  # ============================================================
+  # PAGE 31 — BUILDING AN AI-ENABLED EA PRACTICE
+  # ============================================================
+
+  - id: seg-374
+    text: "Building an AI-Enabled EA Practice"
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 374
+    source_format: heading
+
+  - id: seg-375
+    text: "Applying AI at the individual level can accelerate insight and impact."
+    type: claim
+    section: "Building AI-Enabled EA Practice"
+    position: 375
+    source_format: prose
+
+  - id: seg-376
+    text: "Embedding it across the EA function unlocks far greater potential."
+    type: claim
+    section: "Building AI-Enabled EA Practice"
+    position: 376
+    source_format: prose
+
+  - id: seg-377
+    text: "Here's how to establish a safe, scalable, and effective AI practice in your organization:"
+    type: context
+    section: "Building AI-Enabled EA Practice"
+    position: 377
+    source_format: prose
+
+  - id: seg-378
+    text: "1. Upskill Your Team"
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 378
+    source_format: heading
+
+  - id: seg-379
+    text: "Not everyone will be an AI expert on day one, and that's okay."
+    type: context
+    section: "Building AI-Enabled EA Practice"
+    position: 379
+    source_format: prose
+
+  - id: seg-380
+    text: "Start small, run training sessions, share what works, and build a 'prompt cookbook' with examples from real use cases."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 380
+    source_format: prose
+
+  - id: seg-381
+    text: "Encourage people to begin with low-risk tasks, like drafting documentation, and work their way up."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 381
+    source_format: prose
+
+  - id: seg-382
+    text: "Some teams assign an 'AI champion' to guide others and share best practices."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 382
+    source_format: prose
+
+  - id: seg-383
+    text: "The goal is simple: make AI a regular part of the EA toolkit, like whiteboards or spreadsheets."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 383
+    source_format: prose
+
+  - id: seg-384
+    text: "2. Add AI Into Your Workflow"
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 384
+    source_format: heading
+
+  - id: seg-385
+    text: "Look for natural places in your existing EA process where AI can help."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 385
+    source_format: prose
+
+  - id: seg-386
+    text: "During portfolio reviews, use prompts to spot cost outliers."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 386
+    source_format: bullet
+
+  - id: seg-387
+    text: "In solution reviews, ask AI to draft alternative designs."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 387
+    source_format: bullet
+
+  - id: seg-388
+    text: "After updating your Ardoq model, run a rationalization prompt to find new opportunities."
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 388
+    source_format: bullet
+
+  - id: seg-389
+    text: "Don't treat AI as a one-off experiment. Build it into your standard way of working."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 389
+    source_format: prose
+
+  - id: seg-390
+    text: "3. Keep It Safe and Governed"
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 390
+    source_format: heading
+
+  - id: seg-391
+    text: "Data Privacy: Never feed sensitive or personal data into public AI tools without safeguards."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 391
+    source_format: prose
+
+  - id: seg-392
+    text: "Anonymize or summarize where needed."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 392
+    source_format: prose
+
+  - id: seg-393
+    text: "Ardoq's MCP helps by giving AI secure, read-only access to your data within your environment."
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 393
+    source_format: prose
+
+  - id: seg-394
+    text: "Quality Control: AI can be wrong."
+    type: claim
+    section: "Building AI-Enabled EA Practice"
+    position: 394
+    source_format: prose
+
+  - id: seg-395
+    text: "Always review outputs before sharing or acting on them."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 395
+    source_format: prose
+
+  - id: seg-396
+    text: "Treat AI suggestions like a first draft."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 396
+    source_format: prose
+
+  - id: seg-397
+    text: "Have a second pair of eyes review important prompts or results."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 397
+    source_format: prose
+
+  - id: seg-398
+    text: "Be Transparent: If AI helped shape a recommendation, say so."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 398
+    source_format: prose
+
+  - id: seg-399
+    text: "It builds trust and shows your team is using modern tools wisely."
+    type: claim
+    section: "Building AI-Enabled EA Practice"
+    position: 399
+    source_format: prose
+
+  - id: seg-400
+    text: "4. Track Success"
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 400
+    source_format: heading
+
+  - id: seg-401
+    text: "To prove AI is helping, track what changes."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 401
+    source_format: prose
+
+  - id: seg-402
+    text: "Examples of success metrics:"
+    type: context
+    section: "Building AI-Enabled EA Practice"
+    position: 402
+    source_format: prose
+
+  - id: seg-403
+    text: "Time saved on common tasks"
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 403
+    source_format: bullet
+
+  - id: seg-404
+    text: "Faster answers to leadership questions"
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 404
+    source_format: bullet
+
+  - id: seg-405
+    text: "More scenarios tested during planning"
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 405
+    source_format: bullet
+
+  - id: seg-406
+    text: "Higher engagement with Ardoq data"
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 406
+    source_format: bullet
+
+  - id: seg-407
+    text: "Capture both hard numbers and soft wins like positive stakeholder feedback."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 407
+    source_format: prose
+
+  - id: seg-408
+    text: "5. Build a Culture of Sharing"
+    type: noise
+    section: "Building AI-Enabled EA Practice"
+    position: 408
+    source_format: heading
+
+  - id: seg-409
+    text: "Make prompting a team sport and create a shared library of useful prompts."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 409
+    source_format: prose
+
+  - id: seg-410
+    text: "This could live in Confluence, Notion, or your preferred internal knowledge hub platform."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 410
+    source_format: prose
+
+  - id: seg-411
+    text: "Running challenges like 'Best Prompt of the Month' can help keep things fun and fresh."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 411
+    source_format: prose
+
+  - id: seg-412
+    text: "Bringing AI into your EA practice is not just a tech decision. It's a team transformation."
+    type: claim
+    section: "Building AI-Enabled EA Practice"
+    position: 412
+    source_format: prose
+
+  - id: seg-413
+    text: "Invest in skills, bake it into your process, keep it safe, measure the impact, and share what works."
+    type: recommendation
+    section: "Building AI-Enabled EA Practice"
+    position: 413
+    source_format: prose
+
+  - id: seg-414
+    text: "That's how you can turn AI into a real force multiplier for your architecture team."
+    type: claim
+    section: "Building AI-Enabled EA Practice"
+    position: 414
+    source_format: prose
+
+  # ============================================================
+  # PAGE 32 — WHAT'S NEXT FOR AI AND ENTERPRISE ARCHITECTURE?
+  # ============================================================
+
+  - id: seg-415
+    text: "What's Next for AI and Enterprise Architecture?"
+    type: noise
+    section: "What's Next"
+    position: 415
+    source_format: heading
+
+  - id: seg-416
+    text: "As we wrap up this playbook, let's look ahead."
+    type: noise
+    section: "What's Next"
+    position: 416
+    source_format: prose
+
+  - id: seg-417
+    text: "The use of AI in Enterprise Architecture is just getting started, and prompt engineering is only the first step."
+    type: claim
+    section: "What's Next"
+    position: 417
+    source_format: prose
+
+  - id: seg-418
+    text: "AI Will Become Part of the EA Team"
+    type: noise
+    section: "What's Next"
+    position: 418
+    source_format: heading
+
+  - id: seg-419
+    text: "Right now, we write prompts and review AI outputs ourselves."
+    type: context
+    section: "What's Next"
+    position: 419
+    source_format: prose
+
+  - id: seg-420
+    text: "In the near future, AI agents will work alongside us."
+    type: claim
+    section: "What's Next"
+    position: 420
+    source_format: prose
+
+  - id: seg-421
+    text: "Imagine a chatbot that says: 'I found two apps doing the same thing. Want me to draft a rationalization plan?'"
+    type: example
+    section: "What's Next"
+    position: 421
+    source_format: prose
+
+  - id: seg-422
+    text: "That's where we're headed, and tools like Ardoq are already moving in this direction, with features that let you query your architecture model using natural language and even simulate changes."
+    type: noise
+    section: "What's Next"
+    position: 422
+    source_format: prose
+
+  - id: seg-423
+    text: "Soon, stakeholders will expect to ask enterprise questions and get instant answers."
+    type: claim
+    section: "What's Next"
+    position: 423
+    source_format: prose
+
+  - id: seg-424
+    text: "Architects will focus on validating and fine-tuning those answers."
+    type: claim
+    section: "What's Next"
+    position: 424
+    source_format: prose
+
+  - id: seg-425
+    text: "Prompting Will Evolve"
+    type: noise
+    section: "What's Next"
+    position: 425
+    source_format: heading
+
+  - id: seg-426
+    text: "As AI models get more advanced and potentially specialized for EA, they'll need less context."
+    type: claim
+    section: "What's Next"
+    position: 426
+    source_format: prose
+
+  - id: seg-427
+    text: "But the ability to ask the right questions will remain essential."
+    type: claim
+    section: "What's Next"
+    position: 427
+    source_format: prose
+
+  - id: seg-428
+    text: "You might move from writing prompts to designing AI workflows or using visual tools to build prompt chains."
+    type: claim
+    section: "What's Next"
+    position: 428
+    source_format: prose
+
+  - id: seg-429
+    text: "Prompting will become more about shaping how AI supports your decisions, not just generating quick answers."
+    type: claim
+    section: "What's Next"
+    position: 429
+    source_format: prose
+
+  - id: seg-430
+    text: "Standards Like MCP Will Spread"
+    type: noise
+    section: "What's Next"
+    position: 430
+    source_format: heading
+
+  - id: seg-431
+    text: "Protocols like MCP will likely become more common."
+    type: claim
+    section: "What's Next"
+    position: 431
+    source_format: prose
+
+  - id: seg-432
+    text: "More EA tools will connect with AI, making it easier to use your data without extra prep."
+    type: claim
+    section: "What's Next"
+    position: 432
+    source_format: prose
+
+  - id: seg-433
+    text: "Security and access control will be key, and we can expect better safeguards around what AI can see and use."
+    type: claim
+    section: "What's Next"
+    position: 433
+    source_format: prose
+
+  - id: seg-434
+    text: "Eventually, AI might even explain its reasoning more clearly, helping you trust its suggestions."
+    type: claim
+    section: "What's Next"
+    position: 434
+    source_format: prose
+
+  - id: seg-435
+    text: "Architects Will Take on New Roles"
+    type: noise
+    section: "What's Next"
+    position: 435
+    source_format: heading
+
+  - id: seg-436
+    text: "EAs won't just manage architecture, they'll help guide how AI is used to shape it."
+    type: claim
+    section: "What's Next"
+    position: 436
+    source_format: prose
+
+  - id: seg-437
+    text: "You might: Curate and share prompt libraries"
+    type: recommendation
+    section: "What's Next"
+    position: 437
+    source_format: bullet
+
+  - id: seg-438
+    text: "Fine-tune AI models with company data"
+    type: recommendation
+    section: "What's Next"
+    position: 438
+    source_format: bullet
+
+  - id: seg-439
+    text: "Act as an AI coach for your team"
+    type: recommendation
+    section: "What's Next"
+    position: 439
+    source_format: bullet
+
+  - id: seg-440
+    text: "In short, you'll help turn AI into a trusted advisor for your organization."
+    type: claim
+    section: "What's Next"
+    position: 440
+    source_format: prose
+
+  - id: seg-441
+    text: "What's Next from Ardoq?"
+    type: noise
+    section: "What's Next"
+    position: 441
+    source_format: heading
+
+  - id: seg-442
+    text: "Ardoq is investing heavily in AI. Right now, we already offer tools like AI-assisted modeling and the AI Gateway (MCP). Soon, you may see: Strategy bots that recommend future states, Real-time impact analysis, Anomaly detection in architecture, Community-shared prompt packs."
+    type: noise
+    section: "What's Next"
+    position: 442
+    source_format: prose
+
+  - id: seg-443
+    text: "Ardoq's goal is to make EA intelligent, connected, and conversational."
+    type: noise
+    section: "What's Next"
+    position: 443
+    source_format: prose
