@@ -65,10 +65,11 @@ For topics that already have sources. Processes queued entries and searches for 
 
 1. **Check source-input.yaml for pending entries**:
    - Read `knowledge-base/topics/{slug}/source-input.yaml`
-   - If there are entries in the `sources` list, process them first:
-     - For `url` entries: fetch the page, create `sources/source-NNN.md`
-     - For `document` entries: note them for `/ingest` processing
-   - Remove processed entries from `source-input.yaml`
+   - If there are entries with `status` missing or set to `queued`, process them:
+     - Run `python3 scripts/scrape-sources.py "{slug}"` to fetch all pending URLs via Playwright and generate source notes automatically (no LLM needed — extracts metadata from HTML tags, full text from page content)
+     - The script updates `source-input.yaml` entries with `status: gathered` and the assigned `source` ID
+     - For `document` entries (PDFs, etc.): note them for `/ingest` processing
+   - If the scrape script fails on specific URLs (JS-heavy pages, paywalled content), fall back to using WebFetch for those URLs individually
 
 2. **Ask for search criteria**:
    - Show the user current source coverage (count, types, key institutions)

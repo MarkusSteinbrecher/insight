@@ -33,14 +33,20 @@ Break each source into numbered segments, classify each segment by type, and cal
 
 **Input**: All source files in `sources/` that don't yet have a corresponding `raw/source-NNN-raw.yaml` file.
 
-**Process** (per source):
-1. Read the source note
-2. Split content into segments following the segmentation rules in CLAUDE.md (one segment per sentence, bullet, heading, etc.)
-3. Classify each segment using the 10-type taxonomy (claim, statistic, evidence, definition, recommendation, context, methodology, example, attribution, noise)
-4. Calculate composition breakdown and signal ratio
-5. Write `raw/source-NNN-raw.yaml` following the Raw File Format schema in CLAUDE.md
+**Process**: Run the segmentation script:
+```
+python3 scripts/segment-source.py "{topic}"
+```
 
-**Token management**: Process sources one at a time. After each source, write the raw file immediately. Do not accumulate multiple sources in context.
+The script handles everything automatically:
+1. Finds unsegmented sources (no corresponding raw file)
+2. Splits each source into segments deterministically (sentences, bullets, headings, quotes)
+3. Classifies each segment via a focused Claude API call (one call per source)
+4. Calculates composition breakdown and signal ratio
+5. Writes `raw/source-NNN-raw.yaml` files
+6. Processes sources in parallel (default: 3 concurrent)
+
+Use `--dry-run` to preview segments without calling the API. Use `--source NNN` to process a single source. Use `--parallel N` to adjust concurrency.
 
 **On completion**: Update `_index.md` — add `"1.1"` to `completed_steps`, set `current_step: "1.2"`, set `phase: 1` if not already. Run `python3 scripts/build-overview.py` to update source pipeline status.
 
@@ -50,11 +56,18 @@ Break each source into numbered segments, classify each segment by type, and cal
 
 Deduplicate claims across all raw files. Identify consensus positions, unique claims, and contradictions.
 
-**Input**: All `raw/source-NNN-raw.yaml` files.
+**Pre-processing**: Run the alignment preparation script to reduce input size:
+```
+python3 scripts/prepare-alignment.py "{topic}"
+```
+
+This extracts claim-relevant segments (claim, recommendation, statistic, evidence) from all raw files, clusters them by TF-IDF keyword similarity, and writes `extractions/alignment-input.yaml`. Typically reduces input by ~50% compared to loading all raw files.
+
+**Input**: `extractions/alignment-input.yaml` (pre-clustered segments).
 
 **Process**:
-1. Extract only `claim`-type and `recommendation`-type segments from all raw files (skip noise, context, headings, etc.)
-2. Group similar claims by theme — look for claims making the same core point across different sources
+1. Read `extractions/alignment-input.yaml` — it contains pre-clustered segments grouped by theme similarity, plus unclustered segments
+2. Review each cluster: refine theme labels, merge or split clusters as needed, identify claims making the same core point across different sources
 3. For each theme with 2+ sources agreeing, create a canonical claim (`cc-NNN`) with:
    - Theme label, summary statement
    - Source segments with segment IDs and representative quotes
@@ -66,7 +79,9 @@ Deduplicate claims across all raw files. Identify consensus positions, unique cl
 
 **Token management**: If there are more than 30 sources, process in batches of 15-20 sources at a time. Write intermediate results and merge.
 
-**On completion**: Update `_index.md` — add `"1.2"` to `completed_steps`, set `current_step: "1.3"`.
+**On completion**:
+1. Run `python3 scripts/audit-claims.py "{topic}"` to validate data integrity (checks for seg-tbd placeholders, AI relevance, and coherence issues). Report any issues to the user before proceeding.
+2. Update `_index.md` — add `"1.2"` to `completed_steps`, set `current_step: "1.3"`.
 
 ---
 

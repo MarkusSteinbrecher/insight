@@ -15,5 +15,6 @@ else
   python3 scripts/build-insights-data.py
   python3 scripts/build-sources-data.py
   python3 scripts/build-findings-data.py
+  python3 scripts/build-usecases-data.py
   echo "Build complete. Site is in docs/"
 fi
