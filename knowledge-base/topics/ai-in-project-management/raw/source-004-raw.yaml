@@ -1,0 +1,231 @@
+source_id: source-004
+title: "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?"
+url: "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/"
+author: "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)"
+date: 2026-01-19
+total_segments: 30
+
+composition:
+  claim: { count: 10, pct: 33.3 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 3, pct: 10.0 }
+  definition: { count: 3, pct: 10.0 }
+  recommendation: { count: 3, pct: 10.0 }
+  context: { count: 5, pct: 16.7 }
+  methodology: { count: 1, pct: 3.3 }
+  example: { count: 2, pct: 6.7 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 3, pct: 10.0 }
+
+signal_ratio: 90.0
+
+segments:
+  - id: seg-001
+    text: "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "A comprehensive practitioner-oriented analysis that reviews AI developments in project management across 2025 and projects trends for 2026."
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The article is built around an interview with James Garner (Chair of the Project Data Analytics Taskforce) and Yoshi Soornack of Project Flux, supplemented by author Mike Clayton's own analysis structured around three themes: adoption and governance, the PM profession's response, and threats and warnings."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The article stands out for its critical, nuanced assessment of both the professional bodies' responses to AI (PMI and APM) and the real-world challenges emerging."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "It introduces several notable concepts: the 'Illusion of Intelligence,' confidence scoring for AI hallucinations, 'Shadow AI' as a project integrity risk, and the shift from task-tracker to strategic lead."
+    type: context
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "It also documents specific events including the Deloitte Australia fee repayment incident and government AI policy memoranda."
+    type: context
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "PMI's 8th edition PMBOK (December 2025) includes only a short 8-page AI overview in Appendix 3, described as 'provisional' and 'tentative.'"
+    type: evidence
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+
+  - id: seg-008
+    text: "APM's Body of Knowledge 8th edition (summer 2025) contains a more thoughtful 11-page survey of AI in Chapter 6, though not fully integrated into the content."
+    type: evidence
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+
+  - id: seg-009
+    text: "Professional services sector saw layoffs in 2025 driven by two factors: removing reluctant AI adopters and reducing headcount through perceived AI efficiency savings."
+    type: claim
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+
+  - id: seg-010
+    text: "Deloitte Australia was forced to repay fees to the Australian government after a report was found to contain AI-generated errors."
+    type: example
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "US government issued two key AI policy memoranda in 2025 covering AI use and procurement; UK published its Artificial Intelligence Playbook for Government."
+    type: evidence
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "'Shadow AI' -- teams using AI tools privately without shared norms -- is identified as a major risk to project integrity."
+    type: definition
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Confidence scoring is proposed as a method to manage AI hallucinations in project management outputs."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "'AI Slop' (low-quality AI-generated content flooding professional channels) and 'AI Psychosis' (over-reliance on AI capabilities, coined by Microsoft's Mustafa Suleyman) are emerging concerns."
+    type: definition
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "The shift from AI experimentation in 2025 to full-scale deployment in 2026 requires immediate focus on AI governance: verifying outputs, building accountability, and managing effects on well-being and critical thinking."
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Author calls for professional bodies to conduct rigorous review of real potential futures for AI in PM practice and create resulting guidance."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "PMI's inclusion of AI in the new 8th edition of its Guide to the Project Management Body of Knowledge (PMBOK8) seems provisional at best and, in truth, rather tentative."
+    type: claim
+    section: "Notable Quotes"
+    position: 17
+    source_format: quote
+
+  - id: seg-018
+    text: "We have seen too much AI-generated slop and recycled, shoddy thinking."
+    type: claim
+    section: "Notable Quotes"
+    position: 18
+    source_format: quote
+
+  - id: seg-019
+    text: "In 2026, we must get a handle on AI governance. We need to be able to verify the outputs from our AI tools, build accountability for the AI + HI (Human Intelligence) systems that we create, and manage the effects on people's well-being and critical thinking capabilities."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 19
+    source_format: quote
+
+  - id: seg-020
+    text: "This is one of the most analytically rich sources in this collection."
+    type: noise
+    section: "Relevance"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "It provides critical assessment of the professional bodies' responses, documents real-world failures, and introduces specific concepts (Shadow AI, confidence scoring, AI Slop) that are directly relevant to understanding the risks and governance challenges of AI in project management."
+    type: context
+    section: "Relevance"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "The practitioner perspective and specific event documentation make it a strong complement to the more institutional or vendor-oriented sources."
+    type: noise
+    section: "Relevance"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "The 'Illusion of Intelligence' refers to the gap between perceived AI capability and actual reliability in project management contexts."
+    type: definition
+    section: "Summary"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The shift from task-tracker to strategic lead represents a fundamental change in the project manager role driven by AI automation."
+    type: claim
+    section: "Summary"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Professional bodies' responses to AI have been insufficient relative to the pace of change in practice."
+    type: claim
+    section: "Key Takeaways"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "AI governance is the most urgent priority for project management in 2026."
+    type: claim
+    section: "Key Takeaways"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Over-reliance on AI capabilities poses risks to critical thinking and well-being among project professionals."
+    type: claim
+    section: "Key Takeaways"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Low-quality AI-generated content is flooding professional channels, creating a signal-to-noise problem."
+    type: claim
+    section: "Key Takeaways"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "The Deloitte Australia incident is documented as a specific example of AI-generated errors in professional consulting deliverables."
+    type: example
+    section: "Key Takeaways"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Government AI policy memoranda in both the US and UK signal growing regulatory attention to AI use in professional services."
+    type: claim
+    section: "Key Takeaways"
+    position: 30
+    source_format: prose

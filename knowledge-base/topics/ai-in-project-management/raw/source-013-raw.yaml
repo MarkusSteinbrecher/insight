@@ -1,0 +1,261 @@
+source_id: source-013
+title: "Shaping the Future of Project Management With AI"
+url: "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai"
+author: "Project Management Institute (PMI)"
+date: 2023-09-01
+total_segments: 30
+
+composition:
+  claim: { count: 6, pct: 20.0 }
+  statistic: { count: 5, pct: 16.7 }
+  evidence: { count: 2, pct: 6.7 }
+  definition: { count: 3, pct: 10.0 }
+  recommendation: { count: 3, pct: 10.0 }
+  context: { count: 6, pct: 20.0 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 1, pct: 3.3 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 4, pct: 13.3 }
+
+signal_ratio: 86.7
+
+segments:
+  # Title
+  - id: seg-001
+    text: "Shaping the Future of Project Management With AI"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # Summary
+  - id: seg-002
+    text: "This thought leadership report from the Project Management Institute (PMI) presents findings from the 2023 PMI Annual Global Survey on Project Management, focusing specifically on AI's impact on the profession."
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The report establishes key statistics about current AI adoption among project professionals and proposes a three-tier framework (Automation, Assistance, Augmentation) for how generative AI can support project management tasks at varying levels of complexity."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The report maps GenAI capabilities against two dimensions: task complexity (low to high) and degree of human intervention required."
+    type: definition
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "At the lowest complexity level, GenAI can automate tasks like report generation, meeting note summarization, and calculations."
+    type: definition
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "At medium complexity, it can assist with tasks such as cost-benefit analysis, scheduling plans, and risk analysis, though outputs require expert refinement."
+    type: definition
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "At the highest complexity level, GenAI augments project managers' capabilities for strategic tasks like business case creation and complex decision-making, where the professional's depth of experience drives quality."
+    type: claim
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "The report also leverages the PMI Talent Triangle framework to outline skill development needs across three dimensions: Ways of Working (adopting AI-powered tools and practices), Power Skills (strategic thinking, problem-solving, collaborative leadership, communication), and Business Acumen (understanding organizational context and data strategy)."
+    type: context
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "It emphasizes that human capabilities -- empathy, ethical judgment, accountability, stakeholder management -- remain essential and will never be fully replicated by machines."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  # Key Takeaways
+  - id: seg-010
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "21% of respondents use AI always or often in project management (2023 PMI Annual Global Survey)"
+    type: statistic
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+    metadata:
+      metric: "AI usage frequency"
+      value: 21
+      unit: "%"
+      population: "2023 PMI Annual Global Survey respondents"
+
+  - id: seg-012
+    text: "82% of senior leaders say AI will have at least some impact on how projects are run in the next five years"
+    type: statistic
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "senior leader AI impact expectation"
+      value: 82
+      unit: "%"
+      population: "senior leaders surveyed"
+
+  - id: seg-013
+    text: "91% of PMI CX survey respondents believe AI will have at least a moderate impact on the profession; 58% say 'major' or 'transformative' impact"
+    type: statistic
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: "AI impact belief - moderate or above"
+      value: 91
+      unit: "%"
+      population: "PMI CX survey respondents"
+
+  - id: seg-014
+    text: "Only about 20% of project managers report extensive or good practical experience with AI tools; 49% have little to no experience"
+    type: statistic
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: "PM AI experience - extensive/good"
+      value: 20
+      unit: "%"
+      population: "project managers surveyed"
+
+  - id: seg-015
+    text: "Three-tier GenAI adoption framework: Automation (low complexity, minimal human intervention), Assistance (medium complexity, moderate human review), Augmentation (high complexity, significant human guidance)"
+    type: evidence
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Task mapping examples: Automation = report generation, meeting summaries; Assistance = risk analysis, cost-benefit analysis, scheduling; Augmentation = business cases, complex decision-making"
+    type: example
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "PMI Talent Triangle applied to AI skills: Ways of Working, Power Skills, and Business Acumen"
+    type: evidence
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Four critical power skills identified: strategic thinking, problem-solving, collaborative leadership, and communication"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Algorithms 'cannot look anyone in the eye, speak truth to power, stay the ethical course or be accountable for their decisions'"
+    type: claim
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "Data literacy and understanding organizational data strategy are positioned as essential new competencies for project managers"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+
+  # Notable Quotes
+  - id: seg-021
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "Project managers who stay at the forefront of the progression of emerging technologies and help drive AI adoption within their organizations will best position themselves for career success."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "Algorithms cannot look anyone in the eye, speak truth to power, stay the ethical course or be accountable for their decisions. Project managers can do all these things and more, including the ability to interact with humans, express empathy, adapt, create counterintuitive solutions, decide in ambiguity, negotiate, manage stakeholders, lead and motivate."
+    type: claim
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  - id: seg-024
+    text: "Only about 20% of project managers report having extensive or good practical experience with AI tools and technologies, and 49% have little to no experience with or understanding of AI in the context of project management."
+    type: statistic
+    section: "Notable Quotes"
+    position: 24
+    source_format: quote
+    metadata:
+      metric: "PM AI experience - little/none"
+      value: 49
+      unit: "%"
+      population: "project managers surveyed"
+
+  # Relevance to Topic
+  - id: seg-025
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 25
+    source_format: heading
+
+  - id: seg-026
+    text: "This is the most authoritative industry report on AI in project management, coming from PMI itself."
+    type: context
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The Automation-Assistance-Augmentation framework provides a practical model for understanding where GenAI fits in the project management workflow."
+    type: claim
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The statistics on adoption gaps (82% of leaders expect impact vs. 21% currently using AI) define the central tension in the field."
+    type: claim
+    section: "Relevance to Topic"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "The PMI Talent Triangle application to AI skill development sets the standard for how the profession frames the human-AI collaboration question."
+    type: context
+    section: "Relevance to Topic"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "This report is a foundational source with relevance 5/5 and industry-quality sourcing from PMI."
+    type: context
+    section: "Metadata"
+    position: 30
+    source_format: prose

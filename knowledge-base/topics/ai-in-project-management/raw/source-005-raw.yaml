@@ -1,0 +1,313 @@
+source_id: source-005
+title: "AI Project Management Statistics and Trends for 2026"
+url: "https://www.breeze.pm/articles/ai-project-management-statistics"
+author: "Lucas, Breeze"
+date: 2026-02-03
+total_segments: 33
+
+composition:
+  claim: { count: 6, pct: 18.2 }
+  statistic: { count: 12, pct: 36.4 }
+  evidence: { count: 3, pct: 9.1 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 7, pct: 21.2 }
+  methodology: { count: 1, pct: 3.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 1, pct: 3.0 }
+  noise: { count: 3, pct: 9.1 }
+
+signal_ratio: 90.9
+
+segments:
+  - id: seg-001
+    text: "AI Project Management Statistics and Trends for 2026"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "A data-rich compilation of AI project management statistics organized into five categories: AI adoption in project work, what teams use AI for, AI PM market growth, what AI changes first, and risks and governance."
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The article aggregates statistics from multiple recognized sources including McKinsey, Microsoft/LinkedIn Work Trend Index, Wellingtone's State of Project Management, PMI's Pulse of the Profession, ProProfs Project, and various market research firms."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "What distinguishes this source is the practical commentary accompanying each statistic."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "Rather than simply reporting numbers, the article interprets what each data point means for teams in practice and identifies underlying conditions that determine whether AI delivers value (such as data quality, workflow discipline, and clear task ownership)."
+    type: context
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "88% of organizations report using AI in at least one business function (McKinsey 2025)."
+    type: statistic
+    section: "Key Takeaways"
+    position: 6
+    source_format: bullet
+    metadata:
+      metric: "Organizations using AI in at least one business function"
+      value: 88
+      unit: "%"
+      population: "Organizations globally (McKinsey 2025)"
+
+  - id: seg-007
+    text: "32% of organizations have integrated AI tools into their PM workflows."
+    type: statistic
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+    metadata:
+      metric: "Organizations with AI integrated into PM workflows"
+      value: 32
+      unit: "%"
+      population: "Organizations"
+
+  - id: seg-008
+    text: "81% of project professionals anticipate AI significantly impacting their work within the next three years."
+    type: statistic
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+    metadata:
+      metric: "Project professionals anticipating significant AI impact"
+      value: 81
+      unit: "%"
+      population: "Project professionals"
+
+  - id: seg-009
+    text: "44% of teams rely on AI-assisted PM features such as automated alerts or task suggestions."
+    type: statistic
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+    metadata:
+      metric: "Teams using AI-assisted PM features"
+      value: 44
+      unit: "%"
+      population: "Teams"
+
+  - id: seg-010
+    text: "75% of global knowledge workers report using generative AI at work (Microsoft/LinkedIn 2024 Work Trend Index)."
+    type: statistic
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+    metadata:
+      metric: "Knowledge workers using generative AI at work"
+      value: 75
+      unit: "%"
+      population: "Global knowledge workers (Microsoft/LinkedIn 2024)"
+
+  - id: seg-011
+    text: "46% of respondents who use generative AI at work have used it for less than six months -- indicating most AI usage is still fresh and informal."
+    type: statistic
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+    metadata:
+      metric: "GenAI users with less than six months experience"
+      value: 46
+      unit: "%"
+      population: "GenAI users at work"
+
+  - id: seg-012
+    text: "Knowledge workers spend 60% of their time on 'work about work' (status chasing, unnecessary meetings, tool-switching) -- the primary target for AI automation (Asana)."
+    type: statistic
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "Knowledge worker time spent on 'work about work'"
+      value: 60
+      unit: "%"
+      population: "Knowledge workers (Asana)"
+
+  - id: seg-013
+    text: "50% of respondents spend one day or more each month manually collating project status information (Wellingtone)."
+    type: statistic
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: "Respondents spending one day or more per month on manual status collation"
+      value: 50
+      unit: "%"
+      population: "PM professionals (Wellingtone)"
+
+  - id: seg-014
+    text: "Only 34% of organizations say they mostly or always complete projects on time, and 34% on budget."
+    type: statistic
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: "Organizations completing projects on time / on budget"
+      value: 34
+      unit: "%"
+      population: "Organizations"
+
+  - id: seg-015
+    text: "The average project performance rate across organizations is 73.8% (PMI Pulse of the Profession 2024)."
+    type: statistic
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+    metadata:
+      metric: "Average project performance rate"
+      value: 73.8
+      unit: "%"
+      population: "Organizations (PMI Pulse of the Profession 2024)"
+
+  - id: seg-016
+    text: "AI-enabled PM market projected to grow at 40% CAGR (2023-2028); another forecast projects growth from $2.5B to $5.7B (17.3% CAGR) depending on market definition."
+    type: statistic
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+    metadata:
+      data_points:
+        - { label: "AI-enabled PM market CAGR (2023-2028)", value: 40, unit: "%" }
+        - { label: "AI PM market size 2023", value: 2.5, unit: "billion USD" }
+        - { label: "AI PM market size projected", value: 5.7, unit: "billion USD" }
+        - { label: "Alternative CAGR estimate", value: 17.3, unit: "%" }
+
+  - id: seg-017
+    text: "Overall PM software market projected to grow from $10.56B (2026) to $39.16B (2035), 12.8% CAGR."
+    type: statistic
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+    metadata:
+      data_points:
+        - { label: "PM software market 2026", value: 10.56, unit: "billion USD" }
+        - { label: "PM software market 2035", value: 39.16, unit: "billion USD" }
+        - { label: "CAGR", value: 12.8, unit: "%" }
+
+  - id: seg-018
+    text: "AI helps most when it reduces project overhead (status chasing, reporting, handoff confusion), but cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+    type: claim
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "If the project board is stale, AI will mostly automate stale reporting."
+    type: claim
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "AI adoption has crossed the 'default' threshold. The differentiator in 2026 is not whether you have AI tools, but whether your workflows and data are set up so the tools actually help."
+    type: claim
+    section: "Notable Quotes"
+    position: 20
+    source_format: quote
+
+  - id: seg-021
+    text: "If your board is stale, AI will mostly automate stale reporting."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  - id: seg-022
+    text: "Most project delivery is still inconsistent. AI can help with earlier risk signals and faster reporting, but it cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+    type: claim
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "This source is essential for its aggregation of quantitative data points from multiple recognized research sources."
+    type: noise
+    section: "Relevance"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The statistics provide a factual baseline for understanding AI adoption rates, team usage patterns, market growth, and project delivery effectiveness."
+    type: context
+    section: "Relevance"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The practical commentary adds analytical value by connecting the data to real-world conditions."
+    type: context
+    section: "Relevance"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The multi-source methodology makes the statistics more reliable than single-source vendor reports."
+    type: noise
+    section: "Relevance"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "AI adoption has crossed a threshold where the question is no longer whether to adopt but whether organizational data and workflows support effective use."
+    type: claim
+    section: "Key Takeaways"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The gap between general AI adoption (88%) and PM-specific integration (32%) indicates significant room for growth in project management AI adoption."
+    type: evidence
+    section: "Key Takeaways"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "The high proportion of time spent on 'work about work' (60%) represents the primary opportunity for AI-driven efficiency gains in project management."
+    type: evidence
+    section: "Key Takeaways"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Project delivery remains inconsistent across organizations, with only 34% completing projects on time and on budget."
+    type: evidence
+    section: "Key Takeaways"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "The article aggregates statistics from McKinsey, Microsoft/LinkedIn Work Trend Index, Wellingtone, PMI Pulse of the Profession, ProProfs Project, and various market research firms."
+    type: attribution
+    section: "Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "AI cannot fix fundamental project management problems like unclear scope, missing owners, or weak stakeholder decisions."
+    type: context
+    section: "Key Takeaways"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "The primary target for AI automation in project management is the overhead of status chasing, reporting, and handoff confusion."
+    type: context
+    section: "Key Takeaways"
+    position: 33
+    source_format: prose

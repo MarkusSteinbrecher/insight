@@ -1,0 +1,341 @@
+source_id: source-026
+title: "Boosting Business Acumen: PMI Pulse of the Profession 2025"
+url: "https://www.pmi.org/learning/thought-leadership/boosting-business-acumen"
+author: "Project Management Institute (PMI)"
+date: 2025-04
+total_segments: 37
+
+composition:
+  claim: { count: 8, pct: 21.6 }
+  statistic: { count: 10, pct: 27.0 }
+  evidence: { count: 3, pct: 8.1 }
+  definition: { count: 1, pct: 2.7 }
+  recommendation: { count: 1, pct: 2.7 }
+  context: { count: 7, pct: 18.9 }
+  methodology: { count: 1, pct: 2.7 }
+  example: { count: 1, pct: 2.7 }
+  attribution: { count: 1, pct: 2.7 }
+  noise: { count: 4, pct: 10.8 }
+
+signal_ratio: 89.2
+
+segments:
+  # --- Title ---
+  - id: seg-001
+    text: "Boosting Business Acumen: PMI Pulse of the Profession 2025"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # --- Summary ---
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "The 2025 PMI Pulse of the Profession report, based on a survey of nearly 3,000 project professionals worldwide, focuses on business acumen as a key factor in driving project success."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "While AI is not the primary focus, the report provides essential context for understanding how AI fits into the broader competency landscape of project management."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "Only 18% of project professionals demonstrate high business acumen proficiency, yet these individuals achieve significantly better outcomes: 27% lower failure rates and 5 percentage points better goal achievement."
+    type: statistic
+    section: "Summary"
+    position: 5
+    source_format: prose
+    metadata:
+      metric: "Project professionals with high business acumen proficiency"
+      value: 18
+      unit: "%"
+      population: "Project professionals worldwide"
+
+  - id: seg-006
+    text: "The report finds that only approximately 20% of project managers report having extensive or good practical AI skills, highlighting a significant capability gap in the profession."
+    type: statistic
+    section: "Summary"
+    position: 6
+    source_format: prose
+    metadata:
+      metric: "PMs with extensive or good practical AI skills"
+      value: 20
+      unit: "%"
+      population: "Project managers"
+
+  - id: seg-007
+    text: "High business acumen professionals use an average of 9.1 factors to measure project performance versus 6.3 for other professionals, and 83% consider customer satisfaction a performance metric (versus 66%)."
+    type: statistic
+    section: "Summary"
+    position: 7
+    source_format: prose
+    metadata:
+      metric: "Performance measurement factors used by high business acumen PMs"
+      value: 9.1
+      unit: "factors"
+      population: "High business acumen project professionals"
+
+  - id: seg-008
+    text: "The report positions business acumen and technological competency as complementary capabilities, suggesting that project professionals who master both become 'indispensable strategic partners.'"
+    type: claim
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "Despite senior leaders acknowledging the need for new business acumen skills (54%), investment priorities still favor technical skills (64%) and power skills (61%) over business acumen development."
+    type: statistic
+    section: "Summary"
+    position: 9
+    source_format: prose
+    metadata:
+      metric: "Senior leaders acknowledging need for business acumen skills"
+      value: 54
+      unit: "%"
+      population: "Senior leaders"
+
+  # --- Key Takeaways ---
+  - id: seg-010
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "Survey of nearly 3,000 project professionals worldwide"
+    type: context
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Only 18% of project professionals demonstrate high business acumen proficiency"
+    type: statistic
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "Project professionals with high business acumen proficiency"
+      value: 18
+      unit: "%"
+      population: "Project professionals worldwide"
+
+  - id: seg-013
+    text: "High business acumen PMs achieve 27% lower project failure rates and 5pp better goal achievement"
+    type: statistic
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: "Failure rate reduction for high business acumen PMs"
+      value: 27
+      unit: "%"
+      population: "High business acumen PMs"
+
+  - id: seg-014
+    text: "Only ~20% of PMs report having extensive or good practical AI skills"
+    type: statistic
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: "PMs with extensive or good practical AI skills"
+      value: 20
+      unit: "%"
+      population: "Project managers"
+
+  - id: seg-015
+    text: "83% of projects led by high business acumen PMs meet business goals (vs. 78% for others)"
+    type: statistic
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+    metadata:
+      metric: "Projects meeting business goals (high business acumen PMs)"
+      value: 83
+      unit: "%"
+      population: "Projects led by high business acumen PMs"
+
+  - id: seg-016
+    text: "Projects led by high business acumen PMs have an 8% failure rate (vs. 11% for others)"
+    type: statistic
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+    metadata:
+      metric: "Failure rate for high business acumen PMs"
+      value: 8
+      unit: "%"
+      population: "Projects led by high business acumen PMs"
+
+  - id: seg-017
+    text: "High business acumen PMs use 9.1 performance measurement factors on average (vs. 6.3 for others)"
+    type: evidence
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "54% of senior leaders acknowledge teams need new business acumen skills"
+    type: statistic
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+    metadata:
+      metric: "Senior leaders acknowledging need for business acumen skills"
+      value: 54
+      unit: "%"
+      population: "Senior leaders"
+
+  - id: seg-019
+    text: "64% prioritize technical skill development; 61% prioritize power skills; business acumen trails both"
+    type: evidence
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "When facing scope challenges, 93% prioritize stakeholder management; when facing budget issues, 91% prioritize stakeholder management"
+    type: evidence
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+    metadata:
+      metric: "PMs prioritizing stakeholder management for scope challenges"
+      value: 93
+      unit: "%"
+      population: "Project professionals"
+
+  - id: seg-021
+    text: "Business acumen and AI skills positioned as complementary capabilities for 'indispensable strategic partners'"
+    type: claim
+    section: "Key Takeaways"
+    position: 21
+    source_format: bullet
+
+  - id: seg-022
+    text: "GenAI applications already span the project lifecycle: automated meeting summaries, stakeholder updates"
+    type: example
+    section: "Key Takeaways"
+    position: 22
+    source_format: bullet
+
+  # --- Notable Quotes ---
+  - id: seg-023
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 23
+    source_format: heading
+
+  - id: seg-024
+    text: "Only 18% of project professionals demonstrate high business acumen proficiency, yet these individuals achieve remarkable results: 27% lower failure rates and 5 percentage points better goal achievement."
+    type: claim
+    section: "Notable Quotes"
+    position: 24
+    source_format: quote
+
+  - id: seg-025
+    text: "— PMI Pulse of the Profession 2025"
+    type: attribution
+    section: "Notable Quotes"
+    position: 25
+    source_format: quote
+
+  # --- Relevance to Topic ---
+  - id: seg-026
+    text: "This report provides an essential counterpoint to the technology-focused AI narrative: business acumen — not AI proficiency — is PMI's identified differentiator for high-performing project professionals."
+    type: claim
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The low AI skills rate (~20% with practical competence) alongside the low business acumen rate (18% with high proficiency) suggests that the profession faces a dual capability gap."
+    type: claim
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "For AI adoption in PM, this implies that technical AI capability alone is insufficient; project professionals need business judgment to determine where and how AI adds value."
+    type: claim
+    section: "Relevance to Topic"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "The stakeholder management emphasis (93% prioritize it for scope challenges) also underscores the human competencies that AI cannot replace."
+    type: claim
+    section: "Relevance to Topic"
+    position: 29
+    source_format: prose
+
+  # --- Additional context ---
+  - id: seg-030
+    text: "Business acumen is defined as the ability to understand business situations, make sound judgments, and influence outcomes."
+    type: definition
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Project professionals who master both business acumen and technological competency become 'indispensable strategic partners.'"
+    type: recommendation
+    section: "Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Investment priorities favor technical skills (64%) and power skills (61%) over business acumen development despite acknowledged need."
+    type: context
+    section: "Summary"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "83% of high business acumen PMs consider customer satisfaction a performance metric versus 66% of others."
+    type: context
+    section: "Summary"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "The profession faces a dual capability gap: low AI skills (~20%) and low business acumen (18%)."
+    type: claim
+    section: "Relevance to Topic"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Technical AI capability alone is insufficient; project professionals need business judgment to determine where and how AI adds value."
+    type: context
+    section: "Relevance to Topic"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Stakeholder management remains the top-priority human competency that AI cannot replace."
+    type: context
+    section: "Relevance to Topic"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "GenAI applications are already present across the project lifecycle, including automated meeting summaries and stakeholder updates."
+    type: context
+    section: "Key Takeaways"
+    position: 37
+    source_format: prose

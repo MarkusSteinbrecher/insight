@@ -4,7 +4,11 @@
 Reads all knowledge-base/topics/*/sources/source-*.md files and produces
 a unified JSON structure for the sources page.
 
-Output: docs/data/sources.json
+Usage:
+  python3 scripts/build-sources-data.py                # Process all topics
+  python3 scripts/build-sources-data.py ea-for-ai      # Process one topic
+
+Output: docs/data/{topic-slug}/sources.json
 """
 
 import glob
@@ -14,14 +18,11 @@ import re
 import sys
 
 import markdown
+import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SOURCES_GLOB = os.path.join(
-    ROOT, "knowledge-base", "topics", "*", "sources", "source-*.md"
-)
-INDEX_GLOB = os.path.join(ROOT, "knowledge-base", "topics", "*", "_index.md")
-OUTPUT_DIR = os.path.join(ROOT, "docs", "data")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "sources.json")
+TOPICS_DIR = os.path.join(ROOT, "knowledge-base", "topics")
+OUTPUT_BASE = os.path.join(ROOT, "docs", "data")
 
 
 def parse_frontmatter(filepath):
@@ -70,6 +71,32 @@ def parse_frontmatter(filepath):
     return fm, body
 
 
+def parse_frontmatter_yaml(filepath):
+    """Parse YAML frontmatter from a markdown file using yaml.safe_load."""
+    with open(filepath, "r") as f:
+        content = f.read()
+
+    match = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
+    if not match:
+        return {}
+
+    try:
+        return yaml.safe_load(match.group(1)) or {}
+    except yaml.YAMLError:
+        return {}
+
+
+def get_topic_slug(topic_dir):
+    """Get the topic slug from _index.md frontmatter or directory name."""
+    index_path = os.path.join(topic_dir, "_index.md")
+    if os.path.exists(index_path):
+        fm = parse_frontmatter_yaml(index_path)
+        slug = fm.get("slug", "")
+        if slug:
+            return slug
+    return os.path.basename(topic_dir).lower().replace(" ", "-")
+
+
 def body_to_html(body):
     """Convert markdown body to HTML, excluding the Full Text section."""
     # Strip the "## Full Text" section (raw scraped content, too large for the site)
@@ -80,44 +107,36 @@ def body_to_html(body):
     return markdown.markdown(body)
 
 
-def get_topic_meta():
-    """Read topic _index.md files to get topic metadata."""
-    topics = {}
-    for index_path in glob.glob(INDEX_GLOB):
-        fm, _ = parse_frontmatter(index_path)
-        parts = index_path.split(os.sep)
-        topic_idx = parts.index("topics") + 1
-        topic_slug = parts[topic_idx]
-        topics[topic_slug] = {
-            "title": fm.get("title", topic_slug),
-            "status": fm.get("status", "unknown"),
-            "updated": fm.get("updated", ""),
-        }
-    return topics
+def get_topic_meta(topic_dir):
+    """Read topic _index.md to get topic metadata."""
+    index_path = os.path.join(topic_dir, "_index.md")
+    if not os.path.exists(index_path):
+        return {}
+    fm, _ = parse_frontmatter(index_path)
+    return {
+        "title": fm.get("title", os.path.basename(topic_dir)),
+        "status": fm.get("status", "unknown"),
+        "updated": fm.get("updated", ""),
+    }
 
 
-def build_sources_data():
-    source_files = sorted(glob.glob(SOURCES_GLOB))
+def build_sources_for_topic(topic_dir):
+    """Build sources JSON for a single topic directory. Returns True if output was written."""
+    slug = get_topic_slug(topic_dir)
+    source_files = sorted(glob.glob(os.path.join(topic_dir, "sources", "source-*.md")))
+
     if not source_files:
-        print("No source markdown files found.", file=sys.stderr)
-        sys.exit(1)
+        return False
 
-    topics = get_topic_meta()
-    sources_by_topic = {}
+    meta = get_topic_meta(topic_dir)
+    sources = []
 
     for filepath in source_files:
-        parts = filepath.split(os.sep)
-        topic_idx = parts.index("topics") + 1
-        topic_slug = parts[topic_idx]
-
-        if topic_slug not in sources_by_topic:
-            sources_by_topic[topic_slug] = []
-
         fm, body = parse_frontmatter(filepath)
         source_id = os.path.basename(filepath).replace(".md", "")
         html = body_to_html(body)
 
-        sources_by_topic[topic_slug].append({
+        sources.append({
             "id": source_id,
             "title": fm.get("title", source_id),
             "url": fm.get("url", ""),
@@ -129,24 +148,58 @@ def build_sources_data():
             "body_html": html,
         })
 
-    # For now, output the first (or only) topic
-    # In future, could support multi-topic sources.json
-    for topic_slug, sources in sources_by_topic.items():
-        meta = topics.get(topic_slug, {})
-        output = {
-            "topic": meta.get("title", topic_slug),
-            "status": meta.get("status", "unknown"),
-            "updated": meta.get("updated", ""),
-            "sources": sources,
-        }
+    output = {
+        "topic": meta.get("title", slug),
+        "status": meta.get("status", "unknown"),
+        "updated": meta.get("updated", ""),
+        "sources": sources,
+    }
 
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
-        with open(OUTPUT_FILE, "w") as f:
-            json.dump(output, f, indent=2, default=str)
+    output_dir = os.path.join(OUTPUT_BASE, slug)
+    output_file = os.path.join(output_dir, "sources.json")
+    os.makedirs(output_dir, exist_ok=True)
+    with open(output_file, "w") as f:
+        json.dump(output, f, indent=2, default=str)
 
-        print(f"Sources data written to {OUTPUT_FILE}")
-        print(f"  Topic: {meta.get('title', topic_slug)}")
-        print(f"  Sources: {len(sources)}")
+    print(f"  {output_file}")
+    print(f"    Topic: {meta.get('title', slug)}")
+    print(f"    Sources: {len(sources)}")
+    return True
+
+
+def find_topic_dirs(slug=None):
+    """Find topic directories, optionally filtering by slug."""
+    all_dirs = [
+        d for d in glob.glob(os.path.join(TOPICS_DIR, "*"))
+        if os.path.isdir(d) and os.path.exists(os.path.join(d, "_index.md"))
+    ]
+    if slug:
+        matching = [d for d in all_dirs if get_topic_slug(d) == slug]
+        if not matching:
+            print(f"Topic '{slug}' not found.", file=sys.stderr)
+            sys.exit(1)
+        return matching
+    return sorted(all_dirs)
+
+
+def build_sources_data():
+    slug = sys.argv[1] if len(sys.argv) > 1 else None
+    topic_dirs = find_topic_dirs(slug)
+
+    if not topic_dirs:
+        print("No topic directories found.", file=sys.stderr)
+        sys.exit(1)
+
+    print("Building sources data...")
+    processed = 0
+    for topic_dir in topic_dirs:
+        topic_slug = get_topic_slug(topic_dir)
+        print(f"  Topic: {topic_slug}")
+        if build_sources_for_topic(topic_dir):
+            processed += 1
+
+    if processed == 0:
+        print("No topics with source files found.", file=sys.stderr)
 
 
 if __name__ == "__main__":

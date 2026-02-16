@@ -1,0 +1,272 @@
+source_id: source-018
+title: "How AI Will Transform Project Management"
+url: "https://hbr.org/2023/02/how-ai-will-transform-project-management"
+author: "Antonio Nieto-Rodriguez, Ricardo Viana Vargas"
+date: 2023-02-02
+total_segments: 33
+
+composition:
+  claim: { count: 11, pct: 33.3 }
+  statistic: { count: 1, pct: 3.0 }
+  evidence: { count: 2, pct: 6.1 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 4, pct: 12.1 }
+  context: { count: 8, pct: 24.2 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 1, pct: 3.0 }
+  attribution: { count: 1, pct: 3.0 }
+  noise: { count: 5, pct: 15.2 }
+
+signal_ratio: 84.8
+
+segments:
+  - id: seg-001
+    text: "How AI Will Transform Project Management"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Published in the Harvard Business Review in February 2023, this article by Antonio Nieto-Rodriguez (CEO of Projects & Company, author of the HBR Project Management Handbook) and Ricardo Viana Vargas (founder of Macrosolutions, former UN director of project management and infrastructure) presents a practitioner-oriented vision of how AI will transform project management."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The authors bring substantial real-world credibility -- Vargas has managed more than $20 billion in international projects over 25 years and led the Brightline Initiative, while Nieto-Rodriguez advises firms on building transformation capabilities."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+    metadata:
+      metric: "international projects managed"
+      value: 20
+      unit: "billion USD"
+      population: "Vargas career portfolio"
+
+  - id: seg-005
+    text: "The article opens with a scenario depicting how a CEO in the near future might use AI-powered tools to monitor strategic initiatives in real time, accessing project status, KPIs, team morale, and stakeholder buy-in through a smartphone app."
+    type: example
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "This vision encapsulates the shift from reactive, backward-looking project reporting to proactive, predictive, and always-on project intelligence."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "The piece is notable for its influence on the broader business community's understanding of AI in project management."
+    type: context
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "Published in HBR, it reached an audience beyond traditional PM practitioners, shaping C-suite expectations about what AI-enabled project management should look like."
+    type: context
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "The article identifies automation of routine tasks, enhanced decision support through data analysis, risk identification, and resource allocation as key areas where AI will have the most significant impact."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "It also addresses the risks of AI adoption, including data quality issues, algorithmic bias, lack of human judgment, and job displacement concerns."
+    type: claim
+    section: "Summary"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 11
+    source_format: heading
+
+  - id: seg-012
+    text: "Envisions AI-powered real-time project monitoring via smartphone apps, tracking status, KPIs, team morale, and stakeholder buy-in"
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Project managers will shift from administrative task execution to strategic, leadership-focused roles"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "AI will primarily impact: automation of routine tasks, data-driven decision support, risk identification, and resource allocation"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Identifies six key risks of AI in PM: data quality, bias/fairness, lack of human judgment, performance instability, enterprise/financial risk, and job displacement"
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Recommends \"de-risking AI by design\" -- building risk management directly into AI initiatives"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Emphasizes the need for continuous human oversight of AI outputs, especially as task complexity increases"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Published in HBR, reaching beyond the PM community to shape C-suite expectations"
+    type: context
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Authors bring substantial practitioner credibility (combined experience of $20B+ in managed projects)"
+    type: context
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+    metadata:
+      metric: "combined managed project value"
+      value: 20
+      unit: "billion USD"
+      population: "authors' combined portfolio"
+
+  - id: seg-020
+    text: "Positions AI as augmenting rather than replacing project managers"
+    type: claim
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+
+  - id: seg-021
+    text: "Advocates responsible AI use: content from GenAI should be used with care, and proprietary data should not be shared on open platforms"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 21
+    source_format: bullet
+
+  - id: seg-022
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 22
+    source_format: heading
+
+  - id: seg-023
+    text: "Project managers, aided by virtual project assistants, will find their roles more focused on coaching and stakeholder management than on administration and manual tasks."
+    type: claim
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  - id: seg-024
+    text: "AI cannot and will not ever substitute the role of a project manager, but it can significantly assist them in managing multiple projects."
+    type: claim
+    section: "Notable Quotes"
+    position: 24
+    source_format: quote
+
+  - id: seg-025
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 25
+    source_format: heading
+
+  - id: seg-026
+    text: "This HBR article is significant for two reasons: its broad influence on business leadership's understanding of AI in project management, and the practitioner authority of its authors."
+    type: context
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "While not an academic paper, it provides the conceptual bridge between technical AI capabilities and the strategic implications for project management practice."
+    type: context
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The vision of AI-enabled project monitoring and the identification of key risks serve as a widely referenced foundation for how the PM profession communicates AI's potential to senior stakeholders."
+    type: evidence
+    section: "Relevance to Topic"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Vargas has managed more than $20 billion in international projects over 25 years and led the Brightline Initiative."
+    type: evidence
+    section: "Summary"
+    position: 29
+    source_format: prose
+    metadata:
+      metric: "international projects managed"
+      value: 20
+      unit: "billion USD"
+      population: "Vargas career"
+
+  - id: seg-030
+    text: "The shift from reactive, backward-looking project reporting to proactive, predictive, and always-on project intelligence."
+    type: claim
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Nieto-Rodriguez advises firms on building transformation capabilities."
+    type: attribution
+    section: "Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Content from GenAI should be used with care, and proprietary data should not be shared on open platforms."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Six key risks of AI in PM: data quality, bias/fairness, lack of human judgment, performance instability, enterprise/financial risk, and job displacement."
+    type: statistic
+    section: "Key Takeaways"
+    position: 33
+    source_format: prose
+    metadata:
+      metric: "key AI risks identified"
+      value: 6
+      unit: "risk categories"
+      population: "AI in project management"

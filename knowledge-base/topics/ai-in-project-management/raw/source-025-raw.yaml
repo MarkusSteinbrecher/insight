@@ -1,0 +1,321 @@
+source_id: source-025
+title: "Accenture Technology Vision 2025: AI-Powered Autonomy and Enterprise Reinvention"
+url: "https://newsroom.accenture.com/news/2025/accenture-technology-vision-2025-new-age-of-ai-to-bring-unprecedented-autonomy-to-business"
+author: "Accenture"
+date: 2025-01-07
+total_segments: 37
+
+composition:
+  claim: { count: 12, pct: 32.4 }
+  statistic: { count: 7, pct: 18.9 }
+  evidence: { count: 0, pct: 0.0 }
+  definition: { count: 2, pct: 5.4 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 7, pct: 18.9 }
+  methodology: { count: 1, pct: 2.7 }
+  example: { count: 2, pct: 5.4 }
+  attribution: { count: 2, pct: 5.4 }
+  noise: { count: 4, pct: 10.8 }
+
+signal_ratio: 89.2
+
+segments:
+  # --- Title ---
+  - id: seg-001
+    text: "Accenture Technology Vision 2025: AI-Powered Autonomy and Enterprise Reinvention"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # --- Summary ---
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "The 25th annual Accenture Technology Vision, informed by surveys of more than 4,000 executives across 21 industries and 28 countries, plus over 12,000 consumers, explores how AI-powered autonomy is reshaping enterprise operations."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The central thesis: a new era of digitization is unfolding in which AI continuously learns and drives new levels of autonomy across organizations, positioning trust in its performance as the most important measure for AI to achieve its promise."
+    type: claim
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The report identifies trust as the critical enabler: 77% of executives believe the true benefits of AI will only be possible when built on a foundation of trust, and 81% agree that trust strategy must evolve in parallel with technology strategy."
+    type: statistic
+    section: "Summary"
+    position: 5
+    source_format: prose
+    metadata:
+      metric: "Executives believing AI benefits require trust foundation"
+      value: 77
+      unit: "%"
+      population: "Executives (4,000+ across 21 industries)"
+
+  - id: seg-006
+    text: "The vision spans four dimensions: technology development (gen AI coding assistants elevating developers to systems engineers, shifting from static application architecture to intention-based frameworks and agentic systems), customer experience (80% of executives worry LLMs could give every brand a similar voice), the physical world (generalist robots emerging over the next decade), and workforce transformation (80% of leaders prioritize ensuring a positive relationship trajectory between people and AI)."
+    type: context
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "The report notes that AI diffusion is accelerating faster than any prior technology, with 69% of executives believing this brings new urgency to reinvention."
+    type: statistic
+    section: "Summary"
+    position: 7
+    source_format: prose
+    metadata:
+      metric: "Executives believing AI brings urgency to reinvention"
+      value: 69
+      unit: "%"
+      population: "Executives surveyed"
+
+  # --- Key Takeaways ---
+  - id: seg-008
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 8
+    source_format: heading
+
+  - id: seg-009
+    text: "69% of executives believe AI brings new urgency to reinvention of technology systems and processes"
+    type: statistic
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+    metadata:
+      metric: "Executives believing AI brings urgency to reinvention"
+      value: 69
+      unit: "%"
+      population: "Executives surveyed"
+
+  - id: seg-010
+    text: "77% of executives believe the true benefits of AI will only be possible when built on a foundation of trust"
+    type: statistic
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+    metadata:
+      metric: "Executives believing AI benefits require trust"
+      value: 77
+      unit: "%"
+      population: "Executives surveyed"
+
+  - id: seg-011
+    text: "81% agree that trust strategy must evolve in parallel with technology strategy"
+    type: statistic
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+    metadata:
+      metric: "Executives agreeing trust and tech strategy must evolve together"
+      value: 81
+      unit: "%"
+      population: "Executives surveyed"
+
+  - id: seg-012
+    text: "80% of executives worry LLMs and chatbots could give every brand a similar voice"
+    type: statistic
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "Executives worried about brand homogenization from LLMs"
+      value: 80
+      unit: "%"
+      population: "Executives surveyed"
+
+  - id: seg-013
+    text: "80% of leaders prioritize ensuring a positive relationship trajectory between people and AI"
+    type: statistic
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: "Leaders prioritizing positive people-AI relationship"
+      value: 80
+      unit: "%"
+      population: "Leaders surveyed"
+
+  - id: seg-014
+    text: "Gen AI coding assistants are elevating the role of developer to systems engineer"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Shift from static application architecture to intention-based frameworks and agentic systems"
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Multi-agent systems becoming more capable, adaptive, and personalized"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Accenture platforms (GenWizard, SynOps, AI Refinery) offer prebuilt industry agents and workflows"
+    type: example
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Trust means digital systems and AI models are more accurate, predictable, consistent, and traceable — beyond responsible use of AI"
+    type: definition
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Survey covered 4,000+ executives across 21 industries and 28 countries, plus 12,000+ consumers"
+    type: context
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  # --- Notable Quotes ---
+  - id: seg-020
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "Unlocking the benefits of AI will only be possible if leaders seize the opportunity to inject and develop trust in its performance and outcomes in a systematic manner."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  - id: seg-022
+    text: "— Julie Sweet, Chair and CEO, Accenture"
+    type: attribution
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "The autonomy created by these generalized AI systems can help organizations be more dynamic and intention-driven than ever. It will allow leaders to rethink how digital systems are designed, how people work, and reinvent how they create products and interact with customers. But trust underpins it all, as systems will only ever be as autonomous as they are trustworthy."
+    type: claim
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  - id: seg-024
+    text: "— Karthik Narain, Group Chief Executive, Technology and CTO, Accenture"
+    type: attribution
+    section: "Notable Quotes"
+    position: 24
+    source_format: quote
+
+  # --- Relevance to Topic ---
+  - id: seg-025
+    text: "While not PM-specific, this report provides critical context on the trust dimension of AI adoption that directly applies to project management."
+    type: context
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The finding that systems are 'only ever as autonomous as they are trustworthy' is particularly relevant for agentic PM tools that make autonomous scheduling, resource allocation, or risk assessment decisions."
+    type: claim
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The shift from static architectures to intention-based and agentic systems maps onto the evolution of PM tools from passive tracking to autonomous project assistance."
+    type: claim
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The scale of the research (4,000+ executives, 12,000+ consumers) across 21 industries provides a robust foundation for cross-industry insights."
+    type: context
+    section: "Relevance to Topic"
+    position: 28
+    source_format: prose
+
+  # --- Additional claims and context from summary ---
+  - id: seg-029
+    text: "A new era of digitization is unfolding in which AI continuously learns and drives new levels of autonomy across organizations."
+    type: claim
+    section: "Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Trust in AI performance is positioned as the most important measure for AI to achieve its promise."
+    type: claim
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "AI diffusion is accelerating faster than any prior technology."
+    type: claim
+    section: "Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Systems will only ever be as autonomous as they are trustworthy."
+    type: claim
+    section: "Notable Quotes"
+    position: 32
+    source_format: quote
+
+  - id: seg-033
+    text: "Generalist robots are expected to emerge over the next decade."
+    type: context
+    section: "Summary"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "Trust is defined as digital systems and AI models being more accurate, predictable, consistent, and traceable — extending beyond responsible use of AI."
+    type: definition
+    section: "Key Takeaways"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Accenture platforms (GenWizard, SynOps, AI Refinery) illustrate the emergence of prebuilt industry-specific agent ecosystems."
+    type: example
+    section: "Key Takeaways"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "The evolution of PM tools from passive tracking to autonomous project assistance follows the broader shift from static architectures to intention-based and agentic systems."
+    type: context
+    section: "Relevance to Topic"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "80% of leaders prioritize ensuring a positive relationship trajectory between people and AI, signaling workforce transformation as a primary concern."
+    type: context
+    section: "Summary"
+    position: 37
+    source_format: prose

@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-"""Build findings.json by joining findings → claims → sources.
+"""Build findings.json by joining findings -> claims -> sources.
 
 Reads:
-  - findings.yaml (finding → claim IDs)
+  - findings.yaml (finding -> claim IDs, plus body/bottom_line/practitioner text)
   - critical-analysis.yaml or critical-analysis-part*.yaml (claim statement, critique, bottom_line)
-  - claim-alignment.yaml (claim → supporting sources with segment IDs)
+  - claim-alignment.yaml (claim -> supporting sources with segment IDs)
   - sources/source-NNN.md (source title, author, url)
 
-Output: docs/data/findings.json
+Usage:
+  python3 scripts/build-findings-data.py                # Process all topics
+  python3 scripts/build-findings-data.py ea-for-ai      # Process one topic
+
+Output: docs/data/{topic-slug}/findings.json
 """
 
 import glob
@@ -16,12 +20,12 @@ import os
 import re
 import sys
 
+import markdown as md_lib
 import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPICS_DIR = os.path.join(ROOT, "knowledge-base", "topics")
-OUTPUT_DIR = os.path.join(ROOT, "docs", "data")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "findings.json")
+OUTPUT_BASE = os.path.join(ROOT, "docs", "data")
 
 
 def parse_frontmatter(filepath):
@@ -45,6 +49,32 @@ def parse_frontmatter(filepath):
             if val:
                 fm[key] = val
     return fm
+
+
+def parse_frontmatter_yaml(filepath):
+    """Parse YAML frontmatter from a markdown file using yaml.safe_load."""
+    with open(filepath, "r") as f:
+        content = f.read()
+
+    match = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
+    if not match:
+        return {}
+
+    try:
+        return yaml.safe_load(match.group(1)) or {}
+    except yaml.YAMLError:
+        return {}
+
+
+def get_topic_slug(topic_dir):
+    """Get the topic slug from _index.md frontmatter or directory name."""
+    index_path = os.path.join(topic_dir, "_index.md")
+    if os.path.exists(index_path):
+        fm = parse_frontmatter_yaml(index_path)
+        slug = fm.get("slug", "")
+        if slug:
+            return slug
+    return os.path.basename(topic_dir).lower().replace(" ", "-")
 
 
 def load_source_meta(topic_dir):
@@ -121,18 +151,6 @@ def load_critical_analyses(topic_dir):
     return analyses
 
 
-def dedupe_sources(supporting_sources):
-    """Deduplicate supporting sources — keep unique source_ids."""
-    seen = set()
-    unique = []
-    for s in supporting_sources:
-        sid = s.get("source_id", "")
-        if sid and sid not in seen:
-            seen.add(sid)
-            unique.append(sid)
-    return unique
-
-
 def load_baseline_evaluations(topic_dir):
     """Load baseline evaluations keyed by claim ID."""
     path = os.path.join(topic_dir, "extractions", "baseline-evaluation.yaml")
@@ -149,21 +167,20 @@ def load_baseline_evaluations(topic_dir):
     return evals
 
 
-def build_findings_data():
-    # Find topic directories with findings.yaml
-    topic_dirs = [
-        d for d in glob.glob(os.path.join(TOPICS_DIR, "*"))
-        if os.path.isdir(d) and os.path.exists(os.path.join(d, "findings.yaml"))
-    ]
-    if not topic_dirs:
-        print("No topic directories with findings.yaml found.", file=sys.stderr)
-        sys.exit(1)
+def build_findings_for_topic(topic_dir):
+    """Build findings JSON for a single topic directory. Returns True if output was written."""
+    slug = get_topic_slug(topic_dir)
+    findings_path = os.path.join(topic_dir, "findings.yaml")
 
-    topic_dir = topic_dirs[0]
+    if not os.path.exists(findings_path):
+        return False
 
     # Load all data sources
-    with open(os.path.join(topic_dir, "findings.yaml"), "r") as f:
+    with open(findings_path, "r") as f:
         findings_data = yaml.safe_load(f)
+
+    if not findings_data or "findings" not in findings_data:
+        return False
 
     source_meta = load_source_meta(topic_dir)
     raw_segments = load_raw_segments(topic_dir)
@@ -186,7 +203,7 @@ def build_findings_data():
             analysis = critical_analyses.get(claim_id)
             alignment = claim_alignment.get(claim_id)
 
-            if not analysis:
+            if not analysis and not alignment:
                 missing_claims.append(claim_id)
                 continue
 
@@ -216,11 +233,20 @@ def build_findings_data():
                         "quotes": quotes,
                     })
 
+            # Use critical analysis when available, fall back to claim-alignment
+            statement = ""
+            bottom_line = ""
+            if analysis:
+                statement = analysis.get("statement", "")
+                bottom_line = analysis.get("bottom_line", "")
+            elif alignment:
+                statement = alignment.get("statement", "")
+
             claim_out = {
                 "id": claim_id,
-                "statement": analysis.get("statement", ""),
+                "statement": statement,
                 "source_count": len(sources),
-                "bottom_line": analysis.get("bottom_line", ""),
+                "bottom_line": bottom_line,
                 "sources": sources,
             }
             if claim_id in baseline_evals:
@@ -228,29 +254,86 @@ def build_findings_data():
             output_claims.append(claim_out)
             total_claims += 1
 
-        output_findings.append({
+        # Build finding-level output with new fields
+        finding_out = {
             "id": finding_id,
             "title": finding_title,
             "claim_count": len(output_claims),
             "claims": output_claims,
-        })
+        }
+
+        # Include bottom_line from finding if present
+        if finding.get("bottom_line"):
+            finding_out["bottom_line"] = finding["bottom_line"]
+
+        # Convert body markdown to HTML if present
+        if finding.get("body"):
+            finding_out["body_html"] = md_lib.markdown(finding["body"])
+
+        # Include practitioner text if present
+        if finding.get("practitioner"):
+            finding_out["practitioner_text"] = finding["practitioner"]
+
+        output_findings.append(finding_out)
 
     output = {
-        "generated": "2026-02-15",
+        "generated": "2026-02-16",
         "total_findings": len(output_findings),
         "total_claims_linked": total_claims,
         "findings": output_findings,
     }
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(OUTPUT_FILE, "w") as f:
+    output_dir = os.path.join(OUTPUT_BASE, slug)
+    output_file = os.path.join(output_dir, "findings.json")
+    os.makedirs(output_dir, exist_ok=True)
+    with open(output_file, "w") as f:
         json.dump(output, f, indent=2, default=str)
 
-    print(f"Findings data written to {OUTPUT_FILE}")
-    print(f"  Findings: {len(output_findings)}")
-    print(f"  Claims linked: {total_claims}")
+    print(f"  {output_file}")
+    print(f"    Findings: {len(output_findings)}")
+    print(f"    Claims linked: {total_claims}")
     if missing_claims:
-        print(f"  Warning — claims not found in critical analysis: {missing_claims}")
+        print(f"    Warning -- claims not found in critical analysis: {missing_claims}")
+    return True
+
+
+def find_topic_dirs(slug=None):
+    """Find topic directories, optionally filtering by slug."""
+    all_dirs = [
+        d for d in glob.glob(os.path.join(TOPICS_DIR, "*"))
+        if os.path.isdir(d) and os.path.exists(os.path.join(d, "_index.md"))
+    ]
+    if slug:
+        matching = [d for d in all_dirs if get_topic_slug(d) == slug]
+        if not matching:
+            print(f"Topic '{slug}' not found.", file=sys.stderr)
+            sys.exit(1)
+        return matching
+    return sorted(all_dirs)
+
+
+def build_findings_data():
+    slug = sys.argv[1] if len(sys.argv) > 1 else None
+    topic_dirs = find_topic_dirs(slug)
+
+    if not topic_dirs:
+        print("No topic directories found.", file=sys.stderr)
+        sys.exit(1)
+
+    print("Building findings data...")
+    processed = 0
+    for topic_dir in topic_dirs:
+        topic_slug = get_topic_slug(topic_dir)
+        findings_path = os.path.join(topic_dir, "findings.yaml")
+        if not os.path.exists(findings_path):
+            print(f"  Skipping {topic_slug} (no findings.yaml)")
+            continue
+        print(f"  Topic: {topic_slug}")
+        if build_findings_for_topic(topic_dir):
+            processed += 1
+
+    if processed == 0:
+        print("No topics with findings.yaml found.", file=sys.stderr)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,259 @@
+source_id: source-031
+title: "Adapting to the Era of GenAI: Evolution of Project Management Practices"
+url: "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/"
+author: "Nicole Hackl and Andrea Torres (PwC Austria)"
+date: 2024-05-13
+total_segments: 31
+
+composition:
+  claim: { count: 9, pct: 29.0 }
+  statistic: { count: 3, pct: 9.7 }
+  evidence: { count: 2, pct: 6.5 }
+  definition: { count: 2, pct: 6.5 }
+  recommendation: { count: 5, pct: 16.1 }
+  context: { count: 4, pct: 12.9 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 1, pct: 3.2 }
+  noise: { count: 5, pct: 16.1 }
+
+signal_ratio: 83.9
+
+segments:
+  - id: seg-001
+    text: "Adapting to the Era of GenAI: Evolution of Project Management Practices"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "This PwC Austria article by Nicole Hackl (Senior Manager) and Andrea Torres (Senior Associate) in Portfolio & Programme Management examines how GenAI is impacting project management and PMO operations."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The article frames the opportunity around a stark statistic: organizations invest approximately $48 trillion in projects annually, but only 35% are considered successful (Forbes, 2023)."
+    type: statistic
+    section: "Summary"
+    position: 4
+    source_format: prose
+    metadata:
+      data_points:
+        - { label: "Annual global project investment", value: 48, unit: "trillion USD" }
+        - { label: "Project success rate", value: 35, unit: "%" }
+      population: "Global organizations (Forbes, 2023)"
+
+  - id: seg-005
+    text: "It argues that GenAI could be the 'game changer' for improving these outcomes by combining AI with project management automations."
+    type: claim
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The article covers five areas: embracing GenAI in PM (AI-driven insights and task automation enabling project managers to navigate complexity with agility), revolutionizing PMO operations (the era of project scoping and repetitive reporting fading away, with GenAI projected to handle 80% of PM tasks by 2030), unique challenges (data quality, security, AI bias, and the need for 'human in the loop'), redefining PM roles (project managers as 'outcome stewards' ensuring fairness in AI applications), and empowering virtual project assistants (AI-driven companions for task organization and progress updates)."
+    type: context
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "The article emphasizes that GenAI empowers project managers to focus on creativity and human-approach tasks such as coaching teams, managing stakeholder relationships, and improving leadership skills."
+    type: claim
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 8
+    source_format: heading
+
+  - id: seg-009
+    text: "Organizations invest approximately $48 trillion in projects annually; only 35% are considered successful"
+    type: statistic
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+    metadata:
+      data_points:
+        - { label: "Annual global project investment", value: 48, unit: "trillion USD" }
+        - { label: "Project success rate", value: 35, unit: "%" }
+      population: "Global organizations"
+
+  - id: seg-010
+    text: "75% of companies planning to integrate AI by 2027 (World Economic Forum)"
+    type: statistic
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+    metadata:
+      metric: "Companies planning AI integration by 2027"
+      value: 75
+      unit: "%"
+      population: "Companies (World Economic Forum)"
+
+  - id: seg-011
+    text: "By 2030, GenAI projected to handle 80% of PM tasks (Gartner, 2019 prediction)"
+    type: attribution
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "GenAI is not eliminating PM but empowering PMs to focus on creativity, coaching, stakeholder management, and leadership"
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Project managers will assume the role of 'outcome stewards' ensuring fairness in AI applications"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "AI models carry biases from human-created training data — PMs need to manage this"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "'Human in the loop' strategy is crucial: human judgment must supplement AI decision-making"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Key challenges: data quality and availability, security concerns, integrating AI into existing processes"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "AI does not possess 'true understanding' of content — accumulated knowledge based on training data"
+    type: claim
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Soft skills investment is critical now as AI handles more administrative and analytical tasks"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Organizations need a clear GenAI strategy addressing risk/reward balance, digital strategy alignment, and people-centricity"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "GenAI is not here to eliminate project management but rather to empower project managers to focus on initiatives that require creativity and a human-approach, such as coaching their teams, managing stakeholder relationships and maybe even improving their leadership skills."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+    metadata:
+      attribution: "PwC Austria"
+
+  - id: seg-022
+    text: "By 2030, GenAI will be capable of handling 80% of project management tasks, powered by big data, machine learning, and natural language processing."
+    type: claim
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+    metadata:
+      attribution: "PwC Austria citing Gartner"
+
+  - id: seg-023
+    text: "Project managers will assume the role of 'outcome stewards', ensuring fairness in AI applications."
+    type: definition
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+    metadata:
+      attribution: "PwC Austria"
+
+  - id: seg-024
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 24
+    source_format: heading
+
+  - id: seg-025
+    text: "This article provides a European consulting firm perspective on GenAI in PM, introducing the concept of the project manager as 'outcome steward' — a role focused on ensuring AI-driven fairness and quality rather than task execution."
+    type: context
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The $48 trillion annual project investment figure, combined with the 35% success rate, quantifies the opportunity for AI to improve project outcomes."
+    type: evidence
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The emphasis on soft skills as the critical competency for AI-era PMs supports the broader finding across sources that AI augments rather than replaces project management expertise."
+    type: evidence
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The era of project scoping and repetitive reporting is fading away."
+    type: definition
+    section: "Summary"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Virtual project assistants serve as AI-driven companions for task organization and progress updates."
+    type: recommendation
+    section: "Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "AI-driven insights and task automation enable project managers to navigate complexity with agility."
+    type: context
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Organizations need to address risk/reward balance, digital strategy alignment, and people-centricity in their GenAI strategy."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 31
+    source_format: prose

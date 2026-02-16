@@ -1,0 +1,222 @@
+source_id: source-016
+title: "Artificial Intelligence and Project Management: An Empirical Investigation on the Appropriation of Generative Chatbots by Project Managers"
+url: "https://www.sciencedirect.com/science/article/pii/S2444569X24000842"
+author: "Alberto Michele Felicetti, Antonio Cimino, Alberto Mazzoleni, Salvatore Ammirato"
+date: 2024-07-01
+total_segments: 28
+
+composition:
+  claim: { count: 10, pct: 35.7 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 1, pct: 3.6 }
+  definition: { count: 2, pct: 7.1 }
+  recommendation: { count: 1, pct: 3.6 }
+  context: { count: 7, pct: 25.0 }
+  methodology: { count: 3, pct: 10.7 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 4, pct: 14.3 }
+
+signal_ratio: 85.7
+
+segments:
+  # Title
+  - id: seg-001
+    text: "Artificial Intelligence and Project Management: An Empirical Investigation on the Appropriation of Generative Chatbots by Project Managers"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # Summary
+  - id: seg-002
+    text: "Published in the Journal of Innovation & Knowledge (Elsevier, Volume 9, Issue 3, July-September 2024), this empirical study investigates how project managers are adopting and adapting generative AI tools, specifically ChatGPT, for enhanced project management."
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The paper employs Adaptive Structuration Theory (AST) as its theoretical framework and uses Partial Least Square - Structural Equation Modeling (PLS-SEM) to analyze survey data from Italian project managers."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The study examines three key factors influencing AI tool appropriation: Innovation Attitude (the project manager's disposition toward new technologies), Peer Influence (social dynamics and colleague behavior), and Task-Technology Fit (the alignment between PM tasks and AI tool capabilities)."
+    type: definition
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The research confirms that all three hypothesized antecedents significantly affect how project managers appropriate AI tools."
+    type: claim
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "Innovation Attitude and Peer Influence positively impact both creative and 'unfaithful' use of AI in project management -- meaning project managers adapt the tools beyond their designed purposes."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Task-Technology Fit is crucial for effective integration, impacting both creative behavior and unfaithful appropriation."
+    type: claim
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "This is one of the first empirical studies to use a rigorous theoretical framework (AST) to examine generative AI adoption specifically in the project management context, moving beyond descriptive accounts to explanatory modelling of adoption behaviors."
+    type: context
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  # Key Takeaways
+  - id: seg-009
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 9
+    source_format: heading
+
+  - id: seg-010
+    text: "Uses Adaptive Structuration Theory (AST) as theoretical framework -- a significant theoretical contribution to the field"
+    type: methodology
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "Employs PLS-SEM methodology to analyze survey data from Italian project managers"
+    type: methodology
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Three key factors studied: Innovation Attitude, Peer Influence, and Task-Technology Fit"
+    type: evidence
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Innovation Attitude positively impacts creative and 'unfaithful' use of AI (adapting tools beyond designed purposes)"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Peer Influence significantly affects adoption patterns -- social dynamics drive AI tool appropriation"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Task-Technology Fit is crucial for effective AI integration -- alignment between PM tasks and tool capabilities determines success"
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Project managers are both adopting and adapting generative AI tools, not just using them as designed"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "The concept of 'unfaithful appropriation' captures how PMs creatively repurpose AI tools for unintended uses"
+    type: definition
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Identifies cultural and organizational context as important areas for future research"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "One of the first empirical studies to apply rigorous theoretical frameworks to GenAI adoption in PM specifically"
+    type: context
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  # Notable Quotes
+  - id: seg-020
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "The integration of generative AI tools, such as chatbots, into project management is revolutionizing the field."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  - id: seg-022
+    text: "The study highlights the role of an innovative mindset, peer dynamics, and task compatibility in the effective use of AI tools in project management."
+    type: claim
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  # Relevance to Topic
+  - id: seg-023
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 23
+    source_format: heading
+
+  - id: seg-024
+    text: "This paper provides the kind of theoretically grounded empirical evidence that the field needs."
+    type: context
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "While much of the literature on AI in PM is descriptive or speculative, this study applies a recognized social theory (AST) to explain adoption patterns, making it foundational for understanding not just what project managers do with AI, but why they adopt and adapt it."
+    type: claim
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The finding that peer influence is a significant driver has practical implications for organizational change management when introducing AI tools."
+    type: context
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Source type: paper; Source quality: academic; Relevance: 4/5; Angle: foundational"
+    type: context
+    section: "Metadata"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The study moves beyond descriptive accounts to explanatory modelling of AI adoption behaviors in project management."
+    type: context
+    section: "Summary"
+    position: 28
+    source_format: prose

@@ -1,0 +1,81 @@
+# Findings → Claim Mapping
+# Maps each editorial finding (from synthesis.md Key Findings) to its supporting canonical claims.
+# Claim IDs reference entries in extractions/claim-alignment.yaml and critical-analysis.yaml.
+# Generated: 2026-02-16
+
+findings:
+  - id: finding-01
+    title: "AI's Practical Value Concentrates in a Clear Hierarchy of Use Cases"
+    bottom_line: "AI's current value in project management clusters around task automation, risk management, predictive analytics, and reporting — most effective at the front and tail ends of projects, not during core execution."
+    body: |
+      The broadest consensus across 32 sources is that AI's practical value in project management follows a specific hierarchy. Capterra's survey data provides the most granular quantification: 54% of project managers use AI for risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation. These adoption rates are consistent with an earlier knowledge-area hierarchy established by Fridgeirsson et al. (2021) and confirmed by subsequent academic and practitioner sources: cost management, schedule management, and risk management are the PM domains most amenable to AI, precisely because they are data-intensive and quantitative.
+
+      A structural pattern emerges across sources: AI is most effective at the "front and tail ends" of projects — planning, brainstorming, and risk analysis on one end; reporting, summaries, and retrospective analysis on the other. Core execution, where contextual judgment and human coordination are required, remains largely human-driven. Risk management stands out as the most prominent and well-established AI application domain, with Perform Quantitative Risk Analysis identified in academic literature as the most common PM process targeted by AI.
+
+      Manual project reporting represents a specific high-value automation target: 42–50% of respondents spend one or more days per month manually collating project reports, and AI-generated status summaries are among the earliest and most widely deployed use cases. Resource allocation, while frequently cited as high-potential, remains constrained by the lack of comprehensive organizational data in most enterprises.
+    practitioner: "Map your current PM workflows against the front-and-tail-end pattern — prioritize AI adoption for planning, risk analysis, and reporting before attempting to automate core execution activities."
+    claims: [cc-001, cc-002, cc-003, cc-004, cc-005, cc-008, cc-009, cc-010, cc-013, cc-014, cc-015]
+
+  - id: finding-02
+    title: "Data Quality Is the Binding Constraint, Not Model Capability"
+    bottom_line: "Fifteen sources agree that AI effectiveness in project management is bounded by data quality — organizations overestimate readiness by conflating strategic intent with operational capability."
+    body: |
+      Fifteen sources endorse the finding that AI effectiveness in project management is fundamentally limited by organizational data quality — making this one of the most broadly supported claims in the corpus. The consensus spans from academic frameworks to vendor documentation: Microsoft's own Copilot documentation acknowledges that risk assessment and status reports require logged actuals to function. Practitioner sources observe that "if the project board is stale, AI will mostly automate stale reporting." The problem is structural: AI systems underperform not because of weak models but because of poor context — missing documentation, inconsistent tagging, and scattered tribal knowledge.
+
+      The related finding that organizational readiness depends on infrastructure, data discipline, and workflow maturity is supported by eight sources. AI works best when supporting an existing strong PMO, not as a substitute for one. Deloitte finds that 42% of companies believe their strategy is highly prepared for AI adoption but feel less prepared on infrastructure, data, risk, and talent. This readiness gap suggests that many organizations overestimate their preparedness by conflating strategic intent with operational capability.
+
+      The implication is that data readiness assessment should precede AI tool evaluation. Are project actuals being logged? Are risk registers current and comprehensive? Is resource availability data complete? The sources consistently indicate that AI applied to poor data produces unreliable outputs at best and harmful recommendations at worst.
+    practitioner: "Before evaluating AI tools, audit your project data completeness — logged actuals, current risk registers, and resource availability — because data quality determines whether AI will amplify good practice or automate bad practice."
+    claims: [cc-016, cc-017, cc-018]
+
+  - id: finding-03
+    title: "The Profession Faces a Dual Capability Gap at a Critical Transition"
+    bottom_line: "Only approximately 20% of project managers have practical AI competence while organizations default to education — despite evidence that workflow redesign, not training, is the primary driver of financial impact."
+    body: |
+      AI adoption in project management is crossing from experimentation to deployment, with multiple sources framing 2025–2026 as a transition year. The evidence is directional and quantitative: 88% of organizations use AI in at least one business function, but only 32% have integrated AI tools into PM workflows specifically. Weekly executive usage of generative AI has risen from 37% in 2023 to 82% in 2025. Yet the project management profession appears structurally unprepared. Only approximately 20% of project managers report practical AI competence, with 49% having little to no experience. The PMI global chapter survey finds that 65% of professionals have no or basic level of AI knowledge. At the same time, only 18% of project professionals demonstrate high business acumen proficiency — creating what one source identifies as a "dual capability gap" at precisely the moment when both competencies are becoming essential.
+
+      Organizations are responding primarily with education programs: Deloitte finds that education, not role or workflow redesign, is the primary talent strategy adjustment. However, McKinsey's research indicates that workflow redesign is the single most important factor in realizing financial impact from generative AI. The gap between what organizations are doing (training) and what drives financial returns (workflow redesign) represents a significant misallocation of effort. This tension has direct strategic significance for PMOs planning their AI integration approach.
+    practitioner: "Complement AI training programs with structured workflow redesign initiatives — McKinsey's evidence indicates that redesigning how work is done, not just upskilling individuals, is the primary lever for financial returns from generative AI."
+    claims: [cc-019, cc-020, cc-021, cc-022, cc-023, cc-040, cc-041, cc-042, cc-057]
+
+  - id: finding-04
+    title: "The Human-AI Collaboration Model Is Taking Shape, but Governance Lags Behind"
+    bottom_line: "Thirteen sources endorse the hybrid human-AI model as the broadest normative agreement in the corpus, but only 1 in 5 companies has a mature governance model for AI agents."
+    body: |
+      Thirteen sources support the claim that the emerging model for AI in project management is a hybrid workforce where AI handles routine and analytical tasks while humans focus on strategic oversight, judgment, and stakeholder relationships. This represents perhaps the broadest normative agreement in the corpus. The complementary finding that AI cannot replace human elements — contextual judgment, stakeholder management, empathy, ethical judgment, and team commitment — is supported by eight sources. PMI's framing is representative: "Algorithms cannot look anyone in the eye, speak truth to power, stay the ethical course or be accountable for their decisions."
+
+      However, governance frameworks for this collaboration model are significantly underdeveloped. Ten sources agree that AI governance — including output verification, accountability frameworks, and ethical oversight — is an urgent and unresolved priority. Only one in five companies has a mature governance model for autonomous AI agents, even as agentic AI deployment accelerates. The governance gap is compounded by the emergence of "Shadow AI" — teams using AI tools privately without shared norms — which threatens project integrity through inconsistent practices and unvetted outputs.
+
+      Multiple sources independently propose staged maturity models for managing AI autonomy: PwC's four phases, Wharton/GBK's three waves, CIO's four autonomy levels, and PMI's three tiers. The convergence on staged approaches suggests a genuine pattern in how organizations should manage the progression from AI-assisted to AI-augmented project management. The current consensus places the industry at the transition from basic automation into early ML-based prediction and supervised autonomous execution.
+    practitioner: "Establish AI governance policies for your PMO now — define output verification requirements, accountability for AI-generated recommendations, and norms for AI tool usage before Shadow AI practices become entrenched."
+    claims: [cc-027, cc-028, cc-029, cc-030, cc-031, cc-035, cc-036, cc-037, cc-063]
+
+  - id: finding-05
+    title: "Agentic AI Introduces Qualitatively New Capabilities and Risks"
+    bottom_line: "44% of leaders expect AI agents to take lead roles in project management within 2–3 years, but system complexity has replaced other concerns as the primary deployment barrier."
+    body: |
+      Sources published in late 2025 and early 2026 increasingly address agentic AI — systems that can reason about goals, plan multi-step actions, and coordinate with other agents autonomously. This represents a qualitative shift from previous automation, where tools executed commands rather than made decisions. Six sources support this definitional claim, with one observing that agentic AI systems are "no longer tools; they are teammates, of a sort, capable of making decisions and influencing outcomes." KPMG's Q4 2025 survey reports that 44% of leaders expect AI agents to take lead roles in managing specific projects within 2–3 years, and McKinsey finds 23% of organizations already scaling an agentic AI system with an additional 39% experimenting.
+
+      As deployment accelerates, system complexity has replaced other concerns as the primary challenge, with 65% of leaders citing agentic system complexity as the top barrier for two consecutive quarters. This shift has a notable irony for project management: orchestration and governance — traditional PMO competencies — become more important as AI scales. As AI threatens to automate many traditional PMO functions, the scaling of AI itself requires exactly the coordination, governance, and stakeholder management skills that PMOs possess. Board-level AI expertise has grown five-fold, from 8% to 40%, in just two quarters, signaling rapid executive engagement with the governance implications of agentic systems.
+    practitioner: "Position your PMO as the natural owner of AI agent orchestration — the coordination, governance, and stakeholder alignment skills required to manage agentic complexity are core PMO competencies."
+    claims: [cc-048, cc-049, cc-050, cc-030, cc-031]
+
+  - id: finding-06
+    title: "Project Delivery Performance Provides a Compelling but Unproven Case"
+    bottom_line: "The business case for AI in project management rests on a $48 trillion annual investment with 31–35% success rates, but no controlled study has isolated AI's contribution to project outcomes."
+    body: |
+      Multiple sources cite the same foundational statistic: approximately $48 trillion is invested in projects globally each year, yet only 31–35% of projects are considered successful. This "burning platform" creates the business case for AI-assisted project management. PMI research indicates that companies using AI-driven tools achieve 61% on-time delivery versus 47% without, 69% business benefits realization versus 53%, and 64% meeting ROI estimates versus 52%. KPMG reports 15% average productivity improvements for companies investing in AI, and 75% of leaders report positive returns on generative AI investments.
+
+      However, the evidence base for these outcome claims is notably weaker than for the adoption and use case findings. No source in the corpus presents a controlled study comparing project outcomes with and without AI tools. The PMI-cited performance differential is the closest approximation, but does not control for selection effects — organizations with more mature project management practices may be both more likely to adopt AI tools and more likely to deliver projects successfully. The academic literature explicitly acknowledges this gap, noting that the scientific literature on AI's impact in project management is "still in an embryonic stage." Revenue growth from AI remains largely aspirational: 74% of organizations hope for it, but only 20% are currently achieving it.
+    practitioner: "Use the available performance data to build an internal business case, but design your AI pilot with measurement controls that can isolate AI's actual contribution to project outcomes — the industry-level evidence cannot yet do this for you."
+    claims: [cc-006, cc-061, cc-026]
+
+  - id: finding-07
+    title: "The PM Role Will Transform — but the Nature of the Transformation Is Contested"
+    bottom_line: "Nine sources agree AI will reduce PM numbers and shift the role toward strategic leadership, but the risk of skill degradation and the profession's structural adjustment remain unaddressed."
+    body: |
+      Nine sources support the prediction that AI will not make project managers obsolete but will reduce their numbers and shift the role from task tracking to strategic leadership. The frequently cited Gartner prediction that 80% of PM tasks will be handled by AI by 2030 is reinterpreted across sources not as replacement but as automation of non-core tasks such as email, scheduling, and status reports. One source introduces the concept of project managers becoming "outcome stewards" — professionals who ensure fairness and quality in AI applications rather than executing tasks directly. Ten sources agree that project managers must develop new competencies in AI literacy, data fluency, and AI orchestration. The profession's skills gap is quantified: 65% of professionals have no or basic AI knowledge, 39% of organizations report a lack of AI skills on staff, and 76% of leaders are willing to offer up to 10% higher compensation for candidates with strong AI skills.
+
+      An underexplored dimension of this transformation is the risk of skill degradation. While 89% of executives agree generative AI enhances employees' skills, 43% simultaneously see risk of skill proficiency decline. The observation that AI-generated artifacts reduce team ownership through a reverse "IKEA effect" identifies a non-obvious second-order consequence: even when AI artifacts are higher quality, the process of not creating them may harm team engagement and learning. The tension between skill enhancement and skill degradation is real and unresolved; the outcome likely depends on whether organizations invest in maintaining human competence alongside AI deployment rather than treating AI as a wholesale replacement for the learning process.
+    practitioner: "Design AI-assisted workflows that keep project managers actively engaged in refining AI outputs rather than passively accepting them — preserving the hands-on involvement that builds expertise and team ownership."
+    claims: [cc-007, cc-038, cc-039, cc-040, cc-041, cc-043, cc-055, cc-059]

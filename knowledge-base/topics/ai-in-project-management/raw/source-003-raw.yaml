@@ -1,0 +1,208 @@
+source_id: source-003
+title: "Beyond Disruption: Embedding AI in Project Management to Drive Enterprise Transformation"
+url: "https://www.pwc.com/us/en/services/consulting/managed-services/library/ai-in-project-management.html"
+author: "Jennifer Duignan, PwC US"
+date: 2025-06-17
+total_segments: 24
+
+composition:
+  claim: { count: 7, pct: 29.2 }
+  statistic: { count: 3, pct: 12.5 }
+  evidence: { count: 4, pct: 16.7 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 1, pct: 4.2 }
+  context: { count: 5, pct: 20.8 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 1, pct: 4.2 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 3, pct: 12.5 }
+
+signal_ratio: 87.5
+
+segments:
+  - id: seg-001
+    text: "Beyond Disruption: Embedding AI in Project Management to Drive Enterprise Transformation"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Written by Jennifer Duignan, Principal of PMO Managed Services at PwC US, this article synthesizes observations from the PMI Global Summit 2025 in Barcelona with PwC's own AI transformation experience."
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The piece argues that AI is no longer a disruptive force to be feared but an essential enabler for project and PMO leaders."
+    type: claim
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "It connects three strategic perspectives -- managed services, enterprise transformation, and AI integration -- to make the case for immediate action."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The article is particularly notable for its first-party evidence: PwC's own investments in AI (becoming the first enterprise reseller of OpenAI, spending $1 billion to expand AI offerings, launching an AI agent operating system) and their internal deployment of a knowledge management AI for PMO teams."
+    type: context
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "It positions AI as central to modern project delivery across forecasting, talent alignment, and program execution."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Four out of ten CEOs believe their company will not be viable in 10 years if it stays on its current path (PwC Annual Global CEO Survey)."
+    type: statistic
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+    metadata:
+      metric: "CEOs who believe their company will not be viable in 10 years on current path"
+      value: 40
+      unit: "%"
+      population: "CEOs (PwC Annual Global CEO Survey)"
+
+  - id: seg-008
+    text: "42% of CEOs believe their companies will not be viable in 10 years if they remain on their current paths."
+    type: statistic
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+    metadata:
+      metric: "CEOs believing company not viable in 10 years on current path"
+      value: 42
+      unit: "%"
+      population: "CEOs (PwC Annual Global CEO Survey)"
+
+  - id: seg-009
+    text: "Almost half of CEOs say their biggest priorities over the next three years are integrating AI (including GenAI) into technology platforms and business processes."
+    type: statistic
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+    metadata:
+      metric: "CEOs prioritizing AI integration over next three years"
+      value: 50
+      unit: "% (approximate)"
+      population: "CEOs"
+
+  - id: seg-010
+    text: "PwC developed a knowledge management AI that helps PMO teams get up to speed faster and find resources to expedite client delivery."
+    type: evidence
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "PwC created a Responsible AI toolkit with customizable frameworks, tools, and processes to address unique risks of AI and GenAI."
+    type: evidence
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "PwC became the first enterprise reseller of OpenAI and spent $1 billion to expand and scale AI offerings."
+    type: evidence
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "PwC AI investment"
+      value: 1
+      unit: "billion USD"
+
+  - id: seg-013
+    text: "PwC launched an AI agent operating system to revolutionize AI workflows."
+    type: evidence
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "AI is being embedded into strategic PMO services for forecasting, talent alignment, and program delivery with speed and precision."
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "PMO bottlenecks can create gaps between strategy and execution, and AI integration addresses this gap."
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "AI isn't coming. It's already here -- and it's changing how we lead and deliver projects."
+    type: claim
+    section: "Notable Quotes"
+    position: 16
+    source_format: quote
+
+  - id: seg-017
+    text: "What used to be considered disruptive is now essential. Doing nothing with AI can mean missing opportunities."
+    type: claim
+    section: "Notable Quotes"
+    position: 17
+    source_format: quote
+
+  - id: seg-018
+    text: "Project managers and PMOs who can seamlessly integrate [AI] can be much more impactful, and those who don't make the jump risk being left behind."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 18
+    source_format: quote
+
+  - id: seg-019
+    text: "This source provides a Big Four consulting firm's perspective on AI in project management, combining strategic framing with concrete examples of internal AI adoption."
+    type: noise
+    section: "Relevance"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "The PwC-specific data points (first OpenAI enterprise reseller, $1B AI investment, AI agent operating system) demonstrate the scale of commitment major firms are making."
+    type: context
+    section: "Relevance"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "The PMI Global Summit context adds credibility as a reflection of industry-wide sentiment."
+    type: context
+    section: "Relevance"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "The source is somewhat promotional but contains enough strategic substance to be useful."
+    type: noise
+    section: "Relevance"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "PwC's internal deployment of a knowledge management AI for PMO teams demonstrates practical application within a major consulting firm."
+    type: example
+    section: "Key Takeaways"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "AI is no longer a disruptive force to be feared but an essential enabler for project and PMO leaders."
+    type: claim
+    section: "Summary"
+    position: 24
+    source_format: prose

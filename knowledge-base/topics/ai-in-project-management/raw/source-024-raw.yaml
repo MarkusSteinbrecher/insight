@@ -1,0 +1,296 @@
+source_id: source-024
+title: "AI in Project Management: 2025 Software Trends Report"
+url: "https://www.capterra.com/resources/2025-pm-software-trends/"
+author: "Capterra (Gartner subsidiary)"
+date: 2025-09-04
+total_segments: 31
+
+composition:
+  claim: { count: 7, pct: 22.6 }
+  statistic: { count: 9, pct: 29.0 }
+  evidence: { count: 1, pct: 3.2 }
+  definition: { count: 1, pct: 3.2 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 6, pct: 19.4 }
+  methodology: { count: 1, pct: 3.2 }
+  example: { count: 1, pct: 3.2 }
+  attribution: { count: 1, pct: 3.2 }
+  noise: { count: 4, pct: 12.9 }
+
+signal_ratio: 87.1
+
+segments:
+  # --- Title ---
+  - id: seg-001
+    text: "AI in Project Management: 2025 Software Trends Report"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # --- Summary ---
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Capterra's 2025 Project Management Software Trends Survey, conducted in July 2025 among 2,545 respondents across 11 countries (Australia, Brazil, Canada, France, Germany, India, Italy, Mexico, Spain, UK, and US), provides one of the most comprehensive quantitative assessments of AI adoption in PM software purchasing."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The survey's central finding is that AI has become the primary driver of PM software investment: 55% of buyers reported that AI was the top trigger for their most recent PM software purchase."
+    type: statistic
+    section: "Summary"
+    position: 4
+    source_format: prose
+    metadata:
+      metric: "PM software buyers citing AI as top purchase trigger"
+      value: 55
+      unit: "%"
+      population: "PM software buyers (2,545 respondents)"
+
+  - id: seg-005
+    text: "The report maps current AI usage across PM functions: 54% of project managers use AI for risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation."
+    type: statistic
+    section: "Summary"
+    position: 5
+    source_format: prose
+    metadata:
+      metric: "AI usage across PM functions"
+      data_points:
+        - { label: "Risk management", value: 54, unit: "%" }
+        - { label: "Task automation", value: 53, unit: "%" }
+        - { label: "Predictive analysis and forecasting", value: 52, unit: "%" }
+        - { label: "Schedule optimization", value: 52, unit: "%" }
+        - { label: "Resource planning and allocation", value: 47, unit: "%" }
+
+  - id: seg-006
+    text: "However, adoption faces significant barriers: 41% of project managers said AI adoption is a challenge, 39% reported a lack of AI skills on staff, and 36% said integrating new tools into existing workflows is a significant hurdle."
+    type: statistic
+    section: "Summary"
+    position: 6
+    source_format: prose
+    metadata:
+      metric: "AI adoption barriers"
+      data_points:
+        - { label: "AI adoption is a challenge", value: 41, unit: "%" }
+        - { label: "Lack of AI skills on staff", value: 39, unit: "%" }
+        - { label: "Integrating new tools into existing workflows", value: 36, unit: "%" }
+
+  - id: seg-007
+    text: "The report also identifies that AI is raising the stakes for security, with organizations grappling with new security risks alongside the productivity opportunities."
+    type: claim
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "A regional variant found that 57% of Canadian project managers cited AI as the trigger for a PM software purchase in the previous year, even amid budgetary constraints."
+    type: statistic
+    section: "Summary"
+    position: 8
+    source_format: prose
+    metadata:
+      metric: "Canadian PMs citing AI as PM software purchase trigger"
+      value: 57
+      unit: "%"
+      population: "Canadian project managers"
+
+  # --- Key Takeaways ---
+  - id: seg-009
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 9
+    source_format: heading
+
+  - id: seg-010
+    text: "55% of PM software buyers reported AI was the top trigger for their most recent purchase"
+    type: statistic
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+    metadata:
+      metric: "PM software buyers citing AI as top purchase trigger"
+      value: 55
+      unit: "%"
+      population: "PM software buyers"
+
+  - id: seg-011
+    text: "Survey covered 2,545 respondents across 11 countries (July 2025)"
+    type: context
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "54% use AI for project risk management, 53% for task automation, 52% for predictive analysis, 52% for schedule optimization, 47% for resource planning"
+    type: statistic
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "AI usage across PM functions"
+      data_points:
+        - { label: "Risk management", value: 54, unit: "%" }
+        - { label: "Task automation", value: 53, unit: "%" }
+        - { label: "Predictive analysis", value: 52, unit: "%" }
+        - { label: "Schedule optimization", value: 52, unit: "%" }
+        - { label: "Resource planning", value: 47, unit: "%" }
+
+  - id: seg-013
+    text: "41% of PMs say AI adoption is a challenge"
+    type: statistic
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: "PMs saying AI adoption is a challenge"
+      value: 41
+      unit: "%"
+      population: "Project managers"
+
+  - id: seg-014
+    text: "39% report a lack of AI skills on staff"
+    type: statistic
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: "PMs reporting lack of AI skills on staff"
+      value: 39
+      unit: "%"
+      population: "Project managers"
+
+  - id: seg-015
+    text: "36% say integrating new tools into existing workflows is a significant hurdle"
+    type: statistic
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+    metadata:
+      metric: "PMs citing integration as significant hurdle"
+      value: 36
+      unit: "%"
+      population: "Project managers"
+
+  - id: seg-016
+    text: "AI is raising the stakes for security — organizations face new risks alongside AI opportunities"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "57% of Canadian PMs cited AI as the trigger for PM software purchase (regional finding)"
+    type: evidence
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Companies investing in AI-powered tools to tackle rising project complexity, tighter budgets, and shifting workforce dynamics"
+    type: claim
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Generative AI used for drafting documents, summarizing meetings, answering questions; ML for schedule optimization; predictive analytics for risk identification"
+    type: example
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  # --- Notable Quotes ---
+  - id: seg-020
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "This isn't about chasing shiny features. It's about tackling rising project complexity, resource constraints and the demand for speed."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  - id: seg-022
+    text: "— Olivia Montgomery, Associate Principal Analyst, Capterra"
+    type: attribution
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  # --- Relevance to Topic ---
+  - id: seg-023
+    text: "This is the most directly relevant practitioner survey on AI in PM tool adoption."
+    type: context
+    section: "Relevance to Topic"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The 2,545-respondent sample across 11 countries provides robust quantitative evidence."
+    type: context
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The finding that AI is now the top purchase trigger (55%) signals a market inflection point."
+    type: claim
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The barrier analysis (skills gaps, integration challenges, security risks) provides actionable data for organizations planning AI-enabled PM tool adoption."
+    type: context
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "As a Gartner subsidiary, Capterra's methodology and sample quality lend credibility to the findings."
+    type: context
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  # --- Additional definitions and claims from summary ---
+  - id: seg-028
+    text: "AI has become the primary driver of PM software investment."
+    type: claim
+    section: "Summary"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Generative AI is used for drafting documents, summarizing meetings, and answering questions; machine learning for schedule optimization; and predictive analytics for risk identification."
+    type: definition
+    section: "Key Takeaways"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Organizations are grappling with new security risks alongside the productivity opportunities that AI brings."
+    type: claim
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "AI adoption in PM faces a triple barrier: general adoption challenges (41%), skills gaps (39%), and workflow integration difficulties (36%)."
+    type: context
+    section: "Summary"
+    position: 31
+    source_format: prose

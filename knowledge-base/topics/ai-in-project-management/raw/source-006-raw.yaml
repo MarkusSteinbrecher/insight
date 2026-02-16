@@ -1,0 +1,371 @@
+source_id: source-006
+title: "The Agentic Shift: How AI is Redefining Project Priorities in Software"
+url: "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html"
+author: "Minav Patel and Priyank Desai, CIO"
+date: 2025-11-18
+total_segments: 50
+
+composition:
+  claim: { count: 21, pct: 42.0 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 2, pct: 4.0 }
+  definition: { count: 7, pct: 14.0 }
+  recommendation: { count: 10, pct: 20.0 }
+  context: { count: 5, pct: 10.0 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 5, pct: 10.0 }
+
+signal_ratio: 90.0
+
+segments:
+  - id: seg-001
+    text: "The Agentic Shift: How AI is Redefining Project Priorities in Software"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "A CIO-published opinion piece from practicing software engineering leaders that argues agentic AI is fundamentally different from previous automation waves."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Unlike previous technologies that executed commands, agentic AI can reason about goals, plan multi-step actions, and coordinate with other systems with minimal supervision."
+    type: claim
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The authors contend this requires CIOs to rethink project prioritization, success measurement, and the meaning of productivity itself."
+    type: claim
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The article introduces three practical frameworks: a 'readiness assessment' with three dimensions (coordination, context, and observability), a four-level tiered autonomy model for AI deployment, and a five-point CIO framework for prioritizing AI projects."
+    type: context
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "These frameworks are grounded in the authors' experience deploying AI-based incident triage systems and represent concrete, practitioner-tested approaches rather than theoretical constructs."
+    type: evidence
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 8
+    source_format: heading
+
+  - id: seg-009
+    text: "Agentic AI is qualitatively different from previous automation: it reasons about goals, plans multi-step actions, and coordinates with other agents or systems with minimal supervision"
+    type: claim
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+
+  - id: seg-010
+    text: "The key question shifts from 'What should this system do?' to 'What should it be allowed to decide?' -- reframing project prioritization around coordination, trust, and control rather than pure efficiency"
+    type: claim
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "Three dimensions determine agentic readiness: coordination readiness (systems communicate in machine-readable ways), context readiness (AI can access relevant knowledge without ambiguity), and observability readiness (ability to trace why an agent made a decision)"
+    type: definition
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "AI systems underperform not because of weak models but because of poor context: missing documentation, inconsistent tagging, and scattered tribal knowledge"
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "A four-level tiered autonomy model: Level 0 (observation only), Level 1 (advisory mode), Level 2 (supervised execution), Level 3 (autonomous execution) -- each requiring proof of reliability and explainability before progression"
+    type: definition
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Organizations should fund projects that make ecosystems modular, contextual, and observable rather than simply efficient"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Infrastructure simplification becomes strategic: multi-cloud service migration enables agentic orchestration"
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Knowledge centralization (internal data graphs, incident intelligence layers) becomes the substrate for AI reasoning"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Governance automation (policy-as-code, automated compliance checks) enables trustworthy autonomy"
+    type: claim
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Governance isn't a gate at the end -- it's a scaffold that enables safe exploration"
+    type: claim
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Engineers shift from execution to oversight: creating rules, safeguards, and feedback mechanisms that make AI reliable"
+    type: claim
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "Where previous systems executed commands, agentic AI can reason about goals, plan multi-step actions and coordinate with other agents or systems, often with minimal supervision. These are no longer tools; they are teammates, of a sort, capable of making decisions and influencing outcomes."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  - id: seg-022
+    text: "Readiness isn't about how much AI you have; it's about how adaptable and observable your environment is."
+    type: claim
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "Governance isn't a gate at the end -- it's a scaffold that enables safe exploration."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  - id: seg-024
+    text: "The CIOs who succeed won't be those who automate the most, but those who design partnerships between humans and agents."
+    type: claim
+    section: "Notable Quotes"
+    position: 24
+    source_format: quote
+
+  - id: seg-025
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 25
+    source_format: heading
+
+  - id: seg-026
+    text: "This is one of the most conceptually substantive sources in the collection."
+    type: context
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "It moves beyond describing what AI can do and provides actionable frameworks for how organizations should prepare for agentic AI in project delivery."
+    type: context
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The three-dimensional readiness model and four-level autonomy framework are concrete, testable constructs that practitioners can apply."
+    type: claim
+    section: "Relevance to Topic"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "The emphasis on infrastructure, context, and observability as prerequisites (rather than AI capability itself) offers a distinctive and practically useful perspective."
+    type: claim
+    section: "Relevance to Topic"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Agentic AI is fundamentally different from previous automation waves."
+    type: claim
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "The article introduces a 'readiness assessment' with three dimensions: coordination, context, and observability."
+    type: definition
+    section: "Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "The article introduces a four-level tiered autonomy model for AI deployment."
+    type: definition
+    section: "Summary"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "The article introduces a five-point CIO framework for prioritizing AI projects."
+    type: definition
+    section: "Summary"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "This requires CIOs to rethink project prioritization, success measurement, and the meaning of productivity itself."
+    type: recommendation
+    section: "Summary"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "The key question shifts from 'What should this system do?' to 'What should it be allowed to decide?'"
+    type: claim
+    section: "Key Takeaways"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Project prioritization should be reframed around coordination, trust, and control rather than pure efficiency."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "Coordination readiness means systems communicate in machine-readable ways."
+    type: definition
+    section: "Key Takeaways"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Context readiness means AI can access relevant knowledge without ambiguity."
+    type: definition
+    section: "Key Takeaways"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "Each autonomy level requires proof of reliability and explainability before progression to the next."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Organizations should fund projects that make ecosystems modular, contextual, and observable."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "Multi-cloud service migration enables agentic orchestration."
+    type: claim
+    section: "Key Takeaways"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "Internal data graphs and incident intelligence layers become the substrate for AI reasoning."
+    type: claim
+    section: "Key Takeaways"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Policy-as-code and automated compliance checks enable trustworthy autonomy."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "Engineers shift from execution to oversight roles."
+    type: claim
+    section: "Key Takeaways"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "Engineers create rules, safeguards, and feedback mechanisms that make AI reliable."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "These are no longer tools; they are teammates, of a sort, capable of making decisions and influencing outcomes."
+    type: claim
+    section: "Notable Quotes"
+    position: 46
+    source_format: quote
+
+  - id: seg-047
+    text: "The CIOs who succeed won't be those who automate the most, but those who design partnerships between humans and agents."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 47
+    source_format: quote
+
+  - id: seg-048
+    text: "These frameworks are grounded in the authors' experience deploying AI-based incident triage systems."
+    type: evidence
+    section: "Summary"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "The frameworks represent concrete, practitioner-tested approaches rather than theoretical constructs."
+    type: context
+    section: "Summary"
+    position: 49
+    source_format: prose
+
+  - id: seg-050
+    text: "Readiness isn't about how much AI you have; it's about how adaptable and observable your environment is."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 50
+    source_format: quote

@@ -1,0 +1,25 @@
+{
+  "topics": [
+    {
+      "slug": "ea-for-ai",
+      "title": "Enterprise Architecture for AI",
+      "status": "synthesized",
+      "phase": 2,
+      "source_count": 56,
+      "updated": "2026-02-16",
+      "insight_count": 4,
+      "canonical_claims": 164
+    },
+    {
+      "slug": "ai-in-project-management",
+      "title": "AI in Project Management",
+      "status": "synthesized",
+      "phase": 2,
+      "source_count": 32,
+      "updated": "2026-02-16",
+      "insight_count": 7,
+      "canonical_claims": 64
+    }
+  ],
+  "default_topic": "ea-for-ai"
+}

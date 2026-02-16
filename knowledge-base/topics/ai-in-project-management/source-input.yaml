@@ -1,0 +1,8 @@
+# Source Input — AI in Project Management
+#
+# Add sources here for processing. Supports web URLs and local documents.
+# After adding entries, run:
+#   /research ai-in-project-management   — to fetch and process web sources
+#   /ingest ai-in-project-management     — to process documents from documents/
+
+sources: []

@@ -1,0 +1,252 @@
+meta:
+  baseline_question: How is AI transforming project management?
+  baseline_created: '2026-02-16'
+  evaluated: '2026-02-16'
+  total_claims: 64
+  common: 34
+  additional: 27
+  new: 3
+evaluations:
+- id: cc-001
+  category: common
+  rationale: Task automation, reporting, risk management, and admin reduction as top AI use cases in PM are extensively covered in practitioner articles, vendor materials, and survey summaries. Any search
+    for 'AI in project management' surfaces these.
+- id: cc-002
+  category: additional
+  rationale: The specific framing of AI being strongest at the 'front end' (planning) and 'tail end' (reporting) while execution remains human-driven adds a structural insight beyond the generic 'AI automates
+    tasks' narrative. The planning-execution-reporting lifecycle distinction is not a standard talking point.
+- id: cc-003
+  category: common
+  rationale: AI for predictive analytics, risk identification, forecasting, and decision support is one of the most widely discussed themes in AI-PM content. This is standard vendor positioning and appears
+    in virtually every overview article.
+- id: cc-004
+  category: additional
+  rationale: While risk, cost, and schedule are commonly mentioned individually, the specific claim that AI impact correlates with how data-intensive and quantitative the PM knowledge area is — ranking
+    these three above others — adds an analytical layer beyond typical coverage.
+- id: cc-005
+  category: common
+  rationale: The dependency of AI effectiveness on historical data availability is widely acknowledged in baseline sources. 'Data as prerequisite' is one of the most common themes in any AI adoption discussion.
+- id: cc-006
+  category: common
+  rationale: Claims that AI-driven PM tools improve on-time delivery and project outcomes are common in vendor and industry body publications. The PMI statistics cited here circulate widely in the PM community.
+- id: cc-007
+  category: common
+  rationale: Gartner's '80% of PM tasks by 2030' prediction is one of the most frequently cited statistics in AI-PM content. It appears in blog posts, vendor pitches, and conference presentations as a standard
+    reference point.
+- id: cc-008
+  category: common
+  rationale: Risk management as a leading AI application in PM is thoroughly covered in baseline content. Survey data on AI usage rates for risk management appears in multiple widely-read sources.
+- id: cc-009
+  category: common
+  rationale: AI-powered predictive analytics for project forecasting is a standard topic, and the caveat about data quality dependency is equally well-established. Both the capability and the limitation
+    are commonly discussed.
+- id: cc-010
+  category: common
+  rationale: AI assisting with schedule generation, cost estimation, and task breakdown — with human refinement needed — is standard coverage in PM tool reviews and practitioner guides.
+- id: cc-011
+  category: additional
+  rationale: While real-time monitoring is mentioned in baseline content, the specific contrast between 'static planning' as an inadequate paradigm versus AI-enabled 'dynamic, always-on project intelligence'
+    frames the shift as a fundamental methodology change rather than just a tool upgrade. This framing goes beyond typical coverage.
+- id: cc-012
+  category: common
+  rationale: The limitation of traditional static planning approaches in handling complexity and real-time data is a standard justification for AI adoption in PM. This is the 'why AI' framing that appears
+    in most introductory content.
+- id: cc-013
+  category: common
+  rationale: AI-generated reporting and status summaries as an early, widely-deployed use case is well-covered. The need for human review is also commonly noted in vendor documentation and practitioner
+    advice.
+- id: cc-014
+  category: common
+  rationale: Manual reporting as a time burden and automation opportunity is one of the most frequently cited pain points in PM content. Statistics about time spent on status reports appear in multiple
+    baseline sources.
+- id: cc-015
+  category: additional
+  rationale: While AI for resource allocation is commonly listed as a use case, the specific observation that it is 'high-potential but currently constrained' due to lack of comprehensive organizational
+    data adds a practical nuance. Most baseline content lists resource allocation as an AI capability without noting the data prerequisites that make it harder to realize than other use cases.
+- id: cc-016
+  category: common
+  rationale: Data quality as a fundamental prerequisite for AI effectiveness is one of the most widely discussed themes in AI adoption content. 'Garbage in, garbage out' applied to AI is standard practitioner
+    knowledge.
+- id: cc-017
+  category: common
+  rationale: Organizational readiness (data, infrastructure, workflows) as a prerequisite for AI adoption is widely discussed in baseline sources. The general point that success depends on readiness rather
+    than model capability is well-established.
+- id: cc-018
+  category: common
+  rationale: Data quality as a prerequisite for AI integration is one of the most frequently cited themes in baseline search results. Any practitioner Googling AI adoption challenges would encounter this
+    immediately.
+- id: cc-019
+  category: additional
+  rationale: The general narrative of moving from experimentation to deployment is common, but the specific framing of 2026 as the transition year with supporting adoption statistics (32% PM-specific integration,
+    67% stuck in pilot mode) adds quantitative detail beyond baseline.
+- id: cc-020
+  category: additional
+  rationale: The awareness-vs-adoption gap is a recognized theme, but the specific quantification (88% general AI adoption vs. 32% PM-specific, 82% of leaders expecting impact vs. 21% using AI) provides
+    practitioner-specific data points not easily found through general search.
+- id: cc-021
+  category: common
+  rationale: The observation that most organizations are still in early/pilot stages of AI deployment is well-represented in baseline sources. This is one of the most commonly cited findings in AI adoption
+    reporting.
+- id: cc-022
+  category: common
+  rationale: High expectations of AI impact on the PM profession within 3-5 years is a standard finding in PMI and industry surveys that surfaces readily in web searches.
+- id: cc-023
+  category: additional
+  rationale: While the shift from pilots to production is a common theme, the specific evidence of formal ROI measurement (72% of leaders now measuring GenAI ROI, 59% expecting measurable ROI within 12
+    months) and the 'professionalization' framing adds detail beyond baseline.
+- id: cc-024
+  category: common
+  rationale: The growing divide between AI leaders and laggards is a well-established narrative in consulting literature (McKinsey, BCG, Deloitte all publish on this). Easily found through baseline search.
+- id: cc-025
+  category: common
+  rationale: Phased maturity models for AI adoption (from automation to autonomous systems) are widely published. Multiple frameworks exist in both vendor and academic literature that a practitioner would
+    readily find.
+- id: cc-026
+  category: additional
+  rationale: While the general immaturity of AI-in-PM research is known, the specific observation about the gap between practitioner enthusiasm and academic rigor, along with findings about submissions
+    failing research standards, adds an angle not prominent in baseline results.
+- id: cc-027
+  category: common
+  rationale: AI governance as an urgent priority -- including output verification, accountability, and ethical oversight -- is a dominant theme in baseline search results. This is among the most widely
+    discussed aspects of AI adoption.
+- id: cc-028
+  category: common
+  rationale: The need for human review of AI outputs is well-established in baseline knowledge. Vendor documentation, industry guidance, and practitioner advice all emphasize human-in-the-loop verification.
+- id: cc-029
+  category: additional
+  rationale: While general awareness of emerging AI regulation exists in baseline, the specific examples (RICS mandatory professional standard, US/UK government AI policy memoranda for professional services)
+    provide concrete regulatory detail beyond what a general search would surface.
+- id: cc-030
+  category: additional
+  rationale: The general governance gap is common knowledge, but the specific framing around autonomous AI agents (only 1 in 5 companies having mature governance for agentic AI) and the quantified oversight
+    lag is a more specific finding not prominent in baseline results.
+- id: cc-031
+  category: additional
+  rationale: While governance needs are broadly acknowledged, the specific argument that orchestration and control systems become essential as organizations move from individual tools to integrated AI ecosystems
+    -- linking governance to system complexity rather than just ethics -- adds a distinct angle.
+- id: cc-032
+  category: additional
+  rationale: Trust concerns around AI are common in baseline, but the specific documented incident (Deloitte repaying fees to the Australian government for AI-generated errors in consulting deliverables)
+    provides concrete evidence beyond the general trust discussion.
+- id: cc-033
+  category: additional
+  rationale: General concerns about AI output quality and over-reliance are findable, but the specific concepts of 'AI Slop' as a named phenomenon and 'AI Psychosis' (coined by Suleyman) add terminology
+    and framing beyond standard baseline discussions.
+- id: cc-034
+  category: additional
+  rationale: Trust as important for AI adoption is a common theme, but the specific framing that 'systems can only be as autonomous as they are trustworthy' and the quantified executive sentiment (77% and
+    81% figures) add practitioner-specific detail beyond generic trust discussions.
+- id: cc-035
+  category: common
+  rationale: The hybrid human-AI model where AI handles routine tasks while humans focus on strategy and relationships is one of the most widely discussed themes in AI-and-PM literature and easily found
+    through basic web search.
+- id: cc-036
+  category: common
+  rationale: The position that AI cannot replace human judgment, empathy, stakeholder management, and ethical reasoning is a standard talking point across virtually all AI-and-PM commentary.
+- id: cc-037
+  category: common
+  rationale: The idea that higher task complexity requires more human oversight is a well-established principle in automation literature generally and is commonly discussed in AI-PM contexts.
+- id: cc-038
+  category: common
+  rationale: The growing importance of soft skills as AI automates administrative work is a widely discussed theme in PM role evolution commentary and easily discoverable through web search.
+- id: cc-039
+  category: additional
+  rationale: The baseline covers AI transforming rather than replacing PMs, but the specific prediction that AI will reduce the number of PMs organizations need — not just change the role but shrink headcount
+    — is a more pointed claim than typical baseline commentary.
+- id: cc-040
+  category: common
+  rationale: The need for PMs to develop AI literacy, data fluency, and related competencies is a dominant theme in baseline discussions of PM role evolution and skills gaps.
+- id: cc-041
+  category: additional
+  rationale: The general skills gap is well-known, but the specific quantification — only 20% with practical AI experience, 49% with little to none, 65% at no or basic level — provides concrete data points
+    beyond the baseline's general acknowledgment of skills gaps.
+- id: cc-042
+  category: additional
+  rationale: While skills gaps are commonly discussed, the specific finding that organizations are failing to provide adequate training (62% rated 4 or less) and the observation that education rather than
+    workflow redesign is the primary response adds empirical detail beyond baseline awareness.
+- id: cc-043
+  category: common
+  rationale: The career advantage of early AI adoption is a standard motivational message found across PM professional development content and industry commentary.
+- id: cc-044
+  category: additional
+  rationale: General AI limitations are acknowledged in the baseline, but the specific operational failure modes — AI filling gaps with incorrect guesses in meeting summaries, predictions degrading precisely
+    when stakes are highest in novel transformations, inability to distinguish correlation from causation — add practitioner-relevant detail.
+- id: cc-045
+  category: additional
+  rationale: Baseline discussions mention integration challenges abstractly, but the specific functional gaps in production tools — no auto-assignment of resources, no automatic dependencies, requirement
+    for pre-existing logged actuals — provide concrete detail a practitioner would not typically find through general search.
+- id: cc-046
+  category: common
+  rationale: That interpersonal and stakeholder-facing aspects of PM are least suited to AI is a natural corollary of the widely discussed human-AI division of labor and is commonly stated in baseline sources.
+- id: cc-047
+  category: common
+  rationale: Skills gaps, change resistance, cost constraints, data quality, integration challenges, and security concerns are all individually well-established adoption barriers found across baseline search
+    results.
+- id: cc-048
+  category: additional
+  rationale: While agentic AI is increasingly discussed, the specific characterization of it as a qualitative shift from previous automation — reasoning about goals, planning multi-step actions, coordinating
+    with other systems autonomously — goes beyond baseline PM discussions, which tend to treat AI tools more generically.
+- id: cc-049
+  category: additional
+  rationale: The general idea that AI agents differ from traditional tools is common, but the specific multi-dimensional comparison framework (dynamic vs. static task assignment, continuous learning vs.
+    fixed workflows, autonomous with escalation vs. frequent approvals, etc.) provides structured detail beyond what a typical search would surface.
+- id: cc-050
+  category: new
+  rationale: Baseline content discusses integration challenges and adoption barriers, but the specific finding that system complexity — particularly orchestrating agentic and multi-agent systems — has overtaken
+    other concerns as the top deployment challenge is a recent empirical observation not reflected in common AI-PM content.
+- id: cc-051
+  category: common
+  rationale: AI PM market growth projections and CAGR figures (17-40%) are widely cited in industry reports, market analyses, and vendor content. This is one of the most commonly referenced data points
+    in AI-PM discussions.
+- id: cc-052
+  category: common
+  rationale: Major vendor investments in AI capabilities (Microsoft Copilot, PwC's AI initiatives, etc.) are widely reported in trade press and vendor marketing. Enterprise platform AI integration is standard
+    technology news coverage.
+- id: cc-053
+  category: additional
+  rationale: While AI features in PM tools are commonly discussed, the specific finding that AI has become the primary purchase trigger — with 55% of buyers citing it as the top reason for their most recent
+    PM software purchase — quantifies a market shift that goes beyond general awareness of AI in PM tools.
+- id: cc-054
+  category: common
+  rationale: Change management resistance as a barrier to AI adoption is one of the most widely discussed themes in any AI adoption context. Skills gaps, fear of job loss, and the need for organizational
+    strategies alongside technology deployment are standard practitioner knowledge.
+- id: cc-055
+  category: new
+  rationale: The specific concept that AI-generated artifacts reduce team psychological ownership — applying the behavioral economics 'IKEA effect' in reverse to project management — is a novel observation.
+    Baseline content discusses AI trust and adoption resistance, but not this specific mechanism of reduced commitment through lack of participation in artifact creation.
+- id: cc-056
+  category: additional
+  rationale: While dedicated AI teams and executive sponsorship are discussed in general AI adoption content, the specific connection between PMOs/transformation offices and AI scaling success adds a PM-specific
+    organizational design recommendation that goes beyond generic change management advice.
+- id: cc-057
+  category: additional
+  rationale: Baseline content commonly discusses the need for process change alongside technology adoption. However, the specific empirical finding that workflow redesign — rather than technology selection
+    — is the single most important factor in realizing EBIT impact from AI elevates this from general advice to a data-backed prioritization that most practitioners would not find in a casual search.
+- id: cc-058
+  category: new
+  rationale: The specific assessment that PMI's PMBOK 8th edition includes only 8 pages on AI as a 'provisional' appendix, and APM's response is similarly limited, is a concrete evaluation of professional
+    body adequacy that would not appear in general AI-PM searches. This requires direct comparison of the publications.
+- id: cc-059
+  category: additional
+  rationale: AI-driven deskilling is an emerging topic in broader AI discourse, but the specific tension data (89% say AI enhances skills, yet 43% see risk of proficiency decline) and its application to
+    foundational PM competencies adds quantitative specificity beyond what a general search would surface.
+- id: cc-060
+  category: common
+  rationale: The urgency narrative — adopt AI or risk competitive disadvantage — is one of the most pervasive themes in AI content across all domains. Vendor marketing, consulting firms, and industry bodies
+    all employ this framing extensively.
+- id: cc-061
+  category: common
+  rationale: Poor project delivery rates (around 30-35% success) and the $48 trillion annual investment figure are widely cited statistics from PMI and the Standish Group. These are standard reference points
+    in PM literature, frequently used to justify PM tool and methodology investments.
+- id: cc-062
+  category: additional
+  rationale: While AI for decision support is commonly discussed, the specific concept of 'decision intelligence' — where AI recommends actions rather than merely presenting data — names and frames a capability
+    evolution that goes beyond the typical 'AI provides insights' baseline discussion.
+- id: cc-063
+  category: additional
+  rationale: Shadow IT is a well-known concept, but 'Shadow AI' — the specific risk of unmanaged AI tool usage within project teams threatening project integrity and organizational consistency — is a more
+    recent framing. Baseline content discusses AI governance needs generally but does not typically name this specific risk pattern.
+- id: cc-064
+  category: common
+  rationale: AI bias as a challenge requiring mitigation strategies is thoroughly covered in baseline content on AI ethics and governance. This is one of the most widely discussed AI risks across all domains,
+    not specific to project management.

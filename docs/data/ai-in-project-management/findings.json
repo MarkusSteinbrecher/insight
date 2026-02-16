@@ -1,0 +1,2576 @@
+{
+  "generated": "2026-02-16",
+  "total_findings": 7,
+  "total_claims_linked": 48,
+  "findings": [
+    {
+      "id": "finding-01",
+      "title": "AI's Practical Value Concentrates in a Clear Hierarchy of Use Cases",
+      "claim_count": 11,
+      "claims": [
+        {
+          "id": "cc-001",
+          "statement": "Task automation, reporting, risk management, and administrative overhead reduction are the most common and successful current AI applications in project management.",
+          "source_count": 12,
+          "bottom_line": "The use case list is well-established and broadly agreed upon \u2014 the practitioner's challenge is not knowing where AI applies, but measuring whether it delivers in their specific environment.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "Task automation, forecasting, and risk management are the most common uses of AI in project management.",
+                "Capterra's 2024 Most Impactful PM Tools Survey found: 54% used AI for project risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "Knowledge workers spend 60% of their time on 'work about work' (status chasing, unnecessary meetings, tool-switching) -- the primary target for AI automation (Asana).",
+                "50% of respondents spend one day or more each month manually collating project status information (Wellingtone)."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "Ten key capabilities of AI agents: automated project setup, progress tracking and reporting, risk identification and mitigation, predictive analytics, workflow coordination across teams, continuous documentation, smart resource allocation, user story generation, meeting assistance, and cross-functional workflow management"
+              ]
+            },
+            {
+              "id": "source-008",
+              "title": "Copilot for Project Overview \u2014 Microsoft Dynamics 365 Project Operations",
+              "author": "Microsoft",
+              "url": "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features",
+              "quotes": [
+                "Microsoft Copilot for project has four capabilities in Dynamics 365 Project Operations: task plan generation, risk assessments, project status reports, and interactive chat"
+              ]
+            },
+            {
+              "id": "source-010",
+              "title": "AI-Powered PMO: Transforming Project Management with Intelligence",
+              "author": "Vijay Viradia, APM",
+              "url": "https://www.apm.org.uk/blog/ai-powered-pmo-transforming-project-management-with-intelligence/",
+              "quotes": [
+                "Five AI-driven PMO capabilities identified: predictive implementation tracking (analyzing timelines, resources, and past implementations to predict delays), automated project reporting (real-time dashboards), resource allocation optimization (forecasting demand from historical data), AI chatbots for real-time project updates, and risk management and compliance automation"
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "At the lowest complexity level, GenAI can automate tasks like report generation, meeting note summarization, and calculations."
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "AI will primarily impact: automation of routine tasks, data-driven decision support, risk identification, and resource allocation"
+              ]
+            },
+            {
+              "id": "source-020",
+              "title": "Artificial Intelligence and Machine Learning in Project Management: A Conceptual Framework for Future Integration",
+              "author": "Vijayakumar Raja",
+              "url": "https://al-kindipublishers.org/index.php/jbms/article/view/10776",
+              "quotes": [
+                "The framework identifies four primary AI/ML capabilities mapped to the project lifecycle: predictive analytics (for forecasting outcomes and anticipating risks), intelligent automation (for routine task execution), natural language processing (for communication and documentation), and self-learning algorithms (for adaptive resource optimization and dynamic scheduling)."
+              ]
+            },
+            {
+              "id": "source-024",
+              "title": "AI in Project Management: 2025 Software Trends Report",
+              "author": "Capterra (Gartner subsidiary)",
+              "url": "https://www.capterra.com/resources/2025-pm-software-trends/",
+              "quotes": [
+                "The report maps current AI usage across PM functions: 54% of project managers use AI for risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation."
+              ]
+            },
+            {
+              "id": "source-030",
+              "title": "AI in Project Management: Benefits, Use Cases & Future Outlook",
+              "author": "Anna Balyuk (Epicflow)",
+              "url": "https://www.epicflow.com/blog/ai-in-project-management-is-the-future-already-here/",
+              "quotes": [
+                "Six areas AI will disrupt PM (per HBR): selection/prioritization, PMO support, project definition/planning/reporting, virtual assistants, testing systems, PM role redefinition"
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "The article covers five areas: embracing GenAI in PM (AI-driven insights and task automation enabling project managers to navigate complexity with agility), revolutionizing PMO operations (the era of project scoping and repetitive reporting fading away, with GenAI projected to handle 80% of PM tasks by 2030), unique challenges (data quality, security, AI bias, and the need for 'human in the loop'), redefining PM roles (project managers as 'outcome stewards' ensuring fairness in AI applications), and empowering virtual project assistants (AI-driven companions for task organization and progress updates)."
+              ]
+            },
+            {
+              "id": "source-032",
+              "title": "The State of Project Management Annual Report 2025",
+              "author": "Wellingtone",
+              "url": "https://wellingtone.co.uk/publications/state-of-project-management-research/",
+              "quotes": [
+                "This report provides the ground-level practitioner perspective on PM operations, revealing the specific pain points that AI could address (manual reporting, lack of real-time KPIs, resource management)."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-002",
+          "statement": "AI is most effective at the planning and reporting phases of projects (front end and tail end), while core execution remains largely human-driven.",
+          "source_count": 3,
+          "bottom_line": "AI delivers the clearest near-term value at project bookends \u2014 planning and reporting \u2014 and practitioners should sequence their adoption accordingly.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "AI's most successful applications are currently at the 'front and tail ends' of projects -- planning, brainstorming, and reporting -- while core execution tasks remain largely human-driven due to data readiness challenges.",
+                "AI is most effective at the 'front end' (planning, brainstorming, risk analysis, drafting schedules, identifying stakeholders) and 'tail end' (reports, summaries) of projects."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "AI helps most when it reduces project overhead (status chasing, reporting, handoff confusion), but cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "Generative AI can create transformation content (schedules, risk logs, status reports) very quickly, but documentation alone does not make change happen -- value only comes from use"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-003",
+          "statement": "AI provides enhanced decision support through predictive analytics, risk identification, data-driven forecasting, and scenario modeling.",
+          "source_count": 6,
+          "bottom_line": "AI-powered decision support is real but uneven \u2014 schedule and cost forecasting are mature, while scenario modeling for complex programs remains early-stage.",
+          "sources": [
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "The article identifies automation of routine tasks, enhanced decision support through data analysis, risk identification, and resource allocation as key areas where AI will have the most significant impact."
+              ]
+            },
+            {
+              "id": "source-020",
+              "title": "Artificial Intelligence and Machine Learning in Project Management: A Conceptual Framework for Future Integration",
+              "author": "Vijayakumar Raja",
+              "url": "https://al-kindipublishers.org/index.php/jbms/article/view/10776",
+              "quotes": [
+                "The framework identifies four primary AI/ML capabilities mapped to the project lifecycle: predictive analytics (for forecasting outcomes and anticipating risks), intelligent automation (for routine task execution), natural language processing (for communication and documentation), and self-learning algorithms (for adaptive resource optimization and dynamic scheduling)."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "Impact of Artificial Intelligence on Project Management (PM): Multi-Expert Perspectives on Advancing Knowledge and Driving Innovation Toward PM2030",
+              "author": "Laurie Hughes, Reza Kiani Mavi, Masoud Aghajani, Keith Fitzpatrick, et al.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25001179",
+              "quotes": [
+                "By 2030, AI-driven predictive insights and modelling capabilities are expected to significantly enhance efficiency, raising critical questions about the evolving role of human project managers."
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "53% report enhanced insights and decision-making; 40% report cost reduction"
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "An Authoritative Study on the Near Future Effect of Artificial Intelligence on Project Management Knowledge Areas",
+              "author": "Thordur Vikingur Fridgeirsson, Helgi Thor Ingason, Haukur Ingi Jonasson, Herdis Jonsdottir",
+              "url": "https://www.mdpi.com/2071-1050/13/4/2345",
+              "quotes": [
+                "AI is found to be most useful in processes where historical data and information are used for planning and estimation, and where it can monitor schedules, maintain baselines, and adjust forecasts."
+              ]
+            },
+            {
+              "id": "source-028",
+              "title": "AI Will Transform Project Management. Are You Ready?",
+              "author": "Marc Lahmann (PwC Switzerland)",
+              "url": "https://www.pwc.ch/en/insights/risk/ai-will-transform-project-management-are-you-ready.html",
+              "quotes": [
+                "Phase 3 (ML-Based PM): predictive analytics, autonomous schedule adjustments based on pattern recognition; requires substantial historical data"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-004",
+          "statement": "AI has the strongest impact on data-intensive, quantitative PM knowledge areas \u2014 particularly cost management, schedule management, and risk management.",
+          "source_count": 5,
+          "bottom_line": "Cost, schedule, and risk management are the highest-return areas for AI in PM today \u2014 but the arrival of NLP-based AI may expand this list to qualitative knowledge areas.",
+          "sources": [
+            {
+              "id": "source-017",
+              "title": "An Authoritative Study on the Near Future Effect of Artificial Intelligence on Project Management Knowledge Areas",
+              "author": "Thordur Vikingur Fridgeirsson, Helgi Thor Ingason, Haukur Ingi Jonasson, Herdis Jonsdottir",
+              "url": "https://www.mdpi.com/2071-1050/13/4/2345",
+              "quotes": [
+                "The research finds that project cost management, project schedule management, and project risk management are the three knowledge areas where AI would have the strongest effect.",
+                "Identifies the top three most impacted areas: project cost management, project schedule management, and project risk management"
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "Top PM areas impacted by AI: data collection/reporting, performance monitoring, project time management/scheduling"
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "AI will primarily impact: automation of routine tasks, data-driven decision support, risk identification, and resource allocation"
+              ]
+            },
+            {
+              "id": "source-019",
+              "title": "Artificial Intelligence Tools for Project Management: A Knowledge-Based Perspective",
+              "author": "Pedro M. Almeida, Gabriela Fernandes, Jose M.R.C.A. Santos",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2666721525000213",
+              "quotes": [
+                "Machine learning algorithms (optimization, automation) are best suited for formal/data-driven domains (cost, schedule)"
+              ]
+            },
+            {
+              "id": "source-020",
+              "title": "Artificial Intelligence and Machine Learning in Project Management: A Conceptual Framework for Future Integration",
+              "author": "Vijayakumar Raja",
+              "url": "https://al-kindipublishers.org/index.php/jbms/article/view/10776",
+              "quotes": [
+                "Key PM functions targeted: resource optimization, risk reduction, dynamic scheduling, stakeholder communication"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-005",
+          "statement": "AI is most effective where historical data is available for estimation, planning, and forecasting \u2014 data-intensive processes are the natural entry points for AI integration.",
+          "source_count": 3,
+          "bottom_line": "Historical data availability is the most reliable predictor of where AI will deliver value in PM \u2014 start collecting structured data now in areas where it is missing.",
+          "sources": [
+            {
+              "id": "source-017",
+              "title": "An Authoritative Study on the Near Future Effect of Artificial Intelligence on Project Management Knowledge Areas",
+              "author": "Thordur Vikingur Fridgeirsson, Helgi Thor Ingason, Haukur Ingi Jonasson, Herdis Jonsdottir",
+              "url": "https://www.mdpi.com/2071-1050/13/4/2345",
+              "quotes": [
+                "These areas share a common characteristic: they rely heavily on historical data that can be leveraged for planning, estimation, and forecasting -- precisely the tasks where AI and machine learning excel.",
+                "AI is most effective where historical data is available for estimation, planning, and forecasting",
+                "Establishes that data-intensive PM processes are the natural entry points for AI integration"
+              ]
+            },
+            {
+              "id": "source-020",
+              "title": "Artificial Intelligence and Machine Learning in Project Management: A Conceptual Framework for Future Integration",
+              "author": "Vijayakumar Raja",
+              "url": "https://al-kindipublishers.org/index.php/jbms/article/view/10776",
+              "quotes": [
+                "The author argues that conventional project management techniques, typically based on static planning and human judgment, struggle to respond to real-time uncertainties and high-volume data inputs, creating the opening for AI/ML technologies to complement and enhance PM processes."
+              ]
+            },
+            {
+              "id": "source-019",
+              "title": "Artificial Intelligence Tools for Project Management: A Knowledge-Based Perspective",
+              "author": "Pedro M. Almeida, Gabriela Fernandes, Jose M.R.C.A. Santos",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2666721525000213",
+              "quotes": [
+                "However, the type of AI tool best suited differs by area: generative AI is better suited for domains requiring tacit knowledge (like communication and stakeholder management), while machine learning algorithms for optimization and automation fit domains requiring formal and data-driven knowledge (like cost and schedule management)."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-008",
+          "statement": "Risk management is one of the most prominent and well-established applications of AI in project management, both in current practice and in the academic literature.",
+          "source_count": 8,
+          "bottom_line": "Risk management is AI's most established application in PM \u2014 the next frontier is measuring whether AI-identified risks lead to genuinely better project outcomes.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "Capterra's 2024 Most Impactful PM Tools Survey found: 54% used AI for project risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation.",
+                "AI algorithms can identify potential threats to project success by analyzing multiple data sets, and increasingly offer risk mitigation strategies."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "AI agents provide risk identification and mitigation capabilities."
+              ]
+            },
+            {
+              "id": "source-008",
+              "title": "Copilot for Project Overview \u2014 Microsoft Dynamics 365 Project Operations",
+              "author": "Microsoft",
+              "url": "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features",
+              "quotes": [
+                "Risk assessment uses project metadata (scope, schedule, budget) to identify potential risks and generate mitigation plans with recommended steps"
+              ]
+            },
+            {
+              "id": "source-010",
+              "title": "AI-Powered PMO: Transforming Project Management with Intelligence",
+              "author": "Vijay Viradia, APM",
+              "url": "https://www.apm.org.uk/blog/ai-powered-pmo-transforming-project-management-with-intelligence/",
+              "quotes": [
+                "Five AI-driven PMO capabilities identified: predictive implementation tracking (analyzing timelines, resources, and past implementations to predict delays), automated project reporting (real-time dashboards), resource allocation optimization (forecasting demand from historical data), AI chatbots for real-time project updates, and risk management and compliance automation"
+              ]
+            },
+            {
+              "id": "source-011",
+              "title": "How Artificial Intelligence Will Transform Project Management in the Age of Digitization: A Systematic Literature Review",
+              "author": "Maria Elena Nenni, Fabio De Felice, Cristina De Luca, Antonio Forcina",
+              "url": "https://link.springer.com/article/10.1007/s11301-024-00418-z",
+              "quotes": [
+                "The most common AI application in PM is in Perform Quantitative Risk Analysis (PQRA) processes, due to their quantitative and data-driven characteristics",
+                "The most frequent keyword in the literature is 'risk assessment,' followed by 'risk management' and 'project management.'"
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "An Authoritative Study on the Near Future Effect of Artificial Intelligence on Project Management Knowledge Areas",
+              "author": "Thordur Vikingur Fridgeirsson, Helgi Thor Ingason, Haukur Ingi Jonasson, Herdis Jonsdottir",
+              "url": "https://www.mdpi.com/2071-1050/13/4/2345",
+              "quotes": [
+                "The research finds that project cost management, project schedule management, and project risk management are the three knowledge areas where AI would have the strongest effect."
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "AI will primarily impact: automation of routine tasks, data-driven decision support, risk identification, and resource allocation"
+              ]
+            },
+            {
+              "id": "source-019",
+              "title": "Artificial Intelligence Tools for Project Management: A Knowledge-Based Perspective",
+              "author": "Pedro M. Almeida, Gabriela Fernandes, Jose M.R.C.A. Santos",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2666721525000213",
+              "quotes": [
+                "The study finds that integration management, scope management, communication management, risk management, and stakeholder management are the PM knowledge areas where AI holds the most significant potential."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-009",
+          "statement": "AI-powered predictive analytics for project forecasting, delay prediction, and scenario analysis are increasingly available, though their accuracy depends on historical data quality.",
+          "source_count": 6,
+          "bottom_line": "AI forecasting adds value for routine projects with historical data, but its accuracy degrades for the novel, high-stakes programs where accurate prediction matters most.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "Capterra's 2024 Most Impactful PM Tools Survey found: 54% used AI for project risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "AI agents enable predictive analytics for project management."
+              ]
+            },
+            {
+              "id": "source-010",
+              "title": "AI-Powered PMO: Transforming Project Management with Intelligence",
+              "author": "Vijay Viradia, APM",
+              "url": "https://www.apm.org.uk/blog/ai-powered-pmo-transforming-project-management-with-intelligence/",
+              "quotes": [
+                "AI algorithms analyze project timelines, resource availability, and past implementations to predict potential delays and suggest corrective actions"
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "Large complex transformations are by their nature unusual, taking organizations 'outside of the established dataset' -- meaning AI predictions become less accurate precisely when stakes are highest"
+              ]
+            },
+            {
+              "id": "source-008",
+              "title": "Copilot for Project Overview \u2014 Microsoft Dynamics 365 Project Operations",
+              "author": "Microsoft",
+              "url": "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features",
+              "quotes": [
+                "Risk assessment uses project metadata (scope, schedule, budget) to identify potential risks and generate mitigation plans with recommended steps"
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Beyond Disruption: Embedding AI in Project Management to Drive Enterprise Transformation",
+              "author": "Jennifer Duignan, PwC US",
+              "url": "https://www.pwc.com/us/en/services/consulting/managed-services/library/ai-in-project-management.html",
+              "quotes": [
+                "AI is being embedded into strategic PMO services for forecasting, talent alignment, and program delivery with speed and precision."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-010",
+          "statement": "AI can assist with project planning tasks including schedule generation, cost estimation, and task breakdown, though these outputs require human refinement.",
+          "source_count": 4,
+          "bottom_line": "AI-generated project plans are a real time-saver, but practitioners should measure the refinement effort to understand the actual net productivity gain.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "AI is most effective at the 'front end' (planning, brainstorming, risk analysis, drafting schedules, identifying stakeholders) and 'tail end' (reports, summaries) of projects.",
+                "AI can estimate project costs by analyzing past projects and current prices, sometimes more accurately than human project managers."
+              ]
+            },
+            {
+              "id": "source-008",
+              "title": "Copilot for Project Overview \u2014 Microsoft Dynamics 365 Project Operations",
+              "author": "Microsoft",
+              "url": "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features",
+              "quotes": [
+                "Task plan generation uses Azure OpenAI's NLP to analyze project name and description, creating up to 100 tasks with suggested durations and start dates",
+                "AI-generated tasks do not automatically include assignees, dependencies, or checklist items -- these must be added manually afterward"
+              ]
+            },
+            {
+              "id": "source-010",
+              "title": "AI-Powered PMO: Transforming Project Management with Intelligence",
+              "author": "Vijay Viradia, APM",
+              "url": "https://www.apm.org.uk/blog/ai-powered-pmo-transforming-project-management-with-intelligence/",
+              "quotes": [
+                "Predictive implementation tracking analyzes timelines, resources, and past implementations to predict delays."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "AI agents provide automated project setup capabilities."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-013",
+          "statement": "AI-generated project reporting and status summaries are an early, widely deployed use case, though they require human review before distribution.",
+          "source_count": 8,
+          "bottom_line": "Automated reporting is the most immediately accessible AI use case in PM \u2014 start with a parallel run alongside manual reports to validate quality and measure time savings.",
+          "sources": [
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "50% of respondents spend one day or more each month manually collating project status information (Wellingtone)."
+              ]
+            },
+            {
+              "id": "source-008",
+              "title": "Copilot for Project Overview \u2014 Microsoft Dynamics 365 Project Operations",
+              "author": "Microsoft",
+              "url": "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features",
+              "quotes": [
+                "Project status reports provide AI-generated summaries based on financial, resource, effort, and schedule data",
+                "Microsoft explicitly warns that 'AI-generated summary narrative provides an initial overview' but 'might not always accurately represent the project's true context or health' -- human review is required"
+              ]
+            },
+            {
+              "id": "source-010",
+              "title": "AI-Powered PMO: Transforming Project Management with Intelligence",
+              "author": "Vijay Viradia, APM",
+              "url": "https://www.apm.org.uk/blog/ai-powered-pmo-transforming-project-management-with-intelligence/",
+              "quotes": [
+                "Automated project reporting provides real-time dashboards."
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "Generative AI can create transformation content such as schedules, risk logs, and status reports very quickly."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "AI agents enable progress tracking and reporting."
+              ]
+            },
+            {
+              "id": "source-032",
+              "title": "The State of Project Management Annual Report 2025",
+              "author": "Wellingtone",
+              "url": "https://wellingtone.co.uk/publications/state-of-project-management-research/",
+              "quotes": [
+                "A critical finding: 42% of respondents spend one or more days each month manually collating project reports \u2014 representing a clear automation opportunity for AI."
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "The era of project scoping and repetitive reporting is fading away."
+              ]
+            },
+            {
+              "id": "source-026",
+              "title": "Boosting Business Acumen: PMI Pulse of the Profession 2025",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/boosting-business-acumen",
+              "quotes": [
+                "GenAI applications already span the project lifecycle: automated meeting summaries, stakeholder updates"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-014",
+          "statement": "Manual project reporting represents a significant time burden and a high-value automation opportunity for AI in project management.",
+          "source_count": 3,
+          "bottom_line": "The reporting time burden is well-documented and quantifiable \u2014 this makes it one of the easiest AI use cases to justify financially.",
+          "sources": [
+            {
+              "id": "source-032",
+              "title": "The State of Project Management Annual Report 2025",
+              "author": "Wellingtone",
+              "url": "https://wellingtone.co.uk/publications/state-of-project-management-research/",
+              "quotes": [
+                "A critical finding: 42% of respondents spend one or more days each month manually collating project reports \u2014 representing a clear automation opportunity for AI."
+              ]
+            },
+            {
+              "id": "source-030",
+              "title": "AI in Project Management: Benefits, Use Cases & Future Outlook",
+              "author": "Anna Balyuk (Epicflow)",
+              "url": "https://www.epicflow.com/blog/ai-in-project-management-is-the-future-already-here/",
+              "quotes": [
+                "The article addresses a key question: the Gartner prediction that 80% of PM tasks will be run by AI by 2030 does not mean replacement, but rather automation of non-core tasks (email, scheduling, status reports) while project managers lead the strategic and collaborative work."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "50% of respondents spend one day or more each month manually collating project status information (Wellingtone)."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-015",
+          "statement": "AI-driven resource allocation is a high-potential but currently constrained application, limited by the lack of comprehensive organizational data in most enterprises.",
+          "source_count": 3,
+          "bottom_line": "AI resource allocation is a high-value target, but most organizations need to build the data foundation first \u2014 start with a skills and availability inventory.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "Resource allocation via AI requires comprehensive organizational data that most organizations do not yet have -- a key limiting factor.",
+                "If you're going to use AI to figure out whether I'm the best person to assign and when I'm free, then you need that data, and you need that data for everyone. I can't say when organizations are going to have that data ready."
+              ]
+            },
+            {
+              "id": "source-010",
+              "title": "AI-Powered PMO: Transforming Project Management with Intelligence",
+              "author": "Vijay Viradia, APM",
+              "url": "https://www.apm.org.uk/blog/ai-powered-pmo-transforming-project-management-with-intelligence/",
+              "quotes": [
+                "Resource allocation optimization forecasts demand from historical data."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "AI agents provide smart resource allocation."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ],
+      "bottom_line": "AI's current value in project management clusters around task automation, risk management, predictive analytics, and reporting \u2014 most effective at the front and tail ends of projects, not during core execution.",
+      "body_html": "<p>The broadest consensus across 32 sources is that AI's practical value in project management follows a specific hierarchy. Capterra's survey data provides the most granular quantification: 54% of project managers use AI for risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation. These adoption rates are consistent with an earlier knowledge-area hierarchy established by Fridgeirsson et al. (2021) and confirmed by subsequent academic and practitioner sources: cost management, schedule management, and risk management are the PM domains most amenable to AI, precisely because they are data-intensive and quantitative.</p>\n<p>A structural pattern emerges across sources: AI is most effective at the \"front and tail ends\" of projects \u2014 planning, brainstorming, and risk analysis on one end; reporting, summaries, and retrospective analysis on the other. Core execution, where contextual judgment and human coordination are required, remains largely human-driven. Risk management stands out as the most prominent and well-established AI application domain, with Perform Quantitative Risk Analysis identified in academic literature as the most common PM process targeted by AI.</p>\n<p>Manual project reporting represents a specific high-value automation target: 42\u201350% of respondents spend one or more days per month manually collating project reports, and AI-generated status summaries are among the earliest and most widely deployed use cases. Resource allocation, while frequently cited as high-potential, remains constrained by the lack of comprehensive organizational data in most enterprises.</p>",
+      "practitioner_text": "Map your current PM workflows against the front-and-tail-end pattern \u2014 prioritize AI adoption for planning, risk analysis, and reporting before attempting to automate core execution activities."
+    },
+    {
+      "id": "finding-02",
+      "title": "Data Quality Is the Binding Constraint, Not Model Capability",
+      "claim_count": 3,
+      "claims": [
+        {
+          "id": "cc-016",
+          "statement": "The effectiveness of AI in project management is fundamentally limited by organizational data quality; AI cannot compensate for poor, incomplete, or inconsistent project data.",
+          "source_count": 12,
+          "bottom_line": "Data quality is the single most cited barrier to AI effectiveness in PM \u2014 a structured data readiness assessment should precede any AI tool investment.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "Resource allocation via AI requires comprehensive organizational data that most organizations do not yet have -- a key limiting factor."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "AI adoption has crossed the 'default' threshold. The differentiator in 2026 is not whether you have AI tools, but whether your workflows and data are set up so the tools actually help.",
+                "If the project board is stale, AI will mostly automate stale reporting."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Agentic Shift: How AI is Redefining Project Priorities in Software",
+              "author": "Minav Patel and Priyank Desai, CIO",
+              "url": "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html",
+              "quotes": [
+                "AI systems underperform not because of weak models but because of poor context: missing documentation, inconsistent tagging, and scattered tribal knowledge"
+              ]
+            },
+            {
+              "id": "source-008",
+              "title": "Copilot for Project Overview \u2014 Microsoft Dynamics 365 Project Operations",
+              "author": "Microsoft",
+              "url": "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features",
+              "quotes": [
+                "Risk assessment and status reports require logged actuals (time, expense, or materials) to function"
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "AI insights from status reports and risk logs are only as good as the underlying data -- if risks are not clearly articulated or reports miss key information, AI cannot compensate",
+                "The 'garbage in, garbage out' problem applies to AI-generated insights from poor-quality project data."
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "Identifies six key risks of AI in PM: data quality, bias/fairness, lack of human judgment, performance instability, enterprise/financial risk, and job displacement"
+              ]
+            },
+            {
+              "id": "source-027",
+              "title": "Announcing The Forrester Wave: Collaborative Work Management Tools, Q2 2025",
+              "author": "Margo Visitacion and Melissa Chhay (Forrester)",
+              "url": "https://www.forrester.com/blogs/announcing-the-forrester-wave-collaborative-work-management-tools-q2-2025/",
+              "quotes": [
+                "AI value depends on data quality: clean, well-structured, accessible data is a prerequisite for reliable AI-driven recommendations",
+                "AI can be a powerful accelerator for productivity, but its value is only as strong as the data it relies on \u2014 clean, well-structured, and accessible data is essential for generating reliable outputs and building trust in AI-driven recommendations."
+              ]
+            },
+            {
+              "id": "source-028",
+              "title": "AI Will Transform Project Management. Are You Ready?",
+              "author": "Marc Lahmann (PwC Switzerland)",
+              "url": "https://www.pwc.ch/en/insights/risk/ai-will-transform-project-management-are-you-ready.html",
+              "quotes": [
+                "Key obstacle: data quality and availability \u2014 AI needs historical project data to learn from"
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "Key challenges: data quality and availability, security concerns, integrating AI into existing processes"
+              ]
+            },
+            {
+              "id": "source-032",
+              "title": "The State of Project Management Annual Report 2025",
+              "author": "Wellingtone",
+              "url": "https://wellingtone.co.uk/publications/state-of-project-management-research/",
+              "quotes": [
+                "However, significant barriers remain: resistance to change from team members (26%), lack of skilled personnel (19%), data integration and quality issues (17%), and high costs and budget restraints (15%)."
+              ]
+            },
+            {
+              "id": "source-030",
+              "title": "AI in Project Management: Benefits, Use Cases & Future Outlook",
+              "author": "Anna Balyuk (Epicflow)",
+              "url": "https://www.epicflow.com/blog/ai-in-project-management-is-the-future-already-here/",
+              "quotes": [
+                "Data must be organized by a PM before ML algorithms work."
+              ]
+            },
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "Cybersecurity is the single greatest barrier to achieving AI strategy goals (80% of leaders), with data privacy (77%) and data quality (65%) rising sharply as concerns."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-017",
+          "statement": "Organizational readiness for AI in project management depends on infrastructure, data discipline, and workflow maturity rather than on AI model capability alone.",
+          "source_count": 6,
+          "bottom_line": "AI readiness depends more on your data and process maturity than on which AI tool you select \u2014 audit your foundations before investing in capabilities.",
+          "sources": [
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "AI adoption has crossed a threshold where the question is no longer whether to adopt but whether organizational data and workflows support effective use."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Agentic Shift: How AI is Redefining Project Priorities in Software",
+              "author": "Minav Patel and Priyank Desai, CIO",
+              "url": "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html",
+              "quotes": [
+                "Readiness isn't about how much AI you have; it's about how adaptable and observable your environment is.",
+                "Three dimensions determine agentic readiness: coordination readiness (systems communicate in machine-readable ways), context readiness (AI can access relevant knowledge without ambiguity), and observability readiness (ability to trace why an agent made a decision)"
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "AI works best when supporting an existing strong PMO, not as a substitute for one",
+                "Organizations need strong PMO fundamentals before layering AI capabilities on top."
+              ]
+            },
+            {
+              "id": "source-011",
+              "title": "How Artificial Intelligence Will Transform Project Management in the Age of Digitization: A Systematic Literature Review",
+              "author": "Maria Elena Nenni, Fabio De Felice, Cristina De Luca, Antonio Forcina",
+              "url": "https://link.springer.com/article/10.1007/s11301-024-00418-z",
+              "quotes": [
+                "One contributing factor is the low level of maturity of available technologies -- most organizations still use spreadsheets, slides, and applications that have not evolved much in recent decades."
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "42% of companies believe their strategy is highly prepared for AI adoption, but feel less prepared on infrastructure, data, risk, and talent"
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "Data literacy and understanding organizational data strategy are positioned as essential new competencies for project managers"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-018",
+          "statement": "Data quality and organizational data readiness are prerequisites for effective AI integration in project management.",
+          "source_count": 3,
+          "bottom_line": "Data quality is a prerequisite, but the claim is too broad to act on without identifying which specific data gaps matter most for your target AI use cases.",
+          "sources": [
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "Identifies six key risks of AI in PM: data quality, bias/fairness, lack of human judgment, performance instability, enterprise/financial risk, and job displacement"
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "42% of companies believe their strategy is highly prepared for AI adoption, but feel less prepared on infrastructure, data, risk, and talent"
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "Data literacy and understanding organizational data strategy are positioned as essential new competencies for project managers"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        }
+      ],
+      "bottom_line": "Fifteen sources agree that AI effectiveness in project management is bounded by data quality \u2014 organizations overestimate readiness by conflating strategic intent with operational capability.",
+      "body_html": "<p>Fifteen sources endorse the finding that AI effectiveness in project management is fundamentally limited by organizational data quality \u2014 making this one of the most broadly supported claims in the corpus. The consensus spans from academic frameworks to vendor documentation: Microsoft's own Copilot documentation acknowledges that risk assessment and status reports require logged actuals to function. Practitioner sources observe that \"if the project board is stale, AI will mostly automate stale reporting.\" The problem is structural: AI systems underperform not because of weak models but because of poor context \u2014 missing documentation, inconsistent tagging, and scattered tribal knowledge.</p>\n<p>The related finding that organizational readiness depends on infrastructure, data discipline, and workflow maturity is supported by eight sources. AI works best when supporting an existing strong PMO, not as a substitute for one. Deloitte finds that 42% of companies believe their strategy is highly prepared for AI adoption but feel less prepared on infrastructure, data, risk, and talent. This readiness gap suggests that many organizations overestimate their preparedness by conflating strategic intent with operational capability.</p>\n<p>The implication is that data readiness assessment should precede AI tool evaluation. Are project actuals being logged? Are risk registers current and comprehensive? Is resource availability data complete? The sources consistently indicate that AI applied to poor data produces unreliable outputs at best and harmful recommendations at worst.</p>",
+      "practitioner_text": "Before evaluating AI tools, audit your project data completeness \u2014 logged actuals, current risk registers, and resource availability \u2014 because data quality determines whether AI will amplify good practice or automate bad practice."
+    },
+    {
+      "id": "finding-03",
+      "title": "The Profession Faces a Dual Capability Gap at a Critical Transition",
+      "claim_count": 9,
+      "claims": [
+        {
+          "id": "cc-019",
+          "statement": "AI adoption in project management is moving from experimentation to deployment, with 2026 framed as a transition year from pilot programs to operational, ROI-focused integration.",
+          "source_count": 10,
+          "bottom_line": "The shift from pilot to deployment is real but unevenly distributed \u2014 most organizations are still in experimentation, and declaring 2026 the transition year risks conflating aspiration with reality.",
+          "sources": [
+            {
+              "id": "source-002",
+              "title": "Five AI Trends for 2026 That Project Managers Need to Consider",
+              "author": "James Garner, Association for Project Management (APM)",
+              "url": "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/",
+              "quotes": [
+                "The article frames 2026 as a year where AI moves from experimentation to deployment in project management."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "The shift from AI experimentation in 2025 to full-scale deployment in 2026 requires immediate focus on AI governance: verifying outputs, building accountability, and managing effects on well-being and critical thinking."
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Beyond Disruption: Embedding AI in Project Management to Drive Enterprise Transformation",
+              "author": "Jennifer Duignan, PwC US",
+              "url": "https://www.pwc.com/us/en/services/consulting/managed-services/library/ai-in-project-management.html",
+              "quotes": [
+                "AI isn't coming. It's already here -- and it's changing how we lead and deliver projects."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "88% of organizations report using AI in at least one business function (McKinsey 2025).",
+                "32% of organizations have integrated AI tools into their PM workflows."
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "21% of respondents use AI always or often in project management (2023 PMI Annual Global Survey)"
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "60% rate their organization's AI maturity at 4 or less on a 1-10 scale"
+              ]
+            },
+            {
+              "id": "source-021",
+              "title": "The State of AI in 2025: Agents, Innovation, and Transformation",
+              "author": "McKinsey & Company (QuantumBlack)",
+              "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+              "quotes": [
+                "However, 67% of organizations remain stuck in \"pilot mode,\" unable to scale AI beyond initial experiments."
+              ]
+            },
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "KPMG's Q4 2025 AI Quarterly Pulse Survey, released January 2026, reveals that enterprise AI has shifted decisively from experimentation to production-grade scaling."
+              ]
+            },
+            {
+              "id": "source-025",
+              "title": "Accenture Technology Vision 2025: AI-Powered Autonomy and Enterprise Reinvention",
+              "author": "Accenture",
+              "url": "https://newsroom.accenture.com/news/2025/accenture-technology-vision-2025-new-age-of-ai-to-bring-unprecedented-autonomy-to-business",
+              "quotes": [
+                "The report notes that AI diffusion is accelerating faster than any prior technology, with 69% of executives believing this brings new urgency to reinvention."
+              ]
+            },
+            {
+              "id": "source-029",
+              "title": "Accountable Acceleration: Gen AI Fast-Tracks Into the Enterprise (2025 AI Adoption Report)",
+              "author": "Wharton Human-AI Research and GBK Collective",
+              "url": "https://knowledge.wharton.upenn.edu/special-report/2025-ai-adoption-report/",
+              "quotes": [
+                "Surveying approximately 800 U.S. executives, the study documents a clear maturation pattern: weekly GenAI usage rose from 37% (2023) to 72% (2024) to 82% (2025), with daily usage now at 46%.",
+                "Three-wave evolution: Exploration (2023) to Experimentation (2024) to Accountable Acceleration (2025)"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-020",
+          "statement": "There is a wide gap between individual awareness and organizational AI adoption maturity, with high expectations of transformation but low implementation maturity.",
+          "source_count": 5,
+          "bottom_line": "The gap between AI awareness and PM adoption maturity is large and well-documented \u2014 use the data to set realistic expectations rather than to fuel urgency alone.",
+          "sources": [
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "88% of organizations report using AI in at least one business function (McKinsey 2025).",
+                "32% of organizations have integrated AI tools into their PM workflows.",
+                "The gap between general AI adoption (88%) and PM-specific integration (32%) indicates significant room for growth in project management AI adoption."
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "The statistics on adoption gaps (82% of leaders expect impact vs. 21% currently using AI) define the central tension in the field."
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "The gap between individual awareness (76% expect transformation) and organizational maturity (60% rate it 4 or below) is a central finding that shapes strategy for both practitioners and institutions."
+              ]
+            },
+            {
+              "id": "source-021",
+              "title": "The State of AI in 2025: Agents, Innovation, and Transformation",
+              "author": "McKinsey & Company (QuantumBlack)",
+              "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+              "quotes": [
+                "The report identifies a growing gap between AI high performers and the rest."
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "42% of companies believe their strategy is highly prepared for AI adoption, but feel less prepared on infrastructure, data, risk, and talent"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-021",
+          "statement": "Most AI usage in work contexts is still new and informal, with most organizations not yet beyond pilot or experimental deployments.",
+          "source_count": 5,
+          "bottom_line": "Most AI usage in PM remains informal and individual \u2014 organizations that formalize and govern this adoption will capture more value and manage more risk than those that ignore it.",
+          "sources": [
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "75% of global knowledge workers report using generative AI at work (Microsoft/LinkedIn 2024 Work Trend Index).",
+                "46% of respondents who use generative AI at work have used it for less than six months -- indicating most AI usage is still fresh and informal."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "The shift from AI experimentation in 2025 to full-scale deployment in 2026 requires immediate focus on AI governance: verifying outputs, building accountability, and managing effects on well-being and critical thinking."
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "35% of organizations are engaged in AI projects either at production level or running proof of concept"
+              ]
+            },
+            {
+              "id": "source-021",
+              "title": "The State of AI in 2025: Agents, Innovation, and Transformation",
+              "author": "McKinsey & Company (QuantumBlack)",
+              "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+              "quotes": [
+                "67% of organizations are still stuck in \"pilot mode\" and unable to scale AI beyond experiments"
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "The number of companies with 40% or more of their AI projects in production is set to double in six months, signaling a transition from piloting to scaling."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-022",
+          "statement": "Most project managers expect AI to have a significant or transformative impact on the profession within the next 3-5 years.",
+          "source_count": 4,
+          "bottom_line": "Project managers overwhelmingly expect AI to transform the profession, but high expectations alone do not predict the pace or shape of change \u2014 define what transformation means for your context.",
+          "sources": [
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "82% of senior leaders say AI will have at least some impact on how projects are run in the next five years",
+                "91% of PMI CX survey respondents believe AI will have at least a moderate impact on the profession; 58% say 'major' or 'transformative' impact"
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "76% of professionals believe AI will transform PM within the next three years (rating 7+ on a 1-10 scale)"
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "Impact of Artificial Intelligence on Project Management (PM): Multi-Expert Perspectives on Advancing Knowledge and Driving Innovation Toward PM2030",
+              "author": "Laurie Hughes, Reza Kiani Mavi, Masoud Aghajani, Keith Fitzpatrick, et al.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25001179",
+              "quotes": [
+                "By 2030, AI-driven predictive insights and modelling capabilities are expected to significantly enhance efficiency, raising critical questions about the evolving role of human project managers."
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "The report finds that twice as many leaders as last year report transformative AI impact, but only 34% are truly reimagining their business through AI."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-023",
+          "statement": "Enterprise AI is maturing from exploratory pilots to disciplined, ROI-focused deployment with formal measurement of returns.",
+          "source_count": 2,
+          "bottom_line": "Enterprise AI is being held to ROI standards \u2014 PM leaders should proactively apply the same measurement discipline to their AI initiatives rather than waiting for it to be imposed.",
+          "sources": [
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "Based on eight consecutive quarters of proprietary research, the report finds that organizations are 'professionalizing' their AI agent systems rather than simply deploying more agents.",
+                "59% of enterprises expect measurable ROI within 12 months"
+              ]
+            },
+            {
+              "id": "source-029",
+              "title": "Accountable Acceleration: Gen AI Fast-Tracks Into the Enterprise (2025 AI Adoption Report)",
+              "author": "Wharton Human-AI Research and GBK Collective",
+              "url": "https://knowledge.wharton.upenn.edu/special-report/2025-ai-adoption-report/",
+              "quotes": [
+                "The study finds that 72% of leaders now formally measure GenAI ROI, focusing on productivity gains and incremental profit.",
+                "Leaders are no longer content to run pilots. They want proof. Gen AI is being held to the same standards as other major investments, and that is a sign of increasing maturity.",
+                "Three out of four leaders report positive returns on their initial AI investments."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-040",
+          "statement": "Project managers must develop new competencies in AI literacy, data fluency, and AI orchestration to remain effective in an AI-augmented environment.",
+          "source_count": 10,
+          "bottom_line": "The AI skills gap in project management is well documented and quantified -- organizations that build structured competency development programs now will have a measurable advantage.",
+          "sources": [
+            {
+              "id": "source-002",
+              "title": "Five AI Trends for 2026 That Project Managers Need to Consider",
+              "author": "James Garner, Association for Project Management (APM)",
+              "url": "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/",
+              "quotes": [
+                "Data and AI fluency are becoming core competencies for all project professionals, who must learn to manage, orchestrate, and collaborate with digital team members."
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Beyond Disruption: Embedding AI in Project Management to Drive Enterprise Transformation",
+              "author": "Jennifer Duignan, PwC US",
+              "url": "https://www.pwc.com/us/en/services/consulting/managed-services/library/ai-in-project-management.html",
+              "quotes": [
+                "Project managers and PMOs who can seamlessly integrate [AI] can be much more impactful, and those who don't make the jump risk being left behind."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "There is a skill gap in AI literacy that needs to be bridged."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "The shift from AI experimentation in 2025 to full-scale deployment in 2026 requires immediate focus on AI governance: verifying outputs, building accountability, and managing effects on well-being and critical thinking."
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "Four critical power skills identified: strategic thinking, problem-solving, collaborative leadership, and communication"
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "Skills rated most important: innovative mindset (72% high impact), data-driven decisions (62%), AI ethics (57%)"
+              ]
+            },
+            {
+              "id": "source-026",
+              "title": "Boosting Business Acumen: PMI Pulse of the Profession 2025",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/boosting-business-acumen",
+              "quotes": [
+                "The report finds that only approximately 20% of project managers report having extensive or good practical AI skills, highlighting a significant capability gap in the profession."
+              ]
+            },
+            {
+              "id": "source-024",
+              "title": "AI in Project Management: 2025 Software Trends Report",
+              "author": "Capterra (Gartner subsidiary)",
+              "url": "https://www.capterra.com/resources/2025-pm-software-trends/",
+              "quotes": [
+                "39% report a lack of AI skills on staff"
+              ]
+            },
+            {
+              "id": "source-032",
+              "title": "The State of Project Management Annual Report 2025",
+              "author": "Wellingtone",
+              "url": "https://wellingtone.co.uk/publications/state-of-project-management-research/",
+              "quotes": [
+                "However, significant barriers remain: resistance to change from team members (26%), lack of skilled personnel (19%), data integration and quality issues (17%), and high costs and budget restraints (15%)."
+              ]
+            },
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "76% of leaders willing to offer up to 10% higher compensation for candidates with strong AI skills"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-041",
+          "statement": "The majority of project managers lack meaningful AI knowledge or practical experience with AI tools.",
+          "source_count": 4,
+          "bottom_line": "The PM profession's AI skills deficit is quantified and significant -- internal assessment against these benchmarks is the necessary first step toward closing it.",
+          "sources": [
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "Only about 20% of project managers report extensive or good practical experience with AI tools; 49% have little to no experience"
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "65% of participants have no or basic level of AI knowledge and experience"
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "AI skills gap is the biggest barrier to integration; education is the No. 1 talent adjustment strategy"
+              ]
+            },
+            {
+              "id": "source-026",
+              "title": "Boosting Business Acumen: PMI Pulse of the Profession 2025",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/boosting-business-acumen",
+              "quotes": [
+                "The low AI skills rate (~20% with practical competence) alongside the low business acumen rate (18% with high proficiency) suggests that the profession faces a dual capability gap."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-042",
+          "statement": "Organizations are not providing adequate AI training to their employees, creating a gap between available tools and workforce readiness.",
+          "source_count": 2,
+          "bottom_line": "The training gap is real, but closing it requires PM-specific applied training paired with workflow redesign, not generic AI awareness courses.",
+          "sources": [
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "62% of companies rated 4 or less in providing AI training to employees"
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "The report also highlights critical gaps: the AI skills gap is seen as the biggest barrier to integration, with education -- not role or workflow redesign -- being the primary talent strategy adjustment.",
+                "Education -- not role or workflow redesign -- is the primary talent strategy adjustment for addressing AI skills gaps."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-057",
+          "statement": "Workflow redesign \u2014 not technology selection \u2014 is the most important factor in realizing financial impact from AI adoption.",
+          "source_count": 2,
+          "bottom_line": "Workflow redesign drives financial impact from AI more than technology selection \u2014 PMO leaders should invest in process analysis before tool procurement.",
+          "sources": [
+            {
+              "id": "source-021",
+              "title": "The State of AI in 2025: Agents, Innovation, and Transformation",
+              "author": "McKinsey & Company (QuantumBlack)",
+              "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+              "quotes": [
+                "The redesign of workflows emerges as the single most important factor in realizing EBIT impact from generative AI.",
+                "Workflow redesign has the biggest effect on an organization's ability to see EBIT impact from gen AI",
+                "The finding that workflow redesign -- not technology selection -- drives financial impact is particularly relevant for project management practitioners considering AI integration."
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "Improving productivity and efficiency top the list of benefits achieved from enterprise AI adoption so far, with two-thirds of organizations reporting gains."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ],
+      "bottom_line": "Only approximately 20% of project managers have practical AI competence while organizations default to education \u2014 despite evidence that workflow redesign, not training, is the primary driver of financial impact.",
+      "body_html": "<p>AI adoption in project management is crossing from experimentation to deployment, with multiple sources framing 2025\u20132026 as a transition year. The evidence is directional and quantitative: 88% of organizations use AI in at least one business function, but only 32% have integrated AI tools into PM workflows specifically. Weekly executive usage of generative AI has risen from 37% in 2023 to 82% in 2025. Yet the project management profession appears structurally unprepared. Only approximately 20% of project managers report practical AI competence, with 49% having little to no experience. The PMI global chapter survey finds that 65% of professionals have no or basic level of AI knowledge. At the same time, only 18% of project professionals demonstrate high business acumen proficiency \u2014 creating what one source identifies as a \"dual capability gap\" at precisely the moment when both competencies are becoming essential.</p>\n<p>Organizations are responding primarily with education programs: Deloitte finds that education, not role or workflow redesign, is the primary talent strategy adjustment. However, McKinsey's research indicates that workflow redesign is the single most important factor in realizing financial impact from generative AI. The gap between what organizations are doing (training) and what drives financial returns (workflow redesign) represents a significant misallocation of effort. This tension has direct strategic significance for PMOs planning their AI integration approach.</p>",
+      "practitioner_text": "Complement AI training programs with structured workflow redesign initiatives \u2014 McKinsey's evidence indicates that redesigning how work is done, not just upskilling individuals, is the primary lever for financial returns from generative AI."
+    },
+    {
+      "id": "finding-04",
+      "title": "The Human-AI Collaboration Model Is Taking Shape, but Governance Lags Behind",
+      "claim_count": 9,
+      "claims": [
+        {
+          "id": "cc-027",
+          "statement": "AI governance -- including output verification, accountability frameworks, and ethical oversight -- is an urgent and unresolved priority for project management in 2026.",
+          "source_count": 7,
+          "bottom_line": "AI governance is genuinely urgent, but treating it as a single monolithic priority risks shallow implementation \u2014 decompose it into distinct, owned workstreams.",
+          "sources": [
+            {
+              "id": "source-002",
+              "title": "Five AI Trends for 2026 That Project Managers Need to Consider",
+              "author": "James Garner, Association for Project Management (APM)",
+              "url": "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/",
+              "quotes": [
+                "Project managers must balance the drive for AI-led efficiency with the critical need for ethical oversight, regulatory compliance and client trust."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "In 2026, we must get a handle on AI governance. We need to be able to verify the outputs from our AI tools, build accountability for the AI + HI (Human Intelligence) systems that we create, and manage the effects on people's well-being and critical thinking capabilities.",
+                "AI governance is the most urgent priority for project management in 2026."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Agentic Shift: How AI is Redefining Project Priorities in Software",
+              "author": "Minav Patel and Priyank Desai, CIO",
+              "url": "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html",
+              "quotes": [
+                "Governance automation (policy-as-code, automated compliance checks) enables trustworthy autonomy",
+                "Governance isn't a gate at the end -- it's a scaffold that enables safe exploration"
+              ]
+            },
+            {
+              "id": "source-008",
+              "title": "Copilot for Project Overview \u2014 Microsoft Dynamics 365 Project Operations",
+              "author": "Microsoft",
+              "url": "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features",
+              "quotes": [
+                "Although the AI-generated summary narrative provides an initial overview, it might not always accurately represent the project's true context or health. Therefore, all parts of the summary narrative are editable and should be thoroughly reviewed by the project manager before the report is finalized and distributed."
+              ]
+            },
+            {
+              "id": "source-010",
+              "title": "AI-Powered PMO: Transforming Project Management with Intelligence",
+              "author": "Vijay Viradia, APM",
+              "url": "https://www.apm.org.uk/blog/ai-powered-pmo-transforming-project-management-with-intelligence/",
+              "quotes": [
+                "Data security and privacy requirements are a key challenge in scaling AI PMOs."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "Impact of Artificial Intelligence on Project Management (PM): Multi-Expert Perspectives on Advancing Knowledge and Driving Innovation Toward PM2030",
+              "author": "Laurie Hughes, Reza Kiani Mavi, Masoud Aghajani, Keith Fitzpatrick, et al.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25001179",
+              "quotes": [
+                "Proposes two conceptual models: AI-Augmented Ethics-Centric Model and Predictive Model for AI Adoption and Human Trust",
+                "The emphasis on human-AI collaboration, ethical governance, and trust dynamics represents the cutting edge of academic thinking about how the profession should evolve."
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "Recommends \"de-risking AI by design\" -- building risk management directly into AI initiatives"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-028",
+          "statement": "Human review and verification of AI-generated outputs is a necessary requirement in current AI-assisted project management, acknowledged by both vendors and practitioners.",
+          "source_count": 5,
+          "bottom_line": "Human review of AI outputs is currently necessary and vendor-acknowledged \u2014 the practical challenge is calibrating review intensity to preserve productivity gains.",
+          "sources": [
+            {
+              "id": "source-008",
+              "title": "Copilot for Project Overview \u2014 Microsoft Dynamics 365 Project Operations",
+              "author": "Microsoft",
+              "url": "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features",
+              "quotes": [
+                "Microsoft explicitly warns that 'AI-generated summary narrative provides an initial overview' but 'might not always accurately represent the project's true context or health' -- human review is required",
+                "Human review is required for all AI-generated project summaries."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "Confidence scoring is proposed as a method to manage AI hallucinations in project management outputs."
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "AI-generated meeting summaries frequently fail because AI lacks organizational context, cannot interpret acronyms, shorthand, or incomplete sentences, and 'dangerously fills in gaps with incorrect guesses'"
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Agentic Shift: How AI is Redefining Project Priorities in Software",
+              "author": "Minav Patel and Priyank Desai, CIO",
+              "url": "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html",
+              "quotes": [
+                "Each autonomy level requires proof of reliability and explainability before progression to the next."
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "'Human in the loop' strategy is crucial: human judgment must supplement AI decision-making"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-029",
+          "statement": "Regulatory and professional-body frameworks for AI use in project management and professional services are emerging, signaling a shift from unregulated experimentation to formal governance.",
+          "source_count": 2,
+          "bottom_line": "Formal AI governance frameworks are emerging in adjacent professions and government \u2014 PM-specific standards are likely to follow, and early preparation is prudent.",
+          "sources": [
+            {
+              "id": "source-002",
+              "title": "Five AI Trends for 2026 That Project Managers Need to Consider",
+              "author": "James Garner, Association for Project Management (APM)",
+              "url": "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/",
+              "quotes": [
+                "The Royal Institution of Chartered Surveyors (RICS) has launched a global professional standard for responsible use of AI, becoming mandatory in March 2026.",
+                "The Wild West era of AI implementation is ending."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "US government issued two key AI policy memoranda in 2025 covering AI use and procurement; UK published its Artificial Intelligence Playbook for Government.",
+                "Government AI policy memoranda in both the US and UK signal growing regulatory attention to AI use in professional services."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-030",
+          "statement": "Governance models for autonomous AI agents are lagging behind the technology's deployment, creating an oversight gap.",
+          "source_count": 2,
+          "bottom_line": "The governance gap for AI agents is quantifiable and concerning \u2014 classify your agents by autonomy level and implement governance proportionate to the risk each level carries.",
+          "sources": [
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "Agentic AI usage is poised to rise sharply, but oversight is lagging, with only one in five companies having a mature governance model for autonomous AI agents.",
+                "Only 1 in 5 companies has a mature governance model for autonomous AI agents"
+              ]
+            },
+            {
+              "id": "source-021",
+              "title": "The State of AI in 2025: Agents, Innovation, and Transformation",
+              "author": "McKinsey & Company (QuantumBlack)",
+              "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+              "quotes": [
+                "The report also highlights the emergence of agentic AI, with 23% of respondents reporting their organizations are scaling an agentic AI system and an additional 39% experimenting with AI agents."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-031",
+          "statement": "AI governance capabilities \u2014 including orchestration, oversight, and control systems \u2014 are becoming essential as organizations move from individual AI tools to integrated AI ecosystems.",
+          "source_count": 2,
+          "bottom_line": "As AI in PM moves from individual tools to integrated ecosystems, governance must evolve from tool-level oversight to system-level orchestration \u2014 plan the architecture now.",
+          "sources": [
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "2026 will be the year we begin to see orchestrated super-agent ecosystems, governed end-to-end by robust control systems that drive measurable outcomes and continuous improvement.",
+                "The emphasis on system complexity as the top barrier, rather than technical capability, suggests that orchestration and governance \u2014 traditional PMO competencies \u2014 become more important as AI scales."
+              ]
+            },
+            {
+              "id": "source-027",
+              "title": "Announcing The Forrester Wave: Collaborative Work Management Tools, Q2 2025",
+              "author": "Margo Visitacion and Melissa Chhay (Forrester)",
+              "url": "https://www.forrester.com/blogs/announcing-the-forrester-wave-collaborative-work-management-tools-q2-2025/",
+              "quotes": [
+                "Portfolio management at enterprise scale requires governance, scalability, and robust data models still maturing in CWM"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-035",
+          "statement": "The emerging model for AI in project management is a hybrid human-AI workforce where AI handles routine and analytical tasks while humans focus on strategic oversight, judgment, and stakeholder relationships.",
+          "source_count": 10,
+          "bottom_line": "The hybrid human-AI model is the consensus view across the literature, but its value depends on whether organizations design structured transition workflows rather than assuming the division of labor will emerge organically.",
+          "sources": [
+            {
+              "id": "source-002",
+              "title": "Five AI Trends for 2026 That Project Managers Need to Consider",
+              "author": "James Garner, Association for Project Management (APM)",
+              "url": "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/",
+              "quotes": [
+                "The most significant shift in 2026 is the emergence of a hybrid human-AI workforce, where agentic AI systems manage entire workflows from planning and resource allocation to risk mitigation.",
+                "This 'silicon workforce' will handle the hyper-automation of routine tasks, freeing up project managers to focus on strategic oversight and complex problem-solving."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Agentic Shift: How AI is Redefining Project Priorities in Software",
+              "author": "Minav Patel and Priyank Desai, CIO",
+              "url": "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html",
+              "quotes": [
+                "The CIOs who succeed won't be those who automate the most, but those who design partnerships between humans and agents.",
+                "Engineers shift from execution to oversight: creating rules, safeguards, and feedback mechanisms that make AI reliable"
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "Strong PMO adds value through coaching, training, and embedding practices through human relationships and interaction -- skills AI cannot replicate",
+                "AI works best when supporting an existing strong PMO, not as a substitute for one"
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Beyond Disruption: Embedding AI in Project Management to Drive Enterprise Transformation",
+              "author": "Jennifer Duignan, PwC US",
+              "url": "https://www.pwc.com/us/en/services/consulting/managed-services/library/ai-in-project-management.html",
+              "quotes": [
+                "Project managers and PMOs who can seamlessly integrate [AI] can be much more impactful, and those who don't make the jump risk being left behind."
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "The Automation-Assistance-Augmentation framework provides a practical model for understanding where GenAI fits in the project management workflow."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "Impact of Artificial Intelligence on Project Management (PM): Multi-Expert Perspectives on Advancing Knowledge and Driving Innovation Toward PM2030",
+              "author": "Laurie Hughes, Reza Kiani Mavi, Masoud Aghajani, Keith Fitzpatrick, et al.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25001179",
+              "quotes": [
+                "The paper argues for a human-centric evolution of AI-enabled project management, where technology amplifies rather than replaces human capabilities."
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "AI cannot and will not ever substitute the role of a project manager, but it can significantly assist them in managing multiple projects."
+              ]
+            },
+            {
+              "id": "source-030",
+              "title": "AI in Project Management: Benefits, Use Cases & Future Outlook",
+              "author": "Anna Balyuk (Epicflow)",
+              "url": "https://www.epicflow.com/blog/ai-in-project-management-is-the-future-already-here/",
+              "quotes": [
+                "Boudreau provides three reasons AI will not replace PMs: data must be organized by a PM before ML algorithms work, AI provides insights that require human interpretation and action, and outcomes depend on collaboration between AI and experienced PMs."
+              ]
+            },
+            {
+              "id": "source-025",
+              "title": "Accenture Technology Vision 2025: AI-Powered Autonomy and Enterprise Reinvention",
+              "author": "Accenture",
+              "url": "https://newsroom.accenture.com/news/2025/accenture-technology-vision-2025-new-age-of-ai-to-bring-unprecedented-autonomy-to-business",
+              "quotes": [
+                "80% of leaders prioritize ensuring a positive relationship trajectory between people and AI"
+              ]
+            },
+            {
+              "id": "source-028",
+              "title": "AI Will Transform Project Management. Are You Ready?",
+              "author": "Marc Lahmann (PwC Switzerland)",
+              "url": "https://www.pwc.ch/en/insights/risk/ai-will-transform-project-management-are-you-ready.html",
+              "quotes": [
+                "There is something AI cannot do \u2014 be human."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-036",
+          "statement": "AI cannot replace the human elements of project management including contextual judgment, stakeholder management, organizational change management, empathy, ethical judgment, and team commitment.",
+          "source_count": 5,
+          "bottom_line": "The listed human capabilities are genuinely difficult for current AI, but the categorical framing should be treated as a snapshot rather than a permanent boundary.",
+          "sources": [
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "AI cannot solve problems of team commitment, contextual judgment, or organizational change management.",
+                "Human relationships and interaction are skills AI cannot replicate.",
+                "Current AI models lack situational and contextual awareness to judge whether statistical relationships they identify are rational or causal"
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "Most project delivery is still inconsistent. AI can help with earlier risk signals and faster reporting, but it cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+              ]
+            },
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "AI's most successful applications are currently at the 'front and tail ends' of projects -- planning, brainstorming, and reporting -- while core execution tasks remain largely human-driven due to data readiness challenges."
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "It emphasizes that human capabilities -- empathy, ethical judgment, accountability, stakeholder management -- remain essential and will never be fully replicated by machines.",
+                "Algorithms cannot look anyone in the eye, speak truth to power, stay the ethical course or be accountable for their decisions. Project managers can do all these things and more, including the ability to interact with humans, express empathy, adapt, create counterintuitive solutions, decide in ambiguity, negotiate, manage stakeholders, lead and motivate."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "Impact of Artificial Intelligence on Project Management (PM): Multi-Expert Perspectives on Advancing Knowledge and Driving Innovation Toward PM2030",
+              "author": "Laurie Hughes, Reza Kiani Mavi, Masoud Aghajani, Keith Fitzpatrick, et al.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25001179",
+              "quotes": [
+                "Argues that creativity, ethical judgment, and emotional intelligence will remain essential human contributions even as AI handles analytical tasks"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-037",
+          "statement": "As task complexity increases, greater human oversight of AI outputs is required, with AI handling routine/analytical tasks and humans focusing on complex judgment.",
+          "source_count": 5,
+          "bottom_line": "The complexity-oversight heuristic is directionally sound but requires an operational definition of complexity to be actionable in practice.",
+          "sources": [
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "At the highest complexity level, GenAI augments project managers' capabilities for strategic tasks like business case creation and complex decision-making, where the professional's depth of experience drives quality."
+              ]
+            },
+            {
+              "id": "source-015",
+              "title": "Impact of Artificial Intelligence on Project Management (PM): Multi-Expert Perspectives on Advancing Knowledge and Driving Innovation Toward PM2030",
+              "author": "Laurie Hughes, Reza Kiani Mavi, Masoud Aghajani, Keith Fitzpatrick, et al.",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2444569X25001179",
+              "quotes": [
+                "Examines the tension between AI's predictive/modelling capabilities and the need for human oversight in key decisions"
+              ]
+            },
+            {
+              "id": "source-017",
+              "title": "An Authoritative Study on the Near Future Effect of Artificial Intelligence on Project Management Knowledge Areas",
+              "author": "Thordur Vikingur Fridgeirsson, Helgi Thor Ingason, Haukur Ingi Jonasson, Herdis Jonsdottir",
+              "url": "https://www.mdpi.com/2071-1050/13/4/2345",
+              "quotes": [
+                "Lower-impact areas include those requiring more human judgment and interpersonal interaction"
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "Emphasizes the need for continuous human oversight of AI outputs, especially as task complexity increases"
+              ]
+            },
+            {
+              "id": "source-019",
+              "title": "Artificial Intelligence Tools for Project Management: A Knowledge-Based Perspective",
+              "author": "Pedro M. Almeida, Gabriela Fernandes, Jose M.R.C.A. Santos",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2666721525000213",
+              "quotes": [
+                "Generative AI is best suited for tacit-knowledge domains (communication, stakeholder engagement)"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-063",
+          "statement": "Unmanaged or informal AI use ('Shadow AI') within project teams poses risks to project integrity and organizational consistency.",
+          "source_count": 2,
+          "bottom_line": "Shadow AI is a real governance risk in project teams, but the response should be risk-proportionate \u2014 provide approved alternatives and focus governance on high-risk uses.",
+          "sources": [
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "'Shadow AI' -- teams using AI tools privately without shared norms -- is identified as a major risk to project integrity.",
+                "In 2026, we must get a handle on AI governance. We need to be able to verify the outputs from our AI tools, build accountability for the AI + HI (Human Intelligence) systems that we create, and manage the effects on people's well-being and critical thinking capabilities."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "46% of respondents who use generative AI at work have used it for less than six months -- indicating most AI usage is still fresh and informal."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ],
+      "bottom_line": "Thirteen sources endorse the hybrid human-AI model as the broadest normative agreement in the corpus, but only 1 in 5 companies has a mature governance model for AI agents.",
+      "body_html": "<p>Thirteen sources support the claim that the emerging model for AI in project management is a hybrid workforce where AI handles routine and analytical tasks while humans focus on strategic oversight, judgment, and stakeholder relationships. This represents perhaps the broadest normative agreement in the corpus. The complementary finding that AI cannot replace human elements \u2014 contextual judgment, stakeholder management, empathy, ethical judgment, and team commitment \u2014 is supported by eight sources. PMI's framing is representative: \"Algorithms cannot look anyone in the eye, speak truth to power, stay the ethical course or be accountable for their decisions.\"</p>\n<p>However, governance frameworks for this collaboration model are significantly underdeveloped. Ten sources agree that AI governance \u2014 including output verification, accountability frameworks, and ethical oversight \u2014 is an urgent and unresolved priority. Only one in five companies has a mature governance model for autonomous AI agents, even as agentic AI deployment accelerates. The governance gap is compounded by the emergence of \"Shadow AI\" \u2014 teams using AI tools privately without shared norms \u2014 which threatens project integrity through inconsistent practices and unvetted outputs.</p>\n<p>Multiple sources independently propose staged maturity models for managing AI autonomy: PwC's four phases, Wharton/GBK's three waves, CIO's four autonomy levels, and PMI's three tiers. The convergence on staged approaches suggests a genuine pattern in how organizations should manage the progression from AI-assisted to AI-augmented project management. The current consensus places the industry at the transition from basic automation into early ML-based prediction and supervised autonomous execution.</p>",
+      "practitioner_text": "Establish AI governance policies for your PMO now \u2014 define output verification requirements, accountability for AI-generated recommendations, and norms for AI tool usage before Shadow AI practices become entrenched."
+    },
+    {
+      "id": "finding-05",
+      "title": "Agentic AI Introduces Qualitatively New Capabilities and Risks",
+      "claim_count": 5,
+      "claims": [
+        {
+          "id": "cc-048",
+          "statement": "Agentic AI represents a qualitative shift from previous automation: rather than executing commands, AI agents can reason about goals, plan multi-step actions, and coordinate with other systems autonomously.",
+          "source_count": 5,
+          "bottom_line": "The conceptual distinction between agentic AI and traditional automation is important and well articulated, but the gap between the definition and current production capabilities requires governance planning for the transition.",
+          "sources": [
+            {
+              "id": "source-006",
+              "title": "The Agentic Shift: How AI is Redefining Project Priorities in Software",
+              "author": "Minav Patel and Priyank Desai, CIO",
+              "url": "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html",
+              "quotes": [
+                "Agentic AI is qualitatively different from previous automation: it reasons about goals, plans multi-step actions, and coordinates with other agents or systems with minimal supervision",
+                "Where previous systems executed commands, agentic AI can reason about goals, plan multi-step actions and coordinate with other agents or systems, often with minimal supervision. These are no longer tools; they are teammates, of a sort, capable of making decisions and influencing outcomes."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "AI agents are software systems that can act on your behalf without needing you to click, drag, or follow up. They're not just 'smart tools.' These agentic systems, built with machine learning and natural language processing technologies, are designed to act, not just analyze."
+              ]
+            },
+            {
+              "id": "source-002",
+              "title": "Five AI Trends for 2026 That Project Managers Need to Consider",
+              "author": "James Garner, Association for Project Management (APM)",
+              "url": "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/",
+              "quotes": [
+                "The most significant shift in 2026 is the emergence of a hybrid human-AI workforce, where agentic AI systems manage entire workflows from planning and resource allocation to risk mitigation."
+              ]
+            },
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "The survey surfaces a critical finding for project management: 44% of leaders expect AI agents to take lead roles in managing specific projects alongside human teams over the next 2-3 years."
+              ]
+            },
+            {
+              "id": "source-025",
+              "title": "Accenture Technology Vision 2025: AI-Powered Autonomy and Enterprise Reinvention",
+              "author": "Accenture",
+              "url": "https://newsroom.accenture.com/news/2025/accenture-technology-vision-2025-new-age-of-ai-to-bring-unprecedented-autonomy-to-business",
+              "quotes": [
+                "Shift from static application architecture to intention-based frameworks and agentic systems"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-049",
+          "statement": "AI agents differ from traditional PM tools across multiple dimensions including dynamic task assignment, continuous learning, end-to-end automation, and real-time decision support.",
+          "source_count": 3,
+          "bottom_line": "The conceptual distinction between AI agents and traditional PM tools is useful for evaluation, but practitioners should verify claimed capabilities against actual product behavior before restructuring workflows.",
+          "sources": [
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "AI agents differ from traditional PM tools in seven key dimensions: task assignment (dynamic vs. static), adaptability (continuous learning vs. fixed workflows), automation (end-to-end vs. rule-based), decision support (real-time vs. historical), human oversight (autonomous with escalation vs. frequent approvals), scalability (multi-project vs. limited), and error reduction (real-time syncing vs. prone to missed updates)"
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Agentic Shift: How AI is Redefining Project Priorities in Software",
+              "author": "Minav Patel and Priyank Desai, CIO",
+              "url": "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html",
+              "quotes": [
+                "Agentic AI is fundamentally different from previous automation waves."
+              ]
+            },
+            {
+              "id": "source-010",
+              "title": "AI-Powered PMO: Transforming Project Management with Intelligence",
+              "author": "Vijay Viradia, APM",
+              "url": "https://www.apm.org.uk/blog/ai-powered-pmo-transforming-project-management-with-intelligence/",
+              "quotes": [
+                "An AI-powered PMO goes beyond traditional project management by leveraging AI to drive efficiency, automation and predictive decision-making."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-050",
+          "statement": "As AI adoption matures, system complexity \u2014 particularly in orchestrating agentic and multi-agent systems \u2014 has emerged as a primary deployment challenge.",
+          "source_count": 2,
+          "bottom_line": "System complexity, not AI capability, is the primary scaling barrier \u2014 PMOs should invest in orchestration governance before expanding agentic deployments.",
+          "sources": [
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "System complexity has replaced other concerns as the No. 1 deployment challenge, with 65% of leaders citing agentic system complexity as the top barrier.",
+                "The emphasis on system complexity as the top barrier, rather than technical capability, suggests that orchestration and governance \u2014 traditional PMO competencies \u2014 become more important as AI scales."
+              ]
+            },
+            {
+              "id": "source-027",
+              "title": "Announcing The Forrester Wave: Collaborative Work Management Tools, Q2 2025",
+              "author": "Margo Visitacion and Melissa Chhay (Forrester)",
+              "url": "https://www.forrester.com/blogs/announcing-the-forrester-wave-collaborative-work-management-tools-q2-2025/",
+              "quotes": [
+                "The portfolio management gap is particularly notable: governance, scalability, and robust data models required for enterprise-scale planning are still maturing in many CWM platforms."
+              ]
+            }
+          ],
+          "baseline_category": "new"
+        },
+        {
+          "id": "cc-030",
+          "statement": "Governance models for autonomous AI agents are lagging behind the technology's deployment, creating an oversight gap.",
+          "source_count": 2,
+          "bottom_line": "The governance gap for AI agents is quantifiable and concerning \u2014 classify your agents by autonomy level and implement governance proportionate to the risk each level carries.",
+          "sources": [
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "Agentic AI usage is poised to rise sharply, but oversight is lagging, with only one in five companies having a mature governance model for autonomous AI agents.",
+                "Only 1 in 5 companies has a mature governance model for autonomous AI agents"
+              ]
+            },
+            {
+              "id": "source-021",
+              "title": "The State of AI in 2025: Agents, Innovation, and Transformation",
+              "author": "McKinsey & Company (QuantumBlack)",
+              "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+              "quotes": [
+                "The report also highlights the emergence of agentic AI, with 23% of respondents reporting their organizations are scaling an agentic AI system and an additional 39% experimenting with AI agents."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-031",
+          "statement": "AI governance capabilities \u2014 including orchestration, oversight, and control systems \u2014 are becoming essential as organizations move from individual AI tools to integrated AI ecosystems.",
+          "source_count": 2,
+          "bottom_line": "As AI in PM moves from individual tools to integrated ecosystems, governance must evolve from tool-level oversight to system-level orchestration \u2014 plan the architecture now.",
+          "sources": [
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "2026 will be the year we begin to see orchestrated super-agent ecosystems, governed end-to-end by robust control systems that drive measurable outcomes and continuous improvement.",
+                "The emphasis on system complexity as the top barrier, rather than technical capability, suggests that orchestration and governance \u2014 traditional PMO competencies \u2014 become more important as AI scales."
+              ]
+            },
+            {
+              "id": "source-027",
+              "title": "Announcing The Forrester Wave: Collaborative Work Management Tools, Q2 2025",
+              "author": "Margo Visitacion and Melissa Chhay (Forrester)",
+              "url": "https://www.forrester.com/blogs/announcing-the-forrester-wave-collaborative-work-management-tools-q2-2025/",
+              "quotes": [
+                "Portfolio management at enterprise scale requires governance, scalability, and robust data models still maturing in CWM"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ],
+      "bottom_line": "44% of leaders expect AI agents to take lead roles in project management within 2\u20133 years, but system complexity has replaced other concerns as the primary deployment barrier.",
+      "body_html": "<p>Sources published in late 2025 and early 2026 increasingly address agentic AI \u2014 systems that can reason about goals, plan multi-step actions, and coordinate with other agents autonomously. This represents a qualitative shift from previous automation, where tools executed commands rather than made decisions. Six sources support this definitional claim, with one observing that agentic AI systems are \"no longer tools; they are teammates, of a sort, capable of making decisions and influencing outcomes.\" KPMG's Q4 2025 survey reports that 44% of leaders expect AI agents to take lead roles in managing specific projects within 2\u20133 years, and McKinsey finds 23% of organizations already scaling an agentic AI system with an additional 39% experimenting.</p>\n<p>As deployment accelerates, system complexity has replaced other concerns as the primary challenge, with 65% of leaders citing agentic system complexity as the top barrier for two consecutive quarters. This shift has a notable irony for project management: orchestration and governance \u2014 traditional PMO competencies \u2014 become more important as AI scales. As AI threatens to automate many traditional PMO functions, the scaling of AI itself requires exactly the coordination, governance, and stakeholder management skills that PMOs possess. Board-level AI expertise has grown five-fold, from 8% to 40%, in just two quarters, signaling rapid executive engagement with the governance implications of agentic systems.</p>",
+      "practitioner_text": "Position your PMO as the natural owner of AI agent orchestration \u2014 the coordination, governance, and stakeholder alignment skills required to manage agentic complexity are core PMO competencies."
+    },
+    {
+      "id": "finding-06",
+      "title": "Project Delivery Performance Provides a Compelling but Unproven Case",
+      "claim_count": 3,
+      "claims": [
+        {
+          "id": "cc-006",
+          "statement": "Companies using AI-driven PM tools demonstrate measurably better project outcomes including higher on-time delivery, better benefits realization, and productivity improvements.",
+          "source_count": 2,
+          "bottom_line": "The outcome improvements are real but correlational \u2014 organizations should generate their own before-and-after evidence rather than relying on industry-wide statistics.",
+          "sources": [
+            {
+              "id": "source-030",
+              "title": "AI in Project Management: Benefits, Use Cases & Future Outlook",
+              "author": "Anna Balyuk (Epicflow)",
+              "url": "https://www.epicflow.com/blog/ai-in-project-management-is-the-future-already-here/",
+              "quotes": [
+                "The article cites PMI research showing companies using AI-driven tools achieve 61% on-time delivery (vs. 47% without), 69% business benefits realization (vs. 53%), and 64% meeting ROI estimates (vs. 52%).",
+                "KPMG research indicates companies investing in AI report 15% average productivity improvements for their projects."
+              ]
+            },
+            {
+              "id": "source-029",
+              "title": "Accountable Acceleration: Gen AI Fast-Tracks Into the Enterprise (2025 AI Adoption Report)",
+              "author": "Wharton Human-AI Research and GBK Collective",
+              "url": "https://knowledge.wharton.upenn.edu/special-report/2025-ai-adoption-report/",
+              "quotes": [
+                "75% of leaders report positive returns on GenAI investments"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-061",
+          "statement": "Current project delivery performance remains poor across organizations, with success rates of 31-35%, providing a compelling case for AI-assisted improvement given the scale of global project investment.",
+          "source_count": 4,
+          "bottom_line": "Project delivery success rates are genuinely low, but AI is one potential intervention among several \u2014 practitioners should match AI capabilities to their specific failure patterns rather than assuming AI addresses the root causes.",
+          "sources": [
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "Only 34% of organizations say they mostly or always complete projects on time, and 34% on budget.",
+                "The average project performance rate across organizations is 73.8% (PMI Pulse of the Profession 2024)."
+              ]
+            },
+            {
+              "id": "source-011",
+              "title": "How Artificial Intelligence Will Transform Project Management in the Age of Digitization: A Systematic Literature Review",
+              "author": "Maria Elena Nenni, Fabio De Felice, Cristina De Luca, Antonio Forcina",
+              "url": "https://link.springer.com/article/10.1007/s11301-024-00418-z",
+              "quotes": [
+                "The study notes that approximately $48 trillion is invested in projects every year, yet according to the Standish Group, only 35% of projects are considered successful.",
+                "Approximately $48 trillion is invested in projects every year. However, according to the Standish Group, only 35% of projects are considered successful. The waste of resources and unrealized benefits of the remaining 65% are staggering."
+              ]
+            },
+            {
+              "id": "source-032",
+              "title": "The State of Project Management Annual Report 2025",
+              "author": "Wellingtone",
+              "url": "https://wellingtone.co.uk/publications/state-of-project-management-research/",
+              "quotes": [
+                "Only 31% of projects are reported as successful (on time, on budget, on scope), while 82% of organizations now operate one or more PMOs."
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "The article frames the opportunity around a stark statistic: organizations invest approximately $48 trillion in projects annually, but only 35% are considered successful (Forbes, 2023)."
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-026",
+          "statement": "The scientific literature on AI in project management is still in an early and maturing phase, with a significant gap between practitioner enthusiasm and the academic evidence base.",
+          "source_count": 2,
+          "bottom_line": "The academic evidence base for AI in PM significantly lags practitioner enthusiasm \u2014 treat strong claims with proportionate skepticism until rigorous research accumulates.",
+          "sources": [
+            {
+              "id": "source-012",
+              "title": "Artificial Intelligence and Project Management: Empirical Overview, State of the Art, and Guidelines for Future Research",
+              "author": "Ralf Muller, Giorgio Locatelli, Vered Holzmann, Marly Nilsson, Temisan Sagay",
+              "url": "https://journals.sagepub.com/doi/10.1177/87569728231225198",
+              "quotes": [
+                "The authors note that the scientific literature on AI in project management is still relatively immature, with many submissions failing to meet rigorous research standards.",
+                "The scientific literature on the impact of generative AI in project management is still in an embryonic stage, marking an emerging and highly pertinent field of study.",
+                "Identifies a significant gap between practitioner enthusiasm for AI and the rigor of academic evidence supporting its use"
+              ]
+            },
+            {
+              "id": "source-016",
+              "title": "Artificial Intelligence and Project Management: An Empirical Investigation on the Appropriation of Generative Chatbots by Project Managers",
+              "author": "Alberto Michele Felicetti, Antonio Cimino, Alberto Mazzoleni, Salvatore Ammirato",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2444569X24000842",
+              "quotes": [
+                "While much of the literature on AI in PM is descriptive or speculative, this study applies a recognized social theory (AST) to explain adoption patterns, making it foundational for understanding not just what project managers do with AI, but why they adopt and adapt it."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ],
+      "bottom_line": "The business case for AI in project management rests on a $48 trillion annual investment with 31\u201335% success rates, but no controlled study has isolated AI's contribution to project outcomes.",
+      "body_html": "<p>Multiple sources cite the same foundational statistic: approximately $48 trillion is invested in projects globally each year, yet only 31\u201335% of projects are considered successful. This \"burning platform\" creates the business case for AI-assisted project management. PMI research indicates that companies using AI-driven tools achieve 61% on-time delivery versus 47% without, 69% business benefits realization versus 53%, and 64% meeting ROI estimates versus 52%. KPMG reports 15% average productivity improvements for companies investing in AI, and 75% of leaders report positive returns on generative AI investments.</p>\n<p>However, the evidence base for these outcome claims is notably weaker than for the adoption and use case findings. No source in the corpus presents a controlled study comparing project outcomes with and without AI tools. The PMI-cited performance differential is the closest approximation, but does not control for selection effects \u2014 organizations with more mature project management practices may be both more likely to adopt AI tools and more likely to deliver projects successfully. The academic literature explicitly acknowledges this gap, noting that the scientific literature on AI's impact in project management is \"still in an embryonic stage.\" Revenue growth from AI remains largely aspirational: 74% of organizations hope for it, but only 20% are currently achieving it.</p>",
+      "practitioner_text": "Use the available performance data to build an internal business case, but design your AI pilot with measurement controls that can isolate AI's actual contribution to project outcomes \u2014 the industry-level evidence cannot yet do this for you."
+    },
+    {
+      "id": "finding-07",
+      "title": "The PM Role Will Transform \u2014 but the Nature of the Transformation Is Contested",
+      "claim_count": 8,
+      "claims": [
+        {
+          "id": "cc-007",
+          "statement": "Gartner's widely cited prediction that 80% of project management tasks will be handled by AI by 2030 has become a reference point across the industry, though interpretations of its meaning vary.",
+          "source_count": 3,
+          "bottom_line": "The 80% prediction is widely cited but poorly defined \u2014 its value lies in prompting strategic planning, not in providing a reliable forecast.",
+          "sources": [
+            {
+              "id": "source-030",
+              "title": "AI in Project Management: Benefits, Use Cases & Future Outlook",
+              "author": "Anna Balyuk (Epicflow)",
+              "url": "https://www.epicflow.com/blog/ai-in-project-management-is-the-future-already-here/",
+              "quotes": [
+                "Gartner predicts 80% of PM tasks run by AI by 2030 \u2014 but this means automation of non-core tasks, not PM replacement"
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "By 2030, GenAI will be capable of handling 80% of project management tasks, powered by big data, machine learning, and natural language processing."
+              ]
+            },
+            {
+              "id": "source-032",
+              "title": "The State of Project Management Annual Report 2025",
+              "author": "Wellingtone",
+              "url": "https://wellingtone.co.uk/publications/state-of-project-management-research/",
+              "quotes": [
+                "80% of PMOs expected to use AI for decision-making by 2026"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-038",
+          "statement": "As AI handles more administrative and analytical tasks, soft skills (stakeholder management, coaching, leadership) become increasingly critical competencies for project managers.",
+          "source_count": 4,
+          "bottom_line": "The growing importance of soft skills is well evidenced, but organizations need to update training programs, evaluation criteria, and role definitions to support the shift -- not merely acknowledge it.",
+          "sources": [
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "Soft skills investment is critical now as AI handles more administrative and analytical tasks",
+                "GenAI is not eliminating PM but empowering PMs to focus on creativity, coaching, stakeholder management, and leadership"
+              ]
+            },
+            {
+              "id": "source-026",
+              "title": "Boosting Business Acumen: PMI Pulse of the Profession 2025",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/boosting-business-acumen",
+              "quotes": [
+                "The stakeholder management emphasis (93% prioritize it for scope challenges) also underscores the human competencies that AI cannot replace.",
+                "64% prioritize technical skill development; 61% prioritize power skills; business acumen trails both"
+              ]
+            },
+            {
+              "id": "source-028",
+              "title": "AI Will Transform Project Management. Are You Ready?",
+              "author": "Marc Lahmann (PwC Switzerland)",
+              "url": "https://www.pwc.ch/en/insights/risk/ai-will-transform-project-management-are-you-ready.html",
+              "quotes": [
+                "Automation will reduce costs and free PMs to focus on stakeholder management and complex activities"
+              ]
+            },
+            {
+              "id": "source-030",
+              "title": "AI in Project Management: Benefits, Use Cases & Future Outlook",
+              "author": "Anna Balyuk (Epicflow)",
+              "url": "https://www.epicflow.com/blog/ai-in-project-management-is-the-future-already-here/",
+              "quotes": [
+                "Three reasons AI will not replace PMs (Paul Boudreau): data needs human preparation, insights need human interpretation, outcomes need human-AI collaboration"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-039",
+          "statement": "AI will not make project managers obsolete, but it will reduce the number of PMs organizations need and shift the role from task tracking to strategic leadership.",
+          "source_count": 8,
+          "bottom_line": "The claim's willingness to acknowledge headcount reduction alongside role elevation is more realistic than pure augmentation narratives, but organizations need to quantify the expected impact and plan the workforce transition.",
+          "sources": [
+            {
+              "id": "source-001",
+              "title": "How AI is Transforming Project Management in 2026",
+              "author": "Mary K. Pratt, TechTarget",
+              "url": "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management",
+              "quotes": [
+                "Experts do not foresee AI making project managers obsolete, but expect it to reduce the number of project managers organizations need to hire."
+              ]
+            },
+            {
+              "id": "source-002",
+              "title": "Five AI Trends for 2026 That Project Managers Need to Consider",
+              "author": "James Garner, Association for Project Management (APM)",
+              "url": "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/",
+              "quotes": [
+                "This 'silicon workforce' will handle the hyper-automation of routine tasks, freeing up project managers to focus on strategic oversight and complex problem-solving."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "The shift from task-tracker to strategic lead represents a fundamental change in the project manager role driven by AI automation."
+              ]
+            },
+            {
+              "id": "source-006",
+              "title": "The Agentic Shift: How AI is Redefining Project Priorities in Software",
+              "author": "Minav Patel and Priyank Desai, CIO",
+              "url": "https://www.cio.com/article/4091378/the-agentic-shift-how-ai-is-redefining-project-priorities-in-software.html",
+              "quotes": [
+                "Engineers shift from execution to oversight roles."
+              ]
+            },
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "Strong PMO adds value through coaching, training, and embedding practices through human relationships and interaction -- skills AI cannot replicate"
+              ]
+            },
+            {
+              "id": "source-018",
+              "title": "How AI Will Transform Project Management",
+              "author": "Antonio Nieto-Rodriguez, Ricardo Viana Vargas",
+              "url": "https://hbr.org/2023/02/how-ai-will-transform-project-management",
+              "quotes": [
+                "Project managers will shift from administrative task execution to strategic, leadership-focused roles",
+                "Project managers, aided by virtual project assistants, will find their roles more focused on coaching and stakeholder management than on administration and manual tasks."
+              ]
+            },
+            {
+              "id": "source-030",
+              "title": "AI in Project Management: Benefits, Use Cases & Future Outlook",
+              "author": "Anna Balyuk (Epicflow)",
+              "url": "https://www.epicflow.com/blog/ai-in-project-management-is-the-future-already-here/",
+              "quotes": [
+                "The article addresses a key question: the Gartner prediction that 80% of PM tasks will be run by AI by 2030 does not mean replacement, but rather automation of non-core tasks (email, scheduling, status reports) while project managers lead the strategic and collaborative work."
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "GenAI is not eliminating PM but empowering PMs to focus on creativity, coaching, stakeholder management, and leadership"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-040",
+          "statement": "Project managers must develop new competencies in AI literacy, data fluency, and AI orchestration to remain effective in an AI-augmented environment.",
+          "source_count": 10,
+          "bottom_line": "The AI skills gap in project management is well documented and quantified -- organizations that build structured competency development programs now will have a measurable advantage.",
+          "sources": [
+            {
+              "id": "source-002",
+              "title": "Five AI Trends for 2026 That Project Managers Need to Consider",
+              "author": "James Garner, Association for Project Management (APM)",
+              "url": "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/",
+              "quotes": [
+                "Data and AI fluency are becoming core competencies for all project professionals, who must learn to manage, orchestrate, and collaborate with digital team members."
+              ]
+            },
+            {
+              "id": "source-003",
+              "title": "Beyond Disruption: Embedding AI in Project Management to Drive Enterprise Transformation",
+              "author": "Jennifer Duignan, PwC US",
+              "url": "https://www.pwc.com/us/en/services/consulting/managed-services/library/ai-in-project-management.html",
+              "quotes": [
+                "Project managers and PMOs who can seamlessly integrate [AI] can be much more impactful, and those who don't make the jump risk being left behind."
+              ]
+            },
+            {
+              "id": "source-007",
+              "title": "AI Agents in Project Management: The New Force Behind High-Performing Teams",
+              "author": "Brandes Gress, Wrike",
+              "url": "https://www.wrike.com/blog/ai-agents-in-project-management/",
+              "quotes": [
+                "There is a skill gap in AI literacy that needs to be bridged."
+              ]
+            },
+            {
+              "id": "source-004",
+              "title": "AI & Project Management: 2025 Review and 2026 Trends -- Boon or Bubble?",
+              "author": "Mike Clayton, OnlinePMCourses (with James Garner and Yoshi Soornack of Project Flux)",
+              "url": "https://onlinepmcourses.com/ai-project-management-2025-review-and-2026-trends-boon-or-bubble/",
+              "quotes": [
+                "The shift from AI experimentation in 2025 to full-scale deployment in 2026 requires immediate focus on AI governance: verifying outputs, building accountability, and managing effects on well-being and critical thinking."
+              ]
+            },
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "Four critical power skills identified: strategic thinking, problem-solving, collaborative leadership, and communication"
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "Skills rated most important: innovative mindset (72% high impact), data-driven decisions (62%), AI ethics (57%)"
+              ]
+            },
+            {
+              "id": "source-026",
+              "title": "Boosting Business Acumen: PMI Pulse of the Profession 2025",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/boosting-business-acumen",
+              "quotes": [
+                "The report finds that only approximately 20% of project managers report having extensive or good practical AI skills, highlighting a significant capability gap in the profession."
+              ]
+            },
+            {
+              "id": "source-024",
+              "title": "AI in Project Management: 2025 Software Trends Report",
+              "author": "Capterra (Gartner subsidiary)",
+              "url": "https://www.capterra.com/resources/2025-pm-software-trends/",
+              "quotes": [
+                "39% report a lack of AI skills on staff"
+              ]
+            },
+            {
+              "id": "source-032",
+              "title": "The State of Project Management Annual Report 2025",
+              "author": "Wellingtone",
+              "url": "https://wellingtone.co.uk/publications/state-of-project-management-research/",
+              "quotes": [
+                "However, significant barriers remain: resistance to change from team members (26%), lack of skilled personnel (19%), data integration and quality issues (17%), and high costs and budget restraints (15%)."
+              ]
+            },
+            {
+              "id": "source-023",
+              "title": "KPMG AI Quarterly Pulse Survey: AI at Scale \u2014 How 2025 Set the Stage for Agent-Driven Enterprise Reinvention in 2026",
+              "author": "KPMG",
+              "url": "https://kpmg.com/us/en/media/news/q4-ai-pulse.html",
+              "quotes": [
+                "76% of leaders willing to offer up to 10% higher compensation for candidates with strong AI skills"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-041",
+          "statement": "The majority of project managers lack meaningful AI knowledge or practical experience with AI tools.",
+          "source_count": 4,
+          "bottom_line": "The PM profession's AI skills deficit is quantified and significant -- internal assessment against these benchmarks is the necessary first step toward closing it.",
+          "sources": [
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "Only about 20% of project managers report extensive or good practical experience with AI tools; 49% have little to no experience"
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "65% of participants have no or basic level of AI knowledge and experience"
+              ]
+            },
+            {
+              "id": "source-022",
+              "title": "The State of AI in the Enterprise: 2026 AI Report",
+              "author": "Deloitte",
+              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+              "quotes": [
+                "AI skills gap is the biggest barrier to integration; education is the No. 1 talent adjustment strategy"
+              ]
+            },
+            {
+              "id": "source-026",
+              "title": "Boosting Business Acumen: PMI Pulse of the Profession 2025",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/boosting-business-acumen",
+              "quotes": [
+                "The low AI skills rate (~20% with practical competence) alongside the low business acumen rate (18% with high proficiency) suggests that the profession faces a dual capability gap."
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        },
+        {
+          "id": "cc-043",
+          "statement": "Project managers who proactively adopt AI and drive organizational AI adoption will gain a competitive career advantage.",
+          "source_count": 2,
+          "bottom_line": "Early AI adoption likely confers career advantages, but practitioners should balance experimentation with delivery obligations and avoid over-investing in tools that may not persist.",
+          "sources": [
+            {
+              "id": "source-013",
+              "title": "Shaping the Future of Project Management With AI",
+              "author": "Project Management Institute (PMI)",
+              "url": "https://www.pmi.org/learning/thought-leadership/shaping-the-future-of-project-management-with-ai",
+              "quotes": [
+                "Project managers who stay at the forefront of the progression of emerging technologies and help drive AI adoption within their organizations will best position themselves for career success."
+              ]
+            },
+            {
+              "id": "source-014",
+              "title": "Artificial Intelligence and Project Management: A Global Chapter-Led Survey 2024",
+              "author": "Marly Nilsson, Temisan Sagay, Davide La Valle, et al. (PMI Sweden Chapter and 27 collaborating chapters)",
+              "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/artificial-intelligence/community-led-ai-and-project-management-report.pdf",
+              "quotes": [
+                "With a global digital economy, AI transformation will be a 'survival of the fittest.' Not keeping up as a company may risk falling behind and not being able to keep or attract new talent.",
+                "66% of professionals would propose new innovative projects if their employer lagged in technology adoption"
+              ]
+            }
+          ],
+          "baseline_category": "common"
+        },
+        {
+          "id": "cc-055",
+          "statement": "AI-generated project artifacts risk reducing team ownership and engagement, as teams that do not participate in creating plans and documents feel less committed to them.",
+          "source_count": 2,
+          "bottom_line": "AI-generated artifacts may reduce team commitment \u2014 the practical response is to use AI for drafting while preserving collaborative refinement for documents that require buy-in.",
+          "sources": [
+            {
+              "id": "source-009",
+              "title": "AI is Still No Replacement for PMO Excellence",
+              "author": "Ed Davies, Project One (via Consultancy.uk)",
+              "url": "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence",
+              "quotes": [
+                "The 'IKEA effect' applies to project management: when teams are handed AI-generated artifacts rather than creating them collaboratively, they lose ownership and commitment",
+                "Documentation and a stack of paperwork doesn't make change happen. Change and value only come from use.",
+                "When teams are handed AI-generated artifacts rather than creating them collaboratively, they lose ownership and commitment."
+              ]
+            },
+            {
+              "id": "source-005",
+              "title": "AI Project Management Statistics and Trends for 2026",
+              "author": "Lucas, Breeze",
+              "url": "https://www.breeze.pm/articles/ai-project-management-statistics",
+              "quotes": [
+                "AI helps most when it reduces project overhead (status chasing, reporting, handoff confusion), but cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+              ]
+            }
+          ],
+          "baseline_category": "new"
+        },
+        {
+          "id": "cc-059",
+          "statement": "A tension exists between AI's ability to enhance employee skills and the risk that AI reliance leads to skill degradation, particularly for foundational competencies.",
+          "source_count": 2,
+          "bottom_line": "AI simultaneously enhances and erodes PM skills \u2014 organizations need deliberate strategies to maintain foundational competencies that AI could otherwise atrophy.",
+          "sources": [
+            {
+              "id": "source-029",
+              "title": "Accountable Acceleration: Gen AI Fast-Tracks Into the Enterprise (2025 AI Adoption Report)",
+              "author": "Wharton Human-AI Research and GBK Collective",
+              "url": "https://knowledge.wharton.upenn.edu/special-report/2025-ai-adoption-report/",
+              "quotes": [
+                "The study also identifies a tension: 89% agree GenAI enhances employees' skills, yet 43% see risk of declines in skill proficiency \u2014 echoing concerns about AI-driven deskilling.",
+                "89% agree GenAI enhances employees' skills, but 43% see risk of skill proficiency decline"
+              ]
+            },
+            {
+              "id": "source-031",
+              "title": "Adapting to the Era of GenAI: Evolution of Project Management Practices",
+              "author": "Nicole Hackl and Andrea Torres (PwC Austria)",
+              "url": "https://digital.pwc.at/2024/05/13/adapting-to-the-era-of-genai-evolution-of-project-management-practices/",
+              "quotes": [
+                "Soft skills investment is critical now as AI handles more administrative and analytical tasks"
+              ]
+            }
+          ],
+          "baseline_category": "additional"
+        }
+      ],
+      "bottom_line": "Nine sources agree AI will reduce PM numbers and shift the role toward strategic leadership, but the risk of skill degradation and the profession's structural adjustment remain unaddressed.",
+      "body_html": "<p>Nine sources support the prediction that AI will not make project managers obsolete but will reduce their numbers and shift the role from task tracking to strategic leadership. The frequently cited Gartner prediction that 80% of PM tasks will be handled by AI by 2030 is reinterpreted across sources not as replacement but as automation of non-core tasks such as email, scheduling, and status reports. One source introduces the concept of project managers becoming \"outcome stewards\" \u2014 professionals who ensure fairness and quality in AI applications rather than executing tasks directly. Ten sources agree that project managers must develop new competencies in AI literacy, data fluency, and AI orchestration. The profession's skills gap is quantified: 65% of professionals have no or basic AI knowledge, 39% of organizations report a lack of AI skills on staff, and 76% of leaders are willing to offer up to 10% higher compensation for candidates with strong AI skills.</p>\n<p>An underexplored dimension of this transformation is the risk of skill degradation. While 89% of executives agree generative AI enhances employees' skills, 43% simultaneously see risk of skill proficiency decline. The observation that AI-generated artifacts reduce team ownership through a reverse \"IKEA effect\" identifies a non-obvious second-order consequence: even when AI artifacts are higher quality, the process of not creating them may harm team engagement and learning. The tension between skill enhancement and skill degradation is real and unresolved; the outcome likely depends on whether organizations invest in maintaining human competence alongside AI deployment rather than treating AI as a wholesale replacement for the learning process.</p>",
+      "practitioner_text": "Design AI-assisted workflows that keep project managers actively engaged in refining AI outputs rather than passively accepting them \u2014 preserving the hands-on involvement that builds expertise and team ownership."
+    }
+  ]
+}

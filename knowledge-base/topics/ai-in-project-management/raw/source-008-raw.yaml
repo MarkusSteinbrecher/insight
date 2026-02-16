@@ -1,0 +1,329 @@
+source_id: source-008
+title: "Copilot for Project Overview — Microsoft Dynamics 365 Project Operations"
+url: "https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/copilot-features"
+author: "Microsoft"
+date: 2026-01-31
+total_segments: 44
+
+composition:
+  claim: { count: 11, pct: 25.0 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 5, pct: 11.4 }
+  definition: { count: 9, pct: 20.5 }
+  recommendation: { count: 4, pct: 9.1 }
+  context: { count: 8, pct: 18.2 }
+  methodology: { count: 2, pct: 4.5 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 5, pct: 11.4 }
+
+signal_ratio: 88.6
+
+segments:
+  - id: seg-001
+    text: "Copilot for Project Overview — Microsoft Dynamics 365 Project Operations"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Official Microsoft documentation for the Copilot integration in Dynamics 365 Project Operations, describing four AI-powered capabilities for project managers: task plan generation, risk assessments, project status reports, and an interactive chat-like experience."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "This is a primary source documenting what a major platform vendor has actually shipped in its enterprise PM product, as opposed to forward-looking announcements."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The documentation details the specific mechanics of each feature, including how task plans are generated from project names and descriptions using Azure OpenAI's NLP, how risk assessments use project metadata (scope, schedule, budget) to identify threats and suggest mitigations, and how status reports are auto-generated from project KPIs."
+    type: context
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "It also includes responsible AI disclaimers and notes on content verification requirements."
+    type: context
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 7
+    source_format: heading
+
+  - id: seg-008
+    text: "Microsoft Copilot for project has four capabilities in Dynamics 365 Project Operations: task plan generation, risk assessments, project status reports, and interactive chat"
+    type: definition
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+
+  - id: seg-009
+    text: "Task plan generation uses Azure OpenAI's NLP to analyze project name and description, creating up to 100 tasks with suggested durations and start dates"
+    type: definition
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+
+  - id: seg-010
+    text: "AI-generated tasks do not automatically include assignees, dependencies, or checklist items -- these must be added manually afterward"
+    type: evidence
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "Risk assessment uses project metadata (scope, schedule, budget) to identify potential risks and generate mitigation plans with recommended steps"
+    type: definition
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Risk assessment and status reports require logged actuals (time, expense, or materials) to function"
+    type: evidence
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Project status reports provide AI-generated summaries based on financial, resource, effort, and schedule data"
+    type: definition
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Internal reports include budget tracking; external reports provide task-level insights"
+    type: definition
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Microsoft explicitly warns that 'AI-generated summary narrative provides an initial overview' but 'might not always accurately represent the project's true context or health' -- human review is required"
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "The feature uses Azure Open AI with built-in filters to prevent generation of offensive or abusive content"
+    type: definition
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "An interactive, chat-format Copilot assistant allows contextual questions within a project's scope"
+    type: definition
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 18
+    source_format: heading
+
+  - id: seg-019
+    text: "Although the AI-generated summary narrative provides an initial overview, it might not always accurately represent the project's true context or health. Therefore, all parts of the summary narrative are editable and should be thoroughly reviewed by the project manager before the report is finalized and distributed."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 19
+    source_format: quote
+
+  - id: seg-020
+    text: "To ensure adherence to ethical guidelines and responsible AI usage, the Copilot feature isn't used to create projects that suggest offensive, destructive, or abusive content."
+    type: claim
+    section: "Notable Quotes"
+    position: 20
+    source_format: quote
+
+  - id: seg-021
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "This is a primary-source product documentation page that shows exactly what one of the world's largest enterprise software vendors has shipped for AI in project management."
+    type: context
+    section: "Relevance to Topic"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "It is valuable for understanding the concrete state of AI-assisted PM tools (as opposed to aspirational announcements)."
+    type: context
+    section: "Relevance to Topic"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The explicit limitations noted by Microsoft themselves -- tasks without assignees or dependencies, the need for human review of all AI outputs, the requirement for logged actuals -- reveal the gap between AI's promise and its current production-grade capabilities."
+    type: claim
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Task plan generation uses Azure OpenAI's NLP to analyze project name and description."
+    type: methodology
+    section: "Key Takeaways"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Task plan generation can create up to 100 tasks with suggested durations and start dates."
+    type: definition
+    section: "Key Takeaways"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "AI-generated tasks do not automatically include assignees."
+    type: evidence
+    section: "Key Takeaways"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "AI-generated tasks do not automatically include dependencies."
+    type: evidence
+    section: "Key Takeaways"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "AI-generated tasks do not automatically include checklist items."
+    type: evidence
+    section: "Key Takeaways"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Assignees, dependencies, and checklist items must be added manually after AI generation."
+    type: claim
+    section: "Key Takeaways"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Risk assessment uses project metadata including scope, schedule, and budget."
+    type: methodology
+    section: "Key Takeaways"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Risk assessment generates mitigation plans with recommended steps."
+    type: definition
+    section: "Key Takeaways"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Risk assessment requires logged actuals (time, expense, or materials) to function."
+    type: claim
+    section: "Key Takeaways"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "Status reports require logged actuals to function."
+    type: claim
+    section: "Key Takeaways"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Project status reports are AI-generated summaries based on financial, resource, effort, and schedule data."
+    type: claim
+    section: "Key Takeaways"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "Internal reports include budget tracking."
+    type: claim
+    section: "Key Takeaways"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "External reports provide task-level insights."
+    type: claim
+    section: "Key Takeaways"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "Human review is required for all AI-generated project summaries."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "All parts of the AI-generated summary narrative are editable."
+    type: claim
+    section: "Notable Quotes"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "The summary narrative should be thoroughly reviewed by the project manager before the report is finalized and distributed."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "Azure OpenAI has built-in filters to prevent generation of offensive or abusive content."
+    type: context
+    section: "Key Takeaways"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "An interactive chat-format Copilot assistant allows contextual questions within a project's scope."
+    type: context
+    section: "Key Takeaways"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "The explicit limitations noted by Microsoft reveal the gap between AI's promise and its current production-grade capabilities."
+    type: claim
+    section: "Relevance to Topic"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "The Copilot feature ensures adherence to ethical guidelines and responsible AI usage."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 44
+    source_format: prose

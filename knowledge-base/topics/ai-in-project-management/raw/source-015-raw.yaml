@@ -1,0 +1,215 @@
+source_id: source-015
+title: "Impact of Artificial Intelligence on Project Management (PM): Multi-Expert Perspectives on Advancing Knowledge and Driving Innovation Toward PM2030"
+url: "https://www.sciencedirect.com/science/article/pii/S2444569X25001179"
+author: "Laurie Hughes, Reza Kiani Mavi, Masoud Aghajani, Keith Fitzpatrick, et al."
+date: 2025-01-01
+total_segments: 27
+
+composition:
+  claim: { count: 11, pct: 40.7 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 0, pct: 0.0 }
+  definition: { count: 2, pct: 7.4 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 9, pct: 33.3 }
+  methodology: { count: 1, pct: 3.7 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 4, pct: 14.8 }
+
+signal_ratio: 85.2
+
+segments:
+  # Title
+  - id: seg-001
+    text: "Impact of Artificial Intelligence on Project Management (PM): Multi-Expert Perspectives on Advancing Knowledge and Driving Innovation Toward PM2030"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # Summary
+  - id: seg-002
+    text: "Published in the Journal of Innovation & Knowledge (Elsevier, 2025), this study explores the future of project management through the lens of AI integration, framed as 'PM2030.'"
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The paper brings together multi-expert perspectives from academia and industry to examine future scenarios where AI reshapes project management methodologies and decision-making processes."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Using an opinion-based approach, the authors introduce two novel conceptual models: the AI-Augmented Ethics-Centric Model and the Predictive Model for AI Adoption and Human Trust."
+    type: methodology
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The study addresses a fundamental question: as AI-driven predictive insights and modelling capabilities enhance efficiency by 2030, will AI take the lead in key project decisions, or will human attributes such as creativity, ethical judgment, and emotional intelligence remain essential?"
+    type: claim
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The paper argues for a human-centric evolution of AI-enabled project management, where technology amplifies rather than replaces human capabilities."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "The two proposed models provide complementary frameworks -- one centered on ethical governance of AI in projects, the other on predicting adoption patterns and trust dynamics."
+    type: definition
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "The research is positioned at the intersection of AI, sustainability, resilience, and ethics in project management, reflecting the increasingly multidimensional nature of the challenges project managers face as technological complexity intensifies and societal expectations rise."
+    type: context
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  # Key Takeaways
+  - id: seg-009
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 9
+    source_format: heading
+
+  - id: seg-010
+    text: "Introduces the 'PM2030' framing to explore how AI will reshape project management within the next five years"
+    type: definition
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "Proposes two conceptual models: AI-Augmented Ethics-Centric Model and Predictive Model for AI Adoption and Human Trust"
+    type: claim
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Draws on multi-expert perspectives from both academia and industry using an opinion-based methodology"
+    type: context
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Argues that creativity, ethical judgment, and emotional intelligence will remain essential human contributions even as AI handles analytical tasks"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Positions the future of PM as human-centric AI augmentation rather than AI replacement"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Addresses the intersection of AI with sustainability, resilience, and ethics in project management"
+    type: context
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Examines the tension between AI's predictive/modelling capabilities and the need for human oversight in key decisions"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Contributes to the growing discourse on the evolving role of human project managers in an AI-augmented environment"
+    type: context
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Published in a high-impact innovation journal, bridging project management with broader technology management discourse"
+    type: context
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  # Notable Quotes
+  - id: seg-019
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 19
+    source_format: heading
+
+  - id: seg-020
+    text: "By 2030, AI-driven predictive insights and modelling capabilities are expected to significantly enhance efficiency, raising critical questions about the evolving role of human project managers."
+    type: claim
+    section: "Notable Quotes"
+    position: 20
+    source_format: quote
+
+  - id: seg-021
+    text: "Will AI take the lead in key decisions, or will human attributes such as creativity, ethical judgment, and emotional intelligence remain essential?"
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  # Relevance to Topic
+  - id: seg-022
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 22
+    source_format: heading
+
+  - id: seg-023
+    text: "This paper is essential for understanding the forward-looking conceptual foundations of AI in project management."
+    type: context
+    section: "Relevance to Topic"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The PM2030 framing provides a temporal anchor for strategic planning, while the two proposed models (ethics-centric and trust/adoption) offer theoretical frameworks that are otherwise absent from the literature."
+    type: claim
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The emphasis on human-AI collaboration, ethical governance, and trust dynamics represents the cutting edge of academic thinking about how the profession should evolve."
+    type: claim
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Source type: paper; Source quality: academic; Relevance: 5/5; Angle: foundational"
+    type: context
+    section: "Metadata"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The paper proposes a human-centric evolution where technology amplifies rather than replaces human capabilities in project management."
+    type: claim
+    section: "Summary"
+    position: 27
+    source_format: prose

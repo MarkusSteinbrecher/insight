@@ -5,31 +5,28 @@ Reads knowledge-base/topics/*/extractions/critical-analysis.yaml (preferred)
 or critical-analysis-part*.yaml (legacy) and produces a unified JSON structure
 for the insights page.
 
-Output: docs/data/insights.json
+Usage:
+  python3 scripts/build-insights-data.py                # Process all topics
+  python3 scripts/build-insights-data.py ea-for-ai      # Process one topic
+
+Output: docs/data/{topic-slug}/insights.json
 """
 
 import glob
 import json
 import os
+import re
 import sys
 
 import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPICS_DIR = os.path.join(ROOT, "knowledge-base", "topics")
-ANALYSIS_SINGLE = os.path.join(
-    TOPICS_DIR, "*", "extractions", "critical-analysis.yaml"
-)
-ANALYSIS_PARTS = os.path.join(
-    TOPICS_DIR, "*", "extractions", "critical-analysis-part*.yaml"
-)
-OUTPUT_DIR = os.path.join(ROOT, "docs", "data")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "insights.json")
+OUTPUT_BASE = os.path.join(ROOT, "docs", "data")
 
 
 def parse_frontmatter(filepath):
     """Parse YAML frontmatter from a markdown file."""
-    import re
     with open(filepath, "r") as f:
         content = f.read()
     match = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
@@ -47,6 +44,32 @@ def parse_frontmatter(filepath):
             if val:
                 fm[key] = val
     return fm
+
+
+def parse_frontmatter_yaml(filepath):
+    """Parse YAML frontmatter from a markdown file using yaml.safe_load."""
+    with open(filepath, "r") as f:
+        content = f.read()
+
+    match = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
+    if not match:
+        return {}
+
+    try:
+        return yaml.safe_load(match.group(1)) or {}
+    except yaml.YAMLError:
+        return {}
+
+
+def get_topic_slug(topic_dir):
+    """Get the topic slug from _index.md frontmatter or directory name."""
+    index_path = os.path.join(topic_dir, "_index.md")
+    if os.path.exists(index_path):
+        fm = parse_frontmatter_yaml(index_path)
+        slug = fm.get("slug", "")
+        if slug:
+            return slug
+    return os.path.basename(topic_dir).lower().replace(" ", "-")
 
 
 def load_source_meta(topic_dir):
@@ -85,82 +108,95 @@ def load_raw_segments(topic_dir):
     return segments
 
 
-def load_claim_source_data():
-    """Load claim → sources with segment quotes from claim-alignment + raw files."""
+def load_claim_source_data(topic_dir):
+    """Load claim -> sources with segment quotes from claim-alignment + raw files for a single topic."""
     claim_sources = {}
-    for topic_dir in glob.glob(os.path.join(TOPICS_DIR, "*")):
-        path = os.path.join(topic_dir, "extractions", "claim-alignment.yaml")
-        if not os.path.exists(path):
-            continue
-        with open(path, "r") as f:
-            data = yaml.safe_load(f)
-        if not data or "canonical_claims" not in data:
-            continue
+    path = os.path.join(topic_dir, "extractions", "claim-alignment.yaml")
+    if not os.path.exists(path):
+        return claim_sources
+    with open(path, "r") as f:
+        data = yaml.safe_load(f)
+    if not data or "canonical_claims" not in data:
+        return claim_sources
 
-        source_meta = load_source_meta(topic_dir)
-        raw_segments = load_raw_segments(topic_dir)
+    source_meta = load_source_meta(topic_dir)
+    raw_segments = load_raw_segments(topic_dir)
 
-        for claim in data["canonical_claims"]:
-            claim_id = claim.get("id", "")
-            if not claim_id:
+    for claim in data["canonical_claims"]:
+        claim_id = claim.get("id", "")
+        if not claim_id:
+            continue
+        # Group segments by source
+        by_source = {}
+        for s in claim.get("supporting_sources", []):
+            sid = s.get("source_id", "")
+            seg_id = s.get("seg_id", "")
+            if not sid:
                 continue
-            # Group segments by source
-            by_source = {}
-            for s in claim.get("supporting_sources", []):
-                sid = s.get("source_id", "")
-                seg_id = s.get("seg_id", "")
-                if not sid:
-                    continue
-                if sid not in by_source:
-                    by_source[sid] = []
-                seg_text = raw_segments.get(f"{sid}:{seg_id}", "")
-                if seg_text:
-                    by_source[sid].append(seg_text)
+            if sid not in by_source:
+                by_source[sid] = []
+            seg_text = raw_segments.get(f"{sid}:{seg_id}", "")
+            if seg_text:
+                by_source[sid].append(seg_text)
 
-            sources = []
-            for sid, quotes in by_source.items():
-                meta = source_meta.get(sid, {
-                    "id": sid, "title": sid, "author": "Unknown", "url": ""
-                })
-                sources.append({
-                    "id": meta["id"],
-                    "title": meta["title"],
-                    "author": meta["author"],
-                    "url": meta["url"],
-                    "quotes": quotes,
-                })
-            claim_sources[claim_id] = sources
+        sources = []
+        for sid, quotes in by_source.items():
+            meta = source_meta.get(sid, {
+                "id": sid, "title": sid, "author": "Unknown", "url": ""
+            })
+            sources.append({
+                "id": meta["id"],
+                "title": meta["title"],
+                "author": meta["author"],
+                "url": meta["url"],
+                "quotes": quotes,
+            })
+        claim_sources[claim_id] = sources
     return claim_sources
 
 
-def load_baseline_evaluations():
-    """Load baseline evaluations keyed by claim ID from all topics."""
+def load_baseline_evaluations(topic_dir):
+    """Load baseline evaluations keyed by claim ID for a single topic."""
     evals = {}
-    for topic_dir in glob.glob(os.path.join(TOPICS_DIR, "*")):
-        path = os.path.join(topic_dir, "extractions", "baseline-evaluation.yaml")
-        if not os.path.exists(path):
-            continue
-        with open(path, "r") as f:
-            data = yaml.safe_load(f)
-        if data and "evaluations" in data:
-            for e in data["evaluations"]:
-                eid = e.get("id", "")
-                if eid:
-                    evals[eid] = e.get("category", "")
+    path = os.path.join(topic_dir, "extractions", "baseline-evaluation.yaml")
+    if not os.path.exists(path):
+        return evals
+    with open(path, "r") as f:
+        data = yaml.safe_load(f)
+    if data and "evaluations" in data:
+        for e in data["evaluations"]:
+            eid = e.get("id", "")
+            if eid:
+                evals[eid] = e.get("category", "")
     return evals
 
 
-def build_insights_data():
-    yaml_files = sorted(glob.glob(ANALYSIS_SINGLE)) or sorted(glob.glob(ANALYSIS_PARTS))
+def has_critical_analysis(topic_dir):
+    """Check if a topic has critical analysis files."""
+    single = glob.glob(os.path.join(topic_dir, "extractions", "critical-analysis.yaml"))
+    parts = glob.glob(os.path.join(topic_dir, "extractions", "critical-analysis-part*.yaml"))
+    return bool(single or parts)
+
+
+def build_insights_for_topic(topic_dir):
+    """Build insights JSON for a single topic directory. Returns True if output was written."""
+    slug = get_topic_slug(topic_dir)
+
+    # Find critical analysis files for this topic
+    yaml_files = sorted(glob.glob(
+        os.path.join(topic_dir, "extractions", "critical-analysis.yaml")
+    )) or sorted(glob.glob(
+        os.path.join(topic_dir, "extractions", "critical-analysis-part*.yaml")
+    ))
+
     if not yaml_files:
-        print("No critical analysis YAML files found.", file=sys.stderr)
-        sys.exit(1)
+        return False
 
     # Load source attribution with segment quotes
-    claim_sources = load_claim_source_data()
+    claim_sources = load_claim_source_data(topic_dir)
 
     # Load baseline evaluations if available
-    baseline_evals = load_baseline_evaluations()
+    baseline_evals = load_baseline_evaluations(topic_dir)
 
     all_analyses = []
     all_contradictions = []
@@ -187,20 +223,61 @@ def build_insights_data():
     all_contradictions.sort(key=lambda x: x.get("id", ""))
 
     insights = {
-        "generated": "2026-02-15",
+        "generated": "2026-02-16",
         "total_findings": len(all_analyses),
         "total_contradictions": len(all_contradictions),
         "analyses": all_analyses,
         "contradiction_analyses": all_contradictions,
     }
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(OUTPUT_FILE, "w") as f:
+    output_dir = os.path.join(OUTPUT_BASE, slug)
+    output_file = os.path.join(output_dir, "insights.json")
+    os.makedirs(output_dir, exist_ok=True)
+    with open(output_file, "w") as f:
         json.dump(insights, f, indent=2, default=str)
 
-    print(f"Insights data written to {OUTPUT_FILE}")
-    print(f"  Claims analyzed: {len(all_analyses)}")
-    print(f"  Contradictions analyzed: {len(all_contradictions)}")
+    print(f"  {output_file}")
+    print(f"    Claims analyzed: {len(all_analyses)}")
+    print(f"    Contradictions analyzed: {len(all_contradictions)}")
+    return True
+
+
+def find_topic_dirs(slug=None):
+    """Find topic directories, optionally filtering by slug."""
+    all_dirs = [
+        d for d in glob.glob(os.path.join(TOPICS_DIR, "*"))
+        if os.path.isdir(d) and os.path.exists(os.path.join(d, "_index.md"))
+    ]
+    if slug:
+        matching = [d for d in all_dirs if get_topic_slug(d) == slug]
+        if not matching:
+            print(f"Topic '{slug}' not found.", file=sys.stderr)
+            sys.exit(1)
+        return matching
+    return sorted(all_dirs)
+
+
+def build_insights_data():
+    slug = sys.argv[1] if len(sys.argv) > 1 else None
+    topic_dirs = find_topic_dirs(slug)
+
+    if not topic_dirs:
+        print("No topic directories found.", file=sys.stderr)
+        sys.exit(1)
+
+    print("Building insights data...")
+    processed = 0
+    for topic_dir in topic_dirs:
+        topic_slug = get_topic_slug(topic_dir)
+        if not has_critical_analysis(topic_dir):
+            print(f"  Skipping {topic_slug} (no critical-analysis files)")
+            continue
+        print(f"  Topic: {topic_slug}")
+        if build_insights_for_topic(topic_dir):
+            processed += 1
+
+    if processed == 0:
+        print("No topics with critical analysis data found.", file=sys.stderr)
 
 
 if __name__ == "__main__":

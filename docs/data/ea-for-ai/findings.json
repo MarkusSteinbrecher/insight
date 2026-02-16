@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-15",
+  "generated": "2026-02-16",
   "total_findings": 10,
   "total_claims_linked": 46,
   "findings": [
@@ -175,7 +175,7 @@
         {
           "id": "cc-098",
           "statement": "AI-augmented architects are notified during or before decision points rather than weeks after the fact, with agents pre-checking submissions, generating draft decisions, and surfacing relevant context at the point of decision.",
-          "source_count": 2,
+          "source_count": 3,
           "bottom_line": "The best architecture governance is invisible -- AI agents that surface the right context at the right moment are worth more than a hundred review board meetings.",
           "sources": [
             {
@@ -198,6 +198,15 @@
               "quotes": [
                 "Four emerging strategic roles for enterprise architects: (1) Customer/employee-centric value mapper, (2) Digital twin strategist, (3) Enterprise knowledge curator, (4) Agentic governance champion."
               ]
+            },
+            {
+              "id": "source-056",
+              "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+              "author": "Erik Bakstad (Ardoq)",
+              "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+              "quotes": [
+                "Those who quickly master prompt engineering will be able to reduce months of analysis to minutes and translate complexity into action."
+              ]
             }
           ],
           "baseline_category": "additional"
@@ -205,7 +214,7 @@
         {
           "id": "cc-097",
           "statement": "EA is being reborn as a living, learning function that shifts from designing static structures to stewarding behavioral systems -- turning the EA repository from a documentation graveyard into an operating system for change.",
-          "source_count": 4,
+          "source_count": 5,
           "bottom_line": "EA repositories become stale when they are disconnected from operational reality -- the path to a 'living' repository is integration with production systems, not additional documentation.",
           "sources": [
             {
@@ -244,6 +253,15 @@
               "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
               "quotes": [
                 "As software development becomes increasingly like building with blocks (think cloud services and ready-made APIs), architects will embed themselves in agile teams and help to manage living systems."
+              ]
+            },
+            {
+              "id": "source-056",
+              "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+              "author": "Erik Bakstad (Ardoq)",
+              "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+              "quotes": [
+                "Don't treat AI as a one-off experiment. Build it into your standard way of working."
               ]
             }
           ],
@@ -389,12 +407,17 @@
               "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
               "author": "KPMG International",
               "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-              "quotes": []
+              "quotes": [
+                "Accelerating learning, building a future-ready and agent-empowered workforce, and having one eye on emerging technology trends are just some of the essentials that should be on your 2026 agenda."
+              ]
             }
           ],
           "baseline_category": "common"
         }
-      ]
+      ],
+      "bottom_line": "When governance cycles exceed deployment cycles, decisions are based on outdated architectural context \u2014 creating the risk they aim to prevent.",
+      "body_html": "<p>Whether an organisation uses TOGAF, a lightweight architecture review board, or an informal approval chain, the structural issue is the same: governance cycles longer than deployment cycles produce decisions based on stale information. A review board that meets monthly to evaluate architectures designed three weeks ago and deployed the following week is reviewing outdated context.</p>\n<p>The acceleration paradox compounds this. Organisations with clean, modular architectures gain 30\u201350% faster AI adoption, while legacy-burdened organisations face a vicious cycle: they cannot adopt AI fast enough to modernise, and they cannot modernise fast enough to adopt AI.</p>\n<p>The fix is not faster meetings or shorter review cycles \u2014 it is closing the governance loop entirely. Forrester envisions AI agents that pre-check architectural proposals against standards, generate draft decisions, and route only exceptions to human architects. The direction is clear: push routine governance decisions into automated or near-instant channels so that human judgment is concentrated where it actually adds value.</p>",
+      "practitioner_text": "Measure your governance cycle time today \u2014 from architecture proposal submission to approved decision. If it exceeds your deployment cadence, your governance is creating risk, not mitigating it."
     },
     {
       "id": "finding-02",
@@ -589,7 +612,9 @@
               "title": "Enterprise Architecture in Swiss SMEs",
               "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
               "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-              "quotes": []
+              "quotes": [
+                "Think modular \u2014 like building a house, you focus on the essential rooms first and then add extras as needed."
+              ]
             }
           ],
           "baseline_category": "common"
@@ -662,12 +687,17 @@
               "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
               "author": "PwC Research",
               "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-              "quotes": []
+              "quotes": [
+                "To Top Performers, cloud and AI aren't merely operational tools \u2014 they're strategic assets that drive business success and produce value from data."
+              ]
             }
           ],
           "baseline_category": "additional"
         }
-      ]
+      ],
+      "bottom_line": "Foundation models are increasingly interchangeable. Differentiation comes from proprietary data, domain knowledge, and integration quality \u2014 assets that persist across model switches.",
+      "body_html": "<p>Foundation models are commoditising. Performance differences between leading models on well-scoped enterprise tasks are measured in single-digit percentage points and narrow with each release cycle. What persists across model switches is proprietary training data, domain-specific evaluation benchmarks, curated knowledge bases, and the integration depth that connects AI outputs to business actions.</p>\n<p>Multiple sources note that specialised small language models fine-tuned for specific domains can outperform general-purpose LLMs on defined tasks at a fraction of the cost. This suggests that designing model-serving infrastructure to support multiple model sizes \u2014 and treating the model layer as swappable \u2014 may be a more durable architectural choice than optimising for a single frontier model.</p>\n<p>Three concrete architectural decisions follow: treat AI models as shared enterprise capabilities with unified lifecycle tooling. Design for model portability \u2014 can you swap your primary LLM provider within eight hours? Recognise your AI stack evolves at three different speeds: models change monthly, orchestration quarterly, data infrastructure over years.</p>",
+      "practitioner_text": "Audit your current AI use cases and classify each by task complexity. Run head-to-head evaluations of a fine-tuned SLM versus your default frontier model on your top three production use cases, measuring accuracy, latency, and cost per inference."
     },
     {
       "id": "finding-03",
@@ -778,7 +808,9 @@
               "title": "A Roadmap for Scaling AI Agents in the Modern Enterprise",
               "author": "Sebastian Ahrens, Lilia Christofi, Johnny Chivers, Aidan Caffrey (PwC Switzerland / PwC UK)",
               "url": "https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html",
-              "quotes": []
+              "quotes": [
+                "The proposed framework combines Apache Kafka messaging with BPMN-based process orchestration to overcome enterprise AI agent scaling challenges."
+              ]
             }
           ],
           "baseline_category": "additional"
@@ -786,7 +818,7 @@
         {
           "id": "cc-026",
           "statement": "Open standards and interoperability protocols (MCP, A2A) are essential for avoiding vendor lock-in and enabling heterogeneous agent ecosystems within enterprise architecture.",
-          "source_count": 6,
+          "source_count": 7,
           "bottom_line": "MCP and A2A may become foundational interoperability standards for the agent era -- early alignment with these protocols can reduce future lock-in risk.",
           "sources": [
             {
@@ -846,6 +878,15 @@
               "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
               "quotes": [
                 "Organizations should optimize flexibility in model selection rather than committing to single-vendor lock-in."
+              ]
+            },
+            {
+              "id": "source-056",
+              "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+              "author": "Erik Bakstad (Ardoq)",
+              "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+              "quotes": [
+                "Protocols like MCP will likely become more common."
               ]
             }
           ],
@@ -952,7 +993,10 @@
           ],
           "baseline_category": "new"
         }
-      ]
+      ],
+      "bottom_line": "Multi-agent AI shares the decomposition benefits of microservices, but introduces qualitatively new failure modes \u2014 particularly when agents influence each other's outputs through shared context.",
+      "body_html": "<p>Five sources independently converge on multi-agent systems with specialised agents collaborating through defined protocols as the emerging architectural pattern. This cluster produced more genuine insights (8 of 21) than any other theme.</p>\n<p>The microservices parallel is instructive: the decomposition principle is sound \u2014 independently deployable, independently scalable, fault-isolated. But the risk profile is qualitatively different. When AI agents influence each other's behaviour through shared context, chained outputs, or collaborative decision-making, feedback loops, emergent behaviours, and cascade failures become possible in ways deterministic microservices do not exhibit. Existing SIEM, observability, and risk frameworks were designed for deterministic systems and may not detect scenarios where one agent's inaccurate output becomes another agent's confident input.</p>\n<p>The defining architectural bet is not which protocol to adopt but whether you abstract the protocol layer at all. MCP and A2A will evolve, merge, or be superseded. Organisations that implement a protocol abstraction layer will maintain architectural agility as the standards landscape matures.</p>",
+      "practitioner_text": "Design your AI platform with an agent registry and protocol abstraction layer from day one. Implement distributed tracing across agent interactions. Define blast-radius controls before you deploy your second agent \u2014 not your twentieth."
     },
     {
       "id": "finding-04",
@@ -1080,7 +1124,9 @@
               "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
               "author": "KPMG International",
               "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-              "quotes": []
+              "quotes": [
+                "Accelerating learning, building a future-ready and agent-empowered workforce, and having one eye on emerging technology trends are just some of the essentials that should be on your 2026 agenda."
+              ]
             }
           ],
           "baseline_category": "common"
@@ -1136,7 +1182,7 @@
         {
           "id": "cc-098",
           "statement": "AI-augmented architects are notified during or before decision points rather than weeks after the fact, with agents pre-checking submissions, generating draft decisions, and surfacing relevant context at the point of decision.",
-          "source_count": 2,
+          "source_count": 3,
           "bottom_line": "The best architecture governance is invisible -- AI agents that surface the right context at the right moment are worth more than a hundred review board meetings.",
           "sources": [
             {
@@ -1159,6 +1205,15 @@
               "quotes": [
                 "Four emerging strategic roles for enterprise architects: (1) Customer/employee-centric value mapper, (2) Digital twin strategist, (3) Enterprise knowledge curator, (4) Agentic governance champion."
               ]
+            },
+            {
+              "id": "source-056",
+              "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+              "author": "Erik Bakstad (Ardoq)",
+              "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+              "quotes": [
+                "Those who quickly master prompt engineering will be able to reduce months of analysis to minutes and translate complexity into action."
+              ]
             }
           ],
           "baseline_category": "additional"
@@ -1166,7 +1221,7 @@
         {
           "id": "cc-097",
           "statement": "EA is being reborn as a living, learning function that shifts from designing static structures to stewarding behavioral systems -- turning the EA repository from a documentation graveyard into an operating system for change.",
-          "source_count": 4,
+          "source_count": 5,
           "bottom_line": "EA repositories become stale when they are disconnected from operational reality -- the path to a 'living' repository is integration with production systems, not additional documentation.",
           "sources": [
             {
@@ -1206,15 +1261,27 @@
               "quotes": [
                 "As software development becomes increasingly like building with blocks (think cloud services and ready-made APIs), architects will embed themselves in agile teams and help to manage living systems."
               ]
+            },
+            {
+              "id": "source-056",
+              "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+              "author": "Erik Bakstad (Ardoq)",
+              "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+              "quotes": [
+                "Don't treat AI as a one-off experiment. Build it into your standard way of working."
+              ]
             }
           ],
           "baseline_category": "common"
         }
-      ]
+      ],
+      "bottom_line": "Sources describe AI-augmented EA as technically feasible but dependent on data quality and repository maturity that most organisations have not yet achieved.",
+      "body_html": "<p>Traditional EA often operates in open-loop mode. Architects produce documentation that begins diverging from reality as soon as it is published. By the next quarterly review, the gap between documented and actual architecture can be substantial.</p>\n<p>The vision is specific and technically feasible: harvesting agents that auto-discover architecture from deployment pipelines, dependency agents that map integration patterns, conformance agents that check deployments against standards. However, readiness data suggests a gap: 85% of organisations report using generative AI, but only 22% say their architecture can support AI without modification.</p>\n<p>The path forward is to use automation as the mechanism for building maturity: start with automated discovery from systems that already produce machine-readable data (cloud inventory APIs, CI/CD pipelines, API gateways), and use that to bootstrap an EA repository that was never manually buildable in the first place.</p>",
+      "practitioner_text": "Pick the EA artefact that goes stale fastest \u2014 typically the application portfolio or integration map \u2014 and connect it to an automated data source. Measure staleness before and after. The goal is not a perfect repository \u2014 it is a repository that is less wrong than yesterday's."
     },
     {
       "id": "finding-05",
-      "title": "Process Redesign First, Then Automation \u2014 and the Evidence Just Got Stronger",
+      "title": "Process Redesign First, Then Automation",
       "claim_count": 7,
       "claims": [
         {
@@ -1287,7 +1354,7 @@
         {
           "id": "cc-100",
           "statement": "AI should be applied to processes, not to people or organizations, and solid well-defined processes are a prerequisite -- without quantifiable, accurate process understanding, AI application is premature.",
-          "source_count": 3,
+          "source_count": 4,
           "bottom_line": "You cannot automate what you do not understand -- process mining is the underappreciated prerequisite that determines whether your AI investment succeeds or fails.",
           "sources": [
             {
@@ -1318,6 +1385,15 @@
               "quotes": [
                 "Much of AI's value depends on how clearly an organization defines its desired outcomes.",
                 "When workflows and decision rules are written down and maintained, AI can amplify what already works instead of patching what does not."
+              ]
+            },
+            {
+              "id": "source-056",
+              "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+              "author": "Erik Bakstad (Ardoq)",
+              "url": "https://www.ardoq.com/resources/prompt-engineering-for-enterprise-architects",
+              "quotes": [
+                "To get meaningful value from GenAI, EAs need to frame prompts with context such as business domains, constraints, and goals."
               ]
             }
           ],
@@ -1426,7 +1502,9 @@
               "title": "PwC's 2025 EMEA Cloud Business Survey",
               "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
               "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-              "quotes": []
+              "quotes": [
+                "Despite high interest, only 29% of organizations are actually scaling agentic AI."
+              ]
             }
           ],
           "baseline_category": "new"
@@ -1490,7 +1568,10 @@
           ],
           "baseline_category": "additional"
         }
-      ]
+      ],
+      "bottom_line": "Sources converge on a prerequisite: understand and redesign processes for agent strengths before automating them, rather than inserting agents into workflows designed for human constraints.",
+      "body_html": "<p>This finding received the strongest practitioner validation. A common pattern across sources: organisations take a human-designed workflow \u2014 with sequential approval chains, handoff points between specialists, and periodic review checkpoints \u2014 and add an AI agent to it. The agent inherits the workflow's constraints while not leveraging its own strengths: parallel processing, consistent attention, comprehensive recall, and continuous availability.</p>\n<p>This creates a two-step gate most organisations have not passed. Step one: understand your process well enough to document it quantitatively (process mining, not process mapping). Step two: redesign from scratch for agent strengths, rather than automating the documented process.</p>",
+      "practitioner_text": "Before approving your next AI agent deployment, answer two questions. Is the target process documented with quantitative data? Has the workflow been redesigned for agent strengths, or is the agent being inserted into a human-shaped process?"
     },
     {
       "id": "finding-06",
@@ -1593,7 +1674,9 @@
               "title": "2024 Cloud and AI Business Survey: Building the AI-Powered Business",
               "author": "PwC Research",
               "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-              "quotes": []
+              "quotes": [
+                "To Top Performers, cloud and AI aren't merely operational tools \u2014 they're strategic assets that drive business success and produce value from data."
+              ]
             }
           ],
           "baseline_category": "additional"
@@ -1628,7 +1711,9 @@
               "title": "PwC's 2025 EMEA Cloud Business Survey",
               "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
               "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-              "quotes": []
+              "quotes": [
+                "FinOps is emerging as the standard framework for cloud cost governance."
+              ]
             }
           ],
           "baseline_category": "new"
@@ -1661,7 +1746,10 @@
           ],
           "baseline_category": "additional"
         }
-      ]
+      ],
+      "bottom_line": "When C-suite stakeholders hold different expectations for AI outcomes \u2014 revenue growth vs. cost savings \u2014 every project risks underperforming against at least one sponsor's criteria.",
+      "body_html": "<p>The CEO expects AI to drive top-line revenue growth. The CIO expects productivity and cost savings. When the AI portfolio is built to deliver productivity gains but evaluated against revenue growth criteria, every project underperforms against at least one sponsor's expectations. This is not a communication problem \u2014 it is an architecture problem.</p>\n<p>The research surfaces a pragmatic two-phase model. Phase one: deploy AI for internal productivity gains (lower risk, measurable returns within quarters). Phase two: apply AI to core value chains and customer-facing products where the revenue upside lives. The architectural trap is building a phase-one platform that cannot evolve into phase two.</p>",
+      "practitioner_text": "Survey your C-suite: \"What is the primary expected outcome of our AI investments?\" Quantify the gap. Then structure your AI portfolio with explicit buckets for each, tracked with different KPIs."
     },
     {
       "id": "finding-07",
@@ -1764,7 +1852,10 @@
           ],
           "baseline_category": "additional"
         }
-      ]
+      ],
+      "bottom_line": "As AI agents scale from experimental copilots to production participants, organisations face management challenges \u2014 onboarding, monitoring, lifecycle, governance \u2014 that do not map to existing IT service management frameworks.",
+      "body_html": "<p>As AI agents scale from experimental copilots to production workforce participants, organisations face a management challenge that does not map to any existing discipline. Agents need onboarding (testing, validation, access provisioning), performance management (accuracy monitoring, cost tracking, drift detection), lifecycle management (versioning, retraining, retirement), and misconduct handling.</p>\n<p>These requirements do not map cleanly to ITIL. AI agents are non-deterministic, context-dependent, and capable of producing failure modes that existing runbooks do not anticipate. An organisation running five agents can manage them ad hoc. At fifty, structured processes become necessary. At five hundred \u2014 a scale several sources project within three to five years \u2014 a formal discipline is needed.</p>\n<p>This area is largely unaddressed. No vendor, standards body, or consultancy has published a comprehensive \"Agent Service Management\" framework to date.</p>",
+      "practitioner_text": "Create an AI Agent Registry this quarter. For every deployed agent, document its role, capabilities, access permissions, data inputs, decision authority, performance metrics, and accountable human owner."
     },
     {
       "id": "finding-08",
@@ -1800,7 +1891,9 @@
               "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
               "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
               "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-              "quotes": []
+              "quotes": [
+                "System reliability evaluations, performance metrics, and strategic guidance are key deliverables for AI infrastructure planning."
+              ]
             }
           ],
           "baseline_category": "additional"
@@ -1834,7 +1927,9 @@
               "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
               "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
               "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-              "quotes": []
+              "quotes": [
+                "KPMG can help diagnose potential bottlenecks in infrastructure and show how organizations can grow infrastructure to support more advanced capabilities."
+              ]
             }
           ],
           "baseline_category": "additional"
@@ -1868,7 +1963,9 @@
               "title": "Is Your Infrastructure Ready for Your AI Aspirations?",
               "author": "Joe Jacob, Martin Kaestner, Mark Solomon (KPMG)",
               "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
-              "quotes": []
+              "quotes": [
+                "The gap between AI ambition and infrastructure readiness is a significant challenge for most organizations."
+              ]
             }
           ],
           "baseline_category": "additional"
@@ -1901,7 +1998,10 @@
           ],
           "baseline_category": "additional"
         }
-      ]
+      ],
+      "bottom_line": "Only 14% of companies are fully prepared for AI adoption. The gap between AI ambition and infrastructure capability \u2014 compute, networking, storage, integration \u2014 is the binding constraint on enterprise AI.",
+      "body_html": "<p>Only 14% of companies are fully prepared for AI adoption (KPMG, n=2,500). Only 22% have architectures that fully support AI workloads without modification. Only 17% have networks capable of handling AI demands. Only 29% are actually scaling agentic AI despite 86% viewing it as decisive for their cloud strategy (PwC EMEA, n=1,415).</p>\n<p>The \"brain versus nervous system\" metaphor captures a structural misallocation of investment. The industry narrative has focused on the AI \"brain\" \u2014 larger models, more capable agents \u2014 while the infrastructure \"nervous system\" receives a fraction of the attention. But no brain functions without a nervous system. The most capable AI model delivers no value if it cannot access enterprise data at production latency, scale to production throughput, and integrate with the systems where work happens.</p>\n<p>Infrastructure costs in 2025 shocked organisations unprepared for the economics of production AI. Bain projects 5-10% of technology spending directed toward AI foundations in the near term, with potentially 50% in the long term.</p>",
+      "practitioner_text": "Conduct an infrastructure readiness assessment specific to your AI roadmap. Map each planned AI workload to its compute, network, storage, and integration requirements. Compare against current capacity. The delta is your infrastructure investment gap."
     },
     {
       "id": "finding-09",
@@ -2037,7 +2137,9 @@
               "title": "Leading in the Intelligence Age: Excelling Today, Shaping Tomorrow",
               "author": "KPMG International",
               "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
-              "quotes": []
+              "quotes": [
+                "Organizations need to always keep one eye fixed on what is coming next."
+              ]
             }
           ],
           "baseline_category": "common"
@@ -2066,12 +2168,17 @@
               "title": "Enterprise Architecture in Swiss SMEs",
               "author": "Rejhan Fazlic, Markus Hegi (PwC Switzerland)",
               "url": "https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html",
-              "quotes": []
+              "quotes": [
+                "Adopt a pragmatic 'just enough architecture' approach."
+              ]
             }
           ],
           "baseline_category": "additional"
         }
-      ]
+      ],
+      "bottom_line": "Codifying an organisation's implicit operating model as executable code \u2014 capturing workflows, decision rules, and business logic \u2014 is a prerequisite for effective AI agent deployment.",
+      "body_html": "<p>BCG's \"Enterprise as Code\" concept is the most conceptually novel contribution from the consultancy sources. The idea: capture an organisation's implicit operating model \u2014 processes, decision-making logic, governance rules, workflows \u2014 and express them as code readable and executable by both people and AI systems. Organisations must shift from intuition-based operations to specification-based ones.</p>\n<p>This is not infrastructure-as-code or traditional BPM. BCG distinguishes it through three breakthroughs: programmable infrastructure at all organisational levels (not just IT), human-AI convergence via autonomous agents that interpret and act on business logic, and dynamic orchestration of processes based on contextual events and real-time data.</p>\n<p>BCG's \"Freedom within a Frame\" concept provides the governance model: centralised infrastructure and governance with decentralised innovation by business units \u2014 cutting costs by up to 30% and improving time to market by 50%. The 10/20/70 rule reinforces this as fundamentally an organisational transformation (70% people and processes) enabled by technology (20% backbone, 10% algorithms).</p>",
+      "practitioner_text": "Identify one high-volume, high-value business process and make its operating logic explicit and machine-readable. Document its decision rules, exception paths, and governance controls in a format an AI agent could interpret. Use this as the pilot for broader Enterprise as Code adoption."
     },
     {
       "id": "finding-10",
@@ -2125,12 +2232,17 @@
               "title": "PwC's 2025 EMEA Cloud Business Survey",
               "author": "Sebastian Paas, Kevin Doig, Claudius Meyer, Rajat Chowdhary, Nicola Sfondrini, Stephane Zema (PwC)",
               "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-              "quotes": []
+              "quotes": [
+                "Strengthen sovereignty and trust mechanisms to meet data localization and regulatory requirements."
+              ]
             }
           ],
           "baseline_category": "additional"
         }
-      ]
+      ],
+      "bottom_line": "82% of EMEA organisations are refining their cloud approach due to geopolitics. AI sovereignty \u2014 control over data, models, and decision rights \u2014 is now a first-order architecture constraint, not a compliance checkbox.",
+      "body_html": "<p>The consultancy sources \u2014 particularly those with European and global perspectives \u2014 elevate sovereignty to a defining strategic theme. PwC EMEA reports 82% of organisations refining their cloud approach due to geopolitical and regulatory change. Capgemini finds 54% prioritise data and AI sovereignty. EY recommends \"sovereignty-by-default\" frameworks embedded into all new systems.</p>\n<p>The shift is from sovereignty as a compliance checkbox to sovereignty as an architecture decision. Where data resides, which models process it, who controls training data, and what jurisdictional rules apply \u2014 these constrain every subsequent architecture decision. The EU AI Act, data localisation requirements, and concerns about model provenance are making sovereignty a first-order design constraint.</p>\n<p>The sovereignty theme intersects with the infrastructure readiness crisis in a way that compounds both problems. Infrastructure must now satisfy sovereignty constraints that limit where it can be deployed, which vendors can provide it, and what data can flow through it. The simplest cloud architecture \u2014 everything on a single hyperscaler \u2014 is increasingly untenable for organisations operating across jurisdictions.</p>",
+      "practitioner_text": "Audit your current and planned AI workloads for sovereignty requirements. Map each workload to its data residency, model provenance, and jurisdictional constraints. If operating across EU and non-EU jurisdictions, sovereignty should inform your cloud and infrastructure decisions now."
     }
   ]
 }

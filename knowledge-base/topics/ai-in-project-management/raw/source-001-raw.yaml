@@ -1,0 +1,201 @@
+source_id: source-001
+title: "How AI is Transforming Project Management in 2026"
+url: "https://www.techtarget.com/searchenterpriseai/feature/How-AI-is-transforming-project-management"
+author: "Mary K. Pratt, TechTarget"
+date: 2025-12-18
+total_segments: 22
+
+composition:
+  claim: { count: 9, pct: 40.9 }
+  statistic: { count: 2, pct: 9.1 }
+  evidence: { count: 2, pct: 9.1 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 5, pct: 22.7 }
+  methodology: { count: 1, pct: 4.5 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 3, pct: 13.6 }
+
+signal_ratio: 86.4
+
+segments:
+  - id: seg-001
+    text: "How AI is Transforming Project Management in 2026"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "A comprehensive feature article from TechTarget examining how AI is being embedded across the project management discipline."
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The article draws on multiple expert sources including analysts from Capterra, Info-Tech Research Group, and academics from Montclair State University."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "It covers current AI use cases in project management, from administrative automation to risk management, and assesses where AI excels and where it faces limitations."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The article is structured around four major areas of AI application: administrative tasks, planning tasks, scenario analysis, and the question of whether AI will replace project managers."
+    type: context
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "AI's most successful applications are currently at the 'front and tail ends' of projects -- planning, brainstorming, and reporting -- while core execution tasks remain largely human-driven due to data readiness challenges."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "According to Capterra's 2025 Project Management Software Trends Survey, 55% of buyers reported that 'AI was the top trigger for their most recent purchase.'"
+    type: statistic
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+    metadata:
+      metric: "AI as top trigger for PM software purchase"
+      value: 55
+      unit: "%"
+      population: "PM software buyers (Capterra 2025 survey)"
+
+  - id: seg-008
+    text: "Task automation, forecasting, and risk management are the most common uses of AI in project management."
+    type: claim
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+
+  - id: seg-009
+    text: "Capterra's 2024 Most Impactful PM Tools Survey found: 54% used AI for project risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation."
+    type: statistic
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+    metadata:
+      metric: "AI use cases in PM by adoption rate"
+      data_points:
+        - { label: "project risk management", value: 54, unit: "%" }
+        - { label: "task automation", value: 53, unit: "%" }
+        - { label: "predictive analysis and forecasting", value: 52, unit: "%" }
+        - { label: "schedule optimization", value: 52, unit: "%" }
+        - { label: "resource planning and allocation", value: 47, unit: "%" }
+      population: "PM tool users (Capterra 2024 survey)"
+
+  - id: seg-010
+    text: "AI is most effective at the 'front end' (planning, brainstorming, risk analysis, drafting schedules, identifying stakeholders) and 'tail end' (reports, summaries) of projects."
+    type: claim
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "AI can estimate project costs by analyzing past projects and current prices, sometimes more accurately than human project managers."
+    type: claim
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Resource allocation via AI requires comprehensive organizational data that most organizations do not yet have -- a key limiting factor."
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "AI algorithms can identify potential threats to project success by analyzing multiple data sets, and increasingly offer risk mitigation strategies."
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Experts do not foresee AI making project managers obsolete, but expect it to reduce the number of project managers organizations need to hire."
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "AI is going to transform projects in the near term by improving administration, and it's going to improve project management in the long term by lowering risk."
+    type: claim
+    section: "Notable Quotes"
+    position: 15
+    source_format: quote
+    metadata:
+      speaker: "Barry Cousins"
+      affiliation: "Distinguished Analyst and Research Fellow, Info-Tech Research Group"
+
+  - id: seg-016
+    text: "If you're going to use AI to figure out whether I'm the best person to assign and when I'm free, then you need that data, and you need that data for everyone. I can't say when organizations are going to have that data ready."
+    type: evidence
+    section: "Notable Quotes"
+    position: 16
+    source_format: quote
+    metadata:
+      speaker: "Barry Cousins"
+      affiliation: "Info-Tech Research Group"
+
+  - id: seg-017
+    text: "This isn't about chasing shiny features. It's about tackling rising project complexity, resource constraints and the demand for speed."
+    type: claim
+    section: "Notable Quotes"
+    position: 17
+    source_format: quote
+    metadata:
+      speaker: "Olivia Montgomery"
+      affiliation: "Associate Principal Analyst, Capterra"
+
+  - id: seg-018
+    text: "With a simple prompt, you get a lot of great ideas. That means you don't have to start with a blank sheet."
+    type: evidence
+    section: "Notable Quotes"
+    position: 18
+    source_format: quote
+    metadata:
+      speaker: "Te Wu"
+      affiliation: "CEO and Chief Project Officer, PMO Advisory"
+
+  - id: seg-019
+    text: "This is a strong foundational source that provides a well-structured, multi-expert view of AI's current and near-term role in project management."
+    type: noise
+    section: "Relevance"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "It combines survey data from Capterra with practitioner and analyst perspectives, making it valuable for understanding both the state of adoption and the practical constraints organizations face."
+    type: context
+    section: "Relevance"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "The distinction between where AI works well today (admin, planning, reporting) versus where it is limited (execution, resource allocation) is a key analytical frame."
+    type: noise
+    section: "Relevance"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "The source is valuable for its combination of survey data and practical perspectives on AI adoption constraints in project management."
+    type: context
+    section: "Relevance"
+    position: 22
+    source_format: prose

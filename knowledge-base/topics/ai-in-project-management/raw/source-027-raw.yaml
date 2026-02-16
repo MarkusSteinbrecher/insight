@@ -1,0 +1,265 @@
+source_id: source-027
+title: "Announcing The Forrester Wave: Collaborative Work Management Tools, Q2 2025"
+url: "https://www.forrester.com/blogs/announcing-the-forrester-wave-collaborative-work-management-tools-q2-2025/"
+author: "Margo Visitacion and Melissa Chhay (Forrester)"
+date: 2025-07-23
+total_segments: 34
+
+composition:
+  claim: { count: 11, pct: 32.4 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 1, pct: 2.9 }
+  definition: { count: 2, pct: 5.9 }
+  recommendation: { count: 2, pct: 5.9 }
+  context: { count: 8, pct: 23.5 }
+  methodology: { count: 2, pct: 5.9 }
+  example: { count: 1, pct: 2.9 }
+  attribution: { count: 2, pct: 5.9 }
+  noise: { count: 5, pct: 14.7 }
+
+signal_ratio: 85.3
+
+segments:
+  # --- Title ---
+  - id: seg-001
+    text: "Announcing The Forrester Wave: Collaborative Work Management Tools, Q2 2025"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # --- Summary ---
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Forrester's Q2 2025 Wave evaluation of Collaborative Work Management (CWM) tools assessed 11 vendors — Adobe, Airtable, Asana, Atlassian, ClickUp, monday.com, Quickbase, ServiceNow, Smartsheet, Wrike, and Zoho — across 15 current-offering criteria and 8 strategy criteria."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Each vendor was evaluated through a questionnaire, executive strategy briefings and demos, and interviews with up to three reference customers."
+    type: methodology
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The evaluation reflects a market in rapid evolution, where AI-driven capabilities are becoming central to competitive differentiation."
+    type: claim
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The report's key insight for project management practitioners is that CWM tools have evolved beyond project or task planning to empower users to act, drive outcomes, and perform work proactively."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Three critical considerations emerge: integration depth is crucial (beyond surface-level, assessing flexibility and scalability), AI depends on data quality (clean, well-structured, accessible data is essential for reliable AI outputs), and project portfolio management remains essential — CWM solutions are not yet full replacements for traditional PPM systems."
+    type: claim
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "The portfolio management gap is particularly notable: governance, scalability, and robust data models required for enterprise-scale planning are still maturing in many CWM platforms."
+    type: claim
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  # --- Key Takeaways ---
+  - id: seg-009
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 9
+    source_format: heading
+
+  - id: seg-010
+    text: "Forrester evaluated 11 CWM vendors: Adobe, Airtable, Asana, Atlassian, ClickUp, monday.com, Quickbase, ServiceNow, Smartsheet, Wrike, Zoho"
+    type: context
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "Evaluation covered 15 current-offering criteria and 8 strategy criteria"
+    type: context
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "CWM tools have evolved from project/task planning to outcome-driven work platforms"
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "AI capabilities are no longer optional — they are central to competitive differentiation in PM tools"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "AI value depends on data quality: clean, well-structured, accessible data is a prerequisite for reliable AI-driven recommendations"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "CWM platforms are not yet full replacements for traditional Project Portfolio Management (PPM) systems"
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Portfolio management at enterprise scale requires governance, scalability, and robust data models still maturing in CWM"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Integration depth with the broader tech ecosystem is essential — surface-level integrations are insufficient"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Organizations are starting to implement CWM tools as a system of record for work"
+    type: evidence
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "The CWM market continues fast-paced growth with expanded capabilities"
+    type: context
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  # --- Notable Quotes ---
+  - id: seg-020
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "AI can be a powerful accelerator for productivity, but its value is only as strong as the data it relies on — clean, well-structured, and accessible data is essential for generating reliable outputs and building trust in AI-driven recommendations."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  - id: seg-022
+    text: "— Forrester Wave, Q2 2025"
+    type: attribution
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "CWM solutions are flexible and allow for proactive work, but they are not yet full replacements for traditional PPM systems."
+    type: claim
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  - id: seg-024
+    text: "— Forrester Wave, Q2 2025"
+    type: attribution
+    section: "Notable Quotes"
+    position: 24
+    source_format: quote
+
+  # --- Relevance to Topic ---
+  - id: seg-025
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 25
+    source_format: heading
+
+  - id: seg-026
+    text: "This Forrester evaluation provides an authoritative assessment of the AI capabilities embedded in mainstream PM tools that enterprise practitioners actually use."
+    type: context
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The finding that CWM tools are not yet PPM replacements is particularly important — it suggests organizations need a layered approach where AI-enhanced CWM handles execution while separate PPM capabilities handle governance and portfolio-level decisions."
+    type: recommendation
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The data quality prerequisite for AI effectiveness reinforces findings from other sources in this collection."
+    type: context
+    section: "Relevance to Topic"
+    position: 28
+    source_format: prose
+
+  # --- Additional context and definitions ---
+  - id: seg-029
+    text: "Collaborative Work Management (CWM) refers to tools that help teams plan, coordinate, and execute work collaboratively, extending beyond traditional project management."
+    type: definition
+    section: "Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Project Portfolio Management (PPM) refers to enterprise-scale governance systems that manage portfolios of projects with resource allocation, strategic alignment, and risk oversight."
+    type: definition
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "11 vendors evaluated: Adobe, Airtable, Asana, Atlassian, ClickUp, monday.com, Quickbase, ServiceNow, Smartsheet, Wrike, Zoho"
+    type: example
+    section: "Summary"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "AI-driven capabilities are becoming central to competitive differentiation in the CWM market."
+    type: context
+    section: "Summary"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "Organizations need a layered approach where AI-enhanced CWM handles execution while separate PPM capabilities handle governance and portfolio-level decisions."
+    type: context
+    section: "Relevance to Topic"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "The data quality prerequisite for AI effectiveness is a recurring theme across multiple sources."
+    type: context
+    section: "Relevance to Topic"
+    position: 34
+    source_format: prose

@@ -1,0 +1,355 @@
+meta:
+  topic: ai-in-project-management
+  created: 2026-02-16
+  total_use_cases: 25
+  sources_scanned: 32
+  categories:
+    planning: 3
+    scheduling: 1
+    risk_management: 2
+    resource_allocation: 2
+    reporting: 2
+    communication: 3
+    decision_support: 3
+    cost_management: 2
+    knowledge_management: 2
+    governance: 2
+    other: 3
+
+use_cases:
+
+  # ════════════════════════════════════════
+  # PLANNING
+  # ════════════════════════════════════════
+
+  - id: uc-001
+    use_case: "Project planning and setup"
+    category: planning
+    description: "AI generates project plans, work breakdown structures, scope documents, charters, risk logs, and task breakdowns from minimal input, reducing the blank-sheet problem at project initiation. Includes WBS generation, user story creation, and template reuse from past projects."
+    maturity: deployed
+    evidence:
+      - "Microsoft Dynamics 365 Copilot ships AI task plan generation — up to 100 tasks with durations and start dates from project name and description (source-008)"
+      - "PwC Austria describes the 'era of project scoping fading away' as GenAI takes over repetitive definition work (source-031)"
+      - "Scope management ranked among the top five PM knowledge areas with strongest AI potential (SLR, source-019)"
+    sources: [source-001, source-007, source-008, source-009, source-010, source-019, source-030, source-031]
+    source_count: 8
+
+  - id: uc-002
+    use_case: "Project selection and prioritization"
+    category: planning
+    description: "AI evaluates and ranks project proposals at the portfolio level based on strategic alignment, expected ROI, resource availability, and organizational capacity, helping PMOs decide which projects to fund."
+    maturity: emerging
+    evidence:
+      - "Project prioritization identified as one of three most difficult PM processes to embed (Wellingtone, source-032)"
+      - "HBR identifies PMO support including project selection as one of six areas AI will disrupt in PM (source-030)"
+    sources: [source-030, source-032]
+    source_count: 2
+
+  - id: uc-003
+    use_case: "Scenario planning and what-if analysis"
+    category: planning
+    description: "AI models the impact of environment changes, resource shifts, or scope modifications on project outcomes, enabling project managers to evaluate future consequences before committing to decisions."
+    maturity: emerging
+    evidence:
+      - "Boudreau identifies scenario planning as a core PM task where AI offers greatest benefit (source-030)"
+    sources: [source-030]
+    source_count: 1
+
+  # ════════════════════════════════════════
+  # SCHEDULING
+  # ════════════════════════════════════════
+
+  - id: uc-004
+    use_case: "Schedule optimization and monitoring"
+    category: scheduling
+    description: "ML algorithms optimize project schedules by analyzing task dependencies, resource constraints, critical path, and historical delivery patterns. Includes real-time schedule monitoring, baseline tracking, dynamic adjustment, and critical path management."
+    maturity: deployed
+    evidence:
+      - "52% of PM tool users report using AI for schedule optimization (Capterra 2024 survey, 2,545 respondents, source-001/source-024)"
+      - "Project schedule management identified as one of the top three PM knowledge areas most affected by AI (expert survey, source-017)"
+      - "Ranked third among PM areas most impacted by AI (2024 PMI global survey, 2,314 respondents, source-014)"
+    sources: [source-001, source-013, source-014, source-017, source-019, source-020, source-024, source-028, source-030]
+    source_count: 9
+
+  # ════════════════════════════════════════
+  # RISK MANAGEMENT
+  # ════════════════════════════════════════
+
+  - id: uc-005
+    use_case: "Predictive risk identification"
+    category: risk_management
+    description: "AI identifies potential project risks before they materialize by analyzing historical patterns, current project data, and cross-project signals. Includes quantitative risk analysis (Bayesian networks, Monte Carlo, neural networks), qualitative risk assessment, and continuous monitoring that replaces periodic risk reviews."
+    maturity: deployed
+    evidence:
+      - "54% of PM tool users report using AI for project risk management (Capterra 2024 survey, source-001/source-024)"
+      - "Quantitative risk analysis is the most common AI application in PM literature (215 papers, source-011)"
+      - "Risk management identified as one of the top three PM knowledge areas most affected by AI (expert survey, source-017)"
+      - "Microsoft Dynamics 365 ships AI-generated risk assessments from project metadata and logged actuals (source-008)"
+    sources: [source-001, source-005, source-007, source-008, source-011, source-013, source-017, source-018, source-019, source-020, source-024, source-028, source-030]
+    source_count: 13
+
+  - id: uc-006
+    use_case: "Change request impact analysis"
+    category: risk_management
+    description: "AI determines the downstream impact of change requests on scope, schedule, and budget, helping project managers evaluate and minimize the ripple effects of proposed changes before approval."
+    maturity: emerging
+    evidence:
+      - "Boudreau identifies change request impact analysis as a core PM task where AI offers the greatest benefit (source-030)"
+    sources: [source-030]
+    source_count: 1
+
+  # ════════════════════════════════════════
+  # RESOURCE ALLOCATION
+  # ════════════════════════════════════════
+
+  - id: uc-007
+    use_case: "Resource planning and allocation"
+    category: resource_allocation
+    description: "AI analyzes resource availability, skills, workload, and project demands to recommend optimal assignments. Includes demand forecasting, dynamic reallocation as conditions change, and talent-to-project matching across portfolios."
+    maturity: deployed
+    evidence:
+      - "47% of PM tool users report using AI for resource planning and allocation (Capterra 2024 survey, source-001/source-024)"
+      - "Resource management identified as one of the three most difficult PM processes to embed (Wellingtone, source-032)"
+      - "AI described as most valuable in multi-project environments with shared resource pools (source-030)"
+    sources: [source-001, source-003, source-007, source-010, source-018, source-020, source-024, source-030, source-032]
+    source_count: 9
+
+  - id: uc-008
+    use_case: "Multi-project portfolio optimization"
+    category: resource_allocation
+    description: "AI manages inter-project dependencies, resource conflicts, and competing priorities across large project portfolios, handling data volumes and variable counts that exceed human cognitive capacity."
+    maturity: emerging
+    evidence:
+      - "AI described as most valuable in multi-project environments with shared resource pools — 'enormous data volumes, numerous inter-project dependencies, many variables, and high uncertainty' (source-030)"
+      - "Small companies running few projects may not benefit; value increases with portfolio complexity (source-030)"
+    sources: [source-030]
+    source_count: 1
+
+  # ════════════════════════════════════════
+  # REPORTING
+  # ════════════════════════════════════════
+
+  - id: uc-009
+    use_case: "Automated status reporting"
+    category: reporting
+    description: "AI collates project data from multiple sources and generates status reports, dashboards, and performance summaries, replacing manual data gathering and report formatting. Includes real-time KPI dashboards and continuous progress tracking."
+    maturity: deployed
+    evidence:
+      - "50% of PM professionals spend one or more days per month manually collating project status information (Wellingtone, source-005/source-032)"
+      - "Ranked as the top PM area impacted by AI (2024 PMI global survey, 2,314 respondents, source-014)"
+      - "47% of respondents do not have access to real-time project KPIs (Wellingtone, source-032)"
+      - "Microsoft Dynamics 365 ships AI-generated status reports from financial, resource, effort, and schedule data (source-008)"
+      - "PMI classifies automated report generation as a low-complexity automation task (source-013)"
+    sources: [source-001, source-005, source-007, source-008, source-010, source-013, source-014, source-030, source-031, source-032]
+    source_count: 10
+
+  - id: uc-010
+    use_case: "Predictive project forecasting"
+    category: reporting
+    description: "AI uses historical project data and current trajectory to forecast delivery dates, budget consumption, benefits realization, and potential blockers, providing forward-looking visibility rather than backward-looking status."
+    maturity: deployed
+    evidence:
+      - "52% of PM tool users report using AI for predictive analysis and forecasting (Capterra 2024 survey, source-001/source-024)"
+      - "Project cost management identified as the PM knowledge area where AI has the strongest effect (expert survey, source-017)"
+      - "Applied in healthcare SaaS context for multi-client implementation forecasting (source-010)"
+    sources: [source-001, source-003, source-007, source-010, source-017, source-020, source-024]
+    source_count: 7
+
+  # ════════════════════════════════════════
+  # COMMUNICATION
+  # ════════════════════════════════════════
+
+  - id: uc-011
+    use_case: "Automated meeting summaries"
+    category: communication
+    description: "AI transcribes and summarizes project meetings, extracting action items, decisions, and key discussion points. Effectiveness depends on organizational context — AI struggles with acronyms, shorthand, and incomplete sentences."
+    maturity: deployed
+    evidence:
+      - "AI 'dangerously fills in gaps with incorrect guesses' when lacking organizational context (source-009)"
+      - "Fireflies.ai cited as real-world example for conversation processing in Slack (source-028)"
+      - "PMI identifies automated meeting summaries as a current GenAI application spanning the project lifecycle (source-026)"
+    sources: [source-009, source-013, source-024, source-026, source-028]
+    source_count: 5
+
+  - id: uc-012
+    use_case: "Stakeholder communication"
+    category: communication
+    description: "GenAI drafts and tailors stakeholder communications, adjusting content and detail level for different audiences (executives, team members, clients). Includes automated status updates, progress notifications, and audience-specific messaging."
+    maturity: emerging
+    evidence:
+      - "Communication and stakeholder management identified as domains where generative AI is best suited, based on tacit knowledge requirements (source-019)"
+      - "PMI identifies automated stakeholder updates as a current GenAI application (source-026)"
+    sources: [source-019, source-020, source-026]
+    source_count: 3
+
+  - id: uc-013
+    use_case: "Virtual project assistants"
+    category: communication
+    description: "AI-powered chatbots and virtual assistants serve as always-available project interfaces for progress checks, reminders, question-answering, and routine task organization, reducing reliance on status meetings and email chains."
+    maturity: deployed
+    evidence:
+      - "Microsoft Dynamics 365 ships a chat-format Copilot for contextual project queries (source-008)"
+      - "PwC Phase 2 model describes bots handling meeting organization, progress checks, and reminders (source-028)"
+      - "Stratejos.ai cited as example for team performance tracking via conversational interface (source-028)"
+      - "HBR identifies virtual assistants as one of six AI disruption areas in PM (source-030)"
+    sources: [source-008, source-010, source-018, source-024, source-028, source-030, source-031]
+    source_count: 7
+
+  # ════════════════════════════════════════
+  # DECISION SUPPORT
+  # ════════════════════════════════════════
+
+  - id: uc-014
+    use_case: "Data-driven decision support"
+    category: decision_support
+    description: "AI synthesizes project data from multiple sources into actionable recommendations, providing decision intelligence rather than raw data. Includes pattern detection in status reports, risk logs, and project documentation to surface insights that would be impractical to detect manually."
+    maturity: deployed
+    evidence:
+      - "53% of organizations with enterprise AI report enhanced insights and decision-making as an achieved benefit (Deloitte 2026 survey, source-022)"
+      - "Data analysis identified as the single most effective GenAI use case across enterprise functions (Wharton/GBK, source-029)"
+      - "80% of PMOs expected to use AI for decision-making by 2026 (Wellingtone, source-032)"
+    sources: [source-002, source-009, source-013, source-018, source-022, source-029, source-030, source-032]
+    source_count: 8
+
+  - id: uc-015
+    use_case: "AI agents co-leading delivery"
+    category: decision_support
+    description: "AI agents take lead roles in managing specific projects alongside human teams, autonomously handling certain delivery decisions while escalating complex or ambiguous situations. Represents the shift from AI-assisted to AI-led project execution."
+    maturity: conceptual
+    evidence:
+      - "44% of enterprise leaders expect AI agents to take lead roles in managing specific projects in the next 2-3 years (KPMG Q4 2025 survey, source-023)"
+      - "PwC describes fully autonomous PM as 'Phase 4 — still theoretical and faces significant obstacles' (source-028)"
+      - "23% of organizations are scaling an agentic AI system; 39% are experimenting (McKinsey 2025 survey, source-021)"
+    sources: [source-021, source-023, source-025, source-028]
+    source_count: 4
+
+  - id: uc-016
+    use_case: "Orchestrated multi-agent systems"
+    category: decision_support
+    description: "Multiple specialized AI agents operate as coordinated systems within project delivery, governed by end-to-end control frameworks. Moves beyond individual AI tools to orchestrated ecosystems where agents manage workflows, coordinate across systems, and handle cross-functional handoffs."
+    maturity: emerging
+    evidence:
+      - "KPMG predicts 2026 as the year of 'orchestrated super-agent ecosystems, governed end-to-end by robust control systems' (source-023)"
+      - "Agent deployment surged from 11% to 26% in 2025 (KPMG, source-023)"
+      - "PwC launched an AI agent operating system for workflow orchestration (source-003)"
+    sources: [source-002, source-003, source-006, source-007, source-023, source-025]
+    source_count: 6
+
+  # ════════════════════════════════════════
+  # COST MANAGEMENT
+  # ════════════════════════════════════════
+
+  - id: uc-017
+    use_case: "Cost estimation and forecasting"
+    category: cost_management
+    description: "AI leverages historical project cost data to generate cost estimates, perform cost-benefit analyses, and forecast budget consumption, improving accuracy over manual estimation methods."
+    maturity: emerging
+    evidence:
+      - "Project cost management identified as the single PM knowledge area where AI would have the strongest effect (expert survey, source-017)"
+      - "AI sometimes estimates costs more accurately than human project managers (source-001)"
+    sources: [source-001, source-013, source-017]
+    source_count: 3
+
+  - id: uc-018
+    use_case: "Benefits management and ROI tracking"
+    category: cost_management
+    description: "AI tracks project benefits realization and ROI metrics against business case projections, providing early warning when expected benefits are at risk of not materializing."
+    maturity: emerging
+    evidence:
+      - "AI-using companies achieve 69% benefits realization vs. 53% without AI, and 64% meet ROI estimates vs. 52% without (PMI research, source-030)"
+      - "Benefits management identified as one of the three most difficult PM processes to embed (Wellingtone, source-032)"
+    sources: [source-030, source-032]
+    source_count: 2
+
+  # ════════════════════════════════════════
+  # KNOWLEDGE MANAGEMENT
+  # ════════════════════════════════════════
+
+  - id: uc-019
+    use_case: "Document drafting and summarization"
+    category: knowledge_management
+    description: "GenAI drafts project documents (plans, proposals, specifications, correspondence) and summarizes lengthy reports into concise briefings, accelerating both document creation and consumption."
+    maturity: deployed
+    evidence:
+      - "Document editing/writing identified as one of the most effective GenAI use cases across enterprises (Wharton/GBK, source-029)"
+      - "Document summarization identified as one of the most effective GenAI use cases in enterprise settings (Wharton/GBK, source-029)"
+    sources: [source-007, source-024, source-029]
+    source_count: 3
+
+  - id: uc-020
+    use_case: "Knowledge capture and retrieval"
+    category: knowledge_management
+    description: "AI centralizes organizational project knowledge — lessons learned, past decisions, institutional context — into searchable systems, enabling faster onboarding and context retrieval for project teams."
+    maturity: emerging
+    evidence:
+      - "PwC deployed AI-powered knowledge management internally for PMO teams to expedite client delivery (source-003)"
+      - "CIO advocates building internal data graphs and incident intelligence layers as substrate for AI reasoning (source-006)"
+    sources: [source-003, source-006, source-020]
+    source_count: 3
+
+  # ════════════════════════════════════════
+  # GOVERNANCE
+  # ════════════════════════════════════════
+
+  - id: uc-021
+    use_case: "AI governance and oversight"
+    category: governance
+    description: "Frameworks for governing AI use within project delivery, including tiered autonomy models, shadow AI detection, output verification, accountability structures, and policy-as-code compliance automation. Addresses the gap between rising AI usage and organizational readiness to manage it."
+    maturity: emerging
+    evidence:
+      - "Only 1 in 5 companies has a mature governance model for autonomous AI agents (Deloitte 2026 survey, source-022)"
+      - "RICS launched global professional standard for responsible AI use, mandatory March 2026 (source-002)"
+      - "Deloitte Australia repaid fees to the Australian government after a report contained AI-generated errors (source-004)"
+    sources: [source-002, source-004, source-006, source-010, source-019, source-022]
+    source_count: 6
+
+  - id: uc-022
+    use_case: "PMO-led AI adoption and scaling"
+    category: governance
+    description: "PMOs and transformation offices drive enterprise AI adoption strategy, managing the organizational change required to move from AI pilots to scaled deployment, including workflow redesign, skills development, and change management."
+    maturity: emerging
+    evidence:
+      - "67% of organizations remain stuck in pilot mode (McKinsey 2025, source-021)"
+      - "Workflow redesign has the biggest effect on EBIT impact from gen AI (McKinsey, source-021)"
+      - "Only 39% of organizations report any enterprise-wide EBIT impact from AI, typically under 5% (McKinsey, source-021)"
+      - "48% of AI high performers have senior leader commitment vs. 16% in other companies (McKinsey, source-021)"
+    sources: [source-021, source-027]
+    source_count: 2
+
+  # ════════════════════════════════════════
+  # OTHER
+  # ════════════════════════════════════════
+
+  - id: uc-023
+    use_case: "Routine task automation"
+    category: other
+    description: "AI automates standardized, repetitive PM tasks including email management, scheduling, exception-based alerts, task assignments, follow-ups, and administrative workflows, freeing project managers for strategic and collaborative work."
+    maturity: deployed
+    evidence:
+      - "53% of PM tool users report using AI for task automation (Capterra 2024 survey, source-001/source-024)"
+      - "44% of teams rely on AI-assisted PM features such as automated alerts or task suggestions (source-005)"
+      - "Knowledge workers spend 60% of their time on 'work about work' (Asana, cited in source-005)"
+      - "Gartner predicts 80% of PM tasks will be run by AI by 2030 (cited by source-030 and source-031)"
+    sources: [source-001, source-005, source-018, source-020, source-024, source-028, source-030, source-031]
+    source_count: 8
+
+  - id: uc-024
+    use_case: "Team performance tracking"
+    category: other
+    description: "AI monitors team productivity, velocity, and capacity patterns, identifying bottlenecks and workload imbalances to help project managers manage team effectiveness proactively."
+    maturity: emerging
+    evidence:
+      - "Stratejos.ai cited as a real-world example of AI-based team performance tracking (PwC Phase 2, source-028)"
+      - "HBR envisions real-time access to team morale and project KPIs via mobile (source-018)"
+    sources: [source-018, source-028]
+    source_count: 2
+
+  - id: uc-025
+    use_case: "AI-powered quality assurance"
+    category: other
+    description: "AI assists in quality assurance by automating testing processes and identifying defects or compliance gaps in project deliverables."
+    maturity: emerging
+    evidence:
+      - "HBR identifies testing systems as one of six areas AI will disrupt in PM (source-030)"
+    sources: [source-030]
+    source_count: 1

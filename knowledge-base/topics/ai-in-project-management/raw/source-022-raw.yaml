@@ -1,0 +1,310 @@
+source_id: source-022
+title: "The State of AI in the Enterprise: 2026 AI Report"
+url: "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html"
+author: "Deloitte"
+date: 2026-01-01
+total_segments: 32
+
+composition:
+  claim: { count: 8, pct: 25.0 }
+  statistic: { count: 10, pct: 31.2 }
+  evidence: { count: 3, pct: 9.4 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 1, pct: 3.1 }
+  context: { count: 4, pct: 12.5 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 2, pct: 6.2 }
+  noise: { count: 4, pct: 12.5 }
+
+signal_ratio: 87.5
+
+segments:
+  - id: seg-001
+    text: "The State of AI in the Enterprise: 2026 AI Report"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Deloitte's 2026 State of AI in the Enterprise report tracks the shift from AI ambition to activation across global organizations."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The report identifies that organizations stand at the \"untapped edge\" of AI's potential, with worker access to AI rising by 50% in 2025."
+    type: statistic
+    section: "Summary"
+    position: 4
+    source_format: prose
+    metadata:
+      metric: "worker access to AI increase"
+      value: 50
+      unit: "%"
+      population: "workers across global organizations"
+
+  - id: seg-005
+    text: "The number of companies with 40% or more of their AI projects in production is set to double in six months, signaling a transition from piloting to scaling."
+    type: statistic
+    section: "Summary"
+    position: 5
+    source_format: prose
+    metadata:
+      metric: "companies with 40%+ AI projects in production"
+      value: 2
+      unit: "x increase"
+      population: "companies with AI projects"
+
+  - id: seg-006
+    text: "The report finds that twice as many leaders as last year report transformative AI impact, but only 34% are truly reimagining their business through AI."
+    type: statistic
+    section: "Summary"
+    position: 6
+    source_format: prose
+    metadata:
+      metric: "leaders truly reimagining business through AI"
+      value: 34
+      unit: "%"
+      population: "business leaders surveyed"
+
+  - id: seg-007
+    text: "Productivity and efficiency top the list of achieved benefits (66% of organizations), followed by enhanced insights and decision-making (53%), cost reduction (40%), and enhanced client/customer relationships (38%)."
+    type: statistic
+    section: "Summary"
+    position: 7
+    source_format: prose
+    metadata:
+      metric: "organizations reporting productivity/efficiency gains"
+      value: 66
+      unit: "%"
+      population: "organizations with enterprise AI"
+
+  - id: seg-008
+    text: "Revenue growth remains largely aspirational, with 74% hoping to grow revenue through AI compared to just 20% currently achieving it."
+    type: statistic
+    section: "Summary"
+    position: 8
+    source_format: prose
+    metadata:
+      metric: "organizations achieving revenue growth from AI"
+      value: 20
+      unit: "%"
+      population: "organizations with enterprise AI"
+
+  - id: seg-009
+    text: "The report also highlights critical gaps: the AI skills gap is seen as the biggest barrier to integration, with education -- not role or workflow redesign -- being the primary talent strategy adjustment."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "Agentic AI usage is poised to rise sharply, but oversight is lagging, with only one in five companies having a mature governance model for autonomous AI agents."
+    type: claim
+    section: "Summary"
+    position: 10
+    source_format: prose
+
+  - id: seg-011
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 11
+    source_format: heading
+
+  - id: seg-012
+    text: "Worker access to AI rose by 50% in 2025; companies with 40%+ projects in production set to double in six months"
+    type: statistic
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "worker AI access increase"
+      value: 50
+      unit: "%"
+      population: "global workforce"
+
+  - id: seg-013
+    text: "Twice as many leaders report transformative AI impact compared to last year, but only 34% are truly reimagining their business"
+    type: statistic
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: "leaders reimagining business through AI"
+      value: 34
+      unit: "%"
+      population: "business leaders surveyed"
+
+  - id: seg-014
+    text: "66% of organizations report productivity and efficiency gains from enterprise AI adoption"
+    type: statistic
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: "organizations with productivity/efficiency gains"
+      value: 66
+      unit: "%"
+      population: "organizations with enterprise AI"
+
+  - id: seg-015
+    text: "53% report enhanced insights and decision-making; 40% report cost reduction"
+    type: statistic
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+    metadata:
+      metric: "organizations with enhanced insights/decision-making"
+      value: 53
+      unit: "%"
+      population: "organizations with enterprise AI"
+
+  - id: seg-016
+    text: "Revenue growth largely aspirational: 74% hope for it, only 20% achieving it"
+    type: evidence
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+    metadata:
+      metric: "aspiration vs achievement gap for AI-driven revenue"
+      value: 54
+      unit: "percentage points"
+      population: "organizations with enterprise AI"
+
+  - id: seg-017
+    text: "AI skills gap is the biggest barrier to integration; education is the No. 1 talent adjustment strategy"
+    type: claim
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Only 1 in 5 companies has a mature governance model for autonomous AI agents"
+    type: claim
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+    metadata:
+      metric: "companies with mature AI agent governance"
+      value: 20
+      unit: "%"
+      population: "companies using AI agents"
+
+  - id: seg-019
+    text: "42% of companies believe their strategy is highly prepared for AI adoption, but feel less prepared on infrastructure, data, risk, and talent"
+    type: evidence
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+    metadata:
+      metric: "companies with strategy highly prepared for AI"
+      value: 42
+      unit: "%"
+      population: "companies surveyed"
+
+  - id: seg-020
+    text: "Physical AI gaining traction: 58% report at least limited use today, expected to reach 80% in two years"
+    type: statistic
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+    metadata:
+      metric: "organizations with physical AI use"
+      value: 58
+      unit: "%"
+      population: "organizations surveyed"
+
+  - id: seg-021
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "Organizations today stand at the untapped edge of AI's potential. Success hinges on the ability to move boldly from ambition to activation."
+    type: claim
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "Improving productivity and efficiency top the list of benefits achieved from enterprise AI adoption so far, with two-thirds of organizations reporting gains."
+    type: claim
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  - id: seg-024
+    text: "This report provides a comprehensive view of enterprise AI maturity that directly applies to project management."
+    type: context
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The finding that skills gaps -- rather than technology -- represent the biggest barrier mirrors challenges in PM AI adoption."
+    type: claim
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The governance gap for agentic AI (only 1 in 5 companies with mature models) is particularly relevant as PM tools increasingly incorporate autonomous agents."
+    type: evidence
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "The contrast between strategic readiness (42%) and operational preparedness across infrastructure, data, risk, and talent illuminates the gap that PMOs must bridge."
+    type: claim
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Deloitte's 2026 State of AI in the Enterprise report is the latest in their annual series tracking enterprise AI maturity."
+    type: attribution
+    section: "Summary"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "The shift from AI ambition to activation represents the current enterprise challenge."
+    type: context
+    section: "Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Education -- not role or workflow redesign -- is the primary talent strategy adjustment for addressing AI skills gaps."
+    type: recommendation
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Skills gaps rather than technology represent the biggest barrier to AI integration, mirroring challenges specific to PM AI adoption."
+    type: context
+    section: "Relevance to Topic"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "PM tools increasingly incorporate autonomous agents, making agentic AI governance directly relevant to the profession."
+    type: attribution
+    section: "Relevance to Topic"
+    position: 32
+    source_format: prose

@@ -1,0 +1,180 @@
+source_id: source-002
+title: "Five AI Trends for 2026 That Project Managers Need to Consider"
+url: "https://www.apm.org.uk/blog/five-ai-trends-for-2026-that-project-managers-need-to-consider/"
+author: "James Garner, Association for Project Management (APM)"
+date: 2026-01-20
+total_segments: 22
+
+composition:
+  claim: { count: 8, pct: 36.4 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 2, pct: 9.1 }
+  definition: { count: 1, pct: 4.5 }
+  recommendation: { count: 1, pct: 4.5 }
+  context: { count: 5, pct: 22.7 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 2, pct: 9.1 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 3, pct: 13.6 }
+
+signal_ratio: 86.4
+
+segments:
+  - id: seg-001
+    text: "Five AI Trends for 2026 That Project Managers Need to Consider"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Published by the Association for Project Management (APM), the UK's chartered professional body for project management, this article by James Garner (Senior Director at Gleeds and Chair of the Project Data Analytics Taskforce) identifies five critical trends at the intersection of AI and project management for 2026."
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The piece is forward-looking and covers both technological developments and their governance implications."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The article frames 2026 as a year where AI moves from experimentation to deployment in project management."
+    type: claim
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "It covers the emergence of hybrid human-AI workforces, the blurring of lines between consultancies and technology companies, growing trust concerns around AI outputs, the trajectory toward AGI, and the role of AI in enabling better communication and data-driven decision-making."
+    type: context
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "AECOM's $390 million acquisition of Norwegian AI startup Consigli is a notable real-world reference."
+    type: example
+    section: "Summary"
+    position: 6
+    source_format: prose
+    metadata:
+      metric: "AI startup acquisition value"
+      value: 390
+      unit: "million USD"
+      population: "AECOM acquisition of Consigli, late 2025"
+
+  - id: seg-007
+    text: "The most significant shift in 2026 is the emergence of a hybrid human-AI workforce, where agentic AI systems manage entire workflows from planning and resource allocation to risk mitigation."
+    type: claim
+    section: "Key Takeaways"
+    position: 7
+    source_format: bullet
+
+  - id: seg-008
+    text: "AECOM's $390 million acquisition of Norwegian AI startup Consigli in late 2025 signals that infrastructure consultancies are embedding AI at their core, transforming into tech-driven organizations."
+    type: evidence
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+
+  - id: seg-009
+    text: "The Royal Institution of Chartered Surveyors (RICS) has launched a global professional standard for responsible use of AI, becoming mandatory in March 2026."
+    type: evidence
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+
+  - id: seg-010
+    text: "A major consultancy (reportedly Deloitte) was forced to repay a portion of fees to the Australian government after its report was found to contain AI-generated errors -- illustrating the trust deficit."
+    type: example
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "Some companies are beginning to position themselves as 'AI-free' as a mark of quality and human craftsmanship."
+    type: claim
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Data and AI fluency are becoming core competencies for all project professionals, who must learn to manage, orchestrate, and collaborate with digital team members."
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "AI-powered decision intelligence (where AI recommends actions rather than just presenting data) is emerging as a key capability for project managers."
+    type: definition
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "This 'silicon workforce' will handle the hyper-automation of routine tasks, freeing up project managers to focus on strategic oversight and complex problem-solving."
+    type: claim
+    section: "Notable Quotes"
+    position: 14
+    source_format: quote
+
+  - id: seg-015
+    text: "The Wild West era of AI implementation is ending."
+    type: claim
+    section: "Notable Quotes"
+    position: 15
+    source_format: quote
+
+  - id: seg-016
+    text: "Project managers must balance the drive for AI-led efficiency with the critical need for ethical oversight, regulatory compliance and client trust."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 16
+    source_format: quote
+
+  - id: seg-017
+    text: "This source is valuable for its forward-looking perspective from a recognized professional body."
+    type: noise
+    section: "Relevance"
+    position: 17
+    source_format: prose
+
+  - id: seg-018
+    text: "The five trends it identifies -- hybrid workforce, consultancy transformation, trust deficit, AGI trajectory, and enhanced decision-making -- provide a structured framework for understanding the landscape of AI in project management as of early 2026."
+    type: context
+    section: "Relevance"
+    position: 18
+    source_format: prose
+
+  - id: seg-019
+    text: "The real-world examples (AECOM acquisition, Australian government incident, RICS standards) add concrete evidence to what could otherwise be speculative trend analysis."
+    type: context
+    section: "Relevance"
+    position: 19
+    source_format: prose
+
+  - id: seg-020
+    text: "The blurring of lines between consultancies and technology companies is a significant trend."
+    type: claim
+    section: "Summary"
+    position: 20
+    source_format: prose
+
+  - id: seg-021
+    text: "Growing trust concerns around AI outputs represent a key challenge for project management."
+    type: claim
+    section: "Summary"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "The role of AI in enabling better communication and data-driven decision-making is an emerging trend."
+    type: noise
+    section: "Summary"
+    position: 22
+    source_format: prose

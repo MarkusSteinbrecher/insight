@@ -1,0 +1,262 @@
+source_id: source-019
+title: "Artificial Intelligence Tools for Project Management: A Knowledge-Based Perspective"
+url: "https://www.sciencedirect.com/science/article/pii/S2666721525000213"
+author: "Pedro M. Almeida, Gabriela Fernandes, Jose M.R.C.A. Santos"
+date: 2025-01-01
+total_segments: 33
+
+composition:
+  claim: { count: 11, pct: 33.3 }
+  statistic: { count: 1, pct: 3.0 }
+  evidence: { count: 2, pct: 6.1 }
+  definition: { count: 3, pct: 9.1 }
+  recommendation: { count: 2, pct: 6.1 }
+  context: { count: 7, pct: 21.2 }
+  methodology: { count: 2, pct: 6.1 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 1, pct: 3.0 }
+  noise: { count: 4, pct: 12.1 }
+
+signal_ratio: 87.9
+
+segments:
+  - id: seg-001
+    text: "Artificial Intelligence Tools for Project Management: A Knowledge-Based Perspective"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Published in Project Leadership and Society (Elsevier, Volume 6, December 2025), this open-access empirical research paper explores how organizations can integrate AI into project management by examining the relationship between PM knowledge areas and the most suitable types of AI tools."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Through a systematic literature review and thematic analysis, the study proposes a conceptual framework that matches AI tools to PM domains based on the dominant knowledge type each area requires -- formal, data-driven, or tacit knowledge."
+    type: methodology
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The key contribution is the classification of PM knowledge areas by their dominant knowledge type and the subsequent matching to appropriate AI tools."
+    type: claim
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The study finds that integration management, scope management, communication management, risk management, and stakeholder management are the PM knowledge areas where AI holds the most significant potential."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "However, the type of AI tool best suited differs by area: generative AI is better suited for domains requiring tacit knowledge (like communication and stakeholder management), while machine learning algorithms for optimization and automation fit domains requiring formal and data-driven knowledge (like cost and schedule management)."
+    type: claim
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "This knowledge-based perspective is a novel contribution to the field, offering a more nuanced view than the common approach of simply listing AI applications."
+    type: claim
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "By grounding the framework in knowledge management theory, the study provides a principled basis for deciding which AI tools to deploy in which PM contexts."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "Proposes a conceptual framework linking AI tools to PM knowledge areas based on knowledge type (formal, data-driven, tacit)"
+    type: claim
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Identifies five PM knowledge areas with strongest AI potential: integration, scope, communication, risk, and stakeholder management"
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "PM knowledge areas with strongest AI potential"
+      value: 5
+      unit: "knowledge areas"
+      population: "PMBOK knowledge areas"
+
+  - id: seg-013
+    text: "Generative AI is best suited for tacit-knowledge domains (communication, stakeholder engagement)"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Machine learning algorithms (optimization, automation) are best suited for formal/data-driven domains (cost, schedule)"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Systematic literature review methodology with thematic analysis"
+    type: methodology
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Offers guidelines for future research to accelerate wide adoption of AI in PM"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Published in Project Leadership and Society (part of a special issue on \"Project Leadership and AI\")"
+    type: context
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Provides a principled, theory-grounded basis for matching AI tools to PM contexts, rather than ad hoc application lists"
+    type: claim
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Highlights that different PM activities require different AI approaches based on the nature of knowledge involved"
+    type: claim
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "Open access, making it widely available to practitioners and researchers"
+    type: context
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+
+  - id: seg-021
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "Key project management knowledge areas, such as integration, scope, communication, risk and stakeholder management, were identified as domains where artificial intelligence holds significant potential."
+    type: evidence
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "The study further investigates the relationship between these knowledge areas and the most suitable types of artificial intelligence tools... based on the dominant knowledge type each knowledge area requires, namely formal, data-driven, or tacit knowledge."
+    type: evidence
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  - id: seg-024
+    text: "This paper provides a critical missing piece in the AI-PM literature: a principled framework for matching AI tools to PM knowledge areas based on knowledge type."
+    type: context
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "While other studies identify which PM areas are most impacted by AI, this paper explains why and which type of AI is appropriate for each."
+    type: context
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The distinction between generative AI for tacit knowledge domains and ML algorithms for data-driven domains is a practically important insight that goes beyond what most frameworks offer."
+    type: context
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Published in a PM-specific journal's special issue on AI, it represents the current state of the art in conceptual thinking about AI integration in PM."
+    type: attribution
+    section: "Relevance to Topic"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "The dominant knowledge type each PM area requires determines which AI tool is most appropriate: formal, data-driven, or tacit knowledge."
+    type: definition
+    section: "Summary"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "Formal knowledge: structured, codified knowledge suited for machine learning optimization and automation."
+    type: definition
+    section: "Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "Tacit knowledge: unstructured, experience-based knowledge suited for generative AI approaches."
+    type: definition
+    section: "Summary"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "Integration management, scope management, communication management, risk management, and stakeholder management are the five PM knowledge areas where AI holds the most significant potential."
+    type: statistic
+    section: "Summary"
+    position: 31
+    source_format: prose
+    metadata:
+      metric: "PM knowledge areas with strongest AI potential"
+      value: 5
+      unit: "knowledge areas"
+      population: "PMBOK knowledge areas assessed"
+
+  - id: seg-032
+    text: "Different PM activities require different AI approaches based on the nature of knowledge involved."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "The knowledge-based perspective offers a more nuanced view than simply listing AI applications."
+    type: context
+    section: "Summary"
+    position: 33
+    source_format: prose

@@ -1,0 +1,334 @@
+source_id: source-032
+title: "The State of Project Management Annual Report 2025"
+url: "https://wellingtone.co.uk/publications/state-of-project-management-research/"
+author: "Wellingtone"
+date: 2025-12-01
+total_segments: 34
+
+composition:
+  claim: { count: 5, pct: 14.7 }
+  statistic: { count: 13, pct: 38.2 }
+  evidence: { count: 3, pct: 8.8 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 6, pct: 17.6 }
+  methodology: { count: 1, pct: 2.9 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 6, pct: 17.6 }
+
+signal_ratio: 82.4
+
+segments:
+  - id: seg-001
+    text: "The State of Project Management Annual Report 2025"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Wellingtone's annual State of Project Management Report, published since 2016, captures insights from hundreds of industry professionals on the current landscape of project management in the UK and globally."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The 2025 edition covers PM maturity, essential tools and techniques, project success rates, and PMO effectiveness."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "Data is collected through an extensive questionnaire, rigorously analyzed, anonymized, and also shared with leading universities for academic research."
+    type: methodology
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The report reveals persistent challenges in project delivery alongside growing PMO adoption."
+    type: context
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Only 31% of projects are reported as successful (on time, on budget, on scope), while 82% of organizations now operate one or more PMOs."
+    type: statistic
+    section: "Summary"
+    position: 7
+    source_format: prose
+    metadata:
+      data_points:
+        - { label: "Projects reported as successful", value: 31, unit: "%" }
+        - { label: "Organizations operating one or more PMOs", value: 82, unit: "%" }
+      population: "Industry professionals surveyed"
+
+  - id: seg-008
+    text: "A critical finding: 42% of respondents spend one or more days each month manually collating project reports — representing a clear automation opportunity for AI."
+    type: statistic
+    section: "Summary"
+    position: 8
+    source_format: prose
+    metadata:
+      metric: "Respondents spending 1+ days/month manually collating reports"
+      value: 42
+      unit: "%"
+      population: "Industry professionals surveyed"
+
+  - id: seg-009
+    text: "Resource management, benefits management, and project prioritization are identified as the three most difficult PM processes to embed."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "On the AI front, the report finds that organizations plan to increase AI investments by 36%, and by 2026 an estimated 80% of PMOs are expected to use AI for decision-making."
+    type: statistic
+    section: "Summary"
+    position: 10
+    source_format: prose
+    metadata:
+      data_points:
+        - { label: "Planned AI investment increase", value: 36, unit: "%" }
+        - { label: "PMOs expected to use AI for decision-making by 2026", value: 80, unit: "%" }
+      population: "Organizations surveyed"
+
+  - id: seg-011
+    text: "However, significant barriers remain: resistance to change from team members (26%), lack of skilled personnel (19%), data integration and quality issues (17%), and high costs and budget restraints (15%)."
+    type: statistic
+    section: "Summary"
+    position: 11
+    source_format: prose
+    metadata:
+      metric: "AI adoption barriers"
+      data_points:
+        - { label: "Resistance to change", value: 26, unit: "%" }
+        - { label: "Lack of skilled personnel", value: 19, unit: "%" }
+        - { label: "Data integration and quality issues", value: 17, unit: "%" }
+        - { label: "High costs and budget restraints", value: 15, unit: "%" }
+      population: "Respondents"
+
+  - id: seg-012
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 12
+    source_format: heading
+
+  - id: seg-013
+    text: "Only 31% of projects are successful (on time, on budget, on scope)"
+    type: statistic
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: "Project success rate"
+      value: 31
+      unit: "%"
+      population: "Projects surveyed"
+
+  - id: seg-014
+    text: "82% of organizations now operate one or more PMOs"
+    type: statistic
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: "Organizations with PMOs"
+      value: 82
+      unit: "%"
+      population: "Organizations surveyed"
+
+  - id: seg-015
+    text: "42% of respondents spend 1+ days per month manually collating project reports"
+    type: statistic
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+    metadata:
+      metric: "Respondents spending 1+ days/month on manual reporting"
+      value: 42
+      unit: "%"
+      population: "Respondents"
+
+  - id: seg-016
+    text: "47% do not have access to real-time project KPIs"
+    type: statistic
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+    metadata:
+      metric: "Respondents without real-time KPI access"
+      value: 47
+      unit: "%"
+      population: "Respondents"
+
+  - id: seg-017
+    text: "72% believe the scope and responsibilities of their PMO will get larger in the future"
+    type: statistic
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+    metadata:
+      metric: "Believing PMO scope will grow"
+      value: 72
+      unit: "%"
+      population: "Respondents"
+
+  - id: seg-018
+    text: "Three most difficult PM processes to embed: benefits management, resource management, project prioritization"
+    type: claim
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "Organizations plan to increase AI investments by 36%"
+    type: statistic
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+    metadata:
+      metric: "Planned AI investment increase"
+      value: 36
+      unit: "%"
+      population: "Organizations surveyed"
+
+  - id: seg-020
+    text: "80% of PMOs expected to use AI for decision-making by 2026"
+    type: statistic
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+    metadata:
+      metric: "PMOs expected to use AI for decision-making"
+      value: 80
+      unit: "%"
+      population: "PMOs by 2026"
+
+  - id: seg-021
+    text: "AI adoption barriers: resistance to change (26%), lack of skilled personnel (19%), data integration/quality issues (17%), cost/budget constraints (15%)"
+    type: statistic
+    section: "Key Takeaways"
+    position: 21
+    source_format: bullet
+    metadata:
+      metric: "AI adoption barriers"
+      data_points:
+        - { label: "Resistance to change", value: 26, unit: "%" }
+        - { label: "Lack of skilled personnel", value: 19, unit: "%" }
+        - { label: "Data integration/quality issues", value: 17, unit: "%" }
+        - { label: "Cost/budget constraints", value: 15, unit: "%" }
+      population: "Respondents"
+
+  - id: seg-022
+    text: "53% of projects are run by non-certified project managers; only 47% by certified professionals"
+    type: statistic
+    section: "Key Takeaways"
+    position: 22
+    source_format: bullet
+    metadata:
+      data_points:
+        - { label: "Projects run by non-certified PMs", value: 53, unit: "%" }
+        - { label: "Projects run by certified PMs", value: 47, unit: "%" }
+      population: "Projects surveyed"
+
+  - id: seg-023
+    text: "71% of companies believe employees need more project management skills"
+    type: claim
+    section: "Key Takeaways"
+    position: 23
+    source_format: bullet
+
+  - id: seg-024
+    text: "62% of organizations anticipate an increase in project work"
+    type: claim
+    section: "Key Takeaways"
+    position: 24
+    source_format: bullet
+
+  - id: seg-025
+    text: "53% expect to shift toward working in smaller, more agile teams"
+    type: claim
+    section: "Key Takeaways"
+    position: 25
+    source_format: bullet
+
+  - id: seg-026
+    text: "11% of organizations have no project management solutions at all"
+    type: noise
+    section: "Key Takeaways"
+    position: 26
+    source_format: bullet
+
+  - id: seg-027
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 27
+    source_format: heading
+
+  - id: seg-028
+    text: "42% of respondents spend 1 or more days manually collating project reports."
+    type: evidence
+    section: "Notable Quotes"
+    position: 28
+    source_format: quote
+    metadata:
+      attribution: "Wellingtone State of PM Report 2025"
+
+  - id: seg-029
+    text: "72% believe the scope and responsibilities of their PMO will get larger in the future."
+    type: evidence
+    section: "Notable Quotes"
+    position: 29
+    source_format: quote
+    metadata:
+      attribution: "Wellingtone State of PM Report 2025"
+
+  - id: seg-030
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 30
+    source_format: heading
+
+  - id: seg-031
+    text: "This report provides the ground-level practitioner perspective on PM operations, revealing the specific pain points that AI could address (manual reporting, lack of real-time KPIs, resource management)."
+    type: context
+    section: "Relevance to Topic"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "The 42% manual reporting statistic directly quantifies the efficiency opportunity for AI in PM."
+    type: evidence
+    section: "Relevance to Topic"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "The barrier analysis — led by resistance to change (26%) rather than technology limitations — suggests that the challenge of AI adoption in PM is primarily organizational and cultural, not technical."
+    type: context
+    section: "Relevance to Topic"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "The certification gap (53% of projects run by non-certified PMs) also raises questions about how AI tools will be adopted by practitioners with varying levels of PM maturity."
+    type: context
+    section: "Relevance to Topic"
+    position: 34
+    source_format: prose

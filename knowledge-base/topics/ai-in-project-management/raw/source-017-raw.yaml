@@ -1,0 +1,203 @@
+source_id: source-017
+title: "An Authoritative Study on the Near Future Effect of Artificial Intelligence on Project Management Knowledge Areas"
+url: "https://www.mdpi.com/2071-1050/13/4/2345"
+author: "Thordur Vikingur Fridgeirsson, Helgi Thor Ingason, Haukur Ingi Jonasson, Herdis Jonsdottir"
+date: 2021-02-20
+total_segments: 26
+
+composition:
+  claim: { count: 13, pct: 50.0 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 1, pct: 3.8 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 4, pct: 15.4 }
+  methodology: { count: 2, pct: 7.7 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 3, pct: 11.5 }
+  noise: { count: 3, pct: 11.5 }
+
+signal_ratio: 88.5
+
+segments:
+  - id: seg-001
+    text: "An Authoritative Study on the Near Future Effect of Artificial Intelligence on Project Management Knowledge Areas"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "Published in Sustainability (MDPI, 2021), this study is one of the seminal papers mapping AI's potential impact across the ten project management knowledge areas defined in the PMBOK (Project Management Body of Knowledge)."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The authors surveyed experts to determine which knowledge areas would be most affected by AI in the near future, making this an authoritative reference point for understanding the differential impact of AI across PM disciplines."
+    type: methodology
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The research finds that project cost management, project schedule management, and project risk management are the three knowledge areas where AI would have the strongest effect."
+    type: claim
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "These areas share a common characteristic: they rely heavily on historical data that can be leveraged for planning, estimation, and forecasting -- precisely the tasks where AI and machine learning excel."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "AI is found to be most useful in processes where historical data and information are used for planning and estimation, and where it can monitor schedules, maintain baselines, and adjust forecasts."
+    type: claim
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "The study is frequently cited in subsequent literature (including the Nenni et al. 2024 SLR and the Fridgeirsson et al. 2023 follow-up study) and has become a foundational reference for categorizing AI's differential impact across PM knowledge areas."
+    type: attribution
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "Its PMBOK-aligned approach makes it directly applicable to practitioners working within established PM frameworks."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "Explores AI's potential impact across all 10 PMBOK knowledge areas through expert survey"
+    type: methodology
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Identifies the top three most impacted areas: project cost management, project schedule management, and project risk management"
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "AI is most effective where historical data is available for estimation, planning, and forecasting"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "AI can be used to monitor schedules, maintain baselines, and adjust forecasts in real time"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "The planning phase across cost, risk, and schedule is identified as the primary locus of AI impact"
+    type: claim
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Lower-impact areas include those requiring more human judgment and interpersonal interaction"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Provides a PMBOK-aligned framework that is directly applicable to practitioners"
+    type: claim
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Published in 2021, this study has become a widely cited foundational reference in the AI-PM literature"
+    type: context
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "The follow-up study (Fridgeirsson et al. 2023) expanded on these findings with qualitative analysis"
+    type: attribution
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  - id: seg-020
+    text: "Establishes that data-intensive PM processes are the natural entry points for AI integration"
+    type: claim
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+
+  - id: seg-021
+    text: "AI will affect project management areas in the future and is useful where historical data and information are used for planning and estimation."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  - id: seg-022
+    text: "Project cost management, project schedule management, and project risk management are the three knowledge areas where AI would have the strongest effect."
+    type: claim
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "This is a foundational paper for the field, providing the first systematic expert-based assessment of AI's impact across all PMBOK knowledge areas."
+    type: context
+    section: "Relevance to Topic"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "Its finding that cost, schedule, and risk management are the primary impact areas has been confirmed by subsequent research and shapes how practitioners and academics think about prioritizing AI investments."
+    type: evidence
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The PMBOK alignment makes the findings immediately actionable for the global PM community."
+    type: context
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The 2021 publication date means it pre-dates the GenAI revolution, offering a baseline from the traditional AI/ML era."
+    type: attribution
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose

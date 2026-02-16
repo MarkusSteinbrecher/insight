@@ -1,0 +1,364 @@
+source_id: source-009
+title: "AI is Still No Replacement for PMO Excellence"
+url: "https://www.consultancy.uk/news/39961/ai-is-still-no-replacement-for-pmo-excellence"
+author: "Ed Davies, Project One (via Consultancy.uk)"
+date: 2025-04-29
+total_segments: 49
+
+composition:
+  claim: { count: 21, pct: 42.9 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 5, pct: 10.2 }
+  definition: { count: 3, pct: 6.1 }
+  recommendation: { count: 3, pct: 6.1 }
+  context: { count: 8, pct: 16.3 }
+  methodology: { count: 0, pct: 0.0 }
+  example: { count: 3, pct: 6.1 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 6, pct: 12.2 }
+
+signal_ratio: 87.8
+
+segments:
+  - id: seg-001
+    text: "AI is Still No Replacement for PMO Excellence"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "A practitioner perspective from Ed Davies of Project One, published on Consultancy.uk, that provides a critical counterpoint to the prevailing narrative of AI replacing PMO functions."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The article systematically examines three categories of AI capability -- generative AI for content creation, analytic AI for cutting through noise, and predictive AI for forecasting -- and argues that each has significant limitations that prevent it from substituting for skilled human PMO work."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "The article draws an analogy to IKEA's insight about the value of self-assembly (ownership through creation) to argue that AI-generated project artifacts reduce team ownership and commitment."
+    type: context
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "It also identifies specific failure modes of AI in project management contexts, including loss of context in meeting summaries, inability to handle organizational shorthand and acronyms, and the 'garbage in, garbage out' problem with AI-generated insights from poor-quality project data."
+    type: context
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 7
+    source_format: heading
+
+  - id: seg-008
+    text: "Generative AI can create transformation content (schedules, risk logs, status reports) very quickly, but documentation alone does not make change happen -- value only comes from use"
+    type: claim
+    section: "Key Takeaways"
+    position: 8
+    source_format: bullet
+
+  - id: seg-009
+    text: "The 'IKEA effect' applies to project management: when teams are handed AI-generated artifacts rather than creating them collaboratively, they lose ownership and commitment"
+    type: claim
+    section: "Key Takeaways"
+    position: 9
+    source_format: bullet
+
+  - id: seg-010
+    text: "AI-generated meeting summaries frequently fail because AI lacks organizational context, cannot interpret acronyms, shorthand, or incomplete sentences, and 'dangerously fills in gaps with incorrect guesses'"
+    type: claim
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "AI insights from status reports and risk logs are only as good as the underlying data -- if risks are not clearly articulated or reports miss key information, AI cannot compensate"
+    type: claim
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Current AI models lack situational and contextual awareness to judge whether statistical relationships they identify are rational or causal"
+    type: claim
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Large complex transformations are by their nature unusual, taking organizations 'outside of the established dataset' -- meaning AI predictions become less accurate precisely when stakes are highest"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Strong PMO adds value through coaching, training, and embedding practices through human relationships and interaction -- skills AI cannot replicate"
+    type: claim
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "The article distinguishes between problems where AI can help (content creation speed, noise reduction) and problems it cannot solve (team commitment, contextual judgment, organizational change management)"
+    type: definition
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "AI works best when supporting an existing strong PMO, not as a substitute for one"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 17
+    source_format: heading
+
+  - id: seg-018
+    text: "A well-known Swedish furniture company recognised the value of creating things yourself. When customers bolted together their own flat pack bookcase, they gained a much greater sense of ownership than having a fully assembled item arrive in a van."
+    type: example
+    section: "Notable Quotes"
+    position: 18
+    source_format: quote
+
+  - id: seg-019
+    text: "Whenever you're undertaking a large, complex change -- it's by its very nature unusual. For your organisation you're going outside of the established dataset into a new world."
+    type: claim
+    section: "Notable Quotes"
+    position: 19
+    source_format: quote
+
+  - id: seg-020
+    text: "Documentation and a stack of paperwork doesn't make change happen. Change and value only come from use."
+    type: claim
+    section: "Notable Quotes"
+    position: 20
+    source_format: quote
+
+  - id: seg-021
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "This source provides an essential critical counterbalance to the predominantly optimistic narratives around AI in project management."
+    type: context
+    section: "Relevance to Topic"
+    position: 22
+    source_format: prose
+
+  - id: seg-023
+    text: "Its analysis of specific failure modes (context loss, ownership deficit, data quality dependence, statistical limitations for novel situations) is grounded in practitioner experience rather than theoretical skepticism."
+    type: context
+    section: "Relevance to Topic"
+    position: 23
+    source_format: prose
+
+  - id: seg-024
+    text: "The IKEA effect analogy and the distinction between content creation and change management are distinctive analytical contributions that are not found in other sources."
+    type: context
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "Generative AI can create transformation content such as schedules, risk logs, and status reports very quickly."
+    type: claim
+    section: "Key Takeaways"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "Documentation alone does not make change happen."
+    type: claim
+    section: "Key Takeaways"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "Value only comes from use of project artifacts, not from their creation."
+    type: claim
+    section: "Key Takeaways"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "When teams are handed AI-generated artifacts rather than creating them collaboratively, they lose ownership and commitment."
+    type: claim
+    section: "Key Takeaways"
+    position: 28
+    source_format: prose
+
+  - id: seg-029
+    text: "AI lacks organizational context and cannot interpret acronyms, shorthand, or incomplete sentences."
+    type: evidence
+    section: "Key Takeaways"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "AI dangerously fills in gaps with incorrect guesses when processing meeting content."
+    type: evidence
+    section: "Key Takeaways"
+    position: 30
+    source_format: prose
+
+  - id: seg-031
+    text: "If risks are not clearly articulated or reports miss key information, AI cannot compensate for poor-quality input."
+    type: evidence
+    section: "Key Takeaways"
+    position: 31
+    source_format: prose
+
+  - id: seg-032
+    text: "Current AI models cannot judge whether statistical relationships they identify are rational or causal."
+    type: claim
+    section: "Key Takeaways"
+    position: 32
+    source_format: prose
+
+  - id: seg-033
+    text: "AI predictions become less accurate precisely when stakes are highest during large transformations."
+    type: claim
+    section: "Key Takeaways"
+    position: 33
+    source_format: prose
+
+  - id: seg-034
+    text: "Strong PMO adds value through coaching, training, and embedding practices."
+    type: claim
+    section: "Key Takeaways"
+    position: 34
+    source_format: prose
+
+  - id: seg-035
+    text: "Human relationships and interaction are skills AI cannot replicate."
+    type: claim
+    section: "Key Takeaways"
+    position: 35
+    source_format: prose
+
+  - id: seg-036
+    text: "AI can help with content creation speed and noise reduction."
+    type: definition
+    section: "Key Takeaways"
+    position: 36
+    source_format: prose
+
+  - id: seg-037
+    text: "AI cannot solve problems of team commitment, contextual judgment, or organizational change management."
+    type: definition
+    section: "Key Takeaways"
+    position: 37
+    source_format: prose
+
+  - id: seg-038
+    text: "AI works best when supporting an existing strong PMO, not as a substitute for one."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 38
+    source_format: prose
+
+  - id: seg-039
+    text: "The article examines three categories of AI capability: generative AI for content creation, analytic AI for cutting through noise, and predictive AI for forecasting."
+    type: context
+    section: "Summary"
+    position: 39
+    source_format: prose
+
+  - id: seg-040
+    text: "Each category of AI capability has significant limitations that prevent it from substituting for skilled human PMO work."
+    type: claim
+    section: "Summary"
+    position: 40
+    source_format: prose
+
+  - id: seg-041
+    text: "The IKEA effect describes how people value things more when they have a hand in creating them."
+    type: example
+    section: "Summary"
+    position: 41
+    source_format: prose
+
+  - id: seg-042
+    text: "AI-generated project artifacts reduce team ownership and commitment, analogous to the IKEA effect."
+    type: evidence
+    section: "Summary"
+    position: 42
+    source_format: prose
+
+  - id: seg-043
+    text: "Specific failure modes of AI include loss of context in meeting summaries."
+    type: evidence
+    section: "Summary"
+    position: 43
+    source_format: prose
+
+  - id: seg-044
+    text: "AI cannot handle organizational shorthand and acronyms."
+    type: claim
+    section: "Summary"
+    position: 44
+    source_format: prose
+
+  - id: seg-045
+    text: "The 'garbage in, garbage out' problem applies to AI-generated insights from poor-quality project data."
+    type: claim
+    section: "Summary"
+    position: 45
+    source_format: prose
+
+  - id: seg-046
+    text: "When customers bolted together their own flat pack bookcase, they gained a much greater sense of ownership than having a fully assembled item arrive in a van."
+    type: example
+    section: "Notable Quotes"
+    position: 46
+    source_format: quote
+
+  - id: seg-047
+    text: "AI should augment strong PMO practices, not replace them."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 47
+    source_format: prose
+
+  - id: seg-048
+    text: "Organizations need strong PMO fundamentals before layering AI capabilities on top."
+    type: recommendation
+    section: "Key Takeaways"
+    position: 48
+    source_format: prose
+
+  - id: seg-049
+    text: "Large complex transformations take organizations outside of the established dataset into a new world."
+    type: noise
+    section: "Notable Quotes"
+    position: 49
+    source_format: prose

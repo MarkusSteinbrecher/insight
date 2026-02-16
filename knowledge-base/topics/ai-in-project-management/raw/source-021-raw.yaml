@@ -1,0 +1,291 @@
+source_id: source-021
+title: "The State of AI in 2025: Agents, Innovation, and Transformation"
+url: "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+author: "McKinsey & Company (QuantumBlack)"
+date: 2025-11-01
+total_segments: 30
+
+composition:
+  claim: { count: 6, pct: 20.0 }
+  statistic: { count: 9, pct: 30.0 }
+  evidence: { count: 3, pct: 10.0 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 2, pct: 6.7 }
+  context: { count: 4, pct: 13.3 }
+  methodology: { count: 1, pct: 3.3 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 1, pct: 3.3 }
+  noise: { count: 4, pct: 13.3 }
+
+signal_ratio: 86.7
+
+segments:
+  - id: seg-001
+    text: "The State of AI in 2025: Agents, Innovation, and Transformation"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  - id: seg-002
+    text: "Summary"
+    type: noise
+    section: "Summary"
+    position: 2
+    source_format: heading
+
+  - id: seg-003
+    text: "McKinsey's eighth annual global survey on AI, published in November 2025, tracks the evolution of AI adoption across enterprises worldwide."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "Based on responses from 1,993 participants across 105 nations, the report finds that 88% of organizations now use AI in at least one business function, up from 20% in 2017."
+    type: statistic
+    section: "Summary"
+    position: 4
+    source_format: prose
+    metadata:
+      metric: "organizational AI adoption rate"
+      value: 88
+      unit: "%"
+      population: "global organizations surveyed"
+
+  - id: seg-005
+    text: "However, 67% of organizations remain stuck in \"pilot mode,\" unable to scale AI beyond initial experiments."
+    type: statistic
+    section: "Summary"
+    position: 5
+    source_format: prose
+    metadata:
+      metric: "organizations stuck in pilot mode"
+      value: 67
+      unit: "%"
+      population: "organizations using AI"
+
+  - id: seg-006
+    text: "The report identifies a growing gap between AI high performers and the rest."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "Only 39% of organizations report any enterprise-wide EBIT impact from AI, and the impact is typically under 5%."
+    type: statistic
+    section: "Summary"
+    position: 7
+    source_format: prose
+    metadata:
+      metric: "organizations reporting enterprise-wide EBIT impact from AI"
+      value: 39
+      unit: "%"
+      population: "global organizations surveyed"
+
+  - id: seg-008
+    text: "The redesign of workflows emerges as the single most important factor in realizing EBIT impact from generative AI."
+    type: claim
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  - id: seg-009
+    text: "Organizations that establish dedicated teams to drive gen AI adoption -- including project management offices, transformation offices, or dedicated adoption and scaling teams -- are more likely to succeed."
+    type: claim
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  - id: seg-010
+    text: "The report also highlights the emergence of agentic AI, with 23% of respondents reporting their organizations are scaling an agentic AI system and an additional 39% experimenting with AI agents."
+    type: statistic
+    section: "Summary"
+    position: 10
+    source_format: prose
+    metadata:
+      metric: "organizations scaling agentic AI"
+      value: 23
+      unit: "%"
+      population: "global organizations surveyed"
+
+  - id: seg-011
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 11
+    source_format: heading
+
+  - id: seg-012
+    text: "88% of organizations now use AI in at least one business function, up from 20% in 2017"
+    type: statistic
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "organizational AI adoption rate"
+      value: 88
+      unit: "%"
+      population: "global organizations"
+
+  - id: seg-013
+    text: "67% of organizations are still stuck in \"pilot mode\" and unable to scale AI beyond experiments"
+    type: statistic
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+    metadata:
+      metric: "organizations unable to scale AI"
+      value: 67
+      unit: "%"
+      population: "organizations using AI"
+
+  - id: seg-014
+    text: "Only 39% of organizations report any level of enterprise-wide EBIT impact from AI, typically under 5%"
+    type: statistic
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: "organizations with EBIT impact from AI"
+      value: 39
+      unit: "%"
+      population: "global organizations surveyed"
+
+  - id: seg-015
+    text: "64% of organizations see innovation gains from AI, but enterprise-level financial impact remains elusive for most"
+    type: statistic
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+    metadata:
+      metric: "organizations seeing innovation gains from AI"
+      value: 64
+      unit: "%"
+      population: "global organizations surveyed"
+
+  - id: seg-016
+    text: "Workflow redesign has the biggest effect on an organization's ability to see EBIT impact from gen AI"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Organizations succeeding with AI are establishing dedicated teams (PMOs, transformation offices, scaling teams)"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "23% of respondents report scaling an agentic AI system; 39% are experimenting with AI agents"
+    type: statistic
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+    metadata:
+      metric: "organizations scaling agentic AI"
+      value: 23
+      unit: "%"
+      population: "global organizations surveyed"
+
+  - id: seg-019
+    text: "48% of AI high performers strongly agree that senior leaders demonstrate ownership and commitment to AI initiatives, compared to 16% among all other companies"
+    type: evidence
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+    metadata:
+      metric: "AI high performers with senior leader commitment"
+      value: 48
+      unit: "%"
+      population: "AI high-performing organizations"
+
+  - id: seg-020
+    text: "Survey covered 1,993 participants across 105 nations"
+    type: methodology
+    section: "Key Takeaways"
+    position: 20
+    source_format: bullet
+    metadata:
+      metric: "survey participants"
+      value: 1993
+      unit: "respondents"
+      population: "105 nations"
+
+  - id: seg-021
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 21
+    source_format: heading
+
+  - id: seg-022
+    text: "The redesign of workflows has the biggest effect on an organization's ability to see EBIT impact from its use of gen AI."
+    type: claim
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "Organizations that are succeeding include those establishing a dedicated team to drive gen AI adoption -- for example, a project management office, transformation office, or dedicated adoption and scaling team."
+    type: recommendation
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  - id: seg-024
+    text: "This report provides the broadest enterprise-level context for AI adoption and directly identifies PMOs and transformation offices as critical success factors."
+    type: context
+    section: "Relevance to Topic"
+    position: 24
+    source_format: prose
+
+  - id: seg-025
+    text: "The finding that workflow redesign -- not technology selection -- drives financial impact is particularly relevant for project management practitioners considering AI integration."
+    type: claim
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose
+
+  - id: seg-026
+    text: "The scale of the survey (nearly 2,000 respondents across 105 countries) makes it a high-credibility benchmark."
+    type: context
+    section: "Relevance to Topic"
+    position: 26
+    source_format: prose
+
+  - id: seg-027
+    text: "There is a growing gap between AI high performers and the rest of the organizations."
+    type: evidence
+    section: "Summary"
+    position: 27
+    source_format: prose
+
+  - id: seg-028
+    text: "Senior leadership commitment differentiates AI high performers from others: 48% of high performers vs. 16% of all other companies strongly agree senior leaders demonstrate ownership."
+    type: evidence
+    section: "Key Takeaways"
+    position: 28
+    source_format: prose
+    metadata:
+      metric: "leadership commitment gap"
+      value: 32
+      unit: "percentage points"
+      population: "high performers vs. other companies"
+
+  - id: seg-029
+    text: "McKinsey's eighth annual global survey on AI tracks enterprise AI adoption trends."
+    type: attribution
+    section: "Summary"
+    position: 29
+    source_format: prose
+
+  - id: seg-030
+    text: "PMOs and transformation offices are identified as critical organizational structures for successful AI scaling."
+    type: context
+    section: "Relevance to Topic"
+    position: 30
+    source_format: prose

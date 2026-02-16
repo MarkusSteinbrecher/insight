@@ -1,0 +1,2053 @@
+# Cross-Source Claim Alignment
+# Topic: AI in Project Management
+# Sources analyzed: 32
+# Total segments: 1057
+# Generated: 2026-02-16
+
+meta:
+  sources_analyzed: 32
+  total_segments_input: 1057
+  canonical_claims: 64
+  unique_claims: 38
+  contradictions: 10
+  themes: 25
+  theme_breakdown:
+    ai_pm_use_cases: 7
+    ai_risk_management: 2
+    ai_planning_scheduling: 3
+    ai_reporting_analytics: 2
+    ai_resource_allocation: 1
+    data_quality_readiness: 3
+    ai_adoption_maturity: 8
+    ai_governance_oversight: 5
+    ai_trust_deficit: 3
+    human_ai_collaboration: 4
+    pm_role_evolution: 5
+    ai_limitations_risks: 4
+    agentic_ai_capabilities: 3
+    ai_tool_market: 3
+    organizational_change: 4
+    professional_body_response: 1
+    ai_predictive_capabilities: 1
+    ai_urgency_imperative: 1
+    project_delivery_performance: 1
+    ai_decision_intelligence: 1
+    shadow_ai_risks: 1
+    ai_compliance_automation: 1
+    legacy_system_integration: 1
+    ai_bias_risk: 1
+    consultancy_transformation: 1
+    ai_workforce_impact: 2
+
+# =============================================================================
+# CANONICAL CLAIMS — Themes where 2+ sources agree
+# =============================================================================
+
+canonical_claims:
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_pm_use_cases
+  # ---------------------------------------------------------------------------
+
+  - id: cc-001
+    theme: ai_pm_use_cases
+    statement: "Task automation, reporting, risk management, and administrative overhead reduction are the most common and successful current AI applications in project management."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-008
+        quote: "Task automation, forecasting, and risk management are the most common uses of AI in project management."
+      - source_id: source-001
+        seg_id: seg-009
+        quote: "Capterra's 2024 Most Impactful PM Tools Survey found: 54% used AI for project risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation."
+      - source_id: source-005
+        seg_id: seg-012
+        quote: "Knowledge workers spend 60% of their time on 'work about work' (status chasing, unnecessary meetings, tool-switching) -- the primary target for AI automation (Asana)."
+      - source_id: source-005
+        seg_id: seg-013
+        quote: "50% of respondents spend one day or more each month manually collating project status information (Wellingtone)."
+      - source_id: source-007
+        seg_id: seg-011
+        quote: "Ten key capabilities of AI agents: automated project setup, progress tracking and reporting, risk identification and mitigation, predictive analytics, workflow coordination across teams, continuous documentation, smart resource allocation, user story generation, meeting assistance, and cross-functional workflow management"
+      - source_id: source-008
+        seg_id: seg-008
+        quote: "Microsoft Copilot for project has four capabilities in Dynamics 365 Project Operations: task plan generation, risk assessments, project status reports, and interactive chat"
+      - source_id: source-010
+        seg_id: seg-009
+        quote: "Five AI-driven PMO capabilities identified: predictive implementation tracking, automated project reporting, resource allocation optimization, AI chatbots for real-time project updates, and risk management and compliance automation"
+      - source_id: source-013
+        seg_id: seg-005
+        quote: "At the lowest complexity level, GenAI can automate tasks like report generation, meeting note summarization, and calculations."
+      - source_id: source-018
+        seg_id: seg-014
+        quote: "AI will primarily impact: automation of routine tasks, data-driven decision support, risk identification, and resource allocation"
+      - source_id: source-020
+        seg_id: seg-005
+        quote: "The framework identifies four primary AI/ML capabilities mapped to the project lifecycle: predictive analytics, intelligent automation, natural language processing, and self-learning algorithms."
+      - source_id: source-024
+        seg_id: seg-005
+        quote: "The report maps current AI usage across PM functions: 54% of project managers use AI for risk management, 53% for task automation, 52% for predictive analysis and forecasting, 52% for schedule optimization, and 47% for resource planning and allocation."
+      - source_id: source-030
+        seg_id: seg-016
+        quote: "Six areas AI will disrupt PM (per HBR): selection/prioritization, PMO support, project definition/planning/reporting, virtual assistants, testing systems, PM role redefinition"
+      - source_id: source-031
+        seg_id: seg-006
+        quote: "The article covers five areas: embracing GenAI in PM (AI-driven insights and task automation enabling project managers to navigate complexity with agility), revolutionizing PMO operations..."
+      - source_id: source-032
+        seg_id: seg-031
+        quote: "This report provides the ground-level practitioner perspective on PM operations, revealing the specific pain points that AI could address (manual reporting, lack of real-time KPIs, resource management)."
+
+  - id: cc-002
+    theme: ai_pm_use_cases
+    statement: "AI is most effective at the planning and reporting phases of projects (front end and tail end), while core execution remains largely human-driven."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-006
+        quote: "AI's most successful applications are currently at the 'front and tail ends' of projects -- planning, brainstorming, and reporting -- while core execution tasks remain largely human-driven due to data readiness challenges."
+      - source_id: source-001
+        seg_id: seg-010
+        quote: "AI is most effective at the 'front end' (planning, brainstorming, risk analysis, drafting schedules, identifying stakeholders) and 'tail end' (reports, summaries) of projects."
+      - source_id: source-005
+        seg_id: seg-018
+        quote: "AI helps most when it reduces project overhead (status chasing, reporting, handoff confusion), but cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+      - source_id: source-009
+        seg_id: seg-008
+        quote: "Generative AI can create transformation content (schedules, risk logs, status reports) very quickly, but documentation alone does not make change happen -- value only comes from use"
+
+  - id: cc-003
+    theme: ai_pm_use_cases
+    statement: "AI provides enhanced decision support through predictive analytics, risk identification, data-driven forecasting, and scenario modeling."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-018
+        seg_id: seg-009
+        quote: "The article identifies automation of routine tasks, enhanced decision support through data analysis, risk identification, and resource allocation as key areas where AI will have the most significant impact."
+      - source_id: source-020
+        seg_id: seg-005
+        quote: "The framework identifies four primary AI/ML capabilities: predictive analytics (for forecasting outcomes and anticipating risks), intelligent automation, NLP, and self-learning algorithms."
+      - source_id: source-015
+        seg_id: seg-020
+        quote: "By 2030, AI-driven predictive insights and modelling capabilities are expected to significantly enhance efficiency."
+      - source_id: source-022
+        seg_id: seg-015
+        quote: "53% report enhanced insights and decision-making; 40% report cost reduction"
+      - source_id: source-017
+        seg_id: seg-007
+        quote: "AI is found to be most useful in processes where historical data and information are used for planning and estimation, and where it can monitor schedules, maintain baselines, and adjust forecasts."
+      - source_id: source-028
+        seg_id: seg-012
+        quote: "Phase 3 (ML-Based PM): predictive analytics, autonomous schedule adjustments based on pattern recognition; requires substantial historical data"
+
+  - id: cc-004
+    theme: ai_pm_use_cases
+    statement: "AI has the strongest impact on data-intensive, quantitative PM knowledge areas — particularly cost management, schedule management, and risk management."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-017
+        seg_id: seg-005
+        quote: "The research finds that project cost management, project schedule management, and project risk management are the three knowledge areas where AI would have the strongest effect."
+      - source_id: source-017
+        seg_id: seg-012
+        quote: "Identifies the top three most impacted areas: project cost management, project schedule management, and project risk management"
+      - source_id: source-014
+        seg_id: seg-019
+        quote: "Top PM areas impacted by AI: data collection/reporting, performance monitoring, project time management/scheduling"
+      - source_id: source-018
+        seg_id: seg-014
+        quote: "AI will primarily impact: automation of routine tasks, data-driven decision support, risk identification, and resource allocation"
+      - source_id: source-019
+        seg_id: seg-014
+        quote: "Machine learning algorithms (optimization, automation) are best suited for formal/data-driven domains (cost, schedule)"
+      - source_id: source-020
+        seg_id: seg-012
+        quote: "Key PM functions targeted: resource optimization, risk reduction, dynamic scheduling, stakeholder communication"
+
+  - id: cc-005
+    theme: ai_pm_use_cases
+    statement: "AI is most effective where historical data is available for estimation, planning, and forecasting — data-intensive processes are the natural entry points for AI integration."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-017
+        seg_id: seg-006
+        quote: "These areas share a common characteristic: they rely heavily on historical data that can be leveraged for planning, estimation, and forecasting -- precisely the tasks where AI and machine learning excel."
+      - source_id: source-017
+        seg_id: seg-013
+        quote: "AI is most effective where historical data is available for estimation, planning, and forecasting"
+      - source_id: source-017
+        seg_id: seg-020
+        quote: "Establishes that data-intensive PM processes are the natural entry points for AI integration"
+      - source_id: source-020
+        seg_id: seg-004
+        quote: "Conventional project management techniques, typically based on static planning and human judgment, struggle to respond to real-time uncertainties and high-volume data inputs, creating the opening for AI/ML technologies."
+      - source_id: source-019
+        seg_id: seg-007
+        quote: "Machine learning algorithms for optimization and automation fit domains requiring formal and data-driven knowledge (like cost and schedule management)."
+
+  - id: cc-006
+    theme: ai_pm_use_cases
+    statement: "Companies using AI-driven PM tools demonstrate measurably better project outcomes including higher on-time delivery, better benefits realization, and productivity improvements."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-030
+        seg_id: seg-007
+        quote: "The article cites PMI research showing companies using AI-driven tools achieve 61% on-time delivery (vs. 47% without), 69% business benefits realization (vs. 53%), and 64% meeting ROI estimates (vs. 52%)."
+      - source_id: source-030
+        seg_id: seg-008
+        quote: "KPMG research indicates companies investing in AI report 15% average productivity improvements for their projects."
+      - source_id: source-029
+        seg_id: seg-016
+        quote: "75% of leaders report positive returns on GenAI investments"
+
+  - id: cc-007
+    theme: ai_pm_use_cases
+    statement: "Gartner's widely cited prediction that 80% of project management tasks will be handled by AI by 2030 has become a reference point across the industry, though interpretations of its meaning vary."
+    claim_type: predictive
+    strength: supported
+    supporting_sources:
+      - source_id: source-030
+        seg_id: seg-010
+        quote: "Gartner predicts 80% of PM tasks run by AI by 2030 — but this means automation of non-core tasks, not PM replacement"
+      - source_id: source-031
+        seg_id: seg-022
+        quote: "By 2030, GenAI will be capable of handling 80% of project management tasks, powered by big data, machine learning, and natural language processing."
+      - source_id: source-032
+        seg_id: seg-020
+        quote: "80% of PMOs expected to use AI for decision-making by 2026"
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_risk_management
+  # ---------------------------------------------------------------------------
+
+  - id: cc-008
+    theme: ai_risk_management
+    statement: "Risk management is one of the most prominent and well-established applications of AI in project management, both in current practice and in the academic literature."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-009
+        quote: "Capterra's 2024 Most Impactful PM Tools Survey found: 54% used AI for project risk management"
+      - source_id: source-001
+        seg_id: seg-013
+        quote: "AI algorithms can identify potential threats to project success by analyzing multiple data sets, and increasingly offer risk mitigation strategies."
+      - source_id: source-007
+        seg_id: seg-041
+        quote: "AI agents provide risk identification and mitigation capabilities."
+      - source_id: source-008
+        seg_id: seg-011
+        quote: "Risk assessment uses project metadata (scope, schedule, budget) to identify potential risks and generate mitigation plans with recommended steps"
+      - source_id: source-010
+        seg_id: seg-009
+        quote: "Five AI-driven PMO capabilities identified: predictive implementation tracking [...] risk management and compliance automation"
+      - source_id: source-011
+        seg_id: seg-013
+        quote: "The most common AI application in PM is in Perform Quantitative Risk Analysis (PQRA) processes, due to their quantitative and data-driven characteristics"
+      - source_id: source-011
+        seg_id: seg-009
+        quote: "The most frequent keyword in the literature is 'risk assessment,' followed by 'risk management' and 'project management.'"
+      - source_id: source-017
+        seg_id: seg-005
+        quote: "Project cost management, project schedule management, and project risk management are the three knowledge areas where AI would have the strongest effect."
+      - source_id: source-018
+        seg_id: seg-014
+        quote: "AI will primarily impact: automation of routine tasks, data-driven decision support, risk identification, and resource allocation"
+      - source_id: source-019
+        seg_id: seg-006
+        quote: "The study finds that integration management, scope management, communication management, risk management, and stakeholder management are the PM knowledge areas where AI holds the most significant potential."
+
+  - id: cc-009
+    theme: ai_risk_management
+    statement: "AI-powered predictive analytics for project forecasting, delay prediction, and scenario analysis are increasingly available, though their accuracy depends on historical data quality."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-009
+        quote: "52% for predictive analysis and forecasting"
+      - source_id: source-007
+        seg_id: seg-042
+        quote: "AI agents enable predictive analytics for project management."
+      - source_id: source-010
+        seg_id: seg-011
+        quote: "AI algorithms analyze project timelines, resource availability, and past implementations to predict potential delays and suggest corrective actions"
+      - source_id: source-009
+        seg_id: seg-013
+        quote: "Large complex transformations are by their nature unusual, taking organizations 'outside of the established dataset' -- meaning AI predictions become less accurate precisely when stakes are highest"
+      - source_id: source-008
+        seg_id: seg-011
+        quote: "Risk assessment uses project metadata (scope, schedule, budget) to identify potential risks and generate mitigation plans with recommended steps"
+      - source_id: source-003
+        seg_id: seg-014
+        quote: "AI is being embedded into strategic PMO services for forecasting, talent alignment, and program delivery with speed and precision."
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_planning_scheduling
+  # ---------------------------------------------------------------------------
+
+  - id: cc-010
+    theme: ai_planning_scheduling
+    statement: "AI can assist with project planning tasks including schedule generation, cost estimation, and task breakdown, though these outputs require human refinement."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-010
+        quote: "AI is most effective at the 'front end' (planning, brainstorming, risk analysis, drafting schedules, identifying stakeholders)"
+      - source_id: source-001
+        seg_id: seg-011
+        quote: "AI can estimate project costs by analyzing past projects and current prices, sometimes more accurately than human project managers."
+      - source_id: source-008
+        seg_id: seg-009
+        quote: "Task plan generation uses Azure OpenAI's NLP to analyze project name and description, creating up to 100 tasks with suggested durations and start dates"
+      - source_id: source-008
+        seg_id: seg-010
+        quote: "AI-generated tasks do not automatically include assignees, dependencies, or checklist items -- these must be added manually afterward"
+      - source_id: source-010
+        seg_id: seg-025
+        quote: "Predictive implementation tracking analyzes timelines, resources, and past implementations to predict delays."
+      - source_id: source-007
+        seg_id: seg-039
+        quote: "AI agents provide automated project setup capabilities."
+
+  - id: cc-011
+    theme: ai_planning_scheduling
+    statement: "AI enables dynamic, real-time schedule monitoring and forecasting that goes beyond traditional static planning approaches."
+    claim_type: predictive
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-017
+        seg_id: seg-014
+        quote: "AI can be used to monitor schedules, maintain baselines, and adjust forecasts in real time"
+      - source_id: source-018
+        seg_id: seg-006
+        quote: "This vision encapsulates the shift from reactive, backward-looking project reporting to proactive, predictive, and always-on project intelligence."
+      - source_id: source-020
+        seg_id: seg-013
+        quote: "Conventional PM techniques based on static planning struggle with real-time uncertainties and high-volume data"
+      - source_id: source-020
+        seg_id: seg-028
+        quote: "Self-learning algorithms: AI/ML capability for adaptive resource optimization and dynamic scheduling."
+      - source_id: source-018
+        seg_id: seg-012
+        quote: "Envisions AI-powered real-time project monitoring via smartphone apps, tracking status, KPIs, team morale, and stakeholder buy-in"
+
+  - id: cc-012
+    theme: ai_planning_scheduling
+    statement: "Conventional project management techniques based on static planning and human judgment are increasingly inadequate for handling real-time uncertainties and high-volume data inputs."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-020
+        seg_id: seg-004
+        quote: "Conventional project management techniques, usually based on static planning with human judgment, find it challenging to respond to timeliness uncertainties and high-volume data inputs."
+      - source_id: source-020
+        seg_id: seg-021
+        quote: "Conventional project management techniques, usually based on static planning with human judgment, find it challenging to respond to timeliness uncertainties and high-volume data inputs."
+      - source_id: source-018
+        seg_id: seg-030
+        quote: "The shift from reactive, backward-looking project reporting to proactive, predictive, and always-on project intelligence."
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_reporting_analytics
+  # ---------------------------------------------------------------------------
+
+  - id: cc-013
+    theme: ai_reporting_analytics
+    statement: "AI-generated project reporting and status summaries are an early, widely deployed use case, though they require human review before distribution."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-013
+        quote: "50% of respondents spend one day or more each month manually collating project status information (Wellingtone)."
+      - source_id: source-008
+        seg_id: seg-013
+        quote: "Project status reports provide AI-generated summaries based on financial, resource, effort, and schedule data"
+      - source_id: source-008
+        seg_id: seg-015
+        quote: "Microsoft explicitly warns that 'AI-generated summary narrative provides an initial overview' but 'might not always accurately represent the project's true context or health' -- human review is required"
+      - source_id: source-010
+        seg_id: seg-026
+        quote: "Automated project reporting provides real-time dashboards."
+      - source_id: source-009
+        seg_id: seg-025
+        quote: "Generative AI can create transformation content such as schedules, risk logs, and status reports very quickly."
+      - source_id: source-007
+        seg_id: seg-040
+        quote: "AI agents enable progress tracking and reporting."
+      - source_id: source-032
+        seg_id: seg-008
+        quote: "A critical finding: 42% of respondents spend one or more days each month manually collating project reports — representing a clear automation opportunity for AI."
+      - source_id: source-031
+        seg_id: seg-028
+        quote: "The era of project scoping and repetitive reporting is fading away."
+      - source_id: source-026
+        seg_id: seg-022
+        quote: "GenAI applications already span the project lifecycle: automated meeting summaries, stakeholder updates"
+
+  - id: cc-014
+    theme: ai_reporting_analytics
+    statement: "Manual project reporting represents a significant time burden and a high-value automation opportunity for AI in project management."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-032
+        seg_id: seg-008
+        quote: "A critical finding: 42% of respondents spend one or more days each month manually collating project reports — representing a clear automation opportunity for AI."
+      - source_id: source-030
+        seg_id: seg-005
+        quote: "The Gartner prediction that 80% of PM tasks will be run by AI by 2030 does not mean replacement, but rather automation of non-core tasks (email, scheduling, status reports) while project managers lead the strategic and collaborative work."
+      - source_id: source-005
+        seg_id: seg-013
+        quote: "50% of respondents spend one day or more each month manually collating project status information (Wellingtone)."
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_resource_allocation
+  # ---------------------------------------------------------------------------
+
+  - id: cc-015
+    theme: ai_resource_allocation
+    statement: "AI-driven resource allocation is a high-potential but currently constrained application, limited by the lack of comprehensive organizational data in most enterprises."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-012
+        quote: "Resource allocation via AI requires comprehensive organizational data that most organizations do not yet have -- a key limiting factor."
+      - source_id: source-001
+        seg_id: seg-016
+        quote: "If you're going to use AI to figure out whether I'm the best person to assign and when I'm free, then you need that data, and you need that data for everyone. I can't say when organizations are going to have that data ready."
+      - source_id: source-010
+        seg_id: seg-027
+        quote: "Resource allocation optimization forecasts demand from historical data."
+      - source_id: source-007
+        seg_id: seg-045
+        quote: "AI agents provide smart resource allocation."
+
+  # ---------------------------------------------------------------------------
+  # THEME: data_quality_readiness
+  # ---------------------------------------------------------------------------
+
+  - id: cc-016
+    theme: data_quality_readiness
+    statement: "The effectiveness of AI in project management is fundamentally limited by organizational data quality; AI cannot compensate for poor, incomplete, or inconsistent project data."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-012
+        quote: "Resource allocation via AI requires comprehensive organizational data that most organizations do not yet have -- a key limiting factor."
+      - source_id: source-005
+        seg_id: seg-020
+        quote: "AI adoption has crossed the 'default' threshold. The differentiator in 2026 is not whether you have AI tools, but whether your workflows and data are set up so the tools actually help."
+      - source_id: source-005
+        seg_id: seg-019
+        quote: "If the project board is stale, AI will mostly automate stale reporting."
+      - source_id: source-006
+        seg_id: seg-012
+        quote: "AI systems underperform not because of weak models but because of poor context: missing documentation, inconsistent tagging, and scattered tribal knowledge"
+      - source_id: source-008
+        seg_id: seg-012
+        quote: "Risk assessment and status reports require logged actuals (time, expense, or materials) to function"
+      - source_id: source-009
+        seg_id: seg-011
+        quote: "AI insights from status reports and risk logs are only as good as the underlying data -- if risks are not clearly articulated or reports miss key information, AI cannot compensate"
+      - source_id: source-009
+        seg_id: seg-045
+        quote: "The 'garbage in, garbage out' problem applies to AI-generated insights from poor-quality project data."
+      - source_id: source-018
+        seg_id: seg-015
+        quote: "Identifies six key risks of AI in PM: data quality, bias/fairness, lack of human judgment, performance instability, enterprise/financial risk, and job displacement"
+      - source_id: source-027
+        seg_id: seg-014
+        quote: "AI value depends on data quality: clean, well-structured, accessible data is a prerequisite for reliable AI-driven recommendations"
+      - source_id: source-027
+        seg_id: seg-021
+        quote: "AI can be a powerful accelerator for productivity, but its value is only as strong as the data it relies on — clean, well-structured, and accessible data is essential for generating reliable outputs and building trust in AI-driven recommendations."
+      - source_id: source-028
+        seg_id: seg-017
+        quote: "Key obstacle: data quality and availability — AI needs historical project data to learn from"
+      - source_id: source-031
+        seg_id: seg-016
+        quote: "Key challenges: data quality and availability, security concerns, integrating AI into existing processes"
+      - source_id: source-032
+        seg_id: seg-011
+        quote: "However, significant barriers remain: resistance to change from team members (26%), lack of skilled personnel (19%), data integration and quality issues (17%), and high costs and budget restraints (15%)."
+      - source_id: source-030
+        seg_id: seg-029
+        quote: "Data must be organized by a PM before ML algorithms work."
+      - source_id: source-023
+        seg_id: seg-010
+        quote: "Cybersecurity is the single greatest barrier to achieving AI strategy goals (80% of leaders), with data privacy (77%) and data quality (65%) rising sharply as concerns."
+
+  - id: cc-017
+    theme: data_quality_readiness
+    statement: "Organizational readiness for AI in project management depends on infrastructure, data discipline, and workflow maturity rather than on AI model capability alone."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-027
+        quote: "AI adoption has crossed a threshold where the question is no longer whether to adopt but whether organizational data and workflows support effective use."
+      - source_id: source-006
+        seg_id: seg-022
+        quote: "Readiness isn't about how much AI you have; it's about how adaptable and observable your environment is."
+      - source_id: source-006
+        seg_id: seg-011
+        quote: "Three dimensions determine agentic readiness: coordination readiness (systems communicate in machine-readable ways), context readiness (AI can access relevant knowledge without ambiguity), and observability readiness (ability to trace why an agent made a decision)"
+      - source_id: source-009
+        seg_id: seg-016
+        quote: "AI works best when supporting an existing strong PMO, not as a substitute for one"
+      - source_id: source-009
+        seg_id: seg-048
+        quote: "Organizations need strong PMO fundamentals before layering AI capabilities on top."
+      - source_id: source-011
+        seg_id: seg-005
+        quote: "One contributing factor is the low level of maturity of available technologies -- most organizations still use spreadsheets, slides, and applications that have not evolved much in recent decades."
+      - source_id: source-022
+        seg_id: seg-019
+        quote: "42% of companies believe their strategy is highly prepared for AI adoption, but feel less prepared on infrastructure, data, risk, and talent"
+      - source_id: source-013
+        seg_id: seg-020
+        quote: "Data literacy and understanding organizational data strategy are positioned as essential new competencies for project managers"
+
+  - id: cc-018
+    theme: data_quality_readiness
+    statement: "Data quality and organizational data readiness are prerequisites for effective AI integration in project management."
+    claim_type: normative
+    strength: supported
+    supporting_sources:
+      - source_id: source-018
+        seg_id: seg-015
+        quote: "Identifies six key risks of AI in PM: data quality, bias/fairness, lack of human judgment, performance instability, enterprise/financial risk, and job displacement"
+      - source_id: source-022
+        seg_id: seg-019
+        quote: "42% of companies believe their strategy is highly prepared for AI adoption, but feel less prepared on infrastructure, data, risk, and talent"
+      - source_id: source-013
+        seg_id: seg-020
+        quote: "Data literacy and understanding organizational data strategy are positioned as essential new competencies for project managers"
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_adoption_maturity
+  # ---------------------------------------------------------------------------
+
+  - id: cc-019
+    theme: ai_adoption_maturity
+    statement: "AI adoption in project management is moving from experimentation to deployment, with 2026 framed as a transition year from pilot programs to operational, ROI-focused integration."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-004
+        quote: "The article frames 2026 as a year where AI moves from experimentation to deployment in project management."
+      - source_id: source-004
+        seg_id: seg-015
+        quote: "The shift from AI experimentation in 2025 to full-scale deployment in 2026 requires immediate focus on AI governance: verifying outputs, building accountability, and managing effects on well-being and critical thinking."
+      - source_id: source-003
+        seg_id: seg-016
+        quote: "AI isn't coming. It's already here -- and it's changing how we lead and deliver projects."
+      - source_id: source-005
+        seg_id: seg-006
+        quote: "88% of organizations report using AI in at least one business function (McKinsey 2025)."
+      - source_id: source-005
+        seg_id: seg-007
+        quote: "32% of organizations have integrated AI tools into their PM workflows."
+      - source_id: source-013
+        seg_id: seg-011
+        quote: "21% of respondents use AI always or often in project management (2023 PMI Annual Global Survey)"
+      - source_id: source-014
+        seg_id: seg-013
+        quote: "60% rate their organization's AI maturity at 4 or less on a 1-10 scale"
+      - source_id: source-021
+        seg_id: seg-005
+        quote: "However, 67% of organizations remain stuck in 'pilot mode,' unable to scale AI beyond initial experiments."
+      - source_id: source-023
+        seg_id: seg-003
+        quote: "KPMG's Q4 2025 AI Quarterly Pulse Survey, released January 2026, reveals that enterprise AI has shifted decisively from experimentation to production-grade scaling."
+      - source_id: source-025
+        seg_id: seg-007
+        quote: "The report notes that AI diffusion is accelerating faster than any prior technology, with 69% of executives believing this brings new urgency to reinvention."
+      - source_id: source-029
+        seg_id: seg-004
+        quote: "Surveying approximately 800 U.S. executives, the study documents a clear maturation pattern: weekly GenAI usage rose from 37% (2023) to 72% (2024) to 82% (2025), with daily usage now at 46%."
+      - source_id: source-029
+        seg_id: seg-014
+        quote: "Three-wave evolution: Exploration (2023) to Experimentation (2024) to Accountable Acceleration (2025)"
+
+  - id: cc-020
+    theme: ai_adoption_maturity
+    statement: "There is a wide gap between individual awareness and organizational AI adoption maturity, with high expectations of transformation but low implementation maturity."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-006
+        quote: "88% of organizations report using AI in at least one business function (McKinsey 2025)."
+      - source_id: source-005
+        seg_id: seg-007
+        quote: "32% of organizations have integrated AI tools into their PM workflows."
+      - source_id: source-005
+        seg_id: seg-028
+        quote: "The gap between general AI adoption (88%) and PM-specific integration (32%) indicates significant room for growth in project management AI adoption."
+      - source_id: source-013
+        seg_id: seg-028
+        quote: "The statistics on adoption gaps (82% of leaders expect impact vs. 21% currently using AI) define the central tension in the field."
+      - source_id: source-014
+        seg_id: seg-033
+        quote: "The gap between individual awareness (76% expect transformation) and organizational maturity (60% rate it 4 or below) is a central finding that shapes strategy for both practitioners and institutions."
+      - source_id: source-021
+        seg_id: seg-006
+        quote: "The report identifies a growing gap between AI high performers and the rest."
+      - source_id: source-022
+        seg_id: seg-019
+        quote: "42% of companies believe their strategy is highly prepared for AI adoption, but feel less prepared on infrastructure, data, risk, and talent"
+
+  - id: cc-021
+    theme: ai_adoption_maturity
+    statement: "Most AI usage in work contexts is still new and informal, with most organizations not yet beyond pilot or experimental deployments."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-010
+        quote: "75% of global knowledge workers report using generative AI at work (Microsoft/LinkedIn 2024 Work Trend Index)."
+      - source_id: source-005
+        seg_id: seg-011
+        quote: "46% of respondents who use generative AI at work have used it for less than six months -- indicating most AI usage is still fresh and informal."
+      - source_id: source-004
+        seg_id: seg-015
+        quote: "The shift from AI experimentation in 2025 to full-scale deployment in 2026 requires immediate focus on AI governance"
+      - source_id: source-014
+        seg_id: seg-016
+        quote: "35% of organizations are engaged in AI projects either at production level or running proof of concept"
+      - source_id: source-021
+        seg_id: seg-013
+        quote: "67% of organizations are still stuck in 'pilot mode' and unable to scale AI beyond experiments"
+      - source_id: source-022
+        seg_id: seg-005
+        quote: "The number of companies with 40% or more of their AI projects in production is set to double in six months, signaling a transition from piloting to scaling."
+
+  - id: cc-022
+    theme: ai_adoption_maturity
+    statement: "Most project managers expect AI to have a significant or transformative impact on the profession within the next 3-5 years."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-013
+        seg_id: seg-012
+        quote: "82% of senior leaders say AI will have at least some impact on how projects are run in the next five years"
+      - source_id: source-013
+        seg_id: seg-013
+        quote: "91% of PMI CX survey respondents believe AI will have at least a moderate impact on the profession; 58% say 'major' or 'transformative' impact"
+      - source_id: source-014
+        seg_id: seg-012
+        quote: "76% of professionals believe AI will transform PM within the next three years (rating 7+ on a 1-10 scale)"
+      - source_id: source-015
+        seg_id: seg-020
+        quote: "By 2030, AI-driven predictive insights and modelling capabilities are expected to significantly enhance efficiency, raising critical questions about the evolving role of human project managers."
+      - source_id: source-022
+        seg_id: seg-006
+        quote: "Twice as many leaders report transformative AI impact compared to last year, but only 34% are truly reimagining their business"
+
+  - id: cc-023
+    theme: ai_adoption_maturity
+    statement: "Enterprise AI is maturing from exploratory pilots to disciplined, ROI-focused deployment with formal measurement of returns."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-023
+        seg_id: seg-004
+        quote: "Based on eight consecutive quarters of proprietary research, the report finds that organizations are 'professionalizing' their AI agent systems rather than simply deploying more agents."
+      - source_id: source-029
+        seg_id: seg-006
+        quote: "The study finds that 72% of leaders now formally measure GenAI ROI, focusing on productivity gains and incremental profit."
+      - source_id: source-029
+        seg_id: seg-028
+        quote: "Leaders are no longer content to run pilots. They want proof. Gen AI is being held to the same standards as other major investments, and that is a sign of increasing maturity."
+      - source_id: source-029
+        seg_id: seg-007
+        quote: "Three out of four leaders report positive returns on their initial AI investments."
+      - source_id: source-023
+        seg_id: seg-015
+        quote: "59% of enterprises expect measurable ROI within 12 months"
+
+  - id: cc-024
+    theme: ai_adoption_maturity
+    statement: "A growing divide is emerging between organizations that scale AI successfully and those that stall after early deployments."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-023
+        seg_id: seg-023
+        quote: "AI isn't just an investment, it's becoming the backbone of enterprise strategy. What the numbers don't show is the growing divide: while some organizations stall after early deployments, the leaders are scaling fast and pulling ahead."
+      - source_id: source-023
+        seg_id: seg-038
+        quote: "The growing divide between organizations that stall after early deployments and leaders that scale fast represents a key market dynamic."
+      - source_id: source-029
+        seg_id: seg-021
+        quote: "IT and Purchasing/Procurement lead on adoption frequency and confidence; Marketing/Sales and Operations lag"
+
+  - id: cc-025
+    theme: ai_adoption_maturity
+    statement: "AI adoption in project management follows a phased maturity progression, from basic automation through intelligent assistants to predictive analytics and eventually autonomous PM."
+    claim_type: definitional
+    strength: supported
+    supporting_sources:
+      - source_id: source-028
+        seg_id: seg-008
+        quote: "Four-phase AI evolution model for PM: Integration & Automation, Chatbot Assistants, ML-Based PM, Autonomous PM"
+      - source_id: source-028
+        seg_id: seg-004
+        quote: "While published in 2018, the evolutionary framework it describes has proven prescient — the industry in 2025-2026 is transitioning from phases 1-2 (automation and chatbot assistants) into early phase 3 (ML-based PM), with phase 4 (autonomous PM) still largely theoretical."
+      - source_id: source-029
+        seg_id: seg-014
+        quote: "Three-wave evolution: Exploration (2023) to Experimentation (2024) to Accountable Acceleration (2025)"
+      - source_id: source-027
+        seg_id: seg-012
+        quote: "CWM tools have evolved from project/task planning to outcome-driven work platforms"
+
+  - id: cc-026
+    theme: ai_adoption_maturity
+    statement: "The scientific literature on AI in project management is still in an early and maturing phase, with a significant gap between practitioner enthusiasm and the academic evidence base."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-012
+        seg_id: seg-006
+        quote: "The authors note that the scientific literature on AI in project management is still relatively immature, with many submissions failing to meet rigorous research standards."
+      - source_id: source-012
+        seg_id: seg-019
+        quote: "The scientific literature on the impact of generative AI in project management is still in an embryonic stage, marking an emerging and highly pertinent field of study."
+      - source_id: source-016
+        seg_id: seg-025
+        quote: "While much of the literature on AI in PM is descriptive or speculative, this study applies a recognized social theory (AST) to explain adoption patterns."
+      - source_id: source-012
+        seg_id: seg-013
+        quote: "Identifies a significant gap between practitioner enthusiasm for AI and the rigor of academic evidence supporting its use"
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_governance_oversight
+  # ---------------------------------------------------------------------------
+
+  - id: cc-027
+    theme: ai_governance_oversight
+    statement: "AI governance -- including output verification, accountability frameworks, and ethical oversight -- is an urgent and unresolved priority for project management in 2026."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-016
+        quote: "Project managers must balance the drive for AI-led efficiency with the critical need for ethical oversight, regulatory compliance and client trust."
+      - source_id: source-004
+        seg_id: seg-019
+        quote: "In 2026, we must get a handle on AI governance. We need to be able to verify the outputs from our AI tools, build accountability for the AI + HI (Human Intelligence) systems that we create, and manage the effects on people's well-being and critical thinking capabilities."
+      - source_id: source-004
+        seg_id: seg-026
+        quote: "AI governance is the most urgent priority for project management in 2026."
+      - source_id: source-006
+        seg_id: seg-017
+        quote: "Governance automation (policy-as-code, automated compliance checks) enables trustworthy autonomy"
+      - source_id: source-006
+        seg_id: seg-018
+        quote: "Governance isn't a gate at the end -- it's a scaffold that enables safe exploration"
+      - source_id: source-008
+        seg_id: seg-019
+        quote: "Although the AI-generated summary narrative provides an initial overview, it might not always accurately represent the project's true context or health. Therefore, all parts of the summary narrative are editable and should be thoroughly reviewed by the project manager before the report is finalized and distributed."
+      - source_id: source-010
+        seg_id: seg-032
+        quote: "Data security and privacy requirements are a key challenge in scaling AI PMOs."
+      - source_id: source-015
+        seg_id: seg-011
+        quote: "Proposes two conceptual models: AI-Augmented Ethics-Centric Model and Predictive Model for AI Adoption and Human Trust"
+      - source_id: source-015
+        seg_id: seg-025
+        quote: "The emphasis on human-AI collaboration, ethical governance, and trust dynamics represents the cutting edge of academic thinking about how the profession should evolve."
+      - source_id: source-018
+        seg_id: seg-016
+        quote: "Recommends 'de-risking AI by design' -- building risk management directly into AI initiatives"
+
+  - id: cc-028
+    theme: ai_governance_oversight
+    statement: "Human review and verification of AI-generated outputs is a necessary requirement in current AI-assisted project management, acknowledged by both vendors and practitioners."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-008
+        seg_id: seg-015
+        quote: "Microsoft explicitly warns that 'AI-generated summary narrative provides an initial overview' but 'might not always accurately represent the project's true context or health' -- human review is required"
+      - source_id: source-008
+        seg_id: seg-038
+        quote: "Human review is required for all AI-generated project summaries."
+      - source_id: source-004
+        seg_id: seg-013
+        quote: "Confidence scoring is proposed as a method to manage AI hallucinations in project management outputs."
+      - source_id: source-009
+        seg_id: seg-010
+        quote: "AI-generated meeting summaries frequently fail because AI lacks organizational context, cannot interpret acronyms, shorthand, or incomplete sentences, and 'dangerously fills in gaps with incorrect guesses'"
+      - source_id: source-006
+        seg_id: seg-039
+        quote: "Each autonomy level requires proof of reliability and explainability before progression to the next."
+      - source_id: source-031
+        seg_id: seg-015
+        quote: "'Human in the loop' strategy is crucial: human judgment must supplement AI decision-making"
+
+  - id: cc-029
+    theme: ai_governance_oversight
+    statement: "Regulatory and professional-body frameworks for AI use in project management and professional services are emerging, signaling a shift from unregulated experimentation to formal governance."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-009
+        quote: "The Royal Institution of Chartered Surveyors (RICS) has launched a global professional standard for responsible use of AI, becoming mandatory in March 2026."
+      - source_id: source-002
+        seg_id: seg-015
+        quote: "The Wild West era of AI implementation is ending."
+      - source_id: source-004
+        seg_id: seg-011
+        quote: "US government issued two key AI policy memoranda in 2025 covering AI use and procurement; UK published its Artificial Intelligence Playbook for Government."
+      - source_id: source-004
+        seg_id: seg-030
+        quote: "Government AI policy memoranda in both the US and UK signal growing regulatory attention to AI use in professional services."
+
+  - id: cc-030
+    theme: ai_governance_oversight
+    statement: "Governance models for autonomous AI agents are lagging behind the technology's deployment, creating an oversight gap."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-022
+        seg_id: seg-010
+        quote: "Agentic AI usage is poised to rise sharply, but oversight is lagging, with only one in five companies having a mature governance model for autonomous AI agents."
+      - source_id: source-022
+        seg_id: seg-018
+        quote: "Only 1 in 5 companies has a mature governance model for autonomous AI agents"
+      - source_id: source-021
+        seg_id: seg-010
+        quote: "The report also highlights the emergence of agentic AI, with 23% of respondents reporting their organizations are scaling an agentic AI system and an additional 39% experimenting with AI agents."
+
+  - id: cc-031
+    theme: ai_governance_oversight
+    statement: "AI governance capabilities — including orchestration, oversight, and control systems — are becoming essential as organizations move from individual AI tools to integrated AI ecosystems."
+    claim_type: normative
+    strength: supported
+    supporting_sources:
+      - source_id: source-023
+        seg_id: seg-025
+        quote: "2026 will be the year we begin to see orchestrated super-agent ecosystems, governed end-to-end by robust control systems that drive measurable outcomes and continuous improvement."
+      - source_id: source-023
+        seg_id: seg-033
+        quote: "The emphasis on system complexity as the top barrier, rather than technical capability, suggests that orchestration and governance — traditional PMO competencies — become more important as AI scales."
+      - source_id: source-027
+        seg_id: seg-016
+        quote: "Portfolio management at enterprise scale requires governance, scalability, and robust data models still maturing in CWM"
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_trust_deficit
+  # ---------------------------------------------------------------------------
+
+  - id: cc-032
+    theme: ai_trust_deficit
+    statement: "Trust in AI outputs is a significant and growing concern in professional project management, with documented incidents of AI-generated errors in consulting deliverables."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-010
+        quote: "A major consultancy (reportedly Deloitte) was forced to repay a portion of fees to the Australian government after its report was found to contain AI-generated errors -- illustrating the trust deficit."
+      - source_id: source-004
+        seg_id: seg-010
+        quote: "Deloitte Australia was forced to repay fees to the Australian government after a report was found to contain AI-generated errors."
+      - source_id: source-007
+        seg_id: seg-036
+        quote: "Earning trust in AI agents takes time."
+
+  - id: cc-033
+    theme: ai_trust_deficit
+    statement: "AI-generated content quality is a growing concern, with the emergence of 'AI Slop' (low-quality AI output) and the risk of over-reliance on AI capabilities eroding critical thinking."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-014
+        quote: "'AI Slop' (low-quality AI-generated content flooding professional channels) and 'AI Psychosis' (over-reliance on AI capabilities, coined by Microsoft's Mustafa Suleyman) are emerging concerns."
+      - source_id: source-004
+        seg_id: seg-018
+        quote: "We have seen too much AI-generated slop and recycled, shoddy thinking."
+      - source_id: source-004
+        seg_id: seg-027
+        quote: "Over-reliance on AI capabilities poses risks to critical thinking and well-being among project professionals."
+      - source_id: source-002
+        seg_id: seg-011
+        quote: "Some companies are beginning to position themselves as 'AI-free' as a mark of quality and human craftsmanship."
+
+  - id: cc-034
+    theme: ai_trust_deficit
+    statement: "Trust is a foundational enabler for AI adoption, with systems only able to be as autonomous as they are trustworthy, requiring systematic trust-building alongside technology deployment."
+    claim_type: normative
+    strength: supported
+    supporting_sources:
+      - source_id: source-025
+        seg_id: seg-005
+        quote: "The report identifies trust as the critical enabler: 77% of executives believe the true benefits of AI will only be possible when built on a foundation of trust, and 81% agree that trust strategy must evolve in parallel with technology strategy."
+      - source_id: source-025
+        seg_id: seg-032
+        quote: "Systems will only ever be as autonomous as they are trustworthy."
+      - source_id: source-027
+        seg_id: seg-021
+        quote: "AI can be a powerful accelerator for productivity, but its value is only as strong as the data it relies on — clean, well-structured, and accessible data is essential for generating reliable outputs and building trust in AI-driven recommendations."
+      - source_id: source-025
+        seg_id: seg-021
+        quote: "Unlocking the benefits of AI will only be possible if leaders seize the opportunity to inject and develop trust in its performance and outcomes in a systematic manner."
+
+  # ---------------------------------------------------------------------------
+  # THEME: human_ai_collaboration
+  # ---------------------------------------------------------------------------
+
+  - id: cc-035
+    theme: human_ai_collaboration
+    statement: "The emerging model for AI in project management is a hybrid human-AI workforce where AI handles routine and analytical tasks while humans focus on strategic oversight, judgment, and stakeholder relationships."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-007
+        quote: "The most significant shift in 2026 is the emergence of a hybrid human-AI workforce, where agentic AI systems manage entire workflows from planning and resource allocation to risk mitigation."
+      - source_id: source-002
+        seg_id: seg-014
+        quote: "This 'silicon workforce' will handle the hyper-automation of routine tasks, freeing up project managers to focus on strategic oversight and complex problem-solving."
+      - source_id: source-006
+        seg_id: seg-024
+        quote: "The CIOs who succeed won't be those who automate the most, but those who design partnerships between humans and agents."
+      - source_id: source-006
+        seg_id: seg-019
+        quote: "Engineers shift from execution to oversight: creating rules, safeguards, and feedback mechanisms that make AI reliable"
+      - source_id: source-009
+        seg_id: seg-014
+        quote: "Strong PMO adds value through coaching, training, and embedding practices through human relationships and interaction -- skills AI cannot replicate"
+      - source_id: source-009
+        seg_id: seg-016
+        quote: "AI works best when supporting an existing strong PMO, not as a substitute for one"
+      - source_id: source-003
+        seg_id: seg-018
+        quote: "Project managers and PMOs who can seamlessly integrate [AI] can be much more impactful, and those who don't make the jump risk being left behind."
+      - source_id: source-013
+        seg_id: seg-027
+        quote: "AI's role in project management is to enhance decision-making, streamline processes, and improve the likelihood of successful project outcomes. It complements the skills and expertise of project managers."
+      - source_id: source-015
+        seg_id: seg-006
+        quote: "The paper argues for a human-centric evolution of AI-enabled project management, where technology amplifies rather than replaces human capabilities."
+      - source_id: source-018
+        seg_id: seg-024
+        quote: "AI cannot and will not ever substitute the role of a project manager, but it can significantly assist them in managing multiple projects."
+      - source_id: source-030
+        seg_id: seg-006
+        quote: "Boudreau provides three reasons AI will not replace PMs: data must be organized by a PM before ML algorithms work, AI provides insights that require human interpretation and action, and outcomes depend on collaboration between AI and experienced PMs."
+      - source_id: source-025
+        seg_id: seg-013
+        quote: "80% of leaders prioritize ensuring a positive relationship trajectory between people and AI"
+      - source_id: source-028
+        seg_id: seg-019
+        quote: "There is something AI cannot do — be human."
+
+  - id: cc-036
+    theme: human_ai_collaboration
+    statement: "AI cannot replace the human elements of project management including contextual judgment, stakeholder management, organizational change management, empathy, ethical judgment, and team commitment."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-009
+        seg_id: seg-037
+        quote: "AI cannot solve problems of team commitment, contextual judgment, or organizational change management."
+      - source_id: source-009
+        seg_id: seg-035
+        quote: "Human relationships and interaction are skills AI cannot replicate."
+      - source_id: source-009
+        seg_id: seg-012
+        quote: "Current AI models lack situational and contextual awareness to judge whether statistical relationships they identify are rational or causal"
+      - source_id: source-005
+        seg_id: seg-022
+        quote: "Most project delivery is still inconsistent. AI can help with earlier risk signals and faster reporting, but it cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+      - source_id: source-001
+        seg_id: seg-006
+        quote: "AI's most successful applications are currently at the 'front and tail ends' of projects -- planning, brainstorming, and reporting -- while core execution tasks remain largely human-driven due to data readiness challenges."
+      - source_id: source-013
+        seg_id: seg-009
+        quote: "It emphasizes that human capabilities -- empathy, ethical judgment, accountability, stakeholder management -- remain essential and will never be fully replicated by machines."
+      - source_id: source-013
+        seg_id: seg-023
+        quote: "Algorithms cannot look anyone in the eye, speak truth to power, stay the ethical course or be accountable for their decisions. Project managers can do all these things and more."
+      - source_id: source-015
+        seg_id: seg-013
+        quote: "Argues that creativity, ethical judgment, and emotional intelligence will remain essential human contributions even as AI handles analytical tasks"
+
+  - id: cc-037
+    theme: human_ai_collaboration
+    statement: "As task complexity increases, greater human oversight of AI outputs is required, with AI handling routine/analytical tasks and humans focusing on complex judgment."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-013
+        seg_id: seg-007
+        quote: "At the highest complexity level, GenAI augments project managers' capabilities for strategic tasks like business case creation and complex decision-making, where the professional's depth of experience drives quality."
+      - source_id: source-015
+        seg_id: seg-016
+        quote: "Examines the tension between AI's predictive/modelling capabilities and the need for human oversight in key decisions"
+      - source_id: source-017
+        seg_id: seg-016
+        quote: "Lower-impact areas include those requiring more human judgment and interpersonal interaction"
+      - source_id: source-018
+        seg_id: seg-017
+        quote: "Emphasizes the need for continuous human oversight of AI outputs, especially as task complexity increases"
+      - source_id: source-019
+        seg_id: seg-013
+        quote: "Generative AI is best suited for tacit-knowledge domains (communication, stakeholder engagement)"
+
+  - id: cc-038
+    theme: human_ai_collaboration
+    statement: "As AI handles more administrative and analytical tasks, soft skills (stakeholder management, coaching, leadership) become increasingly critical competencies for project managers."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-031
+        seg_id: seg-018
+        quote: "Soft skills investment is critical now as AI handles more administrative and analytical tasks"
+      - source_id: source-031
+        seg_id: seg-012
+        quote: "GenAI is not eliminating PM but empowering PMs to focus on creativity, coaching, stakeholder management, and leadership"
+      - source_id: source-026
+        seg_id: seg-029
+        quote: "The stakeholder management emphasis (93% prioritize it for scope challenges) also underscores the human competencies that AI cannot replace."
+      - source_id: source-028
+        seg_id: seg-015
+        quote: "Automation will reduce costs and free PMs to focus on stakeholder management and complex activities"
+      - source_id: source-026
+        seg_id: seg-019
+        quote: "64% prioritize technical skill development; 61% prioritize power skills; business acumen trails both"
+      - source_id: source-030
+        seg_id: seg-011
+        quote: "Three reasons AI will not replace PMs (Paul Boudreau): data needs human preparation, insights need human interpretation, outcomes need human-AI collaboration"
+
+  # ---------------------------------------------------------------------------
+  # THEME: pm_role_evolution
+  # ---------------------------------------------------------------------------
+
+  - id: cc-039
+    theme: pm_role_evolution
+    statement: "AI will not make project managers obsolete, but it will reduce the number of PMs organizations need and shift the role from task tracking to strategic leadership."
+    claim_type: predictive
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-001
+        seg_id: seg-014
+        quote: "Experts do not foresee AI making project managers obsolete, but expect it to reduce the number of project managers organizations need to hire."
+      - source_id: source-002
+        seg_id: seg-014
+        quote: "This 'silicon workforce' will handle the hyper-automation of routine tasks, freeing up project managers to focus on strategic oversight and complex problem-solving."
+      - source_id: source-004
+        seg_id: seg-024
+        quote: "The shift from task-tracker to strategic lead represents a fundamental change in the project manager role driven by AI automation."
+      - source_id: source-006
+        seg_id: seg-044
+        quote: "Engineers shift from execution to oversight roles."
+      - source_id: source-009
+        seg_id: seg-014
+        quote: "Strong PMO adds value through coaching, training, and embedding practices through human relationships and interaction -- skills AI cannot replicate"
+      - source_id: source-018
+        seg_id: seg-013
+        quote: "Project managers will shift from administrative task execution to strategic, leadership-focused roles"
+      - source_id: source-018
+        seg_id: seg-023
+        quote: "Project managers, aided by virtual project assistants, will find their roles more focused on coaching and stakeholder management than on administration and manual tasks."
+      - source_id: source-030
+        seg_id: seg-005
+        quote: "The Gartner prediction that 80% of PM tasks will be run by AI by 2030 does not mean replacement, but rather automation of non-core tasks (email, scheduling, status reports) while project managers lead the strategic and collaborative work."
+      - source_id: source-031
+        seg_id: seg-012
+        quote: "GenAI is not eliminating PM but empowering PMs to focus on creativity, coaching, stakeholder management, and leadership"
+
+  - id: cc-040
+    theme: pm_role_evolution
+    statement: "Project managers must develop new competencies in AI literacy, data fluency, and AI orchestration to remain effective in an AI-augmented environment."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-012
+        quote: "Data and AI fluency are becoming core competencies for all project professionals, who must learn to manage, orchestrate, and collaborate with digital team members."
+      - source_id: source-003
+        seg_id: seg-018
+        quote: "Project managers and PMOs who can seamlessly integrate [AI] can be much more impactful, and those who don't make the jump risk being left behind."
+      - source_id: source-007
+        seg_id: seg-037
+        quote: "There is a skill gap in AI literacy that needs to be bridged."
+      - source_id: source-004
+        seg_id: seg-015
+        quote: "The shift from AI experimentation in 2025 to full-scale deployment in 2026 requires immediate focus on AI governance: verifying outputs, building accountability"
+      - source_id: source-013
+        seg_id: seg-018
+        quote: "Four critical power skills identified: strategic thinking, problem-solving, collaborative leadership, and communication"
+      - source_id: source-014
+        seg_id: seg-024
+        quote: "Skills rated most important: innovative mindset (72% high impact), data-driven decisions (62%), AI ethics (57%)"
+      - source_id: source-026
+        seg_id: seg-006
+        quote: "The report finds that only approximately 20% of project managers report having extensive or good practical AI skills, highlighting a significant capability gap in the profession."
+      - source_id: source-024
+        seg_id: seg-014
+        quote: "39% report a lack of AI skills on staff"
+      - source_id: source-032
+        seg_id: seg-011
+        quote: "However, significant barriers remain: resistance to change from team members (26%), lack of skilled personnel (19%), data integration and quality issues (17%), and high costs and budget restraints (15%)."
+      - source_id: source-023
+        seg_id: seg-019
+        quote: "76% of leaders willing to offer up to 10% higher compensation for candidates with strong AI skills"
+
+  - id: cc-041
+    theme: pm_role_evolution
+    statement: "The majority of project managers lack meaningful AI knowledge or practical experience with AI tools."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-013
+        seg_id: seg-014
+        quote: "Only about 20% of project managers report extensive or good practical experience with AI tools; 49% have little to no experience"
+      - source_id: source-014
+        seg_id: seg-014
+        quote: "65% of participants have no or basic level of AI knowledge and experience"
+      - source_id: source-022
+        seg_id: seg-017
+        quote: "AI skills gap is the biggest barrier to integration; education is the No. 1 talent adjustment strategy"
+      - source_id: source-026
+        seg_id: seg-027
+        quote: "The low AI skills rate (~20% with practical competence) alongside the low business acumen rate (18% with high proficiency) suggests that the profession faces a dual capability gap."
+
+  - id: cc-042
+    theme: pm_role_evolution
+    statement: "Organizations are not providing adequate AI training to their employees, creating a gap between available tools and workforce readiness."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-014
+        seg_id: seg-015
+        quote: "62% of companies rated 4 or less in providing AI training to employees"
+      - source_id: source-022
+        seg_id: seg-009
+        quote: "The report also highlights critical gaps: the AI skills gap is seen as the biggest barrier to integration, with education -- not role or workflow redesign -- being the primary talent strategy adjustment."
+      - source_id: source-022
+        seg_id: seg-030
+        quote: "Education -- not role or workflow redesign -- is the primary talent strategy adjustment for addressing AI skills gaps."
+
+  - id: cc-043
+    theme: pm_role_evolution
+    statement: "Project managers who proactively adopt AI and drive organizational AI adoption will gain a competitive career advantage."
+    claim_type: normative
+    strength: supported
+    supporting_sources:
+      - source_id: source-013
+        seg_id: seg-022
+        quote: "Project managers who stay at the forefront of the progression of emerging technologies and help drive AI adoption within their organizations will best position themselves for career success."
+      - source_id: source-014
+        seg_id: seg-028
+        quote: "With a global digital economy, AI transformation will be a 'survival of the fittest.' Not keeping up as a company may risk falling behind and not being able to keep or attract new talent."
+      - source_id: source-014
+        seg_id: seg-017
+        quote: "66% of professionals would propose new innovative projects if their employer lagged in technology adoption"
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_limitations_risks
+  # ---------------------------------------------------------------------------
+
+  - id: cc-044
+    theme: ai_limitations_risks
+    statement: "AI in project management has significant limitations including inability to handle organizational context, ambiguity, and novel situations beyond historical data patterns."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-009
+        seg_id: seg-010
+        quote: "AI-generated meeting summaries frequently fail because AI lacks organizational context, cannot interpret acronyms, shorthand, or incomplete sentences, and 'dangerously fills in gaps with incorrect guesses'"
+      - source_id: source-009
+        seg_id: seg-013
+        quote: "Large complex transformations are by their nature unusual, taking organizations 'outside of the established dataset' -- meaning AI predictions become less accurate precisely when stakes are highest"
+      - source_id: source-009
+        seg_id: seg-032
+        quote: "Current AI models cannot judge whether statistical relationships they identify are rational or causal."
+      - source_id: source-008
+        seg_id: seg-024
+        quote: "The explicit limitations noted by Microsoft themselves -- tasks without assignees or dependencies, the need for human review of all AI outputs, the requirement for logged actuals -- reveal the gap between AI's promise and its current production-grade capabilities."
+      - source_id: source-006
+        seg_id: seg-012
+        quote: "AI systems underperform not because of weak models but because of poor context: missing documentation, inconsistent tagging, and scattered tribal knowledge"
+      - source_id: source-005
+        seg_id: seg-022
+        quote: "Most project delivery is still inconsistent. AI can help with earlier risk signals and faster reporting, but it cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+      - source_id: source-018
+        seg_id: seg-015
+        quote: "Identifies six key risks of AI in PM: data quality, bias/fairness, lack of human judgment, performance instability, enterprise/financial risk, and job displacement"
+      - source_id: source-020
+        seg_id: seg-007
+        quote: "The paper also discusses primary inhibitors: information privacy concerns, knowledge gaps among practitioners, and organizational resistance to technology diffusion."
+
+  - id: cc-045
+    theme: ai_limitations_risks
+    statement: "Current production AI tools for project management have notable functional gaps, including inability to auto-assign resources, set dependencies, or operate without pre-existing structured data."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-008
+        seg_id: seg-010
+        quote: "AI-generated tasks do not automatically include assignees, dependencies, or checklist items -- these must be added manually afterward"
+      - source_id: source-008
+        seg_id: seg-033
+        quote: "Risk assessment requires logged actuals (time, expense, or materials) to function."
+      - source_id: source-001
+        seg_id: seg-012
+        quote: "Resource allocation via AI requires comprehensive organizational data that most organizations do not yet have -- a key limiting factor."
+      - source_id: source-009
+        seg_id: seg-029
+        quote: "AI lacks organizational context and cannot interpret acronyms, shorthand, or incomplete sentences."
+
+  - id: cc-046
+    theme: ai_limitations_risks
+    statement: "Stakeholder management, project communication, and interpersonal aspects of PM are the areas least impacted by or suited to current AI."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-014
+        seg_id: seg-020
+        quote: "Low-impact areas: stakeholder management, project communication, project budgeting"
+      - source_id: source-017
+        seg_id: seg-016
+        quote: "Lower-impact areas include those requiring more human judgment and interpersonal interaction"
+
+  - id: cc-047
+    theme: ai_limitations_risks
+    statement: "AI adoption in PM faces a multi-dimensional barrier set including skills gaps, workflow integration difficulties, change resistance, cost constraints, and security concerns."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-024
+        seg_id: seg-006
+        quote: "However, adoption faces significant barriers: 41% of project managers said AI adoption is a challenge, 39% reported a lack of AI skills on staff, and 36% said integrating new tools into existing workflows is a significant hurdle."
+      - source_id: source-032
+        seg_id: seg-021
+        quote: "AI adoption barriers: resistance to change (26%), lack of skilled personnel (19%), data integration/quality issues (17%), cost/budget constraints (15%)"
+      - source_id: source-023
+        seg_id: seg-016
+        quote: "65% of leaders cite agentic system complexity as the top deployment barrier for two consecutive quarters"
+      - source_id: source-031
+        seg_id: seg-016
+        quote: "Key challenges: data quality and availability, security concerns, integrating AI into existing processes"
+      - source_id: source-024
+        seg_id: seg-015
+        quote: "36% say integrating new tools into existing workflows is a significant hurdle"
+      - source_id: source-023
+        seg_id: seg-010
+        quote: "Cybersecurity is the single greatest barrier to achieving AI strategy goals (80% of leaders), with data privacy (77%) and data quality (65%) rising sharply as concerns."
+
+  # ---------------------------------------------------------------------------
+  # THEME: agentic_ai_capabilities
+  # ---------------------------------------------------------------------------
+
+  - id: cc-048
+    theme: agentic_ai_capabilities
+    statement: "Agentic AI represents a qualitative shift from previous automation: rather than executing commands, AI agents can reason about goals, plan multi-step actions, and coordinate with other systems autonomously."
+    claim_type: definitional
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-006
+        seg_id: seg-009
+        quote: "Agentic AI is qualitatively different from previous automation: it reasons about goals, plans multi-step actions, and coordinates with other agents or systems with minimal supervision"
+      - source_id: source-006
+        seg_id: seg-021
+        quote: "Where previous systems executed commands, agentic AI can reason about goals, plan multi-step actions and coordinate with other agents or systems, often with minimal supervision. These are no longer tools; they are teammates, of a sort, capable of making decisions and influencing outcomes."
+      - source_id: source-007
+        seg_id: seg-018
+        quote: "AI agents are software systems that can act on your behalf without needing you to click, drag, or follow up. They're not just 'smart tools.' These agentic systems, built with machine learning and natural language processing technologies, are designed to act, not just analyze."
+      - source_id: source-002
+        seg_id: seg-007
+        quote: "The most significant shift in 2026 is the emergence of a hybrid human-AI workforce, where agentic AI systems manage entire workflows from planning and resource allocation to risk mitigation."
+      - source_id: source-023
+        seg_id: seg-007
+        quote: "The survey surfaces a critical finding for project management: 44% of leaders expect AI agents to take lead roles in managing specific projects alongside human teams over the next 2-3 years."
+      - source_id: source-025
+        seg_id: seg-015
+        quote: "Shift from static application architecture to intention-based frameworks and agentic systems"
+
+  - id: cc-049
+    theme: agentic_ai_capabilities
+    statement: "AI agents differ from traditional PM tools across multiple dimensions including dynamic task assignment, continuous learning, end-to-end automation, and real-time decision support."
+    claim_type: definitional
+    strength: supported
+    supporting_sources:
+      - source_id: source-007
+        seg_id: seg-010
+        quote: "AI agents differ from traditional PM tools in seven key dimensions: task assignment (dynamic vs. static), adaptability (continuous learning vs. fixed workflows), automation (end-to-end vs. rule-based), decision support (real-time vs. historical), human oversight (autonomous with escalation vs. frequent approvals), scalability (multi-project vs. limited), and error reduction (real-time syncing vs. prone to missed updates)"
+      - source_id: source-006
+        seg_id: seg-030
+        quote: "Agentic AI is fundamentally different from previous automation waves."
+      - source_id: source-010
+        seg_id: seg-016
+        quote: "An AI-powered PMO goes beyond traditional project management by leveraging AI to drive efficiency, automation and predictive decision-making."
+
+  - id: cc-050
+    theme: agentic_ai_capabilities
+    statement: "As AI adoption matures, system complexity — particularly in orchestrating agentic and multi-agent systems — has emerged as a primary deployment challenge."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-023
+        seg_id: seg-009
+        quote: "System complexity has replaced other concerns as the No. 1 deployment challenge, with 65% of leaders citing agentic system complexity as the top barrier."
+      - source_id: source-023
+        seg_id: seg-033
+        quote: "The emphasis on system complexity as the top barrier, rather than technical capability, suggests that orchestration and governance — traditional PMO competencies — become more important as AI scales."
+      - source_id: source-027
+        seg_id: seg-008
+        quote: "The portfolio management gap is particularly notable: governance, scalability, and robust data models required for enterprise-scale planning are still maturing in many CWM platforms."
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_tool_market
+  # ---------------------------------------------------------------------------
+
+  - id: cc-051
+    theme: ai_tool_market
+    statement: "The AI-enabled project management software market is experiencing rapid growth, with projections ranging from 17% to 40% CAGR and organizations significantly increasing AI investment."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-016
+        quote: "AI-enabled PM market projected to grow at 40% CAGR (2023-2028); another forecast projects growth from $2.5B to $5.7B (17.3% CAGR) depending on market definition."
+      - source_id: source-005
+        seg_id: seg-017
+        quote: "Overall PM software market projected to grow from $10.56B (2026) to $39.16B (2035), 12.8% CAGR."
+      - source_id: source-007
+        seg_id: seg-008
+        quote: "The global market for AI in project management is projected to grow from $2.5 billion (2023) to $5.7 billion by 2028"
+      - source_id: source-001
+        seg_id: seg-007
+        quote: "According to Capterra's 2025 Project Management Software Trends Survey, 55% of buyers reported that 'AI was the top trigger for their most recent purchase.'"
+      - source_id: source-014
+        seg_id: seg-008
+        quote: "The global AI in PM market was estimated at USD 2.5B in 2023, projected to reach USD 7.7B by 2030 at 17.3% CAGR"
+      - source_id: source-021
+        seg_id: seg-004
+        quote: "88% of organizations now use AI in at least one business function, up from 20% in 2017."
+      - source_id: source-023
+        seg_id: seg-005
+        quote: "Average AI investment climbed from $114M in Q1 to $130M in Q3 2025, with 67% of leaders indicating they will maintain AI spending even in a recession."
+      - source_id: source-029
+        seg_id: seg-008
+        quote: "Looking ahead, 88% anticipate GenAI budget increases in the next 12 months, with 62% expecting increases above 10%."
+      - source_id: source-032
+        seg_id: seg-019
+        quote: "Organizations plan to increase AI investments by 36%"
+
+  - id: cc-052
+    theme: ai_tool_market
+    statement: "Major technology vendors and consultancies are making substantial investments in AI for project management, embedding AI capabilities directly into enterprise platforms."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-012
+        quote: "PwC became the first enterprise reseller of OpenAI and spent $1 billion to expand and scale AI offerings."
+      - source_id: source-003
+        seg_id: seg-013
+        quote: "PwC launched an AI agent operating system to revolutionize AI workflows."
+      - source_id: source-002
+        seg_id: seg-008
+        quote: "AECOM's $390 million acquisition of Norwegian AI startup Consigli in late 2025 signals that infrastructure consultancies are embedding AI at their core, transforming into tech-driven organizations."
+      - source_id: source-008
+        seg_id: seg-003
+        quote: "Official Microsoft documentation for the Copilot integration in Dynamics 365 Project Operations, describing four AI-powered capabilities for project managers"
+
+  - id: cc-053
+    theme: ai_tool_market
+    statement: "AI capabilities have become a primary driver of project management software purchasing decisions."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-024
+        seg_id: seg-004
+        quote: "The survey's central finding is that AI has become the primary driver of PM software investment: 55% of buyers reported that AI was the top trigger for their most recent PM software purchase."
+      - source_id: source-024
+        seg_id: seg-028
+        quote: "AI has become the primary driver of PM software investment."
+      - source_id: source-027
+        seg_id: seg-013
+        quote: "AI capabilities are no longer optional — they are central to competitive differentiation in PM tools"
+
+  # ---------------------------------------------------------------------------
+  # THEME: organizational_change
+  # ---------------------------------------------------------------------------
+
+  - id: cc-054
+    theme: organizational_change
+    statement: "Change management resistance is a significant barrier to AI adoption in PMOs, requiring deliberate organizational strategies beyond technology deployment."
+    claim_type: empirical
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-010
+        seg_id: seg-031
+        quote: "Change management resistance is a key challenge in scaling AI PMOs."
+      - source_id: source-007
+        seg_id: seg-038
+        quote: "Job security fears among PM teams must be managed during AI adoption."
+      - source_id: source-009
+        seg_id: seg-009
+        quote: "The 'IKEA effect' applies to project management: when teams are handed AI-generated artifacts rather than creating them collaboratively, they lose ownership and commitment"
+      - source_id: source-004
+        seg_id: seg-009
+        quote: "Professional services sector saw layoffs in 2025 driven by two factors: removing reluctant AI adopters and reducing headcount through perceived AI efficiency savings."
+      - source_id: source-032
+        seg_id: seg-021
+        quote: "AI adoption barriers: resistance to change (26%), lack of skilled personnel (19%), data integration/quality issues (17%), cost/budget constraints (15%)"
+      - source_id: source-032
+        seg_id: seg-033
+        quote: "The barrier analysis — led by resistance to change (26%) rather than technology limitations — suggests that the challenge of AI adoption in PM is primarily organizational and cultural, not technical."
+      - source_id: source-029
+        seg_id: seg-027
+        quote: "The challenge isn't replacement, it's readiness. Companies that invest in training, culture, and guardrails will be the ones that turn Everyday AI into long-term advantage."
+
+  - id: cc-055
+    theme: organizational_change
+    statement: "AI-generated project artifacts risk reducing team ownership and engagement, as teams that do not participate in creating plans and documents feel less committed to them."
+    claim_type: normative
+    strength: supported
+    supporting_sources:
+      - source_id: source-009
+        seg_id: seg-009
+        quote: "The 'IKEA effect' applies to project management: when teams are handed AI-generated artifacts rather than creating them collaboratively, they lose ownership and commitment"
+      - source_id: source-009
+        seg_id: seg-020
+        quote: "Documentation and a stack of paperwork doesn't make change happen. Change and value only come from use."
+      - source_id: source-009
+        seg_id: seg-028
+        quote: "When teams are handed AI-generated artifacts rather than creating them collaboratively, they lose ownership and commitment."
+      - source_id: source-005
+        seg_id: seg-018
+        quote: "AI helps most when it reduces project overhead (status chasing, reporting, handoff confusion), but cannot fix unclear scope, missing owners, or weak stakeholder decisions."
+
+  - id: cc-056
+    theme: organizational_change
+    statement: "Organizations that establish dedicated teams (PMOs, transformation offices, adoption teams) for driving AI adoption are more likely to succeed at scaling AI."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-021
+        seg_id: seg-009
+        quote: "Organizations that establish dedicated teams to drive gen AI adoption -- including project management offices, transformation offices, or dedicated adoption and scaling teams -- are more likely to succeed."
+      - source_id: source-021
+        seg_id: seg-023
+        quote: "Organizations that are succeeding include those establishing a dedicated team to drive gen AI adoption -- for example, a project management office, transformation office, or dedicated adoption and scaling team."
+      - source_id: source-021
+        seg_id: seg-019
+        quote: "48% of AI high performers strongly agree that senior leaders demonstrate ownership and commitment to AI initiatives, compared to 16% among all other companies"
+
+  - id: cc-057
+    theme: organizational_change
+    statement: "Workflow redesign — not technology selection — is the most important factor in realizing financial impact from AI adoption."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-021
+        seg_id: seg-008
+        quote: "The redesign of workflows emerges as the single most important factor in realizing EBIT impact from generative AI."
+      - source_id: source-021
+        seg_id: seg-016
+        quote: "Workflow redesign has the biggest effect on an organization's ability to see EBIT impact from gen AI"
+      - source_id: source-021
+        seg_id: seg-025
+        quote: "The finding that workflow redesign -- not technology selection -- drives financial impact is particularly relevant for project management practitioners considering AI integration."
+      - source_id: source-022
+        seg_id: seg-023
+        quote: "Improving productivity and efficiency top the list of benefits achieved from enterprise AI adoption so far, with two-thirds of organizations reporting gains."
+
+  # ---------------------------------------------------------------------------
+  # THEME: professional_body_response
+  # ---------------------------------------------------------------------------
+
+  - id: cc-058
+    theme: professional_body_response
+    statement: "Professional bodies (PMI and APM) have begun incorporating AI into their bodies of knowledge, but their responses are considered insufficient relative to the pace of change in practice."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-007
+        quote: "PMI's 8th edition PMBOK (December 2025) includes only a short 8-page AI overview in Appendix 3, described as 'provisional' and 'tentative.'"
+      - source_id: source-004
+        seg_id: seg-008
+        quote: "APM's Body of Knowledge 8th edition (summer 2025) contains a more thoughtful 11-page survey of AI in Chapter 6, though not fully integrated into the content."
+      - source_id: source-004
+        seg_id: seg-025
+        quote: "Professional bodies' responses to AI have been insufficient relative to the pace of change in practice."
+      - source_id: source-011
+        seg_id: seg-023
+        quote: "Even the main international standardization body for project management, the Project Management Institute (PMI), supports the application of AI."
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_predictive_capabilities
+  # ---------------------------------------------------------------------------
+
+  - id: cc-059
+    theme: ai_predictive_capabilities
+    statement: "A tension exists between AI's ability to enhance employee skills and the risk that AI reliance leads to skill degradation, particularly for foundational competencies."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-029
+        seg_id: seg-010
+        quote: "The study also identifies a tension: 89% agree GenAI enhances employees' skills, yet 43% see risk of declines in skill proficiency — echoing concerns about AI-driven deskilling."
+      - source_id: source-029
+        seg_id: seg-019
+        quote: "89% agree GenAI enhances employees' skills, but 43% see risk of skill proficiency decline"
+      - source_id: source-031
+        seg_id: seg-018
+        quote: "Soft skills investment is critical now as AI handles more administrative and analytical tasks"
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_urgency_imperative
+  # ---------------------------------------------------------------------------
+
+  - id: cc-060
+    theme: ai_urgency_imperative
+    statement: "There is an urgent imperative for organizations and project managers to adopt AI or risk competitive disadvantage, with inaction framed as a strategic risk."
+    claim_type: normative
+    strength: strongly-supported
+    supporting_sources:
+      - source_id: source-003
+        seg_id: seg-017
+        quote: "What used to be considered disruptive is now essential. Doing nothing with AI can mean missing opportunities."
+      - source_id: source-003
+        seg_id: seg-018
+        quote: "Project managers and PMOs who can seamlessly integrate [AI] can be much more impactful, and those who don't make the jump risk being left behind."
+      - source_id: source-003
+        seg_id: seg-007
+        quote: "Four out of ten CEOs believe their company will not be viable in 10 years if it stays on its current path (PwC Annual Global CEO Survey)."
+      - source_id: source-005
+        seg_id: seg-008
+        quote: "81% of project professionals anticipate AI significantly impacting their work within the next three years."
+      - source_id: source-001
+        seg_id: seg-017
+        quote: "This isn't about chasing shiny features. It's about tackling rising project complexity, resource constraints and the demand for speed."
+      - source_id: source-007
+        seg_id: seg-009
+        quote: "According to IBM, 86% of executives say AI agents will significantly improve process automation and workflow reinvention by 2027"
+
+  # ---------------------------------------------------------------------------
+  # THEME: project_delivery_performance
+  # ---------------------------------------------------------------------------
+
+  - id: cc-061
+    theme: project_delivery_performance
+    statement: "Current project delivery performance remains poor across organizations, with success rates of 31-35%, providing a compelling case for AI-assisted improvement given the scale of global project investment."
+    claim_type: empirical
+    strength: supported
+    supporting_sources:
+      - source_id: source-005
+        seg_id: seg-014
+        quote: "Only 34% of organizations say they mostly or always complete projects on time, and 34% on budget."
+      - source_id: source-011
+        seg_id: seg-004
+        quote: "The study notes that approximately $48 trillion is invested in projects every year, yet according to the Standish Group, only 35% of projects are considered successful."
+      - source_id: source-005
+        seg_id: seg-015
+        quote: "The average project performance rate across organizations is 73.8% (PMI Pulse of the Profession 2024)."
+      - source_id: source-011
+        seg_id: seg-021
+        quote: "Approximately $48 trillion is invested in projects every year. However, according to the Standish Group, only 35% of projects are considered successful. The waste of resources and unrealized benefits of the remaining 65% are staggering."
+      - source_id: source-032
+        seg_id: seg-007
+        quote: "Only 31% of projects are reported as successful (on time, on budget, on scope), while 82% of organizations now operate one or more PMOs."
+      - source_id: source-031
+        seg_id: seg-004
+        quote: "The article frames the opportunity around a stark statistic: organizations invest approximately $48 trillion in projects annually, but only 35% are considered successful (Forbes, 2023)."
+
+  # ---------------------------------------------------------------------------
+  # THEME: ai_decision_intelligence
+  # ---------------------------------------------------------------------------
+
+  - id: cc-062
+    theme: ai_decision_intelligence
+    statement: "AI-powered decision intelligence -- where AI recommends actions rather than merely presenting data -- is emerging as a key capability for project managers."
+    claim_type: predictive
+    strength: supported
+    supporting_sources:
+      - source_id: source-002
+        seg_id: seg-013
+        quote: "AI-powered decision intelligence (where AI recommends actions rather than just presenting data) is emerging as a key capability for project managers."
+      - source_id: source-010
+        seg_id: seg-036
+        quote: "The future includes AI-augmented project management with real-time recommendations."
+      - source_id: source-006
+        seg_id: seg-010
+        quote: "The key question shifts from 'What should this system do?' to 'What should it be allowed to decide?' -- reframing project prioritization around coordination, trust, and control rather than pure efficiency"
+
+  # ---------------------------------------------------------------------------
+  # THEME: shadow_ai_risks
+  # ---------------------------------------------------------------------------
+
+  - id: cc-063
+    theme: shadow_ai_risks
+    statement: "Unmanaged or informal AI use ('Shadow AI') within project teams poses risks to project integrity and organizational consistency."
+    claim_type: normative
+    strength: supported
+    supporting_sources:
+      - source_id: source-004
+        seg_id: seg-012
+        quote: "'Shadow AI' -- teams using AI tools privately without shared norms -- is identified as a major risk to project integrity."
+      - source_id: source-005
+        seg_id: seg-011
+        quote: "46% of respondents who use generative AI at work have used it for less than six months -- indicating most AI usage is still fresh and informal."
+      - source_id: source-004
+        seg_id: seg-019
+        quote: "In 2026, we must get a handle on AI governance. We need to be able to verify the outputs from our AI tools, build accountability for the AI + HI (Human Intelligence) systems that we create"
+
+  # ---------------------------------------------------------------------------
+  # REMAINING SINGLE-THEME CLAIMS
+  # ---------------------------------------------------------------------------
+
+  - id: cc-064
+    theme: ai_bias_risk
+    statement: "Bias in AI decision-making is recognized as a key challenge for AI adoption in project management, requiring deliberate mitigation strategies."
+    claim_type: normative
+    strength: supported
+    supporting_sources:
+      - source_id: source-010
+        seg_id: seg-033
+        quote: "Bias in AI decision-making is a key challenge in scaling AI PMOs."
+      - source_id: source-008
+        seg_id: seg-020
+        quote: "To ensure adherence to ethical guidelines and responsible AI usage, the Copilot feature isn't used to create projects that suggest offensive, destructive, or abusive content."
+      - source_id: source-003
+        seg_id: seg-011
+        quote: "PwC created a Responsible AI toolkit with customizable frameworks, tools, and processes to address unique risks of AI and GenAI."
+      - source_id: source-031
+        seg_id: seg-014
+        quote: "AI models carry biases from human-created training data — PMs need to manage this"
+      - source_id: source-025
+        seg_id: seg-018
+        quote: "Trust means digital systems and AI models are more accurate, predictable, consistent, and traceable — beyond responsible use of AI"
+
+
+# =============================================================================
+# UNIQUE CLAIMS — Positions held by only one source
+# =============================================================================
+
+unique_claims:
+
+  - id: uc-001
+    source_id: source-009
+    theme: ai_ownership_deficit
+    statement: "AI-generated project artifacts trigger an 'IKEA effect' in reverse -- by removing team participation from artifact creation, AI reduces psychological ownership and commitment to project plans."
+    seg_ids: [seg-009, seg-018, seg-028, seg-041, seg-042]
+    significance: "This is the only source that applies behavioral economics (the IKEA effect) to AI in project management. It identifies a non-obvious second-order consequence: even when AI artifacts are higher quality, the process of not creating them harms team buy-in."
+
+  - id: uc-002
+    source_id: source-006
+    theme: agentic_readiness_framework
+    statement: "Three specific dimensions determine agentic AI readiness: coordination readiness (machine-readable system communication), context readiness (unambiguous knowledge access), and observability readiness (decision traceability)."
+    seg_ids: [seg-011, seg-031, seg-037, seg-038]
+    significance: "This is the only source that provides a structured, multi-dimensional framework for assessing organizational readiness specifically for agentic AI."
+
+  - id: uc-003
+    source_id: source-006
+    theme: tiered_autonomy_model
+    statement: "AI deployment should follow a four-level tiered autonomy model: Level 0 (observation), Level 1 (advisory), Level 2 (supervised execution), Level 3 (autonomous execution), with each level requiring proof of reliability before progression."
+    seg_ids: [seg-013, seg-032, seg-039]
+    significance: "This is the only source that proposes a graduated autonomy framework for AI in project management, providing a concrete staged approach to increasing AI authority."
+
+  - id: uc-004
+    source_id: source-004
+    theme: ai_psychosis_concept
+    statement: "The concept of 'AI Psychosis' (over-reliance on AI capabilities, coined by Microsoft's Mustafa Suleyman) and 'AI Slop' (low-quality AI content) represent emerging professional risks specific to AI adoption."
+    seg_ids: [seg-014, seg-018, seg-028]
+    significance: "This source uniquely names and defines two emerging phenomena that other sources allude to but do not explicitly conceptualize."
+
+  - id: uc-005
+    source_id: source-004
+    theme: confidence_scoring_method
+    statement: "Confidence scoring is proposed as a practical method for managing AI hallucination risk in project management outputs."
+    seg_ids: [seg-013]
+    significance: "This is the only source that proposes a specific technical mechanism (confidence scoring) for addressing the AI hallucination problem in PM contexts."
+
+  - id: uc-006
+    source_id: source-003
+    theme: pmo_strategy_execution_gap
+    statement: "PMO bottlenecks create gaps between strategy and execution, and AI integration specifically addresses this strategy-execution gap."
+    seg_ids: [seg-015]
+    significance: "This is the only source that explicitly frames AI as a solution to the strategy-execution gap within PMO functions."
+
+  - id: uc-007
+    source_id: source-011
+    theme: construction_sector_dominance
+    statement: "Over 50% of academic research on AI in project management focuses on the construction sector, with IT/software development a distant second at 13.4%."
+    seg_ids: [seg-014]
+    significance: "This finding reveals a significant sectoral bias in the research literature, meaning many claims about AI in PM may not generalize well to other industries."
+
+  - id: uc-008
+    source_id: source-011
+    theme: quantitative_risk_analysis_dominance
+    statement: "Perform Quantitative Risk Analysis (PQRA) is the most common PM process targeted by AI applications in the academic literature, due to its quantitative and data-driven characteristics."
+    seg_ids: [seg-013]
+    significance: "This identifies a specific PM process (PQRA) as the primary AI application target in academic research, highlighting that AI has been most successfully applied to already-quantitative processes."
+
+  - id: uc-009
+    source_id: source-009
+    theme: ai_prediction_novelty_paradox
+    statement: "AI predictions become less accurate precisely when project stakes are highest, because large complex transformations take organizations outside established data patterns."
+    seg_ids: [seg-013, seg-019, seg-033]
+    significance: "This is the only source that identifies a paradox in AI predictive value: the situations where AI predictions would be most valuable are precisely where they are least reliable."
+
+  - id: uc-010
+    source_id: source-010
+    theme: ai_pmo_scalability
+    statement: "AI-powered PMOs can use reusable templates and best practices to scale standardized implementations efficiently across multiple clients."
+    seg_ids: [seg-014, seg-039]
+    significance: "This is the only source that discusses AI-powered PMO scaling across multiple client engagements."
+
+  - id: uc-011
+    source_id: source-007
+    theme: enterprise_agent_deployments
+    statement: "Major enterprises including PepsiCo, Workday, Siemens, and Trunk Tools have deployed AI agents at scale across diverse operational domains."
+    seg_ids: [seg-012, seg-013, seg-014, seg-015]
+    significance: "This is the only source that catalogs specific enterprise AI agent deployments with named companies and concrete outcomes."
+
+  - id: uc-012
+    source_id: source-011
+    theme: ai_academic_research_landscape
+    statement: "Academic research on AI in project management has grown sharply since 2020, with construction (50.3%) and risk management dominating the literature across 215 papers analyzed from 1996 to 2023."
+    seg_ids: [seg-018, seg-014, seg-013, seg-007]
+    significance: "As the only systematic literature review in this batch, this source provides the only evidence-based overview of the academic research landscape."
+
+  - id: uc-013
+    source_id: source-010
+    theme: ai_compliance_automation
+    statement: "AI is being applied to automate compliance checking and regulatory risk management in project management contexts, particularly in regulated industries."
+    seg_ids: [seg-012, seg-029]
+    significance: "This is the only source that specifically discusses AI-powered compliance automation in PM, with concrete examples from healthcare regulations."
+
+  - id: uc-014
+    source_id: source-010
+    theme: legacy_system_integration
+    statement: "Interoperability between AI tools and legacy project management systems is a significant implementation challenge for organizations adopting AI-powered PMOs."
+    seg_ids: [seg-030]
+    significance: "Only this source specifically identifies legacy system interoperability as a distinct barrier, though multiple sources reference underlying technology maturity issues."
+
+  - id: uc-015
+    source_id: source-002
+    theme: consultancy_transformation
+    statement: "Traditional consultancies and infrastructure firms are transforming into technology-driven organizations, embedding AI at their core through major acquisitions and investments."
+    seg_ids: [seg-008, seg-020]
+    significance: "This is the only source that specifically frames the consultancy-to-tech transformation through the lens of major acquisitions (AECOM/Consigli)."
+
+  - id: uc-016
+    source_id: source-013
+    theme: genai_adoption_framework
+    statement: "PMI proposes a three-tier GenAI adoption framework (Automation, Assistance, Augmentation) mapping task complexity to human intervention required."
+    seg_ids: [seg-003, seg-005, seg-006, seg-007, seg-015, seg-016]
+    significance: "This is the only source to propose a structured framework linking AI capability tiers to task complexity levels."
+
+  - id: uc-017
+    source_id: source-013
+    theme: talent_triangle_ai
+    statement: "PMI's Talent Triangle framework (Ways of Working, Power Skills, Business Acumen) is applied to define AI skill development needs for project managers."
+    seg_ids: [seg-008, seg-017]
+    significance: "Only PMI applies its own Talent Triangle to the AI context. This institutional framing may influence how the profession formally defines AI competency requirements."
+
+  - id: uc-018
+    source_id: source-015
+    theme: ai_ethics_models
+    statement: "Two novel conceptual models are proposed: the AI-Augmented Ethics-Centric Model and the Predictive Model for AI Adoption and Human Trust."
+    seg_ids: [seg-004, seg-007, seg-011]
+    significance: "These are unique theoretical contributions representing an attempt to provide formal frameworks for AI governance and trust in PM."
+
+  - id: uc-019
+    source_id: source-016
+    theme: unfaithful_appropriation
+    statement: "Project managers engage in 'unfaithful appropriation' of AI tools, creatively repurposing them beyond their designed use cases."
+    seg_ids: [seg-006, seg-013, seg-016, seg-017]
+    significance: "This concept from Adaptive Structuration Theory captures an important behavioral pattern: PMs do not just adopt AI tools as designed but actively adapt them."
+
+  - id: uc-020
+    source_id: source-016
+    theme: adaptive_structuration_theory
+    statement: "Adaptive Structuration Theory (AST) provides a rigorous theoretical framework for explaining generative AI adoption patterns in project management."
+    seg_ids: [seg-003, seg-010, seg-025]
+    significance: "This is the only source to apply a formal sociological theory to AI adoption in PM, moving the field beyond descriptive accounts to explanatory models."
+
+  - id: uc-021
+    source_id: source-014
+    theme: regional_ai_adoption_variation
+    statement: "Regional variation in AI adoption beliefs is significant: Latin America shows the highest belief in transformative potential (87%), Oceania at 86%, Asia at 79%."
+    seg_ids: [seg-025]
+    significance: "Only the PMI global chapter survey provides this geographic breakdown, challenging assumptions about adoption patterns."
+
+  - id: uc-022
+    source_id: source-014
+    theme: ai_laggard_trust_deficit
+    statement: "Only 1 in 4 project professionals would trust leadership if their organization was falling behind in AI adoption, and 66% would propose new innovative projects in response."
+    seg_ids: [seg-017, seg-018]
+    significance: "This reveals a trust deficit specific to AI laggard organizations, suggesting that failing to adopt AI could trigger talent retention challenges."
+
+  - id: uc-023
+    source_id: source-019
+    theme: knowledge_type_ai_matching
+    statement: "Different PM knowledge areas require different types of AI tools based on their dominant knowledge type: formal knowledge suits ML optimization, data-driven knowledge suits analytics, tacit knowledge suits generative AI."
+    seg_ids: [seg-007, seg-011, seg-013, seg-014, seg-028, seg-029, seg-030]
+    significance: "This knowledge-type-based matching framework is unique to this source, providing a principled basis for AI tool selection."
+
+  - id: uc-024
+    source_id: source-020
+    theme: lifecycle_ai_framework
+    statement: "A lifecycle-based conceptual framework maps four AI/ML capabilities (predictive analytics, intelligent automation, NLP, self-learning algorithms) across the entire project lifecycle from initiation to closure."
+    seg_ids: [seg-005, seg-010, seg-011]
+    significance: "This is the only source to organize AI capabilities across the project lifecycle phases, providing a complementary lens for practitioners."
+
+  - id: uc-025
+    source_id: source-020
+    theme: systematic_ai_adoption
+    statement: "Systematic AI/ML adoption across the entire lifecycle is preferable to piecemeal or ad hoc deployment."
+    seg_ids: [seg-008, seg-032]
+    significance: "Only this source explicitly advocates for a holistic, systematic approach to AI integration rather than function-by-function adoption."
+
+  - id: uc-026
+    source_id: source-022
+    theme: ai_revenue_aspiration_gap
+    statement: "Revenue growth from AI remains largely aspirational, with 74% of organizations hoping for it but only 20% currently achieving it."
+    seg_ids: [seg-008, seg-016]
+    significance: "This quantifies the aspiration-achievement gap for AI-driven revenue, providing a sobering counterpoint to optimistic adoption narratives."
+
+  - id: uc-027
+    source_id: source-022
+    theme: physical_ai_emergence
+    statement: "Physical AI is gaining traction, with 58% of organizations reporting at least limited use today, expected to reach 80% in two years."
+    seg_ids: [seg-020]
+    significance: "Only this source addresses physical AI (robotics, IoT-integrated AI), expanding the AI discussion beyond software-based tools."
+
+  - id: uc-028
+    source_id: source-017
+    theme: planning_phase_locus
+    statement: "The planning phase across cost, risk, and schedule is the primary locus of AI impact within PM knowledge areas."
+    seg_ids: [seg-015]
+    significance: "While other sources identify which knowledge areas are impacted, only this source pinpoints the planning phase specifically as the primary locus within those areas."
+
+  - id: uc-029
+    source_id: source-021
+    theme: senior_leadership_ai_commitment
+    statement: "Senior leadership commitment is the strongest differentiator between AI high performers and other organizations (48% vs. 16% strongly agreeing leaders demonstrate ownership)."
+    seg_ids: [seg-019, seg-028]
+    significance: "This quantified leadership gap is unique to the McKinsey survey and provides specific evidence for why executive sponsorship matters in AI adoption."
+
+  - id: uc-030
+    source_id: source-016
+    theme: ai_tool_adoption_drivers
+    statement: "Innovation attitude, peer influence, and task-technology fit are significant drivers of how project managers adopt and adapt AI tools."
+    seg_ids: [seg-005, seg-014, seg-015]
+    significance: "This is the only source grounding AI adoption drivers in formal theory (AST), identifying specific social and cognitive factors."
+
+  - id: uc-031
+    source_id: source-023
+    theme: board_ai_expertise
+    statement: "Board-level AI expertise has grown five-fold (from 8% to 40%) in two quarters, signaling rapid executive-level engagement with AI governance."
+    seg_ids: [seg-020]
+    significance: "This is the only source quantifying the speed at which corporate boards are building AI expertise."
+
+  - id: uc-032
+    source_id: source-025
+    theme: brand_homogenization_risk
+    statement: "80% of executives worry that LLMs and chatbots could give every brand a similar voice, undermining differentiation."
+    seg_ids: [seg-012]
+    significance: "This brand-homogenization concern is unique among the sources and could apply to project communication if AI-generated updates become generic."
+
+  - id: uc-033
+    source_id: source-026
+    theme: business_acumen_proficiency
+    statement: "Only 18% of project professionals demonstrate high business acumen proficiency, yet these individuals achieve 27% lower failure rates and 5 percentage points better goal achievement."
+    seg_ids: [seg-005, seg-012, seg-013]
+    significance: "This is the only source quantifying the performance advantage of business acumen in PM."
+
+  - id: uc-034
+    source_id: source-027
+    theme: cwm_ppm_gap
+    statement: "Collaborative Work Management tools are not yet full replacements for traditional Project Portfolio Management systems — governance, scalability, and data model maturity are still lacking."
+    seg_ids: [seg-015, seg-016, seg-023]
+    significance: "This Forrester finding uniquely identifies a capability gap between emerging AI-enhanced CWM tools and enterprise-grade PPM requirements."
+
+  - id: uc-035
+    source_id: source-028
+    theme: automation_vs_ai_distinction
+    statement: "A crucial distinction exists between automation (controlled processes following pre-programmed rules) and genuine AI (designed to simulate intelligent thinking), and many 'AI' features in PM tools are actually rule-based automation."
+    seg_ids: [seg-005, seg-009, seg-020]
+    significance: "This is the only source explicitly calling out the conflation of automation with AI in PM tools."
+
+  - id: uc-036
+    source_id: source-029
+    theme: chief_ai_officer_prevalence
+    statement: "Chief AI Officer roles are now present in 61% of enterprises, representing significant growth in dedicated AI leadership."
+    seg_ids: [seg-011, seg-020]
+    significance: "This is the only source quantifying the emergence of dedicated AI leadership roles."
+
+  - id: uc-037
+    source_id: source-030
+    theme: portfolio_complexity_threshold
+    statement: "AI is most valuable in multi-project environments with shared resource pools — small companies running a few projects may not benefit from AI; value increases with portfolio complexity."
+    seg_ids: [seg-017, seg-019]
+    significance: "This is the only source identifying a complexity threshold below which AI adoption in PM may not be cost-effective."
+
+  - id: uc-038
+    source_id: source-031
+    theme: outcome_steward_role
+    statement: "Project managers will assume the role of 'outcome stewards' ensuring fairness and quality in AI applications rather than executing tasks directly."
+    seg_ids: [seg-013, seg-023]
+    significance: "This is the only source introducing a specific named role concept for the AI-era PM."
+
+
+# =============================================================================
+# CONTRADICTIONS — Where sources disagree
+# =============================================================================
+
+contradictions:
+
+  - id: ct-001
+    theme: ai_replacing_pm_role
+    description: "Sources disagree on whether AI will fundamentally replace PMO functions or merely augment them, with some sources framing AI as transformative enough to subsume core PMO tasks and others arguing AI cannot substitute for human PMO capabilities."
+    positions:
+      - source_id: source-010
+        stance: "AI-powered PMOs go beyond traditional project management, with a future trajectory toward automated end-to-end implementation minimizing manual intervention."
+        seg_ids: [seg-016, seg-037]
+      - source_id: source-002
+        stance: "Agentic AI systems will manage entire workflows from planning and resource allocation to risk mitigation as part of a hybrid workforce."
+        seg_ids: [seg-007]
+      - source_id: source-009
+        stance: "AI is still no replacement for PMO excellence; each category of AI capability has significant limitations that prevent it from substituting for skilled human PMO work."
+        seg_ids: [seg-040, seg-016, seg-038]
+    resolution: "The disagreement is partly one of timeframe: source-009 describes current-state limitations while sources 002 and 010 project future capabilities. It is also partly one of scope: source-009 focuses on high-complexity transformations where AI limitations are most severe, while the more optimistic sources discuss routine and standardizable PMO functions."
+
+  - id: ct-002
+    theme: ai_governance_urgency_vs_enablement
+    description: "Sources differ on whether AI governance should be treated primarily as a constraint and control mechanism or as an enabling scaffold that supports faster and safer AI adoption."
+    positions:
+      - source_id: source-004
+        stance: "AI governance is the most urgent priority, focused on verifying outputs, building accountability, and managing effects on well-being and critical thinking -- framed as a control mechanism against risks."
+        seg_ids: [seg-026, seg-019]
+      - source_id: source-006
+        stance: "Governance is not a gate at the end but a scaffold that enables safe exploration -- framed as an enabler of faster, more confident AI adoption."
+        seg_ids: [seg-018, seg-023]
+    resolution: "The positions are complementary rather than strictly contradictory. Source-004 writes from a profession-wide risk perspective, while source-006 writes from a CIO implementation perspective. In practice, effective governance likely needs both dimensions."
+
+  - id: ct-003
+    theme: ai_adoption_readiness
+    description: "Sources disagree on whether the primary barrier to AI value in project management is AI model capability or organizational data readiness and infrastructure."
+    positions:
+      - source_id: source-006
+        stance: "AI systems underperform not because of weak models but because of poor context: missing documentation, inconsistent tagging, and scattered tribal knowledge."
+        seg_ids: [seg-012, seg-022]
+      - source_id: source-008
+        stance: "Current production AI tools have inherent functional limitations including inability to set assignees, dependencies, or operate without logged actuals, suggesting the tools themselves are not yet fully capable."
+        seg_ids: [seg-010, seg-024, seg-033]
+    resolution: "Both positions have merit. The truth likely varies by use case: for some applications (reporting, risk flagging), data readiness is the primary bottleneck; for others (resource assignment, dependency management), the tools themselves are not yet capable."
+
+  - id: ct-004
+    theme: pm_technology_maturity
+    description: "Sources differ on how mature current AI-enabled PM technology is: some describe a mature, rapidly growing tool market while an academic source characterizes PM technology overall as immature."
+    positions:
+      - source_id: source-005
+        stance: "The AI-enabled PM market is growing at up to 40% CAGR, with 55% of PM software buyers citing AI as their top purchase trigger."
+        seg_ids: [seg-016, seg-017]
+      - source_id: source-007
+        stance: "The global market for AI in project management is projected to reach $5.7 billion by 2028, with major enterprises already deploying AI agents."
+        seg_ids: [seg-008, seg-012, seg-014]
+      - source_id: source-011
+        stance: "Most organizations still use spreadsheets, slides and other applications that have not evolved much in recent decades; the low level of maturity of available technologies is a reason for low project success rates."
+        seg_ids: [seg-005, seg-022]
+    resolution: "The disconnect is temporal and definitional. Source-011 analyzed literature through 2023. Sources 005 and 007 report on rapid change in 2024-2026. Both can be true simultaneously: the market is growing rapidly, but most organizations have not yet adopted the new tools."
+
+  - id: ct-005
+    theme: pm_knowledge_area_impact
+    description: "Sources disagree on which PM knowledge areas are most impacted by AI — specifically whether stakeholder management and communication are high-impact or low-impact areas."
+    positions:
+      - source_id: source-014
+        stance: "Stakeholder management and project communication are among the lowest-impact areas for AI in PM."
+        seg_ids: [seg-020]
+      - source_id: source-019
+        stance: "Communication management, risk management, and stakeholder management are among the PM knowledge areas where AI holds the most significant potential."
+        seg_ids: [seg-006, seg-012]
+    resolution: "The disagreement likely reflects different definitions of 'impact.' The PMI survey (source-014) measures current practitioner-perceived impact, while the academic study (source-019) assesses theoretical potential with generative AI opening new possibilities for communication and stakeholder domains."
+
+  - id: ct-006
+    theme: ai_decision_making
+    description: "Sources differ on whether education or workflow redesign is the primary lever for achieving AI impact."
+    positions:
+      - source_id: source-021
+        stance: "The redesign of workflows is the single most important factor in realizing EBIT impact from generative AI."
+        seg_ids: [seg-008, seg-016]
+      - source_id: source-022
+        stance: "Education — not role or workflow redesign — is the primary talent strategy adjustment for addressing AI skills gaps."
+        seg_ids: [seg-009, seg-030]
+    resolution: "The sources address different aspects of the same challenge. McKinsey focuses on what drives financial returns (workflow redesign). Deloitte focuses on how organizations are actually responding (education). The implication is that organizations may be under-investing in workflow redesign relative to its importance."
+
+  - id: ct-007
+    theme: pm_knowledge_area_rankings
+    description: "Sources provide partially conflicting rankings of which PM knowledge areas are most affected by AI, with different areas appearing in top positions depending on the study."
+    positions:
+      - source_id: source-017
+        stance: "Project cost management, schedule management, and risk management are the three most impacted areas."
+        seg_ids: [seg-005, seg-012]
+      - source_id: source-019
+        stance: "Integration management, scope management, communication management, risk management, and stakeholder management are the areas with the most significant AI potential."
+        seg_ids: [seg-006, seg-012]
+    resolution: "The two studies use different methodologies and timeframes. Fridgeirsson et al. (2021) assessed near-term impact with traditional AI/ML. Almeida et al. (2025) accounted for generative AI capabilities. Risk management appears in both, but overall rankings differ due to the expanded AI capability set."
+
+  - id: ct-008
+    theme: autonomous_pm_timeline
+    description: "Sources disagree on how close autonomous project management is to practical reality."
+    positions:
+      - source_id: source-023
+        stance: "AI agents co-leading projects is near-term (2-3 years), with 44% of leaders expecting it and orchestrated super-agent ecosystems anticipated in 2026."
+        seg_ids: [seg-007, seg-025]
+      - source_id: source-028
+        stance: "Autonomous project management (Phase 4) is still largely theoretical and faces significant obstacles; the industry is only now transitioning into early Phase 3 (ML-based PM)."
+        seg_ids: [seg-004, seg-013]
+    resolution: "The disagreement partly reflects the publication gap (2018 vs. 2026) and partly a scope difference: KPMG describes agents assisting with specific tasks, while PwC's Phase 4 envisions fully self-driven PM."
+
+  - id: ct-009
+    theme: ai_skill_enhancement_vs_deskilling
+    description: "Sources present different perspectives on whether AI enhances or degrades practitioner skills."
+    positions:
+      - source_id: source-029
+        stance: "89% agree GenAI enhances employees' skills, but 43% simultaneously see risk of skill proficiency decline — acknowledging both effects."
+        seg_ids: [seg-010, seg-019]
+      - source_id: source-031
+        stance: "GenAI empowers PMs to focus on higher-value skills (creativity, coaching, leadership), framing AI purely as an enhancer."
+        seg_ids: [seg-012, seg-018]
+      - source_id: source-026
+        stance: "Only 20% of PMs have practical AI skills, and investment priorities favor technical and power skills over business acumen, suggesting a gap AI could widen."
+        seg_ids: [seg-006, seg-019]
+    resolution: "The tension is real and unresolved. The outcome likely depends on whether organizations invest in upskilling alongside AI deployment."
+
+  - id: ct-010
+    theme: primary_adoption_barrier
+    description: "Sources identify different primary barriers to AI adoption in PM, reflecting different survey populations and maturity levels."
+    positions:
+      - source_id: source-023
+        stance: "System complexity (65%) is the top deployment barrier, followed by cybersecurity (80% as strategic barrier)."
+        seg_ids: [seg-009, seg-010]
+      - source_id: source-032
+        stance: "Resistance to change (26%) is the leading barrier, followed by lack of skilled personnel (19%) and data issues (17%)."
+        seg_ids: [seg-011, seg-021]
+      - source_id: source-024
+        stance: "General adoption challenges (41%), skills gaps (39%), and workflow integration (36%) are the primary barriers."
+        seg_ids: [seg-006, seg-013, seg-014, seg-015]
+    resolution: "The apparent contradiction reflects different populations and maturity levels. KPMG surveyed enterprise leaders already scaling AI. Wellingtone surveyed PM practitioners. Capterra surveyed PM software buyers. The primary barrier shifts as an organization progresses along the adoption maturity curve."

@@ -1,0 +1,231 @@
+source_id: source-011
+title: "How Artificial Intelligence Will Transform Project Management in the Age of Digitization: A Systematic Literature Review"
+url: "https://link.springer.com/article/10.1007/s11301-024-00418-z"
+author: "Maria Elena Nenni, Fabio De Felice, Cristina De Luca, Antonio Forcina"
+date: 2024-04-09
+total_segments: 25
+
+composition:
+  claim: { count: 6, pct: 24.0 }
+  statistic: { count: 4, pct: 16.0 }
+  evidence: { count: 4, pct: 16.0 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 0, pct: 0.0 }
+  context: { count: 4, pct: 16.0 }
+  methodology: { count: 2, pct: 8.0 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 1, pct: 4.0 }
+  noise: { count: 4, pct: 16.0 }
+
+signal_ratio: 84.0
+
+segments:
+  # Title
+  - id: seg-001
+    text: "How Artificial Intelligence Will Transform Project Management in the Age of Digitization: A Systematic Literature Review"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # Summary
+  - id: seg-002
+    text: "This open-access systematic literature review, published in Management Review Quarterly (Springer), applies the PRISMA protocol to explore the intersection of project management and artificial intelligence."
+    type: methodology
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The authors analyzed 215 papers published between 1996 and 2023, drawn from Web of Science and Scopus databases, to investigate how AI-driven methodologies and tools can transform the way project risks are managed throughout the project lifecycle."
+    type: methodology
+    section: "Summary"
+    position: 3
+    source_format: prose
+    metadata:
+      metric: "papers analyzed"
+      value: 215
+      unit: "papers"
+      population: "Web of Science and Scopus, 1996-2023"
+
+  - id: seg-004
+    text: "The study notes that approximately $48 trillion is invested in projects every year, yet according to the Standish Group, only 35% of projects are considered successful."
+    type: statistic
+    section: "Summary"
+    position: 4
+    source_format: prose
+    metadata:
+      metric: "project success rate"
+      value: 35
+      unit: "%"
+      population: "global projects"
+
+  - id: seg-005
+    text: "One contributing factor is the low level of maturity of available technologies -- most organizations still use spreadsheets, slides, and applications that have not evolved much in recent decades."
+    type: claim
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The paper provides a cross-sectional investigation of PM processes and AI categories/tools, identifying prevalent paths, their origins, and the PM processes or sectors where AI is most successful."
+    type: context
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "The review also presents a bibliometric analysis showing that publications on AI in PM have increased sharply from 2020 to 2023, likely catalyzed by the COVID-19 pandemic accelerating digital transformation."
+    type: evidence
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "China leads in publications (17%), followed by the UK (10%), Iran and the US (8% each)."
+    type: statistic
+    section: "Summary"
+    position: 8
+    source_format: prose
+    metadata:
+      metric: "publication share by country"
+      value: 17
+      unit: "%"
+      population: "AI-PM research publications"
+
+  - id: seg-009
+    text: "The most frequent keyword in the literature is 'risk assessment,' followed by 'risk management' and 'project management.'"
+    type: evidence
+    section: "Summary"
+    position: 9
+    source_format: prose
+
+  # Key Takeaways
+  - id: seg-010
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 10
+    source_format: heading
+
+  - id: seg-011
+    text: "Analyzed 215 papers (149 articles, 14 conference papers, 7 brief surveys) published in 71 journals from 1996 to 2023"
+    type: statistic
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+    metadata:
+      metric: "papers analyzed"
+      value: 215
+      unit: "papers"
+      population: "71 journals, 1996-2023"
+
+  - id: seg-012
+    text: "Only 35% of projects globally are considered successful; approximately $48 trillion is invested in projects annually"
+    type: statistic
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+    metadata:
+      metric: "annual project investment"
+      value: 48
+      unit: "trillion USD"
+      population: "global"
+
+  - id: seg-013
+    text: "The most common AI application in PM is in Perform Quantitative Risk Analysis (PQRA) processes, due to their quantitative and data-driven characteristics"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Out of 215 articles, 70 focus on the construction sector (50.3%), followed by IT/software development (13.4%)"
+    type: evidence
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+    metadata:
+      metric: "construction sector share"
+      value: 50.3
+      unit: "%"
+      population: "215 AI-PM articles"
+
+  - id: seg-015
+    text: "Key AI techniques identified include: fuzzy logic, machine learning, neural networks, Bayesian networks, Monte Carlo simulation, and genetic algorithms"
+    type: context
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Five keyword clusters emerged: decision-making in risk management (red), risk identification and classification (green), modelling and programming of project risk (blue), project-related economic risk (yellow), and a fifth cluster on optimization"
+    type: evidence
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "The research identifies several gaps that scientific research needs to fill to effectively implement AI in PM, formulated as a future research agenda"
+    type: claim
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  - id: seg-018
+    text: "Publications on AI in PM increased sharply from 2020-2023, with COVID-19 acting as a catalyst for digital transformation"
+    type: claim
+    section: "Key Takeaways"
+    position: 18
+    source_format: bullet
+
+  - id: seg-019
+    text: "China (17%), UK (10%), Iran and US (8% each) are the leading countries in AI-PM research output"
+    type: context
+    section: "Key Takeaways"
+    position: 19
+    source_format: bullet
+
+  # Notable Quotes
+  - id: seg-020
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "Approximately $48 trillion is invested in projects every year. However, according to the Standish Group, only 35% of projects are considered successful. The waste of resources and unrealized benefits of the remaining 65% are staggering."
+    type: claim
+    section: "Notable Quotes"
+    position: 21
+    source_format: quote
+
+  - id: seg-022
+    text: "One of the reasons why success rates are so low is the low level of maturity of the available technologies. For project management, most organizations and project managers still use spreadsheets, slides and other applications that have not evolved much in recent decades."
+    type: claim
+    section: "Notable Quotes"
+    position: 22
+    source_format: quote
+
+  - id: seg-023
+    text: "Even the main international standardization body for project management, the Project Management Institute (PMI), supports the application of AI."
+    type: attribution
+    section: "Notable Quotes"
+    position: 23
+    source_format: quote
+
+  # Relevance to Topic
+  - id: seg-024
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 24
+    source_format: heading
+
+  - id: seg-025
+    text: "This is one of the most comprehensive systematic literature reviews on AI in project management, covering nearly three decades of research. Its PRISMA-based methodology, large sample size (215 papers), and cross-sectional analysis of PM processes against AI tools make it a foundational reference for understanding the academic landscape. The identification of risk management as the dominant AI application area, and the concentration on the construction sector, reveal important gaps and opportunities for broader PM domains."
+    type: context
+    section: "Relevance to Topic"
+    position: 25
+    source_format: prose

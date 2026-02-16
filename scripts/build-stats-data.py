@@ -4,7 +4,11 @@
 Consolidates all page-level statistics into a single JSON file
 so the site can inject them dynamically instead of hardcoding.
 
-Output: docs/data/stats.json
+Usage:
+  python3 scripts/build-stats-data.py                # Process all topics
+  python3 scripts/build-stats-data.py ea-for-ai      # Process one topic
+
+Output: docs/data/{topic-slug}/stats.json
 """
 
 import glob
@@ -17,8 +21,22 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOPICS_DIR = os.path.join(ROOT, "knowledge-base", "topics")
-OUTPUT_DIR = os.path.join(ROOT, "docs", "data")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "stats.json")
+OUTPUT_BASE = os.path.join(ROOT, "docs", "data")
+
+
+def parse_frontmatter_yaml(filepath):
+    """Parse YAML frontmatter from a markdown file using yaml.safe_load."""
+    with open(filepath, "r") as f:
+        content = f.read()
+
+    match = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
+    if not match:
+        return {}
+
+    try:
+        return yaml.safe_load(match.group(1)) or {}
+    except yaml.YAMLError:
+        return {}
 
 
 def parse_frontmatter(filepath):
@@ -160,17 +178,20 @@ def read_baseline_sources(topic_dir):
     return summary_bullets, entries
 
 
-def build_stats():
-    # Find the first (currently only) topic
-    topic_dirs = [
-        d for d in glob.glob(os.path.join(TOPICS_DIR, "*"))
-        if os.path.isdir(d) and os.path.exists(os.path.join(d, "_index.md"))
-    ]
-    if not topic_dirs:
-        print("No topic directories found.", file=sys.stderr)
-        sys.exit(1)
+def get_topic_slug(topic_dir):
+    """Get the topic slug from _index.md frontmatter or directory name."""
+    index_path = os.path.join(topic_dir, "_index.md")
+    if os.path.exists(index_path):
+        fm = parse_frontmatter_yaml(index_path)
+        slug = fm.get("slug", "")
+        if slug:
+            return slug
+    return os.path.basename(topic_dir).lower().replace(" ", "-")
 
-    topic_dir = topic_dirs[0]
+
+def build_stats_for_topic(topic_dir):
+    """Build stats JSON for a single topic directory."""
+    slug = get_topic_slug(topic_dir)
 
     # Gather stats
     sources, year_min, year_max = count_sources(topic_dir)
@@ -181,7 +202,7 @@ def build_stats():
     baseline_summary, baseline_sources = read_baseline_sources(topic_dir)
 
     stats = {
-        "generated": "2026-02-15",
+        "generated": "2026-02-16",
         "sources": sources,
         "source_year_min": year_min,
         "source_year_max": year_max,
@@ -197,17 +218,49 @@ def build_stats():
     if baseline_sources is not None:
         stats["baseline_sources"] = baseline_sources
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    with open(OUTPUT_FILE, "w") as f:
+    output_dir = os.path.join(OUTPUT_BASE, slug)
+    output_file = os.path.join(output_dir, "stats.json")
+    os.makedirs(output_dir, exist_ok=True)
+    with open(output_file, "w") as f:
         json.dump(stats, f, indent=2, default=str)
 
-    print(f"Stats data written to {OUTPUT_FILE}")
-    print(f"  Sources: {sources} ({year_min}\u2013{year_max})")
-    print(f"  Total segments: {total_segments:,}")
-    print(f"  Canonical claims: {stats['canonical_claims']}")
-    print(f"  Unique claims: {stats['unique_claims']}")
-    print(f"  Contradictions: {stats['contradictions']}")
-    print(f"  Key findings: {key_findings}")
+    print(f"  {output_file}")
+    print(f"    Sources: {sources}" + (f" ({year_min}\u2013{year_max})" if year_min else ""))
+    print(f"    Total segments: {total_segments:,}")
+    print(f"    Canonical claims: {stats['canonical_claims']}")
+    print(f"    Unique claims: {stats['unique_claims']}")
+    print(f"    Contradictions: {stats['contradictions']}")
+    print(f"    Key findings: {key_findings}")
+
+
+def find_topic_dirs(slug=None):
+    """Find topic directories, optionally filtering by slug."""
+    all_dirs = [
+        d for d in glob.glob(os.path.join(TOPICS_DIR, "*"))
+        if os.path.isdir(d) and os.path.exists(os.path.join(d, "_index.md"))
+    ]
+    if slug:
+        matching = [d for d in all_dirs if get_topic_slug(d) == slug]
+        if not matching:
+            print(f"Topic '{slug}' not found.", file=sys.stderr)
+            sys.exit(1)
+        return matching
+    return sorted(all_dirs)
+
+
+def build_stats():
+    slug = sys.argv[1] if len(sys.argv) > 1 else None
+    topic_dirs = find_topic_dirs(slug)
+
+    if not topic_dirs:
+        print("No topic directories found.", file=sys.stderr)
+        sys.exit(1)
+
+    print("Building stats data...")
+    for topic_dir in topic_dirs:
+        topic_slug = get_topic_slug(topic_dir)
+        print(f"  Topic: {topic_slug}")
+        build_stats_for_topic(topic_dir)
 
 
 if __name__ == "__main__":

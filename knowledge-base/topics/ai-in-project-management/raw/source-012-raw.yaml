@@ -1,0 +1,180 @@
+source_id: source-012
+title: "Artificial Intelligence and Project Management: Empirical Overview, State of the Art, and Guidelines for Future Research"
+url: "https://journals.sagepub.com/doi/10.1177/87569728231225198"
+author: "Ralf Muller, Giorgio Locatelli, Vered Holzmann, Marly Nilsson, Temisan Sagay"
+date: 2024-01-09
+total_segments: 22
+
+composition:
+  claim: { count: 8, pct: 36.4 }
+  statistic: { count: 0, pct: 0.0 }
+  evidence: { count: 1, pct: 4.5 }
+  definition: { count: 0, pct: 0.0 }
+  recommendation: { count: 2, pct: 9.1 }
+  context: { count: 6, pct: 27.3 }
+  methodology: { count: 1, pct: 4.5 }
+  example: { count: 0, pct: 0.0 }
+  attribution: { count: 0, pct: 0.0 }
+  noise: { count: 4, pct: 18.2 }
+
+signal_ratio: 81.8
+
+segments:
+  # Title
+  - id: seg-001
+    text: "Artificial Intelligence and Project Management: Empirical Overview, State of the Art, and Guidelines for Future Research"
+    type: noise
+    section: "Title"
+    position: 1
+    source_format: heading
+
+  # Summary
+  - id: seg-002
+    text: "Published in the Project Management Journal (SAGE, PMI's flagship academic journal), this paper by the journal's editors and collaborators addresses the high desk rejection rates of AI-related submissions to the journal."
+    type: context
+    section: "Summary"
+    position: 2
+    source_format: prose
+
+  - id: seg-003
+    text: "The authors provide an empirical overview and state-of-the-art snapshot of both academic and practitioner work on AI in project management, and derive potential topics for future research along with guidelines on the execution and reporting of AI-related studies."
+    type: context
+    section: "Summary"
+    position: 3
+    source_format: prose
+
+  - id: seg-004
+    text: "The paper is significant because it comes from the editorial leadership of the most authoritative academic journal in the project management field."
+    type: context
+    section: "Summary"
+    position: 4
+    source_format: prose
+
+  - id: seg-005
+    text: "It scopes the current state of AI research in project management, identifies where the field stands empirically, and provides explicit guidance for researchers on how to produce higher-quality AI-PM studies."
+    type: context
+    section: "Summary"
+    position: 5
+    source_format: prose
+
+  - id: seg-006
+    text: "The authors note that the scientific literature on AI in project management is still relatively immature, with many submissions failing to meet rigorous research standards."
+    type: claim
+    section: "Summary"
+    position: 6
+    source_format: prose
+
+  - id: seg-007
+    text: "The paper identifies the gap between practitioner enthusiasm for AI tools and the academic rigor needed to build a solid evidence base."
+    type: claim
+    section: "Summary"
+    position: 7
+    source_format: prose
+
+  - id: seg-008
+    text: "It provides practical survey results on AI implementations in organizations and outlines specific topics and methodological guidelines for future research."
+    type: methodology
+    section: "Summary"
+    position: 8
+    source_format: prose
+
+  # Key Takeaways
+  - id: seg-009
+    text: "Key Takeaways"
+    type: noise
+    section: "Key Takeaways"
+    position: 9
+    source_format: heading
+
+  - id: seg-010
+    text: "Published in the Project Management Journal (Vol. 55, Issue 1, February 2024), PMI's flagship academic journal"
+    type: context
+    section: "Key Takeaways"
+    position: 10
+    source_format: bullet
+
+  - id: seg-011
+    text: "Addresses the high rejection rate of AI-related paper submissions, suggesting the field needs stronger research methodologies"
+    type: claim
+    section: "Key Takeaways"
+    position: 11
+    source_format: bullet
+
+  - id: seg-012
+    text: "Provides an empirical overview of practical AI implementations in project management organizations"
+    type: evidence
+    section: "Key Takeaways"
+    position: 12
+    source_format: bullet
+
+  - id: seg-013
+    text: "Identifies a significant gap between practitioner enthusiasm for AI and the rigor of academic evidence supporting its use"
+    type: claim
+    section: "Key Takeaways"
+    position: 13
+    source_format: bullet
+
+  - id: seg-014
+    text: "Derives specific potential topics for future research in AI and project management"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 14
+    source_format: bullet
+
+  - id: seg-015
+    text: "Offers explicit guidelines on the execution and reporting of AI-related studies in the PM domain"
+    type: recommendation
+    section: "Key Takeaways"
+    position: 15
+    source_format: bullet
+
+  - id: seg-016
+    text: "Positions AI research in PM as still in a relatively early and maturing phase"
+    type: claim
+    section: "Key Takeaways"
+    position: 16
+    source_format: bullet
+
+  - id: seg-017
+    text: "Written by the journal's editors-in-chief (Muller and Locatelli) along with collaborators, giving it institutional authority"
+    type: context
+    section: "Key Takeaways"
+    position: 17
+    source_format: bullet
+
+  # Notable Quotes
+  - id: seg-018
+    text: "Notable Quotes"
+    type: noise
+    section: "Notable Quotes"
+    position: 18
+    source_format: heading
+
+  - id: seg-019
+    text: "The scientific literature on the impact of generative AI in project management is still in an embryonic stage, marking an emerging and highly pertinent field of study."
+    type: claim
+    section: "Notable Quotes"
+    position: 19
+    source_format: quote
+
+  # Relevance to Topic
+  - id: seg-020
+    text: "Relevance to Topic"
+    type: noise
+    section: "Relevance to Topic"
+    position: 20
+    source_format: heading
+
+  - id: seg-021
+    text: "This paper is foundational for understanding the academic landscape of AI in project management. Coming from the editorial leadership of the Project Management Journal, it represents the most authoritative assessment of where AI-PM research stands and where it needs to go."
+    type: claim
+    section: "Relevance to Topic"
+    position: 21
+    source_format: prose
+
+  - id: seg-022
+    text: "It establishes the research agenda for the field and provides methodological guardrails that will shape the quality of future studies. Essential reading for anyone seeking to understand the scholarly foundations of AI in project management."
+    type: claim
+    section: "Relevance to Topic"
+    position: 22
+    source_format: prose
