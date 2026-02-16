@@ -130,7 +130,7 @@ Numbered list of all sources with full attribution.
 2. **Adding sources**: Use sequential numbering (source-001, source-002, etc.), update `source_count` in `_index.md`
 3. **Adding insights**: Use sequential numbering (insight-001, insight-002, etc.), update `insight_count` in `_index.md`
 4. **Status transitions**: Update `status` and `updated` date in `_index.md` when stage completes
-5. **Cross-references**: When a source or insight relates to another topic, note it and update `connections/graph.md`
+5. **Cross-references**: When a source or insight relates to another topic, note it in the `related_topics` field of `_index.md`
 
 ## Taxonomy Reference
 

@@ -25,10 +25,6 @@ $ARGUMENTS — The search query (e.g., "AI agents", "enterprise adoption", "tran
    - Search `knowledge-base/topics/*/sources/*.md` files
    - Show: title, relevance score, and file path
 
-   **Connections**:
-   - Search `knowledge-base/connections/graph.md`
-   - Show: related topic pairs and relationship descriptions
-
 3. **Present results**:
    Format results in a clear, scannable way:
 
@@ -46,12 +42,10 @@ $ARGUMENTS — The search query (e.g., "AI agents", "enterprise adoption", "tran
    - {title} [relevance: {N}/5]
      Path: knowledge-base/topics/{slug}/sources/{file}
 
-   ## Related Topics
-   - {topic-a} ↔ {topic-b}: {relationship}
    ```
 
 4. **Suggest related topics**:
-   Based on the search results and `connections/graph.md`, suggest related topics the user might want to explore.
+   Based on the search results and topic tags in `_index.md` files, suggest related topics the user might want to explore.
 
 ## Example
 

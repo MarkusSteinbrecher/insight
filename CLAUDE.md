@@ -112,11 +112,13 @@ knowledge-base/topics/{topic-slug}/
 │   ├── source-001-raw.yaml
 │   ├── source-002-raw.yaml
 │   └── ...
+├── findings.yaml      # High-level findings distilled from claims (Phase 3)
 ├── extractions/       # Cross-source analysis (Phase 1.2+)
-│   ├── claim-alignment.yaml   # Cross-source claim deduplication
-│   ├── critical-analysis.yaml        # Critical analysis
-│   ├── cross-source-analysis.md
-│   └── baseline-evaluation.yaml  # Claim novelty assessment (Phase 0.3)
+│   ├── claim-alignment.yaml        # Cross-source claim deduplication
+│   ├── critical-analysis.yaml      # Critical analysis
+│   ├── cross-source-analysis.md    # Narrative comparison
+│   ├── baseline-evaluation.yaml    # Claim novelty assessment (Phase 0.3)
+│   └── use-case-inventory.yaml     # Use case catalog (when applicable)
 ├── insights/          # Distilled insights (Phase 2.2)
 │   ├── insight-001.md
 │   └── ...
@@ -260,12 +262,19 @@ From test runs, source type strongly affects segment composition:
 - **Noise floor**: Section headings account for ~4-6% noise. Academic papers may include restated conclusions that could inflate claim counts.
 
 ### Build Scripts (`scripts/`)
+
+Run all build scripts at once with `bash scripts/build.sh`.
+
+- **`build-topics-data.py`** — Generates `docs/data/topics.json` with topic list and metadata
 - **`build-overview.py`** — Generates `sources/_overview.md` for each topic with per-source pipeline status (gathered/segmented/analyzed), type breakdown, and institution grouping
-- **`build-stats-data.py`** — Aggregates stats from knowledge base, outputs `docs/data/stats.json`. Includes baseline counts when `baseline-evaluation.yaml` exists.
-- **`build-insights-data.py`** — Reads `critical-analysis.yaml` (or legacy `critical-analysis-part*.yaml`), outputs `docs/data/insights.json` for the claims page. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
-- **`build-sources-data.py`** — Reads source notes, outputs `docs/data/sources.json` for the sources table
-- **`build-findings-data.py`** — Joins findings → claims → sources, outputs `docs/data/findings.json`. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
+- **`build-stats-data.py`** — Aggregates stats from knowledge base, outputs `docs/data/{topic}/stats.json`. Includes baseline counts when `baseline-evaluation.yaml` exists.
+- **`build-insights-data.py`** — Reads `critical-analysis.yaml`, outputs `docs/data/{topic}/insights.json` for the claims page. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
+- **`build-sources-data.py`** — Reads source notes, outputs `docs/data/{topic}/sources.json` for the sources table
+- **`build-findings-data.py`** — Joins findings → claims → sources, outputs `docs/data/{topic}/findings.json`. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
+- **`build-usecases-data.py`** — Transforms `use-case-inventory.yaml` into `docs/data/{topic}/use-cases.json`
 - **`baseline-search.py`** — Searches the web for common knowledge on a topic, outputs `knowledge-base/topics/{topic}/baseline.md`
+- **`scrape-sources.py`** — Fetches web pages via Playwright, extracts content and metadata, writes source notes from URLs in `source-input.yaml`
+- **`audit-claims.py`** — Dataset integrity checks: seg-tbd placeholder detection, AI relevance scoring, coherence validation
 
 ### Site Pages (`docs/`)
 - **Dashboard** — D3.js force-directed knowledge graph showing findings, claims, concepts, statistics, frameworks, and sources with cross-source edges
@@ -298,9 +307,15 @@ current_step: "1.2"  # Cross-source claim alignment
 - **Main page**: `docs/index.html` — single-page application loading JSON data
 - **Stylesheets**: `docs/css/style.css`
 - **JavaScript**: `docs/js/app.js` — renders dashboard, insights, and sources from JSON
-- **Data files**: `docs/data/dashboard.json`, `docs/data/insights.json`, `docs/data/sources.json`
-- **Build**: Run Python scripts in `scripts/` to regenerate JSON data, then serve `docs/` with any static server
-- **Local development**: `python3 -m http.server 1313 --directory docs/`
+- **Data files**: Per-topic subdirectories under `docs/data/`:
+  - `docs/data/topics.json` — topic list and metadata
+  - `docs/data/{topic-slug}/stats.json` — aggregated statistics
+  - `docs/data/{topic-slug}/insights.json` — critical analysis claims
+  - `docs/data/{topic-slug}/sources.json` — source table data
+  - `docs/data/{topic-slug}/findings.json` — findings → claims → sources graph
+  - `docs/data/{topic-slug}/use-cases.json` — use case inventory (when available)
+- **Build**: Run `bash scripts/build.sh` to regenerate all JSON data, then serve `docs/` with any static server
+- **Local development**: `bash scripts/build.sh serve` (starts server on port 8000)
 
 ## Available MCP Servers
 

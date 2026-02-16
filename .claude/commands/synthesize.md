@@ -59,16 +59,11 @@ The topic must exist at `knowledge-base/topics/{topic}/` with both sources and i
    **Bibliography**:
    Numbered list of all sources with full attribution.
 
-4. **Update cross-topic connections**:
-   - Read `knowledge-base/connections/graph.md`
-   - Check if this topic relates to any existing topics
-   - Add connections with shared themes, tension points, and synthesis opportunities
-
-5. **Update topic status**:
+4. **Update topic status**:
    - Set `_index.md` status to "synthesized"
    - Update the `updated` date
 
-6. **Present results**:
+5. **Present results**:
    - Summary of the synthesis
    - Highlight the 2-3 strongest thought leadership angles
    - Suggest next steps: "Use these angles with `/draft` (future) or write content manually"
