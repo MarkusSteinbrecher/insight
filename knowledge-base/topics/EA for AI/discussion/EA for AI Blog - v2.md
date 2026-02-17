@@ -120,6 +120,28 @@ In a fully agentic future, agents may not need applications. But they will alway
 
 But only if it is machine-readable. Most organisations' business architecture exists in slide decks, Visio diagrams, and people's heads. For agents to consume capability definitions, process models, and business rules, these must be codified as executable specifications -- not as documentation for quarterly reviews, but as operational code that agents can interpret and act on. This is the shift from documentation to codification, from intuition-based operations to specification-based ones -- what some are calling **"Enterprise as Code."**
 
+#### From code specifications to business specifications
+
+We can already observe this pattern in software development. AI-assisted coding tools -- from code completion to autonomous coding agents -- are most effective when guided by clear specifications: requirements documents, acceptance criteria, architecture constraints, interface definitions, and test cases. Without specifications, AI generates generic code. With specifications, it generates purposeful, testable, reviewable code. The specification is the prompt -- and the quality of the output is directly proportional to the quality of the specification.
+
+We hypothesise that this same pattern will define how AI agents execute business processes. Just as a software specification tells a coding agent *what* to build, *how* to structure it, and *how to verify* the result, a **business process specification** will tell a business agent *what* outcome to achieve, *within what boundaries*, and *how to know it succeeded*.
+
+What would such a specification look like? We propose that a business architect defining a process for agent execution would need to provide:
+
+- **Goal and success criteria** -- not a step-by-step procedure, but a measurable outcome definition. What does "done" look like? What are the quality thresholds? This is the equivalent of acceptance criteria in software development.
+- **Inputs, outputs, and data contracts** -- which data objects flow in, what the agent produces, and in what format. Analogous to API contracts and interface definitions.
+- **Decision rules and business logic** -- codified, not implicit. When to approve, reject, escalate, or defer. Today these rules live in people's experience; for agents, they must be explicit and machine-interpretable.
+- **Guardrails and constraints** -- what the agent must *not* do. Spending limits, compliance boundaries, data access restrictions, escalation triggers. The equivalent of security policies and architectural constraints in software.
+- **Context and knowledge references** -- which knowledge bases, policies, regulations, and organisational standards apply. The agent needs to know where to look, not just what to do.
+- **Autonomy level and escalation paths** -- at what point human judgment is required. Not every decision should be autonomous; the specification must define the boundary explicitly.
+- **Verification and audit criteria** -- how the organisation validates that the process was executed correctly. The equivalent of test cases -- but for business outcomes rather than code behaviour.
+
+This is a fundamental shift in what business architecture *produces*. Today, a process model is a communication tool -- it helps humans understand how work flows. Tomorrow, a process specification is an *execution instruction* -- it tells an agent how to deliver a business outcome. The rigour required is closer to software engineering than to traditional process documentation: ambiguity that a human can resolve through judgment becomes a failure mode when an agent encounters it.
+
+The implication for business architects is significant. Their deliverable evolves from descriptive models (boxes and arrows that illustrate a process) to **prescriptive specifications** (structured, testable definitions that agents can execute and that humans can audit). Business architects will need to think like specification writers: defining not just the happy path, but the edge cases, exceptions, and verification criteria that make the difference between an agent that handles a process and an agent that handles it *well*.
+
+This is "Enterprise as Code" made concrete -- and it positions business architecture as the discipline that translates organisational intent into agent-executable instructions.
+
 **A critical prerequisite sits beneath this shift:** processes must be redesigned for agent strengths *before* they are automated. The most common anti-pattern in enterprise AI today is taking a human-designed workflow -- complete with sequential approval chains, specialist handoff points, and periodic review checkpoints -- and bolting an AI agent onto it. The agent inherits all the constraints of the human workflow while exploiting none of its own strengths: parallel processing, consistent attention, comprehensive recall, and continuous availability. Research consistently shows that 70% of AI transformation work is people and processes, 20% is technology backbone, and only 10% is algorithms. The real value comes not from automating what exists, but from redesigning how work is done.
 
 **A practical challenge sits above it:** alignment on what AI should deliver. When the CEO expects AI to drive revenue growth and the CIO expects productivity savings, every AI project risks underperforming against at least one sponsor's criteria. The Business Architecture domain must make this explicit -- structuring the AI portfolio with distinct value buckets and distinct success metrics, and ensuring the platform architecture can evolve from early productivity use cases to higher-value, revenue-generating applications.
@@ -129,6 +151,7 @@ But only if it is machine-readable. Most organisations' business architecture ex
 - **Capability definitions** must capture who or what delivers each capability: human, system, agent, or hybrid -- and at what level of autonomy
 - **Process models** must accommodate goal-driven, non-deterministic agent flows alongside traditional sequential workflows -- and processes should be redesigned for agent strengths before automation
 - **Business rules and decision logic** must be codified in machine-readable formats that agents can interpret -- the shift from documentation to executable specification
+- **Process specifications replace process models** as the primary deliverable: structured, testable definitions with goal criteria, decision rules, guardrails, context references, and verification criteria -- the business equivalent of software specifications that AI coding agents already consume
 - **Value driver definitions** must explicitly address the AI expectation gap: separate value streams for productivity, revenue growth, and cost optimisation, each with appropriate KPIs
 
 ---
@@ -166,7 +189,7 @@ This model is a starting point, not a final answer. We invite the EA community t
 |-------|-----------|-------------|
 | Define | **Strategic Value Driver Definition** | Identify what drives business value -- including AI-enabled value streams and agent-driven efficiency gains, with explicit separation of productivity and revenue objectives |
 | Architect | **Capability Definition** | Define business capabilities and explicitly map whether each is delivered by humans, systems, agents, or hybrids -- and at what autonomy level |
-| Transform | **Process & Interaction Modelling** | Model business processes and human-agent interaction patterns -- from sequential workflows to goal-driven, adaptive flows. Codify business rules as machine-readable specifications |
+| Transform | **Process & Interaction Modelling** | Model business processes and human-agent interaction patterns -- from sequential workflows to goal-driven, adaptive flows. Evolve process models into agent-executable specifications: goal criteria, decision rules, guardrails, context references, and verification criteria |
 
 #### Agents & Apps
 
@@ -258,6 +281,7 @@ Organisations that answer this question early will have a significant advantage 
 - Added **agent lifecycle management** as an emerging discipline alongside governance
 - Added **AI sovereignty** throughout -- critical for European audience (82% EMEA orgs adjusting cloud approach)
 - Added **C-Suite expectation gap** in Business section
+- Added **"From code specifications to business specifications"** angle: draws on the pattern that AI in software development is most valuable when guided by specifications, and hypothesises the equivalent for business process architecture
 - Reframed "leaner" as **"refocused"** -- new challenges emerge within restructured domains
 - Governance section expanded with the **speed paradox**: governance slower than deployment creates risk, not safety
 - Practical steps expanded from five to six, adding infrastructure readiness assessment and process redesign
@@ -280,7 +304,7 @@ Organisations that answer this question early will have a significant advantage 
 
 ### Suggested length
 
-- Current draft: ~2,800 words
+- Current draft: ~3,200 words
 - Could be shortened to ~2,000 by condensing the "What changes" boxes into bullet lists within each section
 - Alternative: split into a two-part series:
   - **Part 1:** The shifts -- what changes in each EA layer (automation to autonomization, the four domain shifts)
