@@ -2,7 +2,7 @@
 topic: ea-for-ai
 total_sources: 56
 by_type: { article: 32, blog: 2, paper: 7, report: 14, whitepaper: 1 }
-updated: 2026-02-16
+updated: 2026-02-27
 ---
 
 # Sources Overview: Enterprise Architecture for AI

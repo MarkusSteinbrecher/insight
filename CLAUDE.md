@@ -118,6 +118,7 @@ knowledge-base/topics/{topic-slug}/
 │   ├── critical-analysis.yaml      # Critical analysis
 │   ├── cross-source-analysis.md    # Narrative comparison
 │   ├── baseline-evaluation.yaml    # Claim novelty assessment (Phase 0.3)
+│   ├── conclusions.yaml            # Phase 3 conclusions (actionability, recommendations, angles)
 │   └── use-case-inventory.yaml     # Use case catalog (when applicable)
 ├── insights/          # Distilled insights (Phase 2.2)
 │   ├── insight-001.md
@@ -254,6 +255,43 @@ Categories:
 - **additional**: The claim relates to baseline topics but adds specific detail, a new angle, quantitative data, or practitioner-specific guidance not in the baseline.
 - **new**: The claim addresses something not present in the baseline — a genuinely novel observation or connection.
 
+### Conclusions Schema (`extractions/conclusions.yaml`)
+
+Phase 3 output with three sections matching steps 3.1-3.3:
+
+```yaml
+meta:
+  topic: {topic-slug}
+  target_audience: "..."
+  generated: YYYY-MM-DD
+
+# Step 3.1 — Actionability assessment per finding
+actionability:
+  - finding_id: finding-01
+    actionability: high | medium | low   # Can a practitioner act within 6 months?
+    barriers: ["..."]                    # Organizational, technical, cultural, economic
+    missing_for_action: "..."            # What's absent for a practitioner to act?
+
+# Step 3.2 — Prioritised recommendations
+recommendations:
+  - id: rec-01
+    title: "..."
+    description: "..."
+    priority: high | medium | low
+    effort: high | medium | low
+    dependencies: [rec-XX]               # What must come first
+    related_findings: [finding-01]
+
+# Step 3.3 — Thought leadership angles
+angles:
+  - id: angle-01
+    title: "..."
+    position: "..."                      # The core argument
+    why_novel: "..."                     # Why no source states this plainly
+    supporting_claims: [cc-XXX]
+    suggested_format: blog | pov | presentation | linkedin
+```
+
 ### Observed Composition Patterns
 
 From test runs, source type strongly affects segment composition:
@@ -271,6 +309,7 @@ Run all build scripts at once with `bash scripts/build.sh`.
 - **`build-insights-data.py`** — Reads `critical-analysis.yaml`, outputs `docs/data/{topic}/insights.json` for the claims page. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
 - **`build-sources-data.py`** — Reads source notes, outputs `docs/data/{topic}/sources.json` for the sources table
 - **`build-findings-data.py`** — Joins findings → claims → sources, outputs `docs/data/{topic}/findings.json`. Adds `baseline_category` to each claim when `baseline-evaluation.yaml` exists.
+- **`build-conclusions-data.py`** — Reads `conclusions.yaml`, joins with findings and claims, outputs `docs/data/{topic}/conclusions.json`
 - **`build-usecases-data.py`** — Transforms `use-case-inventory.yaml` into `docs/data/{topic}/use-cases.json`
 - **`baseline-search.py`** — Searches the web for common knowledge on a topic, outputs `knowledge-base/topics/{topic}/baseline.md`
 - **`scrape-sources.py`** — Fetches web pages via Playwright, extracts content and metadata, writes source notes from URLs in `source-input.yaml`
@@ -313,6 +352,7 @@ current_step: "1.2"  # Cross-source claim alignment
   - `docs/data/{topic-slug}/insights.json` — critical analysis claims
   - `docs/data/{topic-slug}/sources.json` — source table data
   - `docs/data/{topic-slug}/findings.json` — findings → claims → sources graph
+  - `docs/data/{topic-slug}/conclusions.json` — recommendations, angles, actionability
   - `docs/data/{topic-slug}/use-cases.json` — use case inventory (when available)
 - **Build**: Run `bash scripts/build.sh` to regenerate all JSON data, then serve `docs/` with any static server
 - **Local development**: `bash scripts/build.sh serve` (starts server on port 8000)

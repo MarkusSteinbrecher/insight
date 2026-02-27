@@ -2,7 +2,7 @@
 topic: ai-in-project-management
 total_sources: 32
 by_type: { article: 11, blog: 3, paper: 7, report: 10, research: 1 }
-updated: 2026-02-16
+updated: 2026-02-27
 ---
 
 # Sources Overview: AI in Project Management

@@ -1122,6 +1122,261 @@ a.baseline-source-title:hover { color: var(--accent); }
   .uc-grid { grid-template-columns: 1fr; }
 }
 
+/* ── Conclusions ─────────────────────────────────────── */
+.conclusions-tabs {
+  display: flex;
+  gap: .25rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0;
+}
+.conclusions-tab {
+  font-family: var(--font);
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color .15s, border-color .15s;
+}
+.conclusions-tab:hover { color: var(--text); }
+.conclusions-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+
+/* Recommendation Cards */
+.rec-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: .75rem;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.rec-header {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.rec-number {
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-light);
+  border-radius: 4px;
+  padding: .15rem .5rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: .1rem;
+}
+.rec-content { flex: 1; min-width: 0; }
+.rec-badges {
+  display: flex;
+  gap: .4rem;
+  flex-wrap: wrap;
+  margin-bottom: .4rem;
+}
+.rec-badge {
+  font-size: .65rem;
+  font-weight: 600;
+  padding: .12rem .45rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+.rec-priority-high { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+.rec-priority-medium { background: #fffbeb; color: #d97706; border: 1px solid #fde68a; }
+.rec-priority-low { background: #f0fdf4; color: #16a34a; border: 1px solid #dcfce7; }
+.rec-effort { background: #f1f5f9; color: #64748b; border: 1px solid #e2e8f0; }
+.rec-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: .4rem;
+  line-height: 1.4;
+}
+.rec-desc {
+  font-size: .9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: .5rem;
+}
+.rec-meta {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  flex-wrap: wrap;
+  font-size: .75rem;
+}
+.rec-deps-label {
+  color: var(--text-muted);
+  font-size: .72rem;
+  margin-left: .5rem;
+}
+.rec-dep-tag {
+  font-size: .65rem;
+  font-weight: 600;
+  padding: .1rem .4rem;
+  border-radius: 100px;
+  background: #f1f5f9;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+}
+
+/* Angle Cards */
+.angle-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: .75rem;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.angle-header {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.angle-number {
+  font-size: .8rem;
+  font-weight: 700;
+  color: #8b5cf6;
+  background: #ede9fe;
+  border-radius: 4px;
+  padding: .15rem .5rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: .1rem;
+}
+.angle-content { flex: 1; min-width: 0; }
+.angle-format {
+  font-size: .65rem;
+  font-weight: 600;
+  padding: .12rem .45rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  background: #ede9fe;
+  color: #7c3aed;
+  border: 1px solid #ddd6fe;
+  display: inline-block;
+  margin-bottom: .4rem;
+}
+.angle-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: .4rem;
+  line-height: 1.4;
+}
+.angle-position {
+  font-size: .9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: .5rem;
+  font-style: italic;
+}
+.angle-novel {
+  font-size: .85rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: .75rem;
+}
+.angle-novel strong { color: var(--text); font-weight: 600; }
+.angle-claims {
+  border-top: 1px solid var(--border);
+  padding-top: .75rem;
+}
+.angle-claim {
+  font-size: .82rem;
+  color: var(--text-muted);
+  padding: .3rem 0;
+  display: flex;
+  gap: .5rem;
+  align-items: baseline;
+}
+.angle-claim-text { flex: 1; line-height: 1.45; }
+
+/* Actionability Grid */
+.actionability-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.act-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+}
+.act-card.act-high { border-top: 3px solid #16a34a; }
+.act-card.act-medium { border-top: 3px solid #d97706; }
+.act-card.act-low { border-top: 3px solid #94a3b8; }
+.act-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+.act-badge {
+  font-size: .65rem;
+  font-weight: 600;
+  padding: .12rem .45rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+.act-badge.act-high { background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+.act-badge.act-medium { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+.act-badge.act-low { background: #f1f5f9; color: #64748b; border: 1px solid #e2e8f0; }
+.act-finding-id {
+  font-size: .72rem;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+}
+.act-title {
+  font-size: .92rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: .75rem;
+}
+.act-section { margin-bottom: .5rem; }
+.act-section:last-child { margin-bottom: 0; }
+.act-barriers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.act-barriers li {
+  font-size: .82rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  padding: .15rem 0 .15rem .75rem;
+  position: relative;
+}
+.act-barriers li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+}
+.act-missing {
+  font-size: .82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .actionability-grid { grid-template-columns: 1fr; }
+}
+
 /* ── Use Cases ──────────────────────────────────────── */
 .uc-intro {
   color: var(--text-secondary);

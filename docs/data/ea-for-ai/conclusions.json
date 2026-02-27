@@ -1,0 +1,485 @@
+{
+  "generated": "2026-02-27",
+  "target_audience": "Enterprise architects, CIOs, CTOs, technology leaders responsible for AI strategy and architecture",
+  "total_recommendations": 12,
+  "total_angles": 8,
+  "actionability": [
+    {
+      "finding_id": "finding-01",
+      "finding_title": "EA Governance Cycles Are Slower Than AI Deployment Cycles \u2014 Sources Describe a Shift Toward Continuous, AI-Augmented EA",
+      "finding_bottom_line": "Traditional EA governance operates on a slower cadence than AI deployment, producing decisions based on outdated context. Multiple sources describe EA evolving from periodic, manual reviews toward a continuously updated, AI-augmented function \u2014 though this depends on data quality and repository maturity most organisations have not yet achieved.",
+      "actionability": "high",
+      "barriers": [
+        "Governance boards and review processes are institutionally entrenched \u2014 changing them requires executive sponsorship",
+        "AI-augmented EA tooling (automated discovery, conformance checking) remains immature for most repository platforms",
+        "Organisations lack the data quality and repository completeness to feed automated governance"
+      ],
+      "missing_for_action": "A proven reference implementation of continuous, automated EA governance \u2014 most examples remain aspirational. Practitioners need a concrete before/after showing the transition from periodic review boards to automated conformance checking with exception-based human review."
+    },
+    {
+      "finding_id": "finding-02",
+      "finding_title": "Right-Size Models to Tasks and Design the Architecture for Frequent Interchange",
+      "finding_bottom_line": "Multiple sources report that specialized, task-specific models outperform larger general-purpose models on defined enterprise tasks. Because model capabilities and costs change rapidly, enterprise architecture must treat the model layer as swappable.",
+      "actionability": "high",
+      "barriers": [
+        "Inertia toward single-vendor, single-model deployments \u2014 switching costs are perceived as high",
+        "Lack of internal benchmarking capability to compare model performance on domain-specific tasks",
+        "Procurement processes not designed for multi-model, multi-vendor AI portfolios"
+      ],
+      "missing_for_action": "Standardised evaluation frameworks for comparing model performance on enterprise-specific tasks. Most organisations lack the tooling and methodology to run head-to-head evaluations of fine-tuned SLMs versus frontier models on their own data."
+    },
+    {
+      "finding_id": "finding-03",
+      "finding_title": "Multi-Agent Systems Are the Emerging Pattern (Similar to Microservices) \u2014 With a Qualitatively New Risk Profile",
+      "finding_bottom_line": "Eleven sources describe multi-agent systems as the emerging enterprise AI architecture. Multiple sources note that decomposition into specialized agents follows the same logic as microservices, but two sources identify qualitatively new failure modes when agents influence each other's outputs.",
+      "actionability": "medium",
+      "barriers": [
+        "Multi-agent systems at enterprise scale remain largely theoretical \u2014 most deployments are single-agent or simple orchestration",
+        "Inter-agent communication standards (MCP, A2A) are still evolving and lack production maturity",
+        "Existing observability and risk frameworks were not designed for non-deterministic agent interactions",
+        "Organisational skills gap \u2014 few teams have experience designing and operating multi-agent systems"
+      ],
+      "missing_for_action": "Production-grade reference architectures with proven blast-radius controls for multi-agent systems. The risk management frameworks for cascading agent failures do not yet exist as implementable patterns."
+    },
+    {
+      "finding_id": "finding-05",
+      "finding_title": "Redesign Processes for Agent Strengths Before Automating Them",
+      "finding_bottom_line": "Six sources describe organisations achieving AI value by redesigning processes from scratch for agent capabilities, not by layering agents onto workflows designed for human constraints. Four sources identify well-defined, quantifiable processes as a prerequisite \u2014 without them, AI application is premature.",
+      "actionability": "high",
+      "barriers": [
+        "Cultural resistance \u2014 process owners resist redesign, preferring incremental automation of existing workflows",
+        "Lack of process mining maturity \u2014 many organisations cannot quantify their current processes",
+        "POC fatigue dilutes focus \u2014 too many AI initiatives, too few properly redesigned processes"
+      ],
+      "missing_for_action": "A step-by-step methodology for agent-native process redesign. Process redesign for automation has a 30-year history (BPR, Lean, Six Sigma); process redesign for agentic AI has none. Practitioners need a structured approach, not just the principle."
+    },
+    {
+      "finding_id": "finding-06",
+      "finding_title": "AI Value Progresses From Productivity to Revenue \u2014 and Most Organisations Are Still in Phase One",
+      "finding_bottom_line": "Seven sources describe AI value as following a progression: initial returns come from internal productivity gains, while deeper value comes from applying AI to core value chains and revenue-generating processes. Two sources identify a disconnect between CEO expectations (revenue growth) and CIO expectations (productivity), and three sources describe AI FinOps as an emerging discipline to manage accelerating AI spend.",
+      "actionability": "medium",
+      "barriers": [
+        "CEO-CIO expectation misalignment on AI value type (revenue vs. productivity) is politically sensitive to surface",
+        "Phase-one platforms built for productivity may lack the data pipelines, integration depth, and reliability required for revenue-generating AI",
+        "Only 10% of organisations have mature AI FinOps \u2014 spending governance lags investment pace"
+      ],
+      "missing_for_action": "A practical framework for planning the platform transition from phase-one (productivity) to phase-two (revenue) AI \u2014 including the architectural requirements that differ between the two. Also lacking: a mature AI FinOps discipline with standard cost categories and benchmarks."
+    },
+    {
+      "finding_id": "finding-07",
+      "finding_title": "Managing AI Agents Requires New Frameworks \u2014 and Organisational Ownership Is Unresolved",
+      "finding_bottom_line": "Five sources describe AI agents as workforce participants rather than tools. Three sources identify a need for management frameworks that diverge from traditional ITSM. Eight sources establish governance and accountability as non-negotiable \u2014 but only two sources address who should own agent management, and their answer (business domains, not IT) is not yet broadly supported.",
+      "actionability": "medium",
+      "barriers": [
+        "No established discipline or framework for agent management exists yet \u2014 organisations must improvise",
+        "Organisational ownership of agents is unresolved \u2014 neither IT nor business domains have clear accountability",
+        "Existing ITSM tools and processes do not accommodate non-deterministic, stateful agents"
+      ],
+      "missing_for_action": "A comprehensive Agent Service Management framework. The field needs the equivalent of ITIL for AI agents \u2014 covering onboarding, performance monitoring, incident response for agent misbehaviour, and decommissioning. No vendor, standards body, or consultancy has published one."
+    },
+    {
+      "finding_id": "finding-08",
+      "finding_title": "The Gap Between AI Ambition and Infrastructure Readiness Is the Binding Constraint",
+      "finding_bottom_line": "Three sources report that only 22% of organisations have architectures that fully support AI workloads, and 87% of senior leaders report substantial barriers to adopting agentic AI. Three sources describe AI infrastructure costs as having surprised organisations unprepared for production AI economics.",
+      "actionability": "medium",
+      "barriers": [
+        "Infrastructure investment is capital-intensive and competes with AI model and agent spending for budget",
+        "AI infrastructure requirements are poorly understood \u2014 most organisations cannot size requirements for planned workloads",
+        "The industry narrative focuses on models and agents, making infrastructure investment harder to justify to leadership"
+      ],
+      "missing_for_action": "Standard benchmarks for AI infrastructure requirements by workload profile. What compute, network, and storage capacity does a production multi-agent system require? How do infrastructure requirements scale with agent count? The field lacks calibrated benchmarks."
+    },
+    {
+      "finding_id": "finding-09",
+      "finding_title": "Operating Models Must Become Explicit and Adaptable for AI to Act on Them",
+      "finding_bottom_line": "Four sources describe operating models that are designed to evolve as fast as the technology they support. Two sources argue that making implicit business logic explicit and machine-readable is a prerequisite for effective AI agent deployment. Two sources advocate pragmatic, fit-for-purpose architecture over idealized designs.",
+      "actionability": "low",
+      "barriers": [
+        "Codifying implicit operating models is a large, multi-year organisational undertaking",
+        "No reference implementations or mature tooling exist for Enterprise as Code",
+        "Requires cross-functional collaboration between business, IT, and operations \u2014 organisational silos resist this",
+        "ROI is difficult to quantify in advance, making the investment case challenging"
+      ],
+      "missing_for_action": "Case studies from organisations that have attempted operating model codification, even partially. The concept is compelling but untested at scale. Practitioners need lessons learned, tooling comparisons, and realistic timelines before committing."
+    },
+    {
+      "finding_id": "finding-10",
+      "finding_title": "AI Sovereignty Is Moving From IT Concern to Board-Level Architecture Constraint",
+      "finding_bottom_line": "Five sources describe AI sovereignty \u2014 control over data, models, and decision rights \u2014 as moving from an IT concern to a board-level priority. Seven sources identify rapidly evolving AI regulations as a driver that enterprise architectures must accommodate.",
+      "actionability": "medium",
+      "barriers": [
+        "Sovereignty requirements add complexity and cost to infrastructure architecture",
+        "Multi-jurisdictional operations face conflicting regulatory requirements",
+        "Single-hyperscaler approaches may not satisfy sovereignty constraints, requiring multi-cloud complexity"
+      ],
+      "missing_for_action": "A sovereignty assessment framework that maps AI workloads to their data residency, model provenance, and jurisdictional constraints \u2014 with architectural patterns for each scenario. Most organisations treat sovereignty reactively rather than as a design input."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-01",
+      "title": "Measure your governance cycle time and compare it against deployment cadence",
+      "description": "Calculate the elapsed time from architecture proposal submission to approved decision. Compare it against your AI deployment cadence. If governance takes longer than deployment, you are making decisions on stale information. This measurement alone will quantify the urgency of governance reform and build the case for change.",
+      "priority": "high",
+      "effort": "low",
+      "dependencies": [],
+      "related_findings": [
+        {
+          "id": "finding-01",
+          "title": "EA Governance Cycles Are Slower Than AI Deployment Cycles \u2014 Sources Describe a Shift Toward Continuous, AI-Augmented EA"
+        }
+      ]
+    },
+    {
+      "id": "rec-02",
+      "title": "Create an AI agent registry for all deployed agents",
+      "description": "Document every deployed AI agent with its role, capabilities, access permissions, data inputs, decision authority, performance metrics, and accountable human owner. This is the minimum viable foundation for agent management, regardless of which management framework emerges. Start with what you have deployed today.",
+      "priority": "high",
+      "effort": "low",
+      "dependencies": [],
+      "related_findings": [
+        {
+          "id": "finding-07",
+          "title": "Managing AI Agents Requires New Frameworks \u2014 and Organisational Ownership Is Unresolved"
+        },
+        {
+          "id": "finding-03",
+          "title": "Multi-Agent Systems Are the Emerging Pattern (Similar to Microservices) \u2014 With a Qualitatively New Risk Profile"
+        }
+      ]
+    },
+    {
+      "id": "rec-03",
+      "title": "Audit AI use cases and classify by task complexity for model right-sizing",
+      "description": "Catalogue current AI use cases and classify each by task complexity. Run head-to-head evaluations of a fine-tuned smaller model versus your default frontier model on your top three production use cases, measuring accuracy, latency, and cost per inference. The results will likely identify significant cost savings without performance loss.",
+      "priority": "high",
+      "effort": "medium",
+      "dependencies": [],
+      "related_findings": [
+        {
+          "id": "finding-02",
+          "title": "Right-Size Models to Tasks and Design the Architecture for Frequent Interchange"
+        }
+      ]
+    },
+    {
+      "id": "rec-04",
+      "title": "Conduct an infrastructure readiness assessment against your AI roadmap",
+      "description": "Map each planned AI workload to its compute, network, storage, and integration requirements. Compare against current capacity to identify the infrastructure investment gap. Include sovereignty constraints where applicable. The delta is your infrastructure investment gap \u2014 and it will likely be larger than your AI team has estimated.",
+      "priority": "high",
+      "effort": "medium",
+      "dependencies": [],
+      "related_findings": [
+        {
+          "id": "finding-08",
+          "title": "The Gap Between AI Ambition and Infrastructure Readiness Is the Binding Constraint"
+        },
+        {
+          "id": "finding-10",
+          "title": "AI Sovereignty Is Moving From IT Concern to Board-Level Architecture Constraint"
+        }
+      ]
+    },
+    {
+      "id": "rec-05",
+      "title": "Classify AI investments by value type and align with leadership expectations",
+      "description": "Survey your C-suite: what is the primary expected outcome of AI investments \u2014 productivity or revenue growth? Classify your current AI portfolio by value type (productivity/cost savings versus revenue/growth). If there is a gap between the portfolio and expectations, restructure with explicit buckets and different KPIs for each.",
+      "priority": "high",
+      "effort": "low",
+      "dependencies": [],
+      "related_findings": [
+        {
+          "id": "finding-06",
+          "title": "AI Value Progresses From Productivity to Revenue \u2014 and Most Organisations Are Still in Phase One"
+        }
+      ]
+    },
+    {
+      "id": "rec-06",
+      "title": "Assess process readiness before approving AI agent deployments",
+      "description": "For every proposed AI agent deployment, answer two questions before approval. First: is the target process documented with quantitative data? If not, invest in process mining first. Second: has the workflow been redesigned for agent strengths, or is the agent being inserted into a human-shaped process? If the latter, redesign before deploying.",
+      "priority": "high",
+      "effort": "medium",
+      "dependencies": [
+        "rec-01"
+      ],
+      "related_findings": [
+        {
+          "id": "finding-05",
+          "title": "Redesign Processes for Agent Strengths Before Automating Them"
+        }
+      ]
+    },
+    {
+      "id": "rec-07",
+      "title": "Design a model abstraction layer for provider portability",
+      "description": "Implement a model abstraction layer with standardised interfaces, vendor-neutral APIs, and no direct dependencies on provider-specific SDKs. The litmus test: can your organisation swap its primary LLM provider within eight hours? If not, you have vendor lock-in disguised as an architecture decision. This enables A/B testing across providers, rapid response to pricing changes, and graceful degradation.",
+      "priority": "medium",
+      "effort": "medium",
+      "dependencies": [
+        "rec-03"
+      ],
+      "related_findings": [
+        {
+          "id": "finding-02",
+          "title": "Right-Size Models to Tasks and Design the Architecture for Frequent Interchange"
+        }
+      ]
+    },
+    {
+      "id": "rec-08",
+      "title": "Implement a protocol abstraction layer for agent communication",
+      "description": "Design your AI platform with a communication abstraction layer that decouples agent implementations from protocol specifics (MCP, A2A, or proprietary). The defining architectural bet is not which protocol to adopt but whether you abstract the protocol layer at all. This enables protocol migration as standards consolidate without rebuilding agents.",
+      "priority": "medium",
+      "effort": "medium",
+      "dependencies": [
+        "rec-02"
+      ],
+      "related_findings": [
+        {
+          "id": "finding-03",
+          "title": "Multi-Agent Systems Are the Emerging Pattern (Similar to Microservices) \u2014 With a Qualitatively New Risk Profile"
+        }
+      ]
+    },
+    {
+      "id": "rec-09",
+      "title": "Establish AI FinOps discipline before spending accelerates further",
+      "description": "If you are in the 90% of organisations without mature AI FinOps, establish it now. Define standard cost categories for AI operations (inference, fine-tuning, vector storage, agent orchestration, infrastructure). Implement cost tracking per use case. Set budget thresholds and escalation triggers. AI budgets are rising from 3% to 5% of annual business budgets \u2014 financial governance must keep pace.",
+      "priority": "medium",
+      "effort": "medium",
+      "dependencies": [
+        "rec-05"
+      ],
+      "related_findings": [
+        {
+          "id": "finding-06",
+          "title": "AI Value Progresses From Productivity to Revenue \u2014 and Most Organisations Are Still in Phase One"
+        },
+        {
+          "id": "finding-08",
+          "title": "The Gap Between AI Ambition and Infrastructure Readiness Is the Binding Constraint"
+        }
+      ]
+    },
+    {
+      "id": "rec-10",
+      "title": "Pilot operating model codification with one high-volume process",
+      "description": "Identify one high-volume, high-value business process and make its operating logic explicit and machine-readable \u2014 decision rules, exception paths, and governance controls in a format an AI agent could interpret. This does not require a multi-year ontology project. Use this as the pilot for broader Enterprise as Code adoption and to assess how much implicit knowledge needs to be codified.",
+      "priority": "medium",
+      "effort": "high",
+      "dependencies": [
+        "rec-06"
+      ],
+      "related_findings": [
+        {
+          "id": "finding-09",
+          "title": "Operating Models Must Become Explicit and Adaptable for AI to Act on Them"
+        },
+        {
+          "id": "finding-05",
+          "title": "Redesign Processes for Agent Strengths Before Automating Them"
+        }
+      ]
+    },
+    {
+      "id": "rec-11",
+      "title": "Map sovereignty requirements to AI workloads and infrastructure",
+      "description": "Audit current and planned AI workloads for data residency, model provenance, and jurisdictional constraints. Where sovereignty requirements apply, assess whether current cloud and infrastructure architecture can satisfy them. If operating across EU and non-EU jurisdictions, sovereignty is a current architecture constraint, not a future concern.",
+      "priority": "medium",
+      "effort": "medium",
+      "dependencies": [
+        "rec-04"
+      ],
+      "related_findings": [
+        {
+          "id": "finding-10",
+          "title": "AI Sovereignty Is Moving From IT Concern to Board-Level Architecture Constraint"
+        }
+      ]
+    },
+    {
+      "id": "rec-12",
+      "title": "Implement distributed tracing and blast-radius controls for agent interactions",
+      "description": "Before deploying your second agent into production, implement distributed tracing across agent interactions and define blast-radius controls. When agents influence each other through shared context or chained outputs, the risk dynamic shifts from linear to non-linear. Existing observability was not built for systems where one agent's inaccurate output becomes another agent's confident input.",
+      "priority": "medium",
+      "effort": "high",
+      "dependencies": [
+        "rec-02",
+        "rec-08"
+      ],
+      "related_findings": [
+        {
+          "id": "finding-03",
+          "title": "Multi-Agent Systems Are the Emerging Pattern (Similar to Microservices) \u2014 With a Qualitatively New Risk Profile"
+        }
+      ]
+    }
+  ],
+  "angles": [
+    {
+      "id": "angle-01",
+      "title": "Governance Principles for AI: The Post-Framework Playbook",
+      "position": "TOGAF as a process is finished for AI-era architecture. What survives are governance principles \u2014 separation of concerns, model portability, observability by default, automated compliance, tiered decision authority \u2014 which should be presented as standalone principles with automated enforcement patterns, not anchored to any framework.",
+      "why_novel": "No source states this plainly because TOGAF certification is a multi-million-dollar ecosystem with institutional incentives to position adaptation, not abandonment. The practitioner reality \u2014 that most organisations do not use TOGAF formally \u2014 makes the direct formulation both more honest and more useful.",
+      "supporting_claims": [
+        {
+          "id": "cc-104",
+          "bottom_line": "TOGAF is not dead for AI \u2014 but if you are running it as a sequential 6-month process while your competitors ship AI in 6 weeks, you have turned your framework into a competitive disadvantage."
+        },
+        {
+          "id": "cc-101",
+          "bottom_line": "If your governance process takes longer than your deployment cycle, your governance is not protecting you -- it is creating risk by forcing decisions on stale information."
+        },
+        {
+          "id": "cc-046",
+          "bottom_line": "TOGAF was built for a world where architecture changed quarterly and systems were deterministic -- AI breaks both assumptions, and the framework hasn't caught up."
+        }
+      ],
+      "suggested_format": "pov"
+    },
+    {
+      "id": "angle-02",
+      "title": "The Knowledge Graph Imperative: Why Your Agent Strategy Has the Stack Upside Down",
+      "position": "The enterprise knowledge graph is not a component of the AI architecture \u2014 it is the foundation on which every other component depends. Organisations that invest in knowledge infrastructure before agent infrastructure will outperform those who do the reverse, because agents without shared semantic context generate activity without alignment.",
+      "why_novel": "No source says this forcefully enough because the knowledge graph investment case is intimidating \u2014 multi-year, hard to quantify in advance. It is easier to sell agent frameworks and model APIs. But the data consistently shows that the upstream knowledge decision determines whether downstream AI investments produce organisational value or generic outputs.",
+      "supporting_claims": [
+        {
+          "id": "cc-078",
+          "bottom_line": "Agents without a shared semantic layer are like employees without a common language -- they will be busy, but they will not be aligned."
+        },
+        {
+          "id": "cc-136",
+          "bottom_line": "AI agents without an enterprise knowledge graph rely on generic knowledge rather than organization-specific context \u2014 the knowledge graph is foundational infrastructure that determines whether AI outputs are grounded in validated organizational concepts or based on unverified assumptions."
+        }
+      ],
+      "suggested_format": "blog"
+    },
+    {
+      "id": "angle-03",
+      "title": "Agent Service Management: An ITIL for the Silicon Workforce",
+      "position": "AI agents require a management discipline analogous to ITIL but designed for non-deterministic, stateful, autonomous digital workers. The first organisation or standards body to publish a comprehensive Agent Service Management framework \u2014 covering onboarding, performance monitoring, incident response, and decommissioning \u2014 defines the category.",
+      "why_novel": "No source develops this into a comprehensive framework because the problem is still emerging. But agent count will scale the way microservice count scaled, and organisations that build management discipline early will avoid the operational chaos that plagued the early microservices era. The field is genuinely open.",
+      "supporting_claims": [
+        {
+          "id": "cc-132",
+          "bottom_line": "You would not hire 500 employees without an HR function \u2014 do not deploy 500 AI agents without an agent management function."
+        },
+        {
+          "id": "cc-065",
+          "bottom_line": "Calling AI agents a 'silicon workforce' is more than a metaphor -- it's an organizational design principle that triggers all the right questions about management, accountability, and integration."
+        },
+        {
+          "id": "cc-157",
+          "bottom_line": "Distributing agent accountability to business domains while centralising infrastructure is organisationally sound -- but requires explicit contracts and shared governance at the boundary."
+        }
+      ],
+      "suggested_format": "pov"
+    },
+    {
+      "id": "angle-04",
+      "title": "The Governance Paradox: How Your AI Controls Are Creating the Risk They Claim to Prevent",
+      "position": "In the AI era, traditional governance does not reduce risk \u2014 it creates risk. Governance cycles longer than deployment cycles produce decisions on stale information, and the governance process itself becomes a source of the instability it was designed to prevent. With only 11% of organisations having operationalised responsible AI, 89% are governing by hope rather than by system.",
+      "why_novel": "No source frames governance as risk-creating rather than risk-reducing because governance teams are both the audience and the subject of the critique. The evidence from PwC's survey data and the acceleration paradox (cc-106) supports the position, but institutional caution suppresses the direct formulation.",
+      "supporting_claims": [
+        {
+          "id": "cc-101",
+          "bottom_line": "If your governance process takes longer than your deployment cycle, your governance is not protecting you -- it is creating risk by forcing decisions on stale information."
+        },
+        {
+          "id": "cc-106",
+          "bottom_line": "Clean architecture is not just good practice \u2014 it is a measurable accelerator for AI adoption, and the gap between modular and legacy-burdened organizations widens with each generation of AI capability."
+        }
+      ],
+      "suggested_format": "linkedin"
+    },
+    {
+      "id": "angle-05",
+      "title": "The Real AI Architecture Decision Is the Inter-Agent Communication Layer",
+      "position": "The defining architectural bet of 2026-2028 is not which models to use or which agents to build \u2014 it is how agents communicate. Just as HTTP/REST defined the integration architecture of the SOA era, the agent communication layer will define the agent era. The recommendation is to abstract the protocol layer rather than commit to a specific protocol.",
+      "why_novel": "No source commits to this position because the protocols (MCP, A2A, ACP) are early, and recommending one risks obsolescence. The architectural principle \u2014 abstract the protocol layer \u2014 is the durable insight, but it requires stating that protocol choice is the defining decision, which most sources avoid.",
+      "supporting_claims": [
+        {
+          "id": "cc-026",
+          "bottom_line": "MCP and A2A may become foundational interoperability standards for the agent era -- early alignment with these protocols can reduce future lock-in risk."
+        },
+        {
+          "id": "cc-012",
+          "bottom_line": "Multi-agent is the microservices moment for AI -- learn from that era's mistakes and design for observability from the start."
+        },
+        {
+          "id": "cc-078",
+          "bottom_line": "Agents without a shared semantic layer are like employees without a common language -- they will be busy, but they will not be aligned."
+        }
+      ],
+      "suggested_format": "pov"
+    },
+    {
+      "id": "angle-06",
+      "title": "The Infrastructure Gap Is the Real AI Bottleneck",
+      "position": "The gap between AI ambition and infrastructure capability is the binding constraint on enterprise AI \u2014 not model capability, not governance maturity, not talent availability. Only 14% of companies are infrastructure-ready. The industry built the brain (models) without building the nervous system (infrastructure). The organisations that quietly invest in infrastructure while competitors chase agent frameworks will be the ones that actually scale production AI.",
+      "why_novel": "This is the contrarian position the data most strongly supports but the industry least wants to hear. 'Invest in infrastructure' does not sell conference keynotes or consulting engagements. But the survey data from KPMG (n=2,500), PwC (n=1,415), and Capgemini (n=1,500+) converges on infrastructure as the binding constraint.",
+      "supporting_claims": [
+        {
+          "id": "cc-137",
+          "bottom_line": "The brain-versus-nervous-system framing captures a real investment imbalance -- most organisations are overinvesting in AI capabilities relative to the infrastructure needed to run them at production scale."
+        },
+        {
+          "id": "cc-146",
+          "bottom_line": "Production AI costs are substantially higher than pilot costs -- organisations need dedicated cost modelling and monitoring to avoid the infrastructure cost shock that hit many in 2025."
+        },
+        {
+          "id": "cc-150",
+          "bottom_line": "Survey data from 3,600+ executives confirms that roughly 78% of organisations lack AI-ready architectures -- this is the quantitative foundation for infrastructure investment business cases."
+        },
+        {
+          "id": "cc-162",
+          "bottom_line": "AI budgets are accelerating from 3% to 5% of business budgets -- but without FinOps discipline (which 90% of organisations lack), faster spending does not equal faster value creation."
+        }
+      ],
+      "suggested_format": "pov"
+    },
+    {
+      "id": "angle-07",
+      "title": "Enterprise as Code: Making Your Organisation Machine-Readable",
+      "position": "Organisations must codify their implicit operating models \u2014 processes, decision logic, governance rules \u2014 as executable code that both people and AI systems can read and act on. This is the most conceptually novel contribution in the research corpus and connects process redesign, AI-augmented EA, governance automation, and knowledge management into a unified paradigm.",
+      "why_novel": "BCG introduced this concept but it has not been amplified beyond a single consultancy publication. No organisation has fully implemented Enterprise as Code. The concept lacks reference implementations and mature tooling. But the directional logic is compelling: AI agents operate on the basis of knowledge, and most organisations have never written down how they actually work.",
+      "supporting_claims": [
+        {
+          "id": "cc-153",
+          "bottom_line": "Enterprise as Code is the most novel concept in the expanded corpus -- codifying implicit operating models is directionally essential for AI agent value, but the journey is long and should start small."
+        },
+        {
+          "id": "cc-154",
+          "bottom_line": "The 10/20/70 rule is a useful heuristic for transformation planning -- most organisations overinvest in technology (30%) and underinvest in people and process change (70%)."
+        },
+        {
+          "id": "cc-155",
+          "bottom_line": "\"Freedom within a frame\" is one of the most actionable design patterns in the corpus -- centralise governance and infrastructure, decentralise innovation and application, and define the boundary explicitly."
+        },
+        {
+          "id": "cc-149",
+          "bottom_line": "Adaptability as a strategic principle is widely endorsed but underspecified -- the practical challenge is designing decision mechanisms and organisational structures that enable rapid adaptation."
+        }
+      ],
+      "suggested_format": "blog"
+    },
+    {
+      "id": "angle-08",
+      "title": "AI Sovereignty as Architecture: Why Your Cloud Decision Is a Geopolitical Decision",
+      "position": "Sovereignty is an architecture decision that constrains every subsequent design choice \u2014 not a compliance checkbox handled by legal and procurement. Where data resides, which models process it, what cloud providers are acceptable, and what cost structures are viable are strategic questions. Organisations that treat sovereignty as a post-hoc policy overlay will discover their AI infrastructure was built in the wrong place.",
+      "why_novel": "Most organisations and advisory sources treat sovereignty as a policy or compliance concern. The data \u2014 82% of EMEA organisations refining cloud approaches due to geopolitics, 54% prioritising data sovereignty \u2014 shows it is already an architecture constraint. EY's 'sovereignty-by-default' is the right principle, but it requires sovereignty to be a first-order design input.",
+      "supporting_claims": [
+        {
+          "id": "cc-148",
+          "bottom_line": "AI sovereignty is a board-level architecture decision supported by strong survey data -- organisations operating across jurisdictions need sovereignty-by-default design principles built into their AI infrastructure."
+        },
+        {
+          "id": "cc-044",
+          "bottom_line": "The regulatory tsunami is real and the alphabet soup is growing -- but 'be adaptable' is an architecture principle, not an architecture."
+        }
+      ],
+      "suggested_format": "blog"
+    }
+  ]
+}

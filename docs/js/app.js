@@ -6,6 +6,7 @@ let insightsData = null;
 let sourcesData = null;
 let findingsData = null;
 let useCasesData = null;
+let conclusionsData = null;
 let analysisPage = 1;
 let ucCategoryFilter = null;
 let ucMaturityFilter = null;
@@ -65,6 +66,7 @@ async function loadTopic(slug) {
   sourcesData = null;
   findingsData = null;
   useCasesData = null;
+  conclusionsData = null;
   ucCategoryFilter = null;
   ucMaturityFilter = null;
 
@@ -74,12 +76,13 @@ async function loadTopic(slug) {
 async function loadTopicData(slug) {
   const base = slug ? `data/${slug}` : 'data';
 
-  const [stats, insights, sources, findings, useCases] = await Promise.all([
+  const [stats, insights, sources, findings, useCases, conclusions] = await Promise.all([
     fetch(`${base}/stats.json`).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(`${base}/insights.json`).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(`${base}/sources.json`).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(`${base}/findings.json`).then(r => r.ok ? r.json() : null).catch(() => null),
     fetch(`${base}/use-cases.json`).then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(`${base}/conclusions.json`).then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
 
   statsData = stats;
@@ -87,6 +90,7 @@ async function loadTopicData(slug) {
   sourcesData = sources;
   findingsData = findings;
   useCasesData = useCases;
+  conclusionsData = conclusions;
 
   renderPage();
 }
@@ -95,6 +99,10 @@ async function loadTopicData(slug) {
 function renderPage() {
   const phase = currentTopic.phase != null ? currentTopic.phase : 3;
   const hasFindings = findingsData && findingsData.findings && findingsData.findings.length;
+  const hasConclusions = conclusionsData && (
+    (conclusionsData.recommendations && conclusionsData.recommendations.length) ||
+    (conclusionsData.angles && conclusionsData.angles.length)
+  );
   const hasClaims = insightsData && insightsData.analyses && insightsData.analyses.length;
   const hasSources = sourcesData && sourcesData.sources && sourcesData.sources.length;
   const hasBaseline = statsData && statsData.baseline_new != null;
@@ -115,13 +123,14 @@ function renderPage() {
   showSections('early-phase-banner', phase < 2 && !hasFindings);
   showSections('exec-summary-section', phase >= 2 || hasFindings);
   showSections('findings', hasFindings);
+  showSections('conclusions', hasConclusions);
   showSections('use-cases', hasUseCases);
   showSections('claims', hasClaims);
   showSections('baseline', hasBaseline);
   showSections('methodology', phase >= 1 && hasClaims);
 
   // Update section nav links based on what's visible
-  updateSectionNav(hasFindings, hasClaims, hasBaseline, hasUseCases);
+  updateSectionNav(hasFindings, hasConclusions, hasClaims, hasBaseline, hasUseCases);
 
   // Early phase banner
   if (phase < 2 && !hasFindings) {
@@ -134,6 +143,11 @@ function renderPage() {
   // Findings
   if (hasFindings) {
     renderFindings();
+  }
+
+  // Conclusions
+  if (hasConclusions) {
+    renderConclusions();
   }
 
   // Use Cases
@@ -194,7 +208,9 @@ function renderHero() {
   const statsStrip = document.getElementById('hero-stats');
   const cards = [];
   const ucCount = useCasesData ? useCasesData.total_use_cases : 0;
+  const recCount = conclusionsData ? conclusionsData.total_recommendations : 0;
   if (findings) cards.push(`<a class="stat-card" href="#findings"><div class="number">${findings}</div><div class="label">Findings</div></a>`);
+  if (recCount) cards.push(`<a class="stat-card" href="#conclusions"><div class="number">${recCount}</div><div class="label">Recommendations</div></a>`);
   if (ucCount) cards.push(`<a class="stat-card" href="#use-cases"><div class="number">${ucCount}</div><div class="label">Use Cases</div></a>`);
   if (claims) cards.push(`<a class="stat-card" href="#claims"><div class="number">${claims}</div><div class="label">Claims</div></a>`);
   if (sources) cards.push(`<a class="stat-card" href="#sources"><div class="number">${sources}</div><div class="label">Sources</div></a>`);
@@ -232,10 +248,11 @@ function renderHero() {
   }
 }
 
-function updateSectionNav(hasFindings, hasClaims, hasBaseline, hasUseCases) {
+function updateSectionNav(hasFindings, hasConclusions, hasClaims, hasBaseline, hasUseCases) {
   const nav = document.getElementById('section-nav');
   const links = [];
   if (hasFindings) links.push('<a class="nav-link" href="#findings">Findings</a>');
+  if (hasConclusions) links.push('<a class="nav-link" href="#conclusions">Conclusions</a>');
   if (hasUseCases) links.push('<a class="nav-link" href="#use-cases">Use Cases</a>');
   if (hasClaims) links.push('<a class="nav-link" href="#claims">Claims</a>');
   links.push('<a class="nav-link" href="#sources">Sources</a>');
@@ -363,6 +380,129 @@ function renderFindingClaims() {
 
     body.appendChild(section);
   });
+}
+
+/* ── Conclusions ─────────────────────────────────────── */
+function renderConclusions() {
+  if (!conclusionsData) return;
+
+  // Tab switching
+  const tabs = document.querySelectorAll('#conclusions-tabs .conclusions-tab');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('conclusions-recommendations').style.display = tab.dataset.tab === 'recommendations' ? '' : 'none';
+      document.getElementById('conclusions-angles').style.display = tab.dataset.tab === 'angles' ? '' : 'none';
+      document.getElementById('conclusions-actionability').style.display = tab.dataset.tab === 'actionability' ? '' : 'none';
+    });
+  });
+
+  renderRecommendations();
+  renderAngles();
+  renderActionability();
+}
+
+function renderRecommendations() {
+  const container = document.getElementById('conclusions-recommendations');
+  const recs = conclusionsData.recommendations || [];
+  if (!recs.length) { container.innerHTML = ''; return; }
+
+  const priorityOrder = { high: 0, medium: 1, low: 2 };
+  const sorted = [...recs].sort((a, b) => (priorityOrder[a.priority] || 2) - (priorityOrder[b.priority] || 2));
+
+  container.innerHTML = sorted.map((rec, i) => {
+    const priorityClass = `rec-priority-${rec.priority || 'medium'}`;
+    const effortLabel = rec.effort ? rec.effort.charAt(0).toUpperCase() + rec.effort.slice(1) : '';
+    const deps = (rec.dependencies || []).filter(d => d).map(d => {
+      const depRec = recs.find(r => r.id === d);
+      return depRec ? `<span class="rec-dep-tag" title="${esc(depRec.title)}">${d}</span>` : '';
+    }).join('');
+    const findings = (rec.related_findings || []).map(f =>
+      `<span class="finding-tag" title="${esc(f.title)}">Finding ${f.id.replace('finding-', '')}</span>`
+    ).join('');
+
+    return `
+    <div class="rec-card">
+      <div class="rec-header">
+        <span class="rec-number">${String(i + 1).padStart(2, '0')}</span>
+        <div class="rec-content">
+          <div class="rec-badges">
+            <span class="rec-badge ${priorityClass}">${esc(rec.priority || 'medium')} priority</span>
+            ${effortLabel ? `<span class="rec-badge rec-effort">${esc(effortLabel)} effort</span>` : ''}
+          </div>
+          <div class="rec-title">${esc(rec.title)}</div>
+          <div class="rec-desc">${esc(rec.description)}</div>
+          <div class="rec-meta">
+            ${findings}
+            ${deps ? `<span class="rec-deps-label">Depends on:</span>${deps}` : ''}
+          </div>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderAngles() {
+  const container = document.getElementById('conclusions-angles');
+  const angles = conclusionsData.angles || [];
+  if (!angles.length) { container.innerHTML = ''; return; }
+
+  const formatIcons = {
+    blog: 'Blog Post',
+    pov: 'POV / Whitepaper',
+    presentation: 'Presentation',
+    linkedin: 'LinkedIn Series',
+    'executive brief': 'Executive Brief',
+  };
+
+  container.innerHTML = angles.map((a, i) => {
+    const formatLabel = formatIcons[a.suggested_format] || a.suggested_format || '';
+    const claims = (a.supporting_claims || []).map(c =>
+      `<div class="angle-claim"><span class="analysis-id">${esc(c.id)}</span> <span class="angle-claim-text">${esc(c.bottom_line)}</span></div>`
+    ).join('');
+
+    return `
+    <div class="angle-card">
+      <div class="angle-header">
+        <span class="angle-number">${String(i + 1).padStart(2, '0')}</span>
+        <div class="angle-content">
+          ${formatLabel ? `<span class="angle-format">${esc(formatLabel)}</span>` : ''}
+          <div class="angle-title">${esc(a.title)}</div>
+          <div class="angle-position">${esc(a.position)}</div>
+          <div class="angle-novel"><strong>Why novel:</strong> ${esc(a.why_novel)}</div>
+          ${claims ? `<div class="angle-claims"><div class="detail-label">Supporting claims</div>${claims}</div>` : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderActionability() {
+  const container = document.getElementById('conclusions-actionability');
+  const items = conclusionsData.actionability || [];
+  if (!items.length) { container.innerHTML = ''; return; }
+
+  const actOrder = { high: 0, medium: 1, low: 2 };
+  const sorted = [...items].sort((a, b) => (actOrder[a.actionability] || 2) - (actOrder[b.actionability] || 2));
+
+  container.innerHTML = `
+    <div class="actionability-grid">
+      ${sorted.map(item => {
+        const actClass = `act-${item.actionability || 'medium'}`;
+        const barriers = (item.barriers || []).map(b => `<li>${esc(b)}</li>`).join('');
+        return `
+        <div class="act-card ${actClass}">
+          <div class="act-header">
+            <span class="act-badge ${actClass}">${esc(item.actionability || 'medium')}</span>
+            <span class="act-finding-id">${esc(item.finding_id)}</span>
+          </div>
+          <div class="act-title">${esc(item.finding_title)}</div>
+          ${barriers ? `<div class="act-section"><div class="detail-label">Barriers</div><ul class="act-barriers">${barriers}</ul></div>` : ''}
+          ${item.missing_for_action ? `<div class="act-section"><div class="detail-label">Missing for action</div><p class="act-missing">${esc(item.missing_for_action)}</p></div>` : ''}
+        </div>`;
+      }).join('')}
+    </div>`;
 }
 
 /* ── Analysis List ───────────────────────────────────── */
