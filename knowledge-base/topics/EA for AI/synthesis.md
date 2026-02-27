@@ -11,7 +11,7 @@ contradictions: 24
 high_value_claims: 0
 moderate_value_claims: 66
 contextual_value_claims: 69
-findings: 10
+findings: 9
 thought_leadership_positions: 8
 research_gaps: 10
 content_pieces_proposed: 10
@@ -41,18 +41,17 @@ This synthesis draws from 56 sources published between 2024 and 2026, spanning p
 
 The 24 new consultancy sources bring something the original 30 sources largely lacked: large-scale survey data, transformation case studies, and strategic framing. KPMG surveyed 2,500 technology executives across 27 countries. PwC surveyed 1,030 US executives and 1,415 EMEA business and technology leaders. Capgemini surveyed 1,500+ leaders across 15 countries. These are not small samples, and their findings carry statistical weight that individual practitioner articles and academic papers cannot match. EY contributed a detailed case study of its own $1.4 billion AI transformation -- the most concrete implementation account in the corpus. BCG contributed the conceptually novel "Enterprise as Code" framework and a rigorous treatment of the people-and-process dimension through its 10/20/70 rule. The consultancy sources confirm and deepen many of the original findings while introducing three themes that the academic and practitioner literature had not adequately addressed: infrastructure readiness as the binding constraint, the codification of operating models as a prerequisite for agent deployment, and AI sovereignty as a strategic architecture decision.
 
-Ten key findings emerged from this analysis:
+Nine key findings emerged from this analysis:
 
-1. **EA must govern the speed of AI adoption, not just its structure** -- governance velocity, not framework completeness, determines whether architecture enables or blocks AI integration.
-2. **Multi-model orchestration is the actual architectural challenge** -- sophisticated organizations are already running heterogeneous model portfolios, and EA frameworks have not caught up.
-3. **Data architecture is the durable competitive moat** -- as models commoditize, the organizations that invested in proprietary data pipelines and domain-specific data assets will hold the advantage.
-4. **Protocol abstraction matters more than protocol selection** -- specific integration protocols like MCP or A2A will evolve or be replaced; the architectural pattern of abstraction layers is what persists.
-5. **Most organizations are bolting AI onto existing workflows rather than redesigning them** -- and the literature largely enables this by offering integration guidance without questioning whether the underlying process is worth preserving.
-6. **Right-sizing models to tasks delivers more value than scaling up** -- model size does not equal business value, and architectural thinking should start with task decomposition, not model selection.
-7. **Process understanding must precede AI implementation** -- organizations that skip the work of understanding their current processes before introducing AI agents consistently fail, regardless of their technology choices.
-8. **The infrastructure readiness crisis is worse than anyone admits** -- the gap between AI ambition and infrastructure capability is the binding constraint, and the industry's focus on models and agents is a distraction from the foundation that is missing.
-9. **Enterprise as Code is the next operating model paradigm** -- codifying implicit operating models as executable code is emerging as both the prerequisite for agent deployment and a new source of competitive advantage.
-10. **AI sovereignty has moved from IT concern to strategic imperative** -- controlling data, models, and decision rights is now a board-level architecture decision driven by geopolitics, regulation, and competitive necessity.
+1. **EA governance cycles are slower than AI deployment cycles** -- traditional governance operates on a slower cadence than AI deployment, producing decisions based on outdated context. Multiple sources describe EA evolving toward a continuously updated, AI-augmented function.
+2. **Right-size models to tasks and design the architecture for frequent interchange** -- specialized, task-specific models outperform larger general-purpose models on defined enterprise tasks. Enterprise architecture must treat the model layer as swappable.
+3. **Multi-agent systems are the emerging pattern (similar to microservices) — with a qualitatively new risk profile** -- eleven sources describe multi-agent systems as the emerging enterprise AI architecture, but two sources identify qualitatively new failure modes when agents influence each other's outputs.
+4. **Redesign processes for agent strengths before automating them** -- six sources describe organisations achieving AI value by redesigning processes from scratch for agent capabilities, not by layering agents onto workflows designed for human constraints.
+5. **AI value progresses from productivity to revenue — and most organisations are still in phase one** -- seven sources describe AI value as following a progression from internal productivity gains to core value chain transformation.
+6. **Managing AI agents requires new frameworks — and organisational ownership is unresolved** -- five sources describe AI agents as workforce participants rather than tools. Eight sources establish governance as non-negotiable, but only two address who should own agent management.
+7. **The gap between AI ambition and infrastructure readiness is the binding constraint** -- only 22% of organisations have architectures that fully support AI workloads, and AI infrastructure costs have surprised organisations unprepared for production AI economics.
+8. **Operating models must become explicit and adaptable for AI to act on them** -- four sources describe operating models designed to evolve as fast as the technology they support. Making implicit business logic explicit and machine-readable is described as a prerequisite for effective AI agent deployment.
+9. **AI sovereignty is moving from IT concern to board-level architecture constraint** -- five sources describe AI sovereignty as moving from an IT concern to a board-level priority. Seven sources identify evolving AI regulations as a driver that enterprise architectures must accommodate.
 
 These findings were calibrated through structured discussion with an experienced practitioner, which sharpened several positions: formal frameworks like TOGAF matter less than the literature suggests, AI-augmented governance remains mostly aspirational due to tooling immaturity, and the gap between what the research recommends and what organizations actually do is wider than any single source acknowledges. The new consultancy sources -- particularly EY's internal transformation account and Bain's pragmatic assessment of agentic AI maturity -- reinforce this calibration with concrete data.
 
@@ -83,11 +82,11 @@ The corpus retains its meaningful blind spot around longitudinal evidence. No so
 
 ---
 
-## 3. The Ten Signals
+## 3. The Nine Signals
 
-What follows are not findings in the academic sense. They are signals -- patterns that emerged from 54 sources, 162 canonical claims, and a critical analysis that discarded the generalitys and consensus-reinforcement to isolate what actually matters for practitioners navigating enterprise architecture in the age of AI. Each signal passed three filters: it had to be supported by evidence across multiple source types, it had to survive critical analysis with a "genuine insight" or strong "partial insight" verdict, and it had to be validated or sharpened through practitioner discussion or corroborated by large-sample survey data. Ten survived.
+What follows are not findings in the academic sense. They are signals -- patterns that emerged from 56 sources, 164 canonical claims, and a critical analysis that discarded the generalitys and consensus-reinforcement to isolate what actually matters for practitioners navigating enterprise architecture in the age of AI. Each signal passed three filters: it had to be supported by evidence across multiple source types, it had to survive critical analysis with a "genuine insight" or strong "partial insight" verdict, and it had to be validated or sharpened through practitioner discussion or corroborated by large-sample survey data. Nine survived.
 
-### Finding 1: The Governance Speed Problem Is Structural, Not Incremental
+### Finding 1: EA Governance Cycles Are Slower Than AI Deployment Cycles — Sources Describe a Shift Toward Continuous, AI-Augmented EA
 
 The dominant framing in our sources is that TOGAF's Architecture Development Method is "too slow" for AI -- its sequential, phase-gated cycle completes in months while AI models ship in weeks. Four sources independently flag this mismatch (cc-104, cc-101, cc-046). The critical analysis scored the ADM velocity claim at novelty 7 and actionability 8, making it one of the highest-rated genuine insights in the entire dataset. Organisations are already adapting by collapsing ADM phases and treating TOGAF as a set of principles rather than a prescribed process.
 
@@ -97,13 +96,15 @@ The new consultancy sources reinforce this from multiple angles. PwC (source-051
 
 The acceleration paradox compounds this. Organisations with clean, modular architectures gain 30-50% faster AI adoption (cc-106), while legacy-burdened organisations face a vicious cycle: they cannot adopt AI fast enough to modernise, and they cannot modernise fast enough to adopt AI. The gap is widening, not closing. The structural fix proposed in the research is not faster meetings or shorter review cycles -- it is closing the governance loop entirely. Forrester (source-015) envisions AI agents that pre-check architectural proposals against standards, generate draft decisions, and route only exceptions to human architects, turning review boards from bottlenecks into "decision accelerators." Stender (source-006) argues for EA systems that function as continuously updated digital twins, producing near real-time governance signals rather than periodic reviews. Both converge on the same principle: governance must become continuous and machine-assisted rather than episodic and manual. The specific implementation pattern -- whether that takes the form of tiered decision authority, policy-as-code with automated approval, or AI-assisted pre-screening -- is a design choice that will vary by organisation. What the research is clear on is the direction: push routine governance decisions into automated or near-instant channels so that human judgment is concentrated where it actually adds value.
 
-**Practitioner implication**: Measure your governance cycle time today -- from architecture proposal submission to approved decision. If it exceeds your deployment cadence, your governance is creating risk, not mitigating it. Start with the Forrester model: identify one category of architectural decision that can be pre-checked by codified standards and automate its approval path.
+The AI-augmented EA vision is technically feasible. Forrester (source-015) names concrete agent types: harvesting agents that auto-discover architecture from deployment pipelines, dependency agents that map integration patterns, conformance agents that check deployments against standards. However, two sources describe traditional EA as operating in open-loop mode -- repositories intended as the source of truth become outdated artifacts between review cycles (cc-068). Achieving the continuously updated vision depends on data quality and repository maturity that most organisations have not yet reached. The path forward is to use automation as the mechanism for building maturity: start with automated discovery from systems that already produce machine-readable data (cloud inventory APIs, CI/CD pipelines, API gateways), and bootstrap an EA repository that was never manually buildable in the first place.
 
-**Bottom line**: "If your governance takes longer than your deployment cycle, you are not protecting the organisation -- you are making decisions on information that has already expired."
+**Practitioner implication**: Measure your governance cycle time -- from architecture proposal submission to approved decision. Compare it against your deployment cadence. For the EA repository, identify the artifact that goes stale fastest and connect it to an automated data source as a first step toward continuous updates.
+
+**Bottom line**: "Traditional EA governance operates on a slower cadence than AI deployment, producing decisions based on outdated context. Multiple sources describe EA evolving from periodic, manual reviews toward a continuously updated, AI-augmented function — though this depends on data quality and repository maturity most organisations have not yet achieved."
 
 ---
 
-### Finding 2: The Model Is the Commodity -- Everything Else Is the Moat
+### Finding 2: Right-Size Models to Tasks and Design the Architecture for Frequent Interchange
 
 Two genuine insights converge here. Foundation models are commoditising, with competitive advantage shifting to proprietary data, domain expertise, and integration quality (cc-016, novelty 7, actionability 7). Simultaneously, specialised small language models fine-tuned for specific domains outperform general-purpose LLMs on defined tasks at a fraction of the cost (cc-004, novelty 7, actionability 7). Practitioner discussion confirmed these should be treated as a single finding: cc-089 (model size does not equal business value) is the same fundamental point as cc-004, expressed differently.
 
@@ -123,11 +124,11 @@ The reasoning approach dimension adds another layer to the right-sizing argument
 
 **Practitioner implication**: Audit your current AI use cases and classify each by task complexity. Run head-to-head evaluations of a fine-tuned SLM versus your default frontier model on your top three production use cases, measuring accuracy, latency, and cost per inference. For agent use cases, also evaluate reasoning approach selection: tasks with well-defined rules may perform better and cheaper with symbolic reasoning than chain-of-thought. The results will likely pay for the evaluation exercise many times over.
 
-**Bottom line**: "Your competitors can buy the same models you can -- your moat is the proprietary data, domain knowledge, and integration quality that no model switch can replicate."
+**Bottom line**: "Multiple sources report that specialized, task-specific models outperform larger general-purpose models on defined enterprise tasks. Because model capabilities and costs change rapidly, enterprise architecture must treat the model layer as swappable."
 
 ---
 
-### Finding 3: Multi-Agent Architecture Is the Microservices Moment -- and the Risk Is Qualitatively New
+### Finding 3: Multi-Agent Systems Are the Emerging Pattern (Similar to Microservices) — With a Qualitatively New Risk Profile
 
 Five sources independently converge on multi-agent systems with specialised agents collaborating through defined protocols as the emerging architectural pattern (cc-012, novelty 7). The research corpus identifies MCP and A2A as the candidate interoperability standards (cc-026, novelty 7), with emerging alternatives like ACP. The enterprise knowledge graph is positioned as the critical differentiator between agents that operate on generic knowledge and agents that understand your organisation (cc-078, cc-136, both novelty 7). This cluster produced more genuine insights (8 of 21 across the entire dataset) than any other theme.
 
@@ -143,29 +144,11 @@ Practitioner feedback sharpened the protocol guidance: recommend the pattern, no
 
 **Practitioner implication**: Design your AI platform with an agent registry and protocol abstraction layer from day one. Implement distributed tracing across agent interactions. Define agent responsibility boundaries and blast-radius controls before you deploy your second agent -- not your twentieth.
 
-**Bottom line**: "Multi-agent AI is the microservices moment, but with a twist: when your services start hallucinating at each other, the failure modes are ones your playbook has never seen."
+**Bottom line**: "Eleven sources describe multi-agent systems as the emerging enterprise AI architecture. Multiple sources note that decomposition into specialized agents follows the same logic as microservices, but two sources identify qualitatively new failure modes when agents influence each other's outputs."
 
 ---
 
-### Finding 4: AI-Augmented EA Is Necessary — But Most Organisations Cannot Get There Yet
-
-Traditional enterprise architecture operates in open-loop mode. Architects produce documentation -- capability maps, reference architectures, standards documents, technology radars -- that begins going stale the moment it is published. By the time the next quarterly review arrives, the documented architecture and the actual architecture have diverged so significantly that the documentation is, in the honest assessment of most practitioners, fiction. Two sources identify this as a genuine insight (cc-068, novelty 7), and the critical analysis does not mince words: "The dirty secret of EA is that most architecture repositories are fiction within 6 months of creation." Five sources converge on the need for closed-loop, continuously updated EA (cc-091), and four sources describe the mechanism: real-time feedback loops from CI/CD pipelines, infrastructure-as-code repos, and API catalogues that keep the EA repository honest without manual intervention (cc-090).
-
-The vision is specific and technically feasible with current capabilities. Source-015 (Forrester) names concrete agent types: harvesting agents that auto-discover architecture from deployment pipelines, dependency agents that map integration patterns, lifecycle agents that track technology currency, and conformance agents that check deployments against standards. AI-augmented architects would be notified at decision points with relevant context, precedents, and pre-screened analysis -- not informed weeks after decisions have already been made (cc-098, novelty 7, actionability 7). Three sources describe the end state as EA becoming a "living, learning function" -- shifting from designing static structures to stewarding behavioural systems (cc-097).
-
-The consultancy sources strengthen the urgency while confirming the prerequisite gap. The readiness data now paints a more detailed -- and more concerning -- picture: 85% of organisations are already using generative AI, but only 22% say their architecture can support AI without modification (Economist Impact/Databricks, n=1,100). KPMG (source-048) finds only 14% of companies fully prepared for AI adoption. Only 17% have networks capable of handling AI demands. BCG Platinion (source-036) describes architects evolving from "gatekeepers of rigid standards" to "collaborative technology advisors that design and oversee modular systems in real-time" -- but this evolution presumes a level of tooling and data maturity that most organizations have not achieved.
-
-This makes the finding both urgent and difficult. The organisations that most need AI-augmented EA — those drowning in documentation debt with stale repositories — are the least equipped to adopt it, because AI agents need structured, current data to work with. The path forward is not to wait for perfect EA maturity before introducing automation. It is to use automation as the mechanism for building maturity: start with automated discovery from the systems that already produce machine-readable data (cloud inventory APIs, CI/CD pipelines, API gateways), and use that to bootstrap an EA repository that was never manually buildable in the first place.
-
-Source-056 (Ardoq) introduces an important demand-side perspective that the supply-side focus of other sources misses: we are entering a "zero-click world" where stakeholders expect instant, AI-powered answers to architectural questions -- not slide decks or weeks-long analysis cycles. The source positions prompt engineering as the near-term mechanism for making architectural expertise instantly accessible, grounded in live architecture data via MCP integration. While the full AI-augmented EA vision (harvesting agents, dependency agents, conformance agents) requires significant tooling maturity, source-056 argues that architects can begin today by mastering architecture-specific prompt engineering -- a discipline it distinguishes from developer or marketer prompting because EAs work in ambiguity, trade-offs, and questions without single right answers (uc-125). The practical gap this fills is concrete: 18 ready-to-use prompt templates across six EA use cases (application rationalization, capability mapping, cost analysis, risk assessment, M&A integration, cloud transformation) provide architects with operational starting points while the broader tooling ecosystem matures.
-
-**Practitioner implication**: Do not attempt a full AI-augmented EA programme. Start with one concrete feedback loop. Pick the EA artefact that goes stale fastest -- typically the application portfolio or integration map -- and connect it to an automated data source (CMDB, cloud inventory API, deployment pipeline). Measure staleness before and after. Use the result to build the case for broader investment. The goal is not a perfect repository — it is a repository that is less wrong than yesterday's.
-
-**Bottom line**: "The EA repository is a graveyard because nobody visits it — and most organisations are not ready to resurrect it with AI because they never built it properly in the first place. Start with automated discovery from the systems you already have, and build maturity through the loop, not before it."
-
----
-
-### Finding 5: Process Redesign First, Then Automation -- and the Evidence Just Got Stronger
+### Finding 5: Redesign Processes for Agent Strengths Before Automating Them
 
 This is the strongest practitioner-validated finding in the research, and the consultancy expansion makes it stronger still. Two distinct genuine insights converge: leading organisations achieve value by redesigning processes for agent strengths rather than layering AI onto existing human-designed workflows (cc-031, novelty 7, actionability 7), and solid, well-defined processes are a prerequisite for any AI application -- without quantifiable process understanding, AI deployment is premature (cc-100, novelty 6, actionability 7).
 
@@ -179,11 +162,11 @@ EY's internal transformation (source-044) provides the most concrete case study:
 
 **Practitioner implication**: Before approving your next AI agent deployment, answer two questions. First: is the target process documented with quantitative data (not just a flowchart)? If not, invest in process mining first. Second: has the workflow been redesigned for agent strengths, or is the agent being inserted into a human-shaped process? If the latter, redesign before you deploy. And apply the same discipline to your AI portfolio: if you have more than 20 active AI initiatives, you probably have too many.
 
-**Bottom line**: "Putting an AI agent into a human-shaped process is like giving a self-driving car a steering wheel made for hands -- the value is not in the automation, it is in redesigning the entire vehicle."
+**Bottom line**: "Six sources describe organisations achieving AI value by redesigning processes from scratch for agent capabilities, not by layering agents onto workflows designed for human constraints. Four sources identify well-defined, quantifiable processes as a prerequisite — without them, AI application is premature."
 
 ---
 
-### Finding 6: The C-Suite Expectation Gap Is an Architecture Problem
+### Finding 6: AI Value Progresses From Productivity to Revenue — and Most Organisations Are Still in Phase One
 
 The CEO expects AI to drive top-line revenue growth. The CIO expects AI to drive productivity and cost savings. When the AI portfolio is built to deliver productivity gains but evaluated against revenue growth criteria, every project underperforms against at least one sponsor's expectations (cc-088, novelty 7, actionability 6). This is not a communication problem. It is an architecture problem, because the platforms, data pipelines, and integration patterns required for internal productivity use cases differ materially from those required for customer-facing, revenue-generating AI applications.
 
@@ -197,11 +180,11 @@ BCG/MIT SMR (source-035) provides a striking data point: AI-native firms achieve
 
 **Practitioner implication**: Survey your C-suite with a single question: "What is the primary expected outcome of our AI investments?" Quantify the gap between revenue-growth and productivity-improvement expectations. Then structure your AI portfolio with explicit buckets for each, tracked with different KPIs, and ensure your platform architecture supports the transition from the first to the second. Establish AI FinOps discipline before the spending gets away from you -- if you are in the 90% without mature FinOps, you are flying blind.
 
-**Bottom line**: "The most dangerous AI project is one where the CEO thinks it is building revenue and the CIO thinks it is saving costs -- get alignment before you get budget, or the budget will not survive the first review."
+**Bottom line**: "Seven sources describe AI value as following a progression: initial returns come from internal productivity gains, while deeper value comes from applying AI to core value chains and revenue-generating processes. Two sources identify a disconnect between CEO expectations (revenue growth) and CIO expectations (productivity), and three sources describe AI FinOps as an emerging discipline to manage accelerating AI spend."
 
 ---
 
-### Finding 7: Agent Management Is an Emerging Discipline -- and Nobody Has the Playbook
+### Finding 7: Managing AI Agents Requires New Frameworks — and Organisational Ownership Is Unresolved
 
 As AI agents scale from experimental copilots to production workforce participants, organisations face a management challenge that does not map to any existing discipline (cc-132, novelty 7). Agents need onboarding: testing, validation, access provisioning, and performance benchmarking before they operate in production. They need performance management: accuracy monitoring, cost tracking, drift detection, and periodic review against business value delivered. They need lifecycle management: versioning, retraining, deprecation, and retirement. And they need what one might call misconduct handling: what happens when an agent produces harmful outputs, exceeds its authority, or exhibits emergent behaviour that was not anticipated in its design?
 
@@ -217,11 +200,11 @@ The field is wide open. No vendor, standards body, or consultancy has published 
 
 **Practitioner implication**: Create an AI Agent Registry this quarter. For every deployed agent, document its role, capabilities, access permissions, data inputs, decision authority, performance metrics, and accountable human owner. This is the minimum viable foundation for whatever agent management discipline emerges.
 
-**Bottom line**: "You would not hire 500 employees without an HR function -- do not deploy 500 AI agents without an agent management discipline, because the management challenge is coming whether you build for it or not."
+**Bottom line**: "Five sources describe AI agents as workforce participants rather than tools. Three sources identify a need for management frameworks that diverge from traditional ITSM. Eight sources establish governance and accountability as non-negotiable — but only two sources address who should own agent management, and their answer (business domains, not IT) is not yet broadly supported."
 
 ---
 
-### Finding 8: The Infrastructure Readiness Crisis Is Worse Than Anyone Admits
+### Finding 8: The Gap Between AI Ambition and Infrastructure Readiness Is the Binding Constraint
 
 This is the finding that the consultancy sources made visible. The original 30 sources discussed architecture readiness in general terms. The large-sample surveys quantified it -- and the numbers are alarming.
 
@@ -239,17 +222,17 @@ The infrastructure crisis is distinct from the governance, process, and organiza
 
 **Practitioner implication**: Conduct an infrastructure readiness assessment specific to your AI roadmap. Map each planned AI workload to its compute, network, storage, and integration requirements. Compare against current capacity. The delta is your infrastructure investment gap, and it will likely be larger than your AI team has estimated because they are thinking about models while you need to think about everything the models need to run on.
 
-**Bottom line**: "The AI industry sold you a brain without mentioning you need a nervous system. Most organizations are about to discover they cannot afford both at once -- but the nervous system is the one that matters, because the brain is a commodity."
+**Bottom line**: "Three sources report that only 22% of organisations have architectures that fully support AI workloads, and 87% of senior leaders report substantial barriers to adopting agentic AI. Three sources describe AI infrastructure costs as having surprised organisations unprepared for production AI economics."
 
 ---
 
-### Finding 9: Enterprise as Code -- The Next Operating Model Paradigm
+### Finding 9: Operating Models Must Become Explicit and Adaptable for AI to Act on Them
 
 BCG's "Enterprise as Code" concept (source-033) is the most conceptually novel contribution in the 24 new sources. The idea is straightforward to state but radical in implication: capture an organization's implicit operating model -- its processes, decision-making logic, governance rules, workflows -- and express them as code that is readable and executable by both people and AI systems (cc-153). Organizations must shift from intuition-based operations to specification-based ones as a prerequisite for deriving value from AI.
 
 This is not the same as infrastructure-as-code, DevOps, or traditional BPM. BCG distinguishes Enterprise as Code through three breakthroughs: programmable infrastructure at all organizational levels (not just IT), human-AI convergence via autonomous agents that interpret and act on business logic, and dynamic orchestration of processes based on contextual events and real-time data. Processes become "living artifacts" -- continuously tested, verified, monitored, and adapted.
 
-The finding connects to and extends multiple existing themes. It operationalizes Finding 5 (process redesign): before you can redesign processes for agents, you must first make your current processes legible to machines. It provides the mechanism for Finding 4 (AI-augmented EA): if the operating model is expressed as code, the EA repository becomes a living system rather than a documentation graveyard. It grounds Finding 1 (governance speed): if governance rules are codified and executable, governance becomes continuous and automated rather than episodic and manual.
+The finding connects to and extends multiple existing themes. It operationalizes Finding 5 (process redesign): before you can redesign processes for agents, you must first make your current processes legible to machines. It provides a mechanism for AI-augmented EA (Finding 1): if the operating model is expressed as code, the EA repository becomes a living system rather than a documentation graveyard. It grounds governance automation (Finding 1): if governance rules are codified and executable, governance becomes continuous and automated rather than episodic and manual.
 
 BCG's companion "Freedom within a Frame" concept (cc-155) provides the governance architecture for Enterprise as Code: centralized infrastructure, governance, and shared tools with decentralized innovation by business units -- cutting costs by up to 30% and improving time to market by 50% according to BCG's client work. The 10/20/70 rule (cc-154) reinforces that this is fundamentally an organizational transformation (70% people and processes) enabled by technology (20% backbone, 10% algorithms), not the reverse.
 
@@ -259,11 +242,11 @@ Bain's pragmatic counterpoint (cc-156) is important here: fit-for-purpose archit
 
 **Practitioner implication**: Identify one high-volume, high-value business process and make its operating logic explicit and machine-readable. This does not require a multi-year ontology project. Start with a single process: document its decision rules, exception paths, and governance controls in a format that an AI agent could interpret. Use this as the pilot for broader Enterprise as Code adoption.
 
-**Bottom line**: "AI agents operate on the basis of knowledge -- and most organizations have never written down how they actually work. The competitive advantage goes to the organizations that can describe themselves precisely enough for machines to operate on."
+**Bottom line**: "Four sources describe operating models that are designed to evolve as fast as the technology they support. Two sources argue that making implicit business logic explicit and machine-readable is a prerequisite for effective AI agent deployment. Two sources advocate pragmatic, fit-for-purpose architecture over idealized designs."
 
 ---
 
-### Finding 10: AI Sovereignty Has Moved From IT Concern to Strategic Imperative
+### Finding 10: AI Sovereignty Is Moving From IT Concern to Board-Level Architecture Constraint
 
 The original 30 sources treated data sovereignty as one concern among many. The consultancy sources -- particularly those with European and global perspectives -- elevate it to a defining strategic theme.
 
@@ -277,7 +260,7 @@ The sovereignty theme intersects with the infrastructure readiness crisis (Findi
 
 **Practitioner implication**: Audit your current and planned AI workloads for sovereignty requirements. Map each workload to its data residency, model provenance, and jurisdictional constraints. If you are operating across EU and non-EU jurisdictions, or handling data subject to sector-specific regulations, sovereignty is not a future concern -- it is a current architecture constraint that should inform your cloud and infrastructure decisions now.
 
-**Bottom line**: "AI sovereignty is an architecture decision, not a policy decision. The organization that treats it as a compliance checkbox will discover too late that its entire AI infrastructure was built in the wrong place."
+**Bottom line**: "Five sources describe AI sovereignty — control over data, models, and decision rights — as moving from an IT concern to a board-level priority. Seven sources identify rapidly evolving AI regulations as a driver that enterprise architectures must accommodate."
 
 ---
 
