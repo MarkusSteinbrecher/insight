@@ -394,13 +394,11 @@ function renderConclusions() {
       tab.classList.add('active');
       document.getElementById('conclusions-recommendations').style.display = tab.dataset.tab === 'recommendations' ? '' : 'none';
       document.getElementById('conclusions-angles').style.display = tab.dataset.tab === 'angles' ? '' : 'none';
-      document.getElementById('conclusions-actionability').style.display = tab.dataset.tab === 'actionability' ? '' : 'none';
     });
   });
 
   renderRecommendations();
   renderAngles();
-  renderActionability();
 }
 
 function renderRecommendations() {
@@ -476,33 +474,6 @@ function renderAngles() {
       </div>
     </div>`;
   }).join('');
-}
-
-function renderActionability() {
-  const container = document.getElementById('conclusions-actionability');
-  const items = conclusionsData.actionability || [];
-  if (!items.length) { container.innerHTML = ''; return; }
-
-  const actOrder = { high: 0, medium: 1, low: 2 };
-  const sorted = [...items].sort((a, b) => (actOrder[a.actionability] || 2) - (actOrder[b.actionability] || 2));
-
-  container.innerHTML = `
-    <div class="actionability-grid">
-      ${sorted.map(item => {
-        const actClass = `act-${item.actionability || 'medium'}`;
-        const barriers = (item.barriers || []).map(b => `<li>${esc(b)}</li>`).join('');
-        return `
-        <div class="act-card ${actClass}">
-          <div class="act-header">
-            <span class="act-badge ${actClass}">${esc(item.actionability || 'medium')}</span>
-            <span class="act-finding-id">${esc(item.finding_id)}</span>
-          </div>
-          <div class="act-title">${esc(item.finding_title)}</div>
-          ${barriers ? `<div class="act-section"><div class="detail-label">Barriers</div><ul class="act-barriers">${barriers}</ul></div>` : ''}
-          ${item.missing_for_action ? `<div class="act-section"><div class="detail-label">Missing for action</div><p class="act-missing">${esc(item.missing_for_action)}</p></div>` : ''}
-        </div>`;
-      }).join('')}
-    </div>`;
 }
 
 /* ── Analysis List ───────────────────────────────────── */
