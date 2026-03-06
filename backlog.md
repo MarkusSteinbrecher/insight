@@ -42,14 +42,16 @@ Discovery + extraction for web and YouTube. Source registry.
 - [x] **C.3** Draft YouTube extractor (`insight/collector/youtube.py`)
 - [x] **C.4** Draft CLI (`insight/collector/cli.py`)
 
+### Done
+- [x] **C.5** Implement discovery module (`insight/collector/discovery.py`) — URL normalization, registry check
+- [x] **C.6** Create test fixtures — sample HTML page, nested elements, minimal page
+- [x] **C.7** Write unit tests — web extraction (23 tests, AC-W1 through AC-W9)
+- [x] **C.8** Write unit tests — YouTube extraction (19 tests, AC-Y1 through AC-Y6)
+- [x] **C.9** Write unit tests — discovery (19 tests, AC-D1 through AC-D5)
+
 ### Open
-- [ ] **C.5** Implement discovery module (`insight/collector/discovery.py`) — URL normalization, registry check
-- [ ] **C.6** Create test fixtures — sample HTML page, sample transcript data
-- [ ] **C.7** Write unit tests — web extraction (AC-W1 through AC-W9)
-- [ ] **C.8** Write unit tests — YouTube extraction (AC-Y1 through AC-Y6)
-- [ ] **C.9** Write unit tests — discovery (AC-D1 through AC-D5)
 - [ ] **C.10** Write integration tests — web + YouTube pipelines, source registry
-- [ ] **C.11** All collector tests pass
+- [ ] **C.11** All collector tests pass (unit: 61/61, integration: TBD)
 - [ ] **C.12** End-to-end: collect a real web source into graph
 - [ ] **C.13** End-to-end: collect a real YouTube video into graph
 

@@ -114,6 +114,7 @@ scripts/                   # Build and utility scripts
 ## Documentation
 
 - [Product Vision](design/product-vision.md) — goals, user jobs, release plan
+- [Release Plan](design/release-plan.md) — MVP → MLP → Full with milestones, scope, and dependencies
 - [Architecture](design/v2-architecture.md) — components, tech decisions, milestones
 - [Ways of Working](design/ways-of-working.md) — development process, roles, lessons learned
 - [Decisions](design/decisions/) — architecture decision records

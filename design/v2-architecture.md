@@ -1,6 +1,6 @@
 # Insight v2 — Architecture Overview
 
-Status: **Planning**
+Status: **MVP in progress** (Milestone 1 complete)
 Started: 2026-03-06
 
 Product vision: [product-vision.md](product-vision.md)
@@ -8,6 +8,8 @@ Product vision: [product-vision.md](product-vision.md)
 Component designs: [Collector](collector.md) | [Knowledge Graph](knowledge-graph.md) | [Analyzer](analyzer.md) | [Presenter](presenter.md)
 
 Specifications: [Graph Schema](specs/graph-schema.md) | [Collector](specs/collector.md) | Analyzer (TODO) | Presenter (TODO)
+
+Release plan: [release-plan.md](release-plan.md)
 
 ---
 
@@ -170,15 +172,15 @@ design/
 
 Each milestone: spec → tests → code → validate.
 
-### Milestone 1 — Graph Foundation
+### Milestone 1 — Graph Foundation ✓
 - [x] Spec: graph schema (node/edge types, Python API)
-- [ ] Tests: graph CRUD, queries, schema creation
+- [x] Tests: 50 tests covering all acceptance criteria
 - [x] Code: graph module (`insight/graph.py`)
 - [x] Migration: v1 YAML → graph (56 sources, 892 blocks)
-- [ ] Tests pass
+- [x] All tests pass (50/50)
 
-### Milestone 2 — Collector
-- [ ] Spec: extractors, discovery, registry, CLI
+### Milestone 2 — Collector (in progress)
+- [x] Spec: extractors, discovery, registry, CLI
 - [ ] Tests: web extraction (mocked HTML), YouTube (mocked transcript), registry logic
 - [ ] Code: web extractor, YouTube extractor, CLI
 - [ ] Integration tests: collect a real web source + YouTube video
