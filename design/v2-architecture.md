@@ -55,7 +55,7 @@ Four components, each with a single responsibility, connected through a central 
 | Graph database | KuzuDB | Embedded (no server), Cypher queries, Python bindings, purpose-built for graph workloads |
 | Web publishing | Static JSON export | KuzuDB is local-only; export at build time, site reads JSON. Keeps GitHub Pages deployment. |
 | Frontend framework | TBD | Vanilla JS won't scale for graph explorer. Svelte or React candidates. |
-| Analysis engine | Claude API | No change — Claude does the intelligence work |
+| Analysis engine | Claude Code | Claude Code performs analysis during command execution — no programmatic API calls |
 | Content extraction | Playwright, Docling, youtube-transcript-api, Whisper | Per-format extractors, structured output with location anchors |
 
 ## Component Summary
@@ -69,7 +69,7 @@ Ingests content from diverse sources (web, PDF, YouTube, audio, Office docs) and
 KuzuDB-backed central store. Typed nodes and edges with a Python query interface. Provides CRUD, traversal queries, and JSON export for the website. Schema-versioned.
 
 ### 3. Analyzer ([detail](analyzer.md))
-All intelligence: segmentation, claim alignment, critical analysis, synthesis, insight generation. Operates incrementally against the graph. Each operation reads from and writes to the graph. Claude API powers the analysis.
+All intelligence: segmentation, claim alignment, critical analysis, synthesis, insight generation. Operates incrementally against the graph. Each operation reads from and writes to the graph. Claude Code performs the analysis during command execution — there are no programmatic Claude API calls. The Python module provides graph operation helpers that Claude Code calls.
 
 ### 4. Presenter ([detail](presenter.md))
 Static site with graph explorer for interactive knowledge traversal. Built from exported JSON. Deployed to GitHub Pages.
@@ -187,9 +187,9 @@ Each milestone: spec → tests → code → validate.
 - [ ] Tests pass
 
 ### Milestone 3 — Analyzer
-- [ ] Spec: operations, incremental alignment, Claude API contracts
-- [ ] Tests: segmentation, claim matching
-- [ ] Code: analyzer module
+- [ ] Spec: graph helper functions, data contracts, command integration
+- [ ] Tests: graph helpers (segment writing, claim alignment, traceability)
+- [ ] Code: analyzer module (graph operations, no API calls)
 - [ ] Tests pass
 
 ### Milestone 4 — Presenter

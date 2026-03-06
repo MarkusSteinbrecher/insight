@@ -46,7 +46,7 @@ Parent: [Product Vision](product-vision.md) | [Architecture](v2-architecture.md)
 |-----------|-----------|------------|
 | **Collector** | Web extraction (Playwright + BS4), YouTube transcripts, URL normalization, source registry, CLI | PDF, PowerPoint, Word, parallel collection |
 | **Graph** | Source, ContentBlock, VisualExtraction, Segment, Claim nodes. CONTAINS, EXTRACTED_FROM, SEGMENTED_FROM, SUPPORTS, CONTRADICTS edges | Finding, Recommendation, Concept nodes. RELATES_TO, BASED_ON edges. Rich traversal queries |
-| **Analyzer** | Segmentation (10-type taxonomy), claim alignment (canonical, unique, contradiction) | Critical analysis, baseline comparison, gap detection, synthesis, discussion |
+| **Analyzer** | Segmentation (10-type taxonomy), claim alignment (canonical, unique, contradiction). Graph helpers only — Claude Code performs the intelligence during command execution, no programmatic API calls | Critical analysis, baseline comparison, gap detection, synthesis, discussion |
 | **Presenter** | Source list with metadata, claim list with source attribution, basic filtering, static site | Graph explorer, coverage dashboard, evidence drill-down, content views |
 
 ### MVP Dependencies
@@ -143,7 +143,6 @@ Before the v2 redesign, we built a working v1 pipeline with:
 | Risk | Impact | Mitigation |
 |------|--------|------------|
 | KuzuDB limitations (reserved words, query quirks) | Development friction | Document workarounds, prefix column names, maintain a KuzuDB lessons file |
-| Claude API costs for analysis at scale | MLP cost per topic | Incremental analysis (per-source, not batch), caching, prompt optimization |
 | PDF extraction quality varies | MLP data quality | Multiple extraction strategies, human review step, confidence scoring |
 | Graph explorer complexity | MLP development time | Start with simpler list views, add interactivity incrementally |
 | Scope creep into MLP during MVP | MVP delay | Strict MVP component scope table above — if it's not listed, it waits |

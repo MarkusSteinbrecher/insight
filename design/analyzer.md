@@ -1,28 +1,34 @@
 # Component: Analyzer
 
-Parent: [v2 Architecture](v2-architecture.md)
-Status: **Design — TODO**
+Parent: [v2 Architecture](v2-architecture.md) | Spec: [Analyzer](specs/analyzer.md)
+Status: **MVP complete** (graph helpers implemented, 17/17 tests passing)
 
 ---
 
 ## Purpose
 
-All intelligence in the system. Takes content blocks from the graph, segments them, extracts claims, aligns across sources, critiques, synthesizes, and generates insights. Operates incrementally — each operation works against the current graph state.
+Graph helper functions for the analysis pipeline. Claude Code performs all intelligence (segmentation, claim alignment, etc.) during command execution. The Python module handles graph read/write operations only — no Claude API calls.
 
-## Key Responsibilities
+## How It Works
 
-- Segmentation: break content blocks into typed segments (claim, statistic, evidence, etc.)
-- Claim alignment: match segments across sources, identify consensus, contradictions, unique positions
-- Critical analysis: assess claims for strength, novelty, practical value
-- Baseline comparison: evaluate claims against common knowledge
-- Synthesis: generate narrative documents from graph state
-- Interactive refinement: human-in-the-loop discussion and insight tuning
+1. Claude Code reads content blocks from the graph via query helpers
+2. Claude Code performs analysis (segmentation, classification, alignment)
+3. Claude Code writes results to the graph via write helpers
 
-## Topics to Specify
+## Key Modules
 
-- Operation catalog (each atomic analysis operation)
-- Input/output contract per operation (what it reads, what it writes to graph)
-- Incremental alignment algorithm
-- Claude API prompt design per operation
-- Interaction model for human-in-the-loop refinement
-- Segment classification taxonomy (carry forward from v1 or revise)
+- **`insight/analyzer/segmentation.py`** — get unsegmented sources, get source content, write segments, composition stats
+- **`insight/analyzer/alignment.py`** — get claim-relevant segments, write claims with segment links, write contradictions, alignment stats
+- **`insight/analyzer/queries.py`** — topic summary (counts of all node types, segmented vs unsegmented)
+
+## MVP Scope
+
+- Segmentation: ContentBlock → Segment nodes (10-type taxonomy)
+- Claim alignment: Segment → Claim nodes (canonical, unique, contradiction)
+
+## MLP Additions (future)
+
+- Critical analysis helpers
+- Baseline comparison helpers
+- Gap detection queries
+- Synthesis generation support

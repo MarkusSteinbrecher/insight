@@ -62,16 +62,18 @@ Discovery + extraction for web and YouTube. Source registry.
 
 ## MVP Milestone 3 — Analyzer (core)
 
-Segmentation and claim alignment only. Critical analysis, gap detection, synthesis are MLP.
+Graph helpers for segmentation and claim alignment. Claude Code performs the intelligence during command execution — no API calls.
+
+### Done
+- [x] **A.1** Write analyzer spec (`design/specs/analyzer.md`) — 15 acceptance criteria
+- [x] **A.2** Implement segmentation helpers (`insight/analyzer/segmentation.py`)
+- [x] **A.3** Implement claim alignment helpers (`insight/analyzer/alignment.py`)
+- [x] **A.4** Implement query helpers (`insight/analyzer/queries.py`)
+- [x] **A.5** Write unit tests (17 tests, AC-AN1 through AC-AN15)
+- [x] **A.6** All analyzer tests pass (17/17)
 
 ### Open
-- [ ] **A.1** Write analyzer spec — segmentation + claim alignment operations
-- [ ] **A.2** Implement segmentation (ContentBlock → Segment nodes in graph)
-- [ ] **A.3** Implement claim alignment (Segment → Claim nodes, consensus/contradiction/unique)
-- [ ] **A.4** Write unit tests for segmentation
-- [ ] **A.5** Write unit tests for claim alignment
-- [ ] **A.6** All analyzer tests pass
-- [ ] **A.7** End-to-end: segment a source, align claims across sources
+- [ ] **A.7** End-to-end: segment a source, align claims across sources (via `/analyze`)
 
 ---
 
