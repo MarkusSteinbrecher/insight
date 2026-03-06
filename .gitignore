@@ -30,7 +30,7 @@ knowledge-base/sessions/
 dist/
 
 # Graph database (local, regenerated from migration or collection)
-data/
+/data/
 
 # Python
 __pycache__/

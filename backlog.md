@@ -79,14 +79,16 @@ Graph helpers for segmentation and claim alignment. Claude Code performs the int
 
 ## MVP Milestone 4 — Presenter (basic)
 
-Source list and claim list. No graph explorer — that's MLP.
+Graph → JSON exporter for the static site. Existing site frontend unchanged.
+
+### Done
+- [x] **P.1** Write presenter spec (`design/specs/presenter.md`) — 10 acceptance criteria
+- [x] **P.2** Implement graph → JSON exporter (`insight/exporter/`) — topics, stats, sources
+- [x] **P.3** CLI: `python3 -m insight.exporter` exports all topics
+- [x] **P.5** All exporter tests pass (11/11)
 
 ### Open
-- [ ] **P.1** Write presenter spec — MVP views (source list, claim list), JSON export format
-- [ ] **P.2** Implement graph → JSON exporter (sources, claims with attribution)
-- [ ] **P.3** Build basic static site — source list with metadata, claim list with source links
-- [ ] **P.4** Deploy to GitHub Pages
-- [ ] **P.5** All presenter tests pass
+- [ ] **P.4** Deploy to GitHub Pages (verify site renders with graph-exported data)
 
 ---
 
