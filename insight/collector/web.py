@@ -71,7 +71,11 @@ def fetch_page(url: str) -> str:
         )
         page = context.new_page()
         try:
-            page.goto(url, wait_until="networkidle", timeout=30000)
+            # Try networkidle first, fall back to domcontentloaded on timeout
+            try:
+                page.goto(url, wait_until="networkidle", timeout=30000)
+            except Exception:
+                page.goto(url, wait_until="domcontentloaded", timeout=30000)
             page.wait_for_timeout(2000)
             html = page.content()
         finally:

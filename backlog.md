@@ -50,10 +50,13 @@ Discovery + extraction for web and YouTube. Source registry.
 - [x] **C.9** Write unit tests — discovery (19 tests, AC-D1 through AC-D5)
 
 ### Open
-- [ ] **C.10** Write integration tests — web + YouTube pipelines, source registry
-- [ ] **C.11** All collector tests pass (unit: 61/61, integration: TBD)
-- [ ] **C.12** End-to-end: collect a real web source into graph
-- [ ] **C.13** End-to-end: collect a real YouTube video into graph
+- [ ] **C.14** All collector tests pass in CI (GitHub Actions)
+
+### Recently Completed
+- [x] **C.10** Write integration tests — web pipeline (6 tests), YouTube pipeline (5 tests)
+- [x] **C.11** All collector tests pass (122/122 — 111 unit + 11 integration)
+- [x] **C.12** End-to-end: collect Wikipedia article (203 blocks) into graph
+- [x] **C.13** End-to-end: collect 3Blue1Brown YouTube video (18 blocks from 286 segments) into graph
 
 ---
 
