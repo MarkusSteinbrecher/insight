@@ -1,40 +1,175 @@
 # Backlog
 
-Checklist of improvement items for the Research Agent project. Done items are moved to the bottom.
+Work items for Insight. Organized by MVP milestone. Items follow spec-driven workflow: spec → tests → code → validate.
+
+Sponsor: User | PM/Engineering: Claude Code
+
+Current target: **MVP** — end-to-end research on one topic (collect → segment → align → view)
 
 ---
 
-## Open
+## MVP Milestone 1 — Graph Foundation
 
-### Reduce Agent Token Usage
+The graph schema and Python API. Everything else builds on this.
 
-- [ ] **1.3.1** Create `merge-critical-analysis.py` — concatenate batched critical analysis parts into unified YAML, recalculate counts
-- [ ] **1.3.2** Update `/analyze` command to batch step 1.3 explicitly (15-20 claims per batch), write temp files, then merge
-- [ ] **1.4.1** Update `/analyze` command to generate cross-source analysis section-by-section (by theme cluster from step 1.2) rather than all-at-once
-- [ ] **1.5.1** Create `prepare-baseline-eval.py` — extract claim IDs and summary text from claim-alignment.yaml into a condensed evaluation input file
-- [ ] **1.6.1** Update `/synthesize` command to generate each section in a separate focused prompt with only the relevant subset of data
+### Done
+- [x] **G.1** Set up `insight/` Python package structure
+- [x] **G.2** Add KuzuDB dependency, verify installation
+- [x] **G.3** Implement KuzuDB schema (Source, ContentBlock, VisualExtraction + edges)
+- [x] **G.4** Implement `insight/graph.py` — CRUD, queries, utilities
+- [x] **G.5** Write v1→v2 migration script
+- [x] **G.6** Run migration — 56 EA for AI sources, 892 content blocks
+- [x] **G.7** Write graph schema spec (`design/specs/graph-schema.md`)
+
+### Open
+- [ ] **G.8** Extend graph schema for MVP: add Segment, Claim node tables + SEGMENTED_FROM, SUPPORTS, CONTRADICTS edges
+- [ ] **G.9** Write unit tests for graph module (AC-S1 through AC-EC3)
+- [ ] **G.10** All graph tests pass
 
 ---
 
-## Done
+## MVP Milestone 2 — Collector
 
-- [x] **1.1.1** Create `segment-source.py` — deterministic splitting + async Claude API classification
-- [x] **1.1.2** Update `/analyze` command to call `segment-source.py` for step 1.1
-- [x] **1.2.1** Create `prepare-alignment.py` — TF-IDF pre-clustering of claim-relevant segments (~51% input reduction)
-- [x] **1.2.2** Update `/analyze` command to use pre-clustered input for step 1.2
-- [x] **2.1.1** Create `scrape-sources.py` — Playwright + BeautifulSoup web scraping into structured source notes
-- [x] **2.1.2** Integrate `scrape-sources.py` into the `/research` command flow
-- [x] **2.2.1** Create `check-progress.py` — pipeline status scanner with human-readable and JSON output
-- [x] **2.3.1** Integrate `audit-claims.py` into `/analyze` as post-step validation
-- [x] **2.4.1** Add `build-usecases-data.py` to `build.sh`
-- [x] **3.1.1** Rewrite `/analyze` command with actual 4-step Phase 1 pipeline
-- [x] **3.1.2** Add resume support to `/analyze` (reads completed_steps, runs next step)
-- [x] **3.2.1** Scope `document-analyst.md` agent to ingestion only
-- [x] **3.3.1** Update CLAUDE.md site configuration with correct data file paths
-- [x] **3.3.2** Add findings.yaml to topic directory structure docs
-- [x] **3.3.3** Add use-case-inventory.yaml and build scripts to CLAUDE.md
-- [x] **4.1.1** Remove orphaned Hugo submodule (`.git/modules/site/`)
-- [x] **4.1.2** Remove Hugo entries from `.gitignore`
-- [x] **4.2.1** Remove empty `knowledge-base/connections/` and all graph.md references
-- [x] **4.3.1** Consolidate 4 critical-analysis part files into single `critical-analysis.yaml`
-- [x] **4.4.1** Move `fix-claims.py` to `scripts/archive/`
+Discovery + extraction for web and YouTube. Source registry.
+
+### Done
+- [x] **C.1** Write collector spec (`design/specs/collector.md`)
+- [x] **C.2** Draft web extractor (`insight/collector/web.py`)
+- [x] **C.3** Draft YouTube extractor (`insight/collector/youtube.py`)
+- [x] **C.4** Draft CLI (`insight/collector/cli.py`)
+
+### Open
+- [ ] **C.5** Implement discovery module (`insight/collector/discovery.py`) — URL normalization, registry check
+- [ ] **C.6** Create test fixtures — sample HTML page, sample transcript data
+- [ ] **C.7** Write unit tests — web extraction (AC-W1 through AC-W9)
+- [ ] **C.8** Write unit tests — YouTube extraction (AC-Y1 through AC-Y6)
+- [ ] **C.9** Write unit tests — discovery (AC-D1 through AC-D5)
+- [ ] **C.10** Write integration tests — web + YouTube pipelines, source registry
+- [ ] **C.11** All collector tests pass
+- [ ] **C.12** End-to-end: collect a real web source into graph
+- [ ] **C.13** End-to-end: collect a real YouTube video into graph
+
+---
+
+## MVP Milestone 3 — Analyzer (core)
+
+Segmentation and claim alignment only. Critical analysis, gap detection, synthesis are MLP.
+
+### Open
+- [ ] **A.1** Write analyzer spec — segmentation + claim alignment operations
+- [ ] **A.2** Implement segmentation (ContentBlock → Segment nodes in graph)
+- [ ] **A.3** Implement claim alignment (Segment → Claim nodes, consensus/contradiction/unique)
+- [ ] **A.4** Write unit tests for segmentation
+- [ ] **A.5** Write unit tests for claim alignment
+- [ ] **A.6** All analyzer tests pass
+- [ ] **A.7** End-to-end: segment a source, align claims across sources
+
+---
+
+## MVP Milestone 4 — Presenter (basic)
+
+Source list and claim list. No graph explorer — that's MLP.
+
+### Open
+- [ ] **P.1** Write presenter spec — MVP views (source list, claim list), JSON export format
+- [ ] **P.2** Implement graph → JSON exporter (sources, claims with attribution)
+- [ ] **P.3** Build basic static site — source list with metadata, claim list with source links
+- [ ] **P.4** Deploy to GitHub Pages
+- [ ] **P.5** All presenter tests pass
+
+---
+
+## MVP Milestone 5 — Integration & Polish
+
+Wire everything together, update docs.
+
+### Open
+- [ ] **X.1** Update `/research` command to use Collector
+- [ ] **X.2** Update `/analyze` command to use Analyzer
+- [ ] **X.3** Update `/status` command to report from graph
+- [ ] **X.4** Set up GitHub Actions (unit tests on push)
+- [ ] **X.5** Update CLAUDE.md for MVP state
+- [ ] **X.6** MVP validation: full topic research end-to-end
+
+---
+
+## MLP (after MVP) — not yet scheduled
+
+### Collector
+- [ ] PDF extractor (Docling + visual extraction)
+- [ ] PowerPoint extractor
+- [ ] Word doc extractor
+- [ ] Parallel collection
+- [ ] Source coverage analysis
+
+### Graph
+- [ ] Finding, Recommendation, Concept node tables
+- [ ] RELATES_TO, BASED_ON edges
+- [ ] Graph traversal queries (evidence chains)
+- [ ] Rich JSON export for graph explorer
+
+### Analyzer
+- [ ] Critical analysis (claim strength, practical value)
+- [ ] Baseline comparison (novel vs common knowledge)
+- [ ] Gap detection
+- [ ] Synthesis generation
+- [ ] Interactive discussion
+- [ ] Findings extraction
+- [ ] Recommendations + thought leadership angles
+
+### Presenter
+- [ ] Interactive graph explorer
+- [ ] Source coverage dashboard
+- [ ] Evidence chain drill-down
+- [ ] Content drafting view
+
+---
+
+## Project Management
+
+### Done
+- [x] Product vision doc (`design/product-vision.md`)
+- [x] Architecture overview (`design/v2-architecture.md`)
+- [x] Component design docs (collector, graph, analyzer, presenter)
+- [x] Specs: graph schema, collector
+- [x] ADR structure + initial decisions
+- [x] Ways of working doc
+- [x] Rewrite CLAUDE.md as product guide
+- [x] Rewrite README.md
+- [x] Update `/status` command
+- [x] Set up pyproject.toml, test structure, .gitignore
+
+---
+
+## v1 Backlog (paused — superseded by v2)
+
+<details>
+<summary>v1 open items</summary>
+
+- [ ] 1.3.1 merge-critical-analysis.py
+- [ ] 1.3.2 Batch step 1.3
+- [ ] 1.4.1 Section-by-section cross-source analysis
+- [ ] 1.5.1 prepare-baseline-eval.py
+- [ ] 1.6.1 Section-by-section synthesis
+
+</details>
+
+<details>
+<summary>v1 completed items</summary>
+
+- [x] 1.1.1 segment-source.py
+- [x] 1.1.2 Integrate into /analyze
+- [x] 1.2.1 prepare-alignment.py
+- [x] 1.2.2 Use pre-clustered input
+- [x] 2.1.1 scrape-sources.py
+- [x] 2.1.2 Integrate into /research
+- [x] 2.2.1 check-progress.py
+- [x] 2.3.1 audit-claims.py integration
+- [x] 2.4.1 build-usecases-data.py
+- [x] 3.1.1 Rewrite /analyze with 4-step pipeline
+- [x] 3.1.2 Resume support for /analyze
+- [x] 3.2.1 Scope document-analyst agent
+- [x] 3.3.1–3.3.3 CLAUDE.md updates
+- [x] 4.1.1–4.4.1 Cleanup items
+
+</details>

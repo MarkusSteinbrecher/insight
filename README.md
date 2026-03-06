@@ -1,109 +1,120 @@
-# insight
+# Insight
 
-An AI-supported solution for gathering and analysing information from the internet (e.g. thought leadership articles, points of view) on a specific topic.
+A knowledge graph-powered research analysis system for consultants creating thought leadership content.
 
-Note, this is still all work in progress.
+**Status:** v2 redesign in progress — [product vision](design/product-vision.md) | [architecture](design/v2-architecture.md)
 
 ## What It Does
 
-- **Research**: Gathers and organizes sources from the web or uploaded documents (PDFs) on any topic
-- **Baseline**: Defines a common-knowledge baseline to assess claim novelty
-- **Analyze**: Breaks sources into segments, classifies claims, aligns them across sources, and critically assesses each
-- **Synthesize**: Creates findings from all sources, identifies tensions, and produces a comprehensive synthesis
-- **Conclude**: Assesses actionability, generates prioritised recommendations, and identifies thought leadership angles
-- **Publish**: Static site with findings, recommendations, claims, and sources (work-in-progress content pipeline)
+Insight helps consultants go from "I want to research topic X" to "I have a defensible, sourced position with a publishable draft" in days instead of weeks.
 
-## Phases
+1. **Collect** — Gather sources from the web, PDFs, YouTube, and documents. Track what you have, from which firms, what's been processed.
+2. **Extract** — Break each source into structured claims, statistics, and evidence — without reading every page. Everything traceable to its exact location.
+3. **Analyze** — Align claims across sources. See where they agree, disagree, and what nobody is talking about yet.
+4. **Present** — Explore the knowledge graph interactively. Drill from a finding down to the source paragraph that supports it.
+5. **Create** — Produce drafts backed by evidence chains. Every claim linked to its sources.
 
-Each topic progresses through four phases. Per-topic progress is tracked in the topic's `_index.md` frontmatter (`phase` and `completed_steps` fields).
+## How It Works
 
-### Phase 0 — Data Gathering
+```
+Collector → Knowledge Graph (KuzuDB) → Presenter (static site)
+                    ↑↓
+                 Analyzer
+```
 
-Collect raw material from the web and uploaded documents.
+- **Collector** — discovers and extracts sources from web, YouTube, PDF, documents
+- **Knowledge Graph** — KuzuDB-backed store of sources, claims, findings, and relationships
+- **Analyzer** — segments sources, aligns claims, identifies gaps and contradictions (Claude API)
+- **Presenter** — interactive graph explorer and source dashboard
 
-| Step | Description | Command | Output |
-|------|-------------|---------|--------|
-| 0.1 | Web research — initial 3-angle sweep for new topics, or criteria-based search for existing topics | `/research <topic>` | `sources/source-NNN.md` |
-| 0.2 | Document ingestion — process uploaded PDFs/docs into structured source notes | `/ingest <topic>` | `sources/source-NNN.md`, `documents/` |
-| 0.3 | Topic baseline — establish common knowledge via web search, evaluate claim novelty | `/baseline <topic>` | `baseline.md`, `extractions/baseline-evaluation.yaml` |
+### The Traceability Chain
 
-### Phase 1 — Data Analysis
+Every insight traces back to a specific location in a specific source:
 
-Structured extraction and cross-referencing of all gathered sources.
-
-| Step | Description | Command | Output |
-|------|-------------|---------|--------|
-| 1.1 | Raw segmentation — break each source into numbered segments, classify each (claim, statistic, evidence, etc.) | `/analyze <topic>` | `raw/source-NNN-raw.yaml` |
-| 1.2 | Cross-source claim alignment — deduplicate claims, identify consensus, unique positions, contradictions | `/analyze <topic>` | `extractions/claim-alignment.yaml` |
-| 1.3 | Critical analysis — assess each canonical claim (critique, practical value, action steps, bottom line) | `/analyze <topic>` | `extractions/critical-analysis.yaml` |
-| 1.4 | Cross-source comparison — generate narrative comparison across all sources | `/analyze <topic>` | `extractions/cross-source-analysis.md` |
-
-### Phase 2 — Insight Refinement
-
-Human-in-the-loop refinement and deeper pattern extraction.
-
-| Step | Description | Command | Output |
-|------|-------------|---------|--------|
-| 2.1 | Interactive discussion — walkthrough critical findings with user, capture decisions | `/discuss <topic>` | `discussion/discussion-YYYY-MM-DD.yaml` |
-| 2.2 | Insight extraction — distill patterns, evidence chains, contradictions, knowledge gaps | `/analyze <topic>` | `insights/insight-NNN.md` |
-| 2.3 | Synthesis — comprehensive synthesis document with integrated analysis | `/synthesize <topic>` | `synthesis.md` |
-
-### Phase 3 — Conclusion ("So What?")
-
-Take the reader's perspective. The synthesis tells us what the research found — Phase 3 asks what a practitioner should actually *do* about it, what will get in their way, and what positions are worth owning.
-
-| Step | Description | Command | Output |
-|------|-------------|---------|--------|
-| 3.1 | Reader perspective — actionability assessment per finding: what's actionable, what barriers exist, what's missing | `/conclude <topic>` | `extractions/conclusions.yaml` |
-| 3.2 | Recommendations — prioritized, concrete actions sequenced by dependency and effort | `/conclude <topic>` | `extractions/conclusions.yaml` |
-| 3.3 | Thought leadership angles — unique perspectives, contrarian positions, and content hooks worth owning | `/conclude <topic>` | `extractions/conclusions.yaml` |
-
-### Content Creation (downstream)
-
-Producing deliverables from completed research. Separate from the research phases.
-
-| Step | Description | Command | Output |
-|------|-------------|---------|--------|
-| Ideation | Generate content ideas from synthesis | `/ideate <topic>` (future) | `content/ideas/` |
-| Drafting | Create content draft (blog, POV, presentation) | `/draft <type>` (future) | `content/drafts/` |
-| Validation | Run quality/accuracy checklist | `/validate <slug>` (future) | checklist report |
-| Publishing | Publish to site and deploy | `/publish <slug>` (future) | `docs/` |
+```
+Source → Content Block → Segment → Claim → Finding → Recommendation
+         (page/timestamp/   (typed unit    (cross-source   (synthesized   (actionable
+          heading)           of meaning)    alignment)       pattern)       output)
+```
 
 ## Quick Start
 
 ### Prerequisites
 
+- Python 3.9+
 - [Claude Code](https://claude.com/claude-code) CLI installed
-- [GitHub CLI](https://cli.github.com/) (`gh`) installed and authenticated
+
+### Setup
+
+```bash
+pip install -r requirements.txt
+playwright install chromium
+```
 
 ### Commands
 
 ```
-/research <topic>    # Research a topic — gathers sources from the web
+/research <topic>    # Discover and collect sources from the web
 /ingest <topic>      # Ingest uploaded documents (PDFs, reports)
-/baseline <topic>    # Establish common-knowledge baseline
-/analyze <topic>     # Analyze collected sources — segment, align, critique
+/analyze <topic>     # Segment sources, align claims, critical analysis
 /discuss <topic>     # Interactive discussion of findings
-/synthesize <topic>  # Create synthesis document with findings and angles
+/synthesize <topic>  # Create synthesis document
 /conclude <topic>    # Generate recommendations and thought leadership angles
 /kb <query>          # Search the knowledge base
-/status              # View pipeline dashboard
+/status              # Project and pipeline status
 ```
 
-### Local Development
+### Collector CLI
 
 ```bash
-# Build site data and serve locally
-bash scripts/build.sh serve
+# Collect web sources
+python -m insight.collector extract --urls "https://..." --topic my-topic
+
+# Collect YouTube videos
+python -m insight.collector extract --urls "https://youtube.com/watch?v=..." --topic my-topic
+
+# Check what's already collected
+python -m insight.collector status --topic my-topic
+
+# Check URLs against registry (what's new?)
+python -m insight.collector discover --urls "https://..." --topic my-topic
 ```
 
 ## Project Structure
 
 ```
-├── knowledge-base/     # Research repository organized by topic
-│   └── topics/         # One directory per research topic
-├── content/            # Content pipeline (ideas → drafts → ready)
-├── docs/               # Static site (HTML/CSS/JS) for GitHub Pages
-├── scripts/            # Build and data generation scripts
-└── .claude/            # Commands, agents, and skills
+insight/                   # Python package (v2)
+├── graph.py               # Knowledge graph interface (KuzuDB)
+└── collector/             # Source discovery + extraction
+    ├── web.py             # Web page extractor
+    ├── youtube.py         # YouTube transcript extractor
+    └── cli.py             # CLI entry point
+
+design/                    # Product and engineering docs
+├── product-vision.md      # Product vision, goals, release plan
+├── v2-architecture.md     # Architecture overview
+├── specs/                 # Detailed specifications
+├── decisions/             # Architecture Decision Records
+└── ways-of-working.md     # Development process
+
+tests/                     # Unit and integration tests
+knowledge-base/            # Research data (topics, sources, analysis)
+docs/                      # Static site for GitHub Pages
+scripts/                   # Build and utility scripts
 ```
+
+## Release Plan
+
+| Release | What it delivers |
+|---------|-----------------|
+| **MVP** | Collect from web + YouTube, segment and align claims, basic source/claim viewer. End-to-end research on one topic. |
+| **MLP** | + PDF ingestion, gap analysis, interactive graph explorer, source coverage dashboard, content drafting. |
+| **Full** | + Cross-topic knowledge, content pipeline, collaboration, API. |
+
+## Documentation
+
+- [Product Vision](design/product-vision.md) — goals, user jobs, release plan
+- [Architecture](design/v2-architecture.md) — components, tech decisions, milestones
+- [Ways of Working](design/ways-of-working.md) — development process, roles, lessons learned
+- [Decisions](design/decisions/) — architecture decision records
+- [Backlog](backlog.md) — work items and priorities

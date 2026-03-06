@@ -25,3 +25,12 @@ knowledge-base/sessions/
 
 # Build artifacts
 dist/
+
+# Graph database (local, regenerated from migration or collection)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/

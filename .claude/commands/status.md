@@ -1,6 +1,6 @@
 # /status
 
-View the pipeline dashboard — topics, content, and suggested next actions.
+Report project status to the product sponsor. Covers engineering progress, research pipeline, and next actions.
 
 ## Arguments
 
@@ -8,66 +8,69 @@ No arguments required.
 
 ## Process
 
-1. **Scan knowledge base topics**:
-   - List all directories in `knowledge-base/topics/`
-   - For each topic, read `_index.md` to get: title, status, source_count, insight_count, updated date
-   - Sort by last updated date (most recent first)
+### 1. Engineering Status
 
-2. **Scan content pipeline** (future — check if directories have content):
-   - `content/ideas/` — count idea files
-   - `content/drafts/` — count draft files
-   - `content/ready/` — count ready files
+Read `CLAUDE.md` milestone status section and report:
+- Which milestones are complete, in progress, or not started
+- For in-progress milestones: what's done, what's remaining
+- Any blockers or open decisions needing sponsor input
 
-3. **Scan published content**:
-   - `site/content/blog/` — count published blog posts (excluding _index.md)
-   - `site/content/pov/` — count published POVs (excluding _index.md)
+### 2. Test Status
 
-4. **Present dashboard**:
+Run `pytest --tb=no -q 2>&1` to check test status:
+- How many tests pass / fail / skipped
+- Note any failing tests
 
-   ```
-   # Pipeline Status
+### 3. Knowledge Graph Status
 
-   ## Knowledge Base
-   | Topic | Status | Sources | Insights | Updated |
-   |-------|--------|---------|----------|---------|
-   | Topic Title | synthesized | 24 | 12 | 2024-01-15 |
-   | Other Topic | researching | 8 | 0 | 2024-01-14 |
+If the graph database exists (`data/insight.db`), run:
+```python
+from insight.graph import InsightGraph
+g = InsightGraph()
+# Report: total sources, total blocks, sources per topic
+```
 
-   ## Content Pipeline
-   - Ideas: N
-   - Drafts: N
-   - Ready to publish: N
+### 4. Research Pipeline Status
 
-   ## Published
-   - Blog posts: N
-   - POVs: N
+Scan `knowledge-base/topics/` for each topic:
+- Read `_index.md` for phase, completed_steps, source_count
+- Report current phase and next step
 
-   ## Suggested Next Actions
-   - {Contextual suggestions based on pipeline state}
-   ```
+### 5. Backlog Summary
 
-5. **Generate suggestions**:
-   Based on the current state, suggest logical next actions:
-   - Topics in "researching" → suggest `/analyze {topic}`
-   - Topics in "analyzed" → suggest `/synthesize {topic}`
-   - Topics in "synthesized" → suggest creating content
-   - Empty knowledge base → suggest `/research <topic>` with example topics
-   - Drafts ready → suggest validation and publishing
+Read `backlog.md` and report:
+- Count of open items per category
+- Next priority items
 
-## Example Output
+### 6. Present Dashboard
 
 ```
-# Pipeline Status
+# Project Status — {date}
 
-## Knowledge Base
-No topics yet. Get started with:
-  /research AI agents in the enterprise
-  /research platform engineering trends
-  /research LLM fine-tuning strategies
+## Engineering
+| Milestone | Status | Progress |
+|-----------|--------|----------|
+| 1. Graph Foundation | In progress | 5/7 tasks done |
+| 2. Collector | In progress | Spec done, tests pending |
+| ... | | |
 
-## Content Pipeline
-Empty — research a topic first, then create content from your synthesis.
+## Tests
+- Unit: X pass, Y fail
+- Integration: not yet running
 
-## Published
-No published content yet.
+## Knowledge Graph
+- Topics: N
+- Sources: N (web: X, youtube: Y, pdf: Z)
+- Content blocks: N
+
+## Research Topics
+| Topic | Phase | Sources | Next step |
+|-------|-------|---------|-----------|
+| ea-for-ai | 3 (complete) | 56 | Content creation |
+
+## Blockers / Decisions Needed
+- {Any items needing sponsor input}
+
+## Next Actions
+- {Prioritized list of what to work on next}
 ```
