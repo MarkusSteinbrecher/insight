@@ -77,7 +77,7 @@ Structured interpretation of a visual element (chart, diagram, infographic).
 |---|---|---|---|
 | `extraction_id` | STRING | PK | Globally unique. Format: `{block_id}:visual` |
 | `visual_type` | STRING | yes | One of: `bar_chart`, `line_chart`, `pie_chart`, `diagram`, `infographic`, `table_image`, `screenshot`, `photo` |
-| `description` | STRING | yes | Natural language description of the visual |
+| `visual_description` | STRING | yes | Natural language description of the visual. Column named `visual_description` to avoid KuzuDB reserved word `description`. |
 | `extracted_data` | STRING | no | JSON-encoded array of structured data points. Default: `[]`. |
 | `extraction_method` | STRING | no | How the extraction was done. Default: `claude-vision`. |
 | `metadata` | STRING | no | JSON-encoded dict. Default: `{}`. |
@@ -124,7 +124,7 @@ An aligned claim that may be supported by segments from one or more sources. Cre
 | `summary` | STRING | yes | One-sentence summary of the claim |
 | `claim_type` | STRING | no | One of: `normative`, `empirical`, `predictive`, `definitional`. Default: `""`. |
 | `strength` | STRING | no | One of: `strongly-supported`, `supported`. For canonical claims only. Default: `""`. |
-| `description` | STRING | no | Extended description. For contradictions: describes the disagreement. Default: `""`. |
+| `claim_description` | STRING | no | Extended description. For contradictions: describes the disagreement. Default: `""`. Column named `claim_description` to avoid KuzuDB reserved word `description`. |
 | `metadata` | STRING | no | JSON-encoded dict. Default: `{}`. |
 
 **Claim categories:**
@@ -185,10 +185,10 @@ Links two Claims that are in disagreement.
 
 | Direction | Properties |
 |---|---|
-| Claim → Claim | `description: STRING` |
+| Claim → Claim | `claim_description: STRING` |
 
 **Properties:**
-- `description`: Describes the nature of the disagreement.
+- `claim_description`: Describes the nature of the disagreement. Named to avoid KuzuDB reserved word.
 
 **Cardinality:** Many-to-many. A claim can contradict multiple other claims.
 

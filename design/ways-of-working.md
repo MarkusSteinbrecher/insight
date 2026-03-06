@@ -59,9 +59,24 @@ How we build Insight. Updated as we learn.
 - Report covers: milestone progress, test status, graph stats, blockers
 - Sponsor can request status at any time
 
+## Session Structure
+
+Each working session follows a lightweight standup format:
+
+1. **Open** — Review what was completed last session, current milestone status, any blockers
+2. **Work** — Execute backlog items per the development workflow
+3. **Close** — Summary of what was done, decisions made, what's next
+
+Session notes are captured in the lessons learned section below. Key decisions go into ADRs.
+
 ## Lessons Learned
 
 Captured here as they emerge. Updated across sessions.
+
+### 2026-03-06 — Session 2
+
+- **KuzuDB reserved words bite twice.** `description` is a reserved keyword in KuzuDB's Cypher parser. We hit this first with Claim (`claim_description`), then again with VisualExtraction (`visual_description`). Lesson: always prefix column names to avoid reserved word collisions when using KuzuDB.
+- **50 graph tests passing.** Full MVP schema implemented and tested: Source, ContentBlock, VisualExtraction, Segment, Claim + all edges. Milestone 1 complete.
 
 ### 2026-03-06 — Session 1
 

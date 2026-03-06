@@ -16,12 +16,15 @@ Thumbs.db
 # Node (if Hugo modules used)
 node_modules/
 
-# Uploaded documents (PDFs, large binaries) — structured notes are committed, raw files are not
-knowledge-base/topics/*/documents/*
-!knowledge-base/topics/*/documents/.gitkeep
+# Research content (private — intellectual property, pre-publication material)
+# The code, design docs, and static site remain public; the actual research data stays local.
+knowledge-base/topics/
 
 # Session logs (private)
 knowledge-base/sessions/
+
+# Interaction tracking (private)
+.beads/
 
 # Build artifacts
 dist/

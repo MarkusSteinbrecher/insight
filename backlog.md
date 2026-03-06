@@ -22,9 +22,13 @@ The graph schema and Python API. Everything else builds on this.
 - [x] **G.7** Write graph schema spec (`design/specs/graph-schema.md`)
 
 ### Open
-- [ ] **G.8** Extend graph schema for MVP: add Segment, Claim node tables + SEGMENTED_FROM, SUPPORTS, CONTRADICTS edges
-- [ ] **G.9** Write unit tests for graph module (AC-S1 through AC-EC3)
-- [ ] **G.10** All graph tests pass
+
+(All items complete — milestone done.)
+
+### Recently Completed
+- [x] **G.8** Extend graph schema for MVP: add Segment, Claim node tables + SEGMENTED_FROM, SUPPORTS, CONTRADICTS edges
+- [x] **G.9** Write unit tests for graph module (50 tests, AC-S1 through AC-EC6)
+- [x] **G.10** All graph tests pass (50/50)
 
 ---
 
