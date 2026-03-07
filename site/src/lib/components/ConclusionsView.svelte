@@ -1,48 +1,92 @@
 <script lang="ts">
 	import { app } from '$lib/data.svelte';
+	import Icon from '$lib/components/Icon.svelte';
 </script>
 
 {#if app.conclusions}
 	{@const c = app.conclusions}
 
 	{#if c.recommendations?.length}
-		<h2 class="section-title">Recommendations</h2>
-		{#each c.recommendations as rec}
-			<div class="rec-card">
-				<div class="rec-header">
-					<h3>{rec.title}</h3>
-					<div class="rec-meta">
-						<span class="badge badge-{rec.priority === 'high' ? 'primary' : rec.priority === 'medium' ? 'warning' : 'success'}">{rec.priority}</span>
-						{#if rec.effort}<span class="dim">Effort: {rec.effort}</span>{/if}
+		<div class="section">
+			<h2 class="section-title">
+				<Icon name="conclusions" size={20} />
+				Recommendations
+			</h2>
+			<div class="cards">
+				{#each c.recommendations as rec}
+					<div class="rec-card">
+						<div class="rec-header">
+							<h3>{rec.title}</h3>
+							<div class="rec-meta">
+								<span class="badge badge-{rec.priority === 'high' ? 'primary' : rec.priority === 'medium' ? 'warning' : 'success'}">{rec.priority}</span>
+								{#if rec.effort}<span class="effort">{rec.effort}</span>{/if}
+							</div>
+						</div>
+						<p class="rec-desc">{rec.description}</p>
 					</div>
-				</div>
-				<p class="rec-desc">{rec.description}</p>
+				{/each}
 			</div>
-		{/each}
+		</div>
 	{/if}
 
 	{#if c.angles?.length}
-		<h2 class="section-title" style="margin-top: var(--space-8)">Thought Leadership Angles</h2>
-		{#each c.angles as angle}
-			<div class="rec-card">
-				<h3>{angle.title}</h3>
-				<p class="rec-desc">{angle.position}</p>
-				{#if angle.why_novel}<p class="novel"><strong>Why novel:</strong> {angle.why_novel}</p>{/if}
-				{#if angle.suggested_format}<span class="dim">Format: {angle.suggested_format}</span>{/if}
+		<div class="section">
+			<h2 class="section-title">
+				<Icon name="findings" size={20} />
+				Thought Leadership Angles
+			</h2>
+			<div class="cards">
+				{#each c.angles as angle}
+					<div class="rec-card">
+						<h3>{angle.title}</h3>
+						<p class="rec-desc">{angle.position}</p>
+						{#if angle.why_novel}
+							<div class="novel">
+								<strong>Why novel:</strong> {angle.why_novel}
+							</div>
+						{/if}
+						{#if angle.suggested_format}
+							<span class="format-badge badge badge-info">{angle.suggested_format}</span>
+						{/if}
+					</div>
+				{/each}
 			</div>
-		{/each}
+		</div>
 	{/if}
 {:else}
 	<div class="empty-state"><p>No conclusions available yet.</p></div>
 {/if}
 
 <style>
-	.section-title { font-size: var(--font-size-lg); font-weight: var(--font-weight-semibold); margin-bottom: var(--space-4); }
-	.rec-card { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-5); margin-bottom: var(--space-4); }
-	.rec-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-2); }
+	.section { margin-bottom: var(--space-8); }
+	.section-title {
+		font-size: var(--font-size-lg);
+		font-weight: var(--font-weight-semibold);
+		margin-bottom: var(--space-4);
+		display: flex;
+		align-items: center;
+		gap: var(--space-2);
+	}
+	.cards { display: flex; flex-direction: column; gap: var(--space-3); }
+	.rec-card {
+		background: var(--color-surface);
+		border: 1px solid var(--color-border-light);
+		border-radius: var(--radius-md);
+		padding: var(--space-5);
+		box-shadow: var(--shadow-sm);
+		transition: box-shadow 0.15s;
+	}
+	.rec-card:hover { box-shadow: var(--shadow-md); }
+	.rec-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: var(--space-2);
+	}
 	.rec-header h3 { font-size: var(--font-size-base); font-weight: var(--font-weight-semibold); }
-	.rec-meta { display: flex; gap: var(--space-3); align-items: center; }
-	.rec-desc { font-size: var(--font-size-sm); color: var(--color-text-secondary); }
-	.novel { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin-top: var(--space-2); }
-	.dim { font-size: var(--font-size-xs); color: var(--color-text-tertiary); }
+	.rec-meta { display: flex; gap: var(--space-3); align-items: center; flex-shrink: 0; }
+	.effort { font-size: var(--font-size-xs); color: var(--color-text-tertiary); }
+	.rec-desc { font-size: var(--font-size-sm); color: var(--color-text-secondary); line-height: var(--line-height-normal); }
+	.novel { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin-top: var(--space-2); padding-top: var(--space-2); border-top: 1px solid var(--color-border-light); }
+	.format-badge { margin-top: var(--space-3); }
 </style>

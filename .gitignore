@@ -13,8 +13,11 @@ Thumbs.db
 .env
 .env.local
 
-# Node (if Hugo modules used)
+# Node
 node_modules/
+
+# Svelte build cache
+site/.svelte-kit/
 
 # Research content (private — intellectual property, pre-publication material)
 # The code, design docs, and static site remain public; the actual research data stays local.

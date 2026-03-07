@@ -124,6 +124,31 @@ def group_transcript_segments(segments: list[dict],
     return blocks
 
 
+def _merge_incomplete_transcript_blocks(blocks: list[dict]) -> list[dict]:
+    """Merge transcript blocks that end mid-sentence.
+
+    Like blocks.merge_incomplete_blocks but preserves start/end timestamps.
+    """
+    if not blocks:
+        return blocks
+
+    _end_pattern = re.compile(r'[.!?"\'\)]\s*$')
+    result = []
+    i = 0
+
+    while i < len(blocks):
+        current = dict(blocks[i])
+        # Keep merging forward while the block ends mid-sentence
+        while i + 1 < len(blocks) and not _end_pattern.search(current["text"].rstrip()):
+            i += 1
+            current["text"] = current["text"] + " " + blocks[i]["text"]
+            current["end"] = blocks[i]["end"]
+        result.append(current)
+        i += 1
+
+    return result
+
+
 def format_timestamp(seconds: float) -> str:
     """Format seconds as H:MM:SS or M:SS."""
     total = int(seconds)
@@ -151,9 +176,10 @@ def extract_youtube_source(url: str, topic: str, source_id: str, graph) -> dict:
     # Fetch metadata
     metadata = fetch_video_metadata(video_id)
 
-    # Fetch and group transcript
+    # Fetch, group, and merge transcript at sentence boundaries
     raw_segments = fetch_transcript(video_id)
     blocks = group_transcript_segments(raw_segments)
+    blocks = _merge_incomplete_transcript_blocks(blocks)
 
     if not blocks:
         raise ValueError(f"No transcript content for video {video_id}")

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { app } from '$lib/data.svelte';
+	import Icon from '$lib/components/Icon.svelte';
 
 	let typeFilter = $state('all');
 	let sourceFilter = $state('all');
@@ -32,6 +33,7 @@
 
 {#if app.visuals && app.visuals.visuals.length > 0}
 	<div class="controls">
+		<Icon name="filter" size={15} />
 		<select bind:value={typeFilter}>
 			<option value="all">All types ({app.visuals.total_visuals})</option>
 			{#each visualTypes as t}<option value={t}>{t}</option>{/each}
@@ -40,7 +42,10 @@
 			<option value="all">All sources</option>
 			{#each [...sourcesMap.entries()] as [id, title]}<option value={id}>{title}</option>{/each}
 		</select>
-		<input type="text" placeholder="Search visuals..." bind:value={searchTerm} class="search" />
+		<div class="search-field">
+			<Icon name="search" size={14} />
+			<input type="text" placeholder="Search visuals..." bind:value={searchTerm} />
+		</div>
 	</div>
 
 	<div class="grid">
@@ -48,13 +53,13 @@
 			<div class="visual-card">
 				{#if vis.image_path}
 					<div class="visual-img">
-						<img src="data/images/{vis.image_path}" alt={vis.description} loading="lazy" />
+						<img src="data/{app.currentSlug}/images/{vis.image_path}" alt={vis.description} loading="lazy" />
 					</div>
 				{/if}
 				<div class="visual-body">
 					<div class="visual-meta">
 						<span class="badge badge-primary">{vis.visual_type}</span>
-						<span class="dim">{vis.source_title}</span>
+						<span class="source-name">{vis.source_title}</span>
 					</div>
 					<p class="visual-desc">{vis.description}</p>
 					{#if vis.extracted_data?.length}
@@ -84,20 +89,53 @@
 {/if}
 
 <style>
-	.controls { display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-6); }
-	.controls select, .search { font-family: var(--font-family); font-size: var(--font-size-sm); padding: var(--space-2) var(--space-3); border: 1px solid var(--color-border); border-radius: var(--radius-sm); }
-	.search { flex: 1; max-width: 300px; }
-	.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: var(--space-4); }
-	.visual-card { border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; }
-	.visual-img { background: var(--color-surface); padding: var(--space-3); display: flex; justify-content: center; }
-	.visual-img img { max-width: 100%; max-height: 300px; object-fit: contain; }
+	.controls {
+		display: flex;
+		gap: var(--space-3);
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: var(--space-6);
+		color: var(--color-text-tertiary);
+	}
+	.search-field {
+		display: flex;
+		align-items: center;
+		gap: var(--space-2);
+		padding: var(--space-1) var(--space-3);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius-sm);
+		background: var(--color-surface);
+		flex: 1;
+		max-width: 250px;
+	}
+	.search-field input {
+		border: none;
+		background: none;
+		outline: none;
+		font-size: var(--font-size-sm);
+		font-family: var(--font-family);
+		width: 100%;
+		color: var(--color-text);
+	}
+	.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--space-4); }
+	.visual-card {
+		background: var(--color-surface);
+		border: 1px solid var(--color-border-light);
+		border-radius: var(--radius-md);
+		overflow: hidden;
+		box-shadow: var(--shadow-sm);
+		transition: box-shadow 0.15s;
+	}
+	.visual-card:hover { box-shadow: var(--shadow-md); }
+	.visual-img { background: var(--color-bg); padding: var(--space-3); display: flex; justify-content: center; border-bottom: 1px solid var(--color-border-light); }
+	.visual-img img { max-width: 100%; max-height: 300px; object-fit: contain; border-radius: var(--radius-sm); }
 	.visual-body { padding: var(--space-4); }
 	.visual-meta { display: flex; gap: var(--space-2); align-items: center; margin-bottom: var(--space-2); }
+	.source-name { font-size: var(--font-size-xs); color: var(--color-text-tertiary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 200px; }
 	.visual-desc { font-size: var(--font-size-sm); color: var(--color-text-secondary); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-	.dim { font-size: var(--font-size-xs); color: var(--color-text-tertiary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 200px; }
 	.data-details { margin-top: var(--space-3); }
-	.data-details summary { font-size: var(--font-size-xs); color: var(--color-primary); cursor: pointer; }
+	.data-details summary { font-size: var(--font-size-xs); color: var(--color-primary-text); cursor: pointer; font-weight: var(--font-weight-medium); }
 	.data-table-wrap { max-height: 200px; overflow: auto; margin-top: var(--space-2); }
 	.data-table-wrap table { font-size: var(--font-size-xs); }
-	.summary { font-size: var(--font-size-xs); color: var(--color-text-secondary); margin-top: var(--space-4); }
+	.summary { font-size: var(--font-size-xs); color: var(--color-text-tertiary); margin-top: var(--space-4); }
 </style>

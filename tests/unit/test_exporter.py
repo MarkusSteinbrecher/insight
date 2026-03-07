@@ -41,29 +41,26 @@ def output_dir():
 
 
 def _populate_graph(graph):
-    """Add test data: 2 topics, sources, blocks, segments, claims."""
-    # Topic 1: ea-for-ai — 3 sources, segments, claims
+    """Add test data: 2 topics, sources, extracts, claims."""
+    # Topic 1: ea-for-ai — 3 sources, extracts, claims
     for i in range(1, 4):
         sid = f"ea-for-ai:source-{i:03d}"
         graph.add_source(sid, "ea-for-ai", "web" if i <= 2 else "pdf",
                          f"Source {i}", url=f"https://example.com/ea-{i}")
         for j in range(1, 4):
-            bid = f"{sid}:block-{j:03d}"
-            graph.add_content_block(bid, sid, f"Block {j} text", j,
-                                    "heading_path", f"Section {j}", "prose")
-            graph.add_segment(f"{sid}:seg-{j:03d}", bid,
-                              f"Segment {j} text", "claim", j)
+            eid = f"{sid}:extract-{j:03d}"
+            graph.add_extract(eid, sid, f"Extract {j} text", j,
+                              format="prose", extract_type="assertion",
+                              section_path=f"Section {j}")
 
     graph.add_claim("ea-for-ai:cc-001", "ea-for-ai", "canonical",
                      "AI Growth", "AI is growing")
     graph.add_claim("ea-for-ai:uc-001", "ea-for-ai", "unique",
                      "Novel Point", "Something new")
 
-    # Topic 2: ai-pm — 1 source, blocks only (no segments)
+    # Topic 2: ai-pm — 1 source, no extracts
     graph.add_source("ai-pm:source-001", "ai-pm", "web",
                      "PM Source", url="https://example.com/pm-1")
-    graph.add_content_block("ai-pm:source-001:block-001", "ai-pm:source-001",
-                            "Block text", 1, "heading_path", "Intro", "prose")
 
 
 class TestExportTopics:
@@ -122,12 +119,12 @@ class TestExportStats:
         with open(path) as f:
             json.load(f)  # Should not raise
 
-    def test_segment_and_claim_counts(self, graph, output_dir):
-        """AC-P5: correct segment and claim counts."""
+    def test_extract_and_claim_counts(self, graph, output_dir):
+        """AC-P5: correct extract and claim counts."""
         _populate_graph(graph)
         stats = export_stats("ea-for-ai", graph, output_dir)
 
-        assert stats["total_segments"] == 9  # 3 sources × 3 segments
+        assert stats["total_extracts"] == 9  # 3 sources × 3 extracts
         assert stats["canonical_claims"] == 1
         assert stats["unique_claims"] == 1
         assert stats["contradictions"] == 0
@@ -138,7 +135,7 @@ class TestExportStats:
         stats = export_stats("ai-pm", graph, output_dir)
 
         assert stats["sources"] == 1
-        assert stats["total_segments"] == 0
+        assert stats["total_extracts"] == 0
         assert stats["canonical_claims"] == 0
 
 
@@ -156,14 +153,13 @@ class TestExportSources:
         assert all("author" in s for s in sources)
         assert all("type" in s for s in sources)
 
-    def test_block_and_segment_counts(self, graph, output_dir):
-        """AC-P7: includes block_count and segment_count per source."""
+    def test_extract_counts(self, graph, output_dir):
+        """AC-P7: includes extract_count per source."""
         _populate_graph(graph)
         sources = export_sources("ea-for-ai", graph, output_dir)
 
         for s in sources:
-            assert s["block_count"] == 3
-            assert s["segment_count"] == 3
+            assert s["extract_count"] == 3
 
     def test_file_written(self, graph, output_dir):
         _populate_graph(graph)

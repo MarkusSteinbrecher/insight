@@ -7,15 +7,19 @@ cd "$PROJECT_DIR"
 if [ "${1:-}" = "serve" ]; then
   echo "Starting local development server on http://localhost:8000..."
   cd docs && python3 -m http.server 8000
+elif [ "${1:-}" = "dev" ]; then
+  echo "Starting Svelte dev server..."
+  cd site && npm run dev -- --open
 else
   echo "Building site data..."
-  python3 scripts/build-topics-data.py
-  python3 scripts/build-overview.py
-  python3 scripts/build-stats-data.py
-  python3 scripts/build-insights-data.py
-  python3 scripts/build-sources-data.py
-  python3 scripts/build-findings-data.py
-  python3 scripts/build-conclusions-data.py
-  python3 scripts/build-usecases-data.py
-  echo "Build complete. Site is in docs/"
+  # Graph export (writes JSON to docs/data/)
+  python3 -m insight.exporter
+
+  # Copy images to docs for serving
+  if [ -d "data/images" ]; then
+    mkdir -p docs/data/images
+    cp -r data/images/* docs/data/images/ 2>/dev/null || true
+  fi
+
+  echo "Build complete. Data is in docs/data/"
 fi

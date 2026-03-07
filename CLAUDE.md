@@ -37,7 +37,7 @@ Collector → Knowledge Graph (KuzuDB) → Presenter (static site)
 Every insight traces back to a specific location in a specific source:
 
 ```
-Source → ContentBlock → Segment → Claim → Finding → Recommendation
+Source → Extract → Claim → Finding → Recommendation
 ```
 
 Every arrow is a typed edge in the graph.
@@ -73,7 +73,9 @@ design/
 └── decisions/             # Architecture Decision Records (ADRs)
 
 scripts/                   # v1 pipeline scripts (will be archived)
-knowledge-base/            # v1 research data (being migrated to graph)
+knowledge-base/            # Research data (sources, extractions, baselines)
+├── topics/{topic}/        # Per-topic research: sources/, extractions/, _index.md
+└── baselines/             # Source tracking per topic (YAML)
 docs/                      # Static site (v1, will be rebuilt)
 data/                      # Graph database files (gitignored)
 ```
@@ -169,67 +171,49 @@ The research methodology from v1 carries forward conceptually, but the implement
 | 2 — Insight Refinement | Discussion, synthesis | Analyzer |
 | 3 — Conclusions | Recommendations, thought leadership angles | Analyzer |
 
----
+### Source Tracking
 
-## Current Milestone Status
+Sources are tracked in **`knowledge-base/baselines/{topic}.yaml`** files. Each baselines file contains:
 
-### Milestone 1 — Graph Foundation
-- [x] KuzuDB selected and installed
-- [x] Graph schema implemented (Source, ContentBlock, VisualExtraction nodes; CONTAINS, EXTRACTED_FROM edges)
-- [x] Python API implemented (`insight.graph.InsightGraph`)
-- [x] v1 migration script built and run (56 sources, 892 blocks for EA for AI)
-- [x] Graph schema spec written (`design/specs/graph-schema.md`)
-- [ ] Unit tests for graph module
-- [ ] Tests pass
+- `topic`, `title`, `question` — topic metadata
+- `keywords`, `youtube_keywords` — search terms used for discovery
+- `sources` — list of all known sources with:
+  - `url`, `title`, `source_type` — source identity
+  - `source_id` — populated (e.g., `ea-for-ai:source-001`) when collected, **empty string when uncollected**
+- `runs` — history of research runs with dates, keywords used, and counts
 
-### Milestone 2 — Collector
-- [x] Collector spec written (`design/specs/collector.md`)
-- [x] Web extractor drafted (`insight/collector/web.py`)
-- [x] YouTube extractor drafted (`insight/collector/youtube.py`)
-- [x] CLI drafted (`insight/collector/cli.py`)
-- [ ] Discovery module (URL normalization, registry check)
-- [ ] Unit tests (web extraction, YouTube parsing, discovery)
-- [ ] Integration tests
-- [ ] Tests pass
-
-### Milestone 3 — Analyzer
-- [ ] Design doc expansion
-- [ ] Spec
-- [ ] Implementation
-
-### Milestone 4 — Presenter
-- [ ] Design doc expansion
-- [ ] Spec
-- [ ] Implementation
-
-### Milestone 5 — Cleanup & CI
-- [ ] GitHub Actions
-- [ ] Archive v1 pipeline
-- [ ] Update documentation
+To find uncollected sources for a topic, look for entries with empty `source_id` in the baselines file.
 
 ---
 
-## Backlog
+## Backlog & Milestones
 
-Tracked in [backlog.md](backlog.md). GitHub Issues will be used for tracking once the planning phase stabilizes.
+Tracked in [backlog.md](backlog.md). Use `/status` to see current progress.
 
 ---
 
-## Available Commands
+## Available Commands (Skills)
 
 ### Research Pipeline
-- `/research <topic>` — Discover and collect sources (uses Collector)
-- `/ingest <topic>` — Process uploaded documents
-- `/analyze <topic>` — Run analysis pipeline
+- `/research <topic>` — Discover and collect sources via web/YouTube search
+- `/ingest <topic>` — Process uploaded documents into the graph
+- `/analyze <topic>` — Run Phase 1 analysis pipeline (segment → align → critique → compare)
+- `/baseline <topic>` — Define research scope, keywords, and discover sources; track in baselines YAML
 - `/discuss <topic>` — Interactive discussion of findings
-- `/synthesize <topic>` — Generate synthesis document
-- `/conclude <topic>` — Generate recommendations and angles
-- `/baseline <topic>` — Establish common-knowledge baseline
+- `/synthesize <topic>` — Group claims into findings (Phase 2)
+- `/conclude <topic>` — Generate recommendations and angles (Phase 3)
 
 ### Utility
 - `/kb <query>` — Search the knowledge base
 - `/status` — Project and pipeline status dashboard
 - `/session-writeup` — Document session outcomes
+
+### Content & Quality
+- `/simplify` — Review changed code for reuse, quality, and efficiency
+- `/validation-checklist` — Run validation checklist
+- `/content-templates` — Content templates
+- `/knowledge-base` — Knowledge base management
+- `/citation-manager` — Citation management
 
 ---
 
@@ -237,3 +221,28 @@ Tracked in [backlog.md](backlog.md). GitHub Issues will be used for tracking onc
 
 - **Playwright**: Use for JavaScript-heavy pages that WebFetch can't render
 - **GitHub**: Use for repository operations when `gh` CLI is insufficient
+
+---
+
+## Current Checkpoint
+
+**Topic: EA for AI** — 61 sources in graph (63 collected in baselines, 78 uncollected remaining)
+
+**Completed:**
+- Phase 0: Data gathering (57 original sources)
+- Phase 1: Full analysis (segmentation, claim alignment, critical analysis, cross-source comparison)
+- Phase 2.1: Findings synthesis (15 findings, 6 categories)
+- Phase 3: Conclusions (recommendations generated)
+- Website: Dashboard, Sources, Findings, Graph, Visuals, Deep Dive, Conclusions tabs all functional
+
+**In progress:**
+- Batch extraction of 78 remaining uncollected sources (Batch 1 done: 6 sources extracted → 188 extracts)
+- Next: Batches 2-17 (web + YouTube sources), then re-run Phase 1 to integrate new sources into claims/findings
+
+**Key scripts for source extraction:**
+1. `scripts/fresh-extract.py --source-id <id>` — Fetch from URL and create ContentBlocks
+2. Create ContentBlocks from markdown → `scripts/build-extracts.py` to generate Extract nodes
+3. `scripts/segment-source.py` — Classify segments via Claude API (Step 1.1)
+4. `scripts/prepare-alignment.py` → manual claim alignment (Step 1.2)
+
+**Graph stats:** 5,360 extracts, 62 canonical claims, 28 unique claims, 5 contradictions, 15 findings

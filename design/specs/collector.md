@@ -244,11 +244,33 @@ Supported URL formats:
 
 Returns `None` for unrecognized formats.
 
-### 3.3 PDF Extractor (`insight.collector.pdf`) — Future
+### 3.3 PDF Extractor (`insight.collector.pdf`)
 
-Not specified yet. Will use Docling for structural extraction + Claude vision for figures.
+Implemented using PyMuPDF. Font-aware extraction with heading detection, image extraction (raster + vector page renders), boilerplate stripping, and sentence-boundary processing via shared `blocks.py` module.
 
-### 3.4 Source Type Detection
+### 3.4 Content Block Post-Processing (`insight.collector.blocks`)
+
+All extractors apply shared post-processing to ensure clean block boundaries:
+
+1. **`merge_incomplete_blocks()`** — joins prose blocks that end mid-sentence with the following prose block. Detects incomplete blocks by checking for missing sentence-ending punctuation (`.!?"')`) at the end of text.
+
+2. **`split_long_blocks(max_len=800)`** — splits prose blocks exceeding `max_len` at sentence boundaries. Protects abbreviations (Dr., U.S., e.g., etc.) from false splits. Never drops content.
+
+3. **`clean_blocks()`** — runs merge then split in sequence. Called by all extractors after initial block extraction.
+
+YouTube uses a variant (`_merge_incomplete_transcript_blocks`) that preserves start/end timestamps during merging.
+
+### 3.5 Visual Extraction
+
+Images and figures are extracted during the collection process:
+
+1. **PDF**: Raster images extracted via PyMuPDF, vector-heavy pages rendered as PNGs. Creates `format: "figure"` ContentBlocks with `image_path`.
+
+2. **Web**: (Planned) `<img>` elements inside `<figure>` or above size threshold downloaded to `data/images/{topic}/{source_id}/`.
+
+3. **Semantic extraction**: The extraction agent (Claude Code) reads each figure image and creates `VisualExtraction` nodes via `graph.add_visual_extraction()`. This happens during the extraction process, not as a separate command.
+
+### 3.6 Source Type Detection
 
 ```python
 def detect_source_type(url: str) -> str

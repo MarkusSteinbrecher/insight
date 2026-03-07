@@ -80,11 +80,29 @@ def populated_graph(graph):
                     "Cascading agent risk",
                     "Inter-agent influence creates cascading risk")
 
-    # Links
+    # Extracts (mirror segments as atomic units)
+    graph.add_extract("t:src-001:extract-001", "t:src-001",
+                      "AI adoption has reached 72% among Fortune 500.",
+                      1, format="prose", extract_type="statistic",
+                      section_path="Introduction")
+    graph.add_extract("t:src-001:extract-002", "t:src-001",
+                      "Governance frameworks lag behind deployment.",
+                      2, format="prose", extract_type="assertion",
+                      section_path="Governance")
+    graph.add_extract("t:src-002:extract-001", "t:src-002",
+                      "Enterprise AI is now mainstream.",
+                      1, format="prose", extract_type="assertion")
+
+    # Links (old segment-based)
     graph.link_segment_to_claim("t:src-001:seg-001", "test:cc-001", representative=True)
     graph.link_segment_to_claim("t:src-002:seg-001", "test:cc-001", representative=True)
     graph.link_segment_to_claim("t:src-001:seg-002", "test:cc-002", representative=True)
     graph.link_contradiction("test:cc-001", "test:uc-001", "Disagree on maturity")
+
+    # Links (new extract-based)
+    graph.link_extract_to_claim("t:src-001:extract-001", "test:cc-001", representative=True)
+    graph.link_extract_to_claim("t:src-002:extract-001", "test:cc-001", representative=True)
+    graph.link_extract_to_claim("t:src-001:extract-002", "test:cc-002", representative=True)
 
     return graph
 
@@ -333,24 +351,23 @@ class TestClaimCRUD:
 
 class TestTraceability:
     def test_evidence_chain(self, populated_graph):
-        """AC-TR1: evidence chain returns claim, segment, block, source info."""
+        """AC-TR1: evidence chain returns claim, extract, source info."""
         chain = populated_graph.get_evidence_chain("test:cc-001")
-        assert len(chain) == 2  # Two supporting segments from two sources
+        assert len(chain) == 2  # Two supporting extracts from two sources
         record = chain[0]
         assert "c.claim_id" in record
-        assert "sg.segment_id" in record
-        assert "b.block_id" in record
+        assert "e.extract_id" in record
         assert "s.source_id" in record
         assert "s.title" in record
 
     def test_evidence_chain_cross_source(self, populated_graph):
-        """AC-TR2: chain includes segments from multiple sources."""
+        """AC-TR2: chain includes extracts from multiple sources."""
         chain = populated_graph.get_evidence_chain("test:cc-001")
         source_ids = {r["s.source_id"] for r in chain}
         assert len(source_ids) == 2
 
     def test_claims_for_source(self, populated_graph):
-        """AC-TR3: returns all claims supported by a source's segments."""
+        """AC-TR3: returns all claims supported by a source's extracts."""
         claims = populated_graph.get_claims_for_source("t:src-001")
         claim_ids = {c["claim_id"] for c in claims}
         assert "test:cc-001" in claim_ids

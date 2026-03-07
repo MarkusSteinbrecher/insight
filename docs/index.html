@@ -1,183 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Research Agent — Research Synthesis</title>
-  <meta name="description" content="AI-powered research synthesis across multiple topics. Evidence-based findings from cross-source analysis.">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+		<link href="/_app/immutable/entry/start.BBRt8qIr.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BI6R_8NK.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Yc9S-JY3.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.CR4MMmvm.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/oFOVL8Ex.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/COOpBtSS.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/COwaSwPR.js" rel="modulepreload">
+		
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_2ti8vr = {
+						base: ""
+					};
 
-<!-- ── Disclaimer ──────────────────────────────────── -->
-<div class="disclaimer-bar">
-  <div class="container">
-    <strong>Work in Progress</strong> — AI-generated research synthesis. Content may change. Verify claims against original sources.
-  </div>
-</div>
+					const element = document.currentScript.parentElement;
 
-<!-- ── Topic Nav ───────────────────────────────────── -->
-<nav class="topic-nav" id="topic-nav">
-  <div class="container topic-nav-inner">
-    <span class="topic-nav-label">Topics</span>
-    <div class="topic-nav-list" id="topic-nav-list"></div>
-  </div>
-</nav>
-
-<!-- ── Section Nav ─────────────────────────────────── -->
-<nav class="nav">
-  <div class="container nav-inner" id="section-nav">
-    <a class="nav-link" href="#findings">Findings</a>
-    <a class="nav-link" href="#claims">Claims</a>
-    <a class="nav-link" href="#sources">Sources</a>
-    <a class="nav-link" href="#baseline">Baseline</a>
-  </div>
-</nav>
-
-<!-- ── Hero ─────────────────────────────────────────── -->
-<header class="hero">
-  <div class="container">
-    <p class="section-label">Topic</p>
-    <h1 id="hero-title">Loading...</h1>
-    <p class="subtitle" id="hero-subtitle"></p>
-    <div class="meta" id="hero-meta"></div>
-
-    <div class="stats-strip" id="hero-stats"></div>
-
-    <div class="hero-baseline" id="hero-baseline" style="display:none"></div>
-  </div>
-</header>
-
-<!-- ── Executive Summary ───────────────────────────── -->
-<section id="exec-summary-section">
-  <div class="container">
-    <p class="section-label">Executive Summary</p>
-    <div class="exec-summary" id="exec-summary"></div>
-  </div>
-</section>
-
-<!-- ── Early Phase Banner (for topics not yet analyzed) -->
-<section id="early-phase-banner" style="display:none">
-  <div class="container">
-    <div class="early-phase-card">
-      <div class="early-phase-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="48" height="48"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-      </div>
-      <h2 id="early-phase-title">Research in Progress</h2>
-      <p id="early-phase-desc">This topic is currently in the data gathering phase. Sources are being collected and will be analyzed soon.</p>
-      <div class="early-phase-progress" id="early-phase-progress"></div>
-    </div>
-  </div>
-</section>
-
-<!-- ── Findings ──────────────────────────────────── -->
-<section id="findings" style="display:none">
-  <div class="container">
-    <p class="section-label">Findings</p>
-    <h2 id="findings-heading">Key findings</h2>
-    <div id="findings-list"></div>
-  </div>
-</section>
-
-<!-- ── Conclusions ────────────────────────────────── -->
-<section id="conclusions" style="display:none">
-  <div class="container">
-    <p class="section-label">Conclusions</p>
-    <h2 id="conclusions-heading">Recommendations &amp; thought leadership ideas</h2>
-
-    <div class="conclusions-tabs" id="conclusions-tabs">
-      <button class="conclusions-tab active" data-tab="recommendations">Recommendations</button>
-      <button class="conclusions-tab" data-tab="angles">Thought Leadership Ideas</button>
-    </div>
-
-    <div class="conclusions-panel" id="conclusions-recommendations"></div>
-    <div class="conclusions-panel" id="conclusions-angles" style="display:none"></div>
-  </div>
-</section>
-
-<!-- ── Use Cases ──────────────────────────────────── -->
-<section id="use-cases" style="display:none">
-  <div class="container">
-    <p class="section-label">Use Cases</p>
-    <h2>AI use case inventory</h2>
-    <p class="uc-intro" id="uc-intro"></p>
-    <div class="uc-maturity-bar" id="uc-maturity-bar"></div>
-    <div class="uc-filters" id="uc-filters"></div>
-    <div class="uc-grid" id="uc-grid"></div>
-  </div>
-</section>
-
-<!-- ── Claims ─────────────────────────────────────── -->
-<section id="claims" style="display:none">
-  <div class="container">
-    <p class="section-label">Claims</p>
-    <h2 id="claims-heading">Claims from cross-source analysis</h2>
-
-    <div id="claims-baseline" style="display:none"></div>
-    <div class="analysis-count" id="analysis-count">Loading...</div>
-    <div class="analysis-list" id="analysis-list"></div>
-    <div class="pagination" id="analysis-pagination"></div>
-  </div>
-</section>
-
-<!-- ── Sources ─────────────────────────────────────── -->
-<section id="sources">
-  <div class="container">
-    <p class="section-label">Sources</p>
-    <h2 id="sources-heading">Sources</h2>
-
-    <div class="baseline-legend" id="sources-legend" style="display:none">
-      <div class="baseline-legend-item"><span class="baseline-legend-dot new"></span> New</div>
-      <div class="baseline-legend-item"><span class="baseline-legend-dot additional"></span> Additional</div>
-      <div class="baseline-legend-item"><span class="baseline-legend-dot common"></span> Common</div>
-    </div>
-    <div class="sources-table-wrap">
-      <table class="sources-table">
-        <thead>
-          <tr>
-            <th onclick="sortSources('id')"># <span class="sort-icon">&UpDownArrow;</span></th>
-            <th onclick="sortSources('title')">Title <span class="sort-icon">&UpDownArrow;</span></th>
-            <th onclick="sortSources('author')">Author <span class="sort-icon">&UpDownArrow;</span></th>
-            <th onclick="sortSources('type')">Type <span class="sort-icon">&UpDownArrow;</span></th>
-            <th onclick="sortSources('date')">Date <span class="sort-icon">&UpDownArrow;</span></th>
-            <th onclick="sortSources('claims')">Claims <span class="sort-icon">&UpDownArrow;</span></th>
-            <th onclick="sortSources('relevance')">Relevance <span class="sort-icon">&UpDownArrow;</span></th>
-          </tr>
-        </thead>
-        <tbody id="sources-tbody">
-          <tr><td colspan="7" style="text-align:center;color:var(--text-muted);padding:2rem">Loading sources...</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
-<!-- ── Baseline ─────────────────────────────────────── -->
-<section id="baseline" style="display:none">
-  <div class="container">
-    <p class="section-label">Baseline</p>
-    <h2>Common-knowledge baseline</h2>
-    <p class="baseline-intro" id="baseline-intro"></p>
-    <div id="baseline-content"></div>
-  </div>
-</section>
-
-<!-- ── Methodology ──────────────────────────────────── -->
-<section id="methodology" style="display:none">
-  <div class="container">
-    <p class="section-label">Methodology</p>
-    <h2>How this synthesis was produced</h2>
-    <div class="exec-summary" id="methodology-content"></div>
-  </div>
-</section>
-
-<!-- ── Footer ──────────────────────────────────────── -->
-<footer class="footer">
-  <div class="container" id="footer-content">
-    Research Agent
-  </div>
-</footer>
-
-<script src="js/app.js"></script>
-</body>
+					Promise.all([
+						import("/_app/immutable/entry/start.BBRt8qIr.js"),
+						import("/_app/immutable/entry/app.CR4MMmvm.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
 </html>

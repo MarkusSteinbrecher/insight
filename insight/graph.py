@@ -68,7 +68,7 @@ class InsightGraph:
             CREATE NODE TABLE IF NOT EXISTS VisualExtraction (
                 extraction_id STRING,
                 visual_type STRING,
-                visual_description STRING,
+                description STRING,
                 extracted_data STRING DEFAULT '[]',
                 extraction_method STRING DEFAULT 'claude-vision',
                 metadata STRING DEFAULT '{}',
@@ -88,6 +88,29 @@ class InsightGraph:
         self.conn.execute("""
             CREATE REL TABLE IF NOT EXISTS EXTRACTED_FROM (
                 FROM VisualExtraction TO ContentBlock
+            )
+        """)
+
+        # --- Extract node (atomic unit from a source) ---
+
+        self.conn.execute("""
+            CREATE NODE TABLE IF NOT EXISTS Extract (
+                extract_id STRING,
+                text STRING,
+                format STRING DEFAULT 'prose',
+                extract_type STRING DEFAULT 'context',
+                position INT64,
+                section_path STRING DEFAULT '',
+                image_path STRING DEFAULT '',
+                metadata STRING DEFAULT '{}',
+                PRIMARY KEY (extract_id)
+            )
+        """)
+
+        self.conn.execute("""
+            CREATE REL TABLE IF NOT EXISTS HAS_EXTRACT (
+                FROM Source TO Extract,
+                position INT64
             )
         """)
 
@@ -137,9 +160,36 @@ class InsightGraph:
         """)
 
         self.conn.execute("""
+            CREATE REL TABLE IF NOT EXISTS EXTRACT_SUPPORTS (
+                FROM Extract TO Claim,
+                representative BOOLEAN DEFAULT FALSE
+            )
+        """)
+
+        self.conn.execute("""
             CREATE REL TABLE IF NOT EXISTS CONTRADICTS (
                 FROM Claim TO Claim,
                 claim_description STRING DEFAULT ''
+            )
+        """)
+
+        # --- Finding node (thematic grouping of claims) ---
+
+        self.conn.execute("""
+            CREATE NODE TABLE IF NOT EXISTS Finding (
+                finding_id STRING,
+                topic STRING,
+                title STRING,
+                description STRING DEFAULT '',
+                category STRING DEFAULT '',
+                metadata STRING DEFAULT '{}',
+                PRIMARY KEY (finding_id)
+            )
+        """)
+
+        self.conn.execute("""
+            CREATE REL TABLE IF NOT EXISTS CLAIM_IN_FINDING (
+                FROM Claim TO Finding
             )
         """)
 
@@ -285,6 +335,105 @@ class InsightGraph:
             blocks.append({col.replace("b.", ""): val for col, val in zip(columns, row)})
         return blocks
 
+    # --- Extract operations ---
+
+    def add_extract(self, extract_id: str, source_id: str, text: str,
+                    position: int, format: str = "prose",
+                    extract_type: str = "context",
+                    section_path: str = "", image_path: str = "",
+                    metadata: dict = None) -> str:
+        """Add an extract and link it to its source. Returns extract_id."""
+        meta_json = json.dumps(metadata or {})
+        self.conn.execute(
+            """
+            CREATE (e:Extract {
+                extract_id: $eid, text: $text, format: $fmt,
+                extract_type: $etype, position: $pos,
+                section_path: $spath, image_path: $ipath, metadata: $meta
+            })
+            """,
+            parameters={
+                "eid": extract_id, "text": text, "fmt": format,
+                "etype": extract_type, "pos": position,
+                "spath": section_path, "ipath": image_path, "meta": meta_json,
+            }
+        )
+        self.conn.execute(
+            """
+            MATCH (s:Source), (e:Extract)
+            WHERE s.source_id = $sid AND e.extract_id = $eid
+            CREATE (s)-[:HAS_EXTRACT {position: $pos}]->(e)
+            """,
+            parameters={"sid": source_id, "eid": extract_id, "pos": position}
+        )
+        return extract_id
+
+    def get_extracts(self, source_id: str) -> list[dict]:
+        """Get all extracts for a source, ordered by position."""
+        result = self.conn.execute(
+            """
+            MATCH (s:Source)-[:HAS_EXTRACT]->(e:Extract)
+            WHERE s.source_id = $sid
+            RETURN e.*
+            ORDER BY e.position
+            """,
+            parameters={"sid": source_id}
+        )
+        return self._collect_rows(result, "e.")
+
+    def get_extracts_by_type(self, source_id: str, extract_type: str) -> list[dict]:
+        """Get extracts of a specific type for a source."""
+        result = self.conn.execute(
+            """
+            MATCH (s:Source)-[:HAS_EXTRACT]->(e:Extract)
+            WHERE s.source_id = $sid AND e.extract_type = $etype
+            RETURN e.*
+            ORDER BY e.position
+            """,
+            parameters={"sid": source_id, "etype": extract_type}
+        )
+        return self._collect_rows(result, "e.")
+
+    def link_extract_to_claim(self, extract_id: str, claim_id: str,
+                              representative: bool = False) -> None:
+        """Create an EXTRACT_SUPPORTS edge from an extract to a claim."""
+        self.conn.execute(
+            """
+            MATCH (e:Extract), (c:Claim)
+            WHERE e.extract_id = $eid AND c.claim_id = $cid
+            CREATE (e)-[:EXTRACT_SUPPORTS {representative: $rep}]->(c)
+            """,
+            parameters={"eid": extract_id, "cid": claim_id, "rep": representative}
+        )
+
+    def get_supporting_extracts(self, claim_id: str) -> list[dict]:
+        """Get all extracts that support a claim."""
+        result = self.conn.execute(
+            """
+            MATCH (e:Extract)-[:EXTRACT_SUPPORTS]->(c:Claim)
+            WHERE c.claim_id = $cid
+            RETURN e.*
+            ORDER BY e.extract_id
+            """,
+            parameters={"cid": claim_id}
+        )
+        return self._collect_rows(result, "e.")
+
+    def count_extracts(self, source_id: str = None) -> int:
+        """Count extracts, optionally filtered by source."""
+        if source_id:
+            result = self.conn.execute(
+                """
+                MATCH (s:Source)-[:HAS_EXTRACT]->(e:Extract)
+                WHERE s.source_id = $sid
+                RETURN count(e)
+                """,
+                parameters={"sid": source_id}
+            )
+        else:
+            result = self.conn.execute("MATCH (e:Extract) RETURN count(e)")
+        return result.get_next()[0]
+
     # --- Visual Extraction operations ---
 
     def add_visual_extraction(self, extraction_id: str, block_id: str,
@@ -299,7 +448,7 @@ class InsightGraph:
             """
             CREATE (v:VisualExtraction {
                 extraction_id: $eid, visual_type: $vtype,
-                visual_description: $vdesc, extracted_data: $data,
+                description: $vdesc, extracted_data: $data,
                 extraction_method: $method, metadata: $meta
             })
             """,
@@ -318,6 +467,58 @@ class InsightGraph:
             parameters={"eid": extraction_id, "bid": block_id}
         )
         return extraction_id
+
+    def get_visual_extractions(self, topic: str) -> list[dict]:
+        """Get all visual extractions for a topic with source and block info."""
+        result = self.conn.execute(
+            """
+            MATCH (v:VisualExtraction)-[:EXTRACTED_FROM]->(b:ContentBlock)<-[:CONTAINS]-(s:Source)
+            WHERE s.topic = $topic
+            RETURN v.extraction_id, v.visual_type, v.description,
+                   v.extracted_data, v.extraction_method, v.metadata,
+                   b.block_id, b.section_path, b.image_path,
+                   s.source_id, s.title, s.author, s.source_type, s.url
+            ORDER BY s.source_id, b.position
+            """,
+            parameters={"topic": topic}
+        )
+        visuals = []
+        while result.has_next():
+            row = result.get_next()
+            visuals.append({
+                "extraction_id": row[0],
+                "visual_type": row[1],
+                "visual_description": row[2],
+                "extracted_data": row[3],
+                "extraction_method": row[4],
+                "metadata": row[5],
+                "block_id": row[6],
+                "section_path": row[7],
+                "image_path": row[8],
+                "source_id": row[9],
+                "source_title": row[10],
+                "source_author": row[11],
+                "source_type": row[12],
+                "source_url": row[13],
+            })
+        return visuals
+
+    def count_visual_extractions(self, topic: str = None) -> int:
+        """Count visual extractions, optionally filtered by topic."""
+        if topic:
+            result = self.conn.execute(
+                """
+                MATCH (v:VisualExtraction)-[:EXTRACTED_FROM]->(b:ContentBlock)<-[:CONTAINS]-(s:Source)
+                WHERE s.topic = $topic
+                RETURN count(v)
+                """,
+                parameters={"topic": topic}
+            )
+        else:
+            result = self.conn.execute(
+                "MATCH (v:VisualExtraction) RETURN count(v)"
+            )
+        return result.get_next()[0]
 
     # --- Segment operations ---
 
@@ -509,17 +710,16 @@ class InsightGraph:
     # --- Traceability queries ---
 
     def get_evidence_chain(self, claim_id: str) -> list[dict]:
-        """Get the full evidence chain for a claim: claim → segments → blocks → sources."""
+        """Get the full evidence chain for a claim: claim → extracts → sources."""
         result = self.conn.execute(
             """
-            MATCH (sg:Segment)-[:SUPPORTS]->(c:Claim),
-                  (sg)-[:SEGMENTED_FROM]->(b:ContentBlock),
-                  (s:Source)-[:CONTAINS]->(b)
+            MATCH (e:Extract)-[:EXTRACT_SUPPORTS]->(c:Claim),
+                  (s:Source)-[:HAS_EXTRACT]->(e)
             WHERE c.claim_id = $cid
-            RETURN c.claim_id, c.summary, sg.segment_id, sg.text, sg.segment_type,
-                   b.block_id, b.section_path, b.location_value,
+            RETURN c.claim_id, c.summary,
+                   e.extract_id, e.text, e.extract_type, e.section_path,
                    s.source_id, s.title, s.author, s.url
-            ORDER BY s.source_id, sg.position
+            ORDER BY s.source_id, e.position
             """,
             parameters={"cid": claim_id}
         )
@@ -531,12 +731,10 @@ class InsightGraph:
         return chain
 
     def get_claims_for_source(self, source_id: str) -> list[dict]:
-        """Get all claims supported by segments from a source."""
-        # Two-step: get claim IDs via traversal, then fetch full claims
+        """Get all claims supported by extracts from a source."""
         result = self.conn.execute(
             """
-            MATCH (s:Source)-[:CONTAINS]->(b:ContentBlock)<-[:SEGMENTED_FROM]-(sg:Segment),
-                  (sg)-[:SUPPORTS]->(c:Claim)
+            MATCH (s:Source)-[:HAS_EXTRACT]->(e:Extract)-[:EXTRACT_SUPPORTS]->(c:Claim)
             WHERE s.source_id = $sid
             RETURN DISTINCT c.claim_id
             ORDER BY c.claim_id
@@ -547,6 +745,98 @@ class InsightGraph:
         while result.has_next():
             claim_ids.append(result.get_next()[0])
         return [self.get_claim(cid) for cid in claim_ids]
+
+    # --- Finding operations ---
+
+    def add_finding(self, finding_id: str, topic: str, title: str,
+                    description: str = "", category: str = "",
+                    metadata: dict = None) -> str:
+        """Add a finding node. Returns finding_id."""
+        meta_json = json.dumps(metadata or {})
+        self.conn.execute(
+            """
+            CREATE (f:Finding {
+                finding_id: $fid, topic: $topic, title: $title,
+                description: $fdesc, category: $cat, metadata: $meta
+            })
+            """,
+            parameters={
+                "fid": finding_id, "topic": topic, "title": title,
+                "fdesc": description, "cat": category, "meta": meta_json,
+            }
+        )
+        return finding_id
+
+    def link_claim_to_finding(self, claim_id: str, finding_id: str):
+        """Create CLAIM_IN_FINDING edge from Claim to Finding."""
+        self.conn.execute(
+            """
+            MATCH (c:Claim), (f:Finding)
+            WHERE c.claim_id = $cid AND f.finding_id = $fid
+            CREATE (c)-[:CLAIM_IN_FINDING]->(f)
+            """,
+            parameters={"cid": claim_id, "fid": finding_id}
+        )
+
+    def get_finding(self, finding_id: str) -> dict | None:
+        """Get a single finding by ID."""
+        result = self.conn.execute(
+            "MATCH (f:Finding) WHERE f.finding_id = $fid RETURN f.*",
+            parameters={"fid": finding_id}
+        )
+        if not result.has_next():
+            return None
+        row = result.get_next()
+        columns = result.get_column_names()
+        return dict(zip(columns, row))
+
+    def get_findings_by_topic(self, topic: str) -> list[dict]:
+        """Get all findings for a topic."""
+        result = self.conn.execute(
+            """
+            MATCH (f:Finding)
+            WHERE f.topic = $topic
+            RETURN f.finding_id, f.title, f.description, f.category, f.metadata
+            ORDER BY f.finding_id
+            """,
+            parameters={"topic": topic}
+        )
+        findings = []
+        while result.has_next():
+            row = result.get_next()
+            findings.append({
+                "finding_id": row[0], "title": row[1],
+                "description": row[2], "category": row[3],
+                "metadata": row[4],
+            })
+        return findings
+
+    def get_claims_for_finding(self, finding_id: str) -> list[dict]:
+        """Get all claims linked to a finding."""
+        result = self.conn.execute(
+            """
+            MATCH (c:Claim)-[:CLAIM_IN_FINDING]->(f:Finding)
+            WHERE f.finding_id = $fid
+            RETURN DISTINCT c.claim_id
+            ORDER BY c.claim_id
+            """,
+            parameters={"fid": finding_id}
+        )
+        claim_ids = []
+        while result.has_next():
+            claim_ids.append(result.get_next()[0])
+        return [self.get_claim(cid) for cid in claim_ids]
+
+    def count_findings(self, topic: str = None) -> int:
+        """Count findings, optionally filtered by topic."""
+        if topic:
+            result = self.conn.execute(
+                "MATCH (f:Finding) WHERE f.topic = $topic RETURN count(f)",
+                parameters={"topic": topic}
+            )
+        else:
+            result = self.conn.execute("MATCH (f:Finding) RETURN count(f)")
+        return result.get_next()[0]
 
     # --- Stats ---
 

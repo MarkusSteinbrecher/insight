@@ -16,6 +16,8 @@ from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 
+from insight.collector.blocks import clean_blocks
+
 
 # Tags to strip before extracting content
 STRIP_TAGS = [
@@ -284,8 +286,9 @@ def extract_web_source(url: str, topic: str, source_id: str, graph) -> dict:
     # Extract metadata
     metadata = extract_metadata(soup, url)
 
-    # Extract content blocks
+    # Extract content blocks and clean up sentence boundaries
     blocks = extract_content_blocks(soup)
+    blocks = clean_blocks(blocks)
 
     if not blocks:
         raise ValueError(f"No content blocks extracted from {url}")

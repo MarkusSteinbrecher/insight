@@ -29,7 +29,6 @@ next_action: "What should happen next"
 ## What happened
 ### 1. [Task Name]
 Description of what was done, key decisions, outputs produced.
-Include tables for structured data (insights, claims, use cases, etc.).
 
 ### 2. [Next Task]
 ...
@@ -55,8 +54,5 @@ Table of relevant metrics (sources, claims, findings, etc.)
    - Be specific: include counts, file names, claim IDs where relevant
    - Capture decisions and rationale, not just actions
    - Note any errors encountered and how they were resolved
-   - Include key stats in a table for quick reference
-   - List pending work so the next session can resume efficiently
-   - Do NOT include git operations in the log unless they were significant (e.g., resolving conflicts)
 
 5. **Inform the user** of the log file path when complete.

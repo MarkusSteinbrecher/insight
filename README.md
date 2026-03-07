@@ -1,6 +1,6 @@
 # Insight
 
-A knowledge graph-powered research analysis system for consultants creating thought leadership content.
+A knowledge graph-powered research analysis system that collects and analyzes content from a variety of sources.
 
 **Status:** v2 redesign in progress — [product vision](design/product-vision.md) | [architecture](design/v2-architecture.md)
 
@@ -8,11 +8,67 @@ A knowledge graph-powered research analysis system for consultants creating thou
 
 Insight helps consultants go from "I want to research topic X" to "I have a defensible, sourced position with a publishable draft" in days instead of weeks.
 
-1. **Collect** — Gather sources from the web, PDFs, YouTube, and documents. Track what you have, from which firms, what's been processed.
-2. **Extract** — Break each source into structured claims, statistics, and evidence — without reading every page. Everything traceable to its exact location.
-3. **Analyze** — Align claims across sources. See where they agree, disagree, and what nobody is talking about yet.
-4. **Present** — Explore the knowledge graph interactively. Drill from a finding down to the source paragraph that supports it.
-5. **Create** — Produce drafts backed by evidence chains. Every claim linked to its sources.
+## Research Process
+
+### Phase 0 — Collect
+
+Gather sources from the web, PDFs, YouTube, and documents. Each source is stored in the knowledge graph with full metadata.
+
+```
+/research <topic>    # Discover and collect web sources
+/ingest <topic>      # Ingest uploaded documents (PDFs, reports)
+```
+
+### Phase 1 — Extract & Align
+
+Break each source into **extracts** — the smallest meaningful unit of information (a sentence, a short paragraph, or a heading). Each extract is classified by type:
+
+| Type | What it means |
+|------|--------------|
+| **assertion** | A statement making a claim or position |
+| **statistic** | A quantitative data point |
+| **evidence** | Data-backed support for a position |
+| **recommendation** | An actionable suggestion |
+| **definition** | A term or concept being defined |
+| **example** | A case study or illustration |
+| **methodology** | How research was conducted |
+| **context** | Background information |
+
+Then align assertions across sources to identify **claims** — positions that multiple sources independently support:
+
+- **Canonical claims**: 2+ sources agree on the same point
+- **Unique claims**: Only one source makes this point, but it's significant
+- **Contradictions**: Sources disagree
+
+```
+/analyze <topic>     # Extract, classify, and align claims
+```
+
+### Phase 2 — Findings
+
+Group related claims into **findings** — higher-level patterns and themes that emerge from the evidence. Each finding is backed by specific claims, which trace back to specific extracts in specific sources.
+
+```
+/synthesize <topic>  # Generate findings from claims
+```
+
+### Phase 3 — Conclusions
+
+Generate recommendations and thought leadership angles based on findings.
+
+```
+/conclude <topic>    # Recommendations and angles
+```
+
+### The Traceability Chain
+
+Every insight traces back to a specific location in a specific source:
+
+```
+Source → Extract → Claim → Finding → Recommendation
+(web/pdf/   (atomic unit,    (cross-source    (thematic      (actionable
+ youtube)    classified)      alignment)       pattern)        output)
+```
 
 ## How It Works
 
@@ -23,19 +79,9 @@ Collector → Knowledge Graph (KuzuDB) → Presenter (static site)
 ```
 
 - **Collector** — discovers and extracts sources from web, YouTube, PDF, documents
-- **Knowledge Graph** — KuzuDB-backed store of sources, claims, findings, and relationships
-- **Analyzer** — segments sources, aligns claims, identifies gaps and contradictions (Claude API)
-- **Presenter** — interactive graph explorer and source dashboard
-
-### The Traceability Chain
-
-Every insight traces back to a specific location in a specific source:
-
-```
-Source → Content Block → Segment → Claim → Finding → Recommendation
-         (page/timestamp/   (typed unit    (cross-source   (synthesized   (actionable
-          heading)           of meaning)    alignment)       pattern)       output)
-```
+- **Knowledge Graph** — KuzuDB-backed store of sources, extracts, claims, and relationships
+- **Analyzer** — classifies extracts, aligns claims, identifies gaps and contradictions
+- **Presenter** — interactive graph explorer, deep dive inspector, and source dashboard
 
 ## Quick Start
 
@@ -56,10 +102,10 @@ playwright install chromium
 ```
 /research <topic>    # Discover and collect sources from the web
 /ingest <topic>      # Ingest uploaded documents (PDFs, reports)
-/analyze <topic>     # Segment sources, align claims, critical analysis
-/discuss <topic>     # Interactive discussion of findings
-/synthesize <topic>  # Create synthesis document
+/analyze <topic>     # Extract, classify, align claims, critical analysis
+/synthesize <topic>  # Generate findings from claims
 /conclude <topic>    # Generate recommendations and thought leadership angles
+/baseline <topic>    # Evaluate claim novelty against common knowledge
 /kb <query>          # Search the knowledge base
 /status              # Project and pipeline status
 ```
@@ -85,10 +131,11 @@ python -m insight.collector discover --urls "https://..." --topic my-topic
 ```
 insight/                   # Python package (v2)
 ├── graph.py               # Knowledge graph interface (KuzuDB)
-└── collector/             # Source discovery + extraction
-    ├── web.py             # Web page extractor
-    ├── youtube.py         # YouTube transcript extractor
-    └── cli.py             # CLI entry point
+├── collector/             # Source discovery + extraction
+│   ├── web.py             # Web page extractor
+│   ├── youtube.py         # YouTube transcript extractor
+│   └── cli.py             # CLI entry point
+└── exporter/              # Graph → JSON for static site
 
 design/                    # Product and engineering docs
 ├── product-vision.md      # Product vision, goals, release plan
@@ -99,17 +146,10 @@ design/                    # Product and engineering docs
 
 tests/                     # Unit and integration tests
 knowledge-base/            # Research data (topics, sources, analysis)
-docs/                      # Static site for GitHub Pages
+site/                      # SvelteKit source for static site
+docs/                      # Built static site for GitHub Pages
 scripts/                   # Build and utility scripts
 ```
-
-## Release Plan
-
-| Release | What it delivers |
-|---------|-----------------|
-| **MVP** | Collect from web + YouTube, segment and align claims, basic source/claim viewer. End-to-end research on one topic. |
-| **MLP** | + PDF ingestion, gap analysis, interactive graph explorer, source coverage dashboard, content drafting. |
-| **Full** | + Cross-topic knowledge, content pipeline, collaboration, API. |
 
 ## Documentation
 

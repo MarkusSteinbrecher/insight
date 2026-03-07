@@ -1,56 +1,36 @@
 # /kb <query>
 
-Search across the knowledge base for topics, insights, sources, and connections.
+Search the knowledge graph for sources, claims, findings, and connections.
 
 ## Arguments
 
-$ARGUMENTS — The search query (e.g., "AI agents", "enterprise adoption", "transformer architecture")
+$ARGUMENTS — The search query (e.g., "governance", "AI agents", "enterprise adoption")
 
 ## Process
 
-1. **Search the knowledge base**:
-   Use Grep to search across all files in `knowledge-base/` for the query term(s).
+1. **Search the graph**:
+   ```python
+   from insight.graph import InsightGraph
+   g = InsightGraph()
+   ```
 
 2. **Organize results by type**:
 
-   **Topics**:
-   - Search `knowledge-base/topics/*/_ index.md` files
-   - Show: topic title, status, source count, insight count
+   **Sources**: Search source titles and authors
+   - Show: source ID, title, author, type, extract count
 
-   **Insights**:
-   - Search `knowledge-base/topics/*/insights/*.md` files
-   - Show: claim, confidence level, type, and file path
+   **Claims**: Search claim summaries
+   - Show: claim ID, summary, source count, theme
 
-   **Sources**:
-   - Search `knowledge-base/topics/*/sources/*.md` files
-   - Show: title, relevance score, and file path
+   **Findings**: Search finding titles and descriptions
+   - Show: finding ID, title, category, claim count
 
-3. **Present results**:
-   Format results in a clear, scannable way:
+3. **Present results** in a clear, scannable format
 
-   ```
-   ## Topics matching "{query}"
-   - **{topic-title}** [{status}] — {source_count} sources, {insight_count} insights
-     Path: knowledge-base/topics/{slug}/
-
-   ## Insights matching "{query}"
-   - [{confidence}] {claim}
-     Type: {type} | Sources: {source-list}
-     Path: knowledge-base/topics/{slug}/insights/{file}
-
-   ## Sources matching "{query}"
-   - {title} [relevance: {N}/5]
-     Path: knowledge-base/topics/{slug}/sources/{file}
-
-   ```
-
-4. **Suggest related topics**:
-   Based on the search results and topic tags in `_index.md` files, suggest related topics the user might want to explore.
+4. **Suggest related queries** based on themes found
 
 ## Example
 
 ```
 /kb enterprise AI adoption
 ```
-
-Searches all knowledge base files for "enterprise AI adoption" and returns organized results.

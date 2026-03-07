@@ -1,113 +1,155 @@
 # /baseline <topic>
 
-Establish a common-knowledge baseline for a topic, then evaluate each canonical claim against it. This surfaces which claims are already widely known versus genuinely novel.
+Establish the research scope for a topic: define the question, set search keywords, discover sources, and track what has been found. This is the starting point for any new research topic and the re-entry point for finding additional sources.
 
 ## Arguments
 
-$ARGUMENTS — The topic slug (e.g., "EA for AI")
+$ARGUMENTS — The topic slug (e.g., "ea-for-ai")
 
 ## Modes
 
-This command has three modes, selected based on the current state of baseline files:
+This command has two modes, selected automatically:
 
-1. **Create baseline** — If `baseline.md` does not exist, create it via web search
-2. **Evaluate claims** — If `baseline.md` exists but `baseline-evaluation.yaml` does not, evaluate claims
-3. **Review evaluations** — If `baseline-evaluation.yaml` exists, review and adjust
+1. **Create** — If `knowledge-base/baselines/{slug}.yaml` does not exist, create it
+2. **Discover** — If the baseline exists, run discovery using its keywords
+
+---
 
 ## Mode 1: Create Baseline
 
-1. Check if `knowledge-base/topics/{topic}/baseline.md` exists
-2. If not, ask the user for a search question using AskUserQuestion:
-   - "What question should we search to establish the common knowledge baseline?"
-   - Suggest a default based on the topic title (e.g., "How does Enterprise Architecture change because of AI?")
-3. Run the baseline search script:
-   ```bash
-   python3 scripts/baseline-search.py "{topic}" "{question}"
-   ```
-4. Read the generated `baseline.md` and present a summary:
-   - Number of search results found
-   - Key themes that appeared across results
-   - Note that the user can edit `baseline.md` manually to add or refine content
-5. Ask the user: "Ready to evaluate claims against this baseline, or do you want to review/edit baseline.md first?"
-
-## Mode 2: Evaluate Claims
-
-1. Read `knowledge-base/topics/{topic}/baseline.md`
-2. Read `knowledge-base/topics/{topic}/extractions/claim-alignment.yaml` (canonical claims)
-3. Read all `knowledge-base/topics/{topic}/extractions/critical-analysis-part*.yaml` (bottom_line for each claim)
-4. For each canonical claim, evaluate against the baseline using these categories:
-
-   - **common**: The claim's core point is well-represented in baseline search results. A practitioner Googling the topic would find this.
-   - **additional**: The claim relates to baseline topics but adds specific detail, a new angle, quantitative data, or practitioner-specific guidance not in the baseline.
-   - **new**: The claim addresses something not present in the baseline — a genuinely novel observation or connection.
-
-5. Process claims in batches of 20-30 to maintain evaluation quality. For each batch:
-   - Present the baseline content as context
-   - Evaluate each claim's statement and bottom_line against the baseline
-   - Assign a category and write a one-sentence rationale
-
-6. Write evaluations to `knowledge-base/topics/{topic}/extractions/baseline-evaluation.yaml`:
+1. Check if `knowledge-base/baselines/{slug}.yaml` exists
+2. If not, ask the user using AskUserQuestion:
+   - "What is the research question for this topic?"
+   - Suggest a default based on the topic slug
+3. Ask for search keywords using AskUserQuestion:
+   - "What keywords should we search for? (I'll suggest some based on the question)"
+   - Suggest 5-8 keywords derived from the research question
+   - Include both web and YouTube keyword suggestions
+4. Create the baseline YAML file:
 
    ```yaml
-   meta:
-     baseline_question: "How does Enterprise Architecture change because of AI?"
-     baseline_created: 2026-02-15
-     evaluated: 2026-02-15
-     total_claims: 136
-     common: 45
-     additional: 62
-     new: 29
-
-   evaluations:
-     - id: cc-001
-       category: common
-       rationale: "Multiple baseline sources discuss the need for new architecture designs for GenAI."
-     - id: cc-002
-       category: additional
-       rationale: "Baseline mentions reference architectures generally but not the multi-layer pattern."
+   topic: {slug}
+   title: {derived from slug or user input}
+   question: {user's research question}
+   keywords:
+     - "keyword one"
+     - "keyword two"
+   youtube_keywords:
+     - "youtube keyword one"
+   sources: []
+   runs: []
    ```
 
-7. After all batches are complete, present a summary:
+5. Save to `knowledge-base/baselines/{slug}.yaml` using:
+   ```python
+   from insight.collector.baseline import save_baseline, Baseline
    ```
-   Baseline evaluation complete:
-     Common:     45 (33%) — already widely known
-     Additional: 62 (46%) — adds detail or angle
-     New:        29 (21%) — genuinely novel
+6. Immediately proceed to Mode 2 (Discover) to run the first discovery round.
+
+---
+
+## Mode 2: Discover
+
+1. Load the baseline:
+   ```python
+   from insight.collector.baseline import load_baseline, save_baseline, record_run, add_sources, SourceRecord
    ```
 
-## Mode 3: Review Evaluations
+2. Show current state:
+   ```
+   Baseline: {title}
+   Question: {question}
+   Keywords: {count} web, {count} YouTube
+   Sources tracked: {count} ({collected} collected, {pending} pending)
+   Runs: {count} (last: {date})
+   ```
 
-1. Read `knowledge-base/topics/{topic}/extractions/baseline-evaluation.yaml`
-2. Read critical analysis files for bottom_line text
-3. Present claims grouped by category, starting with **new** (most interesting), then **additional**, then **common**
-4. For each group, show:
-   - Total count and percentage
-   - Each claim: ID, bottom_line, and evaluation rationale
-5. Ask the user using AskUserQuestion: "Would you like to reclassify any claims?"
-   - If yes, ask which claims and what their new category should be
-   - Update the YAML file with changes and recalculate the meta counts
-6. Present the final summary after any changes
+3. **Search using each keyword** — launch parallel research agents (up to 3) using the Agent tool:
 
-## Evaluation Guidelines
+   For each keyword in `keywords`:
+   - Use WebSearch to find relevant URLs
+   - Collect all candidate URLs
 
-When evaluating claims against the baseline:
+   For each keyword in `youtube_keywords`:
+   - Use WebSearch with `site:youtube.com {keyword}` to find YouTube content
+   - Collect candidate video URLs
 
-- **Be generous with "common"**: If someone searching this topic would encounter the core idea within the first page of results, it's common — even if the specific framing differs.
-- **"Additional" is the middle ground**: The topic area appears in the baseline, but the specific claim adds meaningful detail — concrete numbers, specific frameworks, practitioner-oriented guidance, or a non-obvious angle.
-- **"New" should be genuinely surprising**: A practitioner familiar with the baseline content would not have encountered this claim or connection. Reserve this for claims that represent original analysis, unexpected contradictions, or novel synthesis across sources.
-- **Evaluate the claim, not the wording**: Two differently-worded claims about the same core idea should get the same category.
+4. **Deduplicate candidates** — combine all found URLs, remove duplicates
+
+5. **Check against source registry** — for each candidate URL:
+   - Check against baseline's tracked sources (`baseline.source_urls`)
+   - Check against graph registry using:
+     ```python
+     from insight.collector.discovery import check_urls
+     ```
+   - Classify each URL as new or already tracked
+
+6. **Present results to the user**:
+   ```
+   Discovery results:
+     Searched: {N} keywords
+     Found: {M} candidate URLs
+     New: {K} not yet tracked
+     Already tracked: {J}
+
+   New sources found:
+     + https://example.com/article-title
+     + https://youtube.com/watch?v=...
+     ...
+
+   Already tracked:
+     - https://example.com/existing
+     ...
+   ```
+
+7. **Ask the user** using AskUserQuestion:
+   - "Which sources should we collect?" with options:
+     - "All new sources" — extract all
+     - "Let me pick" — present the list for selection
+     - "None for now" — just track them in baseline
+
+8. **Update the baseline**:
+   - Add new URLs as source records (with empty `source_id` until extracted)
+   - Record the run (date, keywords used, found/new/existing counts)
+   - Save the baseline file
+
+9. **Extract selected sources** (if user chose to collect):
+   - Run extraction for each selected URL:
+     ```bash
+     python3 -m insight.collector extract --urls {urls} --topic {slug}
+     ```
+   - The extract command will auto-update the baseline with source IDs and titles
+
+10. **Summary**:
+    ```
+    Discovery complete:
+      New sources tracked: {N}
+      Sources extracted: {M}
+      Total sources for topic: {T}
+
+    Next steps:
+      /baseline {slug}    — run another discovery round
+      /research {slug}    — targeted deep research
+      /analyze {slug}     — analyze collected sources
+    ```
+
+---
 
 ## Important Notes
 
-- The baseline is a snapshot of easily-accessible common knowledge, not a comprehensive literature review
-- The user can edit `baseline.md` manually before evaluation — they may want to add context from their own experience
-- Evaluation should be conservative: when in doubt between "additional" and "new", prefer "additional"
-- This step does not change the claims themselves — it adds metadata for downstream use
+- The baseline is the **scope definition** for a topic — what we're looking for and what we've found
+- Keywords are human-edited in the YAML file — the user can add/remove keywords between runs
+- Sources are tracked in the baseline AND in the graph — the baseline is the discovery ledger, the graph is the content store
+- Each discovery run is recorded with stats so the user can see discovery progress over time
+- The baseline does NOT contain analysis (themes, claims, evaluations) — that belongs to `/analyze`
+- If the user wants to add sources manually (not via search), they can use `python -m insight.collector extract --urls ... --topic {slug}` directly
 
 ## Example
 
 ```
-/baseline EA for AI
-```
+# New topic — creates baseline, runs first discovery
+/baseline platform-engineering
 
-If no baseline exists, prompts for a search question and creates one. If baseline exists but claims haven't been evaluated, runs the evaluation. If evaluations exist, enters review mode.
+# Existing topic — runs another discovery round with stored keywords
+/baseline ea-for-ai
+```

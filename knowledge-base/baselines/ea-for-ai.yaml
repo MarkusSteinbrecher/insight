@@ -1,0 +1,606 @@
+topic: ea-for-ai
+title: Enterprise Architecture for AI
+question: How does Enterprise Architecture change because of AI?
+keywords:
+- Enterprise Architecture for AI
+- AI enterprise architecture 2026
+- TOGAF AI integration
+- AI-ready enterprise architecture
+- agentic AI enterprise architecture
+- enterprise architecture transformation artificial intelligence
+- AI governance enterprise architecture
+- enterprise architecture AI adoption
+youtube_keywords:
+- enterprise architecture AI
+- AI enterprise transformation talk
+- TOGAF AI
+- enterprise architecture future AI
+sources:
+- url: ''
+  title: 'Agentic AI-driven enterprise architecture: a foundational framework for
+    scalable, secure, and resilient systems'
+  source_type: pdf
+  source_id: ea-for-ai:source-001
+- url: ''
+  title: 'Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling'
+  source_type: pdf
+  source_id: ea-for-ai:source-002
+- url: ''
+  title: 'Unlocking Enterprise AI: Opportunities and Strategies'
+  source_type: pdf
+  source_id: ea-for-ai:source-003
+- url: https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/
+  title: 'From AI Pilots to Production Reality: Architecture Lessons from 2025 and
+    What 2026 Demands'
+  source_type: web
+  source_id: ea-for-ai:source-004
+- url: https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture
+  title: '| The Agentic Enterprise - The IT Architecture for the AI-Powered Future'
+  source_type: web
+  source_id: ea-for-ai:source-005
+- url: https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/
+  title: The Future of Enterprise Architecture in the Age of AI
+  source_type: web
+  source_id: ea-for-ai:source-006
+- url: https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/
+  title: Checking your browser...
+  source_type: web
+  source_id: ea-for-ai:source-007
+- url: https://www.cloudera.com/blog/business/2026-predictions-the-architecture-governance-and-ai-trends-every-enterprise-must-prepare-for.html
+  title: 2026 Data Architecture, Data Governance, and AI Trends & Predictions
+  source_type: web
+  source_id: ea-for-ai:source-008
+- url: https://www.boc-group.com/en/blog/ea/ea-outlook-trends-2025/
+  title: 'Enterprise Architecture Trends: What to Expect in 2026'
+  source_type: web
+  source_id: ea-for-ai:source-009
+- url: https://ieeexplore.ieee.org/document/10285801/
+  title: TOGAF
+  source_type: web
+  source_id: ea-for-ai:source-010
+- url: https://ieeexplore.ieee.org/document/10913304/
+  title: A Novel Enterprise Artificial Intelligence Architecture Framework (NAEF)
+    for Business Capabilities to Decisions/Insights Analysis
+  source_type: web
+  source_id: ea-for-ai:source-011
+- url: https://ieeexplore.ieee.org/document/11166932/
+  title: A Framework for Gen AI Adoption for Enterprises Leveraging Enterprise Architecture
+    Patterns
+  source_type: web
+  source_id: ea-for-ai:source-012
+- url: https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html
+  title: Enterprise AI Convergence Architecture
+  source_type: web
+  source_id: ea-for-ai:source-013
+- url: https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html
+  title: 'The great rebuild: Architecting an AI'
+  source_type: web
+  source_id: ea-for-ai:source-014
+- url: https://www.forrester.com/blogs/the-augmented-architect-real-time-enterprise-architecture-in-the-age-of-ai/
+  title: 'The Augmented Architect: Real'
+  source_type: web
+  source_id: ea-for-ai:source-015
+- url: https://www.accenture.com/us-en/blogs/cloud-computing/7-generative-ai-architecture-considerations
+  title: 7 architecture considerations for generative AI
+  source_type: web
+  source_id: ea-for-ai:source-016
+- url: https://www.forrester.com/blogs/the-future-of-the-enterprise-architects-job/
+  title: How Agentic AI Elevates The Enterprise Architect’s Role
+  source_type: web
+  source_id: ea-for-ai:source-017
+- url: https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/
+  title: Checking your browser...
+  source_type: web
+  source_id: ea-for-ai:source-018
+- url: https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian
+  title: Building Enterprise AI Maturity
+  source_type: web
+  source_id: ea-for-ai:source-019
+- url: https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html
+  title: 'The agentic reality check: Preparing for a silicon'
+  source_type: web
+  source_id: ea-for-ai:source-020
+- url: https://arxiv.org/abs/2602.11301
+  title: 'The PBSAI Governance Ecosystem: A Multi'
+  source_type: web
+  source_id: ea-for-ai:source-021
+- url: https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html
+  title: 'The enterprise IT overhaul: Architecting your stack for the agentic AI era'
+  source_type: web
+  source_id: ea-for-ai:source-022
+- url: https://arxiv.org/abs/2505.06326
+  title: 'Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable
+    Generative AI adoption: Bridging Innovation and Governance in Large Organisations'
+  source_type: web
+  source_id: ea-for-ai:source-023
+- url: https://medium.com/@pkmittal28/the-paradox-of-governance-when-togafs-architecture-development-method-meets-genai-s-velocity-b0fdcf968f4d
+  title: Just a moment...
+  source_type: web
+  source_id: ea-for-ai:source-024
+- url: https://www.opengroup.org/architecture-form/ai-initiatives
+  title: The Open Group AI Initiatives
+  source_type: web
+  source_id: ea-for-ai:source-025
+- url: https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core
+  title: How Enterprise Architecture Enables AI Sovereignty
+  source_type: web
+  source_id: ea-for-ai:source-026
+- url: https://www.deloitte.com/fr/fr/our-thinking/explore/climat-developpement-durable/navigating-nextgen-enterprise-architecture-with-genai.html
+  title: Navigating NextGen Enterprise Architecture with GenAI
+  source_type: web
+  source_id: ea-for-ai:source-027
+- url: https://sloanreview.mit.edu/article/why-you-yes-you-need-enterprise-architecture/
+  title: Why You — Yes, You — Need Enterprise Architecture
+  source_type: web
+  source_id: ea-for-ai:source-029
+- url: https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture
+  title: Top 3 Strategic Priorities for Heads of Enterprise Architecture Leadership
+    Vision for 2026
+  source_type: web
+  source_id: ea-for-ai:source-030
+- url: ''
+  title: 'Agentic AI — the new frontier in GenAI: An executive playbook'
+  source_type: pdf
+  source_id: ea-for-ai:source-031
+- url: https://www.bcgplatinion.com/insights/enterprise-ai-architect
+  title: '📖 Navigating AI Implementation: The Case for an Enterprise AI Architect
+    | Insights'
+  source_type: web
+  source_id: ea-for-ai:source-032
+- url: https://www.bcg.com/publications/2025/enterprise-as-code-operating-model-for-ai-era
+  title: 'Enterprise as Code: An Operating Model for the AI Era'
+  source_type: web
+  source_id: ea-for-ai:source-033
+- url: https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms
+  title: How Agentic AI Is Transforming Enterprise Platforms
+  source_type: web
+  source_id: ea-for-ai:source-034
+- url: https://www.bcg.com/publications/2025/machines-that-manage-themselves
+  title: 'Leading in the Age of AI Agents: Managing the Machines That Manage Themselves'
+  source_type: web
+  source_id: ea-for-ai:source-035
+- url: https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow
+  title: 📖 Technology Architecture of Tomorrow   | Insights
+  source_type: web
+  source_id: ea-for-ai:source-036
+- url: https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/
+  title: Just a moment...
+  source_type: web
+  source_id: ea-for-ai:source-037
+- url: https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/
+  title: Just a moment...
+  source_type: web
+  source_id: ea-for-ai:source-038
+- url: https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/
+  title: Just a moment...
+  source_type: web
+  source_id: ea-for-ai:source-039
+- url: https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/
+  title: Top Tech Trends of 2026
+  source_type: web
+  source_id: ea-for-ai:source-040
+- url: https://www.capgemini.com/insights/research-library/ai-perspectives-2026/
+  title: The multi
+  source_type: web
+  source_id: ea-for-ai:source-041
+- url: https://www.capgemini.com/us-en/insights/expert-perspectives/agentic-ai-and-the-enterprise-of-tomorrow/
+  title: Agentic AI and the enterprise of tomorrow
+  source_type: web
+  source_id: ea-for-ai:source-042
+- url: https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises
+  title: EY launches EY.ai Value Blueprints to accelerate businesses’ path toward
+    AI
+  source_type: web
+  source_id: ea-for-ai:source-043
+- url: https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai
+  title: 'Inside the process: how EY navigated its own AI'
+  source_type: web
+  source_id: ea-for-ai:source-044
+- url: https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026
+  title: Tech industry enters a hyper
+  source_type: web
+  source_id: ea-for-ai:source-045
+- url: https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html
+  title: Global tech report 2026
+  source_type: web
+  source_id: ea-for-ai:source-046
+- url: https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html
+  title: 'AI and Transformations: The enterprise power couple'
+  source_type: web
+  source_id: ea-for-ai:source-047
+- url: https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html
+  title: Is your infrastructure ready for your AI aspirations?
+  source_type: web
+  source_id: ea-for-ai:source-048
+- url: https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html
+  title: Building the AI
+  source_type: web
+  source_id: ea-for-ai:source-049
+- url: https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html
+  title: PwC’s 2025 EMEA Cloud Business Survey
+  source_type: web
+  source_id: ea-for-ai:source-050
+- url: https://www.pwc.ch/en/insights/digital/scaling-ai-agents.html
+  title: A Roadmap for Scaling AI Agents in the Modern Enterprise
+  source_type: web
+  source_id: ea-for-ai:source-052
+- url: https://www.pwc.ch/en/insights/digital/enterprise-architecture-framework.html
+  title: Enterprise architecture in Swiss SMEs
+  source_type: web
+  source_id: ea-for-ai:source-053
+- url: https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html
+  title: AI giants are rewriting the enterprise playbook
+  source_type: web
+  source_id: ea-for-ai:source-054
+- url: https://akka.io/blog/agentic-ai-architecture
+  title: 'Agentic AI architecture 101: An enterprise guide'
+  source_type: web
+  source_id: ea-for-ai:source-055
+- url: ''
+  title: 'Prompt Engineering for Enterprise Architects: The Conversational AI Playbook'
+  source_type: pdf
+  source_id: ea-for-ai:source-056
+- url: https://www.youtube.com/watch?v=ALr8bjRu3W4
+  title: This Is REAL Agentic AI (Enterprise Architecture Explained)
+  source_type: youtube
+  source_id: ea-for-ai:source-057
+- url: https://tyk.io/learning-center/ai-enterprise-architecture/
+  title: What is the role of gen AI in enterprise architecture? - Tyk
+  source_type: web
+  source_id: ''
+- url: https://www.computer.org/publications/tech-news/trends/ai-enterprise-arch
+  title: 'AI for Enterprise Architecture: Automating Manual Workflows at Scale'
+  source_type: web
+  source_id: ''
+- url: https://www.valueblue.com/blog/the-role-of-ai-in-enterprise-architecture-a-future-outlook
+  title: 'The Role of AI in Enterprise Architecture: A Future Outlook'
+  source_type: web
+  source_id: ''
+- url: https://www.infotech.com/research/generative-ai-meets-enterprise-architecture
+  title: Generative AI Meets Enterprise Architecture
+  source_type: web
+  source_id: ''
+- url: https://engineering.salesforce.com/how-salesforces-new-ea-agent-scales-ai-to-transform-enterprise-architecture/
+  title: How EA Agent Scales AI to Transform Enterprise Architecture
+  source_type: web
+  source_id: ''
+- url: https://execed.s3d.cmu.edu/courses/aea.html
+  title: Advanced AI Enabled Enterprise Architecture - CMU
+  source_type: web
+  source_id: ''
+- url: https://www.infosys.com/iki/techcompass/genai-enterprise-architecture-practice.html
+  title: Use Cases of GenAI in Enterprise Architecture Practice
+  source_type: web
+  source_id: ''
+- url: https://execed.s3d.cmu.edu/courses/eaf.html
+  title: AI Enabled Enterprise Architecture Fundamentals - CMU
+  source_type: web
+  source_id: ''
+- url: https://www.architectureandgovernance.com/artificial-intelligence/ai-powered-enterprise-architecture-a-strategic-imperative/
+  title: 'AI-Powered Enterprise Architecture: A Strategic Imperative'
+  source_type: web
+  source_id: ''
+- url: https://www.stackai.com/blog/the-role-of-ai-in-enterprise-architecture
+  title: 'AI in Enterprise Architecture: Strategy, Design & Impact (2026)'
+  source_type: web
+  source_id: ''
+- url: https://blog.premai.io/on-premise-ai-architecture-complete-enterprise-deployment-guide-for-2026/
+  title: 'On-Premise AI Architecture: Enterprise Deployment Guide 2026'
+  source_type: web
+  source_id: ''
+- url: https://www.leanware.co/insights/enterprise-ai-architecture
+  title: 'Enterprise AI Architecture: Key Components & Best Practices 2026'
+  source_type: web
+  source_id: ''
+- url: https://www.valueblue.com/blog/agentic-ai-and-enterprise-architecture-in-2026
+  title: Agentic AI and Enterprise Architecture in 2026
+  source_type: web
+  source_id: ''
+- url: https://medium.com/@aibeginner/the-shift-from-retrieval-to-synthesis-why-2026s-enterprise-architecture-looks-different-a6d1025230a5
+  title: 'The Shift From Retrieval to Synthesis: Why 2026s EA Looks Different'
+  source_type: web
+  source_id: ''
+- url: https://www.boc-group.com/en/blog/ea/generative-ai-in-enterprise-architecture/
+  title: Why an AI Technology Radar Is Essential in 2026
+  source_type: web
+  source_id: ''
+- url: https://www.tismo.ai/blog/the-enterprise-ai-stack-in-2026-models-agents-and-infrastructure
+  title: The Enterprise AI Stack in 2026
+  source_type: web
+  source_id: ''
+- url: https://www.trantorinc.com/blog/enterprise-ai-platforms
+  title: 'Enterprise AI Platforms in 2026: Architecture & Selection Guide'
+  source_type: web
+  source_id: ''
+- url: https://content.ardoq.com/ai-in-enterprise-architecture
+  title: How Can Enterprise Architects Use AI and Drive AI Adoption?
+  source_type: web
+  source_id: ''
+- url: https://medium.com/@amitvsolutions/togaf-in-the-age-of-ai-architecting-for-machine-learning-and-automation-f989fc37d3d4
+  title: TOGAF in the Age of AI
+  source_type: web
+  source_id: ''
+- url: https://awadrahman.medium.com/togaf-vs-ai-111641605124
+  title: TOGAF VS AI; how AI can fit within TOGAF
+  source_type: web
+  source_id: ''
+- url: https://www.researchgate.net/publication/370539921_TOGAF_Framework_For_an_AI-enabled_Software_House
+  title: TOGAF Framework For an AI-enabled Software House
+  source_type: web
+  source_id: ''
+- url: https://medium.com/enterprise-agentic-ai/architecting-an-agentic-ai-system-with-togaf-10-a-step-by-step-guide-2b5210867b4a
+  title: Architecting an Agentic AI System with TOGAF 10
+  source_type: web
+  source_id: ''
+- url: https://updates.visual-paradigm.com/releases/ai-powered-togaf-guide-through-release/
+  title: AI-Powered TOGAF ADM Software
+  source_type: web
+  source_id: ''
+- url: https://www.tability.io/templates/strategies/t/K7hBifhaVhps
+  title: AI strategy using TOGAF and cybersecurity controls
+  source_type: web
+  source_id: ''
+- url: https://flevy.com/topic/togaf/question/the-impact-ai-machine-learning-togaf
+  title: Impact of AI and ML on TOGAF
+  source_type: web
+  source_id: ''
+- url: https://www.atlantis-press.com/article/126005579.pdf
+  title: Artificial Intelligence in Enterprise Architecture
+  source_type: pdf
+  source_id: ''
+- url: https://transcend.io/blog/enterprise-architecture-tools-that-enable-ai
+  title: Enterprise architecture tools that enable AI
+  source_type: web
+  source_id: ''
+- url: https://www.valueblue.com/blog/8-ways-ai-is-transforming-enterprise-architecture
+  title: 8 Ways AI Is Transforming Enterprise Architecture
+  source_type: web
+  source_id: ''
+- url: https://www.strategy.com/software/blog/architecting-for-ai-at-enterprise-scale
+  title: Architecting for AI at enterprise scale
+  source_type: web
+  source_id: ''
+- url: https://www.cio.com/article/3978635/how-to-build-an-ai-ready-organization-the-enterprise-intelligence-architecture.html
+  title: How to build an AI-ready organization
+  source_type: web
+  source_id: ea-for-ai:source-061
+- url: https://kansoftware.com/ai-readiness-assessment-enterprise-architecture-guide/
+  title: 'AI Readiness Assessment: Enterprise Architecture Guide 2026'
+  source_type: web
+  source_id: ''
+- url: https://medium.com/@raktims2210/enterprise-ai-architecture-why-the-next-decade-belongs-to-organizations-that-design-for-1ba17c87bb96
+  title: 'Enterprise AI Architecture: Design for Intelligence'
+  source_type: web
+  source_id: ''
+- url: https://www.kore.ai/blog/agentic-architecture-blueprint-for-intelligent-enterprise
+  title: 'Agentic architecture: Blueprint for intelligent enterprise'
+  source_type: web
+  source_id: ''
+- url: https://www.ibm.com/think/topics/agentic-architecture
+  title: What Is Agentic Architecture? - IBM
+  source_type: web
+  source_id: ea-for-ai:source-058
+- url: https://www.infoq.com/articles/agentic-ai-architecture-framework/
+  title: Agentic AI Architecture Framework for Enterprises
+  source_type: web
+  source_id: ea-for-ai:source-059
+- url: https://architect.salesforce.com/docs/architect/fundamentals/guide/agentic-enterprise-it-architecture
+  title: The Agentic Enterprise IT Architecture
+  source_type: web
+  source_id: ''
+- url: https://www.kellton.com/kellton-tech-blog/enterprise-agentic-ai-architecture
+  title: Enterprise Agentic AI Architecture Guide 2026
+  source_type: web
+  source_id: ''
+- url: https://www.cio.com/article/4119297/how-to-get-your-enterprise-architecture-ready-for-agentic-ai.html
+  title: How to get your EA ready for agentic AI
+  source_type: web
+  source_id: ''
+- url: https://www.computerweekly.com/feature/The-agentic-AI-future-of-enterprise-architecture
+  title: The agentic AI future of enterprise architecture
+  source_type: web
+  source_id: ''
+- url: https://leena.ai/Agentic-AI-Architecture
+  title: Leena AI Agentic AI Architecture
+  source_type: web
+  source_id: ''
+- url: https://architect.salesforce.com/fundamentals/enterprise-agentic-architecture
+  title: Enterprise Agentic Architecture and Design Patterns
+  source_type: web
+  source_id: ''
+- url: https://www.leanix.net/en/blog/ai-powered-enterprise-architecture
+  title: 'AI-Powered Enterprise Architecture: Defining The Future'
+  source_type: web
+  source_id: ''
+- url: https://bizzdesign.com/blog/the-future-of-enterprise-architecture-and-ai-integration/
+  title: The future of EA and AI integration
+  source_type: web
+  source_id: ''
+- url: https://www.databricks.com/blog/ai-architecture-building-enterprise-ai-systems-governance
+  title: 'AI Architecture: Building Enterprise AI Systems with Governance'
+  source_type: web
+  source_id: ea-for-ai:source-062
+- url: https://www.ardoq.com/blog/ai-enterprise-architecture-modeling
+  title: 'Generative AI and EA: Modeling the Enterprise'
+  source_type: web
+  source_id: ''
+- url: https://www.leanix.net/en/blog/ai-our-perspective
+  title: 'AI Governance And Enterprise Architecture: Our Perspective'
+  source_type: web
+  source_id: ''
+- url: https://www.architectureandgovernance.com/uncategorized/artificial-intelligence-governance-alignment-with-enterprise-governance/
+  title: AI Governance & Alignment with Enterprise Governance
+  source_type: web
+  source_id: ''
+- url: https://www.processexcellencenetwork.com/ai/reports/how-enterprise-architecture-ea-optimizes-ai-governance
+  title: Enterprise architecture AI governance
+  source_type: web
+  source_id: ''
+- url: https://www.oreilly.com/radar/how-agentic-ai-empowers-architecture-governance/
+  title: How Agentic AI Empowers Architecture Governance
+  source_type: web
+  source_id: ea-for-ai:source-060
+- url: https://www.cio.com/article/4018758/rewriting-the-rules-of-enterprise-architecture-with-ai-agents.html
+  title: Rewriting the rules of EA with AI agents
+  source_type: web
+  source_id: ''
+- url: https://www.cio.com/article/3984410/data-agents-and-governance-why-enterprise-architecture-needs-a-new-playbook.html
+  title: Why EA needs a new playbook
+  source_type: web
+  source_id: ''
+- url: https://bizzdesign.com/guides/ai-enterprise-architecture-and-strategic-portfolio-management
+  title: AI in EA and Strategic Portfolio Management
+  source_type: web
+  source_id: ''
+- url: https://www.youtube.com/watch?v=-k5qfglqvoI
+  title: The 7 Essential Skills for Enterprise Architects in an AI World
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=23cUVGIZQlM
+  title: A Simple AI Architecture (Explained for Business Leaders)
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=5ikf_wOz5eQ
+  title: How AI is Transforming the Role of Enterprise Architects
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=7XI2RdZlrQs
+  title: 'AI in Enterprise Architecture: The Digital Transformation You Can''t Ignore'
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=86AeWCZ0xWM
+  title: The New Era of AI Enterprise Transformation
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=C8JQlMk4BeI
+  title: AI and REAL Enterprise Architecture
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=DyZ8U4HKS20
+  title: Introducing the TOGAF AI Assistant
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=GVMJZE-mcoI
+  title: AI and the future of enterprise architecture
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=JVNMYvtW8qc
+  title: How Leaders Navigate the Three Horizons of AI Transformation
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=O1nhrDxjdPY
+  title: AI Innovation with Strong Governance
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=OFjXSVz4qbo
+  title: AI ecosystems as a catalyst for enterprise transformation
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=Ssty0TmUfPU
+  title: 'AI Enterprise Architecture: Part 3 | AI Infrastructure Architecture'
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=TJRaHVdAnUg
+  title: AI Edge Webinar - Agentic AI Architecture for the Enterprise
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=TvGIvjwr5qw
+  title: AI Fueled Enterprise Transformation
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=ZPtFZJwPVPM
+  title: Enterprise Architecture in the GenAI era
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=fMt1YP0-Gow
+  title: 'Architecting the Future: How AI is redefining the EA Role'
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=hvjz12_AmBw
+  title: Building Cisco's AI-Driven Future | Enterprise Architecture & Strategy
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=iwq7EKYD3x8
+  title: 'The Agentic AI Revolution: Reimagining Enterprise Architecture'
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=jvb74BnYahY
+  title: 'Enterprise-Wide AI Transformation: Where Most Companies Fail'
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=kAfQQDDpxRQ
+  title: 'Enterprise AI Strategy: Aligning AI with Business Outcomes'
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=mLgyuhyeo8s
+  title: 25 Years of Enterprise Architecture | From Monoliths to AI-Native
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=ouKaUEBralo
+  title: Enterprise Architecture 4.0 The AI Driven Future
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=owLdtsHi6Uo
+  title: Enterprise Architect's Role Transformed by AI
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=p2U29bPC13A
+  title: Enterprise transformation & Generative AI
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=reDaWMZPjJo
+  title: AI Enterprise Architecture (AI for Business Transformation)
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=vPcu3Sui2ZY
+  title: Using AI in Enterprise Architect
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=wt20O8VkH44
+  title: Moving from AI pilots to enterprise transformation - Box and Deloitte
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=xa4Nvi9-lOA
+  title: 'Enterprise Architecture in the Age of AI: What Business Leaders Must Know'
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=z6ipV06v9NA
+  title: Build an Enterprise Architecture AI Agent with Postman & OpenAI
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=zjDTbWTLzXA
+  title: An AI Enterprise Transformation Part 2
+  source_type: youtube
+  source_id: ''
+- url: https://www.youtube.com/watch?v=eaAPvfnT8Ns
+  title: Leadership Principles for Enterprise Transformation
+  source_type: youtube
+  source_id: ''
+- url: https://stormap.ai/post/ai-agent-security-2026-playbook
+  title: 'AI Agent Security: 2026 Playbook'
+  source_type: web
+  source_id: ea-for-ai:source-063
+runs:
+- date: '2026-03-07'
+  keywords_used:
+  - initial import from graph
+  found: 55
+  new: 55
+  already_collected: 0
+- date: '2026-03-07'
+  keywords_used:
+  - Enterprise Architecture for AI
+  - AI enterprise architecture 2026
+  - TOGAF AI integration
+  - AI-ready enterprise architecture
+  - agentic AI enterprise architecture
+  - enterprise architecture transformation artificial intelligence
+  - AI governance enterprise architecture
+  - enterprise architecture AI adoption
+  - enterprise architecture AI
+  - AI enterprise transformation talk
+  - TOGAF AI
+  - enterprise architecture future AI
+  found: 90
+  new: 83
+  already_collected: 7

@@ -1,0 +1,451 @@
+{
+  "topic": "ea-for-ai",
+  "generated": "2026-03-07",
+  "total_visuals": 23,
+  "visual_types": [
+    "chart",
+    "diagram",
+    "framework",
+    "infographic",
+    "screenshot"
+  ],
+  "visuals": [
+    {
+      "id": "ea-for-ai:source-001:block-015:visual",
+      "visual_type": "diagram",
+      "description": "Multi-layered enterprise architecture for agentic AI showing personas, channels, composite intelligent agent layers, and data fabric with security and governance",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-001/p013_img00.png",
+        "page": 14
+      },
+      "block_id": "ea-for-ai:source-001:block-203",
+      "section_path": "page:14",
+      "image_path": "data/images/ea-for-ai/source-001/p013_img00.png",
+      "source_id": "ea-for-ai:source-001",
+      "source_title": "Agentic AI-driven enterprise architecture: a foundational framework for scalable, secure, and resilient systems",
+      "source_author": "Prince Kumar",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-001:block-016:visual",
+      "visual_type": "diagram",
+      "description": "Side-by-side comparison of Traditional Model (rule-based security, siloed data, manual threat analysis) vs Proposed Agentic AI Architecture Model with performance metrics",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-001/p014_img00.png",
+        "page": 15
+      },
+      "block_id": "ea-for-ai:source-001:block-204",
+      "section_path": "page:15",
+      "image_path": "data/images/ea-for-ai/source-001/p014_img00.png",
+      "source_id": "ea-for-ai:source-001",
+      "source_title": "Agentic AI-driven enterprise architecture: a foundational framework for scalable, secure, and resilient systems",
+      "source_author": "Prince Kumar",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-001:block-017:visual",
+      "visual_type": "chart",
+      "description": "Bar chart comparing Existing vs Proposed Model on threat detection accuracy (85.7% vs 96.3%) and response time (1200ms vs 200ms)",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-001/p014_img01.png",
+        "page": 15
+      },
+      "block_id": "ea-for-ai:source-001:block-205",
+      "section_path": "page:15",
+      "image_path": "data/images/ea-for-ai/source-001/p014_img01.png",
+      "source_id": "ea-for-ai:source-001",
+      "source_title": "Agentic AI-driven enterprise architecture: a foundational framework for scalable, secure, and resilient systems",
+      "source_author": "Prince Kumar",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-002:block-005:visual",
+      "visual_type": "diagram",
+      "description": "Design Science Research (DSR) method \u2014 iterative cycle of Problem Analysis, Objectives & Requirements Definition, Design & Development, and Demonstration",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-002/p000_img00.png",
+        "page": 3
+      },
+      "block_id": "ea-for-ai:source-002:block-050",
+      "section_path": "page:1",
+      "image_path": "data/images/ea-for-ai/source-002/p000_img00.png",
+      "source_id": "ea-for-ai:source-002",
+      "source_title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+      "source_author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-002:block-008:visual",
+      "visual_type": "diagram",
+      "description": "Agent-Based Model Architecture (ABMA) for automated business capability modelling with user interaction, context extraction, orchestration, processing, and knowledge layers",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-002/p000_img01.png",
+        "page": 4
+      },
+      "block_id": "ea-for-ai:source-002:block-051",
+      "section_path": "page:1",
+      "image_path": "data/images/ea-for-ai/source-002/p000_img01.png",
+      "source_id": "ea-for-ai:source-002",
+      "source_title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+      "source_author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-002:block-012:visual",
+      "visual_type": "screenshot",
+      "description": "AutoGen 0.2 multi-agent implementation showing sequential chat pattern with CapabilityGenerationAgent using gpt-4o for business capability modelling",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-002/p002_img00.png",
+        "page": 5
+      },
+      "block_id": "ea-for-ai:source-002:block-052",
+      "section_path": "page:3",
+      "image_path": "data/images/ea-for-ai/source-002/p002_img00.png",
+      "source_id": "ea-for-ai:source-002",
+      "source_title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+      "source_author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-002:block-015:visual",
+      "visual_type": "diagram",
+      "description": "Configuration 1: Prompt-based Business Capability Modelling \u2014 natural language query through LLM to generate aligned capabilities without knowledge graph",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-002/p003_img00.png",
+        "page": 6
+      },
+      "block_id": "ea-for-ai:source-002:block-053",
+      "section_path": "page:4",
+      "image_path": "data/images/ea-for-ai/source-002/p003_img00.png",
+      "source_id": "ea-for-ai:source-002",
+      "source_title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+      "source_author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-002:block-018:visual",
+      "visual_type": "diagram",
+      "description": "Configuration 2: EKG-based Business Capability Modelling \u2014 combining Enterprise Knowledge Graph ontology with LLM reasoning for validated capability generation",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-002/p003_img01.png",
+        "page": 7
+      },
+      "block_id": "ea-for-ai:source-002:block-054",
+      "section_path": "page:4",
+      "image_path": "data/images/ea-for-ai/source-002/p003_img01.png",
+      "source_id": "ea-for-ai:source-002",
+      "source_title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
+      "source_author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-003:block-010:visual",
+      "visual_type": "chart",
+      "description": "Stage of GenAI adoption by business function \u2014 IT leads at 62% in production, Marketing 40%, Sales 39%, while Legal trails at 11%",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-003/p000_fig00.png",
+        "page": 12
+      },
+      "block_id": "ea-for-ai:source-003:block-348",
+      "section_path": "page:1",
+      "image_path": "data/images/ea-for-ai/source-003/p000_fig00.png",
+      "source_id": "ea-for-ai:source-003",
+      "source_title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "source_author": "Economist Impact (commissioned by Databricks)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-003:block-012:visual",
+      "visual_type": "chart",
+      "description": "Stage of GenAI implementation by industry \u2014 Financial services leads deployment, Telecom and Retail follow, Government and Media lag",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-003/p000_img00.png",
+        "page": 13
+      },
+      "block_id": "ea-for-ai:source-003:block-349",
+      "section_path": "page:1",
+      "image_path": "data/images/ea-for-ai/source-003/p000_img00.png",
+      "source_id": "ea-for-ai:source-003",
+      "source_title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "source_author": "Economist Impact (commissioned by Databricks)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-003:block-013:visual",
+      "visual_type": "chart",
+      "description": "Stage of GenAI implementation by country/region \u2014 India leads scaling, Japan most cautious at 6% scaling up",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-003/p005_fig00.png",
+        "page": 14
+      },
+      "block_id": "ea-for-ai:source-003:block-350",
+      "section_path": "page:6",
+      "image_path": "data/images/ea-for-ai/source-003/p005_fig00.png",
+      "source_id": "ea-for-ai:source-003",
+      "source_title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "source_author": "Economist Impact (commissioned by Databricks)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-003:block-020:visual",
+      "visual_type": "chart",
+      "description": "GenAI internal vs external use cases now and in 2027 with investment vs benefit comparison \u2014 more benefit from external use cases despite higher internal investment",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-003/p008_img00.png",
+        "page": 21
+      },
+      "block_id": "ea-for-ai:source-003:block-351",
+      "section_path": "page:9",
+      "image_path": "data/images/ea-for-ai/source-003/p008_img00.png",
+      "source_id": "ea-for-ai:source-003",
+      "source_title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "source_author": "Economist Impact (commissioned by Databricks)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-003:block-030:visual",
+      "visual_type": "chart",
+      "description": "GenAI quality: leaders vs laggards \u2014 leaders use automated evaluation and A/B testing significantly more than laggards",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-003/p010_img00.png",
+        "page": 32
+      },
+      "block_id": "ea-for-ai:source-003:block-352",
+      "section_path": "page:11",
+      "image_path": "data/images/ea-for-ai/source-003/p010_img00.png",
+      "source_id": "ea-for-ai:source-003",
+      "source_title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "source_author": "Economist Impact (commissioned by Databricks)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-003:block-035:visual",
+      "visual_type": "chart",
+      "description": "Upside of proprietary data across industries \u2014 Financial services, Telecom and Retail see highest potential integrating GenAI with proprietary data",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-003/p011_fig00.png",
+        "page": 38
+      },
+      "block_id": "ea-for-ai:source-003:block-353",
+      "section_path": "page:12",
+      "image_path": "data/images/ea-for-ai/source-003/p011_fig00.png",
+      "source_id": "ea-for-ai:source-003",
+      "source_title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "source_author": "Economist Impact (commissioned by Databricks)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-003:block-037:visual",
+      "visual_type": "chart",
+      "description": "Organisations blending a variety of GenAI models \u2014 from own AI infrastructure to licensing, open-source, fine-tuning, and API approaches by deployment stage",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-003/p012_fig00.png",
+        "page": 39
+      },
+      "block_id": "ea-for-ai:source-003:block-354",
+      "section_path": "page:13",
+      "image_path": "data/images/ea-for-ai/source-003/p012_fig00.png",
+      "source_id": "ea-for-ai:source-003",
+      "source_title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "source_author": "Economist Impact (commissioned by Databricks)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-003:block-042:visual",
+      "visual_type": "chart",
+      "description": "Four in ten say AI governance is insufficient \u2014 India and US most confident, global average only 21% strongly agree processes are sufficient",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-003/p013_fig00.png",
+        "page": 44
+      },
+      "block_id": "ea-for-ai:source-003:block-355",
+      "section_path": "page:14",
+      "image_path": "data/images/ea-for-ai/source-003/p013_fig00.png",
+      "source_id": "ea-for-ai:source-003",
+      "source_title": "Unlocking Enterprise AI: Opportunities and Strategies",
+      "source_author": "Economist Impact (commissioned by Databricks)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-031:block-003:visual",
+      "visual_type": "diagram",
+      "description": "Evolution of agentic AI \u2014 from ML integration (2000s) through multimodality (2010s) to advanced autonomy with real-time interactions (2020s-present)",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-031/p000_img00.png",
+        "page": 4
+      },
+      "block_id": "ea-for-ai:source-031:block-160",
+      "section_path": "page:1",
+      "image_path": "data/images/ea-for-ai/source-031/p000_img00.png",
+      "source_id": "ea-for-ai:source-031",
+      "source_title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
+      "source_author": "PwC",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-031:block-005:visual",
+      "visual_type": "diagram",
+      "description": "Three-tier agentic AI hierarchy for customer service \u2014 Master agent delegates to Orchestrator which coordinates Micro-agents (UX, FAQ, Issue resolution, Status, Feedback)",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-031/p000_img01.png",
+        "page": 6
+      },
+      "block_id": "ea-for-ai:source-031:block-161",
+      "section_path": "page:1",
+      "image_path": "data/images/ea-for-ai/source-031/p000_img01.png",
+      "source_id": "ea-for-ai:source-031",
+      "source_title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
+      "source_author": "PwC",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-031:block-018:visual",
+      "visual_type": "infographic",
+      "description": "Top 10 Do's for maximizing ROI from AI \u2014 customer-centric approach, thorough research, small projects, cross-functional teams, quality data, scalable platforms",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-031/p001_img00.png",
+        "page": 19
+      },
+      "block_id": "ea-for-ai:source-031:block-162",
+      "section_path": "page:2",
+      "image_path": "data/images/ea-for-ai/source-031/p001_img00.png",
+      "source_id": "ea-for-ai:source-031",
+      "source_title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
+      "source_author": "PwC",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-031:block-019:visual",
+      "visual_type": "infographic",
+      "description": "Top 10 Don'ts for maximizing ROI from AI \u2014 avoid skipping data foundation, underestimating change management, neglecting ethics",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-031/p002_img00.png",
+        "page": 20
+      },
+      "block_id": "ea-for-ai:source-031:block-163",
+      "section_path": "page:3",
+      "image_path": "data/images/ea-for-ai/source-031/p002_img00.png",
+      "source_id": "ea-for-ai:source-031",
+      "source_title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
+      "source_author": "PwC",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-056:block-007:visual",
+      "visual_type": "framework",
+      "description": "Prompt template: Application Portfolio Triage \u2014 structured AI prompt for enterprise architects with example output table (Application, Recommendation, Reason, Risk Level)",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-056/p000_fig00.png",
+        "page": 7
+      },
+      "block_id": "ea-for-ai:source-056:block-207",
+      "section_path": "page:1",
+      "image_path": "data/images/ea-for-ai/source-056/p000_fig00.png",
+      "source_id": "ea-for-ai:source-056",
+      "source_title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+      "source_author": "Erik Bakstad (Ardoq)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-056:block-011:visual",
+      "visual_type": "framework",
+      "description": "Prompt template: Analyze Capability Coverage \u2014 AI prompt for mapping capabilities to IT systems with example (Capability, Support Level, Reason, Gap/Redundancy)",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-056/p000_fig01.png",
+        "page": 11
+      },
+      "block_id": "ea-for-ai:source-056:block-208",
+      "section_path": "page:1",
+      "image_path": "data/images/ea-for-ai/source-056/p000_fig01.png",
+      "source_id": "ea-for-ai:source-056",
+      "source_title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+      "source_author": "Erik Bakstad (Ardoq)",
+      "source_type": "pdf",
+      "source_url": ""
+    },
+    {
+      "id": "ea-for-ai:source-056:block-027:visual",
+      "visual_type": "framework",
+      "description": "Prompt template: Assess Cloud Readiness \u2014 AI prompt for cloud migration assessment with example (Application, Migration Strategy, Rationale)",
+      "extracted_data": [],
+      "extraction_method": "pdf-crop-4x",
+      "metadata": {
+        "image_path": "data/images/ea-for-ai/source-056/p001_img00.png",
+        "page": 27
+      },
+      "block_id": "ea-for-ai:source-056:block-209",
+      "section_path": "page:2",
+      "image_path": "data/images/ea-for-ai/source-056/p001_img00.png",
+      "source_id": "ea-for-ai:source-056",
+      "source_title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
+      "source_author": "Erik Bakstad (Ardoq)",
+      "source_type": "pdf",
+      "source_url": ""
+    }
+  ]
+}
