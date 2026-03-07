@@ -1,94 +1,48 @@
 <script lang="ts">
-	import { conclusionsData } from '$lib/stores/data';
-
-	let data = $derived($conclusionsData);
+	import { app } from '$lib/data.svelte';
 </script>
 
-<div class="conclusions-view">
-	{#if data}
-		{#if data.recommendations && data.recommendations.length > 0}
-			<section class="mb-6">
-				<h2 class="section-heading">Recommendations</h2>
-				<div class="rec-grid">
-					{#each data.recommendations as rec}
-						<div class="card rec-card">
-							<div class="rec-header">
-								<span class="badge badge-{rec.priority === 'high' ? 'error' : rec.priority === 'medium' ? 'warning' : 'primary'}">
-									{rec.priority} priority
-								</span>
-								<span class="badge">{rec.effort} effort</span>
-							</div>
-							<h3 class="rec-title">{rec.title}</h3>
-							<p class="rec-desc">{rec.description}</p>
-							{#if rec.dependencies.length > 0}
-								<p class="text-xs text-secondary mt-2">Depends on: {rec.dependencies.join(', ')}</p>
-							{/if}
-						</div>
-					{/each}
-				</div>
-			</section>
-		{/if}
+{#if app.conclusions}
+	{@const c = app.conclusions}
 
-		{#if data.angles && data.angles.length > 0}
-			<section class="mb-6">
-				<h2 class="section-heading">Thought Leadership Angles</h2>
-				<div class="angle-grid">
-					{#each data.angles as angle}
-						<div class="card angle-card">
-							<div class="angle-header">
-								<span class="badge badge-primary">{angle.suggested_format}</span>
-							</div>
-							<h3 class="angle-title">{angle.title}</h3>
-							<p class="angle-position">{angle.position}</p>
-							<p class="text-xs text-secondary mt-2">{angle.why_novel}</p>
-						</div>
-					{/each}
+	{#if c.recommendations?.length}
+		<h2 class="section-title">Recommendations</h2>
+		{#each c.recommendations as rec}
+			<div class="rec-card">
+				<div class="rec-header">
+					<h3>{rec.title}</h3>
+					<div class="rec-meta">
+						<span class="badge badge-{rec.priority === 'high' ? 'primary' : rec.priority === 'medium' ? 'warning' : 'success'}">{rec.priority}</span>
+						{#if rec.effort}<span class="dim">Effort: {rec.effort}</span>{/if}
+					</div>
 				</div>
-			</section>
-		{/if}
-
-		<p class="text-xs text-secondary">
-			{data.total_recommendations} recommendations, {data.total_angles} angles · Generated {data.generated}
-		</p>
-	{:else}
-		<div class="empty-state">
-			<p>No conclusions available. Complete Phase 3 to generate recommendations.</p>
-		</div>
+				<p class="rec-desc">{rec.description}</p>
+			</div>
+		{/each}
 	{/if}
-</div>
+
+	{#if c.angles?.length}
+		<h2 class="section-title" style="margin-top: var(--space-8)">Thought Leadership Angles</h2>
+		{#each c.angles as angle}
+			<div class="rec-card">
+				<h3>{angle.title}</h3>
+				<p class="rec-desc">{angle.position}</p>
+				{#if angle.why_novel}<p class="novel"><strong>Why novel:</strong> {angle.why_novel}</p>{/if}
+				{#if angle.suggested_format}<span class="dim">Format: {angle.suggested_format}</span>{/if}
+			</div>
+		{/each}
+	{/if}
+{:else}
+	<div class="empty-state"><p>No conclusions available yet.</p></div>
+{/if}
 
 <style>
-	.section-heading {
-		font-size: var(--font-size-lg);
-		font-weight: var(--font-weight-semibold);
-		margin-bottom: var(--space-4);
-	}
-
-	.rec-grid, .angle-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-		gap: var(--space-4);
-	}
-
-	.rec-card, .angle-card {
-		display: flex;
-		flex-direction: column;
-		gap: var(--space-2);
-	}
-
-	.rec-header, .angle-header {
-		display: flex;
-		gap: var(--space-2);
-	}
-
-	.rec-title, .angle-title {
-		font-size: var(--font-size-base);
-		font-weight: var(--font-weight-medium);
-	}
-
-	.rec-desc, .angle-position {
-		font-size: var(--font-size-sm);
-		color: var(--color-text-secondary);
-		line-height: var(--line-height-relaxed);
-	}
+	.section-title { font-size: var(--font-size-lg); font-weight: var(--font-weight-semibold); margin-bottom: var(--space-4); }
+	.rec-card { border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-5); margin-bottom: var(--space-4); }
+	.rec-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-2); }
+	.rec-header h3 { font-size: var(--font-size-base); font-weight: var(--font-weight-semibold); }
+	.rec-meta { display: flex; gap: var(--space-3); align-items: center; }
+	.rec-desc { font-size: var(--font-size-sm); color: var(--color-text-secondary); }
+	.novel { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin-top: var(--space-2); }
+	.dim { font-size: var(--font-size-xs); color: var(--color-text-tertiary); }
 </style>
