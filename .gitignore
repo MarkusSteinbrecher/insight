@@ -9,34 +9,17 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-
 # Node
 node_modules/
 
 # Svelte build cache
 site/.svelte-kit/
 
-# Research content (private — intellectual property, pre-publication material)
-# The code, design docs, and static site remain public; the actual research data stays local.
-knowledge-base/topics/
-
-# Session logs (private)
-knowledge-base/sessions/
-
-# Interaction tracking (private)
-.beads/
-
 # Build artifacts
 dist/
 
-# Graph database (local, regenerated from migration or collection)
-/data/
-
-# Python
-__pycache__/
-*.pyc
-*.egg-info/
-.pytest_cache/
+# Private repo content (lives in insight-private)
+knowledge-base/
+content/
+data/
+.beads/
