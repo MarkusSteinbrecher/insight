@@ -27,6 +27,70 @@ td {
 .badge-success { background: var(--color-success-bg); color: var(--color-success); }
 .badge-warning { background: var(--color-warning-bg); color: var(--color-warning); }
 .badge-info { background: var(--color-info-bg); color: var(--color-info); }
+.badge-source { background: var(--color-source-bg); color: var(--color-source); }
+.badge-extract { background: var(--color-extract-bg); color: var(--color-extract); }
+.badge-claim { background: var(--color-claim-bg); color: var(--color-claim); }
+.badge-finding { background: var(--color-finding-bg); color: var(--color-finding); }
+
+/* Toolbar — shared filter/control bar for all pages */
+.toolbar {
+	display: flex;
+	align-items: center;
+	gap: var(--space-3);
+	margin-bottom: var(--space-5);
+	flex-wrap: wrap;
+	color: var(--color-text-tertiary);
+}
+.toolbar select {
+	max-width: 220px;
+}
+.toolbar .search-field {
+	display: flex;
+	align-items: center;
+	gap: var(--space-2);
+	padding: var(--space-1) var(--space-3);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-sm);
+	background: var(--color-surface);
+	max-width: 200px;
+}
+.toolbar .search-field input {
+	border: none;
+	background: none;
+	outline: none;
+	font-size: var(--font-size-sm);
+	font-family: var(--font-family);
+	width: 100%;
+	color: var(--color-text);
+}
+.toolbar .search-clear {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: none;
+	border: none;
+	color: var(--color-text-tertiary);
+	cursor: pointer;
+	padding: 2px;
+	border-radius: var(--radius-sm);
+	flex-shrink: 0;
+}
+.toolbar .search-clear:hover { color: var(--color-text); }
+.toolbar .toggles {
+	display: flex;
+	gap: var(--space-4);
+}
+.toolbar .toggle {
+	display: flex;
+	align-items: center;
+	gap: var(--space-1);
+	font-size: var(--font-size-sm);
+	cursor: pointer;
+	color: var(--color-text-secondary);
+}
+.toolbar .toggle input { accent-color: var(--color-text-secondary); }
+.toolbar .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.toolbar .spacer { flex: 1; }
 
 .empty-state { text-align: center; padding: var(--space-16) var(--space-8); color: var(--color-text-secondary); }
 

@@ -8,6 +8,10 @@
 	let sorted = $derived.by(() => {
 		if (!app.sources) return [];
 		let list = [...app.sources.sources];
+		if (app.searchQuery) {
+			const q = app.searchQuery.toLowerCase();
+			list = list.filter((s: any) => s.title.toLowerCase().includes(q) || (s.author && s.author.toLowerCase().includes(q)));
+		}
 		list.sort((a: any, b: any) => {
 			const av = a[sortKey], bv = b[sortKey];
 			if (typeof av === 'number' && typeof bv === 'number') return sortAsc ? av - bv : bv - av;
@@ -57,18 +61,18 @@
 				{#each sorted as source, i}
 					<tr>
 						<td class="col-num dim">{i + 1}</td>
-						<td class="col-title">
+						<td class="col-title" title={source.title}>
 							{#if source.url}
 								<a href={source.url} target="_blank" rel="noopener">
-									{source.title}
+									<span>{source.title}</span>
 									<Icon name="external" size={11} />
 								</a>
 							{:else}
 								{source.title}
 							{/if}
 						</td>
-						<td class="dim">{source.author || '\u2014'}</td>
-						<td><span class="badge badge-{source.type === 'web' ? 'info' : source.type === 'pdf' ? 'warning' : 'success'}">{source.type}</span></td>
+						<td class="col-author dim" title={source.author}>{source.author || '\u2014'}</td>
+						<td class="col-type"><span class="badge badge-{source.type === 'web' ? 'info' : source.type === 'pdf' ? 'warning' : 'success'}">{source.type}</span></td>
 						<td class="col-num">{source.extract_count ?? 0}</td>
 						<td class="col-num">{source.claim_count ?? 0}</td>
 						<td class="col-num">{source.finding_count ?? 0}</td>
@@ -93,14 +97,15 @@
 	.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
 	.sortable :global(.icon) { margin-left: 2px; vertical-align: middle; }
 	.sortable:hover { color: var(--color-text); }
-	.col-num { text-align: center; width: 70px; }
-	.col-title { max-width: 400px; }
+	.col-num { text-align: center; width: 60px; }
+	.col-title { max-width: 480px; }
 	.col-title a {
 		font-weight: var(--font-weight-medium);
 		display: inline-flex;
 		align-items: center;
 		gap: 4px;
 	}
+	.col-author { max-width: 240px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 	.dim { color: var(--color-text-secondary); }
 	thead tr { background: var(--color-surface); }
 	tbody tr:hover td { background: var(--color-surface-hover); }

@@ -68,7 +68,7 @@
 				<button
 					class="nav-item"
 					class:active={app.activeTab === item.id}
-					onclick={() => { app.activeTab = item.id; }}
+					onclick={() => { app.activeTab = item.id; app.searchQuery = ''; }}
 					title={sidebarExpanded ? '' : item.label}
 				>
 					<Icon name={item.icon} size={18} />
@@ -88,17 +88,15 @@
 			{#if app.currentTitle}
 				<h1 class="page-title">{app.currentTitle}</h1>
 			{/if}
-			<div class="topbar-right">
-				<div class="search-wrapper">
-					<Icon name="search" size={15} />
-					<input
-						class="search-input"
-						type="text"
-						placeholder="Search..."
-						value={app.searchQuery}
-						oninput={(e) => { app.searchQuery = e.currentTarget.value; }}
-					/>
-				</div>
+			<div class="topbar-spacer"></div>
+			<div class="topbar-search">
+				<Icon name="search" size={14} />
+				<input type="text" placeholder="Search..." value={app.searchQuery} oninput={(e) => { app.searchQuery = e.currentTarget.value; }} />
+				{#if app.searchQuery}
+					<button class="search-clear" onclick={() => { app.searchQuery = ''; }}>
+						<Icon name="x" size={14} />
+					</button>
+				{/if}
 			</div>
 		</header>
 		<main class="content">
@@ -270,40 +268,40 @@
 		font-size: var(--font-size-lg);
 		font-weight: var(--font-weight-semibold);
 		color: var(--color-text);
-		flex-shrink: 0;
 	}
-	.topbar-right {
-		flex: 1;
-		display: flex;
-		justify-content: flex-end;
-	}
-	.search-wrapper {
+	.topbar-spacer { flex: 1; }
+	.topbar-search {
 		display: flex;
 		align-items: center;
 		gap: var(--space-2);
-		width: 100%;
-		max-width: 280px;
-		background: var(--color-surface);
-		border: 1px solid var(--color-border);
-		border-radius: var(--radius-full);
 		padding: var(--space-1) var(--space-3);
-		transition: border-color 0.15s, box-shadow 0.15s;
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius-sm);
+		background: var(--color-surface);
+		max-width: 240px;
 	}
-	.search-wrapper:focus-within {
-		border-color: var(--color-primary);
-		box-shadow: 0 0 0 3px rgba(217, 119, 87, 0.12);
-	}
-	.search-wrapper :global(.icon) { color: var(--color-text-tertiary); flex-shrink: 0; }
-	.search-input {
-		width: 100%;
-		font-family: var(--font-family);
-		font-size: var(--font-size-sm);
+	.topbar-search input {
 		border: none;
 		background: none;
 		outline: none;
+		font-size: var(--font-size-sm);
+		font-family: var(--font-family);
+		width: 100%;
 		color: var(--color-text);
-		padding: var(--space-1) 0;
 	}
+	.topbar-search .search-clear {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: none;
+		border: none;
+		color: var(--color-text-tertiary);
+		cursor: pointer;
+		padding: 2px;
+		border-radius: var(--radius-sm);
+		flex-shrink: 0;
+	}
+	.topbar-search .search-clear:hover { color: var(--color-text); }
 
 	/* Content */
 	.content {

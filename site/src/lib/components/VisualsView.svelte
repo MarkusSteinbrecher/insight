@@ -4,7 +4,6 @@
 
 	let typeFilter = $state('all');
 	let sourceFilter = $state('all');
-	let searchTerm = $state('');
 
 	let visualTypes = $derived.by(() => {
 		if (!app.visuals) return [];
@@ -23,8 +22,8 @@
 		let list = app.visuals.visuals;
 		if (typeFilter !== 'all') list = list.filter((v: any) => v.visual_type === typeFilter);
 		if (sourceFilter !== 'all') list = list.filter((v: any) => v.source_id === sourceFilter);
-		if (searchTerm) {
-			const q = searchTerm.toLowerCase();
+		if (app.searchQuery) {
+			const q = app.searchQuery.toLowerCase();
 			list = list.filter((v: any) => v.description.toLowerCase().includes(q) || v.source_title.toLowerCase().includes(q));
 		}
 		return list;
@@ -32,7 +31,7 @@
 </script>
 
 {#if app.visuals && app.visuals.visuals.length > 0}
-	<div class="controls">
+	<div class="toolbar">
 		<Icon name="filter" size={15} />
 		<select bind:value={typeFilter}>
 			<option value="all">All types ({app.visuals.total_visuals})</option>
@@ -42,10 +41,6 @@
 			<option value="all">All sources</option>
 			{#each [...sourcesMap.entries()] as [id, title]}<option value={id}>{title}</option>{/each}
 		</select>
-		<div class="search-field">
-			<Icon name="search" size={14} />
-			<input type="text" placeholder="Search visuals..." bind:value={searchTerm} />
-		</div>
 	</div>
 
 	<div class="grid">
@@ -89,34 +84,6 @@
 {/if}
 
 <style>
-	.controls {
-		display: flex;
-		gap: var(--space-3);
-		align-items: center;
-		flex-wrap: wrap;
-		margin-bottom: var(--space-6);
-		color: var(--color-text-tertiary);
-	}
-	.search-field {
-		display: flex;
-		align-items: center;
-		gap: var(--space-2);
-		padding: var(--space-1) var(--space-3);
-		border: 1px solid var(--color-border);
-		border-radius: var(--radius-sm);
-		background: var(--color-surface);
-		flex: 1;
-		max-width: 250px;
-	}
-	.search-field input {
-		border: none;
-		background: none;
-		outline: none;
-		font-size: var(--font-size-sm);
-		font-family: var(--font-family);
-		width: 100%;
-		color: var(--color-text);
-	}
 	.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: var(--space-4); }
 	.visual-card {
 		background: var(--color-surface);

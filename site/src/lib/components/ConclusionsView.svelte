@@ -1,19 +1,31 @@
 <script lang="ts">
 	import { app } from '$lib/data.svelte';
 	import Icon from '$lib/components/Icon.svelte';
+
+	let filteredRecs = $derived.by(() => {
+		if (!app.conclusions?.recommendations) return [];
+		if (!app.searchQuery) return app.conclusions.recommendations;
+		const q = app.searchQuery.toLowerCase();
+		return app.conclusions.recommendations.filter((r: any) => r.title.toLowerCase().includes(q) || r.description.toLowerCase().includes(q));
+	});
+
+	let filteredAngles = $derived.by(() => {
+		if (!app.conclusions?.angles) return [];
+		if (!app.searchQuery) return app.conclusions.angles;
+		const q = app.searchQuery.toLowerCase();
+		return app.conclusions.angles.filter((a: any) => a.title.toLowerCase().includes(q) || a.position.toLowerCase().includes(q));
+	});
 </script>
 
 {#if app.conclusions}
-	{@const c = app.conclusions}
-
-	{#if c.recommendations?.length}
+	{#if filteredRecs.length}
 		<div class="section">
 			<h2 class="section-title">
 				<Icon name="conclusions" size={20} />
 				Recommendations
 			</h2>
 			<div class="cards">
-				{#each c.recommendations as rec}
+				{#each filteredRecs as rec}
 					<div class="rec-card">
 						<div class="rec-header">
 							<h3>{rec.title}</h3>
@@ -29,14 +41,14 @@
 		</div>
 	{/if}
 
-	{#if c.angles?.length}
+	{#if filteredAngles.length}
 		<div class="section">
 			<h2 class="section-title">
 				<Icon name="findings" size={20} />
 				Thought Leadership Angles
 			</h2>
 			<div class="cards">
-				{#each c.angles as angle}
+				{#each filteredAngles as angle}
 					<div class="rec-card">
 						<h3>{angle.title}</h3>
 						<p class="rec-desc">{angle.position}</p>

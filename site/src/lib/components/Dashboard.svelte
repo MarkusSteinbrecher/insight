@@ -7,22 +7,22 @@
 	{@const s = app.stats}
 	<div class="stats-grid">
 		<div class="stat-card">
-			<div class="stat-icon sources"><Icon name="sources" size={22} /></div>
+			<div class="stat-icon sources"><Icon name="source" size={22} /></div>
 			<div class="stat-value">{s.sources}</div>
 			<div class="stat-label">Sources</div>
 		</div>
 		<div class="stat-card">
-			<div class="stat-icon findings"><Icon name="findings" size={22} /></div>
+			<div class="stat-icon claims"><Icon name="claim" size={22} /></div>
 			<div class="stat-value">{s.canonical_claims ?? 0}</div>
 			<div class="stat-label">Canonical Claims</div>
 		</div>
 		<div class="stat-card">
-			<div class="stat-icon unique"><Icon name="info" size={22} /></div>
+			<div class="stat-icon findings"><Icon name="findings" size={22} /></div>
 			<div class="stat-value">{s.unique_claims ?? 0}</div>
 			<div class="stat-label">Unique Claims</div>
 		</div>
 		<div class="stat-card">
-			<div class="stat-icon contradictions"><Icon name="x" size={22} /></div>
+			<div class="stat-icon contradictions"><Icon name="contradiction" size={22} /></div>
 			<div class="stat-value">{s.contradictions ?? 0}</div>
 			<div class="stat-label">Contradictions</div>
 		</div>
@@ -69,9 +69,9 @@
 		border-radius: var(--radius-sm);
 		margin-bottom: var(--space-3);
 	}
-	.stat-icon.sources { background: var(--color-warning-bg); color: var(--color-warning); }
-	.stat-icon.findings { background: var(--color-primary-light); color: var(--color-primary); }
-	.stat-icon.unique { background: var(--color-info-bg); color: var(--color-info); }
+	.stat-icon.sources { background: var(--color-source-bg); color: var(--color-source); }
+	.stat-icon.claims { background: var(--color-claim-bg); color: var(--color-claim); }
+	.stat-icon.findings { background: var(--color-finding-bg); color: var(--color-finding); }
 	.stat-icon.contradictions { background: var(--color-error-bg); color: var(--color-error); }
 	.stat-value { font-size: var(--font-size-3xl); font-weight: var(--font-weight-semibold); line-height: 1; }
 	.stat-label { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin-top: var(--space-2); }
@@ -93,8 +93,8 @@
 	.finding-num {
 		font-size: var(--font-size-xs);
 		font-weight: var(--font-weight-semibold);
-		color: var(--color-primary);
-		background: var(--color-primary-light);
+		color: var(--color-finding);
+		background: var(--color-finding-bg);
 		width: 22px;
 		height: 22px;
 		display: flex;

@@ -14,8 +14,13 @@
 
 	let filtered = $derived.by(() => {
 		if (!app.findings) return [];
-		if (categoryFilter === 'all') return app.findings.findings;
-		return app.findings.findings.filter((f: any) => f.category === categoryFilter);
+		let list = app.findings.findings;
+		if (categoryFilter !== 'all') list = list.filter((f: any) => f.category === categoryFilter);
+		if (app.searchQuery) {
+			const q = app.searchQuery.toLowerCase();
+			list = list.filter((f: any) => f.title.toLowerCase().includes(q) || f.description.toLowerCase().includes(q));
+		}
+		return list;
 	});
 
 	function toggleFinding(id: string) {
@@ -29,7 +34,7 @@
 </script>
 
 {#if app.findings}
-	<div class="controls">
+	<div class="toolbar">
 		<Icon name="filter" size={15} />
 		<select bind:value={categoryFilter}>
 			<option value="all">All categories ({app.findings.total_findings})</option>
@@ -48,7 +53,7 @@
 					</div>
 					<div class="finding-info">
 						<div class="finding-meta">
-							<span class="badge badge-primary">{finding.category}</span>
+							<span class="badge badge-finding">{finding.category}</span>
 							<span class="claim-count">{finding.claim_count} claims</span>
 						</div>
 						<h3 class="finding-title">{finding.title}</h3>
@@ -101,13 +106,6 @@
 {/if}
 
 <style>
-	.controls {
-		display: flex;
-		align-items: center;
-		gap: var(--space-2);
-		margin-bottom: var(--space-6);
-		color: var(--color-text-tertiary);
-	}
 	.findings-list { display: flex; flex-direction: column; gap: var(--space-3); }
 	.finding-card {
 		background: var(--color-surface);
@@ -158,7 +156,7 @@
 	}
 	.claim-header :global(.icon) { flex-shrink: 0; margin-top: 2px; color: var(--color-text-tertiary); }
 	.claim-header:hover { background: var(--color-surface-hover); }
-	.claim-id { font-size: var(--font-size-xs); color: var(--color-text-tertiary); font-weight: var(--font-weight-medium); flex-shrink: 0; font-family: monospace; }
+	.claim-id { font-size: var(--font-size-xs); color: var(--color-claim); font-weight: var(--font-weight-medium); flex-shrink: 0; font-family: monospace; }
 	.claim-text { flex: 1; }
 	.claim-sources { font-size: var(--font-size-xs); color: var(--color-text-tertiary); flex-shrink: 0; }
 	.claim-detail { padding: var(--space-3) var(--space-5) var(--space-5) calc(var(--space-5) + 3rem); }

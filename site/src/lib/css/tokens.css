@@ -26,12 +26,12 @@
 	--radius-md: 0.75rem;
 	--radius-lg: 1rem;
 	--radius-full: 9999px;
-	--max-width: 1100px;
+	--max-width: 1400px;
 	--sidebar-width: 240px;
 	--header-height: 56px;
 
 	/* Warm Claude-inspired palette */
-	--color-bg: #FAF9F6;
+	--color-bg: #F5F3EE;
 	--color-sidebar: #F0ECE4;
 	--color-sidebar-hover: #E8E3D9;
 	--color-sidebar-active: #E0DAD0;
@@ -54,6 +54,16 @@
 	--color-error-bg: #FDECEA;
 	--color-info: #3B6EC4;
 	--color-info-bg: #E3EDF8;
+
+	/* Entity type colors */
+	--color-source: #C4841D;
+	--color-source-bg: #FEF3D7;
+	--color-extract: #7C6F9B;
+	--color-extract-bg: #EEEBF5;
+	--color-claim: #3B6EC4;
+	--color-claim-bg: #E3EDF8;
+	--color-finding: #D97757;
+	--color-finding-bg: #FAE6DD;
 
 	--shadow-sm: 0 1px 2px rgba(27, 27, 24, 0.04);
 	--shadow-md: 0 2px 8px rgba(27, 27, 24, 0.06), 0 1px 2px rgba(27, 27, 24, 0.04);
