@@ -1,4 +1,5 @@
 // Central reactive state using Svelte 5 runes (*.svelte.ts enables runes)
+import { base } from '$app/paths';
 
 /** Extract short display ID from full ID, e.g. "ea-for-ai:source-001" → "S-001" */
 export function shortId(id: string): string {
@@ -134,7 +135,7 @@ function createAppState() {
 
 	async function fetchJson<T>(path: string): Promise<T | null> {
 		try {
-			const res = await fetch(`data/${path}`);
+			const res = await fetch(`${base}/data/${path}`);
 			if (!res.ok) return null;
 			return await res.json();
 		} catch {
