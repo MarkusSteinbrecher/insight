@@ -32,6 +32,7 @@
 		{ id: 'visuals', label: 'Visuals', icon: 'visuals', devOnly: true },
 		{ id: 'conclusions', label: 'Conclusions', icon: 'conclusions' },
 		{ id: 'deep-dive', label: 'Library', icon: 'deep-dive', devOnly: true },
+		{ id: 'about', label: 'About', icon: 'info' },
 		{ id: 'style-guide', label: 'Style Guide', icon: 'info', devOnly: true },
 	];
 	const navItems = allNavItems.filter(item => !item.devOnly || import.meta.env.DEV);

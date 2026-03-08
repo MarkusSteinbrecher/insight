@@ -1,12 +1,12 @@
 {
   "generated": "2026-03-08",
-  "sources": 94,
+  "sources": 93,
   "source_types": {
     "pdf": 5,
-    "web": 89
+    "web": 88
   },
-  "total_extracts": 9501,
-  "canonical_claims": 62,
+  "total_extracts": 9467,
+  "canonical_claims": 70,
   "unique_claims": 0,
   "contradictions": 0,
   "findings": 15

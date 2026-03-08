@@ -5,6 +5,20 @@
 	let sortKey = $state<string>('title');
 	let sortAsc = $state(true);
 	let typeFilter = $state('all');
+	let qualityFilter = $state('all');
+
+	const qualityDot: Record<string, string> = {
+		'ok': 'var(--color-success)',
+		'pending': 'var(--color-text-tertiary)',
+		'thin-content': 'var(--color-warning)',
+		'block-quality': 'var(--color-warning)',
+		'high-noise': '#EA580C',
+		'not-extracted': 'var(--color-text-tertiary)',
+	};
+
+	function qualityColor(status: string | undefined): string {
+		return qualityDot[status ?? 'ok'] ?? 'var(--color-text-tertiary)';
+	}
 
 	const statusSteps = ['discovered', 'collected', 'extracted', 'analyzed'] as const;
 	function statusLevel(status: string | undefined): number {
@@ -27,10 +41,28 @@
 		return counts;
 	});
 
+	let qualityStatuses = $derived.by(() => {
+		if (!app.sources) return [];
+		const set = new Set<string>();
+		for (const s of app.sources.sources) if (s.quality_status) set.add(s.quality_status);
+		return [...set].sort();
+	});
+
+	let qualityCounts = $derived.by(() => {
+		if (!app.sources) return new Map<string, number>();
+		const counts = new Map<string, number>();
+		for (const s of app.sources.sources) {
+			const qs = s.quality_status ?? 'ok';
+			counts.set(qs, (counts.get(qs) || 0) + 1);
+		}
+		return counts;
+	});
+
 	let sorted = $derived.by(() => {
 		if (!app.sources) return [];
 		let list = [...app.sources.sources];
 		if (typeFilter !== 'all') list = list.filter((s: any) => s.type === typeFilter);
+		if (qualityFilter !== 'all') list = list.filter((s: any) => (s.quality_status ?? 'ok') === qualityFilter);
 		if (app.searchQuery) {
 			const q = app.searchQuery.toLowerCase();
 			list = list.filter((s: any) => s.title.toLowerCase().includes(q) || (s.author && s.author.toLowerCase().includes(q)));
@@ -65,6 +97,20 @@
 				</button>
 			{/each}
 		</div>
+		{#if qualityStatuses.length > 0}
+			<div class="category-nav quality-nav">
+				<span class="filter-label">Quality:</span>
+				<button class="cat-pill" class:active={qualityFilter === 'all'} onclick={() => qualityFilter = 'all'}>
+					All
+				</button>
+				{#each qualityStatuses as qs}
+					<button class="cat-pill" class:active={qualityFilter === qs} onclick={() => qualityFilter = qs}>
+						<span class="quality-dot" style="background:{qualityColor(qs)}"></span>
+						{qs} <span class="cat-count">{qualityCounts.get(qs) ?? 0}</span>
+					</button>
+				{/each}
+			</div>
+		{/if}
 	</div>
 
 	<div class="table-wrap">
@@ -87,6 +133,10 @@
 					<th class="sortable" onclick={() => toggleSort('status')}>
 						Status
 						{#if sortKey === 'status'}<Icon name={sortAsc ? 'arrow-up' : 'arrow-down'} size={12} />{/if}
+					</th>
+					<th class="sortable" onclick={() => toggleSort('quality_status')}>
+						Quality
+						{#if sortKey === 'quality_status'}<Icon name={sortAsc ? 'arrow-up' : 'arrow-down'} size={12} />{/if}
 					</th>
 					<th class="sortable col-num" onclick={() => toggleSort('extract_count')}>
 						Extracts
@@ -140,6 +190,14 @@
 								</div>
 							{/if}
 						</td>
+						<td class="col-quality" title={source.quality_issues?.join('; ') ?? ''}>
+							<span class="quality-indicator">
+								<span class="quality-dot" style="background:{qualityColor(source.quality_status)}"></span>
+								{#if source.quality_status && source.quality_status !== 'ok'}
+									<span class="quality-label">{source.quality_status}</span>
+								{/if}
+							</span>
+						</td>
 						<td class="col-num">{source.extract_count ?? 0}</td>
 						<td class="col-num">{source.claim_count ?? 0}</td>
 						<td class="col-num">{source.finding_count ?? 0}</td>
@@ -148,7 +206,7 @@
 			</tbody>
 		</table>
 	</div>
-	<p class="summary">{sorted.length} sources &middot; Updated {app.sources?.updated ?? ''}</p>
+	<p class="summary">{sorted.length} sources &middot; {qualityCounts.get('ok') ?? 0} of {app.sources.sources.length} fully processed &middot; Updated {app.sources?.updated ?? ''}</p>
 {:else}
 	<div class="empty-state"><p>No source data available.</p></div>
 {/if}
@@ -227,6 +285,37 @@
 		font-size: var(--font-size-xs);
 		color: var(--color-error);
 		font-weight: var(--font-weight-medium);
+	}
+	.quality-nav {
+		border-top: 1px solid var(--color-border-light);
+		padding-top: var(--space-2);
+	}
+	.filter-label {
+		font-size: var(--font-size-xs);
+		color: var(--color-text-tertiary);
+		font-weight: var(--font-weight-medium);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		padding-right: var(--space-1);
+	}
+	.quality-dot {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		flex-shrink: 0;
+	}
+	.col-quality {
+		white-space: nowrap;
+	}
+	.quality-indicator {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-1);
+	}
+	.quality-label {
+		font-size: var(--font-size-xs);
+		color: var(--color-text-secondary);
 	}
 	thead tr { background: var(--color-surface); }
 	tbody tr:hover td { background: var(--color-surface-hover); }

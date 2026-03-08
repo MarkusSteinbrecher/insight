@@ -29,7 +29,9 @@ Warm, minimal, research-focused. Inspired by Claude.ai's aesthetic: generous whi
 
 ### Entity Colors
 
-Each data entity type has a consistent color pair (foreground + background):
+Each data entity type has a consistent color pair (foreground + background). Colors vary by theme but always use distinct hues for accessibility:
+
+**Warm theme (default):**
 
 | Entity | Color | Background | Token prefix |
 |--------|-------|------------|-------------|
@@ -37,6 +39,11 @@ Each data entity type has a consistent color pair (foreground + background):
 | Extract | `#7C6F9B` purple | `#EEEBF5` | `--color-extract` |
 | Claim | `#3B6EC4` blue | `#E3EDF8` | `--color-claim` |
 | Finding | `#D97757` terracotta | `#FAE6DD` | `--color-finding` |
+
+**Cool theme:** teal (source), slate (extract), blue (claim), violet (finding)
+**Yello theme:** amber (source), olive-green (extract), orange (claim), rose (finding)
+
+All entity colors are defined in `src/lib/themes.ts` and applied as CSS custom properties. Components should always use `var(--color-source)` etc., never hardcoded hex values.
 
 ### Semantic Colors
 

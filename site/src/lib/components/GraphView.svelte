@@ -9,10 +9,12 @@
 	let height = $state(600);
 
 	let visible = $state<Record<string, boolean>>({ finding: true, claim: true, extract: false, source: true });
+	let alignBy = $state<string>('');
 	let filterAuthor = $state('');
 	let categoryFilter = $state('all');
 	let hoveredNode = $state<any>(null);
 	let selectedNode = $state<any>(null);
+	let graphStats = $state({ nodes: 0, links: 0, indirect: 0 });
 
 	interface GNode extends d3.SimulationNodeDatum {
 		id: string; label: string; type: string; group: number; radius: number;
@@ -78,15 +80,10 @@
 		return { incoming, outgoing };
 	});
 
-	const entityColors: Record<string, string> = {
-		finding: getComputedStyle(document.documentElement).getPropertyValue('--color-finding').trim() || '#D97757',
-		claim: getComputedStyle(document.documentElement).getPropertyValue('--color-claim').trim() || '#3B6EC4',
-		extract: getComputedStyle(document.documentElement).getPropertyValue('--color-extract').trim() || '#7C6F9B',
-		source: getComputedStyle(document.documentElement).getPropertyValue('--color-source').trim() || '#C4841D',
-	};
-
 	function typeColor(type: string): string {
-		return entityColors[type] ?? '#64635E';
+		const token = `--color-${type}`;
+		const val = getComputedStyle(document.documentElement).getPropertyValue(token).trim();
+		return val || '#64635E';
 	}
 
 	function selectNodeById(id: string) {
@@ -101,6 +98,9 @@
 		const data = app.graph;
 		const visibleTypes = new Set(Object.entries(visible).filter(([, v]) => v).map(([k]) => k));
 		const visibleIds = new Set<string>();
+
+		const allNodeTypes = new Map<string, string>();
+		for (const n of data.nodes) allNodeTypes.set(n.id, n.type);
 
 		// When a category is selected, find matching finding IDs and their connected node IDs
 		let categoryAllowedIds: Set<string> | null = null;
@@ -118,37 +118,126 @@
 			}
 		}
 
+		// Compute source impact: how many claims from each source reach a finding
+		const sourceExtractsMap = new Map<string, Set<string>>();
+		const extractClaimsMap = new Map<string, Set<string>>();
+		const claimHasFinding = new Set<string>();
+
+		for (const e of data.edges) {
+			const src = typeof e.source === 'string' ? e.source : (e.source as any).id;
+			const tgt = typeof e.target === 'string' ? e.target : (e.target as any).id;
+			const srcType = allNodeTypes.get(src), tgtType = allNodeTypes.get(tgt);
+			if (srcType === 'source' && tgtType === 'extract') {
+				if (!sourceExtractsMap.has(src)) sourceExtractsMap.set(src, new Set());
+				sourceExtractsMap.get(src)!.add(tgt);
+			}
+			if (srcType === 'extract' && tgtType === 'claim') {
+				if (!extractClaimsMap.has(src)) extractClaimsMap.set(src, new Set());
+				extractClaimsMap.get(src)!.add(tgt);
+			}
+			if (tgtType === 'extract' && srcType === 'claim') {
+				if (!extractClaimsMap.has(tgt)) extractClaimsMap.set(tgt, new Set());
+				extractClaimsMap.get(tgt)!.add(src);
+			}
+			if ((srcType === 'claim' && tgtType === 'finding') || (tgtType === 'claim' && srcType === 'finding')) {
+				if (srcType === 'claim') claimHasFinding.add(src);
+				if (tgtType === 'claim') claimHasFinding.add(tgt);
+			}
+		}
+
+		const sourceImpact = new Map<string, number>();
+		for (const [sourceId, extracts] of sourceExtractsMap) {
+			let count = 0;
+			for (const ext of extracts) {
+				for (const claimId of extractClaimsMap.get(ext) ?? []) {
+					if (claimHasFinding.has(claimId)) count++;
+				}
+			}
+			sourceImpact.set(sourceId, count);
+		}
+		const maxImpact = Math.max(1, ...sourceImpact.values());
+
+		// When extracts are visible, only include "chain" extracts that connect to a claim
+		// (otherwise we'd show 5000+ leaf extracts that add no insight)
+		const chainExtracts = new Set<string>();
+		if (visibleTypes.has('extract')) {
+			for (const extractId of extractClaimsMap.keys()) {
+				chainExtracts.add(extractId);
+			}
+		}
+
 		let nodes: GNode[] = [];
 		for (const n of data.nodes) {
 			if (!visibleTypes.has(n.type)) continue;
+			if (n.type === 'extract' && !chainExtracts.has(n.id)) continue;
 			if (filterAuthor && n.author && n.author !== filterAuthor) continue;
 			if (categoryAllowedIds && !categoryAllowedIds.has(n.id)) continue;
 			if (app.searchQuery && !n.label.toLowerCase().includes(app.searchQuery.toLowerCase())) continue;
-			const radius = n.type === 'finding' ? 12 : n.type === 'claim' ? 7 : n.type === 'source' ? 9 : 4;
+			let radius: number;
+			if (n.type === 'source') {
+				const impact = sourceImpact.get(n.id) ?? 0;
+				radius = 5 + 10 * (impact / maxImpact); // 5–15 based on impact
+			} else if (n.type === 'finding') {
+				radius = 12;
+			} else if (n.type === 'claim') {
+				radius = 7;
+			} else {
+				radius = 4;
+			}
 			nodes.push({ ...n, group: 0, radius });
 			visibleIds.add(n.id);
 		}
 
+		// Build adjacency for hidden nodes so we can create transitive links
+		// e.g. source→extract→claim becomes source→claim when extracts are hidden
+		const hiddenAdj = new Map<string, Set<string>>(); // hidden node → set of visible neighbors
+
+		for (const e of data.edges) {
+			const src = typeof e.source === 'string' ? e.source : (e.source as any).id;
+			const tgt = typeof e.target === 'string' ? e.target : (e.target as any).id;
+			const srcHidden = !visibleIds.has(src) && allNodeTypes.has(src);
+			const tgtHidden = !visibleIds.has(tgt) && allNodeTypes.has(tgt);
+
+			if (srcHidden) {
+				if (!hiddenAdj.has(src)) hiddenAdj.set(src, new Set());
+				if (visibleIds.has(tgt)) hiddenAdj.get(src)!.add(tgt);
+			}
+			if (tgtHidden) {
+				if (!hiddenAdj.has(tgt)) hiddenAdj.set(tgt, new Set());
+				if (visibleIds.has(src)) hiddenAdj.get(tgt)!.add(src);
+			}
+		}
+
 		let links: GLink[] = [];
+		const linkSet = new Set<string>();
 		for (const e of data.edges) {
 			const src = typeof e.source === 'string' ? e.source : (e.source as any).id;
 			const tgt = typeof e.target === 'string' ? e.target : (e.target as any).id;
 			if (visibleIds.has(src) && visibleIds.has(tgt)) {
-				links.push({ source: src, target: tgt, type: e.type });
+				const key = `${src}→${tgt}`;
+				if (!linkSet.has(key)) {
+					linkSet.add(key);
+					links.push({ source: src, target: tgt, type: e.type });
+				}
 			}
 		}
 
-		if (nodes.length > 500) {
-			const priority = { finding: 0, claim: 1, source: 2, extract: 3 };
-			nodes.sort((a, b) => (priority[a.type as keyof typeof priority] ?? 9) - (priority[b.type as keyof typeof priority] ?? 9));
-			const kept = new Set(nodes.slice(0, 500).map(n => n.id));
-			nodes = nodes.filter(n => kept.has(n.id));
-			links = links.filter(l => {
-				const s = typeof l.source === 'string' ? l.source : (l.source as any).id;
-				const t = typeof l.target === 'string' ? l.target : (l.target as any).id;
-				return kept.has(s) && kept.has(t);
-			});
+		// Add transitive links through hidden nodes
+		for (const [, neighbors] of hiddenAdj) {
+			const arr = [...neighbors];
+			for (let i = 0; i < arr.length; i++) {
+				for (let j = i + 1; j < arr.length; j++) {
+					const key = `${arr[i]}→${arr[j]}`;
+					const keyRev = `${arr[j]}→${arr[i]}`;
+					if (!linkSet.has(key) && !linkSet.has(keyRev)) {
+						linkSet.add(key);
+						links.push({ source: arr[i], target: arr[j], type: 'indirect' });
+					}
+				}
+			}
 		}
+
+		graphStats = { nodes: nodes.length, links: links.length, indirect: links.filter(l => l.type === 'indirect').length };
 
 		const svg = d3.select(svgEl);
 		svg.selectAll('*').remove();
@@ -162,8 +251,11 @@
 			.on('zoom', (event) => g.attr('transform', event.transform))
 		);
 
-		const link = g.append('g').attr('stroke', '#E5E2DB').attr('stroke-opacity', 0.6)
-			.selectAll('line').data(links).join('line').attr('stroke-width', 1);
+		const linkColor = getComputedStyle(document.documentElement).getPropertyValue('--color-border').trim() || '#E5E2DB';
+		const link = g.append('g').attr('stroke', linkColor).attr('stroke-opacity', 0.5)
+			.selectAll('line').data(links).join('line')
+			.attr('stroke-width', (d: any) => d.type === 'indirect' ? 1 : 1.5)
+			.attr('stroke-dasharray', (d: any) => d.type === 'indirect' ? '4,3' : null);
 
 		let dragged = false;
 		const node = g.append('g')
@@ -184,10 +276,32 @@
 				})
 			);
 
+		const cx = width / 2, cy = height / 2;
+
+		// Layered Y positions: source → claim/extract → finding (top to bottom)
+		const layerY: Record<string, number> = {
+			source: cy * 0.35,
+			extract: cy,
+			claim: cy,
+			finding: cy * 1.65
+		};
+
+		const hasAlign = alignBy !== '';
+
 		simulation = d3.forceSimulation(nodes)
-			.force('link', d3.forceLink<GNode, GLink>(links).id(d => d.id).distance(30))
-			.force('charge', d3.forceManyBody().strength(-40))
-			.force('center', d3.forceCenter(width / 2, height / 2))
+			.force('link', d3.forceLink<GNode, GLink>(links).id(d => d.id).distance(d => {
+				if (hasAlign) {
+					const s = (d.source as GNode).type, t = (d.target as GNode).type;
+					return (s === alignBy || t === alignBy) ? 20 : 40;
+				}
+				return 30;
+			}))
+			.force('charge', d3.forceManyBody().strength(d => hasAlign && (d as GNode).type === alignBy ? -80 : -40))
+			.force('x', d3.forceX(cx).strength(d => hasAlign && (d as GNode).type === alignBy ? 0.15 : 0.02))
+			.force('y', d3.forceY<GNode>(d => {
+				if (hasAlign) return (d as GNode).type === alignBy ? cy : cy;
+				return layerY[(d as GNode).type] ?? cy;
+			}).strength(d => hasAlign ? ((d as GNode).type === alignBy ? 0.15 : 0.02) : 0.12))
 			.force('collision', d3.forceCollide<GNode>().radius(d => d.radius + 2))
 			.on('tick', () => {
 				link.attr('x1', (d: any) => d.source.x).attr('y1', (d: any) => d.source.y)
@@ -218,6 +332,7 @@
 	$effect(() => {
 		void app.graph;
 		void visible;
+		void alignBy;
 		void filterAuthor;
 		void categoryFilter;
 		void app.searchQuery;
@@ -229,11 +344,25 @@
 {#if app.graph}
 	<div class="toolbar">
 		{#each Object.entries(visible) as [type, on]}
-			<button class="cat-pill entity-pill" class:active={on} onclick={() => { visible = { ...visible, [type]: !on }; }}>
-				<span class="entity-dot" style="background:{typeColor(type)}"></span>
-				{type}s <span class="cat-count">{typeCounts.get(type) ?? 0}</span>
-			</button>
+			<div class="entity-group">
+				<button class="cat-pill entity-pill" class:active={on} onclick={() => { visible = { ...visible, [type]: !on }; }}>
+					<span class="entity-dot" style="background:{typeColor(type)}"></span>
+					{type}s <span class="cat-count">{typeCounts.get(type) ?? 0}</span>
+				</button>
+				{#if on}
+					<button
+						class="align-btn"
+						class:aligned={alignBy === type}
+						title="Align graph by {type}s"
+						onclick={() => { alignBy = alignBy === type ? '' : type; }}
+					>
+						<Icon name="conclusions" size={12} />
+					</button>
+				{/if}
+			</div>
 		{/each}
+
+		<span class="toolbar-sep"></span>
 		{#if categories.length > 0}
 			<select bind:value={categoryFilter}>
 				<option value="all">All categories</option>
@@ -246,12 +375,13 @@
 			<option value="">All authors</option>
 			{#each authors as a}<option value={a}>{a}</option>{/each}
 		</select>
+		<span class="graph-stats">{graphStats.nodes} nodes · {graphStats.links} links{graphStats.indirect > 0 ? ` (${graphStats.indirect} indirect)` : ''}</span>
 	</div>
 
 	<div class="graph-layout">
 		<div class="graph-container">
 			<svg bind:this={svgEl} {width} {height}></svg>
-			{#if hoveredNode && !selectedNode}
+			{#if hoveredNode}
 				<div class="tooltip">
 					<span class="type-badge" style="background:{typeColor(hoveredNode.type)}">{hoveredNode.type}</span>
 					<strong>{hoveredNode.label}</strong>
@@ -359,6 +489,40 @@
 		max-width: 80vw;
 	}
 
+	.toolbar-sep {
+		width: 1px;
+		height: 20px;
+		background: var(--color-border-light);
+		margin: 0 var(--space-1);
+	}
+	.entity-group {
+		display: inline-flex;
+		align-items: center;
+		gap: 2px;
+	}
+	.align-btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 22px;
+		height: 22px;
+		border: 1px solid var(--color-border-light);
+		border-radius: 50%;
+		background: var(--color-surface);
+		color: var(--color-text-tertiary);
+		cursor: pointer;
+		transition: all 0.15s;
+		padding: 0;
+	}
+	.align-btn:hover {
+		border-color: var(--color-border);
+		color: var(--color-text);
+	}
+	.align-btn.aligned {
+		background: var(--color-primary);
+		border-color: var(--color-primary);
+		color: white;
+	}
 	.cat-pill {
 		display: inline-flex;
 		align-items: center;
@@ -378,9 +542,9 @@
 		color: var(--color-text);
 	}
 	.cat-pill.active {
-		background: var(--color-text);
-		border-color: var(--color-text);
-		color: var(--color-surface);
+		background: var(--color-surface-hover);
+		border-color: var(--color-border);
+		color: var(--color-text);
 		font-weight: var(--font-weight-medium);
 	}
 	.cat-count {
@@ -395,6 +559,12 @@
 	}
 	.entity-pill:not(.active) {
 		opacity: 0.5;
+	}
+
+	.graph-stats {
+		font-size: var(--font-size-xs);
+		color: var(--color-text-tertiary);
+		margin-left: auto;
 	}
 
 	/* Layout */

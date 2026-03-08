@@ -1,59 +1,71 @@
 # Site Backlog
 
-Issues and improvements identified from visual review (2026-03-08).
+Issues and improvements identified from visual review. Updated 2026-03-08.
 
 ## Bugs
 
-- [ ] **Visuals: broken images** — `image_path` in visuals.json points to files that don't exist in `static/data/images/`. Back-end exporter needs to copy/generate the image files. Front-end path fix applied (was double-prefixing).
-- [ ] **Sources: empty status column** — `sources.json` lacks `status` field. Needs re-export from back-end after graph DB update. Front-end rendering is ready.
-- [ ] **Conclusions: empty page** — Shows "No conclusions available yet." despite `conclusions.json` existing. Likely a data/export issue — needs re-export.
-- [ ] **Dashboard: missing data** — "Unique Claims" and "Contradictions" show 0. Either data hasn't been generated or stats.json needs update.
+- [ ] **Visuals: broken images** — `image_path` in visuals.json points to files that don't exist in `static/data/images/`. Back-end exporter needs to copy/generate the image files.
+- [x] ~~**Sources: empty status column**~~ — Fixed: sources.json now includes `status` and `quality_status` fields.
+- [ ] **Conclusions: empty page** — Shows "No conclusions available yet." despite `conclusions.json` existing. Likely a data/export issue.
+- [x] ~~**Dashboard: missing data**~~ — Fixed: dashboard now shows donut charts, pipeline, top sources. Some stats still depend on data export.
+
+## Completed (2026-03-08)
+
+- [x] **Dashboard enriched** — Donut charts (status + types), pipeline progress, top sources by relevance scoring, key findings
+- [x] **Dashboard stat cards link** — Clicking cards navigates to corresponding tab
+- [x] **Theme persistence** — Custom themes saved to localStorage with restore-to-default in Style Guide
+- [x] **Three color themes** — Warm, Cool, Yello with light/dark mode; entity colors redesigned for distinguishability
+- [x] **Dark mode** — Full dark palette for all three themes
+- [x] **Radius tokens in Style Guide** — Sliders with descriptions of affected elements
+- [x] **Source quality indicators** — `quality_status` column with colored dots, hover tooltips, quality filtering
+- [x] **Graph: transitive links** — Shows indirect links through hidden extract nodes
+- [x] **Graph: layered layout** — Sources top, claims/extracts middle, findings bottom
+- [x] **Graph: source impact sizing** — Node radius proportional to finding-reaching claims
+- [x] **Graph: align-by** — Target icon on entity pills to pull type to center
+- [x] **Graph: smart extract filtering** — Only shows chain extracts (connected to claims), not 5000+ leaf nodes
+- [x] **Graph: theme-aware colors** — Links and nodes read from CSS tokens, update with theme
+- [x] **Graph: tooltips on hover** — Shows type + label on hover regardless of selection
+- [x] **Graph: stats counter** — Toolbar shows node/link/indirect counts
+- [x] **WIP badge** — "Work in progress" next to page title
+- [x] **GitHub Pages deployment** — `/insight` base path, visuals excluded from build
+- [x] **About page** — Project overview with animated traceability chain SVG, page navigation cards
+- [x] **Library (Deep Dive) rename** — Tab label changed, dev-only
 
 ## Design Issues
 
-- [ ] **Dashboard is too sparse** — Only 4 stat cards at the top, rest of page is empty. Should show more: findings summary, source type breakdown, pipeline status overview, recent activity.
-- [ ] **Dashboard stat cards don't link anywhere** — Clicking "61 Sources" should navigate to the Sources tab. Same for Findings, Claims.
-- [ ] **Inconsistent toolbar patterns** — Sources/Findings use category pills, Graph uses pills + dropdowns, Visuals uses only dropdowns. Should standardize: pills for primary filter, dropdown for secondary.
-- [ ] **Findings category pills have long labels** — "Strategy & Transformation" wraps awkwardly on smaller screens. Consider truncation or a max-width.
-- [ ] **Graph: no legend** — Node colors (orange=source, blue=claim, terracotta=finding) have no visible legend. The entity pills in the toolbar serve as a partial legend but aren't labeled as such.
-- [ ] **Graph: detail panel shows raw IDs** — `ea-for-ai:source-001` should use `shortId()` formatting (S-001).
-- [ ] **Visuals: placeholder icons instead of images** — Shows broken image icon where images should be. Need placeholder/fallback treatment.
-- [ ] **Topic selector truncated** — Sidebar shows "Enterprise Architecture for .." with ellipsis. Consider tooltip or wider sidebar for long topic names.
-- [ ] **No loading states** — Pages flash empty then populate. Should show skeleton/shimmer states during data fetch.
+- [ ] **Findings category pills have long labels** — "Strategy & Transformation" wraps awkwardly on smaller screens.
+- [ ] **Graph: detail panel shows raw IDs** — Should use `shortId()` formatting (S-001).
+- [ ] **Visuals: placeholder icons instead of images** — Need placeholder/fallback treatment.
+- [ ] **Topic selector truncated** — Consider tooltip or wider sidebar for long topic names.
+- [ ] **No loading states** — Pages flash empty then populate. Should show skeleton/shimmer states.
 
 ## Improvements
 
 ### High Priority
 
-- [ ] **Enrich the Dashboard** — Add: source pipeline funnel (discovered→collected→extracted→analyzed counts), findings by category bar chart, source type distribution, extract type distribution, key metrics trend.
-- [ ] **Add image placeholders on Visuals** — Show a styled placeholder with the visual type icon when images are missing, instead of broken img.
-- [ ] **Clickable dashboard cards** — Navigate to the relevant tab on click.
-- [ ] **Consistent empty states** — All pages should have the same style and include a helpful message about what data is expected.
+- [ ] **Add image placeholders on Visuals** — Styled placeholder with visual type icon when images are missing.
+- [ ] **Consistent empty states** — All pages should have the same style with helpful messages.
 
 ### Medium Priority
 
-- [ ] **Source detail drawer/panel** — Click a source row to see its extracts, claims, and findings inline (like Deep Dive but lighter).
-- [ ] **Finding detail expansion** — Expand a finding to see full claim details with source quotes inline. Currently collapses/expands but could show more context.
-- [ ] **Graph: node labels on hover** — Show node title as a tooltip or floating label, not just in the side panel.
-- [ ] **Graph: zoom controls** — Add +/- buttons and reset-zoom, not just scroll-to-zoom.
-- [ ] **Keyboard navigation** — Arrow keys to move between sources in Deep Dive, Escape to close expanded findings, Tab navigation through pills.
-- [ ] **Search results highlight** — When searching, highlight matching text in results (yellow background on matched substring).
-- [ ] **Breadcrumb / context indicator** — When filtering by category on Findings, show an active filter indicator that can be dismissed.
+- [ ] **Source detail drawer/panel** — Click a source row to see extracts, claims, findings inline.
+- [ ] **Graph: zoom controls** — Add +/- buttons and reset-zoom.
+- [ ] **Keyboard navigation** — Arrow keys in Deep Dive, Escape to close, Tab through pills.
+- [ ] **Search results highlight** — Yellow highlight on matched substring.
+- [ ] **Breadcrumb / context indicator** — Active filter indicator on Findings.
 
 ### Low Priority
 
-- [ ] **Dark mode** — Define dark token overrides. The warm palette maps well: bg→dark brown, surface→dark gray, text→off-white.
-- [ ] **Print stylesheet** — Research reports should be printable. Hide sidebar, nav, search. Use serif font for body text.
-- [ ] **Export to PDF** — Let users export a finding or the full report as PDF.
-- [ ] **Mobile layout** — Full responsive treatment. Current 768px breakpoint only collapses sidebar. Tables, grids, and the Deep Dive layout need mobile versions.
-- [ ] **Accessibility audit** — ARIA labels on icon buttons, focus management for tab switches, screen reader testing.
-- [ ] **Animation: page transitions** — Subtle fade/slide when switching tabs (Svelte transition directives).
-- [ ] **Favicon** — Currently using default. Create an Insight-branded favicon.
+- [ ] **Print stylesheet** — Research reports should be printable.
+- [ ] **Export to PDF** — Export finding or full report.
+- [ ] **Mobile layout** — Full responsive treatment beyond sidebar collapse.
+- [ ] **Accessibility audit** — ARIA labels, focus management, screen reader testing.
+- [ ] **Animation: page transitions** — Subtle fade/slide on tab switch.
+- [ ] **Favicon** — Create an Insight-branded favicon.
 
 ## Technical Debt
 
-- [ ] **Duplicate pill styles** — `.cat-pill` is defined identically in FindingsView, SourcesTable, and GraphView. Extract to `base.css` as a shared component.
-- [ ] **Hardcoded colors in components** — Deep Dive uses hex values (`#3B6EC4`, `#C4841D`) instead of CSS tokens. Should reference `var(--color-claim)` etc. in the stacked bar chart.
-- [ ] **`any` types in components** — Many `$derived` blocks use `(s: any)` casts instead of proper typed interfaces.
-- [ ] **Graph component is monolithic** — `GraphView.svelte` is likely 400+ lines mixing D3 logic, UI, and styles. Could split into `GraphCanvas`, `GraphControls`, `GraphDetail`.
-- [ ] **No component documentation** — Each component should have a brief comment block describing its props, data dependencies, and role.
+- [ ] **Duplicate pill styles** — `.cat-pill` defined in FindingsView, SourcesTable, GraphView. Extract to `base.css`.
+- [ ] **Hardcoded colors in Deep Dive** — Should use `var(--color-claim)` tokens in stacked bar chart.
+- [ ] **`any` types in components** — Many `$derived` blocks use `(s: any)` instead of typed interfaces.
+- [ ] **Graph component is monolithic** — Could split into `GraphCanvas`, `GraphControls`, `GraphDetail`.

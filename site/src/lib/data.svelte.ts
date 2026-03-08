@@ -35,6 +35,8 @@ export interface Source {
 	extract_count: number;
 	claim_count: number;
 	finding_count: number;
+	quality_status?: string;
+	quality_issues?: string[];
 }
 
 export interface ClaimSource {

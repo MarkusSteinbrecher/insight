@@ -12,7 +12,11 @@
       "status": "analyzed",
       "extract_count": 398,
       "claim_count": 22,
-      "finding_count": 8
+      "finding_count": 8,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (4 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-002",
@@ -24,19 +28,25 @@
       "status": "analyzed",
       "extract_count": 132,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-003",
       "title": "Unlocking Enterprise AI: Opportunities and Strategies",
       "url": "",
       "author": "Economist Impact",
-      "date": "",
+      "date": "2024-08-01",
       "type": "pdf",
       "status": "analyzed",
       "extract_count": 644,
       "claim_count": 27,
-      "finding_count": 11
+      "finding_count": 11,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (13 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-004",
@@ -48,7 +58,9 @@
       "status": "analyzed",
       "extract_count": 124,
       "claim_count": 7,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-005",
@@ -60,19 +72,23 @@
       "status": "analyzed",
       "extract_count": 270,
       "claim_count": 19,
-      "finding_count": 9
+      "finding_count": 9,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-006",
       "title": "The Future of Enterprise Architecture in the Age of AI",
       "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
       "author": "staunstender.com",
-      "date": "",
+      "date": "2025-10-21",
       "type": "web",
       "status": "analyzed",
       "extract_count": 73,
       "claim_count": 8,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-008",
@@ -84,19 +100,23 @@
       "status": "analyzed",
       "extract_count": 58,
       "claim_count": 4,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-009",
       "title": "Enterprise Architecture Trends: What to Expect in 2026",
       "url": "https://www.boc-group.com/en/blog/ea/ea-outlook-trends-2025/",
       "author": "www.boc-group.com",
-      "date": "",
+      "date": "2025-01-01",
       "type": "web",
       "status": "analyzed",
       "extract_count": 66,
       "claim_count": 6,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-010",
@@ -108,7 +128,9 @@
       "status": "analyzed",
       "extract_count": 14,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-011",
@@ -120,7 +142,12 @@
       "status": "extracted",
       "extract_count": 12,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "high-noise",
+      "quality_issues": [
+        "high-noise (67%)",
+        "thin-content (3 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-012",
@@ -132,7 +159,11 @@
       "status": "analyzed",
       "extract_count": 15,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "high-noise",
+      "quality_issues": [
+        "high-noise (53%)"
+      ]
     },
     {
       "id": "ea-for-ai:source-013",
@@ -144,19 +175,27 @@
       "status": "analyzed",
       "extract_count": 35,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (4 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-014",
       "title": "The great rebuild: Architecting an AI",
       "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
       "author": "Deloitte Insights",
-      "date": "",
+      "date": "2025-12-09",
       "type": "web",
       "status": "extracted",
       "extract_count": 4,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (3 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-015",
@@ -168,7 +207,9 @@
       "status": "analyzed",
       "extract_count": 111,
       "claim_count": 5,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-016",
@@ -180,7 +221,9 @@
       "status": "analyzed",
       "extract_count": 83,
       "claim_count": 8,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-017",
@@ -192,67 +235,81 @@
       "status": "analyzed",
       "extract_count": 42,
       "claim_count": 6,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-019",
       "title": "Building Enterprise AI Maturity",
       "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian",
       "author": "MIT CISR",
-      "date": "",
+      "date": "2022-10-01",
       "type": "web",
       "status": "analyzed",
       "extract_count": 137,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-020",
       "title": "The agentic reality check: Preparing for a silicon",
       "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
       "author": "Deloitte Insights",
-      "date": "",
+      "date": "2025-12-10",
       "type": "web",
       "status": "analyzed",
       "extract_count": 4,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (3 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-021",
       "title": "The PBSAI Governance Ecosystem: A Multi",
       "url": "https://arxiv.org/abs/2602.11301",
       "author": "arXiv.org",
-      "date": "",
+      "date": "2026-02-11",
       "type": "web",
       "status": "analyzed",
       "extract_count": 25,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-022",
       "title": "The enterprise IT overhaul: Architecting your stack for the agentic AI era",
       "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
       "author": "CIO",
-      "date": "",
+      "date": "2025-11-10",
       "type": "web",
       "status": "analyzed",
       "extract_count": 103,
       "claim_count": 10,
-      "finding_count": 8
+      "finding_count": 8,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-023",
       "title": "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI adoption: Bridging Innovation and Governance in Large Organisations",
       "url": "https://arxiv.org/abs/2505.06326",
       "author": "arXiv.org",
-      "date": "",
+      "date": "2025-05-09",
       "type": "web",
       "status": "analyzed",
       "extract_count": 25,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-025",
@@ -264,7 +321,9 @@
       "status": "analyzed",
       "extract_count": 11,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-026",
@@ -276,7 +335,11 @@
       "status": "analyzed",
       "extract_count": 94,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (11 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-027",
@@ -288,31 +351,39 @@
       "status": "analyzed",
       "extract_count": 86,
       "claim_count": 4,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-029",
       "title": "Why You \u2014 Yes, You \u2014 Need Enterprise Architecture",
       "url": "https://sloanreview.mit.edu/article/why-you-yes-you-need-enterprise-architecture/",
       "author": "MIT Sloan Management Review",
-      "date": "",
+      "date": "2025-01-01",
       "type": "web",
       "status": "analyzed",
       "extract_count": 92,
       "claim_count": 3,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-030",
       "title": "Top 3 Strategic Priorities for Heads of Enterprise Architecture Leadership Vision for 2026",
       "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
       "author": "Gartner",
-      "date": "",
+      "date": "2025-01-01",
       "type": "web",
       "status": "collected",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "not-extracted",
+      "quality_issues": [
+        "not-extracted"
+      ]
     },
     {
       "id": "ea-for-ai:source-031",
@@ -324,7 +395,11 @@
       "status": "analyzed",
       "extract_count": 236,
       "claim_count": 17,
-      "finding_count": 8
+      "finding_count": 8,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (7 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-032",
@@ -336,7 +411,9 @@
       "status": "analyzed",
       "extract_count": 68,
       "claim_count": 9,
-      "finding_count": 6
+      "finding_count": 6,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-033",
@@ -348,7 +425,9 @@
       "status": "analyzed",
       "extract_count": 51,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-034",
@@ -360,7 +439,9 @@
       "status": "analyzed",
       "extract_count": 87,
       "claim_count": 6,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-035",
@@ -372,7 +453,9 @@
       "status": "analyzed",
       "extract_count": 24,
       "claim_count": 6,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-036",
@@ -384,31 +467,37 @@
       "status": "analyzed",
       "extract_count": 111,
       "claim_count": 8,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-040",
       "title": "Top Tech Trends of 2026",
       "url": "https://www.capgemini.com/insights/research-library/top-tech-trends-of-2026/",
       "author": "Capgemini",
-      "date": "",
+      "date": "2026-01-12",
       "type": "web",
       "status": "analyzed",
       "extract_count": 69,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-041",
       "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
       "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
       "author": "Capgemini",
-      "date": "",
+      "date": "2026-01-15",
       "type": "web",
       "status": "analyzed",
       "extract_count": 34,
       "claim_count": 4,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-042",
@@ -420,19 +509,23 @@
       "status": "analyzed",
       "extract_count": 40,
       "claim_count": 5,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-043",
       "title": "EY launches EY.ai Value Blueprints to accelerate businesses\u2019 path toward AI",
       "url": "https://www.ey.com/en_us/newsroom/2025/12/ey-launches-ey-ai-value-blueprints-to-accelerate-businesses-path-toward-ai-native-enterprises",
       "author": "authorsalutation:|authorfirstname:Renny|authorlastname:Popoola|authorjobtitle:EY Global Media Relations and Social Media Leader, Service Lines and Corporate Programs|authorurl:https://www.ey.com/en_us/people/renny-popoola",
-      "date": "",
+      "date": "2025-12-01",
       "type": "web",
       "status": "analyzed",
       "extract_count": 44,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-044",
@@ -444,55 +537,69 @@
       "status": "analyzed",
       "extract_count": 26,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-045",
       "title": "Tech industry enters a hyper",
       "url": "https://www.ey.com/en_gl/newsroom/2025/12/tech-industry-enters-a-hyper-velocity-ai-moment-unlocking-new-opportunities-for-2026",
       "author": "authorsalutation:|authorfirstname:EY|authorlastname:Global|authorjobtitle:Multidisciplinary professional services organization|authorurl:https://www.ey.com/en_gl/people/ey",
-      "date": "",
+      "date": "2025-12-01",
       "type": "web",
       "status": "analyzed",
       "extract_count": 37,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-046",
       "title": "Global tech report 2026",
       "url": "https://kpmg.com/xx/en/our-insights/ai-and-technology/global-tech-report.html",
       "author": "KPMG",
-      "date": "",
+      "date": "2026-02-26",
       "type": "web",
       "status": "analyzed",
       "extract_count": 52,
       "claim_count": 2,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (5 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-047",
       "title": "AI and Transformations: The enterprise power couple",
       "url": "https://kpmg.com/us/en/articles/2025/ai-transformations-enterprise-power-couple.html",
       "author": "KPMG",
-      "date": "",
+      "date": "2025-12-10",
       "type": "web",
       "status": "analyzed",
       "extract_count": 58,
       "claim_count": 3,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (4 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-048",
       "title": "Is your infrastructure ready for your AI aspirations?",
       "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
       "author": "KPMG",
-      "date": "",
+      "date": "2025-08-22",
       "type": "web",
       "status": "analyzed",
       "extract_count": 56,
       "claim_count": 5,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-052",
@@ -504,7 +611,11 @@
       "status": "analyzed",
       "extract_count": 116,
       "claim_count": 2,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (4 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-053",
@@ -516,7 +627,11 @@
       "status": "analyzed",
       "extract_count": 8,
       "claim_count": 2,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (3 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-054",
@@ -528,7 +643,11 @@
       "status": "analyzed",
       "extract_count": 8,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (3 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-055",
@@ -540,7 +659,9 @@
       "status": "analyzed",
       "extract_count": 162,
       "claim_count": 5,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-056",
@@ -552,7 +673,9 @@
       "status": "analyzed",
       "extract_count": 588,
       "claim_count": 7,
-      "finding_count": 7
+      "finding_count": 7,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-058",
@@ -564,7 +687,9 @@
       "status": "analyzed",
       "extract_count": 130,
       "claim_count": 5,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-059",
@@ -576,7 +701,11 @@
       "status": "analyzed",
       "extract_count": 133,
       "claim_count": 4,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (5 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-060",
@@ -588,19 +717,23 @@
       "status": "analyzed",
       "extract_count": 75,
       "claim_count": 3,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-061",
       "title": "How to build an AI",
       "url": "https://www.cio.com/article/3978635/how-to-build-an-ai-ready-organization-the-enterprise-intelligence-architecture.html",
       "author": "CIO",
-      "date": "",
+      "date": "2025-05-07",
       "type": "web",
       "status": "analyzed",
       "extract_count": 70,
       "claim_count": 8,
-      "finding_count": 7
+      "finding_count": 7,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-062",
@@ -612,7 +745,9 @@
       "status": "analyzed",
       "extract_count": 60,
       "claim_count": 2,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-063",
@@ -624,19 +759,23 @@
       "status": "analyzed",
       "extract_count": 93,
       "claim_count": 3,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-064",
       "title": "What is the role of gen AI in enterprise architecture?",
       "url": "https://tyk.io/learning-center/ai-enterprise-architecture/",
       "author": "Tyk API Management",
-      "date": "",
+      "date": "2025-11-20",
       "type": "web",
       "status": "analyzed",
       "extract_count": 150,
       "claim_count": 10,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-065",
@@ -648,19 +787,23 @@
       "status": "analyzed",
       "extract_count": 60,
       "claim_count": 4,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-066",
       "title": "The Role of AI in Enterprise Architecture: A Future Outlook",
       "url": "https://www.valueblue.com/blog/the-role-of-ai-in-enterprise-architecture-a-future-outlook",
       "author": "valueblue.com",
-      "date": "",
+      "date": "2025-10-30",
       "type": "web",
       "status": "analyzed",
       "extract_count": 87,
       "claim_count": 3,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-067",
@@ -672,7 +815,11 @@
       "status": "analyzed",
       "extract_count": 434,
       "claim_count": 6,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "high-noise",
+      "quality_issues": [
+        "high-noise (74%)"
+      ]
     },
     {
       "id": "ea-for-ai:source-068",
@@ -684,7 +831,9 @@
       "status": "analyzed",
       "extract_count": 68,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-069",
@@ -696,7 +845,9 @@
       "status": "analyzed",
       "extract_count": 26,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-070",
@@ -708,7 +859,9 @@
       "status": "analyzed",
       "extract_count": 41,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-071",
@@ -720,19 +873,23 @@
       "status": "analyzed",
       "extract_count": 57,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-072",
       "title": "AI in Enterprise Architecture: Strategy, Design & Impact (2026)",
       "url": "https://www.stackai.com/blog/the-role-of-ai-in-enterprise-architecture",
       "author": "stackai.com",
-      "date": "",
+      "date": "2025-07-28",
       "type": "web",
       "status": "analyzed",
       "extract_count": 333,
       "claim_count": 11,
-      "finding_count": 7
+      "finding_count": 7,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-073",
@@ -744,7 +901,9 @@
       "status": "analyzed",
       "extract_count": 307,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-074",
@@ -756,19 +915,23 @@
       "status": "analyzed",
       "extract_count": 158,
       "claim_count": 6,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-075",
       "title": "Agentic AI and Enterprise Architecture in 2026",
       "url": "https://www.valueblue.com/blog/agentic-ai-and-enterprise-architecture-in-2026",
       "author": "valueblue.com",
-      "date": "",
+      "date": "2026-02-06",
       "type": "web",
       "status": "analyzed",
       "extract_count": 50,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-076",
@@ -780,7 +943,9 @@
       "status": "analyzed",
       "extract_count": 116,
       "claim_count": 5,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-077",
@@ -792,7 +957,9 @@
       "status": "analyzed",
       "extract_count": 42,
       "claim_count": 4,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-078",
@@ -804,7 +971,9 @@
       "status": "analyzed",
       "extract_count": 181,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-079",
@@ -816,19 +985,23 @@
       "status": "analyzed",
       "extract_count": 46,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-080",
       "title": "AI-Powered TOGAF ADM Software",
       "url": "https://updates.visual-paradigm.com/releases/ai-powered-togaf-guide-through-release/",
       "author": "Visual Paradigm Product Updates",
-      "date": "",
+      "date": "2026-01-19",
       "type": "web",
       "status": "analyzed",
       "extract_count": 57,
       "claim_count": 2,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-081",
@@ -840,19 +1013,23 @@
       "status": "analyzed",
       "extract_count": 71,
       "claim_count": 3,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-082",
       "title": "8 Ways AI Is Transforming Enterprise Architecture",
       "url": "https://www.valueblue.com/blog/8-ways-ai-is-transforming-enterprise-architecture",
       "author": "valueblue.com",
-      "date": "",
+      "date": "2025-11-06",
       "type": "web",
       "status": "analyzed",
       "extract_count": 81,
       "claim_count": 3,
-      "finding_count": 2
+      "finding_count": 2,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-083",
@@ -864,7 +1041,11 @@
       "status": "analyzed",
       "extract_count": 336,
       "claim_count": 10,
-      "finding_count": 4
+      "finding_count": 4,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (6 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-084",
@@ -876,31 +1057,37 @@
       "status": "analyzed",
       "extract_count": 270,
       "claim_count": 15,
-      "finding_count": 7
+      "finding_count": 7,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-085",
       "title": "Enterprise Agentic AI Architecture Guide 2026",
       "url": "https://www.kellton.com/kellton-tech-blog/enterprise-agentic-ai-architecture",
       "author": "kellton.com",
-      "date": "",
+      "date": "2025-01-01",
       "type": "web",
       "status": "analyzed",
       "extract_count": 140,
       "claim_count": 5,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-086",
       "title": "How to get your enterprise architecture ready for agentic AI",
       "url": "https://www.cio.com/article/4119297/how-to-get-your-enterprise-architecture-ready-for-agentic-ai.html",
       "author": "CIO",
-      "date": "",
+      "date": "2026-01-22",
       "type": "web",
       "status": "analyzed",
       "extract_count": 75,
       "claim_count": 7,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-087",
@@ -912,7 +1099,9 @@
       "status": "analyzed",
       "extract_count": 74,
       "claim_count": 8,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-088",
@@ -924,7 +1113,12 @@
       "status": "analyzed",
       "extract_count": 21,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "high-noise",
+      "quality_issues": [
+        "high-noise (81%)",
+        "thin-content (1 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-089",
@@ -936,7 +1130,9 @@
       "status": "analyzed",
       "extract_count": 238,
       "claim_count": 10,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-090",
@@ -948,7 +1144,9 @@
       "status": "analyzed",
       "extract_count": 57,
       "claim_count": 4,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-091",
@@ -960,7 +1158,9 @@
       "status": "analyzed",
       "extract_count": 47,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-092",
@@ -972,7 +1172,9 @@
       "status": "analyzed",
       "extract_count": 54,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-093",
@@ -984,7 +1186,9 @@
       "status": "analyzed",
       "extract_count": 73,
       "claim_count": 4,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-094",
@@ -996,7 +1200,9 @@
       "status": "analyzed",
       "extract_count": 232,
       "claim_count": 10,
-      "finding_count": 6
+      "finding_count": 6,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-095",
@@ -1008,31 +1214,39 @@
       "status": "analyzed",
       "extract_count": 23,
       "claim_count": 3,
-      "finding_count": 3
+      "finding_count": 3,
+      "quality_status": "block-quality",
+      "quality_issues": [
+        "block-quality (4 high-severity issues)"
+      ]
     },
     {
       "id": "ea-for-ai:source-096",
       "title": "Rewriting the rules of enterprise architecture with AI agents",
       "url": "https://www.cio.com/article/4018758/rewriting-the-rules-of-enterprise-architecture-with-ai-agents.html",
       "author": "CIO",
-      "date": "",
+      "date": "2025-07-09",
       "type": "web",
       "status": "analyzed",
       "extract_count": 109,
       "claim_count": 11,
-      "finding_count": 7
+      "finding_count": 7,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-097",
       "title": "Why enterprise architecture needs a new playbook",
       "url": "https://www.cio.com/article/3984410/data-agents-and-governance-why-enterprise-architecture-needs-a-new-playbook.html",
       "author": "CIO",
-      "date": "",
+      "date": "2025-05-14",
       "type": "web",
       "status": "analyzed",
       "extract_count": 111,
       "claim_count": 9,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-098",
@@ -1044,7 +1258,9 @@
       "status": "analyzed",
       "extract_count": 110,
       "claim_count": 6,
-      "finding_count": 5
+      "finding_count": 5,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-099",
@@ -1056,7 +1272,11 @@
       "status": "analyzed",
       "extract_count": 9,
       "claim_count": 1,
-      "finding_count": 1
+      "finding_count": 1,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (1 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-100",
@@ -1068,7 +1288,11 @@
       "status": "extracted",
       "extract_count": 3,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (0 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-101",
@@ -1080,7 +1304,12 @@
       "status": "extracted",
       "extract_count": 9,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "high-noise",
+      "quality_issues": [
+        "high-noise (89%)",
+        "thin-content (0 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-103",
@@ -1092,7 +1321,12 @@
       "status": "extracted",
       "extract_count": 5,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "high-noise",
+      "quality_issues": [
+        "high-noise (80%)",
+        "thin-content (0 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-104",
@@ -1104,7 +1338,11 @@
       "status": "extracted",
       "extract_count": 8,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (0 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-105",
@@ -1116,7 +1354,11 @@
       "status": "extracted",
       "extract_count": 4,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "thin-content",
+      "quality_issues": [
+        "thin-content (1 signal extracts)"
+      ]
     },
     {
       "id": "ea-for-ai:source-007",
@@ -1128,7 +1370,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-018",
@@ -1140,7 +1386,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-024",
@@ -1152,7 +1402,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-037",
@@ -1164,7 +1418,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-038",
@@ -1176,7 +1434,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-039",
@@ -1188,7 +1450,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-049",
@@ -1200,7 +1466,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-050",
@@ -1212,7 +1482,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-057",
@@ -1224,7 +1498,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     },
     {
       "id": "ea-for-ai:source-102",
@@ -1236,7 +1514,11 @@
       "status": "discovered",
       "extract_count": 0,
       "claim_count": 0,
-      "finding_count": 0
+      "finding_count": 0,
+      "quality_status": "pending",
+      "quality_issues": [
+        "not-collected"
+      ]
     }
   ]
 }

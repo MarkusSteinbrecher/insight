@@ -20,15 +20,18 @@ Source → Extract → Claim → Finding → Recommendation
 
 The interactive dashboard lets you explore the research landscape:
 
-- **Dashboard** — overview stats and key findings
-- **Sources** — sortable table of all collected sources
-- **Findings** — expandable findings with linked claims and source quotes
-- **Graph** — force-directed knowledge graph visualization
-- **Deep Dive** — source-by-source inspector with embedded preview and extracts
-- **Conclusions** — recommendations and thought leadership angles
+- **Dashboard** — overview stats, source breakdown, pipeline progress, and top contributing sources
+- **Sources** — sortable table with quality indicators, status tracking, and type/quality filtering
+- **Findings** — expandable findings with linked claims, source quotes, and category grouping
+- **Graph** — force-directed knowledge graph with layered layout, transitive links, source impact sizing, and align-by controls
+- **Conclusions** — recommendations and thought leadership angles backed by the evidence chain
+- **About** — project overview with animated traceability chain diagram
+
+Three color themes (Warm, Cool, Yello) with light/dark mode. Theme customization persists via localStorage with restore-to-default.
 
 ## Built With
 
-- [SvelteKit](https://kit.svelte.dev/) with Svelte 5
+- [SvelteKit](https://kit.svelte.dev/) with Svelte 5 (runes-only)
 - [D3.js](https://d3js.org/) for graph visualization
 - [KuzuDB](https://kuzudb.com/) embedded graph database
+- Static adapter → GitHub Pages (`/insight`)
