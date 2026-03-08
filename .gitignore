@@ -24,5 +24,9 @@ dist/
 # Private repo content (lives in insight-private)
 knowledge-base/
 content/
-data/
+/data/
 .beads/
+
+# Exclude visuals from GitHub Pages
+docs/data/*/images/
+docs/data/*/visuals.json
