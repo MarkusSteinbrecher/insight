@@ -11,7 +11,7 @@
       "type": "pdf",
       "status": "analyzed",
       "extract_count": 398,
-      "claim_count": 19,
+      "claim_count": 22,
       "finding_count": 8
     },
     {
@@ -35,7 +35,7 @@
       "type": "pdf",
       "status": "analyzed",
       "extract_count": 644,
-      "claim_count": 25,
+      "claim_count": 27,
       "finding_count": 11
     },
     {
@@ -47,7 +47,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 124,
-      "claim_count": 6,
+      "claim_count": 7,
       "finding_count": 4
     },
     {
@@ -59,7 +59,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 270,
-      "claim_count": 18,
+      "claim_count": 19,
       "finding_count": 9
     },
     {
@@ -71,7 +71,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 73,
-      "claim_count": 6,
+      "claim_count": 8,
       "finding_count": 5
     },
     {
@@ -95,7 +95,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 66,
-      "claim_count": 5,
+      "claim_count": 6,
       "finding_count": 2
     },
     {
@@ -105,10 +105,10 @@
       "author": "ieeexplore.ieee.org",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 14,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-011",
@@ -129,10 +129,10 @@
       "author": "ieeexplore.ieee.org",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 15,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-013",
@@ -225,10 +225,10 @@
       "author": "arXiv.org",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 25,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-022",
@@ -239,7 +239,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 103,
-      "claim_count": 9,
+      "claim_count": 10,
       "finding_count": 8
     },
     {
@@ -249,10 +249,10 @@
       "author": "arXiv.org",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 25,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-025",
@@ -273,10 +273,10 @@
       "author": "MR Consultancy Services",
       "date": "2026-01-30",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 94,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-027",
@@ -297,10 +297,10 @@
       "author": "MIT Sloan Management Review",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 92,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-030",
@@ -323,7 +323,7 @@
       "type": "pdf",
       "status": "analyzed",
       "extract_count": 236,
-      "claim_count": 15,
+      "claim_count": 17,
       "finding_count": 8
     },
     {
@@ -335,7 +335,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 68,
-      "claim_count": 8,
+      "claim_count": 9,
       "finding_count": 6
     },
     {
@@ -371,7 +371,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 24,
-      "claim_count": 5,
+      "claim_count": 6,
       "finding_count": 5
     },
     {
@@ -383,7 +383,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 111,
-      "claim_count": 7,
+      "claim_count": 8,
       "finding_count": 4
     },
     {
@@ -515,7 +515,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 8,
-      "claim_count": 1,
+      "claim_count": 2,
       "finding_count": 1
     },
     {
@@ -525,10 +525,10 @@
       "author": "PricewaterhouseCoopers",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 8,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 2,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-055",
@@ -539,7 +539,7 @@
       "type": "web",
       "status": "analyzed",
       "extract_count": 162,
-      "claim_count": 3,
+      "claim_count": 5,
       "finding_count": 3
     },
     {
@@ -561,10 +561,10 @@
       "author": "ibm.com",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 130,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 5,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-059",
@@ -573,10 +573,10 @@
       "author": "InfoQ",
       "date": "2025-07-11",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 133,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 4,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-060",
@@ -585,10 +585,10 @@
       "author": "Neal Ford, Mark Richards",
       "date": "2025-11-19",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 75,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-061",
@@ -609,10 +609,10 @@
       "author": "Databricks",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 60,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 2,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-063",
@@ -621,10 +621,10 @@
       "author": "Stormap",
       "date": "2026-02-23",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 93,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-064",
@@ -633,10 +633,10 @@
       "author": "Tyk API Management",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 150,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 10,
+      "finding_count": 5
     },
     {
       "id": "ea-for-ai:source-065",
@@ -645,10 +645,10 @@
       "author": "Jitender Jain",
       "date": "2025-04-16",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 60,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 4,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-066",
@@ -657,10 +657,10 @@
       "author": "valueblue.com",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 87,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-067",
@@ -669,10 +669,10 @@
       "author": "infotech.com",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 434,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 6,
+      "finding_count": 4
     },
     {
       "id": "ea-for-ai:source-068",
@@ -681,10 +681,10 @@
       "author": "Ambika Sukla",
       "date": "2025-01-20",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 68,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-069",
@@ -693,10 +693,10 @@
       "author": "Carnegie Mellon University",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 26,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 2,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-070",
@@ -705,10 +705,10 @@
       "author": "Carnegie Mellon University",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 41,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 2,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-071",
@@ -717,10 +717,10 @@
       "author": "Architecture & Governance Magazine",
       "date": "2024-11-08",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 57,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 2,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-072",
@@ -729,10 +729,10 @@
       "author": "stackai.com",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 333,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 11,
+      "finding_count": 7
     },
     {
       "id": "ea-for-ai:source-073",
@@ -741,10 +741,10 @@
       "author": "Prem AI",
       "date": "2026-02-28",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 307,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 2,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-074",
@@ -753,10 +753,10 @@
       "author": "Leanware",
       "date": "2025-08-28",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 158,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 6,
+      "finding_count": 4
     },
     {
       "id": "ea-for-ai:source-075",
@@ -765,10 +765,10 @@
       "author": "valueblue.com",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 50,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-076",
@@ -777,10 +777,10 @@
       "author": "www.boc-group.com",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 116,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 5,
+      "finding_count": 4
     },
     {
       "id": "ea-for-ai:source-077",
@@ -789,10 +789,10 @@
       "author": "tismo.ai",
       "date": "2026-02-19",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 42,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 4,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-078",
@@ -801,10 +801,10 @@
       "author": "Trantorinc",
       "date": "2026-02-18",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 181,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-079",
@@ -825,10 +825,10 @@
       "author": "Visual Paradigm Product Updates",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 57,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 2,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-081",
@@ -837,10 +837,10 @@
       "author": "Transcend",
       "date": "2026-03-04",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 71,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-082",
@@ -849,10 +849,10 @@
       "author": "valueblue.com",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 81,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-083",
@@ -861,10 +861,10 @@
       "author": "kore.ai",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 336,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 10,
+      "finding_count": 4
     },
     {
       "id": "ea-for-ai:source-084",
@@ -873,10 +873,10 @@
       "author": "Salesforce Architects",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 270,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 15,
+      "finding_count": 7
     },
     {
       "id": "ea-for-ai:source-085",
@@ -885,10 +885,10 @@
       "author": "kellton.com",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 140,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 5,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-086",
@@ -897,10 +897,10 @@
       "author": "CIO",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 75,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 7,
+      "finding_count": 5
     },
     {
       "id": "ea-for-ai:source-087",
@@ -909,10 +909,10 @@
       "author": "ComputerWeekly.com",
       "date": "2025-12-09",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 74,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 8,
+      "finding_count": 5
     },
     {
       "id": "ea-for-ai:source-088",
@@ -921,10 +921,10 @@
       "author": "leena.ai",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 21,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-089",
@@ -933,10 +933,10 @@
       "author": "Salesforce Architects",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 238,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 10,
+      "finding_count": 5
     },
     {
       "id": "ea-for-ai:source-090",
@@ -945,10 +945,10 @@
       "author": "Neil Sheppard",
       "date": "2023-09-28",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 57,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 4,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-091",
@@ -957,10 +957,10 @@
       "author": "Paul Estrach",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 47,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-092",
@@ -981,10 +981,10 @@
       "author": "LeanIX",
       "date": "2024-06-27",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 73,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 4,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-094",
@@ -993,10 +993,10 @@
       "author": "Architecture & Governance Magazine",
       "date": "2023-12-15",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 232,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 10,
+      "finding_count": 6
     },
     {
       "id": "ea-for-ai:source-095",
@@ -1005,10 +1005,10 @@
       "author": "Process Excellence Network",
       "date": "2025-09-15",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 23,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-096",
@@ -1017,10 +1017,10 @@
       "author": "CIO",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 109,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 11,
+      "finding_count": 7
     },
     {
       "id": "ea-for-ai:source-097",
@@ -1029,10 +1029,10 @@
       "author": "CIO",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 111,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 9,
+      "finding_count": 5
     },
     {
       "id": "ea-for-ai:source-098",
@@ -1041,10 +1041,10 @@
       "author": "Bizzdesign",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 110,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 6,
+      "finding_count": 5
     },
     {
       "id": "ea-for-ai:source-099",
