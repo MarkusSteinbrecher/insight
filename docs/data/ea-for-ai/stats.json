@@ -1,12 +1,11 @@
 {
-  "generated": "2026-03-07",
-  "sources": 61,
+  "generated": "2026-03-08",
+  "sources": 52,
   "source_types": {
     "pdf": 5,
-    "web": 55,
-    "youtube": 1
+    "web": 47
   },
-  "total_extracts": 5367,
+  "total_extracts": 5270,
   "canonical_claims": 62,
   "unique_claims": 0,
   "contradictions": 0,
