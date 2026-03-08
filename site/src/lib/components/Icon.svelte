@@ -97,6 +97,24 @@
 	{:else if name === 'file-text'}
 		<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z" />
 		<path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" />
+	{:else if name === 'review'}
+		<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z" />
+		<path d="M14 2v6h6" />
+		<path d="M9 15l2 2 4-4" />
+	{:else if name === 'chevron-left'}
+		<path d="m15 18-6-6 6-6" />
+	{:else if name === 'save'}
+		<path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z" />
+		<polyline points="17 21 17 13 7 13 7 21" /><polyline points="7 3 7 8 15 8" />
+	{:else if name === 'flag'}
+		<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
+		<line x1="4" y1="22" x2="4" y2="15" />
+	{:else if name === 'download'}
+		<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" />
+	{:else if name === 'chevron-up'}
+		<path d="m18 15-6-6-6 6" />
+	{:else if name === 'check'}
+		<polyline points="20 6 9 17 4 12" />
 	{/if}
 </svg>
 

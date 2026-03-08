@@ -32,6 +32,7 @@
 		{ id: 'visuals', label: 'Visuals', icon: 'visuals', devOnly: true },
 		{ id: 'conclusions', label: 'Conclusions', icon: 'conclusions' },
 		{ id: 'deep-dive', label: 'Library', icon: 'deep-dive', devOnly: true },
+		{ id: 'review', label: 'Review', icon: 'review', devOnly: true },
 		{ id: 'about', label: 'About', icon: 'info' },
 		{ id: 'style-guide', label: 'Style Guide', icon: 'info', devOnly: true },
 	];
@@ -44,6 +45,7 @@
 			case 'visuals': return app.visuals?.total_visuals;
 			case 'conclusions': return app.conclusions?.total_recommendations;
 			case 'deep-dive': return app.audit?.total_sources;
+			case 'review': return app.review?.sources?.length;
 			default: return undefined;
 		}
 	}

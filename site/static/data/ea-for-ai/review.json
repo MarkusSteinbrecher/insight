@@ -8,10 +8,13 @@
       "url": "",
       "type": "pdf",
       "status": "analyzed",
-      "block_count": 183,
+      "block_count": 124,
       "extract_count": 398,
       "noise_count": 35,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-002",
@@ -19,10 +22,13 @@
       "url": "",
       "type": "pdf",
       "status": "analyzed",
-      "block_count": 51,
+      "block_count": 55,
       "extract_count": 132,
       "noise_count": 7,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-003",
@@ -30,10 +36,13 @@
       "url": "",
       "type": "pdf",
       "status": "analyzed",
-      "block_count": 375,
+      "block_count": 361,
       "extract_count": 644,
       "noise_count": 28,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-004",
@@ -44,7 +53,10 @@
       "block_count": 115,
       "extract_count": 124,
       "noise_count": 14,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-005",
@@ -55,7 +67,10 @@
       "block_count": 178,
       "extract_count": 270,
       "noise_count": 2,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-006",
@@ -66,7 +81,10 @@
       "block_count": 38,
       "extract_count": 73,
       "noise_count": 11,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-008",
@@ -77,7 +95,10 @@
       "block_count": 48,
       "extract_count": 58,
       "noise_count": 3,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-009",
@@ -88,7 +109,10 @@
       "block_count": 58,
       "extract_count": 66,
       "noise_count": 11,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-010",
@@ -99,7 +123,10 @@
       "block_count": 14,
       "extract_count": 14,
       "noise_count": 7,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-011",
@@ -110,7 +137,10 @@
       "block_count": 15,
       "extract_count": 12,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-012",
@@ -121,7 +151,10 @@
       "block_count": 15,
       "extract_count": 15,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-013",
@@ -132,7 +165,10 @@
       "block_count": 34,
       "extract_count": 35,
       "noise_count": 16,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-014",
@@ -143,7 +179,10 @@
       "block_count": 4,
       "extract_count": 4,
       "noise_count": 0,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-015",
@@ -154,7 +193,10 @@
       "block_count": 80,
       "extract_count": 111,
       "noise_count": 19,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-016",
@@ -165,7 +207,10 @@
       "block_count": 48,
       "extract_count": 83,
       "noise_count": 10,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-017",
@@ -176,7 +221,10 @@
       "block_count": 34,
       "extract_count": 42,
       "noise_count": 10,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-019",
@@ -187,7 +235,10 @@
       "block_count": 109,
       "extract_count": 137,
       "noise_count": 13,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-020",
@@ -198,7 +249,10 @@
       "block_count": 4,
       "extract_count": 4,
       "noise_count": 0,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-021",
@@ -209,7 +263,10 @@
       "block_count": 35,
       "extract_count": 25,
       "noise_count": 11,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-022",
@@ -220,7 +277,10 @@
       "block_count": 80,
       "extract_count": 103,
       "noise_count": 18,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-023",
@@ -231,7 +291,10 @@
       "block_count": 35,
       "extract_count": 25,
       "noise_count": 11,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-025",
@@ -242,7 +305,10 @@
       "block_count": 5,
       "extract_count": 11,
       "noise_count": 1,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-026",
@@ -253,7 +319,10 @@
       "block_count": 86,
       "extract_count": 94,
       "noise_count": 12,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-027",
@@ -264,7 +333,10 @@
       "block_count": 46,
       "extract_count": 86,
       "noise_count": 11,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-029",
@@ -275,7 +347,10 @@
       "block_count": 50,
       "extract_count": 92,
       "noise_count": 7,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-030",
@@ -286,7 +361,10 @@
       "block_count": 2,
       "extract_count": 0,
       "noise_count": 0,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-031",
@@ -297,7 +375,10 @@
       "block_count": 170,
       "extract_count": 236,
       "noise_count": 19,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-032",
@@ -308,7 +389,10 @@
       "block_count": 34,
       "extract_count": 68,
       "noise_count": 9,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-033",
@@ -319,7 +403,10 @@
       "block_count": 33,
       "extract_count": 51,
       "noise_count": 7,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-034",
@@ -330,7 +417,10 @@
       "block_count": 48,
       "extract_count": 87,
       "noise_count": 6,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-035",
@@ -341,7 +431,10 @@
       "block_count": 10,
       "extract_count": 24,
       "noise_count": 0,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-036",
@@ -352,7 +445,10 @@
       "block_count": 70,
       "extract_count": 111,
       "noise_count": 16,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-040",
@@ -363,7 +459,10 @@
       "block_count": 44,
       "extract_count": 69,
       "noise_count": 23,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-041",
@@ -374,7 +473,10 @@
       "block_count": 31,
       "extract_count": 34,
       "noise_count": 15,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-042",
@@ -385,7 +487,10 @@
       "block_count": 26,
       "extract_count": 40,
       "noise_count": 6,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-043",
@@ -396,7 +501,10 @@
       "block_count": 28,
       "extract_count": 44,
       "noise_count": 1,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-044",
@@ -407,7 +515,10 @@
       "block_count": 15,
       "extract_count": 26,
       "noise_count": 0,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-045",
@@ -418,7 +529,10 @@
       "block_count": 30,
       "extract_count": 37,
       "noise_count": 1,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-046",
@@ -429,7 +543,10 @@
       "block_count": 44,
       "extract_count": 52,
       "noise_count": 19,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-047",
@@ -440,7 +557,10 @@
       "block_count": 55,
       "extract_count": 58,
       "noise_count": 13,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-048",
@@ -451,7 +571,10 @@
       "block_count": 40,
       "extract_count": 56,
       "noise_count": 9,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-052",
@@ -462,7 +585,10 @@
       "block_count": 111,
       "extract_count": 116,
       "noise_count": 24,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-053",
@@ -473,7 +599,10 @@
       "block_count": 12,
       "extract_count": 8,
       "noise_count": 4,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-054",
@@ -484,7 +613,10 @@
       "block_count": 12,
       "extract_count": 8,
       "noise_count": 4,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-055",
@@ -495,7 +627,10 @@
       "block_count": 145,
       "extract_count": 162,
       "noise_count": 22,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-056",
@@ -506,7 +641,10 @@
       "block_count": 242,
       "extract_count": 588,
       "noise_count": 10,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-058",
@@ -517,7 +655,10 @@
       "block_count": 109,
       "extract_count": 130,
       "noise_count": 16,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-059",
@@ -528,7 +669,10 @@
       "block_count": 95,
       "extract_count": 133,
       "noise_count": 19,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-060",
@@ -539,7 +683,10 @@
       "block_count": 43,
       "extract_count": 75,
       "noise_count": 9,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-061",
@@ -550,7 +697,10 @@
       "block_count": 60,
       "extract_count": 70,
       "noise_count": 18,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-062",
@@ -561,7 +711,10 @@
       "block_count": 31,
       "extract_count": 60,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-063",
@@ -572,7 +725,10 @@
       "block_count": 93,
       "extract_count": 93,
       "noise_count": 25,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-064",
@@ -583,7 +739,10 @@
       "block_count": 119,
       "extract_count": 150,
       "noise_count": 27,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-065",
@@ -594,7 +753,10 @@
       "block_count": 40,
       "extract_count": 60,
       "noise_count": 10,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-066",
@@ -605,7 +767,10 @@
       "block_count": 78,
       "extract_count": 87,
       "noise_count": 15,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-067",
@@ -616,7 +781,10 @@
       "block_count": 439,
       "extract_count": 434,
       "noise_count": 323,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-068",
@@ -627,7 +795,10 @@
       "block_count": 47,
       "extract_count": 68,
       "noise_count": 2,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-069",
@@ -638,7 +809,10 @@
       "block_count": 29,
       "extract_count": 26,
       "noise_count": 6,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-070",
@@ -649,7 +823,10 @@
       "block_count": 47,
       "extract_count": 41,
       "noise_count": 12,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-071",
@@ -660,7 +837,10 @@
       "block_count": 31,
       "extract_count": 57,
       "noise_count": 1,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-072",
@@ -671,7 +851,10 @@
       "block_count": 269,
       "extract_count": 333,
       "noise_count": 56,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-073",
@@ -682,7 +865,10 @@
       "block_count": 337,
       "extract_count": 307,
       "noise_count": 75,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-074",
@@ -693,7 +879,10 @@
       "block_count": 149,
       "extract_count": 158,
       "noise_count": 31,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-075",
@@ -704,7 +893,10 @@
       "block_count": 25,
       "extract_count": 50,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-076",
@@ -715,7 +907,10 @@
       "block_count": 94,
       "extract_count": 116,
       "noise_count": 14,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-077",
@@ -726,7 +921,10 @@
       "block_count": 34,
       "extract_count": 42,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-078",
@@ -737,7 +935,10 @@
       "block_count": 189,
       "extract_count": 181,
       "noise_count": 51,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-079",
@@ -748,7 +949,10 @@
       "block_count": 43,
       "extract_count": 46,
       "noise_count": 4,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-080",
@@ -759,7 +963,10 @@
       "block_count": 60,
       "extract_count": 57,
       "noise_count": 13,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-081",
@@ -770,7 +977,10 @@
       "block_count": 55,
       "extract_count": 71,
       "noise_count": 11,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-082",
@@ -781,7 +991,10 @@
       "block_count": 62,
       "extract_count": 81,
       "noise_count": 15,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-083",
@@ -792,7 +1005,10 @@
       "block_count": 285,
       "extract_count": 336,
       "noise_count": 48,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-084",
@@ -803,7 +1019,10 @@
       "block_count": 184,
       "extract_count": 270,
       "noise_count": 2,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-085",
@@ -814,7 +1033,10 @@
       "block_count": 72,
       "extract_count": 140,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-086",
@@ -825,7 +1047,10 @@
       "block_count": 49,
       "extract_count": 75,
       "noise_count": 10,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-087",
@@ -836,7 +1061,10 @@
       "block_count": 48,
       "extract_count": 74,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-088",
@@ -847,7 +1075,10 @@
       "block_count": 36,
       "extract_count": 21,
       "noise_count": 17,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-089",
@@ -858,7 +1089,10 @@
       "block_count": 244,
       "extract_count": 238,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-090",
@@ -869,7 +1103,10 @@
       "block_count": 54,
       "extract_count": 57,
       "noise_count": 11,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-091",
@@ -880,7 +1117,10 @@
       "block_count": 41,
       "extract_count": 47,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-092",
@@ -891,7 +1131,10 @@
       "block_count": 54,
       "extract_count": 54,
       "noise_count": 3,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-093",
@@ -902,7 +1145,10 @@
       "block_count": 59,
       "extract_count": 73,
       "noise_count": 16,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-094",
@@ -913,7 +1159,10 @@
       "block_count": 199,
       "extract_count": 232,
       "noise_count": 21,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-095",
@@ -924,7 +1173,10 @@
       "block_count": 38,
       "extract_count": 23,
       "noise_count": 10,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-096",
@@ -935,7 +1187,10 @@
       "block_count": 74,
       "extract_count": 109,
       "noise_count": 7,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-097",
@@ -946,7 +1201,10 @@
       "block_count": 74,
       "extract_count": 111,
       "noise_count": 9,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-098",
@@ -957,7 +1215,10 @@
       "block_count": 51,
       "extract_count": 110,
       "noise_count": 7,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-099",
@@ -968,7 +1229,10 @@
       "block_count": 9,
       "extract_count": 9,
       "noise_count": 4,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-100",
@@ -979,7 +1243,10 @@
       "block_count": 3,
       "extract_count": 3,
       "noise_count": 1,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-101",
@@ -990,7 +1257,10 @@
       "block_count": 10,
       "extract_count": 9,
       "noise_count": 8,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-103",
@@ -1001,7 +1271,10 @@
       "block_count": 13,
       "extract_count": 5,
       "noise_count": 4,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-104",
@@ -1012,7 +1285,10 @@
       "block_count": 10,
       "extract_count": 8,
       "noise_count": 4,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     },
     {
       "source_id": "ea-for-ai:source-105",
@@ -1023,7 +1299,10 @@
       "block_count": 4,
       "extract_count": 4,
       "noise_count": 1,
-      "quality_status": "ok"
+      "quality_status": "ok",
+      "review_status": "not-reviewed",
+      "blocks_reviewed": 0,
+      "extracts_reviewed": 0
     }
   ]
 }

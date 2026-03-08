@@ -12,11 +12,9 @@
       "status": "analyzed",
       "extract_count": 398,
       "claim_count": 22,
-      "finding_count": 8,
-      "quality_status": "block-quality",
-      "quality_issues": [
-        "block-quality (4 high-severity issues)"
-      ]
+      "finding_count": 11,
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-002",
@@ -58,7 +56,7 @@
       "status": "analyzed",
       "extract_count": 124,
       "claim_count": 7,
-      "finding_count": 4,
+      "finding_count": 6,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -72,7 +70,7 @@
       "status": "analyzed",
       "extract_count": 270,
       "claim_count": 19,
-      "finding_count": 9,
+      "finding_count": 10,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -293,7 +291,7 @@
       "status": "analyzed",
       "extract_count": 103,
       "claim_count": 10,
-      "finding_count": 8,
+      "finding_count": 9,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -351,7 +349,7 @@
       "status": "analyzed",
       "extract_count": 86,
       "claim_count": 4,
-      "finding_count": 2,
+      "finding_count": 3,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -395,7 +393,7 @@
       "status": "analyzed",
       "extract_count": 236,
       "claim_count": 17,
-      "finding_count": 8,
+      "finding_count": 9,
       "quality_status": "block-quality",
       "quality_issues": [
         "block-quality (7 high-severity issues)"
@@ -411,7 +409,7 @@
       "status": "analyzed",
       "extract_count": 68,
       "claim_count": 9,
-      "finding_count": 6,
+      "finding_count": 7,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -453,7 +451,7 @@
       "status": "analyzed",
       "extract_count": 24,
       "claim_count": 6,
-      "finding_count": 5,
+      "finding_count": 6,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -467,7 +465,7 @@
       "status": "analyzed",
       "extract_count": 111,
       "claim_count": 8,
-      "finding_count": 4,
+      "finding_count": 5,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -565,7 +563,7 @@
       "status": "analyzed",
       "extract_count": 52,
       "claim_count": 2,
-      "finding_count": 1,
+      "finding_count": 2,
       "quality_status": "block-quality",
       "quality_issues": [
         "block-quality (5 high-severity issues)"
@@ -581,7 +579,7 @@
       "status": "analyzed",
       "extract_count": 58,
       "claim_count": 3,
-      "finding_count": 1,
+      "finding_count": 2,
       "quality_status": "block-quality",
       "quality_issues": [
         "block-quality (4 high-severity issues)"
@@ -597,7 +595,7 @@
       "status": "analyzed",
       "extract_count": 56,
       "claim_count": 5,
-      "finding_count": 3,
+      "finding_count": 4,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -611,7 +609,7 @@
       "status": "analyzed",
       "extract_count": 116,
       "claim_count": 2,
-      "finding_count": 1,
+      "finding_count": 2,
       "quality_status": "block-quality",
       "quality_issues": [
         "block-quality (4 high-severity issues)"
@@ -627,7 +625,7 @@
       "status": "analyzed",
       "extract_count": 8,
       "claim_count": 2,
-      "finding_count": 1,
+      "finding_count": 2,
       "quality_status": "thin-content",
       "quality_issues": [
         "thin-content (3 signal extracts)"
@@ -659,7 +657,7 @@
       "status": "analyzed",
       "extract_count": 162,
       "claim_count": 5,
-      "finding_count": 3,
+      "finding_count": 4,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -687,7 +685,7 @@
       "status": "analyzed",
       "extract_count": 130,
       "claim_count": 5,
-      "finding_count": 2,
+      "finding_count": 3,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -745,7 +743,7 @@
       "status": "analyzed",
       "extract_count": 60,
       "claim_count": 2,
-      "finding_count": 1,
+      "finding_count": 2,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -759,7 +757,7 @@
       "status": "analyzed",
       "extract_count": 93,
       "claim_count": 3,
-      "finding_count": 1,
+      "finding_count": 3,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -773,7 +771,7 @@
       "status": "analyzed",
       "extract_count": 150,
       "claim_count": 10,
-      "finding_count": 5,
+      "finding_count": 6,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -943,7 +941,7 @@
       "status": "analyzed",
       "extract_count": 116,
       "claim_count": 5,
-      "finding_count": 4,
+      "finding_count": 5,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -957,7 +955,7 @@
       "status": "analyzed",
       "extract_count": 42,
       "claim_count": 4,
-      "finding_count": 2,
+      "finding_count": 3,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -1013,7 +1011,7 @@
       "status": "analyzed",
       "extract_count": 71,
       "claim_count": 3,
-      "finding_count": 1,
+      "finding_count": 3,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -1041,7 +1039,7 @@
       "status": "analyzed",
       "extract_count": 336,
       "claim_count": 10,
-      "finding_count": 4,
+      "finding_count": 6,
       "quality_status": "block-quality",
       "quality_issues": [
         "block-quality (6 high-severity issues)"
@@ -1057,7 +1055,7 @@
       "status": "analyzed",
       "extract_count": 270,
       "claim_count": 15,
-      "finding_count": 7,
+      "finding_count": 10,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -1085,7 +1083,7 @@
       "status": "analyzed",
       "extract_count": 75,
       "claim_count": 7,
-      "finding_count": 5,
+      "finding_count": 6,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -1099,7 +1097,7 @@
       "status": "analyzed",
       "extract_count": 74,
       "claim_count": 8,
-      "finding_count": 5,
+      "finding_count": 6,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -1130,7 +1128,7 @@
       "status": "analyzed",
       "extract_count": 238,
       "claim_count": 10,
-      "finding_count": 5,
+      "finding_count": 6,
       "quality_status": "ok",
       "quality_issues": []
     },
@@ -1244,7 +1242,7 @@
       "status": "analyzed",
       "extract_count": 111,
       "claim_count": 9,
-      "finding_count": 5,
+      "finding_count": 6,
       "quality_status": "ok",
       "quality_issues": []
     },

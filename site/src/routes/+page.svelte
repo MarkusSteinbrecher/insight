@@ -7,6 +7,7 @@
 	import VisualsView from '$lib/components/VisualsView.svelte';
 	import ConclusionsView from '$lib/components/ConclusionsView.svelte';
 	import DeepDive from '$lib/components/DeepDive.svelte';
+	import Review from '$lib/components/Review.svelte';
 	import About from '$lib/components/About.svelte';
 	import StyleGuide from '$lib/components/StyleGuide.svelte';
 
@@ -27,6 +28,8 @@
 	<ConclusionsView />
 {:else if isDev && app.activeTab === 'deep-dive'}
 	<DeepDive />
+{:else if isDev && app.activeTab === 'review'}
+	<Review />
 {:else if app.activeTab === 'about'}
 	<About />
 {:else if isDev && app.activeTab === 'style-guide'}

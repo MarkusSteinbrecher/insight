@@ -13,10 +13,8 @@
       "extract_count": 398,
       "claim_count": 22,
       "finding_count": 11,
-      "quality_status": "block-quality",
-      "quality_issues": [
-        "block-quality (4 high-severity issues)"
-      ]
+      "quality_status": "ok",
+      "quality_issues": []
     },
     {
       "id": "ea-for-ai:source-002",

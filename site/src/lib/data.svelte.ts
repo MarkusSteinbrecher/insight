@@ -84,6 +84,55 @@ export interface Angle {
 	suggested_format: string;
 }
 
+// Review page types
+export interface ReviewSource {
+	source_id: string;
+	title: string;
+	url: string;
+	type: string;
+	status: string;
+	block_count: number;
+	extract_count: number;
+	noise_count: number;
+	quality_status: string;
+}
+
+export interface ReviewBlock {
+	block_id: string;
+	position: number;
+	text: string;
+	format: string;
+	section_path: string;
+	image_path: string;
+	extracted_as: string[];
+}
+
+export interface ReviewExtract {
+	extract_id: string;
+	position: number;
+	text: string;
+	extract_type: string;
+	section_path: string;
+	claims: string[];
+}
+
+export interface ReviewSourceDetail {
+	source_id: string;
+	title: string;
+	url: string;
+	type: string;
+	status: string;
+	document_path: string | null;
+	content_blocks: ReviewBlock[];
+	extracts: ReviewExtract[];
+}
+
+export interface ReviewIndex {
+	topic: string;
+	generated: string;
+	sources: ReviewSource[];
+}
+
 export interface AuditExtract {
 	id: string;
 	text: string;
@@ -128,6 +177,7 @@ function createAppState() {
 	let graph = $state<any>(null);
 	let visuals = $state<any>(null);
 	let deepDiveSourceId = $state<string | null>(null);
+	let review = $state<ReviewIndex | null>(null);
 
 	let currentTitle = $derived(() => {
 		if (!manifest) return '';
@@ -154,14 +204,15 @@ function createAppState() {
 
 	async function selectTopic(slug: string) {
 		currentSlug = slug;
-		const [s, src, f, c, a, g, v] = await Promise.all([
+		const [s, src, f, c, a, g, v, r] = await Promise.all([
 			fetchJson<any>(`${slug}/stats.json`),
 			fetchJson<any>(`${slug}/sources.json`),
 			fetchJson<any>(`${slug}/findings.json`),
 			fetchJson<any>(`${slug}/conclusions.json`),
 			fetchJson<any>(`${slug}/audit.json`),
 			fetchJson<any>(`${slug}/graph.json`),
-			fetchJson<any>(`${slug}/visuals.json`)
+			fetchJson<any>(`${slug}/visuals.json`),
+			fetchJson<ReviewIndex>(`${slug}/review.json`)
 		]);
 		stats = s;
 		sources = src;
@@ -170,6 +221,7 @@ function createAppState() {
 		audit = a;
 		graph = g;
 		visuals = v;
+		review = r;
 	}
 
 	return {
@@ -189,8 +241,10 @@ function createAppState() {
 		get visuals() { return visuals; },
 		get deepDiveSourceId() { return deepDiveSourceId; },
 		set deepDiveSourceId(v: string | null) { deepDiveSourceId = v; },
+		get review() { return review; },
 		loadTopics,
-		selectTopic
+		selectTopic,
+		fetchJson
 	};
 }
 
