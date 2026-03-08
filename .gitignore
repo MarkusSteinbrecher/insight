@@ -40,6 +40,7 @@ site/test-results/
 docs/data/*/images/
 docs/data/*/visuals.json
 docs/data/*/review/
+docs/data/*/review.json
 
 # Dolt database files (added by bd init)
 .dolt/
