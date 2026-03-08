@@ -43,6 +43,7 @@ Issues and improvements identified from visual review. Updated 2026-03-08.
 
 ### High Priority
 
+- [ ] **Review page (dev-only)** — Three-panel source extraction review tool. Source list + review page with original content (iframe/embed/player), reconstructed content blocks with extraction highlights, and extract cards with inline editing, reclassification, and feedback. Writes structured feedback JSON via dev-only server route. **Spec:** `site/specs/review-page.md`. Data provided by back-end exporter (`review.json` + per-source files).
 - [ ] **Add image placeholders on Visuals** — Styled placeholder with visual type icon when images are missing.
 - [ ] **Consistent empty states** — All pages should have the same style with helpful messages.
 
