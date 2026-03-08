@@ -141,10 +141,10 @@
       "author": "Deloitte",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 35,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-014",
@@ -261,10 +261,10 @@
       "author": "www.opengroup.org",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 11,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-026",
@@ -441,10 +441,10 @@
       "author": "EY",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 26,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 2,
+      "finding_count": 2
     },
     {
       "id": "ea-for-ai:source-045",
@@ -597,10 +597,10 @@
       "author": "CIO",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 70,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 8,
+      "finding_count": 7
     },
     {
       "id": "ea-for-ai:source-062",
@@ -813,10 +813,10 @@
       "author": "Ardoq",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 46,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-080",
@@ -969,10 +969,10 @@
       "author": "Edward Granger",
       "date": "2024-02-20",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 54,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 3,
+      "finding_count": 3
     },
     {
       "id": "ea-for-ai:source-093",
@@ -1053,10 +1053,10 @@
       "author": "YouTube",
       "date": "",
       "type": "web",
-      "status": "extracted",
+      "status": "analyzed",
       "extract_count": 9,
-      "claim_count": 0,
-      "finding_count": 0
+      "claim_count": 1,
+      "finding_count": 1
     },
     {
       "id": "ea-for-ai:source-100",
