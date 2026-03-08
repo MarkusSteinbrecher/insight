@@ -29,7 +29,7 @@
 		{ id: 'sources', label: 'Sources', icon: 'sources' },
 		{ id: 'findings', label: 'Findings', icon: 'findings' },
 		{ id: 'graph', label: 'Graph', icon: 'graph' },
-		{ id: 'visuals', label: 'Visuals', icon: 'visuals' },
+		{ id: 'visuals', label: 'Visuals', icon: 'visuals', devOnly: true },
 		{ id: 'conclusions', label: 'Conclusions', icon: 'conclusions' },
 		{ id: 'deep-dive', label: 'Library', icon: 'deep-dive', devOnly: true },
 		{ id: 'style-guide', label: 'Style Guide', icon: 'info', devOnly: true },
