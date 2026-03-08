@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { app } from '$lib/data.svelte';
+	import { app, shortId } from '$lib/data.svelte';
 	import type { AuditSource, AuditExtract } from '$lib/data.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 
@@ -7,10 +7,21 @@
 	let activeView = $state<'source' | 'extracts'>('source');
 	let extractTypeFilter = $state('all');
 	let linkedFilter = $state<'all' | 'linked' | 'unlinked'>('all');
-	let searchTerm = $state('');
 	let iframeError = $state(false);
 
 	let allSources = $derived.by(() => app.audit?.sources ?? []);
+
+	// Navigate to a specific source when linked from another tab
+	$effect(() => {
+		const targetId = app.deepDiveSourceId;
+		if (!targetId || allSources.length === 0) return;
+		const idx = allSources.findIndex(s => s.id === targetId);
+		if (idx >= 0) {
+			selectSource(idx);
+		}
+		app.deepDiveSourceId = null;
+	});
+
 	let sources = $derived.by(() => {
 		if (!app.searchQuery) return allSources;
 		const q = app.searchQuery.toLowerCase();
@@ -34,8 +45,8 @@
 		if (extractTypeFilter !== 'all') list = list.filter((e: AuditExtract) => e.extract_type === extractTypeFilter);
 		if (linkedFilter === 'linked') list = list.filter((e: AuditExtract) => e.claims?.length);
 		if (linkedFilter === 'unlinked') list = list.filter((e: AuditExtract) => !e.claims?.length);
-		if (searchTerm) {
-			const q = searchTerm.toLowerCase();
+		if (app.searchQuery) {
+			const q = app.searchQuery.toLowerCase();
 			list = list.filter((e: AuditExtract) => e.text.toLowerCase().includes(q));
 		}
 		return list;
@@ -45,54 +56,138 @@
 		selectedIdx = i;
 		extractTypeFilter = 'all';
 		linkedFilter = 'all';
-		searchTerm = '';
 		iframeError = false;
 	}
 
+	const extractColors: Record<string, { css: string; hex: string }> = {
+		assertion:       { css: 'var(--color-claim)',         hex: '#3B6EC4' },
+		statistic:       { css: 'var(--color-source)',        hex: '#C4841D' },
+		recommendation:  { css: 'var(--color-finding)',       hex: '#D97757' },
+		example:         { css: 'var(--color-success)',       hex: '#3D8B37' },
+		definition:      { css: 'var(--color-extract)',       hex: '#7C6F9B' },
+		context:         { css: 'var(--color-text-tertiary)', hex: '#9B9A95' },
+		attribution:     { css: 'var(--color-info)',          hex: '#3B6EC4' },
+		noise:           { css: 'var(--color-border)',        hex: '#C8C6BF' },
+	};
+
+	const defaultColor = { css: 'var(--color-border)', hex: '#C8C6BF' };
+
 	function extractColor(type: string): string {
-		switch (type) {
-			case 'assertion': return 'var(--color-claim)';
-			case 'statistic': return 'var(--color-source)';
-			case 'recommendation': return 'var(--color-finding)';
-			case 'example': return 'var(--color-success)';
-			case 'definition': return 'var(--color-extract)';
-			case 'context': return 'var(--color-text-tertiary)';
-			case 'attribution': return 'var(--color-info)';
-			default: return 'var(--color-border)';
-		}
+		return (extractColors[type] ?? defaultColor).css;
 	}
+
+	let extractTypeCounts = $derived.by(() => {
+		if (!selected) return [];
+		const counts = new Map<string, number>();
+		for (const e of selected.extracts) {
+			counts.set(e.extract_type, (counts.get(e.extract_type) || 0) + 1);
+		}
+		return [...counts.entries()]
+			.map(([type, count]) => ({ type, count, color: (extractColors[type] ?? defaultColor).hex }))
+			.sort((a, b) => b.count - a.count);
+	});
+
+	let extractTotal = $derived(extractTypeCounts.reduce((s, i) => s + i.count, 0));
 </script>
 
 {#if sources.length > 0 && selected}
-	<div class="detail-header">
-		<h2 class="detail-title">{selected.title}</h2>
-		<p class="detail-meta">
-			{selected.author}
-			{#if selected.date} &middot; {selected.date}{/if}
-			&middot; {selected.type}
-			&middot; {selected.extract_count} extracts
-		</p>
-		{#if selected.url}
-			<a href={selected.url} target="_blank" rel="noopener" class="detail-url">
-				<Icon name="external" size={11} />
-				{selected.url}
-			</a>
-		{/if}
-	</div>
+	<div class="header-row">
+		<div class="detail-header">
+			<h2 class="detail-title">{selected.title}</h2>
+			<p class="detail-meta">
+				{selected.author}
+				{#if selected.date} &middot; {selected.date}{/if}
+				&middot; {selected.type}
+				&middot; {selected.extract_count} extracts
+			</p>
+			{#if selected.url}
+				<a href={selected.url} target="_blank" rel="noopener" class="detail-url">
+					<Icon name="external" size={11} />
+					{selected.url}
+				</a>
+			{/if}
+		</div>
 
-	<div class="tab-bar">
-		<button class="tab" class:active={activeView === 'source'} onclick={() => { activeView = 'source'; }}>
-			<Icon name="source" size={15} />
-			Source
-		</button>
-		<button class="tab" class:active={activeView === 'extracts'} onclick={() => { activeView = 'extracts'; }}>
-			<Icon name="extract" size={15} />
-			Extracts ({selected.extract_count})
-		</button>
+		<div class="mini-dashboard">
+			<div class="dash-chart">
+				<div class="dash-label">{selected.extract_count} extracts</div>
+				<div class="stacked-bar">
+					{#each extractTypeCounts as item}
+						<div
+							class="bar-segment"
+							style="width:{extractTotal ? (item.count / extractTotal * 100) : 0}%;background:{item.color}"
+							title="{item.type}: {item.count} ({extractTotal ? Math.round(item.count / extractTotal * 100) : 0}%)"
+						></div>
+					{/each}
+				</div>
+				<div class="bar-legend">
+					{#each extractTypeCounts as item}
+						<button class="legend-item" onclick={() => { extractTypeFilter = extractTypeFilter === item.type ? 'all' : item.type; activeView = 'extracts'; }}>
+							<span class="legend-dot" style="background:{item.color}"></span>
+							<span class="legend-type">{item.type}</span>
+							<span class="legend-pct">{extractTotal ? Math.round(item.count / extractTotal * 100) : 0}%</span>
+						</button>
+					{/each}
+				</div>
+			</div>
+
+			<div class="dash-chart">
+				<div class="dash-label">{linkedCount} of {selected.extract_count} linked to claims</div>
+				<div class="stacked-bar">
+					<div class="bar-segment" style="width:{selected.extract_count ? (linkedCount / selected.extract_count * 100) : 0}%;background:#3B6EC4" title="Linked: {linkedCount} ({selected.extract_count ? Math.round(linkedCount / selected.extract_count * 100) : 0}%)"></div>
+					<div class="bar-segment" style="width:{selected.extract_count ? ((selected.extract_count - linkedCount) / selected.extract_count * 100) : 0}%;background:var(--color-border-light)" title="Unlinked: {selected.extract_count - linkedCount} ({selected.extract_count ? Math.round((selected.extract_count - linkedCount) / selected.extract_count * 100) : 0}%)"></div>
+				</div>
+				<div class="bar-legend">
+					<span class="legend-item">
+						<span class="legend-dot" style="background:#3B6EC4"></span>
+						<span class="legend-type">linked</span>
+						<span class="legend-pct">{selected.extract_count ? Math.round(linkedCount / selected.extract_count * 100) : 0}%</span>
+					</span>
+					<span class="legend-item">
+						<span class="legend-dot" style="background:var(--color-border-light)"></span>
+						<span class="legend-type">unlinked</span>
+						<span class="legend-pct">{selected.extract_count ? Math.round((selected.extract_count - linkedCount) / selected.extract_count * 100) : 0}%</span>
+					</span>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class="layout">
-		<div class="detail">
+		<div class="left-col">
+			<h3 class="col-heading">
+				<Icon name="source" size={15} />
+				Sources ({sources.length})
+			</h3>
+			<aside class="source-list">
+				{#each sources as src, i}
+					<button class="source-item" class:active={selectedIdx === i} onclick={() => selectSource(i)}>
+						<span class="source-num">{shortId(src.id)}</span>
+						<span class="source-name" title={src.title}>{src.title}</span>
+						{#if src.extracts.some((e: AuditExtract) => e.claims?.length)}
+							<span class="source-linked" title="Has linked claims">
+								<Icon name="claim" size={11} />
+							</span>
+						{/if}
+						<span class="source-extract-count">{src.extract_count}</span>
+					</button>
+				{/each}
+			</aside>
+		</div>
+
+		<div class="right-col">
+			<div class="tab-bar">
+				<button class="tab" class:active={activeView === 'source'} onclick={() => { activeView = 'source'; }}>
+					<Icon name="source" size={15} />
+					Source
+				</button>
+				<button class="tab" class:active={activeView === 'extracts'} onclick={() => { activeView = 'extracts'; }}>
+					<Icon name="extract" size={15} />
+					Extracts ({selected.extract_count})
+				</button>
+			</div>
+
+			<div class="detail">
 			{#if activeView === 'source'}
 				{#if selected.type === 'youtube' && selected.embed_url}
 					<div class="embed-container video">
@@ -174,15 +269,6 @@
 						<option value="linked">Linked to claims ({linkedCount})</option>
 						<option value="unlinked">Unlinked</option>
 					</select>
-					<div class="search-field">
-						<Icon name="search" size={14} />
-						<input type="text" placeholder="Search extracts..." bind:value={searchTerm} />
-						{#if searchTerm}
-							<button class="search-clear" onclick={() => { searchTerm = ''; }}>
-								<Icon name="x" size={14} />
-							</button>
-						{/if}
-					</div>
 					<span class="toolbar-count">{filteredExtracts.length} results</span>
 				</div>
 
@@ -222,48 +308,139 @@
 					{/if}
 				</div>
 			{/if}
-		</div>
-
-		<aside class="source-list">
-			<div class="list-header">
-				<Icon name="source" size={14} />
-				Sources ({sources.length})
 			</div>
-			{#each sources as src, i}
-				<button class="source-item" class:active={selectedIdx === i} onclick={() => selectSource(i)}>
-					<span class="source-num">{i + 1}</span>
-					<span class="source-name" title={src.title}>{src.title}</span>
-					{#if src.extracts.some((e: AuditExtract) => e.claims?.length)}
-						<span class="source-linked" title="Has linked claims">
-							<Icon name="claim" size={11} />
-						</span>
-					{/if}
-					<span class="source-extract-count">{src.extract_count}</span>
-				</button>
-			{/each}
-		</aside>
+		</div>
 	</div>
 {:else if sources.length === 0}
-	<div class="empty-state"><p>No audit data available.</p></div>
+	<div class="empty-state"><p>No data available.</p></div>
 {/if}
 
 <style>
 	/* Use full width */
-	:global(.content:has(.layout)) {
+	:global(.content:has(.header-row)) {
 		max-width: none;
+	}
+
+	/* Header row: title + dashboard on same line, matching layout grid */
+	.header-row {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		gap: var(--space-4);
+		margin-bottom: var(--space-4);
+	}
+	.detail-header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-width: 0;
+	}
+
+	/* Columns */
+	.left-col {
+		display: flex;
+		flex-direction: column;
+		min-width: 0;
+		min-height: 0;
+	}
+	.right-col {
+		display: flex;
+		flex-direction: column;
+		min-height: 0;
+	}
+	.col-heading {
+		display: flex;
+		align-items: center;
+		gap: var(--space-2);
+		font-size: var(--font-size-sm);
+		font-weight: var(--font-weight-medium);
+		color: var(--color-text-secondary);
+		padding: var(--space-3) 0;
+		border-bottom: 1px solid var(--color-border-light);
+		margin-bottom: var(--space-4);
+	}
+
+	/* Mini dashboard */
+	.mini-dashboard {
+		display: flex;
+		gap: var(--space-5);
+		padding: var(--space-4);
+		background: var(--color-surface);
+		border: 1px solid var(--color-border-light);
+		border-radius: var(--radius-md);
+		box-shadow: var(--shadow-sm);
+		align-items: flex-start;
+	}
+	.dash-chart {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-2);
+		min-width: 0;
+	}
+	.mini-chart {
+		display: flex;
+		align-items: center;
+		gap: var(--space-3);
+	}
+	.dash-label {
+		font-size: var(--font-size-sm);
+		font-weight: var(--font-weight-semibold);
+		color: var(--color-text);
+	}
+	.stacked-bar {
+		display: flex;
+		height: 8px;
+		border-radius: 4px;
+		overflow: hidden;
+	}
+	.bar-segment {
+		transition: width 0.3s;
+	}
+	.bar-legend {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space-1) var(--space-3);
+	}
+	.legend-item {
+		display: flex;
+		align-items: center;
+		gap: var(--space-1);
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		font-family: var(--font-family);
+		font-size: var(--font-size-xs);
+		color: var(--color-text-secondary);
+		white-space: nowrap;
+	}
+	.legend-item:hover {
+		color: var(--color-text);
+	}
+	.legend-dot {
+		width: 8px;
+		height: 8px;
+		border-radius: 2px;
+		flex-shrink: 0;
+	}
+	.legend-type {
+	}
+	.legend-pct {
+		color: var(--color-text-tertiary);
 	}
 
 	/* Layout */
 	.layout {
 		display: grid;
-		grid-template-columns: 1fr 280px;
-		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 2fr;
 		gap: var(--space-4);
-		height: calc(100vh - var(--header-height) - var(--space-12));
+		height: calc(100vh - var(--header-height) - 12rem);
+		min-height: 400px;
 	}
 
 	/* Source list */
 	.source-list {
+		flex: 1;
 		background: var(--color-surface);
 		border: 1px solid var(--color-border-light);
 		border-radius: var(--radius-md);
@@ -307,9 +484,10 @@
 	.source-item.active { background: var(--color-finding-bg); }
 	.source-num {
 		color: var(--color-text-tertiary);
-		width: 20px;
+		min-width: 36px;
 		flex-shrink: 0;
 		text-align: right;
+		white-space: nowrap;
 	}
 	.source-name {
 		flex: 1;
@@ -338,9 +516,6 @@
 		min-height: 0;
 		display: flex;
 		flex-direction: column;
-	}
-	.detail-header {
-		margin-bottom: var(--space-4);
 	}
 	.detail-url {
 		display: inline-flex;

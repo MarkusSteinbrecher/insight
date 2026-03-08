@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { app } from '$lib/data.svelte';
+	import { app, shortId } from '$lib/data.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 
 	let expandedFinding = $state<string | null>(null);
@@ -35,13 +35,17 @@
 
 {#if app.findings}
 	<div class="toolbar">
-		<Icon name="filter" size={15} />
-		<select bind:value={categoryFilter}>
-			<option value="all">All categories ({app.findings.total_findings})</option>
+		<div class="category-nav">
+			<button class="cat-pill" class:active={categoryFilter === 'all'} onclick={() => categoryFilter = 'all'}>
+				All <span class="cat-count">{app.findings.total_findings}</span>
+			</button>
 			{#each categories as cat}
-				<option value={cat}>{cat}</option>
+				{@const count = app.findings.findings.filter((f: any) => f.category === cat).length}
+				<button class="cat-pill" class:active={categoryFilter === cat} onclick={() => categoryFilter = cat}>
+					{cat} <span class="cat-count">{count}</span>
+				</button>
 			{/each}
-		</select>
+		</div>
 	</div>
 
 	<div class="findings-list">
@@ -53,6 +57,7 @@
 					</div>
 					<div class="finding-info">
 						<div class="finding-meta">
+							<span class="badge badge-finding">{shortId(finding.id)}</span>
 							<span class="badge badge-finding">{finding.category}</span>
 							<span class="claim-count">{finding.claim_count} claims</span>
 						</div>
@@ -67,7 +72,7 @@
 							<div class="claim" class:expanded={expandedClaim === claim.id}>
 								<button class="claim-header" onclick={() => toggleClaim(claim.id)}>
 									<Icon name={expandedClaim === claim.id ? 'chevron-down' : 'chevron-right'} size={14} />
-									<span class="claim-id">{claim.id}</span>
+									<span class="claim-id">{shortId(claim.id)}</span>
 									<span class="claim-text">{claim.statement}</span>
 									<span class="claim-sources">{claim.source_count} sources</span>
 								</button>
@@ -106,6 +111,39 @@
 {/if}
 
 <style>
+	.category-nav {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space-2);
+	}
+	.cat-pill {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-1);
+		padding: var(--space-1) var(--space-3);
+		border-radius: var(--radius-full, 9999px);
+		border: 1px solid var(--color-border-light);
+		background: var(--color-surface);
+		font-size: var(--font-size-sm);
+		font-family: var(--font-family);
+		color: var(--color-text-secondary);
+		cursor: pointer;
+		transition: all 0.15s;
+	}
+	.cat-pill:hover {
+		border-color: var(--color-border);
+		color: var(--color-text);
+	}
+	.cat-pill.active {
+		background: var(--color-text);
+		border-color: var(--color-text);
+		color: var(--color-surface);
+		font-weight: var(--font-weight-medium);
+	}
+	.cat-count {
+		font-size: var(--font-size-xs);
+		opacity: 0.7;
+	}
 	.findings-list { display: flex; flex-direction: column; gap: var(--space-3); }
 	.finding-card {
 		background: var(--color-surface);

@@ -3,19 +3,38 @@
 	import { onMount } from 'svelte';
 	import { app } from '$lib/data.svelte';
 	import Icon from '$lib/components/Icon.svelte';
+	import { getThemes, applyTheme, type Mode } from '$lib/themes';
 
 	let { children } = $props();
 	let sidebarExpanded = $state(true);
+	let darkMode = $state(false);
+	let activeTheme = $state(0);
 
-	const navItems = [
+	function toggleDarkMode() {
+		darkMode = !darkMode;
+		const mode: Mode = darkMode ? 'dark' : 'light';
+		applyTheme(activeTheme, mode);
+		localStorage.setItem('insight-mode', mode);
+	}
+
+	function selectTheme(index: number) {
+		activeTheme = index;
+		const mode: Mode = darkMode ? 'dark' : 'light';
+		applyTheme(index, mode);
+		localStorage.setItem('insight-palette', String(index));
+	}
+
+	const allNavItems: Array<{ id: string; label: string; icon: string; devOnly?: boolean }> = [
 		{ id: 'dashboard', label: 'Dashboard', icon: 'dashboard' },
 		{ id: 'sources', label: 'Sources', icon: 'sources' },
 		{ id: 'findings', label: 'Findings', icon: 'findings' },
 		{ id: 'graph', label: 'Graph', icon: 'graph' },
 		{ id: 'visuals', label: 'Visuals', icon: 'visuals' },
 		{ id: 'conclusions', label: 'Conclusions', icon: 'conclusions' },
-		{ id: 'deep-dive', label: 'Deep Dive', icon: 'deep-dive' },
+		{ id: 'deep-dive', label: 'Library', icon: 'deep-dive', devOnly: true },
+		{ id: 'style-guide', label: 'Style Guide', icon: 'info', devOnly: true },
 	];
+	const navItems = allNavItems.filter(item => !item.devOnly || import.meta.env.DEV);
 
 	function navCount(id: string): number | undefined {
 		switch (id) {
@@ -30,6 +49,15 @@
 
 	onMount(() => {
 		app.loadTopics();
+		const savedPalette = localStorage.getItem('insight-palette');
+		const savedMode = localStorage.getItem('insight-mode');
+		if (savedPalette !== null) {
+			const idx = parseInt(savedPalette);
+			if (idx >= 0 && idx < getThemes().length) activeTheme = idx;
+		}
+		if (savedMode === 'dark') darkMode = true;
+		// Apply on load (overrides tokens.css defaults with saved selection)
+		applyTheme(activeTheme, darkMode ? 'dark' : 'light');
 	});
 </script>
 
@@ -86,9 +114,8 @@
 	<div class="main-area">
 		<header class="topbar">
 			{#if app.currentTitle}
-				<h1 class="page-title">{app.currentTitle}</h1>
+				<h1 class="page-title">{app.currentTitle} <span class="wip-badge">Work in progress</span></h1>
 			{/if}
-			<div class="topbar-spacer"></div>
 			<div class="topbar-search">
 				<Icon name="search" size={14} />
 				<input type="text" placeholder="Search..." value={app.searchQuery} oninput={(e) => { app.searchQuery = e.currentTarget.value; }} />
@@ -98,6 +125,23 @@
 					</button>
 				{/if}
 			</div>
+			<div class="topbar-spacer"></div>
+			<div class="theme-picker">
+				{#each getThemes() as t, i}
+					<button
+						class="theme-pick"
+						class:active={i === activeTheme}
+						onclick={() => selectTheme(i)}
+						title={t.name}
+						aria-label="Theme: {t.name}"
+					>
+						<Icon name={t.icon} size={14} />
+					</button>
+				{/each}
+			</div>
+			<button class="theme-toggle" onclick={toggleDarkMode} aria-label="Toggle dark mode" title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}>
+				<Icon name={darkMode ? 'sun' : 'moon'} size={16} />
+			</button>
 		</header>
 		<main class="content">
 			{@render children()}
@@ -269,7 +313,16 @@
 		font-weight: var(--font-weight-semibold);
 		color: var(--color-text);
 	}
-	.topbar-spacer { flex: 1; }
+	.wip-badge {
+		font-size: var(--font-size-xs);
+		font-weight: var(--font-weight-medium);
+		color: var(--color-warning);
+		background: var(--color-warning-bg);
+		padding: 2px var(--space-2);
+		border-radius: var(--radius-full);
+		vertical-align: middle;
+		margin-left: var(--space-2);
+	}
 	.topbar-search {
 		display: flex;
 		align-items: center;
@@ -284,10 +337,15 @@
 		border: none;
 		background: none;
 		outline: none;
+		box-shadow: none;
 		font-size: var(--font-size-sm);
 		font-family: var(--font-family);
 		width: 100%;
 		color: var(--color-text);
+	}
+	.topbar-search input:focus {
+		border: none;
+		box-shadow: none;
 	}
 	.topbar-search .search-clear {
 		display: flex;
@@ -302,6 +360,48 @@
 		flex-shrink: 0;
 	}
 	.topbar-search .search-clear:hover { color: var(--color-text); }
+	.topbar-spacer { flex: 1; }
+	.theme-picker {
+		display: flex;
+		gap: 2px;
+		background: var(--color-border-light);
+		border-radius: var(--radius-sm);
+		padding: 2px;
+	}
+	.theme-pick {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 28px;
+		height: 28px;
+		border: none;
+		background: none;
+		color: var(--color-text-tertiary);
+		cursor: pointer;
+		border-radius: calc(var(--radius-sm) - 2px);
+		transition: all 0.15s;
+	}
+	.theme-pick:hover { color: var(--color-text-secondary); background: var(--color-surface-hover); }
+	.theme-pick.active {
+		background: var(--color-surface);
+		color: var(--color-text);
+		box-shadow: var(--shadow-sm);
+	}
+	.theme-toggle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 32px;
+		height: 32px;
+		border: none;
+		background: none;
+		color: var(--color-text-secondary);
+		cursor: pointer;
+		border-radius: var(--radius-sm);
+		flex-shrink: 0;
+		transition: color 0.15s;
+	}
+	.theme-toggle:hover { color: var(--color-text); background: var(--color-surface-hover); }
 
 	/* Content */
 	.content {

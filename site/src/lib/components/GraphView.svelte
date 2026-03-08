@@ -10,6 +10,7 @@
 
 	let visible = $state<Record<string, boolean>>({ finding: true, claim: true, extract: false, source: true });
 	let filterAuthor = $state('');
+	let categoryFilter = $state('all');
 	let hoveredNode = $state<any>(null);
 	let selectedNode = $state<any>(null);
 
@@ -29,6 +30,31 @@
 		const set = new Set<string>();
 		for (const n of app.graph.nodes) if (n.author) set.add(n.author);
 		return [...set].sort();
+	});
+
+	let categories = $derived.by(() => {
+		if (!app.graph) return [];
+		const cats = new Set<string>();
+		for (const n of app.graph.nodes) if (n.category) cats.add(n.category);
+		return [...cats].sort();
+	});
+
+	let categoryCounts = $derived.by(() => {
+		if (!app.graph) return new Map<string, number>();
+		const counts = new Map<string, number>();
+		for (const n of app.graph.nodes) {
+			if (n.category) counts.set(n.category, (counts.get(n.category) || 0) + 1);
+		}
+		return counts;
+	});
+
+	let typeCounts = $derived.by(() => {
+		if (!app.graph) return new Map<string, number>();
+		const counts = new Map<string, number>();
+		for (const n of app.graph.nodes) {
+			counts.set(n.type, (counts.get(n.type) || 0) + 1);
+		}
+		return counts;
 	});
 
 	// Find connected nodes for the selected node
@@ -76,10 +102,27 @@
 		const visibleTypes = new Set(Object.entries(visible).filter(([, v]) => v).map(([k]) => k));
 		const visibleIds = new Set<string>();
 
+		// When a category is selected, find matching finding IDs and their connected node IDs
+		let categoryAllowedIds: Set<string> | null = null;
+		if (categoryFilter !== 'all') {
+			categoryAllowedIds = new Set<string>();
+			for (const n of data.nodes) {
+				if (n.category === categoryFilter) categoryAllowedIds.add(n.id);
+			}
+			// Include nodes connected to matching findings
+			for (const e of data.edges) {
+				const src = typeof e.source === 'string' ? e.source : (e.source as any).id;
+				const tgt = typeof e.target === 'string' ? e.target : (e.target as any).id;
+				if (categoryAllowedIds.has(src)) categoryAllowedIds.add(tgt);
+				if (categoryAllowedIds.has(tgt)) categoryAllowedIds.add(src);
+			}
+		}
+
 		let nodes: GNode[] = [];
 		for (const n of data.nodes) {
 			if (!visibleTypes.has(n.type)) continue;
 			if (filterAuthor && n.author && n.author !== filterAuthor) continue;
+			if (categoryAllowedIds && !categoryAllowedIds.has(n.id)) continue;
 			if (app.searchQuery && !n.label.toLowerCase().includes(app.searchQuery.toLowerCase())) continue;
 			const radius = n.type === 'finding' ? 12 : n.type === 'claim' ? 7 : n.type === 'source' ? 9 : 4;
 			nodes.push({ ...n, group: 0, radius });
@@ -164,10 +207,19 @@
 		return () => observer.disconnect();
 	});
 
+	// Select the first source node on initial load
+	$effect(() => {
+		if (app.graph && !selectedNode) {
+			const firstSource = app.graph.nodes.find((n: any) => n.type === 'source');
+			if (firstSource) selectedNode = firstSource;
+		}
+	});
+
 	$effect(() => {
 		void app.graph;
 		void visible;
 		void filterAuthor;
+		void categoryFilter;
 		void app.searchQuery;
 		void width;
 		buildGraph();
@@ -176,22 +228,27 @@
 
 {#if app.graph}
 	<div class="toolbar">
-		<div class="toggles">
-			{#each Object.entries(visible) as [type, on]}
-				<label class="toggle">
-					<input type="checkbox" checked={on} onchange={() => { visible = { ...visible, [type]: !on }; }} />
-					<span class="dot" style="background:{typeColor(type)}"></span>
-					{type}s
-				</label>
-			{/each}
-		</div>
+		{#each Object.entries(visible) as [type, on]}
+			<button class="cat-pill entity-pill" class:active={on} onclick={() => { visible = { ...visible, [type]: !on }; }}>
+				<span class="entity-dot" style="background:{typeColor(type)}"></span>
+				{type}s <span class="cat-count">{typeCounts.get(type) ?? 0}</span>
+			</button>
+		{/each}
+		{#if categories.length > 0}
+			<select bind:value={categoryFilter}>
+				<option value="all">All categories</option>
+				{#each categories as cat}
+					<option value={cat}>{cat} ({categoryCounts.get(cat) ?? 0})</option>
+				{/each}
+			</select>
+		{/if}
 		<select bind:value={filterAuthor}>
 			<option value="">All authors</option>
 			{#each authors as a}<option value={a}>{a}</option>{/each}
 		</select>
 	</div>
 
-	<div class="graph-layout" class:panel-open={selectedNode}>
+	<div class="graph-layout">
 		<div class="graph-container">
 			<svg bind:this={svgEl} {width} {height}></svg>
 			{#if hoveredNode && !selectedNode}
@@ -202,8 +259,8 @@
 			{/if}
 		</div>
 
-		{#if selectedNode}
-			<aside class="detail-panel">
+		<aside class="detail-panel">
+			{#if selectedNode}
 				<div class="panel-header">
 					<span class="type-badge" style="background:{typeColor(selectedNode.type)}">{selectedNode.type}</span>
 					<button class="close-btn" onclick={() => { selectedNode = null; }}>
@@ -285,8 +342,12 @@
 						{/each}
 					</div>
 				{/if}
-			</aside>
-		{/if}
+			{:else}
+				<div class="panel-empty">
+					<p class="panel-empty-text">Click a node to inspect it</p>
+				</div>
+			{/if}
+		</aside>
 	</div>
 {:else}
 	<div class="empty-state"><p>No graph data available.</p></div>
@@ -298,11 +359,49 @@
 		max-width: 80vw;
 	}
 
+	.cat-pill {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-1);
+		padding: var(--space-1) var(--space-3);
+		border-radius: var(--radius-full, 9999px);
+		border: 1px solid var(--color-border-light);
+		background: var(--color-surface);
+		font-size: var(--font-size-sm);
+		font-family: var(--font-family);
+		color: var(--color-text-secondary);
+		cursor: pointer;
+		transition: all 0.15s;
+	}
+	.cat-pill:hover {
+		border-color: var(--color-border);
+		color: var(--color-text);
+	}
+	.cat-pill.active {
+		background: var(--color-text);
+		border-color: var(--color-text);
+		color: var(--color-surface);
+		font-weight: var(--font-weight-medium);
+	}
+	.cat-count {
+		font-size: var(--font-size-xs);
+		opacity: 0.7;
+	}
+	.entity-dot {
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		flex-shrink: 0;
+	}
+	.entity-pill:not(.active) {
+		opacity: 0.5;
+	}
+
 	/* Layout */
 	.graph-layout {
 		display: flex;
 		gap: var(--space-4);
-		min-height: calc(100vh - var(--header-height) - var(--space-12));
+		height: calc(80vh - var(--header-height));
 	}
 	.graph-container {
 		flex: 1;
@@ -313,6 +412,7 @@
 		box-shadow: var(--shadow-sm);
 		overflow: hidden;
 		min-width: 0;
+		min-height: 0;
 	}
 	svg { display: block; width: 100%; min-height: 500px; }
 
@@ -352,7 +452,7 @@
 		box-shadow: var(--shadow-sm);
 		padding: var(--space-5);
 		overflow-y: auto;
-		max-height: 80vh;
+		min-height: 0;
 	}
 	.panel-header {
 		display: flex;
@@ -458,5 +558,15 @@
 		padding: 1px 6px;
 		background: var(--color-border-light);
 		border-radius: var(--radius-sm);
+	}
+	.panel-empty {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+	.panel-empty-text {
+		font-size: var(--font-size-sm);
+		color: var(--color-text-tertiary);
 	}
 </style>

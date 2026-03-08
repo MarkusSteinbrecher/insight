@@ -4,13 +4,7 @@
       "slug": "ea-for-ai",
       "title": "Enterprise Architecture for AI",
       "phase": 3,
-      "source_count": 61
-    },
-    {
-      "slug": "ea-for-ai-test",
-      "title": "Ea For Ai Test",
-      "phase": 0,
-      "source_count": 1
+      "source_count": 94
     }
   ],
   "default_topic": "ea-for-ai"

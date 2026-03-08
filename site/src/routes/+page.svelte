@@ -7,6 +7,9 @@
 	import VisualsView from '$lib/components/VisualsView.svelte';
 	import ConclusionsView from '$lib/components/ConclusionsView.svelte';
 	import DeepDive from '$lib/components/DeepDive.svelte';
+	import StyleGuide from '$lib/components/StyleGuide.svelte';
+
+	const isDev = import.meta.env.DEV;
 </script>
 
 {#if app.activeTab === 'dashboard'}
@@ -21,6 +24,8 @@
 	<VisualsView />
 {:else if app.activeTab === 'conclusions'}
 	<ConclusionsView />
-{:else if app.activeTab === 'deep-dive'}
+{:else if isDev && app.activeTab === 'deep-dive'}
 	<DeepDive />
+{:else if isDev && app.activeTab === 'style-guide'}
+	<StyleGuide />
 {/if}

@@ -48,7 +48,7 @@
 			<div class="visual-card">
 				{#if vis.image_path}
 					<div class="visual-img">
-						<img src="data/{app.currentSlug}/images/{vis.image_path}" alt={vis.description} loading="lazy" />
+						<img src="{vis.image_path}" alt={vis.description} loading="lazy" />
 					</div>
 				{/if}
 				<div class="visual-body">

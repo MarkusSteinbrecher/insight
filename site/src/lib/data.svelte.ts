@@ -1,5 +1,16 @@
 // Central reactive state using Svelte 5 runes (*.svelte.ts enables runes)
 
+/** Extract short display ID from full ID, e.g. "ea-for-ai:source-001" → "S-001" */
+export function shortId(id: string): string {
+	const part = id.split(':').pop() ?? id;
+	const m = part.match(/^(\w+?)-(\d+)$/);
+	if (!m) return part;
+	const prefixes: Record<string, string> = {
+		source: 'S', finding: 'F', cc: 'C', extract: 'E'
+	};
+	return `${prefixes[m[1]] ?? m[1].charAt(0).toUpperCase()}-${m[2]}`;
+}
+
 interface Topic {
 	slug: string;
 	title: string;
@@ -19,6 +30,7 @@ export interface Source {
 	author: string;
 	date: string;
 	type: string;
+	status?: string;
 	extract_count: number;
 	claim_count: number;
 	finding_count: number;
@@ -112,6 +124,7 @@ function createAppState() {
 	let audit = $state<{ topic: string; generated: string; total_sources: number; sources: AuditSource[] } | null>(null);
 	let graph = $state<any>(null);
 	let visuals = $state<any>(null);
+	let deepDiveSourceId = $state<string | null>(null);
 
 	let currentTitle = $derived(() => {
 		if (!manifest) return '';
@@ -171,6 +184,8 @@ function createAppState() {
 		get audit() { return audit; },
 		get graph() { return graph; },
 		get visuals() { return visuals; },
+		get deepDiveSourceId() { return deepDiveSourceId; },
+		set deepDiveSourceId(v: string | null) { deepDiveSourceId = v; },
 		loadTopics,
 		selectTopic
 	};

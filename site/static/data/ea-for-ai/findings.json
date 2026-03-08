@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-07",
+  "generated": "2026-03-08",
   "total_findings": 15,
   "total_claims_linked": 55,
   "findings": [
@@ -13,7 +13,7 @@
         {
           "id": "ea-for-ai:cc-001",
           "statement": "Enterprise architecture is undergoing a fundamental transformation driven by AI, shifting from static documentation and periodic review toward real-time, AI-augmented, and continuously adaptive governance.",
-          "source_count": 11,
+          "source_count": 6,
           "bottom_line": "",
           "sources": [
             {
@@ -24,15 +24,6 @@
               "quotes": [
                 "A decade ago, EA\u2019s role was largely to define ownership and produce visual models that took years to develop; we often refer to this as the way to prepare everything yourself, see\u00a0 \u201c Kitchen Principle\u201d ; however, modern EA is stakeholder-focused and enables digital governance by making responsibilit",
                 "Modern EA must transcend traditional documentation."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-007",
-              "title": "Checking your browser...",
-              "author": "cdotimes.com",
-              "url": "https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/",
-              "quotes": [
-                "TOGAF structures AI integration across business, data, application, and technology layers, enabling organizations to design AI-powered enterprise architectures systematically. Phases A-H incorporate AI enhancements from vision through change management."
               ]
             },
             {
@@ -63,42 +54,6 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-018",
-              "title": "The Open Group EA Practitioners Conference: Highlights from London 2026",
-              "author": "The Open Group",
-              "url": "https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/",
-              "quotes": [
-                "The session presented a compelling multi-year case study on the strategic application of the TOGAF framework and Enterprise Architecture (EA) principles to drive mission-critical transformation at scale."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-025",
-              "title": "The Open Group AI Initiatives",
-              "author": "www.opengroup.org",
-              "url": "https://www.opengroup.org/architecture-form/ai-initiatives",
-              "quotes": [
-                "As the premier Enterprise Architecture (EA) standards organization, The Open Group developed the TOGAF\u00ae Standard, that is recognized as the world\u2019s leading EA methodology."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-026",
-              "title": "How Enterprise Architecture Enables AI Sovereignty",
-              "author": "MR Consultancy Services",
-              "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
-              "quotes": [
-                "Enterprise Architecture (EA) is the function that turns high\u2011level principles into deployable designs , enforceable controls , and auditable evidence \u2014so your organization can innovate with AI without losing control of its institutional intelligence."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-030",
-              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
-              "author": "Gartner",
-              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
-              "quotes": [
-                "EA leaders must develop a new EA operating model for federated business designs, reduce technical debt through composable architectures, and expand team skills to include financial modeling and AI competencies"
-              ]
-            },
-            {
               "id": "ea-for-ai:source-036",
               "title": "\ud83d\udcd6 Technology Architecture of Tomorrow   | Insights",
               "author": "BCG Platinion",
@@ -122,7 +77,7 @@
         {
           "id": "ea-for-ai:cc-002",
           "statement": "Enterprise architects must evolve into new roles including AI governance strategists, enterprise knowledge curators, and orchestrators of human-AI collaboration, requiring both technical AI literacy and strategic business acumen.",
-          "source_count": 8,
+          "source_count": 5,
           "bottom_line": "",
           "sources": [
             {
@@ -132,15 +87,6 @@
               "url": "https://www.staunstender.com/article/the-future-of-enterprise-architecture-in-the-age-of-ai/",
               "quotes": [
                 "EA must become the meeting point between architecture, data science, and leadership."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-014",
-              "title": "The great rebuild: Architecting an AI",
-              "author": "Deloitte Insights",
-              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
-              "quotes": [
-                "AI architect roles are expected to nearly double from 30% to 58% within two years."
               ]
             },
             {
@@ -154,30 +100,12 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-018",
-              "title": "The Open Group EA Practitioners Conference: Highlights from London 2026",
-              "author": "The Open Group",
-              "url": "https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/",
-              "quotes": [
-                "Chris delved into the architecture challenges arising from the heightened focus on tech as a driver of business improvement, the convergence of IT and OT, the imperative to balance legacy modernization with emerging technology adoption, and the need to leverage strategic partnerships."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-030",
-              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
-              "author": "Gartner",
-              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
-              "quotes": [
-                "By 2028, half of EA teams are expected to rebrand themselves, emphasizing their strategic role as business partners who achieve business goals"
-              ]
-            },
-            {
               "id": "ea-for-ai:source-032",
               "title": "\ud83d\udcd6 Navigating AI Implementation: The Case for an Enterprise AI Architect | Insights",
               "author": "BCG Platinion",
               "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
               "quotes": [
-                "There is only one certainty: The Enterprise AI Architect is a must."
+                "Where it is located within the organization \u2013 with the enterprise architecture function, in an independent AI realm, or at an entirely different unit \u2013 depends on the enterprise\u2019s individual characteristics. \u200d There is only one certainty: The Enterprise AI Architect is a must."
               ]
             },
             {
@@ -193,7 +121,7 @@
             {
               "id": "ea-for-ai:source-056",
               "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
-              "author": "Erik Bakstad (Ardoq)",
+              "author": "",
               "url": "",
               "quotes": [
                 "Architects Will Take on New Roles EAs won\u2019t just manage architecture, they\u2019ll help guide how AI is used to shape it."
@@ -205,7 +133,7 @@
         {
           "id": "ea-for-ai:cc-003",
           "statement": "AI is redefining how businesses plan and execute EA strategies, with AI becoming not just a tool within architecture but the architect itself in some capacities.",
-          "source_count": 6,
+          "source_count": 4,
           "bottom_line": "",
           "sources": [
             {
@@ -215,24 +143,6 @@
               "url": "https://www.boc-group.com/en/blog/ea/ea-outlook-trends-2025/",
               "quotes": [
                 "Artificial Intelligence (AI) is redefining the way businesses plan and execute EA strategies."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-014",
-              "title": "The great rebuild: Architecting an AI",
-              "author": "Deloitte Insights",
-              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
-              "quotes": [
-                "66% of large enterprises view their tech function as a revenue generator rather than support function. 65% of CIOs now report directly to CEOs, compared to 41% in 2015. 71% are modernizing infrastructure to support AI implementation. 66% of surveyed organizations are piloting AI-enhanced enterprise "
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-030",
-              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
-              "author": "Gartner",
-              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
-              "quotes": [
-                "EA has evolved from traditional methods to a business-outcome-driven approach and is now moving toward acting as an internal management consultancy"
               ]
             },
             {
@@ -278,7 +188,7 @@
         {
           "id": "ea-for-ai:cc-004",
           "statement": "Security, governance, and observability controls must be embedded throughout the AI agent lifecycle rather than treated as afterthoughts, including runtime validation, intent logging, identity authentication, and real-time access controls.",
-          "source_count": 6,
+          "source_count": 4,
           "bottom_line": "",
           "sources": [
             {
@@ -310,30 +220,12 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-026",
-              "title": "How Enterprise Architecture Enables AI Sovereignty",
-              "author": "MR Consultancy Services",
-              "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
-              "quotes": [
-                "AI sovereignty is your organization\u2019s ability to decide, design, and demonstrate where and how sensitive data and model intelligence are stored, processed, accessed, and reused\u2014by you, not by external platforms."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-034",
               "title": "How Agentic AI Is Transforming Enterprise Platforms",
               "author": "BCG Global",
               "url": "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms",
               "quotes": [
                 "Build. Businesses should turn their requirements into engineering through guardrails, sandboxing, logging, and rigorous validation so that each agent is safe, observable, and resilient before real users see it."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-057",
-              "title": "This Is REAL Agentic AI (Enterprise Architecture Explained)",
-              "author": "Manifold AI Learning",
-              "url": "https://www.youtube.com/watch?v=ALr8bjRu3W4",
-              "quotes": [
-                "Remember in the enterprise setting, governance agent is a very important one."
               ]
             }
           ],
@@ -342,7 +234,7 @@
         {
           "id": "ea-for-ai:cc-005",
           "statement": "Organizations need to track agent actions, monitor performance, manage budgets, and audit AI decision logic, with governance frameworks that adapt to varying degrees of AI autonomy.",
-          "source_count": 10,
+          "source_count": 6,
           "bottom_line": "",
           "sources": [
             {
@@ -357,7 +249,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Enterprise architects' biggest challenges in managing and controlling data for Al applications Controlling who can access data Protecting privacy and sensitive information Dealing with data silos and a lack of integration Keeping track of where data comes from and how data are used Lack of dedicated"
@@ -373,30 +265,12 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-014",
-              "title": "The great rebuild: Architecting an AI",
-              "author": "Deloitte Insights",
-              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
-              "quotes": [
-                "Organizations are replacing point-in-time oversight with continuous, AI-assisted governance mechanisms. 48% are expanding cloud-native and DevOps practices. 57% are shifting from project to product models."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-022",
               "title": "The enterprise IT overhaul: Architecting your stack for the agentic AI era",
               "author": "CIO",
               "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
               "quotes": [
                 "The next critical chapter is\u00a0agentic AI \u2014 autonomous systems capable of reasoning, planning and executing multi-step tasks across your enterprise."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-026",
-              "title": "How Enterprise Architecture Enables AI Sovereignty",
-              "author": "MR Consultancy Services",
-              "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
-              "quotes": [
-                "Design : Register all models (ML, GenAI, vendor/embedded); link to purpose , risk tier , datasets , environments , tests (bias, robustness, privacy), and evidence artifacts ; implement stage\u2011gates so deployments require lineage, DQ thresholds, and human\u2011in\u2011the\u2011loop confirmations where required."
               ]
             },
             {
@@ -416,24 +290,6 @@
               "quotes": [
                 "Upgrade governance and redesign decision rights. Since agentic AI systems fall somewhere between tools (owned and predictable) and people (autonomous and requiring supervision), governance must be adaptive. Our survey results indicate that 58% of leading organizations anticipate changes to governanc"
               ]
-            },
-            {
-              "id": "ea-for-ai:source-037",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
-              "quotes": [
-                "(5) Update governance with real-time explainability, behavioral observability, and adaptive security."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-044",
-              "title": "Inside the process: how EY navigated its own AI",
-              "author": "EY",
-              "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
-              "quotes": [
-                "As responsible AI is critical to transformation, EY established firm-wide AI definitions to ensure consistency and clarity throughout all business functions."
-              ]
             }
           ],
           "baseline_category": ""
@@ -441,7 +297,7 @@
         {
           "id": "ea-for-ai:cc-006",
           "statement": "AI deployment must comply with evolving data privacy laws, AI ethics guidelines, and regulatory frameworks such as the EU AI Act, with governance seen as both a regulatory requirement and a competitive advantage.",
-          "source_count": 7,
+          "source_count": 5,
           "bottom_line": "",
           "sources": [
             {
@@ -456,7 +312,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Last, but not least, achieving AI excellence necessitates strong governance and careful design of human machine interaction."
@@ -481,27 +337,9 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-025",
-              "title": "The Open Group AI Initiatives",
-              "author": "www.opengroup.org",
-              "url": "https://www.opengroup.org/architecture-form/ai-initiatives",
-              "quotes": [
-                "This increased activity is putting pressure on legislators, regulators, and industry bodies to establish guardrails around safe, effective, and sustainable usage of AI."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-026",
-              "title": "How Enterprise Architecture Enables AI Sovereignty",
-              "author": "MR Consultancy Services",
-              "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
-              "quotes": [
-                "Anchor Governance in Open Frameworks (Not Proprietary Labels)"
-              ]
-            },
-            {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "\u25cfOverlook ethical considerations: Be mindful of the ethical implications of AI use. Ensure your AI systems are designed to prevent biases, respecting privacy laws, promote fairness and transparency. Adhere to ethical guidelines and legal regulations related to AI use."
@@ -513,27 +351,18 @@
         {
           "id": "ea-for-ai:cc-007",
           "statement": "Four in ten organizations report their AI governance is insufficient, and many are experimenting to find the right balance between humans and AI oversight.",
-          "source_count": 2,
+          "source_count": 1,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Two-thirds of organisations say they are still experimenting to find the right balance between humans and AI.",
                 "Figure 13: Four in ten say their organisation\u2019s AI governance is insufficient",
                 "Two-thirds of organisations in our survey say they are actively experimenting to find the balance between humans and AI, and 80% say these efforts could be stronger."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-054",
-              "title": "AI giants are rewriting the enterprise playbook",
-              "author": "PricewaterhouseCoopers",
-              "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
-              "quotes": [
-                "Companies face a strategic choice: establish robust governance frameworks while supporting innovation, or risk losing control over data security, compliance, and operational consistency. Success requires delivering enterprise-grade AI tools that balance employee empowerment with proper oversight."
               ]
             }
           ],
@@ -548,7 +377,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "It encourages leaders to challenge past decisions and accept that there may be a newer, better way.\u201d Ryan Snyder, senior vice president and chief information officer, Thermo Fisher Scientific Centres of excellence (COEs) are emerging as a popular approach to achieving systematic oversight.",
@@ -571,26 +400,17 @@
         {
           "id": "ea-for-ai:cc-008",
           "statement": "Humans must remain in the loop for AI oversight, with organizations needing to identify where human involvement is required for accountability, ethics, and quality assurance.",
-          "source_count": 8,
+          "source_count": 5,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Decision support will still remain with the respective commander, and humans will always be in the loop as far as AI is involved.",
                 "It is crucial to recognise the importance of human oversight of AI systems, especially in high-stakes domains."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-013",
-              "title": "Enterprise AI Convergence Architecture",
-              "author": "Deloitte",
-              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html",
-              "quotes": [
-                "Human-centered design and governance are crucial for realizing the measurable benefits of AI-first convergence, and require trust, security, and cross-functional collaboration."
               ]
             },
             {
@@ -619,24 +439,6 @@
               "quotes": [
                 "AI Stage Attributes Characteristics Stage 1: Experiment and Prepare Educating the workforce on AI Setting up acceptable use policies Working on making data accessible Ensuring decision-making is using data Identifying where humans need to be in the loop Stage 2: Build Pilots and Capabilities Beginni",
                 "They discuss where humans need to be in the loop for oversight and what is acceptable and ethical use of AI technology."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-039",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
-              "quotes": [
-                "Rather than pursuing idealized architectural visions, organizations should adopt flexible, domain-specific solutions with human-in-the-loop oversight. Walled gardens will likely dominate before open standards emerge. Competitive risk intensifies as leaders extend their advantages."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-044",
-              "title": "Inside the process: how EY navigated its own AI",
-              "author": "EY",
-              "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
-              "quotes": [
-                "With a focus on augmenting people, EY adopted a human-centered, transparent approach to transformation that fosters AI literacy, drives consistent integration into daily workflows, and addresses employee reservations toward new technologies and tools."
               ]
             },
             {
@@ -697,7 +499,7 @@
             {
               "id": "ea-for-ai:source-056",
               "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
-              "author": "Erik Bakstad (Ardoq)",
+              "author": "",
               "url": "",
               "quotes": [
                 "5. Retain Final Judgment AI can accelerate your thinking, but it cannot replace your architectural standards, organizational priorities, or professional accountability. Use it as a strategic assistant that supports your analysis, not as the final authority."
@@ -718,7 +520,7 @@
         {
           "id": "ea-for-ai:cc-009",
           "statement": "Enterprise decision-making is increasingly AI-augmented and data-driven, with organizations using both classical AI/ML and GenAI to guide strategic decisions in volatile operating environments.",
-          "source_count": 9,
+          "source_count": 7,
           "bottom_line": "",
           "sources": [
             {
@@ -727,13 +529,13 @@
               "author": "Prince Kumar",
               "url": "",
               "quotes": [
-                "Enterprise decision-making is increasingly agent-"
+                "Enterprise decision-making is increasingly agent- augmented, where intelligent agents assist knowledge workers and executives by synthesizing insights, simulating scenarios, and enabling real-time, data-informed actions."
               ]
             },
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "But executives are using both classical AI/ML and GenAI to guide strategic decision-making in a volatile operating environment."
@@ -749,30 +551,12 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-013",
-              "title": "Enterprise AI Convergence Architecture",
-              "author": "Deloitte",
-              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html",
-              "quotes": [
-                "Closing the gap between what a business knows and what it does"
-              ]
-            },
-            {
               "id": "ea-for-ai:source-019",
               "title": "Building Enterprise AI Maturity",
               "author": "MIT CISR",
               "url": "https://cisr.mit.edu/publication/2024_1201_EnterpriseAIMaturityModel_WeillWoernerSebastian",
               "quotes": [
                 "AI is embedded in all decision-making in these enterprises."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-023",
-              "title": "Enterprise Architecture as a Dynamic Capability for Scalable and Sustainable Generative AI adoption: Bridging Innovation and Governance in Large Organisations",
-              "author": "arXiv.org",
-              "url": "https://arxiv.org/abs/2505.06326",
-              "quotes": [
-                "Abstract: Generative Artificial Intelligence is a powerful new technology with the potential to boost innovation and reshape governance in many industries. Nevertheless, organisations face major challenges in scaling GenAI, including technology complexity, governance gaps and resource misalignments."
               ]
             },
             {
@@ -787,7 +571,7 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "Organisations\u2019 AI strategies should leverage multimodal GenAI capabilities while ensuring ethical AI safeguards to drive autonomous process re-engineering and enhanced decision-making across all lines of business."
@@ -808,7 +592,7 @@
         {
           "id": "ea-for-ai:cc-010",
           "statement": "Agentic AI and GenAI automate complex tasks and workflows, enabling enterprises to accelerate business processes by 30-50% in areas including finance, procurement, customer operations, and IT support.",
-          "source_count": 6,
+          "source_count": 5,
           "bottom_line": "",
           "sources": [
             {
@@ -823,7 +607,7 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "Agentic AI systems can significantly enhance an organisation\u2019s competitive edge by automating complex workflows, reducing operational costs, and improving decision -making processes."
@@ -849,15 +633,6 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-049",
-              "title": "Building the AI-Powered Business: 2024 Cloud and AI Business Survey",
-              "author": "PwC",
-              "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-              "quotes": [
-                "AI is transforming software development lifecycles and IT operations. Sixty-five percent of Top Performers holistically adopted AI in IT functions, compared with 28% of other companies. Efficiency gains in software development reach 30%, with enhanced quality and faster time-to-market benefits."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-055",
               "title": "Agentic AI architecture 101: An enterprise guide",
               "author": "akka.io",
@@ -872,7 +647,7 @@
         {
           "id": "ea-for-ai:cc-011",
           "statement": "AI deployments demonstrate measurable cost reductions and efficiency gains across industries, with documented ROI figures including 15-35% cost reductions, 20-75% efficiency improvements, and up to 276% ROI.",
-          "source_count": 6,
+          "source_count": 3,
           "bottom_line": "",
           "sources": [
             {
@@ -885,18 +660,9 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-007",
-              "title": "Checking your browser...",
-              "author": "cdotimes.com",
-              "url": "https://cdotimes.com/2025/02/28/ai-automation-in-enterprise-architecture-the-future-of-digital-business-optimization/",
-              "quotes": [
-                "In manufacturing, AI reduces unplanned downtime through predictive maintenance and improves quality control via computer vision. 64% of companies report cost reductions in manufacturing from AI initiatives."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "\u25cfAI Models: Regression and Convolutional Neural Networks (CNNs) models \u25cfFrameworks: NVIDIA Clara \u25cfTools: Scikit-learn, PyTorch, Medical Imaging Data \u25cfEfficiency gains: Reduced diagnostic times by 30% \u25cfCost reduction: Lowered unnecessary procedures by 15% \u25cfImproved diagnostic accuracy \u25cfEnhanced patie",
@@ -910,25 +676,7 @@
               "author": "BCG Platinion",
               "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
               "quotes": [
-                "BCG benchmarks show that AI can increase the efficiency of development by up to 50%, and potentially even more in the future depending on the use case."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-039",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
-              "quotes": [
-                "AI leaders have progressed from experimental pilots to profitable scaling, achieving 10-25% EBITDA gains. The next phase centers on agentic AI."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-049",
-              "title": "Building the AI-Powered Business: 2024 Cloud and AI Business Survey",
-              "author": "PwC",
-              "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-              "quotes": [
-                "40% cite increased productivity gains"
+                "BCG benchmarks show that AI can increase the efficiency of development by up to 50%, and potentially even more in the future depending on the use case. With AI-enabled efficiency increases in mind, what will the future role of the architect look like?"
               ]
             }
           ],
@@ -937,7 +685,7 @@
         {
           "id": "ea-for-ai:cc-036",
           "statement": "AI initiatives must align with business strategy and goals, with EA providing the strategic governance layer that ensures alignment, accountability, and agility across the organization.",
-          "source_count": 10,
+          "source_count": 6,
           "bottom_line": "",
           "sources": [
             {
@@ -968,36 +716,9 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-018",
-              "title": "The Open Group EA Practitioners Conference: Highlights from London 2026",
-              "author": "The Open Group",
-              "url": "https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/",
-              "quotes": [
-                "It demonstrates that transformation succeeds only when strategic intent is translated into executable Enterprise Architecture, guided by sustainability principles, and accelerated by AI."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-026",
-              "title": "How Enterprise Architecture Enables AI Sovereignty",
-              "author": "MR Consultancy Services",
-              "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
-              "quotes": [
-                "A Phased EA Playbook (Alfabet\u2011First, Tool\u2011Agnostic in Spirit)"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-030",
-              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
-              "author": "Gartner",
-              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
-              "quotes": [
-                "EA teams must architect the future with AI reference models and value stream mapping, while orchestrating modernization through AI governance, platform engineering, and composite applications"
-              ]
-            },
-            {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "Let's explore how to effectively integrate these principles into your AI roadmap: \u25cfDefine clear objectives: What do you aim to achieve \u2013 cost reduction, revenue growth, customer satisfaction, or building an economic moat? \u25cfAlign AI initiatives with business goals: Ensure that AI projects are underpi"
@@ -1020,15 +741,6 @@
               "quotes": [
                 "To thrive amid this constant change, technology leaders must coordinate investment priorities across the enterprise, build clarity around strategic decision making, create a culture that can leverage the best of tech, and ensure the foundations of data and resilience are spot on."
               ]
-            },
-            {
-              "id": "ea-for-ai:source-049",
-              "title": "Building the AI-Powered Business: 2024 Cloud and AI Business Survey",
-              "author": "PwC",
-              "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-              "quotes": [
-                "About two-thirds (67%) maintain formalized AI strategies with implementation tracking, versus 37% of other companies."
-              ]
             }
           ],
           "baseline_category": ""
@@ -1036,7 +748,7 @@
         {
           "id": "ea-for-ai:cc-043",
           "statement": "Generative AI is a catalyst for reimagining business processes and services across the entire value chain, not merely an incremental improvement to existing workflows.",
-          "source_count": 5,
+          "source_count": 4,
           "bottom_line": "",
           "sources": [
             {
@@ -1051,7 +763,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "This use case was the catalyst for us to understand the power of AI and the ways it could transform our business; it got the creative juices flowing across the organisation to think about leveraging the technology to drive even more value.\u201d Cost control is a valid goal too."
@@ -1064,15 +776,6 @@
               "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
               "quotes": [
                 "In the IT architecture of the Agentic Enterprise, the AI/ML layer will be a first-class, centralized set of services that power many applications and agents, supporting the entire model lifecycle from development to real-time serving at scale."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-044",
-              "title": "Inside the process: how EY navigated its own AI",
-              "author": "EY",
-              "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
-              "quotes": [
-                "The functional transformation strategically mapped AI use cases against business goals\u00a0and our entire value chain, reimagining workflows and operations around AI."
               ]
             },
             {
@@ -1099,13 +802,13 @@
         {
           "id": "ea-for-ai:cc-012",
           "statement": "Agentic AI systems are autonomous agents capable of reasoning, planning, and executing multi-step tasks, representing a shift from AI as an embedded tool to AI as a first-class architectural component.",
-          "source_count": 8,
+          "source_count": 6,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-002",
               "title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
-              "author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+              "author": "24549848",
               "url": "",
               "quotes": [
                 "Such systems are capable of autonomously performing reasoning, planning, and executing actions in real time."
@@ -1114,7 +817,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "\u2018Agentic AI\u2019\u2014artificial agents with a natural language interface that can plan and execute sequences of actions on behalf of a user\u2014will become an increasingly common feature of daily life, surpassing text-to-speech applications like Alexa and Siri in scope and smarts."
@@ -1141,28 +844,10 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "Autonomy: Agentic AI systems can operate independently, making decisions based on their programming, learning, and environmental inputs."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-037",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
-              "quotes": [
-                "Agentic AI represents a fundamental shift in enterprise technology. Unlike previous automation waves, these agents can reason, collaborate, and coordinate actions across complex, multistep workflows."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-039",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
-              "quotes": [
-                "Four levels of agentic AI development: Level 1 \u2014 LLM-powered information retrieval agents."
               ]
             },
             {
@@ -1180,7 +865,7 @@
         {
           "id": "ea-for-ai:cc-013",
           "statement": "Enterprise architectures are shifting toward AI-first and agentic paradigms where operations are adaptive, autonomous systems drive business outcomes, and intelligence is embedded directly into workflows.",
-          "source_count": 6,
+          "source_count": 4,
           "bottom_line": "",
           "sources": [
             {
@@ -1190,24 +875,6 @@
               "url": "",
               "quotes": [
                 "In effect, generative AI is helping to usher in \u201cAI-first\u201d architectures, enabling enterprises to transform their operations and competitive strategies for the digital age."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-013",
-              "title": "Enterprise AI Convergence Architecture",
-              "author": "Deloitte",
-              "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/enterprise-ai-convergence-architecture.html",
-              "quotes": [
-                "AI convergence architecture unifies data, artificial intelligence, and operations, enabling real-time insights and actions across the enterprise, and helps turn advanced technology into tangible, transformative results."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-018",
-              "title": "The Open Group EA Practitioners Conference: Highlights from London 2026",
-              "author": "The Open Group",
-              "url": "https://blog.opengroup.org/2026/02/10/the-open-group-enterprise-architecture-practitioners-conference-highlights-from-a-landmark-gathering-london-february-2-4-2026/",
-              "quotes": [
-                "He also proved its power through a \u201chardest-first\u201d stress test, showing how a \u201cZero Risk\u201d mandate generates a rigorous hybrid design and reveals a core truth: agency is not monolithic."
               ]
             },
             {
@@ -1244,7 +911,7 @@
         {
           "id": "ea-for-ai:cc-014",
           "statement": "Agentic AI becomes a foundational layer in enterprise architecture, with organizations shifting from isolated AI experiments to embedding autonomous agents and LLM-driven reasoning at the core of business systems.",
-          "source_count": 5,
+          "source_count": 3,
           "bottom_line": "",
           "sources": [
             {
@@ -1273,24 +940,6 @@
               "quotes": [
                 "The paper identifies TOGAF\u2019s limitations in this area and calls for usage of capabilities (reference models) where AI components aligned to strategic goals will serve best. EA must ensure that AI platforms are not isolated from the business layer and strategic intent."
               ]
-            },
-            {
-              "id": "ea-for-ai:source-014",
-              "title": "The great rebuild: Architecting an AI",
-              "author": "Deloitte Insights",
-              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
-              "quotes": [
-                "AI is fundamentally restructuring technology organizations, shifting from incremental change to organizational redesign. 78% of tech leaders anticipate broad AI agent integration into architecture workflows within five years."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-030",
-              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
-              "author": "Gartner",
-              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
-              "quotes": [
-                "Gartner predicts 40% of enterprise applications will integrate task-specific AI agents by end of 2026, up from less than 5% in 2025"
-              ]
             }
           ],
           "baseline_category": ""
@@ -1298,7 +947,7 @@
         {
           "id": "ea-for-ai:cc-049",
           "statement": "Enterprise agentic AI systems require a layered architecture with distinct components for the experience layer, orchestration, AI/ML models, data, integration, security, and governance.",
-          "source_count": 3,
+          "source_count": 1,
           "bottom_line": "",
           "sources": [
             {
@@ -1310,24 +959,6 @@
                 "What\u2019s different vs today: AI will augment traditional GUI-based interfaces with natural language processing, contextual awareness, and proactive decision support.",
                 "To deliver value and build user confidence, the Experience Layer must incorporate an Attribution & Transparency UI , which makes agent responses explainable by showing citations and the sources of its information."
               ]
-            },
-            {
-              "id": "ea-for-ai:source-021",
-              "title": "The PBSAI Governance Ecosystem: A Multi",
-              "author": "arXiv.org",
-              "url": "https://arxiv.org/abs/2602.11301",
-              "quotes": [
-                "Abstract: Enterprises are rapidly deploying large language models, retrieval augmented generation pipelines, and tool using agents into production, often on shared high performance computing clusters and cloud accelerator platforms that also support defensive analytics. These systems increasingly fu"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-057",
-              "title": "This Is REAL Agentic AI (Enterprise Architecture Explained)",
-              "author": "Manifold AI Learning",
-              "url": "https://www.youtube.com/watch?v=ALr8bjRu3W4",
-              "quotes": [
-                "Now what I've shown you right now is I've shown you the complete enterprise architecture that is what and why."
-              ]
             }
           ],
           "baseline_category": ""
@@ -1335,30 +966,9 @@
         {
           "id": "ea-for-ai:cc-058",
           "statement": "Enterprise AI systems must be architecturally disciplined with proper API boundaries, RBAC enforcement, rate limiting, and PII detection; AI without these boundaries is characterized as a disaster.",
-          "source_count": 2,
+          "source_count": 0,
           "bottom_line": "",
-          "sources": [
-            {
-              "id": "ea-for-ai:source-038",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
-              "quotes": [
-                "AI models must be treated with the same discipline as software code, requiring MLOps processes that manage models throughout their lifecycle using DevOps principles. Companies can't scale their AI solutions without also reshaping their technology function."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-057",
-              "title": "This Is REAL Agentic AI (Enterprise Architecture Explained)",
-              "author": "Manifold AI Learning",
-              "url": "https://www.youtube.com/watch?v=ALr8bjRu3W4",
-              "quotes": [
-                "So what this fast API does over here is it's going to take care of the authentication request validation logging role based access",
-                "And AI without the API boundaries is actually a disaster.",
-                "But remember in the enterprise setting we don't want speed we want safety we want accountability of the system that is being built remember that's the reason that you have all these things and if your agenti cannot detect PII if it cannot throttle the abuse with the help of rate limiter if it cannot"
-              ]
-            }
-          ],
+          "sources": [],
           "baseline_category": ""
         }
       ]
@@ -1373,7 +983,7 @@
         {
           "id": "ea-for-ai:cc-015",
           "statement": "Integrating diverse data sources is foundational for agentic AI, requiring enterprises to fuse structured, unstructured, and real-time data through AI-powered data fabrics that enable autonomous agent behavior.",
-          "source_count": 7,
+          "source_count": 5,
           "bottom_line": "",
           "sources": [
             {
@@ -1414,24 +1024,6 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-026",
-              "title": "How Enterprise Architecture Enables AI Sovereignty",
-              "author": "MR Consultancy Services",
-              "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
-              "quotes": [
-                "Outcome : End\u2011to\u2011end traceability from source \u2192 transformation \u2192 features \u2192 models \u2192 reports/APIs ; prevent go\u2011live if lineage/DQ is incomplete. [ cognativ.com ] , [togaf.visu\u2026radigm.com]"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-037",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
-              "quotes": [
-                "(4) Scale data access \u2014 most organizations lack ingestion pipelines for unstructured data essential for agentic reasoning."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-048",
               "title": "Is your infrastructure ready for your AI aspirations?",
               "author": "KPMG",
@@ -1452,7 +1044,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "A key finding from this report is that companies overwhelmingly want to integrate generative AI models with their own data.",
@@ -1475,13 +1067,13 @@
         {
           "id": "ea-for-ai:cc-017",
           "statement": "A modern data foundation is a prerequisite for extracting value from AI, requiring high-quality data, proper governance, and infrastructure that supports real-time processing and diverse data types.",
-          "source_count": 8,
+          "source_count": 5,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "This will stress the rigid data storage systems of yesteryear, which cannot manage the diversity of data, real-time usage and wider utilisation in this more democratised era."
@@ -1506,30 +1098,12 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-026",
-              "title": "How Enterprise Architecture Enables AI Sovereignty",
-              "author": "MR Consultancy Services",
-              "url": "https://www.mrcs.cloud/post/how-enterprise-architecture-enables-ai-sovereignty-with-governance-at-the-core",
-              "quotes": [
-                "Design : Record AI principles (AIGE + internal) as Policies ; map to Controls and Business Questions to be answered by every AI initiative; assign RACI to Roles (e.g., Model Owner, Data Steward, Responsible AI Officer)."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "\u25cfInvest in quality data: High-quality data is the backbone of effective AI solutions. Invest in data cleaning, integration, and management processes to ensure your AI systems have accurate and reliable data to work with."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-038",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
-              "quotes": [
-                "Organizations need strengthened data platforms handling unstructured datasets with the same rigor as structured data, supported by shared catalogs, versioning, and data lineage tracking."
               ]
             },
             {
@@ -1539,15 +1113,6 @@
               "url": "https://kpmg.com/us/en/articles/2025/infrastructure-ready-ai-aspirations.html",
               "quotes": [
                 "A recent Cisco report highlights significant infrastructure bottlenecks as organizations strive to integrate AI technologies, revealing that only 14% of companies are \"fully prepared\" for AI adoption due to deficiencies in six key business areas: strategy, infrastructure, data, governance, talent, a"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-049",
-              "title": "Building the AI-Powered Business: 2024 Cloud and AI Business Survey",
-              "author": "PwC",
-              "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-              "quotes": [
-                "Data accessibility drives GenAI success."
               ]
             }
           ],
@@ -1565,7 +1130,7 @@
         {
           "id": "ea-for-ai:cc-018",
           "statement": "Deploying AI models at enterprise scale presents substantial challenges in scalability, performance, and infrastructure readiness, with 23% of companies reporting limited scalability and 30% experiencing network latency issues.",
-          "source_count": 5,
+          "source_count": 4,
           "bottom_line": "",
           "sources": [
             {
@@ -1596,15 +1161,6 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-039",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
-              "quotes": [
-                "Critical barriers include managing agents across data silos, establishing communication standards, addressing security and IP concerns, and navigating vendor lock-in risks. Human work happens across multiple systems with informal processes complicating full automation."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-048",
               "title": "Is your infrastructure ready for your AI aspirations?",
               "author": "KPMG",
@@ -1619,13 +1175,13 @@
         {
           "id": "ea-for-ai:cc-019",
           "statement": "The majority of GenAI projects fail to move past the pilot stage, with approximately 7 out of 10 never reaching production, and only 37% of executives believing their GenAI applications are production-ready.",
-          "source_count": 3,
+          "source_count": 2,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Despite the momentum, only one in five believe that their current investment across technical and non-technical domains is sufficient.",
@@ -1638,16 +1194,7 @@
               "author": "C4: Container, Code, Cloud & Context",
               "url": "https://www.dataa.dev/2026/01/01/from-ai-pilots-to-production-reality-architecture-lessons-from-2025-and-what-2026-demands/",
               "quotes": [
-                "In 2025, organizations discovered an uncomfortable truth: approximately 7 out of 10 GenAI projects never made it past the pilot stage . The initial euphoria of ChatGPT-like demos quickly gave way to the brutal realities of enterprise deployment:"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-050",
-              "title": "PwC\u2019s 2025 EMEA Cloud Business Survey",
-              "author": "PricewaterhouseCoopers",
-              "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-              "quotes": [
-                "Only 29% are actively scaling agentic AI implementations."
+                "CRITICAL FINDING: The 70% Failure Rate In 2025, organizations discovered an uncomfortable truth: approximately 7 out of 10 GenAI projects never made it past the pilot stage . The initial euphoria of ChatGPT-like demos quickly gave way to the brutal realities of enterprise deployment:"
               ]
             }
           ],
@@ -1672,7 +1219,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Architects are charged with the design, implementation, and oversight of a scalable and secure data and AI architecture, requiring a deep understanding of current and emerging technologies."
@@ -1702,7 +1249,7 @@
         {
           "id": "ea-for-ai:cc-051",
           "statement": "AI implementations impact most business areas and require coordinated delivery across multiple units and all technological layers, with a holistic view of the organization needed for meaningful outcomes.",
-          "source_count": 3,
+          "source_count": 2,
           "bottom_line": "",
           "sources": [
             {
@@ -1716,18 +1263,9 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-038",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
-              "quotes": [
-                "Organizations must pursue an \"AI everywhere\" approach to reshape their technology stack, integrating ML and generative AI across the entire enterprise."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-056",
               "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
-              "author": "Erik Bakstad (Ardoq)",
+              "author": "",
               "url": "",
               "quotes": [
                 "Multiple systems (CRM, Mobile App, Web Portal) are already in place; the current roadmap has two more projects. Well-invested, but ensure projects are coordinated to avoid duplication."
@@ -1901,7 +1439,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "This approach\u2014agent systems leveraging specialised models\u2014allows companies to build solutions tailored to their particular needs and domains, leveraging their proprietary data as a powerful competitive advantage.",
@@ -1921,7 +1459,7 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "Moreover, organisations who adopt an agentic AI system can gain a competitive advantage by leveraging its capabilities to innovate and enhance their business operations."
@@ -1933,13 +1471,13 @@
         {
           "id": "ea-for-ai:cc-024",
           "statement": "The window for competitive advantage through AI adoption is closing, with winners defined by who graduates from experiments to implementation at scale and monetization.",
-          "source_count": 4,
+          "source_count": 3,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Executives agree that in the years ahead, winners will be those that graduate from experiments to production, scaling and monetisation."
@@ -1952,15 +1490,6 @@
               "url": "https://www.cloudera.com/blog/business/2026-predictions-the-architecture-governance-and-ai-trends-every-enterprise-must-prepare-for.html",
               "quotes": [
                 "2026 is about scaling what works."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-039",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/state-of-the-art-of-agentic-ai-transformation-technology-report-2025/",
-              "quotes": [
-                "Rather than pursuing idealized architectural visions, organizations should adopt flexible, domain-specific solutions with human-in-the-loop oversight. Walled gardens will likely dominate before open standards emerge. Competitive risk intensifies as leaders extend their advantages."
               ]
             },
             {
@@ -1978,7 +1507,7 @@
         {
           "id": "ea-for-ai:cc-055",
           "statement": "Adopting agentic AI is a strategic imperative, not merely an option, with organizations that fail to integrate it risking competitive disadvantage in an increasingly AI-driven world.",
-          "source_count": 3,
+          "source_count": 2,
           "bottom_line": "",
           "sources": [
             {
@@ -1993,20 +1522,11 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "The central question isn\u2019t whether to adopt this technology, but how swiftly organisations can integrate it to stay ahead of the competition.",
                 "For C- suite executives and senior leaders, embracing agentic AI is not just an option but a strategic imperative to stay ahead in an increasingly competitive and AI-driven world."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-050",
-              "title": "PwC\u2019s 2025 EMEA Cloud Business Survey",
-              "author": "PricewaterhouseCoopers",
-              "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-              "quotes": [
-                "82% of organizations are refining cloud strategies in response to geopolitical and regulatory changes. 94% plan to adjust and expand cloud architecture, driven by scalability, flexibility, and sovereignty concerns. 86% identify agentic AI capabilities as decisive for provider selection."
               ]
             }
           ],
@@ -2024,7 +1544,7 @@
         {
           "id": "ea-for-ai:cc-025",
           "statement": "AI investment is a top priority, with 73% of companies prioritizing AI above all other digital investments, 70% viewing AI as crucial to long-term strategic goals, and only 18% considering it overhyped.",
-          "source_count": 8,
+          "source_count": 4,
           "bottom_line": "",
           "sources": [
             {
@@ -2039,29 +1559,11 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Seven in ten see AI as crucial to their long-term strategic goals, and only 18% say it is overhyped.",
                 "While AI has been through its share of winters, our survey finds respondents are overwhelmingly optimistic, with 73% saying GenAI is critical to their long-term strategic goals."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-014",
-              "title": "The great rebuild: Architecting an AI",
-              "author": "Deloitte Insights",
-              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
-              "quotes": [
-                "Tech budgets allocated to AI are expected to rise from 8% to 13% over two years, moving AI from experimentation to core strategy."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-030",
-              "title": "3 Trends Driving Enterprise Architecture Strategy in 2025",
-              "author": "Gartner",
-              "url": "https://www.gartner.com/en/articles/2025-trends-for-enterprise-architecture",
-              "quotes": [
-                "More than 80% of CEOs expect AI to contribute to top-line growth in 2025, but only 3% of CIOs expect the same \u2014 CIOs anticipate AI's primary value from productivity gains, revealing a critical expectation gap"
               ]
             },
             {
@@ -2074,30 +1576,12 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-037",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
-              "quotes": [
-                "Over 3-5 years, 5-10% of technology spending could fund foundational capabilities. Long-term, up to 50% of technology budgets may support agents across the enterprise."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-041",
               "title": "The multi",
               "author": "Capgemini",
               "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
               "quotes": [
                 "AI is now everywhere: More than half of organizations are prioritizing\u00a0AI investments in sales, marketing,\u00a0and\u00a0IT operations. Gen AI has crossed the threshold from pilots to scaled use, with 38%\u00a0already\u00a0operationalizing use cases. Agentic AI and edge AI are gaining traction, signaling a broader spec"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-049",
-              "title": "Building the AI-Powered Business: 2024 Cloud and AI Business Survey",
-              "author": "PwC",
-              "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-              "quotes": [
-                "A critical distinction: 72% of Top Performers achieved \"all-in cloud adoption\" for data modernization compared to 33% of other companies."
               ]
             }
           ],
@@ -2112,7 +1596,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "In line with this, functions with high automation potential have been heavily testing GenAI, such as IT (91%), marketing (85%), sales and customer service (83%), and operations (80%), while 82% of data scientists report using AI for coding.",
@@ -2152,18 +1636,9 @@
         {
           "id": "ea-for-ai:cc-027",
           "statement": "Organizations are beginning to experiment with AI and low-hanging use cases before scaling, with most entities starting with preparatory and experimental phases of AI maturity.",
-          "source_count": 6,
+          "source_count": 5,
           "bottom_line": "",
           "sources": [
-            {
-              "id": "ea-for-ai:source-014",
-              "title": "The great rebuild: Architecting an AI",
-              "author": "Deloitte Insights",
-              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
-              "quotes": [
-                "Two-thirds of organizations are piloting or deploying AI agents."
-              ]
-            },
             {
               "id": "ea-for-ai:source-019",
               "title": "Building Enterprise AI Maturity",
@@ -2185,7 +1660,7 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "Most entities are expected to begin by experimenting with low hanging use cases."
@@ -2203,7 +1678,7 @@
             {
               "id": "ea-for-ai:source-056",
               "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
-              "author": "Erik Bakstad (Ardoq)",
+              "author": "",
               "url": "",
               "quotes": [
                 "The future of EA is intelligent, connected, and conversational. My hope is that this guide will help you take the first steps toward that future and inspire you to keep experimenting, refining, and sharing your own breakthroughs."
@@ -2221,7 +1696,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "However, simply making AI available is not enough."
@@ -2239,7 +1714,7 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "However, realising its full potential requires greater commitment and adoption across both government and industry."
@@ -2279,7 +1754,7 @@
               "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
               "quotes": [
                 "The adaptive and dynamic nature of AI agents creates a strong need for novel orchestration capabilities to ensure enterprise-level control, comprehensive visibility, and consistent alignment with enterprise-wide strategic objectives, particularly in managing complex, lengthy, and multi-step workflow",
-                "Technology investments are thematically focused on orchestrating processes at an enterprise scale across humans, agents, and deterministic systems."
+                "Key Technology Investments (Figure 6): Technology investments are thematically focused on orchestrating processes at an enterprise scale across humans, agents, and deterministic systems."
               ]
             },
             {
@@ -2321,7 +1796,7 @@
             {
               "id": "ea-for-ai:source-002",
               "title": "Business Architecture Copilot: Agentic AI-enabled Business Capability Modelling",
-              "author": "Eesha Oaj, Asif Gill, Madhushi Bandara, Terry Roach",
+              "author": "24549848",
               "url": "",
               "quotes": [
                 "This fusion enables autonomous decision-making, contextual awareness, and the ability to execute complex, multi-step tasks with minimal human input."
@@ -2340,7 +1815,7 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "In this transformation, agentic AI systems will take the lead role with humans as co-pilots, optimising speed, accuracy, contextual coherence, and cost-efficiency."
@@ -2352,7 +1827,7 @@
         {
           "id": "ea-for-ai:cc-056",
           "statement": "Standards like the Model Context Protocol (MCP) will become more common, enabling agents to securely discover tools and trigger actions while bridging AI models to internal enterprise APIs and events.",
-          "source_count": 3,
+          "source_count": 2,
           "bottom_line": "",
           "sources": [
             {
@@ -2365,18 +1840,9 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-037",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/building-the-foundation-for-agentic-ai-technology-report-2025/",
-              "quotes": [
-                "(2) Ensure interoperability via standards like MCP to prevent silos."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-056",
               "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
-              "author": "Erik Bakstad (Ardoq)",
+              "author": "",
               "url": "",
               "quotes": [
                 "Ardoq\u2019s Model Context Protocol (MCP) integration does this automatically by giving the AI your architecture data so it can reason with facts, not guesses. \u201cBased on this, evaluate the new design.\u201d Building an AI-Enabled EA Practice Applying AI at the individual level can accelerate insight and impac",
@@ -2413,7 +1879,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "However, off-the-shelf models, unconnected to enterprise data, are still common: almost half (45%) of data scientists are using large language models (LLMs) without retrieval augmented generation (RAG)."
@@ -2486,7 +1952,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Natural language processing (NLP) is at the forefront of this trend, with 58% of architects believing it will become the primary (or only) tool in data pipeline creation."
@@ -2522,7 +1988,7 @@
             {
               "id": "ea-for-ai:source-056",
               "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
-              "author": "Erik Bakstad (Ardoq)",
+              "author": "",
               "url": "",
               "quotes": [
                 "Whether you're streamlining stakeholder communication, accelerating roadmap planning, or extracting insight from technical documents, prompt engineering is a powerful new tool in the EA toolkit.",
@@ -2536,26 +2002,17 @@
         {
           "id": "ea-for-ai:cc-034",
           "statement": "AI talent is in high demand, with only one in six firms confident in attracting needed expertise; organizations require specialists including data scientists, developers, MLOps experts, and enterprise AI architects.",
-          "source_count": 3,
+          "source_count": 2,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Only one in six firms are confident in their ability to attract the expertise needed to take full advantage of AI technologies. Those who succeed are deploying AI at a much faster rate.",
                 "Doing more with the number of people we have is the best outcome.\u201d As mass AI adoption takes hold, there will be more demand for specialised roles like data scientists, developers and MLOps experts."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-014",
-              "title": "The great rebuild: Architecting an AI",
-              "author": "Deloitte Insights",
-              "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
-              "quotes": [
-                "Nearly 70% of tech leaders plan team growth in response to generative AI, showing specialization and augmentation rather than job elimination."
               ]
             },
             {
@@ -2573,13 +2030,13 @@
         {
           "id": "ea-for-ai:cc-042",
           "statement": "Successful AI transformation requires managing the human change dimension including workforce impact, user adoption, organizational reshaping, and the development of human-AI chemistry as a core capability.",
-          "source_count": 9,
+          "source_count": 6,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "with employees in the design and deployment of AI systems is critical to secure buy-in and adoption."
@@ -2613,15 +2070,6 @@
               ]
             },
             {
-              "id": "ea-for-ai:source-038",
-              "title": "Just a moment...",
-              "author": "Bain",
-              "url": "https://www.bain.com/insights/updating-enterprise-technology-to-scale-to-ai-everywhere-tech-report-2024/",
-              "quotes": [
-                "AI models must be treated with the same discipline as software code, requiring MLOps processes that manage models throughout their lifecycle using DevOps principles. Companies can't scale their AI solutions without also reshaping their technology function."
-              ]
-            },
-            {
               "id": "ea-for-ai:source-040",
               "title": "Top Tech Trends of 2026",
               "author": "Capgemini",
@@ -2637,24 +2085,6 @@
               "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
               "quotes": [
                 "Build human\u2013AI\u00a0chemistry as a core organizational capability"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-044",
-              "title": "Inside the process: how EY navigated its own AI",
-              "author": "EY",
-              "url": "https://www.ey.com/en_id/insights/ai/case-study-how-ey-transformed-with-ai",
-              "quotes": [
-                "EY set ambitious goals to drive AI transformation across three key areas:"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-054",
-              "title": "AI giants are rewriting the enterprise playbook",
-              "author": "PricewaterhouseCoopers",
-              "url": "https://www.pwc.ch/en/insights/digital/ai-enterprise-playbook.html",
-              "quotes": [
-                "Companies face a strategic choice: establish robust governance frameworks while supporting innovation, or risk losing control over data security, compliance, and operational consistency. Success requires delivering enterprise-grade AI tools that balance employee empowerment with proper oversight."
               ]
             }
           ],
@@ -2688,7 +2118,7 @@
             {
               "id": "ea-for-ai:source-031",
               "title": "Agentic AI \u2014 the new frontier in GenAI: An executive playbook",
-              "author": "PwC",
+              "author": "Deloitte",
               "url": "",
               "quotes": [
                 "By leveraging the service-as-a-software model, businesses can automate both routine and highly specialised tasks that were once time-consuming, required skilled professionals, and typically involved expensive software licences or cloud solutions."
@@ -2700,13 +2130,13 @@
         {
           "id": "ea-for-ai:cc-041",
           "statement": "Cloud infrastructure is becoming the operational backbone for AI, with organizations moving toward hybrid, private, multi-cloud, and sovereign models driven by data sensitivity, latency, and regulatory requirements.",
-          "source_count": 6,
+          "source_count": 4,
           "bottom_line": "",
           "sources": [
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "GenAI can pose an infrastructure pressure for some because of the demands of new use cases, with their corresponding unique tooling requirements."
@@ -2739,24 +2169,6 @@
               "quotes": [
                 "Your business may be ready, but can your IT infrastructure handle the extra demands of AI?"
               ]
-            },
-            {
-              "id": "ea-for-ai:source-049",
-              "title": "Building the AI-Powered Business: 2024 Cloud and AI Business Survey",
-              "author": "PwC",
-              "url": "https://www.pwc.com/us/en/tech-effect/cloud/cloud-ai-business-survey.html",
-              "quotes": [
-                "Ninety-two percent of Top Performers anticipate increased cloud budgets, with 63% planning increases exceeding 6% \u2014 substantially above inflation rates. GenAI capability access remains the dominant budget driver."
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-050",
-              "title": "PwC\u2019s 2025 EMEA Cloud Business Survey",
-              "author": "PricewaterhouseCoopers",
-              "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-              "quotes": [
-                "82% of organizations are refining cloud strategies in response to geopolitical and regulatory changes. 94% plan to adjust and expand cloud architecture, driven by scalability, flexibility, and sovereignty concerns. 86% identify agentic AI capabilities as decisive for provider selection."
-              ]
             }
           ],
           "baseline_category": ""
@@ -2770,7 +2182,7 @@
             {
               "id": "ea-for-ai:source-003",
               "title": "Unlocking Enterprise AI: Opportunities and Strategies",
-              "author": "Economist Impact (commissioned by Databricks)",
+              "author": "Economist Impact",
               "url": "",
               "quotes": [
                 "Organisations are exploring a variety of models, and nearly seven out of ten are experimenting with or have fully deployed open-source GenAI, with 96% believing they will do so by 2027.",
@@ -2783,7 +2195,7 @@
         {
           "id": "ea-for-ai:cc-062",
           "statement": "Managing cloud costs remains a challenge, with FinOps practices needed to achieve transparency, optimize costs, and align cloud spending with business needs.",
-          "source_count": 3,
+          "source_count": 2,
           "bottom_line": "",
           "sources": [
             {
@@ -2793,15 +2205,6 @@
               "url": "https://www.cio.com/article/4086719/the-enterprise-it-overhaul-architecting-your-stack-for-the-agentic-ai-era.html",
               "quotes": [
                 "opinion Edge vs. cloud TCO: The strategic tipping point for AI inference Dec 22, 2025 6 mins"
-              ]
-            },
-            {
-              "id": "ea-for-ai:source-050",
-              "title": "PwC\u2019s 2025 EMEA Cloud Business Survey",
-              "author": "PricewaterhouseCoopers",
-              "url": "https://www.pwc.com/gx/en/services/consulting/cloud-transformation/emea-cloud-survey-tech-leaders.html",
-              "quotes": [
-                "While FinOps adoption is accelerating, only 1 in 10 organizations have fully integrated advanced practices. Autonomous AI systems are transforming cloud from infrastructure into intelligent platforms, yet significant scaling gaps remain."
               ]
             },
             {
@@ -2899,7 +2302,7 @@
             {
               "id": "ea-for-ai:source-056",
               "title": "Prompt Engineering for Enterprise Architects: The Conversational AI Playbook",
-              "author": "Erik Bakstad (Ardoq)",
+              "author": "",
               "url": "",
               "quotes": [
                 "More EA tools will connect with AI, making it easier to use your data without extra prep."

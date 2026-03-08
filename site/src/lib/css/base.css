@@ -100,8 +100,11 @@ select, input[type="text"] {
 	border-radius: var(--radius-sm); background: var(--color-surface); color: var(--color-text);
 	outline: none; transition: border-color 0.15s, box-shadow 0.15s;
 }
+select {
+	padding-right: var(--space-6);
+}
 select:focus, input[type="text"]:focus {
-	border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(217, 119, 87, 0.12);
+	border-color: var(--color-text-tertiary); box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
 }
 
 ::selection { background: var(--color-primary-light); }
