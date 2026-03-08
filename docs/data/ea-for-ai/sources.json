@@ -52,7 +52,7 @@
     },
     {
       "id": "ea-for-ai:source-005",
-      "title": "| The Agentic Enterprise - The IT Architecture for the AI-Powered Future",
+      "title": "The Agentic Enterprise: The IT Architecture for the AI-Powered Future",
       "url": "https://architect.salesforce.com/fundamentals/agentic-enterprise-it-architecture",
       "author": "Salesforce Architects",
       "date": "",
@@ -100,7 +100,7 @@
     },
     {
       "id": "ea-for-ai:source-010",
-      "title": "TOGAF",
+      "title": "TOGAF Framework and AI Integration",
       "url": "https://ieeexplore.ieee.org/document/10285801/",
       "author": "ieeexplore.ieee.org",
       "date": "",
@@ -328,7 +328,7 @@
     },
     {
       "id": "ea-for-ai:source-032",
-      "title": "\ud83d\udcd6 Navigating AI Implementation: The Case for an Enterprise AI Architect | Insights",
+      "title": "Navigating AI Implementation: The Case for an Enterprise AI Architect",
       "url": "https://www.bcgplatinion.com/insights/enterprise-ai-architect",
       "author": "BCG Platinion",
       "date": "",
@@ -376,7 +376,7 @@
     },
     {
       "id": "ea-for-ai:source-036",
-      "title": "\ud83d\udcd6 Technology Architecture of Tomorrow   | Insights",
+      "title": "Technology Architecture of Tomorrow",
       "url": "https://www.bcgplatinion.com/insights/technology-architecture-of-tomorrow",
       "author": "BCG Platinion",
       "date": "",
@@ -400,7 +400,7 @@
     },
     {
       "id": "ea-for-ai:source-041",
-      "title": "The multi",
+      "title": "The Multi-Year AI Advantage: Building the Enterprise of Tomorrow",
       "url": "https://www.capgemini.com/insights/research-library/ai-perspectives-2026/",
       "author": "Capgemini",
       "date": "",
@@ -736,7 +736,7 @@
     },
     {
       "id": "ea-for-ai:source-073",
-      "title": "On",
+      "title": "On-Premise AI Architecture: Complete Enterprise Deployment Guide for 2026",
       "url": "https://blog.premai.io/on-premise-ai-architecture-complete-enterprise-deployment-guide-for-2026/",
       "author": "Prem AI",
       "date": "2026-02-28",
@@ -820,7 +820,7 @@
     },
     {
       "id": "ea-for-ai:source-080",
-      "title": "AI",
+      "title": "AI-Powered TOGAF ADM Software",
       "url": "https://updates.visual-paradigm.com/releases/ai-powered-togaf-guide-through-release/",
       "author": "Visual Paradigm Product Updates",
       "date": "",
@@ -868,7 +868,7 @@
     },
     {
       "id": "ea-for-ai:source-084",
-      "title": "| The Agentic Enterprise - The IT Architecture for the AI-Powered Future",
+      "title": "The Agentic Enterprise: The IT Architecture for the AI-Powered Future",
       "url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/agentic-enterprise-it-architecture",
       "author": "Salesforce Architects",
       "date": "",
@@ -928,7 +928,7 @@
     },
     {
       "id": "ea-for-ai:source-089",
-      "title": "| Enterprise Agentic Architecture and Design Patterns",
+      "title": "Enterprise Agentic Architecture and Design Patterns",
       "url": "https://architect.salesforce.com/fundamentals/enterprise-agentic-architecture",
       "author": "Salesforce Architects",
       "date": "",
@@ -940,7 +940,7 @@
     },
     {
       "id": "ea-for-ai:source-090",
-      "title": "AI",
+      "title": "AI-Powered Enterprise Architecture: Our Perspective",
       "url": "https://www.leanix.net/en/blog/ai-powered-enterprise-architecture",
       "author": "Neil Sheppard",
       "date": "2023-09-28",
@@ -1083,18 +1083,6 @@
       "finding_count": 0
     },
     {
-      "id": "ea-for-ai:source-102",
-      "title": "Bevor Sie zu YouTube weitergehen",
-      "url": "https://www.youtube.com/watch?v=hvjz12_AmBw",
-      "author": "youtube.com",
-      "date": "",
-      "type": "web",
-      "status": "extracted",
-      "extract_count": 34,
-      "claim_count": 0,
-      "finding_count": 0
-    },
-    {
       "id": "ea-for-ai:source-103",
       "title": "Moving from AI pilots to enterprise transformation with Box and Deloitte | Box AI",
       "url": "https://www.youtube.com/watch?v=wt20O8VkH44",
@@ -1230,6 +1218,18 @@
       "id": "ea-for-ai:source-057",
       "title": "This Is REAL Agentic AI (Enterprise Architecture Explained)",
       "url": "https://www.youtube.com/watch?v=ALr8bjRu3W4",
+      "author": "",
+      "date": "",
+      "type": "youtube",
+      "status": "discovered",
+      "extract_count": 0,
+      "claim_count": 0,
+      "finding_count": 0
+    },
+    {
+      "id": "ea-for-ai:source-102",
+      "title": "Building Cisco's AI-Driven Future | Enterprise Architecture & Strategy",
+      "url": "https://www.youtube.com/watch?v=hvjz12_AmBw",
       "author": "",
       "date": "",
       "type": "youtube",
